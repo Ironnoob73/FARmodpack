@@ -1,0 +1,155 @@
+[
+  {
+    "type": "palette",
+    "name": "extra",
+    "palette": [
+      {
+        "char": "O",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "^",
+        "block": "elevatorid:elevator_white",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_standard",
+    "palette": [
+      {
+        "char": "X",
+        "block": "minecraft:monster_egg@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "minecraft:double_stone_slab",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "blocks": [
+          {
+            "random": 9,
+            "block": "minecraft:stonebrick@2"
+          },
+          {
+            "random": 8,
+            "block": "minecraft:stonebrick@1"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:stonebrick"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "0",
+        "block": "chisel:laboratory@7",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "^",
+        "block": "elevatorid:elevator_gray",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_white",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:concrete_white1@7",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:concrete_white1@6",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "block": "chisel:concrete_white1@15",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "0",
+        "block": "chisel:laboratory@6",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "^",
+        "block": "elevatorid:elevator_white",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_gray",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:concrete_gray1@7",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:concrete_gray1@6",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "block": "chisel:concrete_gray1@15",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "0",
+        "block": "chisel:laboratory@8",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "^",
+        "block": "elevatorid:elevator_gray",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_silver",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:concrete_lightgray1@7",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:concrete_lightgray1@6",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "block": "chisel:concrete_lightgray1@15",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "0",
+        "block": "chisel:laboratory@7",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "^",
+        "block": "elevatorid:elevator_silver",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  }
+]

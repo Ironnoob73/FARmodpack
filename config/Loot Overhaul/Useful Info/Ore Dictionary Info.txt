@@ -249,124 +249,8 @@ bars
 minecraft:iron_bars - 0
 
 
-barsAdamant
-basemetals:adamantine_bars - 0
-
-
-barsAdamantine
-basemetals:adamantine_bars - 0
-
-
-barsAdamantite
-basemetals:adamantine_bars - 0
-
-
-barsAdamantium
-basemetals:adamantine_bars - 0
-
-
-barsAntimony
-basemetals:antimony_bars - 0
-
-
-barsAquarium
-basemetals:aquarium_bars - 0
-
-
-barsBismuth
-basemetals:bismuth_bars - 0
-
-
-barsBrass
-basemetals:brass_bars - 0
-
-
-barsBronze
-basemetals:bronze_bars - 0
-
-
-barsColdiron
-basemetals:coldiron_bars - 0
-
-
-barsCopper
-basemetals:copper_bars - 0
-
-
-barsCupronickel
-basemetals:cupronickel_bars - 0
-
-
-barsDiamond
-basemetals:diamond_bars - 0
-
-
-barsElectrum
-basemetals:electrum_bars - 0
-
-
-barsEmerald
-basemetals:emerald_bars - 0
-
-
-barsGold
-basemetals:gold_bars - 0
-
-
-barsInvar
-basemetals:invar_bars - 0
-
-
 barsIron
 minecraft:iron_bars - 0
-
-
-barsLead
-basemetals:lead_bars - 0
-
-
-barsMithril
-basemetals:mithril_bars - 0
-
-
-barsNickel
-basemetals:nickel_bars - 0
-
-
-barsObsidian
-basemetals:obsidian_bars - 0
-
-
-barsPewter
-basemetals:pewter_bars - 0
-
-
-barsPlatinum
-basemetals:platinum_bars - 0
-
-
-barsQuartz
-basemetals:quartz_bars - 0
-
-
-barsSilver
-basemetals:silver_bars - 0
-
-
-barsStarsteel
-basemetals:starsteel_bars - 0
-
-
-barsSteel
-basemetals:steel_bars - 0
-
-
-barsTin
-basemetals:tin_bars - 0
-
-
-barsZinc
-basemetals:zinc_bars - 0
 
 
 battery
@@ -3846,110 +3730,6 @@ bucketWater
 button
 
 
-buttonAdamantine
-basemetals:adamantine_button - 0
-
-
-buttonAntimony
-basemetals:antimony_button - 0
-
-
-buttonAquarium
-basemetals:aquarium_button - 0
-
-
-buttonBismuth
-basemetals:bismuth_button - 0
-
-
-buttonBrass
-basemetals:brass_button - 0
-
-
-buttonBronze
-basemetals:bronze_button - 0
-
-
-buttonColdiron
-basemetals:coldiron_button - 0
-
-
-buttonCopper
-basemetals:copper_button - 0
-
-
-buttonCupronickel
-basemetals:cupronickel_button - 0
-
-
-buttonDiamond
-basemetals:diamond_button - 0
-
-
-buttonElectrum
-basemetals:electrum_button - 0
-
-
-buttonEmerald
-basemetals:emerald_button - 0
-
-
-buttonGold
-basemetals:gold_button - 0
-
-
-buttonInvar
-basemetals:invar_button - 0
-
-
-buttonIron
-basemetals:iron_button - 0
-
-
-buttonLead
-basemetals:lead_button - 0
-
-
-buttonMithril
-basemetals:mithril_button - 0
-
-
-buttonNickel
-basemetals:nickel_button - 0
-
-
-buttonObsidian
-basemetals:obsidian_button - 0
-
-
-buttonPewter
-basemetals:pewter_button - 0
-
-
-buttonPlatinum
-basemetals:platinum_button - 0
-
-
-buttonQuartz
-basemetals:quartz_button - 0
-
-
-buttonSilver
-basemetals:silver_button - 0
-
-
-buttonStarsteel
-basemetals:starsteel_button - 0
-
-
-buttonSteel
-basemetals:steel_button - 0
-
-
-buttonTin
-basemetals:tin_button - 0
-
-
 buttonWood
 minecraft:wooden_button - 0
 quark:spruce_button - 0
@@ -3957,10 +3737,6 @@ quark:birch_button - 0
 quark:jungle_button - 0
 quark:acacia_button - 0
 quark:dark_oak_button - 0
-
-
-buttonZinc
-basemetals:zinc_button - 0
 
 
 carbon
@@ -5474,44 +5250,6 @@ minecraft:spruce_door - 0
 minecraft:dark_oak_door - 0
 minecraft:birch_door - 0
 minecraft:acacia_door - 0
-basemetals:diamond_door - 0
-basemetals:gold_door - 0
-basemetals:emerald_door - 0
-basemetals:obsidian_door - 0
-basemetals:quartz_door - 0
-basemetals:adamantine_door - 0
-basemetals:antimony_door - 0
-basemetals:aquarium_door - 0
-basemetals:bismuth_door - 0
-basemetals:brass_door - 0
-basemetals:bronze_door - 0
-basemetals:coldiron_door - 0
-basemetals:copper_door - 0
-basemetals:cupronickel_door - 0
-basemetals:electrum_door - 0
-basemetals:invar_door - 0
-basemetals:lead_door - 0
-basemetals:mithril_door - 0
-basemetals:nickel_door - 0
-basemetals:pewter_door - 0
-basemetals:platinum_door - 0
-basemetals:silver_door - 0
-basemetals:starsteel_door - 0
-basemetals:steel_door - 0
-basemetals:tin_door - 0
-basemetals:zinc_door - 0
-
-
-doorAdamant
-basemetals:adamantine_door - 0
-
-
-doorAdamantite
-basemetals:adamantine_door - 0
-
-
-doorAdamantium
-basemetals:adamantine_door - 0
 
 
 doorIron
@@ -7394,119 +7132,119 @@ mysticalagriculture:crafting - 4
 
 essenceTier1
 mysticalagriculture:zombie_essence - 0
-mysticalagriculture:stone_essence - 0
 mysticalagriculture:nature_essence - 0
-mysticalagriculture:ice_essence - 0
-mysticalagriculture:dirt_essence - 0
+mysticalagriculture:stone_essence - 0
 mysticalagriculture:wood_essence - 0
 mysticalagriculture:water_essence - 0
+mysticalagriculture:ice_essence - 0
+mysticalagriculture:dirt_essence - 0
 
 
 essenceTier2
+mysticalagriculture:sheep_essence - 0
+mysticalagriculture:cow_essence - 0
+mysticalagriculture:marble_essence - 0
+mysticalagriculture:basalt_essence - 0
+mysticalagriculture:slime_essence - 0
+mysticalagriculture:menril_essence - 0
+mysticalagriculture:pig_essence - 0
+mysticalagriculture:aluminum_essence - 0
 mysticalagriculture:nether_essence - 0
 mysticalagriculture:silicon_essence - 0
-mysticalagriculture:copper_essence - 0
-mysticalagriculture:chicken_essence - 0
-mysticalagriculture:marble_essence - 0
-mysticalagriculture:dye_essence - 0
-mysticalagriculture:cow_essence - 0
-mysticalagriculture:menril_essence - 0
-mysticalagriculture:slime_essence - 0
-mysticalagriculture:sheep_essence - 0
-mysticalagriculture:limestone_essence - 0
-mysticalagriculture:pig_essence - 0
 mysticalagriculture:fire_essence - 0
+mysticalagriculture:limestone_essence - 0
+mysticalagriculture:chicken_essence - 0
 mysticalagriculture:coal_essence - 0
-mysticalagriculture:basalt_essence - 0
 mysticalagriculture:sulfur_essence - 0
-mysticalagriculture:aluminum_essence - 0
+mysticalagriculture:dye_essence - 0
+mysticalagriculture:copper_essence - 0
 
 
 essenceTier3
-mysticalagriculture:brass_essence - 0
-mysticalagriculture:graphite_essence - 0
-mysticalagriculture:bronze_essence - 0
-mysticalagriculture:ironwood_essence - 0
-mysticalagriculture:obsidian_essence - 0
-mysticalagriculture:skeleton_essence - 0
-mysticalagriculture:nether_quartz_essence - 0
-mysticalagriculture:zinc_essence - 0
-mysticalagriculture:redstone_essence - 0
-mysticalagriculture:rabbit_essence - 0
-mysticalagriculture:iron_essence - 0
-mysticalagriculture:basalz_essence - 0
-mysticalagriculture:lead_essence - 0
-mysticalagriculture:guardian_essence - 0
-mysticalagriculture:black_quartz_essence - 0
-mysticalagriculture:glowstone_essence - 0
-mysticalagriculture:tin_essence - 0
-mysticalagriculture:ender_biotite_essence - 0
+mysticalagriculture:spider_essence - 0
 mysticalagriculture:steeleaf_essence - 0
+mysticalagriculture:redstone_essence - 0
+mysticalagriculture:obsidian_essence - 0
+mysticalagriculture:black_quartz_essence - 0
+mysticalagriculture:graphite_essence - 0
+mysticalagriculture:brass_essence - 0
+mysticalagriculture:blizz_essence - 0
+mysticalagriculture:nether_quartz_essence - 0
 mysticalagriculture:blitz_essence - 0
 mysticalagriculture:silver_essence - 0
-mysticalagriculture:quartz_enriched_iron_essence - 0
-mysticalagriculture:blizz_essence - 0
-mysticalagriculture:aquarium_essence - 0
-mysticalagriculture:cold_iron_essence - 0
-mysticalagriculture:spider_essence - 0
-mysticalagriculture:saltpeter_essence - 0
+mysticalagriculture:bronze_essence - 0
+mysticalagriculture:tin_essence - 0
+mysticalagriculture:ironwood_essence - 0
+mysticalagriculture:basalz_essence - 0
+mysticalagriculture:iron_essence - 0
+mysticalagriculture:lead_essence - 0
+mysticalagriculture:glowstone_essence - 0
+mysticalagriculture:skeleton_essence - 0
+mysticalagriculture:ender_biotite_essence - 0
 mysticalagriculture:creeper_essence - 0
+mysticalagriculture:zinc_essence - 0
+mysticalagriculture:quartz_enriched_iron_essence - 0
+mysticalagriculture:aquarium_essence - 0
+mysticalagriculture:saltpeter_essence - 0
+mysticalagriculture:rabbit_essence - 0
+mysticalagriculture:cold_iron_essence - 0
+mysticalagriculture:guardian_essence - 0
 
 
 essenceTier4
-mysticalagriculture:end_essence - 0
-mysticalagriculture:signalum_essence - 0
-mysticalagriculture:peridot_essence - 0
-mysticalagriculture:invar_essence - 0
-mysticalagriculture:lapis_lazuli_essence - 0
-mysticalagriculture:ghast_essence - 0
-mysticalagriculture:steel_essence - 0
-mysticalagriculture:enderman_essence - 0
-mysticalagriculture:gold_essence - 0
-mysticalagriculture:fiery_ingot_essence - 0
-mysticalagriculture:knightmetal_essence - 0
-mysticalagriculture:nickel_essence - 0
-mysticalagriculture:sapphire_essence - 0
-mysticalagriculture:mithril_essence - 0
-mysticalagriculture:hop_graphite_essence - 0
-mysticalagriculture:lumium_essence - 0
-mysticalagriculture:meteoric_iron_essence - 0
-mysticalagriculture:ruby_essence - 0
-mysticalagriculture:topaz_essence - 0
-mysticalagriculture:blaze_essence - 0
-mysticalagriculture:electrum_essence - 0
-mysticalagriculture:constantan_essence - 0
-mysticalagriculture:malachite_essence - 0
-mysticalagriculture:fluxed_electrum_essence - 0
 mysticalagriculture:experience_essence - 0
-mysticalagriculture:cobalt_essence - 0
+mysticalagriculture:peridot_essence - 0
+mysticalagriculture:malachite_essence - 0
+mysticalagriculture:steel_essence - 0
+mysticalagriculture:gold_essence - 0
+mysticalagriculture:blaze_essence - 0
 mysticalagriculture:osmium_essence - 0
-mysticalagriculture:glowstone_ingot_essence - 0
-mysticalagriculture:amber_essence - 0
-mysticalagriculture:tanzanite_essence - 0
+mysticalagriculture:sapphire_essence - 0
+mysticalagriculture:electrum_essence - 0
 mysticalagriculture:star_steel_essence - 0
+mysticalagriculture:fiery_ingot_essence - 0
+mysticalagriculture:glowstone_ingot_essence - 0
+mysticalagriculture:tanzanite_essence - 0
+mysticalagriculture:amber_essence - 0
+mysticalagriculture:signalum_essence - 0
+mysticalagriculture:nickel_essence - 0
+mysticalagriculture:ruby_essence - 0
+mysticalagriculture:constantan_essence - 0
+mysticalagriculture:fluxed_electrum_essence - 0
+mysticalagriculture:hop_graphite_essence - 0
+mysticalagriculture:enderman_essence - 0
+mysticalagriculture:cobalt_essence - 0
+mysticalagriculture:mithril_essence - 0
+mysticalagriculture:topaz_essence - 0
+mysticalagriculture:end_essence - 0
+mysticalagriculture:ghast_essence - 0
+mysticalagriculture:lumium_essence - 0
+mysticalagriculture:invar_essence - 0
+mysticalagriculture:meteoric_iron_essence - 0
+mysticalagriculture:lapis_lazuli_essence - 0
+mysticalagriculture:knightmetal_essence - 0
 
 
 essenceTier5
-mysticalagriculture:refined_obsidian_essence - 0
-mysticalagriculture:yellorium_essence - 0
-mysticalagriculture:diamond_essence - 0
-mysticalagriculture:iridium_essence - 0
-mysticalagriculture:adamantine_essence - 0
+mysticalagriculture:wither_skeleton_essence - 0
 mysticalagriculture:ender_amethyst_essence - 0
 mysticalagriculture:enderium_essence - 0
+mysticalagriculture:iridium_essence - 0
+mysticalagriculture:yellorium_essence - 0
 mysticalagriculture:emerald_essence - 0
-mysticalagriculture:desh_essence - 0
-mysticalagriculture:titanium_essence - 0
 mysticalagriculture:uranium_essence - 0
-mysticalagriculture:wither_skeleton_essence - 0
 mysticalagriculture:platinum_essence - 0
+mysticalagriculture:adamantine_essence - 0
+mysticalagriculture:titanium_essence - 0
+mysticalagriculture:diamond_essence - 0
+mysticalagriculture:refined_obsidian_essence - 0
+mysticalagriculture:desh_essence - 0
 
 
 essenceTier6
-mysticalagradditions:nether_star_essence - 0
-mysticalagradditions:neutronium_essence - 0
 mysticalagradditions:dragon_egg_essence - 0
+mysticalagradditions:neutronium_essence - 0
+mysticalagradditions:nether_star_essence - 0
 
 
 eyeOfEnder
@@ -9607,114 +9345,6 @@ minecraft:chainmail_leggings - any
 lever
 
 
-leverAdamantine
-basemetals:adamantine_lever - 0
-
-
-leverAntimony
-basemetals:antimony_lever - 0
-
-
-leverAquarium
-basemetals:aquarium_lever - 0
-
-
-leverBismuth
-basemetals:bismuth_lever - 0
-
-
-leverBrass
-basemetals:brass_lever - 0
-
-
-leverBronze
-basemetals:bronze_lever - 0
-
-
-leverColdiron
-basemetals:coldiron_lever - 0
-
-
-leverCopper
-basemetals:copper_lever - 0
-
-
-leverCupronickel
-basemetals:cupronickel_lever - 0
-
-
-leverDiamond
-basemetals:diamond_lever - 0
-
-
-leverElectrum
-basemetals:electrum_lever - 0
-
-
-leverEmerald
-basemetals:emerald_lever - 0
-
-
-leverGold
-basemetals:gold_lever - 0
-
-
-leverInvar
-basemetals:invar_lever - 0
-
-
-leverIron
-basemetals:iron_lever - 0
-
-
-leverLead
-basemetals:lead_lever - 0
-
-
-leverMithril
-basemetals:mithril_lever - 0
-
-
-leverNickel
-basemetals:nickel_lever - 0
-
-
-leverObsidian
-basemetals:obsidian_lever - 0
-
-
-leverPewter
-basemetals:pewter_lever - 0
-
-
-leverPlatinum
-basemetals:platinum_lever - 0
-
-
-leverQuartz
-basemetals:quartz_lever - 0
-
-
-leverSilver
-basemetals:silver_lever - 0
-
-
-leverStarsteel
-basemetals:starsteel_lever - 0
-
-
-leverSteel
-basemetals:steel_lever - 0
-
-
-leverTin
-basemetals:tin_lever - 0
-
-
-leverZinc
-basemetals:zinc_lever - 0
-
-
 listAllGrain
 
 
@@ -11201,8 +10831,8 @@ zollerngalaxy:nethercoalore - 0
 galaxyspace:marsores - 2
 galaxyspace:enceladusblocks - 2
 galaxyspace:titanblocks - 6
-galaxyspace:proxima_b_blocks - 8
 galaxyspace:barnarda_c_ores - 0
+galaxyspace:proxima_b_blocks - 8
 moreplanets:infected_coal_ore - 0
 moreplanets:fronos_coal_ore - 0
 
@@ -11263,8 +10893,8 @@ extraplanets:iapetus - 5
 extraplanets:titania - 5
 extraplanets:kepler22b - 4
 galaxyspace:ioblocks - 3
-galaxyspace:proxima_b_blocks - 7
 galaxyspace:barnarda_c_ores - 7
+galaxyspace:proxima_b_blocks - 7
 simpleores:copper_ore - 0
 exnihilocreatio:item_ore_copper - 1
 galacticraftplanets:mars - 0
@@ -11314,8 +10944,8 @@ zollerngalaxy:netherdiamondore - 0
 galaxyspace:marsores - 0
 galaxyspace:titanblocks - 5
 galaxyspace:mirandablocks - 5
-galaxyspace:proxima_b_blocks - 10
 galaxyspace:barnarda_c_ores - 5
+galaxyspace:proxima_b_blocks - 10
 moreplanets:infected_diamond_ore - 0
 moreplanets:fronos_diamond_ore - 0
 
@@ -11432,8 +11062,8 @@ zollerngalaxy:centogoldore - 0
 zollerngalaxy:tocigoldore - 0
 zollerngalaxy:nethergoldore - 0
 galaxyspace:marsores - 1
-galaxyspace:proxima_b_blocks - 5
 galaxyspace:barnarda_c_ores - 2
+galaxyspace:proxima_b_blocks - 5
 exnihilocreatio:item_ore_gold - 1
 moreplanets:infected_gold_ore - 0
 moreplanets:fronos_gold_ore - 0
@@ -11811,8 +11441,8 @@ oreSilicon
 galacticraftcore:basic_block_core - 8
 galaxyspace:marsores - 4
 galaxyspace:europablocks - 4
-galaxyspace:proxima_b_blocks - 9
 galaxyspace:barnarda_c_ores - 6
+galaxyspace:proxima_b_blocks - 9
 galacticraftplanets:venus - 10
 moreplanets:infected_silicon_ore - 0
 moreplanets:fronos_silicon_ore - 0
@@ -11910,8 +11540,8 @@ extraplanets:oberon - 4
 extraplanets:iapetus - 4
 extraplanets:titania - 4
 extraplanets:kepler22b - 3
-galaxyspace:proxima_b_blocks - 6
 galaxyspace:barnarda_c_ores - 8
+galaxyspace:proxima_b_blocks - 6
 simpleores:tin_ore - 0
 exnihilocreatio:item_ore_tin - 1
 galacticraftplanets:mars - 1
@@ -14520,120 +14150,120 @@ minecraft:wheat_seeds - 0
 
 
 seedsTier1
-mysticalagriculture:water_seeds - 0
-mysticalagriculture:zombie_seeds - 0
 mysticalagriculture:ice_seeds - 0
-mysticalagriculture:nature_seeds - 0
+mysticalagriculture:water_seeds - 0
 mysticalagriculture:wood_seeds - 0
+mysticalagriculture:zombie_seeds - 0
 mysticalagriculture:stone_seeds - 0
+mysticalagriculture:nature_seeds - 0
 mysticalagriculture:dirt_seeds - 0
 
 
 seedsTier2
-mysticalagriculture:sheep_seeds - 0
-mysticalagriculture:chicken_seeds - 0
-mysticalagriculture:fire_seeds - 0
-mysticalagriculture:slime_seeds - 0
-mysticalagriculture:menril_seeds - 0
-mysticalagriculture:dye_seeds - 0
-mysticalagriculture:marble_seeds - 0
-mysticalagriculture:limestone_seeds - 0
-mysticalagriculture:sulfur_seeds - 0
-mysticalagriculture:cow_seeds - 0
-mysticalagriculture:pig_seeds - 0
-mysticalagriculture:coal_seeds - 0
 mysticalagriculture:aluminum_seeds - 0
-mysticalagriculture:copper_seeds - 0
-mysticalagriculture:nether_seeds - 0
+mysticalagriculture:sulfur_seeds - 0
 mysticalagriculture:silicon_seeds - 0
+mysticalagriculture:limestone_seeds - 0
 mysticalagriculture:basalt_seeds - 0
+mysticalagriculture:cow_seeds - 0
+mysticalagriculture:marble_seeds - 0
+mysticalagriculture:chicken_seeds - 0
+mysticalagriculture:pig_seeds - 0
+mysticalagriculture:copper_seeds - 0
+mysticalagriculture:sheep_seeds - 0
+mysticalagriculture:slime_seeds - 0
+mysticalagriculture:coal_seeds - 0
+mysticalagriculture:dye_seeds - 0
+mysticalagriculture:nether_seeds - 0
+mysticalagriculture:menril_seeds - 0
+mysticalagriculture:fire_seeds - 0
 
 
 seedsTier3
-mysticalagriculture:quartz_enriched_iron_seeds - 0
-mysticalagriculture:skeleton_seeds - 0
-mysticalagriculture:spider_seeds - 0
-mysticalagriculture:black_quartz_seeds - 0
-mysticalagriculture:glowstone_seeds - 0
-mysticalagriculture:creeper_seeds - 0
-mysticalagriculture:blitz_seeds - 0
-mysticalagriculture:aquarium_seeds - 0
-mysticalagriculture:lead_seeds - 0
-mysticalagriculture:blizz_seeds - 0
-mysticalagriculture:nether_quartz_seeds - 0
-mysticalagriculture:silver_seeds - 0
 mysticalagriculture:cold_iron_seeds - 0
-mysticalagriculture:iron_seeds - 0
-mysticalagriculture:ironwood_seeds - 0
+mysticalagriculture:lead_seeds - 0
 mysticalagriculture:bronze_seeds - 0
-mysticalagriculture:zinc_seeds - 0
+mysticalagriculture:quartz_enriched_iron_seeds - 0
+mysticalagriculture:iron_seeds - 0
 mysticalagriculture:graphite_seeds - 0
-mysticalagriculture:ender_biotite_seeds - 0
-mysticalagriculture:obsidian_seeds - 0
-mysticalagriculture:guardian_seeds - 0
-mysticalagriculture:rabbit_seeds - 0
-mysticalagriculture:basalz_seeds - 0
-mysticalagriculture:tin_seeds - 0
-mysticalagriculture:brass_seeds - 0
-mysticalagriculture:redstone_seeds - 0
-mysticalagriculture:steeleaf_seeds - 0
+mysticalagriculture:ironwood_seeds - 0
+mysticalagriculture:aquarium_seeds - 0
+mysticalagriculture:nether_quartz_seeds - 0
+mysticalagriculture:blizz_seeds - 0
+mysticalagriculture:blitz_seeds - 0
 mysticalagriculture:saltpeter_seeds - 0
+mysticalagriculture:redstone_seeds - 0
+mysticalagriculture:spider_seeds - 0
+mysticalagriculture:obsidian_seeds - 0
+mysticalagriculture:basalz_seeds - 0
+mysticalagriculture:black_quartz_seeds - 0
+mysticalagriculture:creeper_seeds - 0
+mysticalagriculture:guardian_seeds - 0
+mysticalagriculture:brass_seeds - 0
+mysticalagriculture:rabbit_seeds - 0
+mysticalagriculture:tin_seeds - 0
+mysticalagriculture:silver_seeds - 0
+mysticalagriculture:zinc_seeds - 0
+mysticalagriculture:glowstone_seeds - 0
+mysticalagriculture:skeleton_seeds - 0
+mysticalagriculture:ender_biotite_seeds - 0
+mysticalagriculture:steeleaf_seeds - 0
 
 
 seedsTier4
-mysticalagriculture:end_seeds - 0
-mysticalagriculture:glowstone_ingot_seeds - 0
-mysticalagriculture:gold_seeds - 0
-mysticalagriculture:invar_seeds - 0
-mysticalagriculture:cobalt_seeds - 0
-mysticalagriculture:mithril_seeds - 0
-mysticalagriculture:ruby_seeds - 0
-mysticalagriculture:enderman_seeds - 0
-mysticalagriculture:topaz_seeds - 0
-mysticalagriculture:sapphire_seeds - 0
-mysticalagriculture:star_steel_seeds - 0
-mysticalagriculture:lapis_lazuli_seeds - 0
-mysticalagriculture:electrum_seeds - 0
-mysticalagriculture:fluxed_electrum_seeds - 0
-mysticalagriculture:blaze_seeds - 0
-mysticalagriculture:osmium_seeds - 0
-mysticalagriculture:lumium_seeds - 0
-mysticalagriculture:nickel_seeds - 0
-mysticalagriculture:amber_seeds - 0
-mysticalagriculture:hop_graphite_seeds - 0
-mysticalagriculture:knightmetal_seeds - 0
 mysticalagriculture:constantan_seeds - 0
-mysticalagriculture:steel_seeds - 0
-mysticalagriculture:malachite_seeds - 0
 mysticalagriculture:ghast_seeds - 0
 mysticalagriculture:fiery_ingot_seeds - 0
+mysticalagriculture:malachite_seeds - 0
+mysticalagriculture:fluxed_electrum_seeds - 0
+mysticalagriculture:enderman_seeds - 0
+mysticalagriculture:steel_seeds - 0
+mysticalagriculture:signalum_seeds - 0
+mysticalagriculture:nickel_seeds - 0
+mysticalagriculture:invar_seeds - 0
 mysticalagriculture:experience_seeds - 0
 mysticalagriculture:meteoric_iron_seeds - 0
+mysticalagriculture:lumium_seeds - 0
+mysticalagriculture:gold_seeds - 0
+mysticalagriculture:blaze_seeds - 0
+mysticalagriculture:sapphire_seeds - 0
+mysticalagriculture:glowstone_ingot_seeds - 0
+mysticalagriculture:star_steel_seeds - 0
 mysticalagriculture:tanzanite_seeds - 0
-mysticalagriculture:signalum_seeds - 0
+mysticalagriculture:electrum_seeds - 0
+mysticalagriculture:amber_seeds - 0
+mysticalagriculture:mithril_seeds - 0
+mysticalagriculture:end_seeds - 0
+mysticalagriculture:ruby_seeds - 0
+mysticalagriculture:topaz_seeds - 0
+mysticalagriculture:osmium_seeds - 0
 mysticalagriculture:peridot_seeds - 0
+mysticalagriculture:hop_graphite_seeds - 0
+mysticalagriculture:lapis_lazuli_seeds - 0
+mysticalagriculture:cobalt_seeds - 0
+mysticalagriculture:knightmetal_seeds - 0
 
 
 seedsTier5
-mysticalagriculture:iridium_seeds - 0
 mysticalagriculture:desh_seeds - 0
-mysticalagriculture:yellorium_seeds - 0
-mysticalagriculture:wither_skeleton_seeds - 0
-mysticalagriculture:diamond_seeds - 0
-mysticalagriculture:adamantine_seeds - 0
 mysticalagriculture:platinum_seeds - 0
-mysticalagriculture:enderium_seeds - 0
 mysticalagriculture:emerald_seeds - 0
 mysticalagriculture:uranium_seeds - 0
-mysticalagriculture:titanium_seeds - 0
+mysticalagriculture:wither_skeleton_seeds - 0
+mysticalagriculture:yellorium_seeds - 0
+mysticalagriculture:diamond_seeds - 0
+mysticalagriculture:adamantine_seeds - 0
+mysticalagriculture:iridium_seeds - 0
+mysticalagriculture:enderium_seeds - 0
 mysticalagriculture:refined_obsidian_seeds - 0
+mysticalagriculture:titanium_seeds - 0
 mysticalagriculture:ender_amethyst_seeds - 0
 
 
 seedsTier6
-mysticalagradditions:dragon_egg_seeds - 0
-mysticalagradditions:neutronium_seeds - 0
 mysticalagradditions:nether_star_seeds - 0
+mysticalagradditions:neutronium_seeds - 0
+mysticalagradditions:dragon_egg_seeds - 0
 
 
 shardAdamantine
@@ -15060,10 +14690,6 @@ silver_helmet
 silver_leggings
 
 
-slabAdamantine
-basemetals:adamantine_slab - 0
-
-
 slabAluminium
 immersiveengineering:storage_slab - 1
 
@@ -15072,92 +14698,24 @@ slabAluminum
 immersiveengineering:storage_slab - 1
 
 
-slabAntimony
-basemetals:antimony_slab - 0
-
-
-slabAquarium
-basemetals:aquarium_slab - 0
-
-
-slabBismuth
-basemetals:bismuth_slab - 0
-
-
-slabBrass
-basemetals:brass_slab - 0
-
-
-slabBronze
-basemetals:bronze_slab - 0
-
-
-slabColdiron
-basemetals:coldiron_slab - 0
-
-
 slabConstantan
 immersiveengineering:storage_slab - 6
 
 
 slabCopper
-basemetals:copper_slab - 0
 immersiveengineering:storage_slab - 0
 
 
-slabCupronickel
-basemetals:cupronickel_slab - 0
-
-
-slabDiamond
-basemetals:diamond_slab - 0
-
-
 slabElectrum
-basemetals:electrum_slab - 0
 immersiveengineering:storage_slab - 7
 
 
-slabEmerald
-basemetals:emerald_slab - 0
-
-
-slabGold
-basemetals:gold_slab - 0
-
-
-slabInvar
-basemetals:invar_slab - 0
-
-
-slabIron
-basemetals:iron_slab - 0
-
-
 slabLead
-basemetals:lead_slab - 0
 immersiveengineering:storage_slab - 2
 
 
-slabMithril
-basemetals:mithril_slab - 0
-
-
 slabNickel
-basemetals:nickel_slab - 0
 immersiveengineering:storage_slab - 4
-
-
-slabObsidian
-basemetals:obsidian_slab - 0
-
-
-slabPewter
-basemetals:pewter_slab - 0
-
-
-slabPlatinum
-basemetals:platinum_slab - 0
 
 
 slabSheetmetalAluminium
@@ -15209,24 +14767,14 @@ immersiveengineering:sheetmetal_slab - 5
 
 
 slabSilver
-basemetals:silver_slab - 0
 immersiveengineering:storage_slab - 3
 
 
-slabStarsteel
-basemetals:starsteel_slab - 0
-
-
 slabSteel
-basemetals:steel_slab - 0
 immersiveengineering:storage_slab - 8
 
 
 slabStone
-
-
-slabTin
-basemetals:tin_slab - 0
 
 
 slabTreatedWood
@@ -15270,10 +14818,6 @@ moreplanets:alien_berry_oak_slab - 0
 moreplanets:oscalea_slab - 0
 moreplanets:frolia_slab - 0
 traverse:fir_slab - 0
-
-
-slabZinc
-basemetals:zinc_slab - 0
 
 
 slate
@@ -15335,110 +14879,6 @@ moreplanets:alien_berry_oak_stairs - 0
 moreplanets:oscalea_stairs - 0
 moreplanets:frolia_stairs - 0
 traverse:fir_stairs - 0
-
-
-stairsAdamantine
-basemetals:adamantine_stairs - 0
-
-
-stairsAntimony
-basemetals:antimony_stairs - 0
-
-
-stairsAquarium
-basemetals:aquarium_stairs - 0
-
-
-stairsBismuth
-basemetals:bismuth_stairs - 0
-
-
-stairsBrass
-basemetals:brass_stairs - 0
-
-
-stairsBronze
-basemetals:bronze_stairs - 0
-
-
-stairsColdiron
-basemetals:coldiron_stairs - 0
-
-
-stairsCopper
-basemetals:copper_stairs - 0
-
-
-stairsCupronickel
-basemetals:cupronickel_stairs - 0
-
-
-stairsDiamond
-basemetals:diamond_stairs - 0
-
-
-stairsElectrum
-basemetals:electrum_stairs - 0
-
-
-stairsEmerald
-basemetals:emerald_stairs - 0
-
-
-stairsGold
-basemetals:gold_stairs - 0
-
-
-stairsInvar
-basemetals:invar_stairs - 0
-
-
-stairsIron
-basemetals:iron_stairs - 0
-
-
-stairsLead
-basemetals:lead_stairs - 0
-
-
-stairsMithril
-basemetals:mithril_stairs - 0
-
-
-stairsNickel
-basemetals:nickel_stairs - 0
-
-
-stairsObsidian
-basemetals:obsidian_stairs - 0
-
-
-stairsPewter
-basemetals:pewter_stairs - 0
-
-
-stairsPlatinum
-basemetals:platinum_stairs - 0
-
-
-stairsSilver
-basemetals:silver_stairs - 0
-
-
-stairsStarsteel
-basemetals:starsteel_stairs - 0
-
-
-stairsSteel
-basemetals:steel_stairs - 0
-
-
-stairsTin
-basemetals:tin_stairs - 0
-
-
-stairsZinc
-basemetals:zinc_stairs - 0
 
 
 starsteel_boots
@@ -16562,106 +16002,6 @@ torchRedstoneActive
 minecraft:redstone_torch - 0
 
 
-trapdoorAdamantine
-basemetals:adamantine_trapdoor - 0
-
-
-trapdoorAntimony
-basemetals:antimony_trapdoor - 0
-
-
-trapdoorAquarium
-basemetals:aquarium_trapdoor - 0
-
-
-trapdoorBismuth
-basemetals:bismuth_trapdoor - 0
-
-
-trapdoorBrass
-basemetals:brass_trapdoor - 0
-
-
-trapdoorBronze
-basemetals:bronze_trapdoor - 0
-
-
-trapdoorColdiron
-basemetals:coldiron_trapdoor - 0
-
-
-trapdoorCopper
-basemetals:copper_trapdoor - 0
-
-
-trapdoorCupronickel
-basemetals:cupronickel_trapdoor - 0
-
-
-trapdoorDiamond
-basemetals:diamond_trapdoor - 0
-
-
-trapdoorElectrum
-basemetals:electrum_trapdoor - 0
-
-
-trapdoorEmerald
-basemetals:emerald_trapdoor - 0
-
-
-trapdoorGold
-basemetals:gold_trapdoor - 0
-
-
-trapdoorInvar
-basemetals:invar_trapdoor - 0
-
-
-trapdoorLead
-basemetals:lead_trapdoor - 0
-
-
-trapdoorMithril
-basemetals:mithril_trapdoor - 0
-
-
-trapdoorNickel
-basemetals:nickel_trapdoor - 0
-
-
-trapdoorObsidian
-basemetals:obsidian_trapdoor - 0
-
-
-trapdoorPewter
-basemetals:pewter_trapdoor - 0
-
-
-trapdoorPlatinum
-basemetals:platinum_trapdoor - 0
-
-
-trapdoorQuartz
-basemetals:quartz_trapdoor - 0
-
-
-trapdoorSilver
-basemetals:silver_trapdoor - 0
-
-
-trapdoorStarsteel
-basemetals:starsteel_trapdoor - 0
-
-
-trapdoorSteel
-basemetals:steel_trapdoor - 0
-
-
-trapdoorTin
-basemetals:tin_trapdoor - 0
-
-
 trapdoorWood
 futuremc:acacia_trapdoor - 0
 futuremc:jungle_trapdoor - 0
@@ -16674,10 +16014,6 @@ quark:birch_trapdoor - 0
 quark:jungle_trapdoor - 0
 quark:acacia_trapdoor - 0
 quark:dark_oak_trapdoor - 0
-
-
-trapdoorZinc
-basemetals:zinc_trapdoor - 0
 
 
 treeLeaves
@@ -16744,10 +16080,10 @@ moreplanets:frolia_leaves - 0
 moreplanets:flowering_frolia_leaves - 0
 cavern:perverted_leaves - any
 traverse:yellow_autumnal_leaves - 0
-traverse:brown_autumnal_leaves - 0
-traverse:red_autumnal_leaves - 0
-traverse:orange_autumnal_leaves - 0
 traverse:fir_leaves - 0
+traverse:red_autumnal_leaves - 0
+traverse:brown_autumnal_leaves - 0
+traverse:orange_autumnal_leaves - 0
 
 
 treeSapling
@@ -16804,11 +16140,11 @@ moreplanets:alien_berry_oak_sapling - 0
 moreplanets:oscalea_sapling - 0
 moreplanets:frolia_sapling - 0
 cavern:perverted_sapling - any
+traverse:red_autumnal_sapling - 0
 traverse:brown_autumnal_sapling - 0
-traverse:yellow_autumnal_sapling - 0
 traverse:orange_autumnal_sapling - 0
 traverse:fir_sapling - 0
-traverse:red_autumnal_sapling - 0
+traverse:yellow_autumnal_sapling - 0
 
 
 tubeVacuumDiamond
@@ -16858,114 +16194,6 @@ galacticraftcore:basic_item - 12
 
 waferSolarThin
 galacticraftplanets:basic_item_venus - 6
-
-
-wallAdamantine
-basemetals:adamantine_wall - 0
-
-
-wallAntimony
-basemetals:antimony_wall - 0
-
-
-wallAquarium
-basemetals:aquarium_wall - 0
-
-
-wallBismuth
-basemetals:bismuth_wall - 0
-
-
-wallBrass
-basemetals:brass_wall - 0
-
-
-wallBronze
-basemetals:bronze_wall - 0
-
-
-wallColdiron
-basemetals:coldiron_wall - 0
-
-
-wallCopper
-basemetals:copper_wall - 0
-
-
-wallCupronickel
-basemetals:cupronickel_wall - 0
-
-
-wallDiamond
-basemetals:diamond_wall - 0
-
-
-wallElectrum
-basemetals:electrum_wall - 0
-
-
-wallEmerald
-basemetals:emerald_wall - 0
-
-
-wallGold
-basemetals:gold_wall - 0
-
-
-wallInvar
-basemetals:invar_wall - 0
-
-
-wallIron
-basemetals:iron_wall - 0
-
-
-wallLead
-basemetals:lead_wall - 0
-
-
-wallMithril
-basemetals:mithril_wall - 0
-
-
-wallNickel
-basemetals:nickel_wall - 0
-
-
-wallObsidian
-basemetals:obsidian_wall - 0
-
-
-wallPewter
-basemetals:pewter_wall - 0
-
-
-wallPlatinum
-basemetals:platinum_wall - 0
-
-
-wallQuartz
-basemetals:quartz_wall - 0
-
-
-wallSilver
-basemetals:silver_wall - 0
-
-
-wallStarsteel
-basemetals:starsteel_wall - 0
-
-
-wallSteel
-basemetals:steel_wall - 0
-
-
-wallTin
-basemetals:tin_wall - 0
-
-
-wallZinc
-basemetals:zinc_wall - 0
 
 
 waterPolluted
