@@ -1,0 +1,65 @@
+{
+    "name": "Technology progress",
+    "icon": "exnihilocreatio:item_material:7",
+    "category": "start",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a test entry, but it should show up! "
+        },
+        {
+            "type": "spotlight",
+            "title":"Primaeval",
+            "item":"minecraft:sapling",
+            "text": "The first step!"
+        },
+        {
+            "type": "spotlight",
+            "title":"Immersive",
+            "item":"immersiveengineering:tool",
+            "text": "Work as an engineer."
+        },
+        {
+            "type": "spotlight",
+            "title":"Thermal",
+            "item":"thermalexpansion:frame",
+            "text": "Industry?"
+        },
+        {
+            "type": "spotlight",
+            "title":"Actually additions&Psi",
+            "item":"actuallyadditions:item_crystal:5",
+            "text": "Magic?"
+        },
+        {
+            "type": "spotlight",
+            "title":"Mekanism",
+            "item":"mekanism:atomicalloy",
+            "text": "Electronic revolution."
+        },
+        {
+            "type": "spotlight",
+            "title":"Computer",
+            "item":"opencomputers:component:2",
+            "text": "Information age."
+        },
+        {
+            "type": "spotlight",
+            "title":"Refined storage",
+            "item":"refinedstorage:storage_housing",
+            "text": "Storage all you things."
+        },
+        {
+            "type": "spotlight",
+            "title":"Aerospace",
+            "item":"galacticraftcore:rocket_t1",
+            "text": "Roam the galaxy."
+        },
+        {
+            "type": "spotlight",
+            "title":"Avaritia",
+            "item":"avaritia:resource:5",
+            "text": "Endless......"
+        }
+    ]
+}

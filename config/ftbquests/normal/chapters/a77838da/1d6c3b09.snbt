@@ -1,0 +1,18 @@
+{
+	x: 7.5d,
+	y: -0.3d,
+	dependencies: [
+		"83504359"
+	],
+	size: 0.6d,
+	optional: true,
+	tasks: [{
+		uid: "d5c7ed2d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crafter_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

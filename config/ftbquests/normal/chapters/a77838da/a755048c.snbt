@@ -1,0 +1,16 @@
+{
+	x: 14.299999999999999d,
+	y: -1.25d,
+	shape: "rsquare",
+	dependencies: [
+		"7a1e8b02"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "98ce1593",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

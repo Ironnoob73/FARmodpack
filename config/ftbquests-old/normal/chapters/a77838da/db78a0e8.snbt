@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	text: [
+		"如果地下挖出来的煤炭不够，或者你恰好没挖到煤炭，那么你就需要木炭来代替煤炭了......"
+	],
+	dependencies: [
+		"480bf3fc"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "203846ae",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "085f9fdc",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 10
+	}]
+}

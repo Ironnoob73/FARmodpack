@@ -1,0 +1,16 @@
+{
+	x: 13.25d,
+	y: 0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"480bf3fc"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "2a687194",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

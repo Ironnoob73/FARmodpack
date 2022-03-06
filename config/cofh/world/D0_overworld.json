@@ -1,0 +1,779 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+		"diorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "diorite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"granite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "granite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"andesite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "stone",
+					"properties": {
+						"variant": "andesite"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 17
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"lapis": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 1,
+			"center-height": 16,
+			"spread": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"mesa_gold": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "gold_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 20,
+			"min-height": 32,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"mesa",
+							"mesa_rock",
+							"mesa_clear_rock",
+							"mutated_mesa",
+							"mutated_mesa_rock",
+							"mutated_mesa_clear_rock"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"silverfish": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "monster_egg",
+					"properties": {
+						"variant": "stone"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+							"mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "emerald_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 1,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"extreme_hills",
+							"smaller_extreme_hills",
+							"extreme_hills_with_trees",
+							"mutated_extreme_hills",
+							"mutated_extreme_hills_with_trees"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "biomesoplenty:gem_ore",
+					"properties": {
+					  "variant": "peridot"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 6
+			},
+			"min-height": 1,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"chaparral",
+							"flower_field",
+							"grassland",
+							"lavender_fields",
+							"meadow",
+							"orchard",
+							"pasture",
+							"prairie",
+							"shrubland",
+							"plains"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"copper": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "copper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"tin": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "tin"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"silver": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "silver"
+						},
+						"weight": 80
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "lead"
+						},
+						"weight": 20
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"lead": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "lead"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "silver"
+						},
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 10,
+			"max-height": 35,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"aluminum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "aluminum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"nickel": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "nickel"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 15,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"copper_ocean": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "copper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 20,
+			"max-height": 55,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"copper_high": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "copper"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 48,
+			"max-height": 96,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"oil_sand_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "crude_oil_sand"
+					}
+				},
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"minecraft:stone"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 10,
+			"min-height": 10,
+			"max-height": 80,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"oil_shale_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "crude_oil_gravel"
+						},
+						"weight": 80
+					},
+					{
+						"name": "minecraft:coal_ore",
+						"weight": 20
+					}
+				],
+				"material": [
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone"
+				],
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"chunk-chance": 10,
+			"min-height": 10,
+			"max-height": 80,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "MESA"
+					},
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"oil_sand": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "crude_oil_sand"
+						},
+						"weight": 80
+					},
+					{
+						"name": "minecraft:sand",
+						"weight": 20
+					}
+				],
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone",
+					"minecraft:stone"
+				],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "minecraft:sandstone"
+			},
+			"cluster-count": 3,
+			"chunk-chance": 40,
+			"min-height": 30,
+			"max-height": 60,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SANDY"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"oil_shale": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "crude_oil_gravel"
+						},
+						"weight": 80
+					},
+					{
+						"name": "minecraft:gravel",
+						"weight": 20
+					}
+				],
+				"material": [
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:stone"
+				],
+				"hollow": "true",
+				"filler": "thermalfoundation:fluid_crude_oil",
+				"crust": "minecraft:stone"
+			},
+			"cluster-count": 2,
+			"chunk-chance": 50,
+			"min-height": 20,
+			"max-height": 60,
+			"in-village": "false",
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"redstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "redstone"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_redstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 0,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

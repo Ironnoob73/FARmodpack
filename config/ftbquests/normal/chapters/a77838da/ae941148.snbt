@@ -1,0 +1,23 @@
+{
+	title: "工具品质",
+	icon: "qualitytools:reforging_station",
+	disable_toast: true,
+	x: 2.75d,
+	y: 0.75d,
+	shape: "square",
+	description: "不要拿这个来赌博",
+	text: [
+		"你做出来的工具现在会被附上品质，附上的品质完全是随机的，有时候工具甚至不会被附上品质。",
+		"如果想重置工具品质，你需要造出锻造台，然后在锻造台中放上武器和可以修复这个武器的材料，点击中间的按钮即可刷新品质。"
+	],
+	dependencies: [
+		"f6dff3d3"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "b31f2aa8",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

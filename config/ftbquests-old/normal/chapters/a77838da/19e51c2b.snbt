@@ -1,0 +1,21 @@
+{
+	title: "指引",
+	icon: "minecraft:knowledge_book",
+	disable_toast: true,
+	x: 1.0d,
+	y: 1.0d,
+	shape: "square",
+	description: "找个时间看看这些指引以了解这个世界有什么不同",
+	text: [
+		"这毕竟是一个魔改包，如果你以原版或者默认配置下的方式游玩注定是处处碰壁。所以我在这里列出了一些较为重要的更改以供随时查看。"
+	],
+	dependencies: [
+		"d637c7f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65eca053",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

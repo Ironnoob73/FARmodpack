@@ -1,0 +1,18 @@
+{
+	icon: "cavern:cavern_portal",
+	x: 10.5d,
+	y: -1.5d,
+	shape: "gear",
+	dependencies: [
+		"f79ecffe",
+		"1c166526"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "561d69ce",
+		type: "observation",
+		match_type: "block_id",
+		match: "cavern:cavern_portal",
+		timer: 0L
+	}]
+}

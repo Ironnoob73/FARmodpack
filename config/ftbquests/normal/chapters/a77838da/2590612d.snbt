@@ -1,0 +1,21 @@
+{
+	title: "尸潮？",
+	icon: "minecraft:rotten_flesh",
+	disable_toast: true,
+	x: 1.75d,
+	y: 1.75d,
+	shape: "square",
+	text: [
+		"僵尸现在变得更加有想法，你受伤会在地上产生一滩血迹，僵尸会循着这些血迹来找你，并且会通知其他僵尸一块过来。坏处是你需要同时面对一大堆的僵尸，好处是它们也没聪明到哪去，一个陷阱就能轻易坑杀一大批。"
+	],
+	dependencies: [
+		"b281bc8e"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "6dac8f6b",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

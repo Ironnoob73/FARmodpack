@@ -1,0 +1,305 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2022-02-27 10:12:47 CST
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: net/minecraft/world/World$2
+    at net.minecraft.world.World.neighborChanged(MixinWorldRedstone.java:557)
+    at net.minecraft.world.World.notifyNeighborsOfStateChange(MixinWorldRedstone.java:495)
+    at net.minecraft.world.World.notifyNeighborsRespectDebug(MixinWorldRedstone.java:440)
+    at net.minecraft.world.World.markAndNotifyBlock(MixinWorldRedstone.java:381)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:361)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.block.BlockDynamicLiquid.tryFlowInto(BlockDynamicLiquid.java:175)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:133)
+    at net.minecraft.world.WorldServer.updateBlockTick(WorldServer.java:551)
+    at net.minecraft.world.WorldServer.scheduleUpdate(WorldServer.java:531)
+    at net.minecraft.block.BlockDynamicLiquid.onBlockAdded(BlockDynamicLiquid.java:306)
+    at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:343)
+    at net.minecraft.world.World.setBlockState(MixinWorldRedstone.java:425)
+    at git.jbredwards.fluidlogged_api.asm.ASMHooks.flowInto(ASMHooks.java:492)
+    at net.minecraft.block.BlockDynamicLiquid.updateTick(BlockDynamicLiquid.java:138)
+    at net.minecraft.world.World.immediateBlockTick(MixinWorldRedstone.java:2682)
+    at net.minecraft.world.gen.feature.WorldGenLiquids.generate(WorldGenLiquids.java:88)
+    at net.minecraft.world.biome.BiomeDecorator.genDecorations(BiomeDecorator.java:352)
+    at net.minecraft.world.biome.BiomeDecorator.decorate(BiomeDecorator.java:88)
+    at net.minecraft.world.biome.Biome.decorate(Biome.java:225)
+    at biomesoplenty.common.world.ChunkGeneratorOverworldBOP.populate(ChunkGeneratorOverworldBOP.java:565)
+    at net.minecraft.world.chunk.Chunk.populate(Chunk.java:1019)
+    at net.minecraft.world.chunk.Chunk.populate(Chunk.java:999)
+    at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:157)
+    at net.minecraft.world.World.getChunk(MixinWorldRedstone.java:310)
+    at atomicstryker.ruins.common.RuinsMod.onEntityEnteringChunk(RuinsMod.java:145)
+    at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2841_RuinsMod_onEntityEnteringChunk_EnteringChunk.invoke(.dynamic)
+    at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+    at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+    at net.minecraft.world.chunk.Chunk.addEntity(Chunk.java:739)
+    at net.minecraft.world.World.spawnEntity(MixinWorldRedstone.java:1211)
+    at net.minecraft.world.WorldServer.spawnEntity(WorldServer.java:1058)
+    at net.minecraft.server.management.PlayerList.playerLoggedIn(PlayerList.java:377)
+    at net.minecraft.server.management.PlayerList.initializeConnectionToPlayer(PlayerList.java:166)
+    at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.completeServerSideConnection(NetworkDispatcher.java:255)
+    at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher.access$100(NetworkDispatcher.java:72)
+    at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:205)
+    at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:285)
+    at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:180)
+    at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:790)
+    at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668)
+    at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:279)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+    at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_252, AdoptOpenJDK
+  Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+  Memory: 4461656224 bytes (4254 MB) / 8589934592 bytes (8192 MB) up to 8589934592 bytes (8192 MB)
+  JVM Flags: 12 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Xmn128m -Xmx8192m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 3, tcache: 104, allocated: 0, tallocated: 0
+  FML: ~~ERROR~~ NoClassDefFoundError: net/minecraftforge/common/util/TextTable$1
+  Loaded coremods (and transformers): XaeroWorldMapPlugin ([小地图]XaerosWorldMap_1.20.3.1_Forge_1.12.jar)
+                                        xaero.map.core.transformer.ChunkTransformer
+                                        xaero.map.core.transformer.NetHandlerPlayClientTransformer
+                                        xaero.map.core.transformer.EntityPlayerTransformer
+                                        xaero.map.core.transformer.AbstractClientPlayerTransformer
+                                        xaero.map.core.transformer.WorldClientTransformer
+                                        xaero.map.core.transformer.PlayerListTransformer
+                                        xaero.map.core.transformer.BiomeColorHelperTransformer
+                                      IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+                                      Fluidlogged Plugin ([含水方块]Fluidlogged-API-v1.6.2-mc1.12.2.jar)
+                                        git.jbredwards.fluidlogged_api.asm.swapper.ASMSwapper
+                                        git.jbredwards.fluidlogged_api.asm.ASMHandler$Transformer
+                                      PhosphorFMLLoadingPlugin ([光照优化]phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      CoreMod ([自动备份前置]Aroma1997Core-1.12.2-2.0.0.0.jar)
+                                        
+                                      Inventory Tweaks Coremod ([一键整理]InventoryTweaks-1.63.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      JechCore ([JEI拼音]JustEnoughCharacters-1.12.0-3.5.1.jar)
+                                        me.towdium.jecharacters.core.JechClassTransformer
+                                      MicdoodlePlugin ([星系-前置]MicdoodleCore-1.12.2-4.0.2.281.jar)
+                                        micdoodle8.mods.miccore.MicdoodleTransformer
+                                      CorePlugin ([平滑字体]SmoothFont-mc1.12.2-2.1.2.jar)
+                                        bre.smoothfont.asm.Transformer
+                                      VanillaFixLoadingPlugin ([防崩]VanillaFix-1.0.10-150.jar)
+                                        
+                                      CTMCorePlugin ([纹理连接]CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      MekanismCoremod ([通用机械]Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      Quark Plugin ([夸克]Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      MMFMLCorePlugin ([多人开采]MultiMine-1.12.2.jar)
+                                        atomicstryker.multimine.common.fmlmagic.MMTransformer
+                                      XaeroMinimapPlugin ([小地图]Xaeros_Minimap_22.2.0.1_Forge_1.12.jar)
+                                        xaero.common.core.transformer.ChunkTransformer
+                                        xaero.common.core.transformer.NetHandlerPlayClientTransformer
+                                        xaero.common.core.transformer.EntityPlayerTransformer
+                                        xaero.common.core.transformer.AbstractClientPlayerTransformer
+                                        xaero.common.core.transformer.WorldClientTransformer
+                                        xaero.common.core.transformer.EntityPlayerSPTransformer
+                                        xaero.common.core.transformer.PlayerListTransformer
+                                        xaero.common.core.transformer.GuiIngameForgeTransformer
+                                        xaero.common.core.transformer.GuiBossOverlayTransformer
+                                        xaero.common.core.transformer.ModelRendererTransformer
+                                      SurgeLoadingPlugin ([潮涌优化]Surge-1.12.2-2.0.77.jar)
+                                        
+                                      LoadingPlugin ([环境污染]AdPother-1.12.2-1.2.22.0-build.0624.jar)
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Vanilla
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$DynamicSurroundings
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Weather2$Mesh
+                                        com.endertech.minecraft.mods.adpother.transformers.AcidRain$Weather2$Render
+                                        com.endertech.minecraft.mods.adpother.transformers.ActuallyAdditions$FurnaceDouble
+                                        com.endertech.minecraft.mods.adpother.transformers.ActuallyAdditions$CoalGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.AdvancedRocketry$Rocket
+                                        com.endertech.minecraft.mods.adpother.transformers.BetterWithMods$Furnace
+                                        com.endertech.minecraft.mods.adpother.transformers.ControlledBurn$Fire
+                                        com.endertech.minecraft.mods.adpother.transformers.CookingForBlockheads$Oven
+                                        com.endertech.minecraft.mods.adpother.transformers.DraconicEvolution$Generator
+                                        com.endertech.minecraft.mods.adpother.transformers.EmbersRekindled$EmberBore
+                                        com.endertech.minecraft.mods.adpother.transformers.EmbersRekindled$SteamEngine
+                                        com.endertech.minecraft.mods.adpother.transformers.EnderIO$CombustionGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.EnderIO$StirlingGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.EngineersDecor$DecorFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.Factory0Resources$BurnerDrill
+                                        com.endertech.minecraft.mods.adpother.transformers.FastFurnace$Burning
+                                        com.endertech.minecraft.mods.adpother.transformers.FastFurnace$Smelting
+                                        com.endertech.minecraft.mods.adpother.transformers.FurnaceOverhaul$Burning
+                                        com.endertech.minecraft.mods.adpother.transformers.FurnaceOverhaul$Smelting
+                                        com.endertech.minecraft.mods.adpother.transformers.FutureMC$AdvancedFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.FloodLights$CarbonFloodlight
+                                        com.endertech.minecraft.mods.adpother.transformers.Galacticraft$AutoRocket
+                                        com.endertech.minecraft.mods.adpother.transformers.Galacticraft$Buggy
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregicality$PrimitiveBlastFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$CokeOven
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$LargeBoilerLiquidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$LargeBoilerSolidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$FuelRecipeLogic
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$PrimitiveBlastFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$SteamCoalBoiler
+                                        com.endertech.minecraft.mods.adpother.transformers.Gregtech$SteamLavaBoiler
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$Boiler
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$BurnerPress
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$CombustionGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$DieselGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$GasFlare
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$IndustrialGeneratorSolid
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$IndustrialGeneratorLiquid
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$Turbofan
+                                        com.endertech.minecraft.mods.adpother.transformers.HBMsNuclearTech$RadialEngine
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveCraft$FurnaceTE
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$AllowSmelter
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$BlastFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$CokeOven
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveEngineering$DieselGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersivePetroleum$Motorboat
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersivePetroleum$PortableGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveRailroading$LocomotiveDiesel
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveRailroading$LocomotiveSteam
+                                        com.endertech.minecraft.mods.adpother.transformers.ImmersiveTechnology$Boiler
+                                        com.endertech.minecraft.mods.adpother.transformers.IndustrialForegoing$FuelGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.IndustrialForegoing$ReactorGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.IndustrialRenewal$FluidGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.IndustrialRenewal$SteamBoiler$LiquidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.IndustrialRenewal$SteamBoiler$SolidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$CombustionChamber
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$BigChamberSolidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Magneticraft$BigChamberLiquidFuel
+                                        com.endertech.minecraft.mods.adpother.transformers.Mekanism$FuelwoodHeater
+                                        com.endertech.minecraft.mods.adpother.transformers.MekanismGenerators$BioGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.MekanismGenerators$GasGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.MekanismGenerators$HeatGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.Metallurgy$Alloyer
+                                        com.endertech.minecraft.mods.adpother.transformers.Metallurgy$Crusher
+                                        com.endertech.minecraft.mods.adpother.transformers.Minecraft$AnimalFeeding
+                                        com.endertech.minecraft.mods.adpother.transformers.Minecraft$FurnaceSmelting
+                                        com.endertech.minecraft.mods.adpother.transformers.MoreFurnaces$IronFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MrCrayfish$Vehicle
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$InferiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$IntermediumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$PrudentiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$SuperiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$SupremiumFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.MysticalAgriculture$UltimateFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.Natura$NetherrackFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.PneumaticCraft$AirCompressor
+                                        com.endertech.minecraft.mods.adpother.transformers.PrimalCore$RecipeHelper
+                                        com.endertech.minecraft.mods.adpother.transformers.Pyrotech$TileCombustion
+                                        com.endertech.minecraft.mods.adpother.transformers.RealisticBlockPhysics$FallingBlock
+                                        com.endertech.minecraft.mods.adpother.transformers.RealisticTorches$BlockTorch
+                                        com.endertech.minecraft.mods.adpother.transformers.RFTools$CoalGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.StevesCarts$ModuleCoal
+                                        com.endertech.minecraft.mods.adpother.transformers.Techguns$MachineSlot
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileIronAlloyFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileIronFurnace
+                                        com.endertech.minecraft.mods.adpother.transformers.TechReborn$TileSolidFuelGenerator
+                                        com.endertech.minecraft.mods.adpother.transformers.TerraFirmaCraft$CharcoalForge
+                                        com.endertech.minecraft.mods.adpother.transformers.TerraFirmaCraft$FirePit
+                                        com.endertech.minecraft.mods.adpother.transformers.TerraFirmaCraft$LogPile
+                                        com.endertech.minecraft.mods.adpother.transformers.TinkersComplement$HighOven
+                                        com.endertech.minecraft.mods.adpother.transformers.TinkersConstruct$HeatingStructure
+                                        com.endertech.minecraft.mods.adpother.transformers.SimpleGrinder$CoalGrinder
+                                        com.endertech.minecraft.mods.adpother.transformers.UltimateCarMod$Car
+                                        com.endertech.minecraft.mods.adpother.transformers.ViesCraft$AirShip
+                                        com.endertech.minecraft.mods.adpother.renders.AerometerRender
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockCaughtFire
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockUpdateTick
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$BlockExploded
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$GetSkyColor
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$FurnaceFuelBurned
+                                        com.endertech.minecraft.mods.adpother.pollution.WorldData$LavaTouchesWater
+                                        com.endertech.minecraft.mods.adpother.transformers.ZenFoundry$BurnerHeater
+                                        com.endertech.minecraft.mods.adpother.transformers.ZenFoundry$MoldStation
+                                      JustEnoughIDs Extension Plugin ([JEID]JustEnoughIDs-1.0.3-55.jar)
+                                        org.dimdev.jeid.JEIDTransformer
+                                      TransformLoader ([动态环境(请勿更新)]DynamicSurroundings-1.12.2-3.6.2.1.jar)
+                                        
+                                      NWRTweak ([爬墙红石]redstonepaste-mc1.12-1.7.5.jar)
+                                        net.fybertech.nwr.NWRTransformer
+                                      TransformerLoader ([开放式电脑]OpenComputers-MC1.12.2-1.7.5.192.jar)
+                                        li.cil.oc.common.asm.ClassTransformer
+                                      FutureMC ([未来版本]future-mc-0.2.8.jar)
+                                        thedarkcolour.futuremc.asm.CoreTransformer
+                                      AppleCore ([苹果核]AppleCore-mc1.12.2-3.4.0.jar)
+                                        squeek.applecore.asm.TransformerModuleHandler
+                                      SSLoadingPlugin ([意志坚定-季节]SereneSeasons-1.12.2-1.2.18-universal.jar)
+                                        sereneseasons.asm.transformer.EntityRendererTransformer
+                                        sereneseasons.asm.transformer.WorldTransformer
+                                      B3M_CorePlugin ([时间调速]B3M-1.12.2-17.jar)
+                                        sedridor.B3M.core.B3M_Transformer
+                                      GSHooksLoader ([星系-星空]GalaxySpace-1.12.2-2.0.16.jar)
+                                        galaxyspace.core.hooklib.minecraft.PrimaryClassTransformer
+                                      IntegratedProxy Loading Plugin ([集成动力-代理]integrated_proxy-1.12-1.0.14.jar)
+                                        
+                                      CorePlugin (ForgeEndertech-1.12.2-4.5.6.0-build.0619.jar)
+                                        
+                                      SteveKunGLibPlugin ([星系-更多行星前置]SteveKunG's-Lib-1.12.2-1.1.10.jar)
+                                        
+                                      ForgelinPlugin ([未来版本前置]Forgelin-1.8.4.jar)
+                                        
+                                      Snow! Real Magic! ([落雪]SnowRealMagic-1.12.2-0.6.1.jar)
+                                        
+                                      MixinBooter ([模块化机械-控制器前置].mixinbooter-4.1.jar)
+                                        
+                                      LibrarianLib Plugin ([抓钩前置]librarianlib-1.12.2-4.22.jar)
+                                        com.teamwizardry.librarianlib.asm.LibLibTransformer
+                                      LoadingPlugin ([帕秋莉-材质]ResourceLoader-MC1.12.1-1.5.3.jar)
+                                        lumien.resourceloader.asm.ClassTransformer
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  Patchouli open book context: n/a
+  RebornCore: Plugin Engine: 0
+              RebornCore Version: 3.19.4.529
+              Runtime Debofucsation 1
+              RenderEngine: 1
+  Suspected Mods: Fluidlogged API (fluidlogged_api), Biomes O' Plenty (biomesoplenty), Ruins Mod (ruins)
+  Profiler Position: N/A (disabled)
+  Player Count: 1 / 8; [GCEntityPlayerMP['Iron_noob_73'/83, l='T2-22', x=-202.50, y=70.00, z=197.50]]
+  Type: Integrated Server (map_client.txt)
+  Is Modded: Definitely; Client brand changed to 'fml,forge'

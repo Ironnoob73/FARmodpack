@@ -1,0 +1,15 @@
+{
+	x: 14.75d,
+	y: 1.5d,
+	dependencies: [
+		"8b956b11"
+	],
+	tasks: [{
+		uid: "1100e35c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

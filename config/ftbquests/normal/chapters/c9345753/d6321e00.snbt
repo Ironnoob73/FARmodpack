@@ -1,0 +1,20 @@
+{
+	title: "深层 §8-11325",
+	icon: "extrautils2:ingredients 1 4",
+	x: 1.0d,
+	y: 2.0d,
+	description: "这里的黑暗会吞噬你",
+	text: [
+		"几乎所有矿物都可以在这挖到"
+	],
+	dependencies: [
+		"38aa54d7"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "37ce4b33",
+		type: "dimension",
+		dim: -11325
+	}]
+}

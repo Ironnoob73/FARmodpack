@@ -1,0 +1,22 @@
+{
+	title: "暮色森林 §87",
+	icon: "twilightforest:naga_scale",
+	x: 1.0d,
+	y: 0.0d,
+	description: "科技能打败魔法吗",
+	text: [
+		"应该无需多言，这可是minecraft最经典的mod之一。",
+		"§l常见矿物§r:§a铜 锡 秘银 精金§r",
+		"§8主要矿物来自简单矿石"
+	],
+	dependencies: [
+		"4e49162e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "f4fe2350",
+		type: "dimension",
+		dim: 7
+	}]
+}

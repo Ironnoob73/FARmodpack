@@ -1,0 +1,22 @@
+{
+	title: "三重警告",
+	icon: "engineersdecor:sign_danger",
+	x: 1.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "这世界灾难不断，请小心",
+	text: [
+		"§l风暴警告§r：风暴即将来临，尽快找个庇护所躲起来，这里的狂风可不止能让猪飞起来！",
+		"§l尸潮警告§r：有组织的僵尸群三天后将会光顾你的出生点，它们会破坏方块，所以请尽量加厚墙壁或是建造一个树屋！",
+		"§l寒潮警告§r：正值年初，依旧是寒冬，注意保暖！"
+	],
+	dependencies: [
+		"d637c7f5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "19a03591",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

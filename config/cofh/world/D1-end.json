@@ -1,0 +1,34 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+		"ender_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "ender"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 24
+			},
+			"cluster-count": 10,
+			"chunk-chance": 4,
+			"min-height": 10,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

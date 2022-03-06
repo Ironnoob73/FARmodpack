@@ -1,0 +1,63 @@
+{
+	"priority": 1000000000000,
+	"populate": {
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"glowstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "glowstone"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_glowstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"chunk-chance": 12,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

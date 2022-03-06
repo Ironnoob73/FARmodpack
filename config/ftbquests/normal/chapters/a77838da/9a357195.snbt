@@ -1,0 +1,22 @@
+{
+	x: 16.049999999999997d,
+	y: 0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"a8717935"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "8e6fc637",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
