@@ -1,67 +1,48 @@
 [
   {
     "type": "palette",
-    "name": "extra",
-    "palette": [
-      {
-        "char": "O",
-        "block": "chisel:technicalnew@2",
-        "damaged": "minecraft:iron_bars"
-      },
-      {
-        "char": "^",
-        "block": "elevatorid:elevator_white",
-        "damaged": "minecraft:iron_bars"
-      }
-    ]
-  },
-  {
-    "type": "palette",
     "name": "bricks_standard",
     "palette": [
       {
         "char": "X",
-        "block": "minecraft:monster_egg@2",
+        "block": "chisel:stonebrick1@7",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "$",
-        "block": "minecraft:double_stone_slab",
+        "block": "chisel:stonebrick1@6",
         "damaged": "minecraft:iron_bars"
       },
       {
         "char": "#",
-        "blocks": [
-          {
-            "random": 9,
-            "block": "minecraft:stonebrick@2"
-          },
-          {
-            "random": 8,
-            "block": "minecraft:stonebrick@1"
-          },
-          {
-            "random": 1000,
-            "block": "minecraft:stonebrick"
-          }
-        ],
+        "block": "chisel:stonebrick1@8",
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "0",
-        "block": "chisel:laboratory@7",
+        "char": "*",
+        "block": "chisel:stonebrick2@1",
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "^",
+        "char": "-",
         "block": "elevatorid:elevator_gray",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "G",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": ".",
+        "block": "chisel:stonebrick2@5",
         "damaged": "minecraft:iron_bars"
       }
     ]
   },
   {
     "type": "palette",
-    "name": "bricks_white",
+    "name": "bricks_cyan",
     "palette": [
       {
         "char": "X",
@@ -79,13 +60,23 @@
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "0",
+        "char": "*",
         "block": "chisel:laboratory@6",
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "^",
+        "char": "-",
         "block": "elevatorid:elevator_white",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "G",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": ".",
+        "block": "chisel:factory@3",
         "damaged": "minecraft:iron_bars"
       }
     ]
@@ -110,13 +101,23 @@
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "0",
+        "char": "*",
         "block": "chisel:laboratory@8",
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "^",
+        "char": "-",
         "block": "elevatorid:elevator_gray",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "G",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": ".",
+        "block": "chisel:factory@2",
         "damaged": "minecraft:iron_bars"
       }
     ]
@@ -141,14 +142,69 @@
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "0",
+        "char": "*",
         "block": "chisel:laboratory@7",
         "damaged": "minecraft:iron_bars"
       },
       {
-        "char": "^",
+        "char": "-",
         "block": "elevatorid:elevator_silver",
         "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "G",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": ".",
+        "block": "chisel:factory@4",
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "glass_full",
+    "palette": [
+      {
+        "char": "+",
+        "block": "minecraft:glass"
+      },
+      {
+        "char": "`",
+        "block": "minecraft:glass"
+      },
+      {
+        "char": "a",
+        "block": "minecraft:glass"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "glass_pane",
+    "palette": [
+      {
+        "char": "+",
+        "block": "minecraft:glass"
+      },
+      {
+        "char": "`",
+        "block": "minecraft:glass"
+      },
+      {
+        "char": "a",
+        "blocks": [
+          {
+            "random": 5,
+            "block": "chisel:planks-oak@7"
+          },
+          {
+            "random": 100,
+            "block": "chisel:glass@4"
+          }
+        ]
       }
     ]
   }

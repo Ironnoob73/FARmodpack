@@ -1,0 +1,70 @@
+# Bedrock Dungeon Tunnel -- MC 1.7.10 -- 29 Jan 2016
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Note: Place in \templateparser folder.
+# Updated to MC 1.8: 5 Mar 2016
+# Updated to MC 1.9: 26 Apr 2016
+# Updated to MC 1.11: 11 Jan 2017 / Updated 11 May 2017
+# Updated to MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=5,5,21
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:stone-0
+rule2=0,100,minecraft:cobblestone-0
+rule3=0,100,minecraft:cobblestone_wall-0
+rule4=0,100,minecraft:rail-0
+
+rule5=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 mob_spawner 0 replace {SpawnCount:1,SpawnRange:4,maxNearbyEntities:6,Delay:20,MinSpawnDelay:60,MaxSpawnDelay:120,EntityId:skeleton,SpawnData:{id:skeleton,HandItems:[{Count:1,id:iron_pickaxe,tag:{ench:[{id:16,lvl:3},{id:33,lvl:1}]}},{}],ArmorItems:[{Count:1,id:leather_boots},{Count:1,id:leather_leggings},{Count:1,id:leather_chestplate},{Count:1,id:iron_helmet,tag:{ench:[{id:3,lvl:2},{id:5,lvl:2}]}}],HandDropChances:[0.2F,0.0F],ArmorDropChances:[0.0F,0.0F,0.0F,0.1F],ActiveEffects:[{Id:14,Amplifier:1,Duration:999999}]}}:@,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 mob_spawner 0 replace {SpawnCount:1,SpawnRange:4,maxNearbyEntities:6,Delay:20,MinSpawnDelay:60,MaxSpawnDelay:120,SpawnData:{id:skeleton,HandItems:[{Count:1,id:rail},{}],ArmorItems:[{Count:1,id:leather_boots},{Count:1,id:leather_leggings},{Count:1,id:leather_chestplate},{Count:1,id:iron_helmet,tag:{ench:[{id:3,lvl:2},{id:5,lvl:2}]}}],HandDropChances:[2.0F,0.0F],ActiveEffects:[{Id:21,Amplifier:1,Duration:999999},{Id:14,Amplifier:1,Duration:999999},{Id:5,Amplifier:1,Duration:999999}]}}:@
+
+rule6=0,100,minecraft:stone_slab-8
+
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2
+endlayer
+
+layer
+2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2,3,0,3,2
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+2,3,0,3,2,3,0,3,2,3,5,3,2,3,0,3,2,3,0,3,2
+endlayer
+
+layer
+2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0,3
+2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2,3,3,3,2
+endlayer
+
+layer
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2
+2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2
+2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2,6,6,6,2
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+endlayer
+

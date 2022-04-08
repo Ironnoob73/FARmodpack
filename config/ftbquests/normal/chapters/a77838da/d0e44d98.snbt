@@ -10,6 +10,7 @@
 		"§l尸潮警告§r：有组织的僵尸群三天后将会光顾你的出生点，它们会破坏方块，所以请尽量加厚墙壁或是建造一个树屋！",
 		"§l寒潮警告§r：正值年初，依旧是寒冬，注意保暖！"
 	],
+	guide_page: "twilightforest:world/magic_map",
 	dependencies: [
 		"d637c7f5"
 	],

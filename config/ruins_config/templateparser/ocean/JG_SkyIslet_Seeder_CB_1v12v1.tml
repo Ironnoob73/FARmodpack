@@ -1,0 +1,55 @@
+# Sky Islet Seeder
+# Created by Ruins mod version 16.8 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Created for MC 1.12.1: 9 Sep 2017
+# Last Updated: 8 Dec 2018
+
+biomesToSpawnIn=deep ocean,deep_ocean,frozen ocean,frozen_ocean,ocean,dungeon,kelp forest,kelp_forest,mining biome,mining_biome,ocean oil field,ocean_oil_field,oceanic abyss,oceanic_abyss,coral reef,coral_reef,sky,the end,the_end,rwg_oceantemperate,tropical_island
+biomeTypesToSpawnIn=OCEAN,VOID
+
+uniqueMinDistance=2000
+
+weight=1
+embed_into_distance=4
+
+unacceptable_target_blocks=command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=1,3,3
+allowable_overhang=0
+max_leveling=12
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+
+# Western Islet
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-24 ~66 ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-22 ~66 ~-3:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-21 ~66 ~3:@
+
+# Northern Islet
+rule3=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~0 ~66 ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~3 ~66 ~-21:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-3 ~66 ~-22:@
+
+# Central Islet
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~0 ~68 ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~1 ~68 ~1:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-1 ~68 ~-1:@
+
+# Southern Islet
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~0 ~66 ~24:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~3 ~66 ~21:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~-3 ~66 ~25:@
+
+# Eastern Islet
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~24 ~66 ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~22 ~66 ~3:@,CommandBlock:RUINSTRIGGER /testruin TP_SkyIslet1 ~21 ~66 ~-3:@
+
+# EW Bridge
+rule7=0,100,CommandBlock:RUINSTRIGGER /fill ~-22 ~62 ~0 ~22 ~63 ~0 stone 0 keep:@
+
+# NS Bridge
+rule8=0,100,CommandBlock:RUINSTRIGGER /fill ~0 ~62 ~-22 ~0 ~63 ~22 stone 0 keep:@
+
+layer
+7,2,1
+5,4,3
+1,6,8
+endlayer
+
+
+

@@ -1,0 +1,108 @@
+# Mini Ice Dungeon
+# Created by Ruins mod version 15.6 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Created for MC 1.8: 30 May 2016
+# Updated for MC 1.9: 30 May 2016
+# Verified for MC 1.11: 10 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated 8 Jul 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+
+
+biomesToSpawnIn=alps,cold beach,cold_beach,cold desert,cold_desert,cold taiga,cold taiga hills,cold taiga m,frozenocean,frozen_ocean,frozenriver,frozen_river,glacier,ice mountains,ice plains,ice plains spikes,polar,polar_chasm,snowy coniferous forest,snow forest,snow_forest,snowy forest,snowy_forest,tundra,winter wonderland,cold_beach,ice_flats,mutated_ice_flats,mutated_taiga_cold,taiga_cold,taiga_cold_hills
+
+weight=1
+embed_into_distance=42
+acceptable_target_blocks=
+
+unacceptable_target_blocks=water,flowing_water,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=6,9,9
+allowable_overhang=999
+max_leveling=12
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+rule2=0,100,minecraft:packed_ice-0
+rule3=0,100,minecraft:ice-0
+rule4=0,100,MobSpawner:Skeleton,MobSpawner:Zombie
+rule5=0,100,ChestGenHook:chests/simple_dungeon:5-4
+
+# Preserve Layer (bedrock buffer)
+layer
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+endlayer
+
+
+layer
+1,1,1,2,2,2,1,1,1
+1,1,2,2,2,2,2,1,1
+1,2,2,2,2,2,2,2,1
+2,2,2,3,3,3,2,2,2
+2,2,2,3,4,3,2,2,2
+2,2,2,3,3,3,2,2,2
+1,2,2,2,2,2,2,2,1
+1,1,2,2,2,2,2,1,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+layer
+1,1,2,3,3,3,2,1,1
+1,2,0,0,0,0,0,2,1
+2,0,0,0,0,0,0,0,2
+3,0,0,0,3,0,0,0,3
+3,0,0,3,5,3,0,0,3
+3,0,0,0,3,0,0,0,3
+2,0,0,0,0,0,0,0,2
+1,2,0,0,0,0,0,2,1
+1,1,2,3,3,3,2,1,1
+endlayer
+
+layer
+1,2,3,3,3,3,3,2,1
+2,0,0,0,0,0,0,0,2
+3,0,0,0,0,0,0,0,3
+3,0,0,0,0,0,0,0,3
+3,0,0,0,3,0,0,0,3
+3,0,0,0,0,0,0,0,3
+3,0,0,0,0,0,0,0,3
+2,0,0,0,0,0,0,0,2
+1,2,3,3,3,3,3,2,1
+endlayer
+
+layer
+1,1,2,3,3,3,2,1,1
+1,2,0,0,0,0,0,2,1
+2,0,0,0,0,0,0,0,2
+3,0,0,0,3,0,0,0,3
+3,0,0,3,3,3,0,0,3
+3,0,0,0,3,0,0,0,3
+2,0,0,0,0,0,0,0,2
+1,2,0,0,0,0,0,2,1
+1,1,2,3,3,3,2,1,1
+endlayer
+
+layer
+1,1,1,2,2,2,1,1,1
+1,1,2,2,2,2,2,1,1
+1,2,2,3,3,3,2,2,1
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+1,2,2,3,3,3,2,2,1
+1,1,2,2,2,2,2,1,1
+1,1,1,2,2,2,1,1,1
+endlayer
+

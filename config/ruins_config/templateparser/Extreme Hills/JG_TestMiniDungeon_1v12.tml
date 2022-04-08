@@ -1,0 +1,167 @@
+# TestMiniDungeon -- created 15 Oct 2014 - 1.7.10
+# (test to experiment with randomized chest inventory)
+# Created by Ruins mod version 13.8 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.8: 29 Oct 2015
+# Updated to MC 1.9: 29 Apr 2016
+# Updated to MC 1.11: 12 Jan 2017
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+
+biomesToSpawnIn=badlands,dead forest,dead swamp,forest,foresthills,extreme hills edge,sunflower plains,xeric shrubland,forest_hills,mutated_swampland,mutated_plains,smaller_extreme_hills
+
+weight=1
+embed_into_distance=5
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block
+
+dimensions=10,7,7
+allowable_overhang=0
+max_leveling=5
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:cobblestone-0
+rule2=0,100,minecraft:stained_hardened_clay-14
+rule3=0,100,minecraft:stained_hardened_clay-15
+
+# Hidden monster spawner
+rule4=0,100,MobSpawner:Creeper
+
+# Random chance of regular or "unstable" TNT trap
+rule5=0,100,minecraft:tnt-1,minecraft:tnt-0
+
+rule6=0,100,minecraft:stone_stairs-3
+rule7=0,100,minecraft:stone_stairs-2
+rule8=0,100,minecraft:stone_stairs-1
+rule9=0,100,minecraft:stone_stairs-0
+
+# Rule "2" to postpone adding the ladder until supports are built
+rule10=2,100,minecraft:ladder-2
+
+rule11=0,100,minecraft:stone_stairs-7
+rule12=0,100,minecraft:stone_stairs-6
+rule13=0,100,minecraft:stone_stairs-5
+rule14=0,100,minecraft:stone_stairs-4
+
+# Randomized Chest -- one of three oddball items
+rule15=0,100,IInventory;minecraft:trapped_chest;minecraft:spawn_egg#{EntityTag:{id:"villager"}}#120#1+minecraft:spawn_egg#{EntityTag:{id:"villager"}}#120#3-3,IInventory;minecraft:trapped_chest;minecraft:grass#64#0#2-3,IInventory;minecraft:trapped_chest;minecraft:web#8#0#0-3
+
+# Lower Level Ceiling
+rule16=0,100,minecraft:stone_slab-8
+
+# Column Base/Cap
+rule17=1,100,minecraft:stonebrick-3
+
+# Columns (ruined)
+rule18=1,90,minecraft:double_stone_slab-0
+
+# Wall Segments (ruined)
+rule19=2,90,minecraft:cobblestone_wall-0
+
+# Bridge Blocks (ruined)
+rule20=2,90,minecraft:stonebrick-0
+
+layer
+1,1,1,1,1,1,1
+1,2,3,2,3,2,1
+1,3,3,3,3,3,1
+1,2,3,5,4,2,1
+1,3,3,3,3,3,1
+1,2,3,2,3,2,1
+1,1,1,1,1,1,1
+endlayer
+
+layer
+1,7,6,8,7,6,1
+8,0,0,0,0,0,8
+9,0,6,9,9,0,9
+7,0,6,2,1,10,6
+8,0,8,8,7,0,8
+9,0,0,0,0,0,9
+1,7,6,9,7,6,1
+endlayer
+
+layer
+1,12,11,13,12,11,1
+13,0,0,0,0,0,13
+14,0,0,0,0,0,14
+12,0,0,15,1,10,11
+13,0,0,0,0,0,11
+14,0,0,0,0,0,14
+1,12,11,14,12,11,1
+endlayer
+
+layer
+1,7,6,8,7,6,1
+8,0,0,0,0,0,8
+9,0,0,0,0,0,9
+7,0,0,0,1,10,6
+8,0,0,0,0,0,8
+9,0,0,0,0,0,9
+1,7,6,9,7,6,1
+endlayer
+
+layer
+1,12,11,13,12,11,1
+13,16,16,16,16,16,13
+14,16,16,16,16,16,14
+12,16,16,11,1,10,11
+13,16,16,16,16,16,13
+14,16,16,16,16,16,14
+1,12,11,14,12,11,1
+endlayer
+
+layer
+17,1,17,1,17,1,17
+1,2,3,2,3,2,1
+17,3,2,3,2,3,17
+6,2,3,2,3,10,1
+17,3,2,3,2,3,17
+1,2,3,2,3,2,1
+17,1,17,1,17,1,17
+endlayer
+
+layer
+18,19,18,19,18,19,18
+19,0,0,0,0,0,19
+18,0,0,0,0,0,18
+0,0,0,0,0,0,19
+18,0,0,0,0,0,18
+19,0,0,0,0,0,19
+18,19,18,19,18,19,18
+endlayer
+
+layer
+18,0,18,0,18,0,18
+0,0,0,0,0,0,0
+18,0,0,0,0,0,18
+0,0,0,0,0,0,0
+18,0,0,0,0,0,18
+0,0,0,0,0,0,0
+18,0,18,0,18,0,18
+endlayer
+
+layer
+18,19,18,19,18,19,18
+19,0,0,0,0,0,19
+18,0,0,0,0,0,18
+19,0,0,0,0,0,19
+18,0,0,0,0,0,18
+19,0,0,0,0,0,19
+18,19,18,19,18,19,18
+endlayer
+
+layer
+17,20,17,20,17,20,17
+20,0,0,0,0,0,20
+17,0,0,0,0,0,17
+20,0,0,0,0,0,20
+17,0,0,0,0,0,17
+20,0,0,0,0,0,20
+17,20,17,20,17,20,17
+endlayer
+

@@ -1,0 +1,33 @@
+# Limbo Dungeon Seeder -- MC 1.7.10 -- 19 Feb 2016
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Experimental method of spawning a Nether structure on the "floor"
+# of the Nether caves, vs. ceiling.  Should be in "hell" folder.
+# Summoned structures need to be in \templateparser folder.
+
+# Verified for MC 1.12: 23 Jun 2017
+
+# Last Updated: 29 May 2018
+
+biomesToSpawnIn=boneyard,corrupted sands,corrupted_sands,fungi forest,fungi_forest,hell,phantasmagoric inferno,phantasmagoric_inferno,spectral garden,spectral_garden,undergarden,visceral heap,visceral_heap
+
+uniqueMinDistance=2500
+
+weight=1
+embed_into_distance=64
+acceptable_target_blocks=
+unacceptable_target_blocks=cloud,command_block
+dimensions=1,1,1
+allowable_overhang=99999
+max_leveling=1
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Limbo_Entry ~0 127 ~0:@
+
+
+layer
+1
+endlayer
+

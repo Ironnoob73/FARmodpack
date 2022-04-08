@@ -1,0 +1,30 @@
+# Command Block Trap -- Lava Block
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 18 Feb 2016
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:flowing_lava
+
+rule2=0,100,minecraft:obsidian
+
+layer
+2
+endlayer
+
+layer
+1
+endlayer
+

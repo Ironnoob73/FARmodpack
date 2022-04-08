@@ -1,0 +1,164 @@
+# Generic Dungeon 5x5
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# 26 Jan 2016 -- MC 1.7.10
+# Note: Place in biome folder.  Referenced templates go in \templateparser folder.
+# Updated to MC 1.9: 26 Apr 2016
+# Updated to MC 1.10: 13 Sep 2016
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+
+biomesToSpawnIn=alps,alps forest,bayou,beach,birch forest,birch forest hills,brushland,canyon,canyon ravine,chaparral,cold beach,cold taiga,cold taiga hills,coniferous forest,coniferous_forest,corrupted land,crag,desert,desert hills,dreadlands,dry river,eucalyptus forest,extreme hills,extreme hills edge,fen,flower field,flower forest,forest,foresthills,frozenriver,grassland,grove,heathland,hell,highland,ice mountains,ice plains,jade cliffs,jungle,jungleedge,junglehills,land of lakes,land of lakes marsh,lavender fields,lavender_fields,lush desert,lush_desert,lush river,lush swamp,lush_swamp,mangrove,mega spruce taiga,mega taiga,mega taiga hills,mesa,mesa (bryce),mesa plateau,mini_jungle,moor,mountain,mystic grove,ocean,plains,polar chasm,polar_chasm,rainforest,redwood forest,river,roofed forest,rwg_coldforest,rwg_coldplains,rwg_hotforest,rwg_jungle,rwg_oasis,rwg_plains,rwg_redwood,rwg_snowdesert,rwg_snowforest,rwg_tropical,savanna,savanna plateau,steppe,stone beach,stone_beach,sunflower plains,swampland,taiga,taigahills,visceral heap,woodland,xeric shrubland,xeric_shrubland,mining biome,mining_biome,beaches,birch_forest,birch_forest_hills,cold_beach,desert_hills,mesa_clear_rock,mesa_rock,mutated_desert,mutated_birch_forest,mutated_birch_forest_hills,mutated_plains,mutated_jungle,mutated_taiga,mutated_taiga_cold,redwood_taiga,smaller_extreme_hills,taiga_cold,taiga_cold_hills
+
+uniqueMinDistance=2000
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+
+unacceptable_target_blocks=cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+
+dimensions=25,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-32 12 ~-32:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-16 12 ~-32:@
+rule3=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~0 12 ~-32:@
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~16 12 ~-32:@
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~32 12 ~-32:@
+
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-32 12 ~-16:@
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-16 12 ~-16:@
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~0 12 ~-16:@
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~16 12 ~-16:@
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~32 12 ~-16:@
+
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-32 12 ~0:@
+rule12=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-16 12 ~0:@
+rule13=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~0 12 ~0:@
+rule14=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~16 12 ~0:@
+rule15=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~32 12 ~0:@
+
+rule16=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-32 12 ~16:@
+rule17=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-16 12 ~16:@
+rule18=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~0 12 ~16:@
+rule19=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~16 12 ~16:@
+rule20=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~32 12 ~16:@
+
+rule21=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-32 12 ~32:@
+rule22=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~-16 12 ~32:@
+rule23=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~0 12 ~32:@
+rule24=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~16 12 ~32:@
+rule25=0,100,CommandBlock:RUINSTRIGGER /testruin TP_GenDungeon_4Way ~32 12 ~32:@
+
+
+
+
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+layer
+3
+endlayer
+
+layer
+4
+endlayer
+
+layer
+5
+endlayer
+
+layer
+6
+endlayer
+
+layer
+7
+endlayer
+
+layer
+8
+endlayer
+
+layer
+9
+endlayer
+
+layer
+10
+endlayer
+
+layer
+11
+endlayer
+
+layer
+12
+endlayer
+
+layer
+13
+endlayer
+
+layer
+14
+endlayer
+
+layer
+15
+endlayer
+
+layer
+16
+endlayer
+
+layer
+17
+endlayer
+
+layer
+18
+endlayer
+
+layer
+19
+endlayer
+
+layer
+20
+endlayer
+
+layer
+21
+endlayer
+
+layer
+22
+endlayer
+
+layer
+23
+endlayer
+
+layer
+24
+endlayer
+
+layer
+25
+endlayer
+
+

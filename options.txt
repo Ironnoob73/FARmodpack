@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:-0.06530018
+fov:-0.06610222
 gamma:1.0
 saturation:0.0
 renderDistance:16
@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","A16x"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -61,7 +61,7 @@ key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.sprint:16
-key_key.drop:12
+key_key.drop:19:ALT
 key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
@@ -85,7 +85,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_of.key.zoom:46
+key_of.key.zoom:58
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
 key_key.torcherino.useage_key:42
@@ -160,7 +160,7 @@ key_key.vehicleMenu.desc:34
 key_key.dropBomb.desc:71
 key_key.fireVehicleGuns.desc:72
 key_key.switchControlMode.desc:55
-key_key.reload.desc:19:SHIFT
+key_key.reload.desc:19
 key_key.teamsMenu.desc:0
 key_key.teamsScores.desc:0
 key_key.rollLeft.desc:0
@@ -184,6 +184,8 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:0
 key_key.jei.toggleBookmarkOverlay:0
+key_jecalculation.key.gui_craft:0
+key_jecalculation.key.gui_math:0
 key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
@@ -195,8 +197,18 @@ key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
+key_World Handler:47
 key_key.aether.accessory_menu:0
+key_key.securitycraft.cameraZoomIn:13
+key_key.securitycraft.cameraZoomOut:12
+key_key.securitycraft.cameraEmitRedstone:19:SHIFT
+key_key.securitycraft.cameraActivateNightVision:49
 key_key.clipboardPaste:210
+key_gui.xaero_open_map:51
+key_gui.xaero_open_settings:52
+key_gui.xaero_map_zoom_in:0
+key_gui.xaero_map_zoom_out:0
+key_gui.xaero_quick_confirm:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:0
 key_gui.xaero_toggle_slime:0
@@ -214,19 +226,17 @@ key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_minimap_settings:21
-key_gui.xaero_open_map:51
-key_gui.xaero_open_settings:52
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:0
 key_key.settings_menu:34
-key_key.range:19
+key_key.range:19:SHIFT
 key_key.undo:14
 key_key.anchor:35
 key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:15
+key_key.keyExtraInvo:45:SHIFT
+key_key.keyWheel:19:CONTROL
+key_key.keyExtraCraftin:0
 key_key.travelersbackpack.inventory:48
 key_key.travelersbackpack.toggle_tank:49
 key_key.travelersbackpack.cycle_tool:44
@@ -246,7 +256,7 @@ key_key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
 key_mekanism.key.mode:43
 key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
-key_mekanism.key.voice:0
+key_mekanism.key.voice:19:SHIFT
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15

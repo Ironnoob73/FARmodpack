@@ -68,5 +68,5 @@ ofShowGlErrors:true
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false
-ofTranslucentBlocks:0
-key_of.key.zoom:46
+ofTranslucentBlocks:2
+key_of.key.zoom:58

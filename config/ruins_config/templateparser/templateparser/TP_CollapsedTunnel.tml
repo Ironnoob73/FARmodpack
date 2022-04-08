@@ -1,0 +1,111 @@
+
+# Collapsed Express Rail Tunnel (25 Mar 2014; MC 1.5.*)
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.7.10, 11 Oct 2014
+# Last Updated: 27 Apr 2015
+
+# Should create a submerged, partially "collapsed" tunnel,
+# as if the remains of some abandoned dwarven mining project
+
+# Note: Scenery version; no treasure, no monster spawner
+# Put in \templateparser folder.  Meant to be called.
+
+biomesToSpawnIn=extreme hills
+
+weight=1
+
+embed_into_distance=20
+
+unacceptable_target_blocks=lava,flowing_lava,water,flowing_water,cloud,Natura:Cloud
+
+dimensions=6,5,25
+allowable_overhang=200
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+#Filler
+rule1=0,100,preserveBlock
+
+#Stone Brick Walls (randomized: regular, mossy, cracked)
+rule2=0,100,minecraft:stonebrick-0,minecraft:stonebrick-1,minecraft:stonebrick-2
+
+#Express Rail
+rule3=1,100,minecraft:rail-0,minecraft:golden_rail-0,minecraft:golden_rail-0,minecraft:golden_rail-0,minecraft:gravel
+
+#Cobblestone Flooring (regular, mossy, or gravel)
+rule4=0,100,minecraft:cobblestone,minecraft:mossy_cobblestone,minecraft:gravel
+
+#Gravel Debris
+rule5=0,33,minecraft:gravel
+
+#Cobwebs
+rule6=0,25,minecraft:web
+
+#Stone Wall Supports
+rule7=0,100,minecraft:cobblestone_wall
+
+#Stone Slab Ceiling
+rule8=0,100,minecraft:double_stone_slab,minecraft:double_stone_slab,minecraft:stone_slab-8,minecraft:gravel
+
+
+# ----------------------------------------------------
+
+# Tunnel Floor
+layer
+1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1
+1,1,1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1,1
+1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,1
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1
+endlayer
+
+# Track Base
+layer
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,1,1,5,7,5,5,5,7,5,5,5,7,5,5,5,7,5,5,5,7,5,1,1,1
+1,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,1
+1,1,1,5,7,5,5,5,7,5,5,5,7,5,5,5,7,5,5,5,7,1,1,1,1
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+endlayer
+
+# Layer 1
+layer
+1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1
+1,1,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,1,1,1
+1,1,1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,1
+1,1,1,1,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,1
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1
+endlayer
+
+# Layer 2
+layer
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+1,1,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,1,1,1
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1
+7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,1,1,1
+1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1
+endlayer
+
+# Layer 3
+layer
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1
+7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,1,1
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1
+7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7,6,6,6,7
+1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1
+endlayer
+
+# Ceiling
+layer
+1,1,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,1,1
+1,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,1
+1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1
+1,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,1
+1,1,1,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,1,1,1
+endlayer
+

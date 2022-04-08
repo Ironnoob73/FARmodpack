@@ -13,8 +13,8 @@ val sin0=<extendedcrafting:singularity_ultimate>;
 val sin1=<eternalsingularity:eternal_singularity>;
 val miss=<itemfilters:missing>;
 mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:6>);
-mods.avaritia.ExtremeCrafting.addShaped("infinity_ingot_aleph",aleph1, 
-[[res4,res4,res4,res4,res4,res4,res4,res4,res4],
+mods.avaritia.ExtremeCrafting.addShaped("infinity_ingot_aleph",aleph1,[
+[res4,res4,res4,res4,res4,res4,res4,res4,res4],
 [res4,aleph0,res1,res1,res1,res1,res1,aleph0,res4],
 [res4,res1,aleph0,res1,res1,res1,res1,aleph0,res4],
 [res4,res1,aleph0,aleph0,res1,res1,res1,aleph0,res4],
@@ -24,15 +24,15 @@ mods.avaritia.ExtremeCrafting.addShaped("infinity_ingot_aleph",aleph1,
 [res4,aleph0,res1,res1,res1,res1,res1,aleph0,res4],
 [res4,res4,res4,res4,res4,res4,res4,res4,res4]]);
 recipes.remove(res1);
-mods.avaritia.ExtremeCrafting.addShaped("crystal_matrix_custom",res1, 
-[[res2,res0,res2,res0,res2,res0,res2,res0,res2],
+mods.avaritia.ExtremeCrafting.addShaped("crystal_matrix_custom",res1,[
+[res2,res0,res2,res0,res2,res0,res2,res0,res2],
 [res0,res2,res0,res2,res0,res2,res0,res2,res0],
 [res2,res0,res2,res0,res2,res0,res2,res0,res2],
 [res0,res2,res0,res2,res0,res2,res0,res2,res0],
 [res2,res0,res2,res0,res2,res0,res2,res0,res2]]);
 mods.avaritia.ExtremeCrafting.remove(aleph0);
-mods.avaritia.ExtremeCrafting.addShaped("crystal_catalyst_custom",aleph0,
-[[res3,res4,res4,res1,res5,res1,res4,res4,res3], 
+mods.avaritia.ExtremeCrafting.addShaped("crystal_catalyst_custom",aleph0,[
+[res3,res4,res4,res1,res5,res1,res4,res4,res3], 
 [res4,res3,res4,res1,res5,res1,res4,res3,res4], 
 [res4,res4,res3,res1,res8,res1,res3,res4,res4], 
 [res1,res1,res1,miss,res6,miss,res1,res1,res1], 

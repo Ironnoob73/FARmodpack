@@ -1,0 +1,79 @@
+# Anchor (Stone) -- 13 Oct 2014
+# Created by Ruins mod version 13.8 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.8: 22 Jul 2015
+# Last Updated 22 Nov 2015
+# Updated for MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 21 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+# Last Updated: 8 Dec 2018
+
+biomesToSpawnIn=beach,beaches,coral reef,coral_reef,deep abyss,deep_abyss,deep ocean,deep_ocean,gravel beach,gravel_beach,forested island,forested_island,mushroomislandshore,shore,oceandeep abyss,ocean abyss,rwg_oceantemperate,rwg_oceanwet,stone_beach
+biomeTypesToSpawnIn=OCEAN,BEACH
+
+weight=1
+embed_into_distance=1
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,mycelium,stone,sandstone,slime_congealed,slime_dirt,slime_grass,command_block,ice,packed_ice,blue_ice,snow
+
+dimensions=5,7,1
+allowable_overhang=5
+max_leveling=4
+leveling_buffer=-1
+preserve_water=1
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+2
+2
+2
+2
+2
+1
+endlayer
+
+layer
+2
+2
+1
+2
+1
+2
+2
+endlayer
+
+layer
+1
+1
+1
+2
+1
+1
+1
+endlayer
+
+layer
+1
+1
+2
+1
+2
+1
+1
+endlayer
+
+layer
+1
+1
+1
+2
+1
+1
+1
+endlayer
+

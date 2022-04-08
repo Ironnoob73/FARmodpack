@@ -130,25 +130,6 @@
 				]
 			}
 		},
-		"redstone": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "redstone_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 8,
-			"min-height": 0,
-			"max-height": 16,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
 		"lapis": {
 			"distribution": "gaussian",
 			"generator": {
@@ -746,30 +727,56 @@
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": [
+				"block":[
 					{
-						"name": "thermalfoundation:ore_fluid",
+						"name":"thermalfoundation:ore_fluid",
 						"properties": {
-							"type": "redstone"
+							"type":"redstone"
 						},
-						"weight": 90
+						"weight": 99
 					},
 					{
-						"name": "thermalfoundation:fluid_redstone",
-						"weight": 10
+						"name":"thermalfoundation:fluid_redstone",
+						"weight": 1
 					}
 				],
 				"material": "minecraft:stone",
 				"cluster-size": 16
 			},
-			"cluster-count": 2,
-			"chunk-chance": 12,
-			"min-height": 0,
-			"max-height": 20,
-			"retrogen": "true",
-			"biome": "all",
+			"cluster-count":8,
+			"chunk-chance":12,
+			"min-height":0,
+			"max-height":20,
+			"retrogen":"true",
+			"biome":"all",
 			"dimension": {
-				"restriction": "whitelist",
+				"restriction":"whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"ender_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "ender"
+					}
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 10,
+			"chunk-chance": 4,
+			"min-height":64,
+			"max-height":255,
+			"retrogen": "true",
+			"biome":"all",
+			"dimension": {
+				"restriction":"whitelist",
 				"value": [
 					0
 				]

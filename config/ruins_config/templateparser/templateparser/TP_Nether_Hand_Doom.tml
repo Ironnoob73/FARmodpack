@@ -1,0 +1,114 @@
+# Hand of Doom (6 May 2014)
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Originally created for use with Hexxit modpack
+
+# Updated to MC 1.12: 8 Apr 2018
+
+BiomesToSpawnIn=boneyard,hell,nether
+
+weight=5
+embed_into_distance=1
+
+
+acceptable_target_blocks=
+unacceptable_target_blocks=water
+
+dimensions=8,5,7
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=1
+preserve_plants=1
+
+# Preserve Terrain
+rule1=0,100,preserveBlock
+
+# Bone Block
+rule2=1,100,minecraft:bone_block-0
+
+# Netherrack
+rule3=1,100,minecraft:netherrack
+
+# Fire
+rule4=1,100,minecraft:fire-15
+
+# (-1)
+layer
+1,1,1,2,1,2,1
+1,2,1,1,1,1,1
+1,1,1,1,1,1,1
+2,1,1,1,1,1,1
+1,1,1,1,1,1,2
+endlayer
+
+# (+1)
+layer
+1,1,1,2,1,2,1
+1,2,1,1,1,1,1
+1,1,1,1,1,1,1
+2,1,1,1,1,1,1
+1,1,1,1,1,1,2
+endlayer
+
+# (+2)
+layer
+1,1,1,2,1,2,1
+1,2,1,1,1,1,1
+1,1,1,1,1,1,1
+2,1,1,1,1,1,1
+1,1,1,1,1,1,2
+endlayer
+
+# (+3)
+layer
+1,1,1,2,1,2,1
+1,2,1,1,1,1,1
+1,1,1,1,1,1,1
+2,1,1,1,1,1,1
+1,1,1,1,1,1,3
+endlayer
+
+# (+4)
+layer
+1,1,1,2,1,2,1
+1,2,1,1,1,1,1
+1,1,1,1,1,1,1
+3,1,1,1,1,1,1
+1,1,1,1,1,1,4
+endlayer
+
+# (+5)
+layer
+1,1,1,2,1,3,1
+1,3,1,1,1,1,1
+1,1,1,1,1,1,1
+4,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# (+6)
+layer
+1,1,1,3,1,4,1
+1,4,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# (+7)
+layer
+1,1,1,4,1,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+
+
+
+

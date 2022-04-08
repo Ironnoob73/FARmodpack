@@ -1,0 +1,87 @@
+# X Marks the Spot! (White Beach)
+# Created by Ruins mod version 16.0 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Created for MC 1.9: 24 May 2016
+# Verified for MC 1.11: 10 Jan 2017
+# Verified for MC 1.12: 8 Jul 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+# Requires Biomes o' Plenty
+
+biomesToSpawnIn=white_beach
+
+uniqueMinDistance=500
+
+weight=1
+embed_into_distance=9
+
+acceptable_target_blocks=white_sand,white_sandstone
+
+unacceptable_target_blocks=
+dimensions=9,3,3
+allowable_overhang=0
+max_leveling=1
+leveling_buffer=-1
+preserve_water=1
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,biomesoplenty:white_sandstone-0
+rule2=0,100,ChestGenHook:chests/simple_dungeon:5-2
+rule3=0,100,biomesoplenty:white_sand-0
+rule4=0,100,minecraft:planks-2
+
+layer
+1,1,1
+1,2,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+layer
+1,1,1
+1,1,1
+1,1,1
+endlayer
+
+
+layer
+3,3,3
+3,3,3
+3,3,3
+endlayer
+
+layer
+4,3,4
+3,4,3
+4,3,4
+endlayer
+

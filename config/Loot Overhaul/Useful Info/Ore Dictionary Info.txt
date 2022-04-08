@@ -4224,6 +4224,8 @@ chisel:cobblestone2 - 7
 chisel:cobblestone2 - 8
 chisel:cobblestone2 - 9
 extraplanets:kepler22b - 12
+galacticraftplanets:mars - 4
+galaxyspace:haumeablocks - 2
 galaxyspace:barnarda_c_blocks - 4
 moreplanets:fronos_cobblestone - 0
 moreplanets:diona_cobblestone - 0
@@ -7106,6 +7108,90 @@ essence
 endreborn:item_end_essence - 0
 
 
+essenceAdamantite
+jaopca:item_essenceadamantite - 0
+
+
+essenceAdamantium
+jaopca:item_essenceadamantium - 0
+
+
+essenceAmaranth
+jaopca:item_essenceamaranth - 0
+
+
+essenceAncientDebris
+jaopca:item_essenceancientdebris - 0
+
+
+essenceAntimony
+jaopca:item_essenceantimony - 0
+
+
+essenceAscendium
+jaopca:item_essenceascendium - 0
+
+
+essenceAzurite
+jaopca:item_essenceazurite - 0
+
+
+essenceBismuth
+jaopca:item_essencebismuth - 0
+
+
+essenceBlueDiamond
+jaopca:item_essencebluediamond - 0
+
+
+essenceBlueGem
+jaopca:item_essencebluegem - 0
+
+
+essenceCarbon
+jaopca:item_essencecarbon - 0
+
+
+essenceChargium
+jaopca:item_essencechargium - 0
+
+
+essenceCrystal
+jaopca:item_essencecrystal - 0
+
+
+essenceDarkIron
+jaopca:item_essencedarkiron - 0
+
+
+essenceDimensionalShard
+jaopca:item_essencedimensionalshard - 0
+
+
+essenceEtrium
+jaopca:item_essenceetrium - 0
+
+
+essenceEvenium
+jaopca:item_essenceevenium - 0
+
+
+essenceFueltonium
+jaopca:item_essencefueltonium - 0
+
+
+essenceGarnet
+jaopca:item_essencegarnet - 0
+
+
+essenceGreenDiamond
+jaopca:item_essencegreendiamond - 0
+
+
+essenceHeartium
+jaopca:item_essenceheartium - 0
+
+
 essenceInferium
 mysticalagriculture:crafting - 0
 
@@ -7118,8 +7204,72 @@ essenceIntermedium
 mysticalagriculture:crafting - 2
 
 
+essenceLostDiamond
+jaopca:item_essencelostdiamond - 0
+
+
+essenceMercury
+jaopca:item_essencemercury - 0
+
+
+essenceMythril
+jaopca:item_essencemythril - 0
+
+
+essenceOnyx
+jaopca:item_essenceonyx - 0
+
+
+essenceOpal
+jaopca:item_essenceopal - 0
+
+
+essencePalladium
+jaopca:item_essencepalladium - 0
+
+
+essencePlutonium
+jaopca:item_essenceplutonium - 0
+
+
+essencePromethean
+jaopca:item_essencepromethean - 0
+
+
 essencePrudentium
 mysticalagriculture:crafting - 1
+
+
+essencePurpleDiamond
+jaopca:item_essencepurplediamond - 0
+
+
+essenceQuartzBlack
+jaopca:item_essencequartzblack - 0
+
+
+essenceRadite
+jaopca:item_essenceradite - 0
+
+
+essenceRadium
+jaopca:item_essenceradium - 0
+
+
+essenceRedDiamond
+jaopca:item_essencereddiamond - 0
+
+
+essenceRedGem
+jaopca:item_essenceredgem - 0
+
+
+essenceShinium
+jaopca:item_essenceshinium - 0
+
+
+essenceSuperChargedCoal
+jaopca:item_essencesuperchargedcoal - 0
 
 
 essenceSuperium
@@ -7131,120 +7281,197 @@ mysticalagriculture:crafting - 4
 
 
 essenceTier1
-mysticalagriculture:zombie_essence - 0
 mysticalagriculture:nature_essence - 0
-mysticalagriculture:stone_essence - 0
 mysticalagriculture:wood_essence - 0
-mysticalagriculture:water_essence - 0
-mysticalagriculture:ice_essence - 0
+mysticalagriculture:stone_essence - 0
+mysticalagriculture:zombie_essence - 0
 mysticalagriculture:dirt_essence - 0
+mysticalagriculture:ice_essence - 0
+mysticalagriculture:water_essence - 0
 
 
 essenceTier2
-mysticalagriculture:sheep_essence - 0
+mysticalagriculture:coal_essence - 0
 mysticalagriculture:cow_essence - 0
+mysticalagriculture:copper_essence - 0
+mysticalagriculture:sheep_essence - 0
+mysticalagriculture:chicken_essence - 0
+mysticalagriculture:pig_essence - 0
+mysticalagriculture:nether_essence - 0
+mysticalagriculture:limestone_essence - 0
+mysticalagriculture:menril_essence - 0
+mysticalagriculture:slime_essence - 0
+mysticalagriculture:fire_essence - 0
 mysticalagriculture:marble_essence - 0
 mysticalagriculture:basalt_essence - 0
-mysticalagriculture:slime_essence - 0
-mysticalagriculture:menril_essence - 0
-mysticalagriculture:pig_essence - 0
 mysticalagriculture:aluminum_essence - 0
-mysticalagriculture:nether_essence - 0
-mysticalagriculture:silicon_essence - 0
-mysticalagriculture:fire_essence - 0
-mysticalagriculture:limestone_essence - 0
-mysticalagriculture:chicken_essence - 0
-mysticalagriculture:coal_essence - 0
-mysticalagriculture:sulfur_essence - 0
 mysticalagriculture:dye_essence - 0
-mysticalagriculture:copper_essence - 0
+mysticalagriculture:sulfur_essence - 0
+mysticalagriculture:silicon_essence - 0
 
 
 essenceTier3
-mysticalagriculture:spider_essence - 0
-mysticalagriculture:steeleaf_essence - 0
-mysticalagriculture:redstone_essence - 0
-mysticalagriculture:obsidian_essence - 0
 mysticalagriculture:black_quartz_essence - 0
-mysticalagriculture:graphite_essence - 0
-mysticalagriculture:brass_essence - 0
-mysticalagriculture:blizz_essence - 0
-mysticalagriculture:nether_quartz_essence - 0
-mysticalagriculture:blitz_essence - 0
-mysticalagriculture:silver_essence - 0
-mysticalagriculture:bronze_essence - 0
 mysticalagriculture:tin_essence - 0
-mysticalagriculture:ironwood_essence - 0
+mysticalagriculture:blizz_essence - 0
+mysticalagriculture:bronze_essence - 0
+mysticalagriculture:quartz_enriched_iron_essence - 0
+mysticalagriculture:spider_essence - 0
 mysticalagriculture:basalz_essence - 0
 mysticalagriculture:iron_essence - 0
-mysticalagriculture:lead_essence - 0
-mysticalagriculture:glowstone_essence - 0
-mysticalagriculture:skeleton_essence - 0
-mysticalagriculture:ender_biotite_essence - 0
-mysticalagriculture:creeper_essence - 0
-mysticalagriculture:zinc_essence - 0
-mysticalagriculture:quartz_enriched_iron_essence - 0
-mysticalagriculture:aquarium_essence - 0
-mysticalagriculture:saltpeter_essence - 0
-mysticalagriculture:rabbit_essence - 0
+mysticalagriculture:brass_essence - 0
 mysticalagriculture:cold_iron_essence - 0
+mysticalagriculture:saltpeter_essence - 0
+mysticalagriculture:lead_essence - 0
+mysticalagriculture:ironwood_essence - 0
+mysticalagriculture:ender_biotite_essence - 0
+mysticalagriculture:steeleaf_essence - 0
+mysticalagriculture:aquarium_essence - 0
+mysticalagriculture:nether_quartz_essence - 0
+mysticalagriculture:silver_essence - 0
+mysticalagriculture:redstone_essence - 0
+mysticalagriculture:obsidian_essence - 0
+mysticalagriculture:skeleton_essence - 0
+mysticalagriculture:blitz_essence - 0
+mysticalagriculture:rabbit_essence - 0
+mysticalagriculture:zinc_essence - 0
+mysticalagriculture:glowstone_essence - 0
 mysticalagriculture:guardian_essence - 0
+mysticalagriculture:graphite_essence - 0
+mysticalagriculture:creeper_essence - 0
+jaopca:item_essenceadamantite - 0
+jaopca:item_essenceadamantium - 0
+jaopca:item_essenceamaranth - 0
+jaopca:item_essenceancientdebris - 0
+jaopca:item_essenceantimony - 0
+jaopca:item_essencebismuth - 0
+jaopca:item_essencecarbon - 0
+jaopca:item_essencechargium - 0
+jaopca:item_essencecrystal - 0
+jaopca:item_essencedarkiron - 0
+jaopca:item_essenceetrium - 0
+jaopca:item_essenceevenium - 0
+jaopca:item_essencefueltonium - 0
+jaopca:item_essencemercury - 0
+jaopca:item_essencemythril - 0
+jaopca:item_essencepalladium - 0
+jaopca:item_essenceplutonium - 0
+jaopca:item_essenceradite - 0
+jaopca:item_essenceradium - 0
+jaopca:item_essenceshinium - 0
+jaopca:item_essencevibranium - 0
+jaopca:item_essencevirinium - 0
+jaopca:item_essencezogite - 0
+jaopca:item_essencezollernium - 0
+jaopca:item_essenceascendium - 0
+jaopca:item_essenceazurite - 0
+jaopca:item_essencebluediamond - 0
+jaopca:item_essencebluegem - 0
+jaopca:item_essencedimensionalshard - 0
+jaopca:item_essencegarnet - 0
+jaopca:item_essencegreendiamond - 0
+jaopca:item_essenceheartium - 0
+jaopca:item_essencelostdiamond - 0
+jaopca:item_essenceonyx - 0
+jaopca:item_essenceopal - 0
+jaopca:item_essencepromethean - 0
+jaopca:item_essencepurplediamond - 0
+jaopca:item_essencequartzblack - 0
+jaopca:item_essencereddiamond - 0
+jaopca:item_essenceredgem - 0
+jaopca:item_essencesuperchargedcoal - 0
+jaopca:item_essencewhitegem - 0
+jaopca:item_essencewitherite - 0
+jaopca:item_essenceyellowdiamond - 0
+jaopca:item_essencezanium - 0
 
 
 essenceTier4
-mysticalagriculture:experience_essence - 0
-mysticalagriculture:peridot_essence - 0
-mysticalagriculture:malachite_essence - 0
-mysticalagriculture:steel_essence - 0
-mysticalagriculture:gold_essence - 0
-mysticalagriculture:blaze_essence - 0
-mysticalagriculture:osmium_essence - 0
-mysticalagriculture:sapphire_essence - 0
-mysticalagriculture:electrum_essence - 0
-mysticalagriculture:star_steel_essence - 0
-mysticalagriculture:fiery_ingot_essence - 0
-mysticalagriculture:glowstone_ingot_essence - 0
-mysticalagriculture:tanzanite_essence - 0
-mysticalagriculture:amber_essence - 0
-mysticalagriculture:signalum_essence - 0
-mysticalagriculture:nickel_essence - 0
-mysticalagriculture:ruby_essence - 0
-mysticalagriculture:constantan_essence - 0
-mysticalagriculture:fluxed_electrum_essence - 0
-mysticalagriculture:hop_graphite_essence - 0
 mysticalagriculture:enderman_essence - 0
-mysticalagriculture:cobalt_essence - 0
-mysticalagriculture:mithril_essence - 0
-mysticalagriculture:topaz_essence - 0
-mysticalagriculture:end_essence - 0
-mysticalagriculture:ghast_essence - 0
-mysticalagriculture:lumium_essence - 0
-mysticalagriculture:invar_essence - 0
-mysticalagriculture:meteoric_iron_essence - 0
+mysticalagriculture:glowstone_ingot_essence - 0
+mysticalagriculture:nickel_essence - 0
 mysticalagriculture:lapis_lazuli_essence - 0
+mysticalagriculture:fiery_ingot_essence - 0
+mysticalagriculture:invar_essence - 0
+mysticalagriculture:signalum_essence - 0
+mysticalagriculture:osmium_essence - 0
+mysticalagriculture:meteoric_iron_essence - 0
+mysticalagriculture:gold_essence - 0
+mysticalagriculture:ruby_essence - 0
+mysticalagriculture:ghast_essence - 0
+mysticalagriculture:steel_essence - 0
+mysticalagriculture:electrum_essence - 0
+mysticalagriculture:constantan_essence - 0
+mysticalagriculture:star_steel_essence - 0
+mysticalagriculture:amber_essence - 0
+mysticalagriculture:tanzanite_essence - 0
+mysticalagriculture:cobalt_essence - 0
+mysticalagriculture:malachite_essence - 0
+mysticalagriculture:topaz_essence - 0
+mysticalagriculture:hop_graphite_essence - 0
+mysticalagriculture:mithril_essence - 0
+mysticalagriculture:fluxed_electrum_essence - 0
+mysticalagriculture:peridot_essence - 0
+mysticalagriculture:sapphire_essence - 0
+mysticalagriculture:lumium_essence - 0
+mysticalagriculture:end_essence - 0
 mysticalagriculture:knightmetal_essence - 0
+mysticalagriculture:experience_essence - 0
+mysticalagriculture:blaze_essence - 0
 
 
 essenceTier5
-mysticalagriculture:wither_skeleton_essence - 0
-mysticalagriculture:ender_amethyst_essence - 0
-mysticalagriculture:enderium_essence - 0
-mysticalagriculture:iridium_essence - 0
-mysticalagriculture:yellorium_essence - 0
-mysticalagriculture:emerald_essence - 0
-mysticalagriculture:uranium_essence - 0
-mysticalagriculture:platinum_essence - 0
-mysticalagriculture:adamantine_essence - 0
-mysticalagriculture:titanium_essence - 0
 mysticalagriculture:diamond_essence - 0
-mysticalagriculture:refined_obsidian_essence - 0
+mysticalagriculture:adamantine_essence - 0
 mysticalagriculture:desh_essence - 0
+mysticalagriculture:enderium_essence - 0
+mysticalagriculture:refined_obsidian_essence - 0
+mysticalagriculture:platinum_essence - 0
+mysticalagriculture:uranium_essence - 0
+mysticalagriculture:iridium_essence - 0
+mysticalagriculture:wither_skeleton_essence - 0
+mysticalagriculture:yellorium_essence - 0
+mysticalagriculture:ender_amethyst_essence - 0
+mysticalagriculture:titanium_essence - 0
+mysticalagriculture:emerald_essence - 0
 
 
 essenceTier6
-mysticalagradditions:dragon_egg_essence - 0
 mysticalagradditions:neutronium_essence - 0
 mysticalagradditions:nether_star_essence - 0
+mysticalagradditions:dragon_egg_essence - 0
+
+
+essenceVibranium
+jaopca:item_essencevibranium - 0
+
+
+essenceVirinium
+jaopca:item_essencevirinium - 0
+
+
+essenceWhiteGem
+jaopca:item_essencewhitegem - 0
+
+
+essenceWitherite
+jaopca:item_essencewitherite - 0
+
+
+essenceYellowDiamond
+jaopca:item_essenceyellowdiamond - 0
+
+
+essenceZanium
+jaopca:item_essencezanium - 0
+
+
+essenceZogite
+jaopca:item_essencezogite - 0
+
+
+essenceZollernium
+jaopca:item_essencezollernium - 0
 
 
 eyeOfEnder
@@ -8026,6 +8253,7 @@ jaopca:item_gearzollernium - 0
 gemAmber
 zollerngalaxy:amber - 0
 biomesoplenty:gem - 7
+cyclicmagic:crystallized_amber - 0
 
 
 gemAmberStatic
@@ -8138,6 +8366,10 @@ extrautils2:ingredients - 5
 
 gemNetheridium
 zollerngalaxy:netheridium - 0
+
+
+gemObsidian
+cyclicmagic:crystallized_obsidian - 0
 
 
 gemOnyx
@@ -9169,9 +9401,13 @@ minecraft:golden_boots - any
 minecraft:diamond_boots - any
 minecraft:chainmail_boots - any
 basemetals:coldiron_leggings - any
+cyclicmagic:purple_leggings - any
 basemetals:coldiron_boots - any
+cyclicmagic:purple_boots - any
 basemetals:coldiron_chestplate - any
+cyclicmagic:purple_chestplate - any
 basemetals:coldiron_helmet - any
+cyclicmagic:purple_helmet - any
 
 
 itemAutoregLining
@@ -9206,6 +9442,7 @@ minecraft:golden_boots - any
 minecraft:diamond_boots - any
 minecraft:chainmail_boots - any
 basemetals:coldiron_boots - any
+cyclicmagic:purple_boots - any
 
 
 itemChestplate
@@ -9215,6 +9452,7 @@ minecraft:golden_chestplate - any
 minecraft:diamond_chestplate - any
 minecraft:chainmail_chestplate - any
 basemetals:coldiron_chestplate - any
+cyclicmagic:purple_chestplate - any
 
 
 itemCinnabar
@@ -9256,6 +9494,7 @@ minecraft:golden_helmet - any
 minecraft:diamond_helmet - any
 minecraft:chainmail_helmet - any
 basemetals:coldiron_helmet - any
+cyclicmagic:purple_helmet - any
 
 
 itemLavaBucket
@@ -9269,6 +9508,7 @@ minecraft:golden_leggings - any
 minecraft:diamond_leggings - any
 minecraft:chainmail_leggings - any
 basemetals:coldiron_leggings - any
+cyclicmagic:purple_leggings - any
 
 
 itemPakFiller
@@ -9510,6 +9750,366 @@ mushroomAny
 minecraft:red_mushroom - 0
 minecraft:brown_mushroom - 0
 quark:glowshroom - 0
+
+
+mysticalCropsAdamantite
+jaopca:block_mysticalcropsadamantite - 0
+
+
+mysticalCropsAdamantium
+jaopca:block_mysticalcropsadamantium - 0
+
+
+mysticalCropsAmaranth
+jaopca:block_mysticalcropsamaranth - 0
+
+
+mysticalCropsAncientDebris
+jaopca:block_mysticalcropsancientdebris - 0
+
+
+mysticalCropsAntimony
+jaopca:block_mysticalcropsantimony - 0
+
+
+mysticalCropsAscendium
+jaopca:block_mysticalcropsascendium - 0
+
+
+mysticalCropsAzurite
+jaopca:block_mysticalcropsazurite - 0
+
+
+mysticalCropsBismuth
+jaopca:block_mysticalcropsbismuth - 0
+
+
+mysticalCropsBlueDiamond
+jaopca:block_mysticalcropsbluediamond - 0
+
+
+mysticalCropsBlueGem
+jaopca:block_mysticalcropsbluegem - 0
+
+
+mysticalCropsCarbon
+jaopca:block_mysticalcropscarbon - 0
+
+
+mysticalCropsChargium
+jaopca:block_mysticalcropschargium - 0
+
+
+mysticalCropsCrystal
+jaopca:block_mysticalcropscrystal - 0
+
+
+mysticalCropsDarkIron
+jaopca:block_mysticalcropsdarkiron - 0
+
+
+mysticalCropsDimensionalShard
+jaopca:block_mysticalcropsdimensionalshard - 0
+
+
+mysticalCropsEtrium
+jaopca:block_mysticalcropsetrium - 0
+
+
+mysticalCropsEvenium
+jaopca:block_mysticalcropsevenium - 0
+
+
+mysticalCropsFueltonium
+jaopca:block_mysticalcropsfueltonium - 0
+
+
+mysticalCropsGarnet
+jaopca:block_mysticalcropsgarnet - 0
+
+
+mysticalCropsGreenDiamond
+jaopca:block_mysticalcropsgreendiamond - 0
+
+
+mysticalCropsHeartium
+jaopca:block_mysticalcropsheartium - 0
+
+
+mysticalCropsLostDiamond
+jaopca:block_mysticalcropslostdiamond - 0
+
+
+mysticalCropsMercury
+jaopca:block_mysticalcropsmercury - 0
+
+
+mysticalCropsMythril
+jaopca:block_mysticalcropsmythril - 0
+
+
+mysticalCropsOnyx
+jaopca:block_mysticalcropsonyx - 0
+
+
+mysticalCropsOpal
+jaopca:block_mysticalcropsopal - 0
+
+
+mysticalCropsPalladium
+jaopca:block_mysticalcropspalladium - 0
+
+
+mysticalCropsPlutonium
+jaopca:block_mysticalcropsplutonium - 0
+
+
+mysticalCropsPromethean
+jaopca:block_mysticalcropspromethean - 0
+
+
+mysticalCropsPurpleDiamond
+jaopca:block_mysticalcropspurplediamond - 0
+
+
+mysticalCropsQuartzBlack
+jaopca:block_mysticalcropsquartzblack - 0
+
+
+mysticalCropsRadite
+jaopca:block_mysticalcropsradite - 0
+
+
+mysticalCropsRadium
+jaopca:block_mysticalcropsradium - 0
+
+
+mysticalCropsRedDiamond
+jaopca:block_mysticalcropsreddiamond - 0
+
+
+mysticalCropsRedGem
+jaopca:block_mysticalcropsredgem - 0
+
+
+mysticalCropsShinium
+jaopca:block_mysticalcropsshinium - 0
+
+
+mysticalCropsSuperChargedCoal
+jaopca:block_mysticalcropssuperchargedcoal - 0
+
+
+mysticalCropsVibranium
+jaopca:block_mysticalcropsvibranium - 0
+
+
+mysticalCropsVirinium
+jaopca:block_mysticalcropsvirinium - 0
+
+
+mysticalCropsWhiteGem
+jaopca:block_mysticalcropswhitegem - 0
+
+
+mysticalCropsWitherite
+jaopca:block_mysticalcropswitherite - 0
+
+
+mysticalCropsYellowDiamond
+jaopca:block_mysticalcropsyellowdiamond - 0
+
+
+mysticalCropsZanium
+jaopca:block_mysticalcropszanium - 0
+
+
+mysticalCropsZogite
+jaopca:block_mysticalcropszogite - 0
+
+
+mysticalCropsZollernium
+jaopca:block_mysticalcropszollernium - 0
+
+
+mysticalSeedsAdamantite
+jaopca:item_mysticalseedsadamantite - 0
+
+
+mysticalSeedsAdamantium
+jaopca:item_mysticalseedsadamantium - 0
+
+
+mysticalSeedsAmaranth
+jaopca:item_mysticalseedsamaranth - 0
+
+
+mysticalSeedsAncientDebris
+jaopca:item_mysticalseedsancientdebris - 0
+
+
+mysticalSeedsAntimony
+jaopca:item_mysticalseedsantimony - 0
+
+
+mysticalSeedsAscendium
+jaopca:item_mysticalseedsascendium - 0
+
+
+mysticalSeedsAzurite
+jaopca:item_mysticalseedsazurite - 0
+
+
+mysticalSeedsBismuth
+jaopca:item_mysticalseedsbismuth - 0
+
+
+mysticalSeedsBlueDiamond
+jaopca:item_mysticalseedsbluediamond - 0
+
+
+mysticalSeedsBlueGem
+jaopca:item_mysticalseedsbluegem - 0
+
+
+mysticalSeedsCarbon
+jaopca:item_mysticalseedscarbon - 0
+
+
+mysticalSeedsChargium
+jaopca:item_mysticalseedschargium - 0
+
+
+mysticalSeedsCrystal
+jaopca:item_mysticalseedscrystal - 0
+
+
+mysticalSeedsDarkIron
+jaopca:item_mysticalseedsdarkiron - 0
+
+
+mysticalSeedsDimensionalShard
+jaopca:item_mysticalseedsdimensionalshard - 0
+
+
+mysticalSeedsEtrium
+jaopca:item_mysticalseedsetrium - 0
+
+
+mysticalSeedsEvenium
+jaopca:item_mysticalseedsevenium - 0
+
+
+mysticalSeedsFueltonium
+jaopca:item_mysticalseedsfueltonium - 0
+
+
+mysticalSeedsGarnet
+jaopca:item_mysticalseedsgarnet - 0
+
+
+mysticalSeedsGreenDiamond
+jaopca:item_mysticalseedsgreendiamond - 0
+
+
+mysticalSeedsHeartium
+jaopca:item_mysticalseedsheartium - 0
+
+
+mysticalSeedsLostDiamond
+jaopca:item_mysticalseedslostdiamond - 0
+
+
+mysticalSeedsMercury
+jaopca:item_mysticalseedsmercury - 0
+
+
+mysticalSeedsMythril
+jaopca:item_mysticalseedsmythril - 0
+
+
+mysticalSeedsOnyx
+jaopca:item_mysticalseedsonyx - 0
+
+
+mysticalSeedsOpal
+jaopca:item_mysticalseedsopal - 0
+
+
+mysticalSeedsPalladium
+jaopca:item_mysticalseedspalladium - 0
+
+
+mysticalSeedsPlutonium
+jaopca:item_mysticalseedsplutonium - 0
+
+
+mysticalSeedsPromethean
+jaopca:item_mysticalseedspromethean - 0
+
+
+mysticalSeedsPurpleDiamond
+jaopca:item_mysticalseedspurplediamond - 0
+
+
+mysticalSeedsQuartzBlack
+jaopca:item_mysticalseedsquartzblack - 0
+
+
+mysticalSeedsRadite
+jaopca:item_mysticalseedsradite - 0
+
+
+mysticalSeedsRadium
+jaopca:item_mysticalseedsradium - 0
+
+
+mysticalSeedsRedDiamond
+jaopca:item_mysticalseedsreddiamond - 0
+
+
+mysticalSeedsRedGem
+jaopca:item_mysticalseedsredgem - 0
+
+
+mysticalSeedsShinium
+jaopca:item_mysticalseedsshinium - 0
+
+
+mysticalSeedsSuperChargedCoal
+jaopca:item_mysticalseedssuperchargedcoal - 0
+
+
+mysticalSeedsVibranium
+jaopca:item_mysticalseedsvibranium - 0
+
+
+mysticalSeedsVirinium
+jaopca:item_mysticalseedsvirinium - 0
+
+
+mysticalSeedsWhiteGem
+jaopca:item_mysticalseedswhitegem - 0
+
+
+mysticalSeedsWitherite
+jaopca:item_mysticalseedswitherite - 0
+
+
+mysticalSeedsYellowDiamond
+jaopca:item_mysticalseedsyellowdiamond - 0
+
+
+mysticalSeedsZanium
+jaopca:item_mysticalseedszanium - 0
+
+
+mysticalSeedsZogite
+jaopca:item_mysticalseedszogite - 0
+
+
+mysticalSeedsZollernium
+jaopca:item_mysticalseedszollernium - 0
 
 
 netherStar
@@ -10831,8 +11431,10 @@ zollerngalaxy:nethercoalore - 0
 galaxyspace:marsores - 2
 galaxyspace:enceladusblocks - 2
 galaxyspace:titanblocks - 6
-galaxyspace:barnarda_c_ores - 0
 galaxyspace:proxima_b_blocks - 8
+galaxyspace:barnarda_c_ores - 0
+cyclicmagic:nether_coal_ore - 0
+cyclicmagic:end_coal_ore - 0
 moreplanets:infected_coal_ore - 0
 moreplanets:fronos_coal_ore - 0
 
@@ -10843,11 +11445,8 @@ zollerngalaxy:kriffcobaltore - 0
 zollerngalaxy:purgcobaltore - 0
 galaxyspace:gsores - 0
 galaxyspace:mirandablocks - 7
-exnihilocreatio:item_ore_cobalt - 1
-
-
-oreCobaltum
 galaxyspace:barnarda_c_ores - 11
+exnihilocreatio:item_ore_cobalt - 1
 
 
 oreColdiron
@@ -10893,8 +11492,8 @@ extraplanets:iapetus - 5
 extraplanets:titania - 5
 extraplanets:kepler22b - 4
 galaxyspace:ioblocks - 3
-galaxyspace:barnarda_c_ores - 7
 galaxyspace:proxima_b_blocks - 7
+galaxyspace:barnarda_c_ores - 7
 simpleores:copper_ore - 0
 exnihilocreatio:item_ore_copper - 1
 galacticraftplanets:mars - 0
@@ -10944,8 +11543,10 @@ zollerngalaxy:netherdiamondore - 0
 galaxyspace:marsores - 0
 galaxyspace:titanblocks - 5
 galaxyspace:mirandablocks - 5
-galaxyspace:barnarda_c_ores - 5
 galaxyspace:proxima_b_blocks - 10
+galaxyspace:barnarda_c_ores - 5
+cyclicmagic:nether_diamond_ore - 0
+cyclicmagic:end_diamond_ore - 0
 moreplanets:infected_diamond_ore - 0
 moreplanets:fronos_diamond_ore - 0
 
@@ -10984,16 +11585,46 @@ zollerngalaxy:tociemeraldore - 0
 zollerngalaxy:netheremeraldore - 0
 galaxyspace:europablocks - 3
 galaxyspace:titanblocks - 4
+cyclicmagic:nether_emerald_ore - 0
+cyclicmagic:end_emerald_ore - 0
 moreplanets:infected_emerald_ore - 0
 moreplanets:fronos_emerald_ore - 0
+
+
+oreEndCoal
+cyclicmagic:end_coal_ore - 0
+
+
+oreEndDiamond
+cyclicmagic:end_diamond_ore - 0
+
+
+oreEndEmerald
+cyclicmagic:end_emerald_ore - 0
+
+
+oreEndGold
+cyclicmagic:end_gold_ore - 0
 
 
 oreEndInferium
 mysticalagriculture:end_inferium_ore - 0
 
 
+oreEndIron
+cyclicmagic:end_iron_ore - 0
+
+
+oreEndLapis
+cyclicmagic:end_lapis_ore - 0
+
+
 oreEndProsperity
 mysticalagriculture:end_prosperity_ore - 0
+
+
+oreEndRedstone
+cyclicmagic:end_redstone_ore - 0
 
 
 oreEnderBiotite
@@ -11062,8 +11693,10 @@ zollerngalaxy:centogoldore - 0
 zollerngalaxy:tocigoldore - 0
 zollerngalaxy:nethergoldore - 0
 galaxyspace:marsores - 1
-galaxyspace:barnarda_c_ores - 2
 galaxyspace:proxima_b_blocks - 5
+galaxyspace:barnarda_c_ores - 2
+cyclicmagic:nether_gold_ore - 0
+cyclicmagic:end_gold_ore - 0
 exnihilocreatio:item_ore_gold - 1
 moreplanets:infected_gold_ore - 0
 moreplanets:fronos_gold_ore - 0
@@ -11159,6 +11792,8 @@ extraplanets:kepler22b - 2
 galaxyspace:mercuryblocks - 4
 galaxyspace:mirandablocks - 3
 galaxyspace:barnarda_c_ores - 1
+cyclicmagic:nether_iron_ore - 0
+cyclicmagic:end_iron_ore - 0
 exnihilocreatio:item_ore_iron - 1
 galacticraftplanets:mars - 3
 galacticraftplanets:asteroids_block - 5
@@ -11183,6 +11818,8 @@ zollerngalaxy:caligrolapisore - 0
 zollerngalaxy:netherlapisore - 0
 galaxyspace:titanblocks - 7
 galaxyspace:barnarda_c_ores - 4
+cyclicmagic:nether_lapis_ore - 0
+cyclicmagic:end_lapis_ore - 0
 moreplanets:infected_lapis_ore - 0
 moreplanets:fronos_lapis_ore - 0
 
@@ -11264,12 +11901,40 @@ galacticraftplanets:asteroids_block - 3
 galacticraftplanets:venus - 6
 
 
+oreNetherCoal
+cyclicmagic:nether_coal_ore - 0
+
+
+oreNetherDiamond
+cyclicmagic:nether_diamond_ore - 0
+
+
+oreNetherEmerald
+cyclicmagic:nether_emerald_ore - 0
+
+
+oreNetherGold
+cyclicmagic:nether_gold_ore - 0
+
+
 oreNetherInferium
 mysticalagriculture:nether_inferium_ore - 0
 
 
+oreNetherIron
+cyclicmagic:nether_iron_ore - 0
+
+
+oreNetherLapis
+cyclicmagic:nether_lapis_ore - 0
+
+
 oreNetherProsperity
 mysticalagriculture:nether_prosperity_ore - 0
+
+
+oreNetherRedstone
+cyclicmagic:nether_redstone_ore - 0
 
 
 oreNickel
@@ -11406,6 +12071,8 @@ zollerngalaxy:netherredstoneore - 0
 galaxyspace:marsores - 3
 galaxyspace:titanblocks - 8
 galaxyspace:barnarda_c_ores - 3
+cyclicmagic:nether_redstone_ore - 0
+cyclicmagic:end_redstone_ore - 0
 moreplanets:infected_redstone_ore - 0
 moreplanets:fronos_redstone_ore - 0
 
@@ -11441,8 +12108,8 @@ oreSilicon
 galacticraftcore:basic_block_core - 8
 galaxyspace:marsores - 4
 galaxyspace:europablocks - 4
-galaxyspace:barnarda_c_ores - 6
 galaxyspace:proxima_b_blocks - 9
+galaxyspace:barnarda_c_ores - 6
 galacticraftplanets:venus - 10
 moreplanets:infected_silicon_ore - 0
 moreplanets:fronos_silicon_ore - 0
@@ -11540,8 +12207,8 @@ extraplanets:oberon - 4
 extraplanets:iapetus - 4
 extraplanets:titania - 4
 extraplanets:kepler22b - 3
-galaxyspace:barnarda_c_ores - 8
 galaxyspace:proxima_b_blocks - 6
+galaxyspace:barnarda_c_ores - 8
 simpleores:tin_ore - 0
 exnihilocreatio:item_ore_tin - 1
 galacticraftplanets:mars - 1
@@ -13517,6 +14184,10 @@ ringIron
 bountifulbaubles:ringiron - 0
 
 
+rock
+cyclicmagic:stone_pebble - 0
+
+
 rod
 basemetals:diamond_rod - 0
 basemetals:gold_rod - 0
@@ -14150,119 +14821,164 @@ minecraft:wheat_seeds - 0
 
 
 seedsTier1
-mysticalagriculture:ice_seeds - 0
-mysticalagriculture:water_seeds - 0
-mysticalagriculture:wood_seeds - 0
-mysticalagriculture:zombie_seeds - 0
 mysticalagriculture:stone_seeds - 0
-mysticalagriculture:nature_seeds - 0
+mysticalagriculture:ice_seeds - 0
 mysticalagriculture:dirt_seeds - 0
+mysticalagriculture:water_seeds - 0
+mysticalagriculture:zombie_seeds - 0
+mysticalagriculture:wood_seeds - 0
+mysticalagriculture:nature_seeds - 0
 
 
 seedsTier2
-mysticalagriculture:aluminum_seeds - 0
-mysticalagriculture:sulfur_seeds - 0
 mysticalagriculture:silicon_seeds - 0
-mysticalagriculture:limestone_seeds - 0
-mysticalagriculture:basalt_seeds - 0
 mysticalagriculture:cow_seeds - 0
-mysticalagriculture:marble_seeds - 0
-mysticalagriculture:chicken_seeds - 0
 mysticalagriculture:pig_seeds - 0
 mysticalagriculture:copper_seeds - 0
-mysticalagriculture:sheep_seeds - 0
-mysticalagriculture:slime_seeds - 0
-mysticalagriculture:coal_seeds - 0
+mysticalagriculture:aluminum_seeds - 0
+mysticalagriculture:basalt_seeds - 0
 mysticalagriculture:dye_seeds - 0
-mysticalagriculture:nether_seeds - 0
-mysticalagriculture:menril_seeds - 0
+mysticalagriculture:limestone_seeds - 0
+mysticalagriculture:coal_seeds - 0
+mysticalagriculture:marble_seeds - 0
+mysticalagriculture:slime_seeds - 0
+mysticalagriculture:sulfur_seeds - 0
 mysticalagriculture:fire_seeds - 0
+mysticalagriculture:menril_seeds - 0
+mysticalagriculture:sheep_seeds - 0
+mysticalagriculture:nether_seeds - 0
+mysticalagriculture:chicken_seeds - 0
 
 
 seedsTier3
-mysticalagriculture:cold_iron_seeds - 0
-mysticalagriculture:lead_seeds - 0
-mysticalagriculture:bronze_seeds - 0
-mysticalagriculture:quartz_enriched_iron_seeds - 0
-mysticalagriculture:iron_seeds - 0
-mysticalagriculture:graphite_seeds - 0
-mysticalagriculture:ironwood_seeds - 0
-mysticalagriculture:aquarium_seeds - 0
-mysticalagriculture:nether_quartz_seeds - 0
-mysticalagriculture:blizz_seeds - 0
-mysticalagriculture:blitz_seeds - 0
-mysticalagriculture:saltpeter_seeds - 0
-mysticalagriculture:redstone_seeds - 0
-mysticalagriculture:spider_seeds - 0
-mysticalagriculture:obsidian_seeds - 0
-mysticalagriculture:basalz_seeds - 0
-mysticalagriculture:black_quartz_seeds - 0
-mysticalagriculture:creeper_seeds - 0
-mysticalagriculture:guardian_seeds - 0
-mysticalagriculture:brass_seeds - 0
-mysticalagriculture:rabbit_seeds - 0
-mysticalagriculture:tin_seeds - 0
-mysticalagriculture:silver_seeds - 0
-mysticalagriculture:zinc_seeds - 0
-mysticalagriculture:glowstone_seeds - 0
-mysticalagriculture:skeleton_seeds - 0
-mysticalagriculture:ender_biotite_seeds - 0
 mysticalagriculture:steeleaf_seeds - 0
+mysticalagriculture:lead_seeds - 0
+mysticalagriculture:brass_seeds - 0
+mysticalagriculture:aquarium_seeds - 0
+mysticalagriculture:cold_iron_seeds - 0
+mysticalagriculture:ender_biotite_seeds - 0
+mysticalagriculture:skeleton_seeds - 0
+mysticalagriculture:creeper_seeds - 0
+mysticalagriculture:rabbit_seeds - 0
+mysticalagriculture:black_quartz_seeds - 0
+mysticalagriculture:graphite_seeds - 0
+mysticalagriculture:blitz_seeds - 0
+mysticalagriculture:ironwood_seeds - 0
+mysticalagriculture:iron_seeds - 0
+mysticalagriculture:redstone_seeds - 0
+mysticalagriculture:blizz_seeds - 0
+mysticalagriculture:spider_seeds - 0
+mysticalagriculture:tin_seeds - 0
+mysticalagriculture:nether_quartz_seeds - 0
+mysticalagriculture:glowstone_seeds - 0
+mysticalagriculture:zinc_seeds - 0
+mysticalagriculture:saltpeter_seeds - 0
+mysticalagriculture:basalz_seeds - 0
+mysticalagriculture:bronze_seeds - 0
+mysticalagriculture:obsidian_seeds - 0
+mysticalagriculture:quartz_enriched_iron_seeds - 0
+mysticalagriculture:guardian_seeds - 0
+mysticalagriculture:silver_seeds - 0
+jaopca:item_mysticalseedsadamantite - 0
+jaopca:item_mysticalseedsadamantium - 0
+jaopca:item_mysticalseedsamaranth - 0
+jaopca:item_mysticalseedsancientdebris - 0
+jaopca:item_mysticalseedsantimony - 0
+jaopca:item_mysticalseedsbismuth - 0
+jaopca:item_mysticalseedscarbon - 0
+jaopca:item_mysticalseedschargium - 0
+jaopca:item_mysticalseedscrystal - 0
+jaopca:item_mysticalseedsdarkiron - 0
+jaopca:item_mysticalseedsetrium - 0
+jaopca:item_mysticalseedsevenium - 0
+jaopca:item_mysticalseedsfueltonium - 0
+jaopca:item_mysticalseedsmercury - 0
+jaopca:item_mysticalseedsmythril - 0
+jaopca:item_mysticalseedspalladium - 0
+jaopca:item_mysticalseedsplutonium - 0
+jaopca:item_mysticalseedsradite - 0
+jaopca:item_mysticalseedsradium - 0
+jaopca:item_mysticalseedsshinium - 0
+jaopca:item_mysticalseedsvibranium - 0
+jaopca:item_mysticalseedsvirinium - 0
+jaopca:item_mysticalseedszogite - 0
+jaopca:item_mysticalseedszollernium - 0
+jaopca:item_mysticalseedsascendium - 0
+jaopca:item_mysticalseedsazurite - 0
+jaopca:item_mysticalseedsbluediamond - 0
+jaopca:item_mysticalseedsbluegem - 0
+jaopca:item_mysticalseedsdimensionalshard - 0
+jaopca:item_mysticalseedsgarnet - 0
+jaopca:item_mysticalseedsgreendiamond - 0
+jaopca:item_mysticalseedsheartium - 0
+jaopca:item_mysticalseedslostdiamond - 0
+jaopca:item_mysticalseedsonyx - 0
+jaopca:item_mysticalseedsopal - 0
+jaopca:item_mysticalseedspromethean - 0
+jaopca:item_mysticalseedspurplediamond - 0
+jaopca:item_mysticalseedsquartzblack - 0
+jaopca:item_mysticalseedsreddiamond - 0
+jaopca:item_mysticalseedsredgem - 0
+jaopca:item_mysticalseedssuperchargedcoal - 0
+jaopca:item_mysticalseedswhitegem - 0
+jaopca:item_mysticalseedswitherite - 0
+jaopca:item_mysticalseedsyellowdiamond - 0
+jaopca:item_mysticalseedszanium - 0
 
 
 seedsTier4
-mysticalagriculture:constantan_seeds - 0
-mysticalagriculture:ghast_seeds - 0
-mysticalagriculture:fiery_ingot_seeds - 0
-mysticalagriculture:malachite_seeds - 0
-mysticalagriculture:fluxed_electrum_seeds - 0
-mysticalagriculture:enderman_seeds - 0
-mysticalagriculture:steel_seeds - 0
-mysticalagriculture:signalum_seeds - 0
-mysticalagriculture:nickel_seeds - 0
-mysticalagriculture:invar_seeds - 0
-mysticalagriculture:experience_seeds - 0
-mysticalagriculture:meteoric_iron_seeds - 0
-mysticalagriculture:lumium_seeds - 0
-mysticalagriculture:gold_seeds - 0
 mysticalagriculture:blaze_seeds - 0
-mysticalagriculture:sapphire_seeds - 0
-mysticalagriculture:glowstone_ingot_seeds - 0
-mysticalagriculture:star_steel_seeds - 0
+mysticalagriculture:cobalt_seeds - 0
+mysticalagriculture:experience_seeds - 0
+mysticalagriculture:lumium_seeds - 0
 mysticalagriculture:tanzanite_seeds - 0
-mysticalagriculture:electrum_seeds - 0
-mysticalagriculture:amber_seeds - 0
-mysticalagriculture:mithril_seeds - 0
+mysticalagriculture:knightmetal_seeds - 0
+mysticalagriculture:ghast_seeds - 0
+mysticalagriculture:glowstone_ingot_seeds - 0
 mysticalagriculture:end_seeds - 0
 mysticalagriculture:ruby_seeds - 0
-mysticalagriculture:topaz_seeds - 0
-mysticalagriculture:osmium_seeds - 0
-mysticalagriculture:peridot_seeds - 0
-mysticalagriculture:hop_graphite_seeds - 0
 mysticalagriculture:lapis_lazuli_seeds - 0
-mysticalagriculture:cobalt_seeds - 0
-mysticalagriculture:knightmetal_seeds - 0
+mysticalagriculture:invar_seeds - 0
+mysticalagriculture:osmium_seeds - 0
+mysticalagriculture:constantan_seeds - 0
+mysticalagriculture:fiery_ingot_seeds - 0
+mysticalagriculture:mithril_seeds - 0
+mysticalagriculture:fluxed_electrum_seeds - 0
+mysticalagriculture:steel_seeds - 0
+mysticalagriculture:amber_seeds - 0
+mysticalagriculture:signalum_seeds - 0
+mysticalagriculture:sapphire_seeds - 0
+mysticalagriculture:gold_seeds - 0
+mysticalagriculture:electrum_seeds - 0
+mysticalagriculture:meteoric_iron_seeds - 0
+mysticalagriculture:enderman_seeds - 0
+mysticalagriculture:topaz_seeds - 0
+mysticalagriculture:star_steel_seeds - 0
+mysticalagriculture:peridot_seeds - 0
+mysticalagriculture:nickel_seeds - 0
+mysticalagriculture:malachite_seeds - 0
+mysticalagriculture:hop_graphite_seeds - 0
 
 
 seedsTier5
-mysticalagriculture:desh_seeds - 0
-mysticalagriculture:platinum_seeds - 0
-mysticalagriculture:emerald_seeds - 0
+mysticalagriculture:ender_amethyst_seeds - 0
+mysticalagriculture:iridium_seeds - 0
+mysticalagriculture:diamond_seeds - 0
 mysticalagriculture:uranium_seeds - 0
+mysticalagriculture:titanium_seeds - 0
+mysticalagriculture:adamantine_seeds - 0
+mysticalagriculture:refined_obsidian_seeds - 0
 mysticalagriculture:wither_skeleton_seeds - 0
 mysticalagriculture:yellorium_seeds - 0
-mysticalagriculture:diamond_seeds - 0
-mysticalagriculture:adamantine_seeds - 0
-mysticalagriculture:iridium_seeds - 0
+mysticalagriculture:platinum_seeds - 0
+mysticalagriculture:desh_seeds - 0
 mysticalagriculture:enderium_seeds - 0
-mysticalagriculture:refined_obsidian_seeds - 0
-mysticalagriculture:titanium_seeds - 0
-mysticalagriculture:ender_amethyst_seeds - 0
+mysticalagriculture:emerald_seeds - 0
 
 
 seedsTier6
-mysticalagradditions:nether_star_seeds - 0
 mysticalagradditions:neutronium_seeds - 0
+mysticalagradditions:nether_star_seeds - 0
 mysticalagradditions:dragon_egg_seeds - 0
 
 
@@ -15373,8 +16089,8 @@ moreplanets:diona_rock - 0
 moreplanets:fronos_stone - 0
 moreplanets:chalos_rock - 0
 moreplanets:nibiru_rock - 0
-traverse:red_rock - 0
 traverse:blue_rock - 0
+traverse:red_rock - 0
 
 
 stoneAndesite
@@ -16079,11 +16795,11 @@ moreplanets:oscalea_leaves - 0
 moreplanets:frolia_leaves - 0
 moreplanets:flowering_frolia_leaves - 0
 cavern:perverted_leaves - any
-traverse:yellow_autumnal_leaves - 0
-traverse:fir_leaves - 0
 traverse:red_autumnal_leaves - 0
-traverse:brown_autumnal_leaves - 0
+traverse:fir_leaves - 0
 traverse:orange_autumnal_leaves - 0
+traverse:yellow_autumnal_leaves - 0
+traverse:brown_autumnal_leaves - 0
 
 
 treeSapling
@@ -16140,11 +16856,11 @@ moreplanets:alien_berry_oak_sapling - 0
 moreplanets:oscalea_sapling - 0
 moreplanets:frolia_sapling - 0
 cavern:perverted_sapling - any
-traverse:red_autumnal_sapling - 0
-traverse:brown_autumnal_sapling - 0
 traverse:orange_autumnal_sapling - 0
+traverse:brown_autumnal_sapling - 0
 traverse:fir_sapling - 0
 traverse:yellow_autumnal_sapling - 0
+traverse:red_autumnal_sapling - 0
 
 
 tubeVacuumDiamond
@@ -16293,6 +17009,7 @@ minecraft:wool - 4
 
 workbench
 minecraft:crafting_table - 0
+cyclicmagic:block_workbench - 0
 moreplanets:cheese_spore_crafting_table - 0
 moreplanets:infected_crafting_table - 0
 moreplanets:alien_berry_crafting_table - 0

@@ -29,6 +29,37 @@
 				]
 			},
 			"dimension": "all"
+		},
+		"essence_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "endreborn:block_essence_ore"
+				},
+				"material": "minecraft:obsidian",
+				"cluster-size": 1
+			},
+			"cluster-count":1,
+			"chunk-chance":40,
+			"min-height":10,
+			"max-height":255,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": {
+				"restriction":"whitelist",
+				"value": [
+					1
+				]
+			}
 		}
 	}
 }

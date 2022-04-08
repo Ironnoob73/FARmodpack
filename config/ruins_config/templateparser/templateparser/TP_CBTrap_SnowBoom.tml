@@ -1,0 +1,33 @@
+# Command Block Trap -- Snow Boom Summon
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 24 Mar 2016
+# Updated to MC 1.9: 20 Apr 2016
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+#rule1=0,100,CommandBlock:RUINSTRIGGER /summon Creeper ~0 ~3 ~0 {Powered:1,ExplosionRadius:3,Fuse:127,Riding:{id:SnowMan},ActiveEffects:[{Id:14,Amplifier:0,Duration:3217,Ambient:1}],PersistenceRequired:1}:@
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon Snowman ~0 ~3 ~0 {PersistenceRequired:1,Passengers:[{id:creeper,Powered:1,ExplosionRadius:3,Fuse:127,ActiveEffects:[{Id:14,Amplifier:0,Duration:99999,Ambient:1}]}]}:@
+
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

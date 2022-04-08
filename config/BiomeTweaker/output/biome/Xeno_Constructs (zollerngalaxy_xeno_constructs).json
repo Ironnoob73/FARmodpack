@@ -1,0 +1,80 @@
+
+{
+  "ID": 119,
+  "Name": "Xeno Constructs",
+  "Resource Location": "zollerngalaxy:xeno constructs",
+  "Class": "zollerngalaxy.biomes.centotl.BiomeCentoConstructs",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "zollerngalaxy:constructblock",
+  "Filler Block": "zollerngalaxy:crater_rock",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "255",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 255,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DEAD",
+    "HOT",
+    "SPOOKY"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.villagers.EntityCentotlVillager",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.robots.sentinels.EntitySentinelDrone",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityFacehugger",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityXenomorph",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

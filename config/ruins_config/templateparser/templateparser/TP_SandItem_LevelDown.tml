@@ -1,0 +1,66 @@
+# Sandstone Dungeon Item - Level Down
+# Created by Ruins mod version 14.6 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# MC 1.7.10; 3 Jan 2015
+# Note: No call to "Open" room option, to avoid potential of recursion.
+# Updated to MC 1.8: 5 Mar 2016
+# Updated to MC 1.9: 24 Apr 2016
+# Updated to MC 1.11: 12 Jan 2017
+# Updated to MC 1.12: 22 Jun 2017
+
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=
+dimensions=5,3,3
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:sandstone-1
+rule2=0,100,minecraft:sandstone_stairs-0
+rule3=0,100,minecraft:sandstone_stairs-2
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Ladder ~0 ~-15 ~0:@
+rule5=0,100,minecraft:sandstone_stairs-3
+rule6=0,100,minecraft:sandstone_stairs-1
+
+rule7=0,100,CommandBlock:RUINSTRIGGER /summon Zombie ~0 ~0 ~0 {HandItems:[{Count:1,id:golden_sword,tag:{display:{Name:"Kopesh of Fortune"},ench:[{id:21,lvl:3},{id:34,lvl:3}]}}{Count:1,id:shield}],ArmorItems:[{Count:1,id:chainmail_boots,tag:{display:{Name:"Thick Footwraps"}}},{Count:1,id:chainmail_leggings,tag:{display:{Name:"Grave Wrappings"}}},{Count:1,id:golden_chestplate,tag:{display:{Name:"Ceremonial Chestplate"}}},{Count:1,id:skull}],CustomName:"Honor Guard",Health:40.0f,Attributes:[{Name:generic.movementSpeed,Base:0.5},{Name:generic.attackDamage,Base:5},{Name:generic.knockbackResistance,Base:1}],HandDropChances:[0.5F,0.5F],ArmorDropChances:[0.2F,0.2F,0.2F,0.2F],Silent:1,PersistenceRequired:1,CanBreakDoors:1}:@
+
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Chest ~-13 ~-16 ~0 3:@,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Fountain ~-13 ~-16 ~0:@
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Chest ~13 ~-17 ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Fountain ~13 ~-17 ~0 2:@
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Chest ~0 ~-18 ~-13:@,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Fountain ~0 ~-18 ~-13 3:@
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Chest ~0 ~-19 ~13 2:@,CommandBlock:RUINSTRIGGER /testruin TP_SandRoom_Fountain ~0 ~-19 ~13 1:@
+
+layer
+1,2,1
+5,4,3
+1,6,1
+endlayer
+
+layer
+7,0,7
+0,8,0
+7,0,7
+endlayer
+
+layer
+0,0,0
+0,9,0
+0,0,0
+endlayer
+
+layer
+0,0,0
+0,10,0
+0,0,0
+endlayer
+
+layer
+0,0,0
+0,11,0
+0,0,0
+endlayer
+

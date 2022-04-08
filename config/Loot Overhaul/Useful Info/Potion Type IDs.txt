@@ -206,6 +206,21 @@ toughasnails:long_heat_resistance_type
        toughasnails:heat_resistance - 2400 - 0 - false - true
 
 
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
+
+
 quark:haste
    - Effects: 
        minecraft:haste - 3600 - 0 - false - true
@@ -259,21 +274,6 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
-
-
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -934,6 +934,116 @@ potioncore:strong_archery
 potioncore:long_archery
    - Effects: 
        potioncore:archery - 9600 - 0 - false - true
+
+
+cyclicmagic:ender
+   - Effects: 
+       cyclicmagic:potion.ender - 3600 - 0 - false - true
+
+
+cyclicmagic:snow
+   - Effects: 
+       cyclicmagic:potion.snow - 3600 - 0 - false - true
+
+
+cyclicmagic:butter
+   - Effects: 
+       cyclicmagic:potion.butter - 3600 - 0 - false - true
+
+
+cyclicmagic:butter2
+   - Effects: 
+       cyclicmagic:potion.butter - 1800 - 1 - false - true
+
+
+cyclicmagic:slowfall
+   - Effects: 
+       cyclicmagic:potion.slowfall - 3600 - 0 - false - true
+
+
+cyclicmagic:waterwalk
+   - Effects: 
+       cyclicmagic:potion.waterwalk - 3600 - 0 - false - true
+
+
+cyclicmagic:swim
+   - Effects: 
+       cyclicmagic:potion.swimspeed - 3600 - 0 - false - true
+
+
+cyclicmagic:swim2
+   - Effects: 
+       cyclicmagic:potion.swimspeed - 1800 - 1 - false - true
+
+
+cyclicmagic:bounce
+   - Effects: 
+       cyclicmagic:potion.bounce - 3600 - 0 - false - true
+
+
+cyclicmagic:frostwalker
+   - Effects: 
+       cyclicmagic:potion.frostwalker - 3600 - 0 - false - true
+
+
+cyclicmagic:magnet
+   - Effects: 
+       cyclicmagic:potion.magnet - 3600 - 0 - false - true
+
+
+cyclicmagic:levitation
+   - Effects: 
+       minecraft:levitation - 3600 - 0 - false - true
+
+
+cyclicmagic:haste
+   - Effects: 
+       minecraft:haste - 3600 - 0 - false - true
+
+
+cyclicmagic:haste2
+   - Effects: 
+       minecraft:haste - 1800 - 1 - false - true
+
+
+cyclicmagic:resistance
+   - Effects: 
+       minecraft:resistance - 3600 - 0 - false - true
+
+
+cyclicmagic:resistance2
+   - Effects: 
+       minecraft:resistance - 1800 - 1 - false - true
+
+
+cyclicmagic:healthboost
+   - Effects: 
+       minecraft:health_boost - 3600 - 4 - false - true
+
+
+cyclicmagic:luck
+   - Effects: 
+       minecraft:luck - 3600 - 0 - false - true
+
+
+cyclicmagic:wither
+   - Effects: 
+       minecraft:wither - 3600 - 0 - false - true
+
+
+cyclicmagic:blindness
+   - Effects: 
+       minecraft:blindness - 3600 - 0 - false - true
+
+
+cyclicmagic:saturation
+   - Effects: 
+       cyclicmagic:potion.saturation - 3600 - 0 - false - true
+
+
+cyclicmagic:hunger
+   - Effects: 
+       minecraft:hunger - 3600 - 0 - false - true
 
 
 cofhcore:haste

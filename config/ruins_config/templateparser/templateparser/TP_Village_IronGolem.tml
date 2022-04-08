@@ -1,0 +1,48 @@
+
+# Iron Golem
+# Created: 15 Mar 2014
+# Verified for MC 1.8: 21 Jul 2015
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Converted to 1.5.2 - 2 Apr 2014
+# Note: Place in \templateparser folder.
+
+weight=1
+embed_into_distance=0
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,mossy_cobblestone,iron_bars,glass,redstone_torch,torch,stone_slab,double_stone_slab,oak_stairs,spruce_stairs,birch_stairs,dark_oak_stairs,acacia_stairs,jungle_stairs,slime_congealed,slime_dirt,slime_grass,fence,stone_brick,cobblestone_wall,command_block
+
+dimensions=3,3,1
+allowable_overhang=50
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=8
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+# Iron Block (body)
+rule1=0,100,minecraft:iron_block
+
+# Pumpkin (head)
+rule2=1,100,minecraft:pumpkin
+
+layer
+0
+1
+0
+endlayer
+
+layer
+1
+1
+1
+endlayer
+
+layer
+0
+2
+0
+endlayer
+

@@ -960,8 +960,96 @@ xaeroworldmap:no_world_map_beneficial
 	- Is Beneficial: true
 
 
-bountifulbaubles:sinful
+cyclicmagic:potion.magnet
    - Id: 119
+   - Color: 2247599
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.ender
+   - Id: 120
+   - Color: 740674
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.waterwalk
+   - Id: 121
+   - Color: 8370340
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.slowfall
+   - Id: 122
+   - Color: 16019232
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.snow
+   - Id: 123
+   - Color: 9355263
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.swimspeed
+   - Id: 124
+   - Color: 11827199
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.bounce
+   - Id: 125
+   - Color: 9561177
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.frostwalker
+   - Id: 126
+   - Color: 4388055
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.butter
+   - Id: 127
+   - Color: 15066368
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+cyclicmagic:potion.stunned
+   - Id: 128
+   - Color: 12764407
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+cyclicmagic:potion.saturation
+   - Id: 129
+   - Color: 6111283
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+bountifulbaubles:sinful
+   - Id: 130
    - Color: 1053463
    - Is Instant: false
    - Is Bad: false
@@ -969,7 +1057,7 @@ bountifulbaubles:sinful
 
 
 extrautils2:effect.xu2.doom
-   - Id: 120
+   - Id: 131
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -977,7 +1065,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 121
+   - Id: 132
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -985,7 +1073,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 122
+   - Id: 133
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -993,7 +1081,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 123
+   - Id: 134
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -1001,7 +1089,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 124
+   - Id: 135
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -1009,7 +1097,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 125
+   - Id: 136
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -1017,7 +1105,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 126
+   - Id: 137
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -1025,7 +1113,7 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 127
+   - Id: 138
    - Color: 16738816
    - Is Instant: true
    - Is Bad: true

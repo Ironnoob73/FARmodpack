@@ -1,0 +1,42 @@
+# Mushroom Tower -- Window #2
+# Created by Ruins mod version 15.5 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=6,1,5
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:red_mushroom_block-15
+rule2=0,100,minecraft:jungle_fence-0
+
+layer
+1,1,1,1,1
+endlayer
+
+layer
+1,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,1
+endlayer
+
+layer
+1,2,2,2,1
+endlayer
+
+layer
+1,1,1,1,1
+endlayer
+

@@ -1,0 +1,291 @@
+# Village Greenhouse
+# MC 1.7.10; 13 Nov 2014
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Note: In versions 1.7.10 and 1.8, this was an experiment to use Command Blocks
+# to generate flower pots.  With 1.9, the new "teBlock" functionality made it possible
+# to add flower pots (with contents) in place, rather than having to spawn them above
+# or below the creating Command Block.  The old Command Block functionality still
+# works, but this demonstrates the newer method.
+
+# Sample Old Rule:
+# Flower Pot: Orange Tulip
+#rule21=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:5}:@
+
+# Updated to MC 1.8: 20 Mar 2016
+# Updated to MC 1.9: 18 Apr 2016
+# Updated to teBlock functionality: 27 Apr 2016
+# Updated to MC 1.11: 11 Jan 2017
+
+biomesToSpawnIn=brushland,chaparral,field,grassland,heathland,plains,sunflower plains,garden,meadow,orchard,lavender fields,field
+
+weight=1
+embed_into_distance=3
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,mossy_cobblestone,iron_bars,glass,redstone_torch,torch,stone_slab,double_stone_slab,oak_stairs,spruce_stairs,birch_stairs,dark_oak_stairs,acacia_stairs,jungle_stairs,slime_congealed,slime_dirt,slime_grass,fence,stone_brick,cobblestone_wall,command_block
+
+dimensions=12,12,12
+allowable_overhang=0
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:log-0
+rule2=0,100,minecraft:grass-0
+rule3=0,100,minecraft:water-0
+rule4=0,100,minecraft:glass_pane-0
+rule5=0,100,minecraft:jungle_door-2
+rule6=0,100,minecraft:double_plant-1
+
+Randomized Flowers
+rule7=0,100,minecraft:red_flower-0,minecraft:yellow_flower,minecraft:red_flower-1,minecraft:red_flower-2,minecraft:red_flower-3,minecraft:red_flower-4,minecraft:red_flower-5,minecraft:red_flower-6,minecraft:red_flower-7,minecraft:red_flower-8,minecraft:tallgrass-2
+
+rule8=0,100,minecraft:double_plant-3
+rule9=0,100,minecraft:glass-0
+rule10=0,100,minecraft:jungle_door-3
+rule11=0,100,minecraft:waterlily-0
+rule12=0,100,minecraft:jungle_door-1
+rule13=0,100,minecraft:double_plant-5
+rule14=0,100,minecraft:double_plant-4
+rule15=0,100,minecraft:jungle_door-0
+rule16=0,100,minecraft:jungle_door-9
+rule17=0,100,minecraft:jungle_door-8
+rule18=0,100,minecraft:double_plant-11
+rule19=0,100,minecraft:jungle_fence-0
+rule20=0,100,minecraft:double_plant-10
+
+# Flower Pot: Orange Tulip
+#rule21=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:5}:@
+rule21=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:5,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Red Tulip
+#rule22=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:4}:@
+rule22=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:4,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Azure Bluet
+#rule23=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:3}:@
+rule23=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:3,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Allium
+#rule24=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:2}:@
+rule24=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:2,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: White Tulip
+#rule25=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:6}:@
+rule25=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:6,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Red Flower / Poppy (original)
+#rule26=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:0}:@
+rule26=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:0,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Pink Tulip
+#rule27=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:7}:@
+rule27=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:7,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Yellow Flower (original)
+#rule28=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:yellow_flower,Data:0}:@
+rule28=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:yellow_flower",x:0,y:0,z:0,Data:0,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Oxeye Daisy
+#rule29=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:8}:@
+rule29=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:8,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Blue Orchid
+#rule30=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:red_flower,Data:1}:@
+rule30=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:red_flower",x:0,y:0,z:0,Data:1,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Dead Shrub
+#rule31=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:tallgrass,Data:0}:@
+rule31=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:tallgrass",x:0,y:0,z:0,Data:0,id:"minecraft:flower_pot"}-0
+
+# Flower Pot: Fern
+#rule32=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 flower_pot 0 replace {Item:tallgrass,Data:2}:@
+rule32=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:tallgrass",x:0,y:0,z:0,Data:2,id:"minecraft:flower_pot"}-0
+
+rule33=0,100,minecraft:double_plant-8
+rule34=0,100,minecraft:double_plant-9
+rule35=1,100,minecraft:torch-5
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,1,1,1,1,3,3,1,1,1,1,1
+1,2,1,2,1,1,1,1,2,1,2,1
+1,2,1,2,2,1,1,2,2,1,2,1
+1,2,1,1,1,1,1,1,1,1,2,1
+1,2,2,2,2,1,1,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+
+layer
+1,4,4,4,1,5,5,1,4,4,4,1
+4,8,7,7,7,0,0,7,7,7,6,4
+4,7,0,0,0,0,0,0,0,0,7,4
+4,7,0,24,23,0,0,22,21,0,7,4
+1,7,0,26,0,0,0,0,25,0,7,1
+12,0,0,0,0,11,11,0,0,0,0,10
+12,0,0,0,0,11,11,0,0,0,0,10
+1,7,0,28,0,0,0,0,27,0,7,1
+4,7,0,32,31,0,0,30,29,0,7,4
+4,7,0,0,0,0,0,0,0,0,7,4
+4,14,7,7,7,0,0,7,7,7,13,4
+1,4,4,4,1,15,15,1,4,4,4,1
+endlayer
+
+layer
+1,4,4,4,1,17,16,1,4,4,4,1
+4,20,0,0,19,0,0,19,0,0,18,4
+4,0,0,0,0,0,0,0,0,0,0,4
+4,0,0,0,0,0,0,0,0,0,0,4
+1,19,0,0,0,0,0,0,0,0,19,1
+16,0,0,0,0,0,0,0,0,0,0,17
+17,0,0,0,0,0,0,0,0,0,0,16
+1,19,0,0,0,0,0,0,0,0,19,1
+4,0,0,0,0,0,0,0,0,0,0,4
+4,0,0,0,0,0,0,0,0,0,0,4
+4,34,0,0,19,0,0,19,0,0,33,4
+1,4,4,4,1,16,17,1,4,4,4,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1
+1,0,0,0,35,0,0,35,0,0,0,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,35,0,0,0,0,0,0,0,0,35,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,35,0,0,0,0,0,0,0,0,35,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,0,0,0,0,0,0,0,0,0,0,1
+1,0,0,0,35,0,0,35,0,0,0,1
+1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+0,1,0,0,0,0,0,0,0,0,1,0
+1,1,9,9,9,9,9,9,9,9,1,1
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+0,9,0,0,0,0,0,0,0,0,9,0
+1,1,9,9,9,9,9,9,9,9,1,1
+0,1,0,0,0,0,0,0,0,0,1,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0
+0,1,0,0,0,0,0,0,0,0,1,0
+0,0,1,9,9,9,9,9,9,1,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,9,0,0,0,0,0,0,9,0,0
+0,0,1,9,9,9,9,9,9,1,0,0
+0,1,0,0,0,0,0,0,0,0,1,0
+0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,1,0,0,0,0,0,0,1,0,0
+0,0,0,1,9,9,9,9,1,0,0,0
+0,0,0,9,0,0,0,0,9,0,0,0
+0,0,0,9,0,0,0,0,9,0,0,0
+0,0,0,9,0,0,0,0,9,0,0,0
+0,0,0,9,0,0,0,0,9,0,0,0
+0,0,0,1,9,9,9,9,1,0,0,0
+0,0,1,0,0,0,0,0,0,1,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,1,0,0,0,0,1,0,0,0
+0,0,0,0,1,9,9,1,0,0,0,0
+0,0,0,0,9,0,0,9,0,0,0,0
+0,0,0,0,9,0,0,9,0,0,0,0
+0,0,0,0,1,9,9,1,0,0,0,0
+0,0,0,1,0,0,0,0,1,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,1,0,0,1,0,0,0,0
+0,0,0,0,0,1,1,0,0,0,0,0
+0,0,0,0,0,1,1,0,0,0,0,0
+0,0,0,0,1,0,0,1,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,1,1,0,0,0,0,0
+0,0,0,0,0,1,1,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0
+endlayer
+

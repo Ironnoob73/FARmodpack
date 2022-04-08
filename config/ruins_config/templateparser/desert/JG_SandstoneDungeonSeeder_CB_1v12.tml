@@ -1,0 +1,93 @@
+# Sandstone Dungeon Spawner
+# Created by Ruins mod version 14.6 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# MC 1.7.10; 3 Jan 2015
+# Updated to MC 1.9: 26 Apr 2016
+# Last Updated and Checked for MC 1.11: 11 May 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+
+# Special thanks to Syndaryl for bug reporting.
+
+# Note: Accompanying "TP_SandRoom_*" and "TP_SandItem_*" templates 
+# need to be in # \templateparser folder.  This goes in the \desert folder.
+
+uniqueMinDistance=800
+# Note: Due to the lag caused by generating this large dungeon, it's recommended
+# not to reduce uniqueMinDistance, even if it means you might have to travel quite
+# some distance to find the dungeon.
+
+biomesToSpawnIn=desert,desert m,desert oil field,oasis,desert oasis,lush desert,lush_desert,rwg_hotdesert,desert_hills,mutated_desert
+
+weight=1
+embed_into_distance=2
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+dimensions=10,1,1
+allowable_overhang=0
+max_leveling=1
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+# The following rule is so that on multiplayer servers, people don't get spammed
+# by all the block-placing messages, etc.
+rule1=0,100,CommandBlock:RUINSTRIGGER /gamerule commandBlockOutput false:@
+
+# The following summons the core piece of the dungeon (which in turn summons
+# the rest).
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin TP_SandSeed ~0 ~1 ~0:@
+
+# Pillar that marks the spot (primarily here for testing purposes, since it
+# shouldn't stick around for long).
+rule3=0,100,minecraft:sandstone-1
+
+
+
+# 1
+layer
+1
+endlayer
+
+# 2
+layer
+2
+endlayer
+
+# 3
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+layer
+3
+endlayer
+
+

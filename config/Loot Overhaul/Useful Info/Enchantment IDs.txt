@@ -1376,23 +1376,23 @@ endreborn:shulker_core
    - Max Level: 3
 
 
-flansmod:enchantment_steady
+bibliocraft:bibliocraft.deathcompassench
    - Id: 171
-   - Rarity: COMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-flansmod:enchantment_nimble
+bibliocraft:bibliocraft.readingench
    - Id: 172
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-flansmod:enchantment_lumberjack
+flansmod:enchantment_steady
    - Id: 173
    - Rarity: COMMON
    - Treasure: false
@@ -1400,15 +1400,15 @@ flansmod:enchantment_lumberjack
    - Max Level: 3
 
 
-flansmod:enchantment_duelist
+flansmod:enchantment_nimble
    - Id: 174
-   - Rarity: COMMON
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
 
 
-flansmod:enchantment_sharpshooter
+flansmod:enchantment_lumberjack
    - Id: 175
    - Rarity: COMMON
    - Treasure: false
@@ -1416,16 +1416,128 @@ flansmod:enchantment_sharpshooter
    - Max Level: 3
 
 
-flansmod:enchantment_juggernaut
+flansmod:enchantment_duelist
    - Id: 176
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+flansmod:enchantment_sharpshooter
+   - Id: 177
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+flansmod:enchantment_juggernaut
+   - Id: 178
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
+cyclicmagic:enchantment.autosmelt
+   - Id: 179
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.beheading
+   - Id: 180
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.excavation
+   - Id: 181
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cyclicmagic:enchantment.launch
+   - Id: 182
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+cyclicmagic:enchantment.lifeleech
+   - Id: 183
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+cyclicmagic:enchantment.magnet
+   - Id: 184
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+cyclicmagic:enchantment.multishot
+   - Id: 185
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.quickdraw
+   - Id: 186
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.reach
+   - Id: 187
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.venom
+   - Id: 188
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+cyclicmagic:enchantment.waterwalking
+   - Id: 189
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+cyclicmagic:enchantment.expboost
+   - Id: 190
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
 cofhcore:holding
-   - Id: 177
+   - Id: 191
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1433,7 +1545,7 @@ cofhcore:holding
 
 
 cofhcore:insight
-   - Id: 178
+   - Id: 192
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1441,7 +1553,7 @@ cofhcore:insight
 
 
 cofhcore:leech
-   - Id: 179
+   - Id: 193
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1449,7 +1561,7 @@ cofhcore:leech
 
 
 cofhcore:multishot
-   - Id: 180
+   - Id: 194
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1457,7 +1569,7 @@ cofhcore:multishot
 
 
 cofhcore:smashing
-   - Id: 181
+   - Id: 195
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -1465,7 +1577,7 @@ cofhcore:smashing
 
 
 cofhcore:smelting
-   - Id: 182
+   - Id: 196
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -1473,7 +1585,7 @@ cofhcore:smelting
 
 
 cofhcore:soulbound
-   - Id: 183
+   - Id: 197
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -1481,7 +1593,7 @@ cofhcore:soulbound
 
 
 cofhcore:vorpal
-   - Id: 184
+   - Id: 198
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1

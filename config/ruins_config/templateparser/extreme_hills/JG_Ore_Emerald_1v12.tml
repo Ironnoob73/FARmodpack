@@ -1,0 +1,42 @@
+# Emerald Ore Deposit
+# Created by Ruins mod version 17.0 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Created for MC 1.12: 18 May 2018
+
+weight=1
+embed_into_distance=8
+
+biomesToSpawnIn=alps,alps_foothills,alpine,biome_degraded,biome_meneglin,extreme hills,extreme hills edge,extreme hills+,extreme hills m,extreme hills+ m,highland,highlands,miningbiome,mining biome,mining_biome,extreme_hills,extreme_hills_with_trees,mutated_extreme_hills,mutated_extreme_hills_with_trees,smaller_extreme_hills
+
+unacceptable_target_blocks=cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+
+dimensions=3,3,3
+allowable_overhang=4
+max_leveling=2
+leveling_buffer=-1
+preserve_water=1
+preserve_lava=1
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+rule2=0,100,minecraft:emerald_ore-0
+
+layer
+1,1,1
+1,2,1
+1,1,1
+endlayer
+
+layer
+1,2,1
+2,2,2
+1,2,1
+endlayer
+
+layer
+1,1,1
+1,2,1
+1,1,1
+endlayer
+
