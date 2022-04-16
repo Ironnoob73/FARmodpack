@@ -34,6 +34,7 @@ val shield=<thermalfoundation:tool.shield_constantan>;
 //val shield0=<basemetals:constantan_shield>;
 #Dict
 //val CompressedConstantan=compress;CompressedConstantan.add(compress0);
+val RodConstantan=stick;RodConstantan.add(<contenttweaker:rod_constantan>);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);

@@ -1,0 +1,12 @@
+{
+    "name": "About this book",
+    "icon": "itemfilters:missing",
+    "category": "start",
+    "sortnum": "0",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This is a test entry, but it should show up!"
+        }
+    ]
+}

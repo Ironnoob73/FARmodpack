@@ -23,9 +23,9 @@
     "DEAD",
     "MOUNTAIN",
     "HOT",
-    "DRY",
+    "WATER",
     "WASTELAND",
-    "WATER"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

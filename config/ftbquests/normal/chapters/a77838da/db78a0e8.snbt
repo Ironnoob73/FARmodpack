@@ -1,5 +1,5 @@
 {
-	x: 11.75d,
+	x: 3.75d,
 	y: 1.0d,
 	shape: "rsquare",
 	text: [
@@ -9,6 +9,7 @@
 		"480bf3fc"
 	],
 	size: 0.5d,
+	optional: true,
 	tasks: [{
 		uid: "203846ae",
 		type: "item",

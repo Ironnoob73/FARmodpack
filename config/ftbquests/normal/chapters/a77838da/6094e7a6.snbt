@@ -1,6 +1,6 @@
 {
 	icon: "cavern:cavern_portal",
-	x: 16.75d,
+	x: 9.25d,
 	y: -1.0d,
 	shape: "gear",
 	dependencies: [

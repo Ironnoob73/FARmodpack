@@ -15,6 +15,8 @@ val stick=<ore:stickTin>;
 val stick0=<basemetals:tin_rod>;
 val nugget=<ore:nuggetTin>;
 val nugget0=<thermalfoundation:material:193>;
+val ore=<ore:oreTin>;
+val ore0=<exnihilocreatio:item_ore_tin:1>;
 val boot=<thermalfoundation:armor.boots_tin>;
 val legging=<thermalfoundation:armor.legs_tin>;
 val chestplate=<thermalfoundation:armor.plate_tin>;
@@ -33,6 +35,7 @@ val lumberaxe=<lumberjack:tin_lumberaxe>;
 val shears=<thermalfoundation:tool.shears_tin>;
 val shield=<thermalfoundation:tool.shield_tin>;
 val shield0=<basemetals:tin_shield>;
+val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val CompressedTin=compress;CompressedTin.add(compress0);
 val PlateTin=plate;PlateTin.remove(<galacticraftcore:basic_item:7>);
@@ -103,3 +106,9 @@ recipes.addShaped("tin_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Ore
+recipes.addShapeless("tin_dust_sh",<thermalfoundation:material:65>,[shammer,ore]);
+furnace.remove(ingot0,ore);
+mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
+mods.mekanism.smelter.addRecipe(ore,ingot0);

@@ -1,5 +1,5 @@
 {
-	x: 11.5d,
+	x: 4.0d,
 	y: -0.5d,
 	description: "源源不断的“安全”火焰",
 	text: [
@@ -9,11 +9,17 @@
 	dependencies: [
 		"c81ab466"
 	],
+	optional: true,
 	tasks: [{
 		uid: "31e6e749",
 		type: "item",
 		items: [{
 			item: "futuremc:campfire"
 		}]
+	}],
+	rewards: [{
+		uid: "5b25802e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
 	}]
 }

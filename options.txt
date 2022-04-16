@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:-0.06610222
+fov:-0.067164995
 gamma:1.0
 saturation:0.0
 renderDistance:16
@@ -14,8 +14,8 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:false
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","A16x"]
+renderClouds:fast
+resourcePacks:["SIV","Minecraft-Mod-Language-Modpack.zip","A16x"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -92,13 +92,7 @@ key_key.torcherino.useage_key:42
 key_[GC] 星图:50
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -118,7 +112,13 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
@@ -197,6 +197,18 @@ key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
+key_打开电力漫游车物品栏:34
+key_打开模块管理器:35
+key_打开发射检查表 GUI:25
+key_打开便携式 NASA 工作台 GUI:0
+key_key.keyExtraInvo:45:SHIFT
+key_key.keyWheel:19:CONTROL
+key_key.keyExtraCraftin:0
+key_key.cofh.multimode:76
+key_mekanism.key.mode:43
+key_mekanism.key.armorMode:77
+key_mekanism.key.feetMode:83
+key_mekanism.key.voice:19:SHIFT
 key_World Handler:47
 key_key.aether.accessory_menu:0
 key_key.securitycraft.cameraZoomIn:13
@@ -204,11 +216,6 @@ key_key.securitycraft.cameraZoomOut:12
 key_key.securitycraft.cameraEmitRedstone:19:SHIFT
 key_key.securitycraft.cameraActivateNightVision:49
 key_key.clipboardPaste:210
-key_gui.xaero_open_map:51
-key_gui.xaero_open_settings:52
-key_gui.xaero_map_zoom_in:0
-key_gui.xaero_map_zoom_out:0
-key_gui.xaero_quick_confirm:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:0
 key_gui.xaero_toggle_slime:0
@@ -226,6 +233,11 @@ key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_minimap_settings:21
+key_gui.xaero_open_map:51
+key_gui.xaero_open_settings:52
+key_gui.xaero_map_zoom_in:0
+key_gui.xaero_map_zoom_out:0
+key_gui.xaero_quick_confirm:0
 key_key.settings_menu:34
 key_key.range:19:SHIFT
 key_key.undo:14
@@ -234,29 +246,17 @@ key_key.fuzzy:0
 key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:15
-key_key.keyExtraInvo:45:SHIFT
-key_key.keyWheel:19:CONTROL
-key_key.keyExtraCraftin:0
 key_key.travelersbackpack.inventory:48
 key_key.travelersbackpack.toggle_tank:49
 key_key.travelersbackpack.cycle_tool:44
 key_key.infinity_armor.noclip:40
-key_打开电力漫游车物品栏:34
-key_打开模块管理器:35
-key_打开发射检查表 GUI:25
-key_打开便携式 NASA 工作台 GUI:0
 key_cyberware.keybinds.menu:221
-key_key.cofh.multimode:76
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.mts.config:25
+key_Open configuration screen:25
 key_key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
-key_mekanism.key.mode:43
-key_mekanism.key.armorMode:77
-key_mekanism.key.feetMode:83
-key_mekanism.key.voice:19:SHIFT
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15
@@ -264,7 +264,7 @@ key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
-soundCategory_master:0.5298013
+soundCategory_master:0.23178808
 soundCategory_music:0.6197183
 soundCategory_record:1.0
 soundCategory_weather:1.0

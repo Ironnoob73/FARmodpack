@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DEAD",
     "COLD",
-    "SPOOKY",
-    "WASTELAND"
+    "WASTELAND",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

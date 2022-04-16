@@ -1,12 +1,15 @@
 {
 	title: "是啊，工作台",
 	icon: "minecraft:crafting_table",
-	x: 8.0d,
-	y: 0.5d,
-	description: "一个小小的进步",
+	x: 2.5d,
+	y: 0.0d,
+	description: "至少它还没有涨价",
 	text: [
 		"工作台，一个能允许你制造更加复杂的物品的方块，前提是你需要知道怎么制造它们。",
 		"尽管很便宜，但同时也非常重要。"
+	],
+	dependencies: [
+		"f70cf16f"
 	],
 	tasks: [{
 		uid: "599887af",
@@ -25,5 +28,10 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "722af2f7",
+		type: "item",
+		item: "actuallyadditions:wooden_paxel"
 	}]
 }

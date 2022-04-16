@@ -1,6 +1,6 @@
 {
-	x: 12.0d,
-	y: 2.0d,
+	x: 4.5d,
+	y: 1.5d,
 	description: "烤箱！",
 	text: [
 		"良好的食物加工方式，它不会烧糊你的食物，而且拥有两倍速度。"
@@ -14,5 +14,10 @@
 		items: [{
 			item: "futuremc:smoker"
 		}]
+	}],
+	rewards: [{
+		uid: "a2e1786f",
+		type: "ftbmoney:money",
+		ftb_money: 30L
 	}]
 }

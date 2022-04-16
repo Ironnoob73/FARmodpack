@@ -3,9 +3,23 @@ recipes.remove(<minecraft:cauldron>);
 recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, <ore:itemEmptyBucket>, <ore:plateiron>], [<ore:ingotiron>, null, <ore:ingotiron>]]);
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateiron>], [null, <ore:plateiron>, null]]);
+#Blast furnace
+recipes.remove(<futuremc:blast_furnace>);
+recipes.addShaped("blast_furnance",<futuremc:blast_furnace>,[
+[<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
+[<ore:plateIron>,<minecraft:furnace>,<ore:plateIron>],
+[<futuremc:smooth_stone>,<futuremc:smooth_stone>,<futuremc:smooth_stone>]]);
+#Condenser
+val HardClay=<ore:hardenedClay>;HardClay.add(<minecraft:hardened_clay>,<minecraft:stained_hardened_clay:*>);
+val Brick=<ore:ingotBrick>;Brick.add(<biomesoplenty:mud_brick>,<soviet:white_brick>);
+recipes.remove(<rustic:condenser>);
+recipes.addShaped("condenser",<rustic:condenser>,[
+[null,<ore:ingotBrick>,null],
+[<ore:ingotBrick>,<ore:itemEmptyBucket>,<ore:ingotBrick>],
+[<ore:ingotBrick>,<ore:hardenedClay>,<ore:ingotBrick>]]);
 #Hammer
 recipes.addShaped("soviet_hammer",<soviet:hammer>,[[<minecraft:stone_slab>],[<ore:stickWood>]]);
-#calculator
+#Calculator
 recipes.remove(<jecalculation:item_calculator:1>);
 recipes.addShaped("calculator",<jecalculation:item_calculator:1>,[
 [null,<rftools:screen>,null],

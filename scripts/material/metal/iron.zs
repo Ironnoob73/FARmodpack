@@ -15,6 +15,9 @@ val stick=<ore:stickIron>;
 val stick0=<immersiveengineering:material:1>;
 val nugget=<ore:nuggetIron>;
 val nugget0=<minecraft:iron_nugget>;
+val ore=<ore:oreIron>;
+val ore0=<exnihilocreatio:item_ore_iron:1>;
+val wire0=<contenttweaker:material_wire_iron>;
 val boot=<minecraft:iron_boots>;
 val legging=<minecraft:iron_leggings>;
 val chestplate=<minecraft:iron_chestplate>;
@@ -35,9 +38,11 @@ val sickle0=<extrautils2:sickle_iron>;
 val shears=<minecraft:shears>;
 val shield=<thermalfoundation:tool.shield_iron>;
 val shield0=<basemetals:iron_shield>;
+val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val CompressedIron=compress;CompressedIron.add(compress0);
 val PlateIron=plate;PlateIron.remove(<galacticraftcore:basic_item:11>);
+val IronWire=<ore:wireIron>;IronWire.add(wire0);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);
@@ -93,7 +98,7 @@ recipes.removeShaped(ingot0,[[nugget,nugget,nugget],[nugget,nugget,nugget],[nugg
 recipes.removeShaped(nugget0*9,[[ingot]]);
 #Plate
 //recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
-recipes.addShapeless("iron_plate_sh",plate0,[<soviet:hammer>.anyDamage().transformDamage(1),ingot,ingot]);
+recipes.addShapeless("iron_plate_sh",plate0,[shammer,ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
 #Stick
 recipes.removeShaped(stick*4,[[ingot],[ingot]]);
@@ -104,12 +109,20 @@ recipes.addShapeless("iron_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDama
 recipes.remove(gear0);
 recipes.addShaped("iron_gear_e",gear0,[
 [nugget,ingot,nugget],
-[ingot,<soviet:hammer>.anyDamage().transformDamage(1),ingot],
+[ingot,shammer,ingot],
 [nugget,ingot,nugget]]);
 recipes.addShaped("iron_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Wire
+recipes.addShapeless("iron_wire",wire0,[<immersiveengineering:tool:1>,plate]);
 #Chisel
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>,[[plate],[SW]]);
+#Ore
+recipes.addShapeless("iron_dust_sh",<actuallyadditions:item_dust>,[shammer,ore]);
+furnace.remove(ingot0,ore);
+mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
+mods.mekanism.smelter.addRecipe(ore,ingot0);

@@ -1,5 +1,5 @@
 {
-	x: 13.75d,
+	x: 6.25d,
 	y: 2.3d,
 	shape: "rsquare",
 	dependencies: [

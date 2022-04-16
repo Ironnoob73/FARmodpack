@@ -15,6 +15,8 @@ val stick=<ore:stickSilver>;
 val stick0=<basemetals:silver_rod>;
 val nugget=<ore:nuggetSilver>;
 val nugget0=<thermalfoundation:material:194>;
+val ore=<ore:oreSilver>;
+val ore0=<exnihilocreatio:item_ore_silver:1>;
 val boot=<thermalfoundation:armor.boots_silver>;
 val legging=<thermalfoundation:armor.legs_silver>;
 val chestplate=<thermalfoundation:armor.plate_silver>;
@@ -33,6 +35,7 @@ val lumberaxe=<lumberjack:silver_lumberaxe>;
 val shears=<thermalfoundation:tool.shears_silver>;
 val shield=<thermalfoundation:tool.shield_silver>;
 val shield0=<basemetals:silver_shield>;
+val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val CompressedSilver=compress;CompressedSilver.add(compress0);
 #Tool
@@ -85,7 +88,7 @@ recipes.removeShaped(ingot0,[[nugget,nugget,nugget],[nugget,nugget,nugget],[nugg
 recipes.removeShaped(nugget0*9,[[ingot]]);
 #Plate
 //recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
-recipes.addShapeless("silver_plate_sh",plate0,[<soviet:hammer>.anyDamage().transformDamage(1),ingot,ingot]);
+recipes.addShapeless("silver_plate_sh",plate0,[shammer,ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
 #Stick
 recipes.removeShaped(stick*4,[[ingot],[ingot]]);
@@ -96,9 +99,15 @@ recipes.addShapeless("silver_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDa
 recipes.remove(gear0);
 recipes.addShaped("silver_gear_e",gear0,[
 [nugget,ingot,nugget],
-[ingot,<soviet:hammer>.anyDamage().transformDamage(1),ingot],
+[ingot,shammer,ingot],
 [nugget,ingot,nugget]]);
 recipes.addShaped("silver_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Ore
+recipes.addShapeless("silver_dust_sh",<thermalfoundation:material:66>,[shammer,ore]);
+furnace.remove(ingot0,ore);
+mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
+mods.mekanism.smelter.addRecipe(ore,ingot0);

@@ -10,11 +10,103 @@
 		"你是如何到达这里的？你身无分文，只有一本会自己增加内容的笔记......",
 		"当然现在不是思考你从那里来的时候，任何一个意外都会要你的命！找或是造一个庇护所，尽可能地发展起来，应对可能遇到的灾难。"
 	],
+	hide_dependency_lines: true,
 	size: 1.5d,
 	tasks: [{
 		uid: "43acdafa",
 		type: "dimension",
 		disable_toast: true,
 		dim: 0
+	}],
+	rewards: [{
+		uid: "567c501b",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:article"
+			}
+		}
+	},
+	{
+		uid: "18bbe355",
+		type: "item",
+		auto: "enabled",
+		item: "actuallyadditions:item_knife"
+	},
+	{
+		uid: "3b11b5b1",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:iron_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "aqua",
+					AttributeModifiers: [{
+						UUIDMost: 3948249586443962858L,
+						UUIDLeast: -7127660313048164660L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: -7533574925561741283L,
+						UUIDLeast: -7757944665195994454L,
+						Amount: 0.15000000596046448d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.graceful.name"
+				}
+			}
+		}
+	},
+	{
+		uid: "111eef58",
+		type: "item",
+		auto: "enabled",
+		item: "ordinarycoins:coinbronze",
+		count: 10,
+		random_bonus: 40
+	},
+	{
+		uid: "b7a29fa6",
+		type: "item",
+		auto: "enabled",
+		item: "galacticraftcore:food 1 9",
+		count: 5,
+		random_bonus: 25
+	},
+	{
+		uid: "c8b6c659",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "cyberware:trenchcoat",
+			tag: {
+				Quality: {},
+				display: {
+					color: 15395562
+				}
+			}
+		}
+	},
+	{
+		uid: "e6fb5c67",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "toughasnails:wool_leggings",
+			tag: {
+				Quality: {}
+			}
+		}
 	}]
 }

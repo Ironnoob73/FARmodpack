@@ -187,9 +187,14 @@ tradingupgrade {
           [emerald, "oc:circuitChip2", emerald]
           [dropper, "oc:materialCircuitBoardPrinted", craftingPiston]]
 }
+chipdiamond {
+  type: shapeless
+  input: ["oc:materialCuttingWire", gemDiamond]
+  output: 3
+}
 
 cuttingwire {
-  input: [[stickWood, iron_nugget, stickWood]]
+  input: [[stickWood,wireIron,stickWood]]
 }
 disk {
   input: [[dustRedstone,dustIron,dustRedstone]
@@ -258,19 +263,19 @@ componentbus3 {
           [gemDiamond, "oc:materialCircuitBoardPrinted", gemDiamond]]
 }
 cpu1 {
-  input: [[iron_nugget,"oc:materialCU",iron_nugget]
-          ["oc:circuitChip1",waferAdvanced,"oc:circuitChip1"]
-          [iron_nugget,"oc:materialALU",iron_nugget]]
+  input: [[nuggetIron,"oc:materialCU",nuggetIron]
+          ["oc:ram1",waferBasic,"oc:ram1"]
+          [nuggetIron,"oc:materialALU",nuggetIron]]
 }
 cpu2 {
-  input: [[nuggetGold, "oc:ram3", nuggetGold]
-          ["oc:circuitChip2", "oc:cpu1", "oc:circuitChip2"]
-          [nuggetGold, "oc:ram3", nuggetGold]]
+  input: [[nuggetGold,"oc:materialCU",nuggetGold]
+          ["oc:ram2",waferAdvanced,"oc:ram2"]
+          [nuggetGold,"oc:materialALU",nuggetGold]]
 }
 cpu3 {
-  input: [[gemDiamond, "oc:ram5", gemDiamond]
-          ["oc:circuitChip3", "oc:cpu2", "oc:circuitChip3"]
-          [gemDiamond, "oc:ram5", gemDiamond]]
+  input: [[chipDiamond,"oc:materialCU",chipDiamond]
+          ["oc:ram3","extraplanets:wafer","oc:ram3"]
+          [chipDiamond,"oc:materialALU",chipDiamond]]
 }
 cu {
   input: [[nuggetGold,redstone,nuggetGold]
@@ -280,7 +285,8 @@ cu {
 
 rawcircuitboard {
   type: shapeless
-  input: ["oc:materialCuttingWire", clay, dyeGreen]
+  input: ["oc:materialCuttingWire",clay,dyeGreen,plateCopper]
+  output: 4
 }
 circuitboard {
   type: furnace
@@ -288,7 +294,7 @@ circuitboard {
 }
 printedcircuitboard {
   type: shapeless
-  input: ["oc:materialCircuitBoard", nuggetGold, "oc:materialAcid"]
+  input: ["oc:materialCircuitBoard","oc:materialCircuitBoard","oc:materialCircuitBoard","oc:materialCircuitBoard",nuggetGold,"oc:materialAcid"]
   output: 1
 }
 card {

@@ -1,0 +1,12 @@
+{
+    "name": "Newspaper Clippings-Move",
+    "icon": "minecraft:paper",
+    "category": "start",
+    "sortnum": "3",
+    "pages": [
+        {
+            "type": "text",
+            "text": "NC"
+        }
+    ]
+}

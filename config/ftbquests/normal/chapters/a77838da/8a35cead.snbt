@@ -1,8 +1,8 @@
 {
-	x: 12.75d,
+	x: 5.0d,
 	y: -0.5d,
 	text: [
-		"这是个有足够温度的烤炉，它可以正常烧炼你的矿物。"
+		"这是个有足够温度的烤炉，它可以用于熔炼更高等级的矿物。"
 	],
 	dependencies: [
 		"8b956b11",
@@ -14,5 +14,10 @@
 		items: [{
 			item: "futuremc:blast_furnace"
 		}]
+	}],
+	rewards: [{
+		uid: "f62c63c7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
 	}]
 }

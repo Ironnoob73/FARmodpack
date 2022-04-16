@@ -15,6 +15,7 @@ val stick=<ore:stickDiamond>;
 val stick0=<basemetals:diamond_rod>;
 val nugget=<ore:nuggetDiamond>;
 val nugget0=<extendedcrafting:material:128>;
+val chip0=<opencomputers:material:29>;
 val boot=<minecraft:diamond_boots>;
 val legging=<minecraft:diamond_leggings>;
 val chestplate=<minecraft:diamond_chestplate>;
@@ -94,11 +95,11 @@ recipes.removeShaped(nugget0*9,[[ingot]]);
 //recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
 //recipes.addShapeless("diamond_plate_sh",plate0,[<soviet:hammer>.anyDamage().transformDamage(1),ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
-recipes.addShapeless("diamond_stick_oc",stick0,[<ore:oc:materialCuttingWire>,plate]);
-recipes.addShapeless("diamond_stick_rs",stick0*2,[<refinedstorage:cutting_tool>.anyDamage().transformDamage(1),plate]);
-recipes.addShapeless("diamond_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDamage().transformDamage(1),plate]);
 #Stick
 recipes.removeShaped(stick*4,[[ingot],[ingot]]);
+recipes.addShapeless("diamond_stick_oc",stick0,[<ore:oc:materialCuttingWire>,plate]);
+recipes.addShapeless("diamond_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDamage().transformDamage(1),plate]);
+recipes.addShapeless("diamond_stick_rs",stick0*2,[<refinedstorage:cutting_tool>.anyDamage().transformDamage(1),plate]);
 #Gear
 recipes.remove(gear0);
 recipes.addShaped("diamond_gear_e",gear0,[
@@ -112,3 +113,6 @@ recipes.addShaped("diamond_gear",gear0,[
 #Chisel
 recipes.remove(<chisel:chisel_diamond>);
 recipes.addShaped(<chisel:chisel_diamond>,[[plate],[SW]]);
+#Chip
+recipes.addShapeless("diamond_chip_et",chip0*6,[<extrautils2:glasscutter>.anyDamage().transformDamage(1),plate]);
+recipes.addShapeless("diamond_chip_rs",chip0*6,[<refinedstorage:cutting_tool>.anyDamage().transformDamage(1),plate]);

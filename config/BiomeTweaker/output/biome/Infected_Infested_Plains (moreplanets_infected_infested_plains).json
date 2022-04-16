@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "PLAINS",
     "DEAD",
-    "RARE",
-    "DRY"
+    "DRY",
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -15,6 +15,8 @@ val stick=<ore:stickNickel>;
 val stick0=<basemetals:nickel_rod>;
 val nugget=<ore:nuggetNickel>;
 val nugget0=<thermalfoundation:material:197>;
+val ore=<ore:oreNickel>;
+val ore0=<exnihilocreatio:item_ore_nickel:1>;
 val boot=<thermalfoundation:armor.boots_nickel>;
 val legging=<thermalfoundation:armor.legs_nickel>;
 val chestplate=<thermalfoundation:armor.plate_nickel>;
@@ -33,6 +35,7 @@ val lumberaxe=<lumberjack:nickel_lumberaxe>;
 val shears=<thermalfoundation:tool.shears_nickel>;
 val shield=<thermalfoundation:tool.shield_nickel>;
 val shield0=<basemetals:nickel_shield>;
+val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val CompressedNickel=compress;CompressedNickel.add(compress0);
 val PlateNickel=plate;PlateNickel.remove(compress0);
@@ -86,7 +89,7 @@ recipes.removeShaped(ingot0,[[nugget,nugget,nugget],[nugget,nugget,nugget],[nugg
 recipes.removeShaped(nugget0*9,[[ingot]]);
 #Plate
 //recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
-recipes.addShapeless("nickel_plate_sh",plate0,[<soviet:hammer>.anyDamage().transformDamage(1),ingot,ingot]);
+recipes.addShapeless("nickel_plate_sh",plate0,[shammer,ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
 #Stick
 recipes.removeShaped(stick*4,[[ingot],[ingot]]);
@@ -97,9 +100,15 @@ recipes.addShapeless("nickel_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDa
 recipes.remove(gear0);
 recipes.addShaped("nickel_gear_e",gear0,[
 [nugget,ingot,nugget],
-[ingot,<soviet:hammer>.anyDamage().transformDamage(1),ingot],
+[ingot,shammer,ingot],
 [nugget,ingot,nugget]]);
 recipes.addShaped("nickel_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Ore
+recipes.addShapeless("nickel_dust_sh",<thermalfoundation:material:69>,[shammer,ore]);
+furnace.remove(ingot0,ore);
+mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
+mods.mekanism.smelter.addRecipe(ore,ingot0);

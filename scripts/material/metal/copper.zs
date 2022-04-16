@@ -15,6 +15,8 @@ val stick=<ore:stickCopper>;
 val stick0=<basemetals:copper_rod>;
 val nugget=<ore:nuggetCopper>;
 val nugget0=<thermalfoundation:material:192>;
+val ore=<ore:oreCopper>;
+val ore0=<exnihilocreatio:item_ore_copper:1>;
 val boot=<thermalfoundation:armor.boots_copper>;
 val legging=<thermalfoundation:armor.legs_copper>;
 val chestplate=<thermalfoundation:armor.plate_copper>;
@@ -33,6 +35,7 @@ val lumberaxe=<lumberjack:copper_lumberaxe>;
 val shears=<thermalfoundation:tool.shears_copper>;
 val shield=<thermalfoundation:tool.shield_copper>;
 val shield0=<basemetals:copper_shield>;
+val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val CompressedCopper=compress;CompressedCopper.add(compress0);
 val PlateCopper=plate;PlateCopper.remove(<galacticraftcore:basic_item:6>);
@@ -86,7 +89,7 @@ recipes.removeShaped(ingot0,[[nugget,nugget,nugget],[nugget,nugget,nugget],[nugg
 recipes.removeShaped(nugget0*9,[[ingot]]);
 #Plate
 //recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
-recipes.addShapeless("copper_plate_sh",plate0,[<soviet:hammer>.anyDamage().transformDamage(1),ingot,ingot]);
+recipes.addShapeless("copper_plate_sh",plate0,[shammer,ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
 #Stick
 recipes.removeShaped(stick*4,[[ingot],[ingot]]);
@@ -97,9 +100,15 @@ recipes.addShapeless("copper_stick_et",stick0*2,[<extrautils2:glasscutter>.anyDa
 recipes.remove(gear0);
 recipes.addShaped("copper_gear_e",gear0,[
 [nugget,ingot,nugget],
-[ingot,<soviet:hammer>.anyDamage().transformDamage(1),ingot],
+[ingot,shammer,ingot],
 [nugget,ingot,nugget]]);
 recipes.addShaped("copper_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Ore
+recipes.addShapeless("copper_dust_sh",<thermalfoundation:material:64>,[shammer,ore]);
+furnace.remove(ingot0,ore);
+mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
+mods.mekanism.smelter.addRecipe(ore,ingot0);
