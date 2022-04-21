@@ -27,3 +27,10 @@ recipes.addShaped("calculator",<jecalculation:item_calculator:1>,[
 [<ore:circuitBasic>,<ore:oc:materialNumPad>,<ore:oc:materialALU>]]);
 recipes.remove(<jecalculation:item_calculator>);
 recipes.addShapeless(<jecalculation:item_calculator>,[<jecalculation:item_calculator:1>,<theoneprobe:probe>]);
+#Weather
+game.setLocalization("entity.weather_hail.name","冰雹");
+game.setLocalization("entity.moving_block.name","被吹走的方块");
+game.setLocalization("entity.EntityPollutant.name","污染物");
+#MTS
+game.setLocalization("entity.mts_entity.name","");
+game.setLocalization("entity.mts_entity_renderer.name","");

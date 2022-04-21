@@ -11,6 +11,7 @@
 		"e9f27bf8"
 	],
 	size: 0.6d,
+	optional: true,
 	tasks: [{
 		uid: "db411ac6",
 		type: "item",

@@ -1,0 +1,34 @@
+{
+	title: "锤",
+	icon: "exnihilocreatio:hammer_wood",
+	x: 3.9d,
+	y: -1.5d,
+	description: "碎解！",
+	text: [
+		"来自于无中生有的锤可以用于进行方块碎解配方，如将圆石变为沙砾，沙砾变为沙子。",
+		"需要注意的是，无中生有的锤子和用于加工金属的锤子配方上不兼容。"
+	],
+	dependencies: [
+		"83504359"
+	],
+	size: 0.6d,
+	optional: true,
+	tasks: [{
+		uid: "41621610",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_stone"
+		},
+		{
+			item: "exnihilocreatio:hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9d7791a",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 40
+	}]
+}

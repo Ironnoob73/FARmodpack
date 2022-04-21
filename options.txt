@@ -14,7 +14,7 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:fast
+renderClouds:false
 resourcePacks:["SIV","Minecraft-Mod-Language-Modpack.zip","A16x"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -92,8 +92,14 @@ key_key.torcherino.useage_key:42
 key_[GC] 星图:50
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -112,13 +118,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
@@ -232,6 +232,7 @@ key_gui.xaero_display_all_sets:0
 key_gui.xaero_toggle_light_overlay:0
 key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
+key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_minimap_settings:21
 key_gui.xaero_open_map:51
 key_gui.xaero_open_settings:52
@@ -264,7 +265,7 @@ key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
-soundCategory_master:0.23178808
+soundCategory_master:0.49668875
 soundCategory_music:0.6197183
 soundCategory_record:1.0
 soundCategory_weather:1.0

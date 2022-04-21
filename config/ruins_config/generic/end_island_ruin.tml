@@ -14,6 +14,8 @@ max_leveling=999
 preserve_water=2
 preserve_lava=2
 preserve_plants=0
+spawnMinDistance=100
+spawnMaxDistance=1000
 
 random_height_offset=-20,-255
 uniqueMinDistance=500

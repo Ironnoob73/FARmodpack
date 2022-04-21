@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "WET",
     "MOUNTAIN",
+    "LUSH",
     "HOT",
+    "WET",
     "DRY",
     "HILLS"
   ],

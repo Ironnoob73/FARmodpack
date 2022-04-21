@@ -1,9 +1,9 @@
 {
-	x: 5.399999999999999d,
-	y: 1.2000000000000002d,
+	x: 6.6499999999999995d,
+	y: 1.05d,
 	shape: "rsquare",
 	dependencies: [
-		"480bf3fc"
+		"29ff2a2f"
 	],
 	size: 0.7d,
 	tasks: [{
@@ -12,5 +12,11 @@
 		items: [{
 			item: "thermalfoundation:material 1 128"
 		}]
+	}],
+	rewards: [{
+		uid: "4e63821c",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 25
 	}]
 }

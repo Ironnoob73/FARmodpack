@@ -6,8 +6,8 @@ mods.inworldcrafting.FluidToItem.transform(<immersiveengineering:treated_wood>*8
 recipes.remove(<immersiveengineering:tool>);
 recipes.addShaped("immersive_hammer",<immersiveengineering:tool>,[
 [<ore:ingotIron>,<ore:fiberHemp>,<ore:ingotIron>],
-[null,<ore:plankTreatedWood>,null],
-[null,<ore:plankTreatedWood>,null]]);
+[null,<ore:stickTreatedWood>,null],
+[null,<ore:stickTreatedWood>,null]]);
 #Treated wood pole
 recipes.remove(<engineersdecor:treated_wood_pole>);
 recipes.addShaped("treated_wood_pole_from_planks",<engineersdecor:treated_wood_pole>*6,[[<ore:plankTreatedWood>],[<ore:plankTreatedWood>],[<ore:plankTreatedWood>]]);

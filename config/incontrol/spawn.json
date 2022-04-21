@@ -1,2 +1,27 @@
 [
+  {
+    "minheight": 60,
+    "dimension": 0,
+    "hostile": true,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "maxheight": 60,
+    "dimension": 0,
+    "hostile": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "mob":["cyberware:cyberzombie", "rewired:cyberskeleton"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob":["cyberware:cyberzombie", "rewired:cyberskeleton"],
+    "onjoin": true,
+    "dimension": 111,
+    "result": "allow"
+  }
 ]

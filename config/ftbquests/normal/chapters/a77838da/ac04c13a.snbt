@@ -24,6 +24,9 @@
 		},
 		{
 			item: "exnihilocreatio:item_ore_tin 1 1"
+		},
+		{
+			item: "exnihilocreatio:item_ore_aluminium 1 1"
 		}]
 	}],
 	rewards: [{

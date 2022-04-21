@@ -1,5 +1,5 @@
 {
-	x: 4.5d,
+	x: 5.0d,
 	y: 1.5d,
 	description: "烤箱！",
 	text: [
@@ -8,6 +8,7 @@
 	dependencies: [
 		"480bf3fc"
 	],
+	optional: true,
 	tasks: [{
 		uid: "b8423b80",
 		type: "item",

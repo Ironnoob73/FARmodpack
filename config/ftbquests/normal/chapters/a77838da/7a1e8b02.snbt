@@ -1,6 +1,11 @@
 {
-	x: 6.25d,
-	y: -0.5d,
+	x: 8.0d,
+	y: 0.5d,
+	description: "更难的工具制作",
+	text: [
+		"通过合成铁镐挖掘更硬的矿物。",
+		"你也许已经发现了，现在金属类工具的制作变得更加困难——部分锭被替换为了板。"
+	],
 	dependencies: [
 		"8b956b11"
 	],
@@ -12,5 +17,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f691d41",
+		type: "item",
+		item: "actuallyadditions:iron_paxel"
 	}]
 }
