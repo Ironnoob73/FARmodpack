@@ -1,0 +1,14 @@
+{
+  "name": "研究台§7(#11442)",
+  "icon": "researchtable:table",
+  "category": "research",
+  "sortnum": "0",
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "§l研究台",
+      "item": "researchtable:table",
+      "text": "$(l)项目编号/$：11442$(br)研究台是进行科技研究的重要工具，里面包含所有可用的科技拷贝。为了在发生灾难后便于重建文明，已为每个冬眠舱基地各配备了一个。"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 346,
+  "ID": 343,
   "Name": "Deep Canyon",
   "Resource Location": "flansmodapocalypse:deepcanyon_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeDesertCanyon",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
-    "HOT",
     "WATER",
     "PLAINS",
+    "SANDY",
+    "HOT",
     "DRY",
     "RIVER"
   ],

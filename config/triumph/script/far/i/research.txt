@@ -1,0 +1,7 @@
+setIcon(<researchtable:table>)
+setTitle("研究台")
+setDescription("科技起步")
+addParent("far:i/root")
+setPos(25,0)
+hideLines()
+addCriteria("impossible","minecraft:impossible")

@@ -90,10 +90,6 @@
       "value": true,
       "comment": "If true, instruments will represent North as 360 degrees, instead of the Minecraft default of 180. Allows using the heading system that real-world pilots and militaries do."
     },
-    "devMode": {
-      "value": false,
-      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
-    },
     "steeringControlRate": {
       "value": 2.0,
       "comment": "How many degrees to turn the wheels on vehicles for every tick the button is held down.  This is not used when using a joystick."

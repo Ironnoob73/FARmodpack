@@ -269,12 +269,12 @@ cpu1 {
 }
 cpu2 {
   input: [[nuggetGold,"oc:materialCU",nuggetGold]
-          ["oc:ram2",waferAdvanced,"oc:ram2"]
+          ["oc:ram3",waferAdvanced,"oc:ram3"]
           [nuggetGold,"oc:materialALU",nuggetGold]]
 }
 cpu3 {
   input: [[chipDiamond,"oc:materialCU",chipDiamond]
-          ["oc:ram3","extraplanets:wafer","oc:ram3"]
+          ["oc:ram5","extraplanets:wafer","oc:ram5"]
           [chipDiamond,"oc:materialALU",chipDiamond]]
 }
 cu {

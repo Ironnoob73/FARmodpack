@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "SWAMP",
     "FOREST",
-    "DEAD",
     "WET",
+    "DENSE",
     "COLD",
-    "DENSE"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

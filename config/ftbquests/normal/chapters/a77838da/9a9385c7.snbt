@@ -1,0 +1,29 @@
+{
+	title: "研究台",
+	x: 12.5d,
+	y: 0.5d,
+	shape: "diamond",
+	description: "认真？这还要花钱？",
+	text: [
+		"为了防止灾后技术失传，人们将所有有用的主流科技都打包放进了研究台，研究台被设置于各冬眠基地，以便于研究员一旦醒来就能进行科技重建。"
+	],
+	dependencies: [
+		"169fe321"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "f1f48665",
+		type: "observation",
+		title: "观测：研究台",
+		icon: "researchtable:table",
+		match_type: "block_id",
+		match: "researchtable:table",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "461ddc0f",
+		type: "advancement",
+		advancement: "far:i/research",
+		criterion: ""
+	}]
+}

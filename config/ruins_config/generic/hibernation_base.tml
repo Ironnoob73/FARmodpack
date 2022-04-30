@@ -12,7 +12,7 @@ dimensions=5,11,10
 allowable_overhang=999
 max_leveling=2
 leveling_buffer=0
-uniqueMinDistance=100
+uniqueMinDistance=300
 spawnMinDistance=50
 spawnMaxDistance=0
 
@@ -22,7 +22,7 @@ rule1=0,100,minecraft:stone-0
 rule2=0,100,rustic:andesite_pillar-0
 rule3=0,100,elevatorid:elevator_white-0
 rule4=0,100,minecraft:double_stone_slab-0
-rule5=0,100,galacticraftplanets:mars_machine-4
+rule5=0,100,thermalfoundation:glass-3
 rule6=0,100,soviet:lift_down-0
 rule7=0,100,soviet:stillage-0
 rule8=0,100,researchtable:table-0
@@ -30,7 +30,8 @@ rule9=0,100,soviet:bio/biolab_table2-0
 rule10=0,100,soviet:bio/biolab_chair-2
 rule11=0,100,soviet:bio/biolab_table4-0
 rule12=0,100,minecraft:stained_hardened_clay-0
-rule13=0,100,galacticraftcore:block_multi-5
+#rule13=0,100,teBlock;far:hibernation_cabin_mid;{loc:"far:hibernation_cabin_mid",capabilities:[],mbd_def:"far:hibernation_cabin_mid",x:0,y:0,trait:{},recipeLogic:{},z:0,id:"far:hibernation_cabin_mid",frontFacing:3b}-0
+rule13=0,100,teBlock;far:hibernation_cabin_mid;{loc:"far:hibernation_cabin_mid",ownerLeast:-8828252666862830325L,capabilities:[],mbd_def:"far:hibernation_cabin_mid",x:1013,y:66,trait:{},recipeLogic:{},z:1074,id:"far:hibernation_cabin_mid",ownerMost:3094194902274099367L,frontFacing:3b}-0
 rule14=0,100,engineersdecor:sign_frost-4
 rule15=0,100,soviet:electro_board-1
 rule16=0,100,soviet:lift_up-0
@@ -95,15 +96,15 @@ endlayer
 
 layer
 12,12,12,12,12,12,12,12,12,12
-12,0,0,0,0,0,0,0,13,12
+12,0,0,0,0,0,0,0,5,12
 12,22,0,0,0,0,0,0,0,12
-12,27,28,30,30,30,30,31,13,12
+12,27,28,30,30,30,30,31,5,12
 12,0,29,0,0,0,0,29,0,12
-12,0,24,0,0,0,0,24,13,12
+12,0,24,0,0,0,0,24,5,12
 12,0,0,0,0,0,0,0,0,12
-12,0,0,0,0,0,0,0,13,12
+12,0,0,0,0,0,0,0,5,12
 12,0,0,0,0,0,0,0,0,12
-12,0,0,0,0,0,0,0,13,12
+12,0,0,0,0,0,0,0,5,12
 12,12,12,12,12,12,12,12,12,12
 endlayer
 

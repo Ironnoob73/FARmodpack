@@ -6,9 +6,8 @@
 	shape: "gear",
 	description: "旅途开始了",
 	text: [
-		"这是一个多灾多难的世界，风暴，尸潮，极端环境，以及你脆弱的身体随时会将你抬走。",
-		"你是如何到达这里的？你身无分文，只有一本会自己增加内容的笔记......",
-		"当然现在不是思考你从那里来的时候，任何一个意外都会要你的命！找或是造一个庇护所，尽可能地发展起来，应对可能遇到的灾难。"
+		"离开了冬眠仓，你惊奇的发现地球上只剩下了你一个人，其他的人类早已逃离地球，在并没有获取足够的航天科技之前，你只能独自呆在这个昔日的家园里......",
+		"或许，从现在开始发展科技也不算晚？"
 	],
 	hide_dependency_lines: true,
 	size: 1.5d,
@@ -19,17 +18,6 @@
 		dim: 0
 	}],
 	rewards: [{
-		uid: "567c501b",
-		type: "item",
-		auto: "enabled",
-		item: {
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "patchouli:article"
-			}
-		}
-	},
-	{
 		uid: "18bbe355",
 		type: "item",
 		auto: "enabled",
@@ -108,5 +96,12 @@
 				Quality: {}
 			}
 		}
+	},
+	{
+		uid: "3ff318af",
+		type: "advancement",
+		auto: "enabled",
+		advancement: "far:i/root",
+		criterion: ""
 	}]
 }

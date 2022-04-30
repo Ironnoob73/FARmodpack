@@ -103,3 +103,17 @@ recipes.addShaped("steel_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+//Special
+recipes.remove(<galacticraftcore:steel_pole>);
+mods.immersiveengineering.MetalPress.addRecipe(<galacticraftcore:steel_pole>,compress,<immersiveengineering:mold:2>,4800);
+//  Sword
+recipes.remove(<mekanismtools:steelsword>);
+mods.recipestages.Recipes.setRecipeStage("galactic_i",<mekanismtools:steelsword>);
+mods.extendedcrafting.TableCrafting.addShaped(3,<mekanismtools:steelsword>,[[compress],[compress],[<galacticraftcore:steel_pole>]]);
+recipes.remove(<galacticraftcore:steel_sword>);
+mods.recipestages.Recipes.setRecipeStage("mekanism",<galacticraftcore:steel_sword>);
+mods.extendedcrafting.TableCrafting.addShaped(2,<galacticraftcore:steel_sword>,[[ingot],[ingot],[<ore:ingotIron>]]);
+recipes.remove(<immersiveengineering:sword_steel>);
+mods.recipestages.Recipes.setRecipeStage("immersive_engineer",<immersiveengineering:sword_steel>);
+mods.extendedcrafting.TableCrafting.addShaped(1,<immersiveengineering:sword_steel>,[[plate],[plate],[<ore:stickTreatedWood>]]);
+recipes.remove(<basemetals:steel_sword>);

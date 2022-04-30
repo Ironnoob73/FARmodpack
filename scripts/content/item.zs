@@ -2,6 +2,7 @@
 import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Block;
 #Quartz iron plate
 val quartzIronPlate as Item=VanillaFactory.createItem("quartz_enriched_iron_plate");
 quartzIronPlate.creativeTab=<creativetab:materials.base>;quartzIronPlate.register();

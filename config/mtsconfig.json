@@ -52,6 +52,10 @@
       "value": false,
       "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
     },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
     "roadMaxLength": {
       "value": 32,
       "comment": "How long a single segment of road can be, in blocks.  While you can have longer segements, be aware they have more collision boxes and will generate more lag when broken or interacted with, and may not render if outside the chunk they are in.  Must be a whole number."
@@ -88,9 +92,12 @@
       "value": 1.0,
       "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
     },
-    "vehicleScale": {
-      "value": 1.0,
-      "comment": "Scale of all vheicles in the mod.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
+    "packVehicleScales": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
+      },
+      "comment": "Scale of all vheicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
     },
     "packSpeedFactors": {
       "value": {
@@ -134,6 +141,10 @@
     "wheelDamageIgnoreVelocity": {
       "value": false,
       "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "allowExternalDamage": {
+      "value": false,
+      "comment": "Whether or not non-IV things can damage vehicles.  This is normally false, as external damage is a hassle for most people, but can be true if you want other mod's guns to be able to attack vehicles in addition to IV's."
     },
     "propellerDamageFactor": {
       "value": 1.0,
@@ -219,7 +230,6 @@
       "frozen_water_fluid": "冰水",
       "wine": "葡萄酒",
       "redstone": "不稳定红石",
-      "liquid_chocolate": "液态巧克力",
       "liquidchlorine": "液态氯",
       "aerotheum": "飞扬之清风",
       "coldiron": "熔融寒铁§r",
@@ -281,7 +291,6 @@
       "honey": "蜂蜜",
       "bacterialsludge": "菌泥",
       "liquid_caramel_fluid": "液态焦糖",
-      "liquid_candy": "液态糖果",
       "mythril": "熔融Mythril",
       "nickel": "熔融镍§r",
       "potion": "药水",
