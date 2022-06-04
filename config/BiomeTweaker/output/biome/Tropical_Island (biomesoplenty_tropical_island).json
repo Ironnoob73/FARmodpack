@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WATER",
     "JUNGLE",
+    "DENSE",
     "LUSH",
-    "WET",
-    "DENSE"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

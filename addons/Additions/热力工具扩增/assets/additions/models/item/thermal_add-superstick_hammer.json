@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "additions:items/thermal_add-superstick_hammer-layer0"
-  }
-}

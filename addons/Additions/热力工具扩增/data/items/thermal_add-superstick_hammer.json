@@ -1,7 +1,0 @@
-{
-  "name": "超级木棍锤",
-  "max_stack": 1,
-  "material": "SUPERSTICK",
-  "vanilla_attributes": false,
-  "type": "additions:pickaxe"
-}
