@@ -1,6 +1,6 @@
 
 {
-  "ID": 220,
+  "ID": 221,
   "Name": "Crag",
   "Resource Location": "biomesoplenty:crag",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenCrag",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "COLD",
     "DRY",
+    "MOUNTAIN",
+    "COLD",
     "WASTELAND",
     "HILLS",
-    "MOUNTAIN"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

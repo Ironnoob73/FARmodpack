@@ -1,6 +1,6 @@
 
 {
-  "ID": 191,
+  "ID": 192,
   "Name": "Infected Snowy Tundra",
   "Resource Location": "moreplanets:infected_snowy_tundra",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedSnow",
@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "DEAD",
-    "SNOWY"
+    "SNOWY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

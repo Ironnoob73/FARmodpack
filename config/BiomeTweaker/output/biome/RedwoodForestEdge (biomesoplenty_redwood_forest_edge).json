@@ -1,6 +1,6 @@
 
 {
-  "ID": 264,
+  "ID": 265,
   "Name": "RedwoodForestEdge",
   "Resource Location": "biomesoplenty:redwood_forest_edge",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "FOREST"
+    "FOREST",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

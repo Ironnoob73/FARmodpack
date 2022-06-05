@@ -1,6 +1,6 @@
 
 {
-  "ID": 139,
+  "ID": 141,
   "Name": "Kronos Death Valley",
   "Resource Location": "zollerngalaxy:kronos death valley",
   "Class": "zollerngalaxy.biomes.kronos.BiomeKronosDeathValley",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
-    "DEAD",
     "DRY",
     "WASTELAND",
+    "DEAD",
+    "SPOOKY",
     "NETHER"
   ],
   "BiomeManager Entries": {},

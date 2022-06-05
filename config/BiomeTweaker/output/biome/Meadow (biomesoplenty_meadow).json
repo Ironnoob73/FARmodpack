@@ -1,6 +1,6 @@
 
 {
-  "ID": 236,
+  "ID": 237,
   "Name": "Meadow",
   "Resource Location": "biomesoplenty:meadow",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMeadow",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "COLD",
     "FOREST",
+    "WET",
     "SPARSE",
     "LUSH",
-    "WET"
+    "COLD",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

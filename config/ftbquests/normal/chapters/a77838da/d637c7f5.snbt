@@ -101,7 +101,7 @@
 		uid: "3ff318af",
 		type: "advancement",
 		auto: "enabled",
-		advancement: "far:i/root",
+		advancement: "far:i/A01root",
 		criterion: ""
 	}]
 }

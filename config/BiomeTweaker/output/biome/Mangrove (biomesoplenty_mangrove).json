@@ -1,6 +1,6 @@
 
 {
-  "ID": 233,
+  "ID": 234,
   "Name": "Mangrove",
   "Resource Location": "biomesoplenty:mangrove",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMangrove",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "SWAMP",
     "DENSE",
-    "LUSH",
-    "WET"
+    "WATER",
+    "WET",
+    "SWAMP",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

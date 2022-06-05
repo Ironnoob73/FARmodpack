@@ -1,6 +1,6 @@
 
 {
-  "ID": 179,
+  "ID": 180,
   "Name": "Infected Swamp",
   "Resource Location": "moreplanets:infected_swamp",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedSwamp",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "SWAMP",
-    "DEAD",
-    "WET"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

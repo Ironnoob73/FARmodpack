@@ -1,6 +1,6 @@
 
 {
-  "ID": 214,
+  "ID": 215,
   "Name": "Boreal Forest",
   "Resource Location": "biomesoplenty:boreal_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBorealForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "COLD",
     "FOREST",
-    "HILLS",
-    "CONIFEROUS"
+    "DENSE",
+    "CONIFEROUS",
+    "COLD",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

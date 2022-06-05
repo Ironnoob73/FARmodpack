@@ -1,6 +1,6 @@
 
 {
-  "ID": 239,
+  "ID": 240,
   "Name": "Mystic Grove",
   "Resource Location": "biomesoplenty:mystic_grove",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMysticGrove",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "DENSE",
-    "MAGICAL",
     "FOREST",
+    "DENSE",
+    "RARE",
+    "WET",
     "LUSH",
-    "WET"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

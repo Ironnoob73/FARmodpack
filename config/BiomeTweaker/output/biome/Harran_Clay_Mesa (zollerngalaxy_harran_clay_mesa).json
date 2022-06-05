@@ -1,6 +1,6 @@
 
 {
-  "ID": 106,
+  "ID": 107,
   "Name": "Harran Clay Mesa",
   "Resource Location": "zollerngalaxy:harran clay mesa",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranClayMesa",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "SWAMP",
-    "DEAD",
     "WASTELAND",
-    "WET"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

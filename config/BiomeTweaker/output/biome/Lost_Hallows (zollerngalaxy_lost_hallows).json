@@ -1,6 +1,6 @@
 
 {
-  "ID": 79,
+  "ID": 80,
   "Name": "Lost Hallows",
   "Resource Location": "zollerngalaxy:lost hallows",
   "Class": "zollerngalaxy.biomes.perdita.BiomeLostHallows",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "PLAINS",
+    "DRY",
     "DEAD",
-    "DRY"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

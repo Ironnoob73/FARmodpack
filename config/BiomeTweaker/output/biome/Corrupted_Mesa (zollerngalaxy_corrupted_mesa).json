@@ -1,6 +1,6 @@
 
 {
-  "ID": 91,
+  "ID": 92,
   "Name": "Corrupted Mesa",
   "Resource Location": "zollerngalaxy:corrupted mesa",
   "Class": "zollerngalaxy.biomes.caligro.BiomeCaligroCorruptedMesa",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
+    "MOUNTAIN",
     "COLD",
-    "DEAD",
-    "MOUNTAIN"
+    "SPOOKY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

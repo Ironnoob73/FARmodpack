@@ -1,6 +1,6 @@
 
 {
-  "ID": 66,
+  "ID": 67,
   "Name": "Oasis Beach",
   "Resource Location": "zollerngalaxy:oasis beach",
   "Class": "zollerngalaxy.biomes.oasis.BiomeOasisBeach",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "BEACH",
+    "WET",
     "LUSH",
-    "WET"
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 189,
+  "ID": 190,
   "Name": "Infected Jungle Hills",
   "Resource Location": "moreplanets:infected_jungle_hills",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedJungle",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "JUNGLE",
     "DENSE",
-    "DEAD",
+    "JUNGLE",
+    "WET",
+    "HOT",
     "HILLS",
-    "WET"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

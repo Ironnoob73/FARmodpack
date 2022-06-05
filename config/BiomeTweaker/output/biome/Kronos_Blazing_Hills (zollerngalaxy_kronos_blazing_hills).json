@@ -1,6 +1,6 @@
 
 {
-  "ID": 141,
+  "ID": 142,
   "Name": "Kronos Blazing Hills",
   "Resource Location": "zollerngalaxy:kronos blazing hills",
   "Class": "zollerngalaxy.biomes.kronos.BiomeKronosBlazingHills",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
-    "DEAD",
     "DRY",
     "WASTELAND",
+    "DEAD",
+    "SPOOKY",
     "NETHER"
   ],
   "BiomeManager Entries": {},

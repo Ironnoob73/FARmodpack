@@ -1,6 +1,6 @@
 
 {
-  "ID": 350,
+  "ID": 351,
   "Name": "miningBiome",
   "Resource Location": "aroma1997sdimension:miningbiome",
   "Class": "aroma1997.world.dimension.MiningBiome",

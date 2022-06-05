@@ -1,6 +1,6 @@
 
 {
-  "ID": 228,
+  "ID": 229,
   "Name": "Highland",
   "Resource Location": "biomesoplenty:highland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenHighland",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
+    "WET",
     "MOUNTAIN",
-    "WET"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,0 +1,2 @@
+mods.rustic.Condenser.addRecipe(<opencomputers:material:1>,[<ore:dustSulfur>,<ore:dustIron>,<ore:dustSulfur>],null,<ore:itemEmptyBucket>,<liquid:water>*256,1000);
+mods.rustic.Condenser.addRecipe(<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}),[<ore:blockCharcoal>],null,<ore:itemEmptyBucket>,null,1000);

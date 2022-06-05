@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 83,
   "Name": "Lost Mountains",
   "Resource Location": "zollerngalaxy:lost mountains",
   "Class": "zollerngalaxy.biomes.perdita.BiomeLostMountains",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

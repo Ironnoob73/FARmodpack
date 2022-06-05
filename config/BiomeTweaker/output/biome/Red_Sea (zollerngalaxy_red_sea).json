@@ -1,6 +1,6 @@
 
 {
-  "ID": 65,
+  "ID": 66,
   "Name": "Red Sea",
   "Resource Location": "zollerngalaxy:red sea",
   "Class": "zollerngalaxy.biomes.oasis.BiomeOasisRedSea",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "OCEAN",
+    "WET",
     "LUSH",
-    "WET"
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

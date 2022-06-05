@@ -1,6 +1,6 @@
 
 {
-  "ID": 272,
+  "ID": 273,
   "Name": "Tropical Island",
   "Resource Location": "biomesoplenty:tropical_island",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenTropicalIsland",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DENSE",
     "WATER",
     "JUNGLE",
-    "DENSE",
-    "LUSH",
-    "WET"
+    "WET",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

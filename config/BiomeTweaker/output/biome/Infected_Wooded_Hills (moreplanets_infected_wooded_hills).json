@@ -1,6 +1,6 @@
 
 {
-  "ID": 173,
+  "ID": 174,
   "Name": "Infected Wooded Hills",
   "Resource Location": "moreplanets:infected_wooded_hills",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedForest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
     "FOREST",
-    "HILLS"
+    "HILLS",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

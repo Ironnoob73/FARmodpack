@@ -1,6 +1,6 @@
 
 {
-  "ID": 111,
+  "ID": 112,
   "Name": "Harran Cherry Forest",
   "Resource Location": "zollerngalaxy:harran cherry forest",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranForest",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "FOREST",
+    "WET",
     "LUSH",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

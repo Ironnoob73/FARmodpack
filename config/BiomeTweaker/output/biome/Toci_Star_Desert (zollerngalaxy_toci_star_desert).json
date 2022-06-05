@@ -1,6 +1,6 @@
 
 {
-  "ID": 122,
+  "ID": 123,
   "Name": "Toci Star Desert",
   "Resource Location": "zollerngalaxy:toci star desert",
   "Class": "zollerngalaxy.biomes.toci.BiomeTociStarDesert",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HOT",
     "DRY",
-    "WASTELAND",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

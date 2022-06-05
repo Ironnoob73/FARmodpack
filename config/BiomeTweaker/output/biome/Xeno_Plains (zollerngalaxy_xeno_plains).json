@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 119,
   "Name": "Xeno Plains",
   "Resource Location": "zollerngalaxy:xeno plains",
   "Class": "zollerngalaxy.biomes.centotl.BiomeCentoEngineeringPlains",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
+    "DEAD",
     "SPOOKY",
-    "PLAINS",
-    "DEAD"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

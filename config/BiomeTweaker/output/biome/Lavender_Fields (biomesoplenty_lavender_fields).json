@@ -1,6 +1,6 @@
 
 {
-  "ID": 230,
+  "ID": 231,
   "Name": "Lavender Fields",
   "Resource Location": "biomesoplenty:lavender_fields",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLavenderFields",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "LUSH",
     "PLAINS",
-    "MAGICAL",
-    "LUSH"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

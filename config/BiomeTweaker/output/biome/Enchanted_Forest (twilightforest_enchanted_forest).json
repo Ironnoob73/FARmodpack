@@ -1,6 +1,6 @@
 
 {
-  "ID": 314,
+  "ID": 315,
   "Name": "Enchanted Forest",
   "Resource Location": "twilightforest:enchanted_forest",
   "Class": "twilightforest.biomes.TFBiomeEnchantedForest",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
     "FOREST",
-    "TWILIGHT"
+    "TWILIGHT",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

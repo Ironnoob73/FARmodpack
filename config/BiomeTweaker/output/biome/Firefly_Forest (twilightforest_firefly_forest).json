@@ -1,6 +1,6 @@
 
 {
-  "ID": 311,
+  "ID": 312,
   "Name": "Firefly Forest",
   "Resource Location": "twilightforest:firefly_forest",
   "Class": "twilightforest.biomes.TFBiomeFireflyForest",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "LUSH",
-    "TWILIGHT"
+    "TWILIGHT",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

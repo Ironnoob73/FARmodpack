@@ -1,6 +1,6 @@
 
 {
-  "ID": 212,
+  "ID": 213,
   "Name": "Bayou",
   "Resource Location": "biomesoplenty:bayou",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBayou",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "HOT",
     "DENSE",
-    "WET"
+    "WET",
+    "HOT",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

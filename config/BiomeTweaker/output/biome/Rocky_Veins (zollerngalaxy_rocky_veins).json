@@ -1,6 +1,6 @@
 
 {
-  "ID": 89,
+  "ID": 90,
   "Name": "Rocky Veins",
   "Resource Location": "zollerngalaxy:rocky veins",
   "Class": "zollerngalaxy.biomes.caligro.BiomeCaligroRockyVeins",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
+    "MOUNTAIN",
     "COLD",
-    "DEAD",
-    "MOUNTAIN"
+    "SPOOKY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

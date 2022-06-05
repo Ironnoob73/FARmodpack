@@ -1,6 +1,6 @@
 
 {
-  "ID": 251,
+  "ID": 252,
   "Name": "Shrubland",
   "Resource Location": "biomesoplenty:shrubland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenShrubland",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "SPARSE",
     "DRY",
-    "SPARSE"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

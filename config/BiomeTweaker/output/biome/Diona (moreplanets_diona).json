@@ -1,6 +1,6 @@
 
 {
-  "ID": 145,
+  "ID": 146,
   "Name": "Diona",
   "Resource Location": "moreplanets:diona",
   "Class": "stevekung.mods.moreplanets.planets.diona.world.gen.BiomeDiona",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DRY",
     "COLD",
-    "DEAD",
-    "DRY"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

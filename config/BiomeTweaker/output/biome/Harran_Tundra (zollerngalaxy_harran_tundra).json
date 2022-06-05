@@ -1,6 +1,6 @@
 
 {
-  "ID": 104,
+  "ID": 105,
   "Name": "Harran Tundra",
   "Resource Location": "zollerngalaxy:harran tundra",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranTundra",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "PLAINS",
-    "DEAD",
     "COLD",
+    "DEAD",
+    "PLAINS",
     "SNOWY"
   ],
   "BiomeManager Entries": {},

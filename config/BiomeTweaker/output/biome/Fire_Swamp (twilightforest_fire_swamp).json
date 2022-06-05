@@ -1,6 +1,6 @@
 
 {
-  "ID": 315,
+  "ID": 316,
   "Name": "Fire Swamp",
   "Resource Location": "twilightforest:fire_swamp",
   "Class": "twilightforest.biomes.TFBiomeFireSwamp",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
+    "TWILIGHT",
     "HOT",
-    "WASTELAND",
-    "TWILIGHT"
+    "SWAMP",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

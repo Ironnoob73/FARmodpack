@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 82,
   "Name": "Fueltonium Ocean",
   "Resource Location": "zollerngalaxy:fueltonium ocean",
   "Class": "zollerngalaxy.biomes.perdita.BiomeFueltoniumOcean",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WATER",
-    "SPOOKY",
+    "HOT",
+    "OCEAN",
     "DEAD",
-    "OCEAN"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

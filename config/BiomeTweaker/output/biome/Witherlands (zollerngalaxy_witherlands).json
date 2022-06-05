@@ -1,6 +1,6 @@
 
 {
-  "ID": 90,
+  "ID": 91,
   "Name": "Witherlands",
   "Resource Location": "zollerngalaxy:witherlands",
   "Class": "zollerngalaxy.biomes.caligro.BiomeCaligroWitherlands",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
     "COLD",
-    "DEAD",
-    "WASTELAND"
+    "WASTELAND",
+    "SPOOKY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 227,
+  "ID": 228,
   "Name": "Grove",
   "Resource Location": "biomesoplenty:grove",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGrove",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "FOREST",
+    "WET",
     "SPARSE",
     "LUSH",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

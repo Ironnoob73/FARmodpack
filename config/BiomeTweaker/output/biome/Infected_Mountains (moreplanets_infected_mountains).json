@@ -1,6 +1,6 @@
 
 {
-  "ID": 176,
+  "ID": 177,
   "Name": "Infected Mountains",
   "Resource Location": "moreplanets:infected_mountains",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedMountains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
+    "MOUNTAIN",
     "HILLS",
-    "MOUNTAIN"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

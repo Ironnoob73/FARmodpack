@@ -1,6 +1,6 @@
 
 {
-  "ID": 144,
+  "ID": 145,
   "Name": "Maveth",
   "Resource Location": "zollerngalaxy:maveth",
   "Class": "zollerngalaxy.biomes.maveth.BiomeMaveth",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
+    "MOUNTAIN",
     "COLD",
-    "DEAD",
     "SANDY",
-    "MOUNTAIN"
+    "DEAD",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 241,
+  "ID": 242,
   "Name": "Orchard",
   "Resource Location": "biomesoplenty:orchard",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOrchard",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "PLAINS",
     "FOREST",
-    "LUSH"
+    "DENSE",
+    "LUSH",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

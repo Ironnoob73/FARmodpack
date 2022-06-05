@@ -1,6 +1,6 @@
 
 {
-  "ID": 148,
+  "ID": 150,
   "Name": "Slimely Stream",
   "Resource Location": "moreplanets:slimely_stream",
   "Class": "stevekung.mods.moreplanets.planets.chalos.world.gen.biome.BiomeSlimelyStream",

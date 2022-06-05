@@ -1,6 +1,6 @@
 
 {
-  "ID": 198,
+  "ID": 199,
   "Name": "Infected Stone Shore",
   "Resource Location": "moreplanets:infected_stone_shore",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedBeach",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "BEACH",
-    "DEAD"
+    "DEAD",
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

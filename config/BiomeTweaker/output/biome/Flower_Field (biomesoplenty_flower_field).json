@@ -1,6 +1,6 @@
 
 {
-  "ID": 225,
+  "ID": 226,
   "Name": "Flower Field",
   "Resource Location": "biomesoplenty:flower_field",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenFlowerField",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "LUSH"
+    "LUSH",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 235,
+  "ID": 236,
   "Name": "Marsh",
   "Resource Location": "biomesoplenty:marsh",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMarsh",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "WET"
+    "WET",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

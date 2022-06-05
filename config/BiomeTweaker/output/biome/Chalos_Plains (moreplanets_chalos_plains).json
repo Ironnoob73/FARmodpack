@@ -1,6 +1,6 @@
 
 {
-  "ID": 146,
+  "ID": 147,
   "Name": "Chalos Plains",
   "Resource Location": "moreplanets:chalos_plains",
   "Class": "stevekung.mods.moreplanets.planets.chalos.world.gen.biome.BiomeChalosPlains",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY"
+    "DRY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

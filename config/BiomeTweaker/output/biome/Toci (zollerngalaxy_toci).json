@@ -1,6 +1,6 @@
 
 {
-  "ID": 120,
+  "ID": 121,
   "Name": "Toci",
   "Resource Location": "zollerngalaxy:toci",
   "Class": "zollerngalaxy.biomes.toci.BiomeToci",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HOT",
     "DRY",
-    "WASTELAND",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

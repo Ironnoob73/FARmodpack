@@ -1,6 +1,6 @@
 
 {
-  "ID": 242,
+  "ID": 243,
   "Name": "Outback",
   "Resource Location": "biomesoplenty:outback",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOutback",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SAVANNA",
+    "SPARSE",
     "HOT",
     "DRY",
-    "SPARSE",
-    "SAVANNA",
     "SANDY"
   ],
   "BiomeManager Entries": {},

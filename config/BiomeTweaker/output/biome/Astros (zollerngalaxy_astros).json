@@ -1,6 +1,6 @@
 
 {
-  "ID": 113,
+  "ID": 114,
   "Name": "Astros",
   "Resource Location": "zollerngalaxy:astros",
   "Class": "zollerngalaxy.biomes.astros.BiomeAstros",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "WET",
     "COLD",
-    "SNOWY",
-    "WET"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

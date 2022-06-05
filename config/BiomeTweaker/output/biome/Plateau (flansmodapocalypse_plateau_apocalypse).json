@@ -1,6 +1,6 @@
 
 {
-  "ID": 346,
+  "ID": 347,
   "Name": "Plateau",
   "Resource Location": "flansmodapocalypse:plateau_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeDesertCanyon",
@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DRY",
     "HOT",
     "PLAINS",
-    "DRY",
     "SANDY"
   ],
   "BiomeManager Entries": {},

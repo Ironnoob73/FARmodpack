@@ -1,6 +1,6 @@
 
 {
-  "ID": 197,
+  "ID": 198,
   "Name": "Infected Beach",
   "Resource Location": "moreplanets:infected_beaches",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedBeach",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "BEACH",
-    "DEAD"
+    "DEAD",
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

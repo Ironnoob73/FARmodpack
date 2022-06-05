@@ -1,6 +1,6 @@
 
 {
-  "ID": 116,
+  "ID": 117,
   "Name": "LV-426",
   "Resource Location": "zollerngalaxy:lv-426",
   "Class": "zollerngalaxy.biomes.centotl.BiomeCento",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
+    "WASTELAND",
     "DEAD",
-    "WASTELAND"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

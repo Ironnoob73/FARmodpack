@@ -1,6 +1,6 @@
 
 {
-  "ID": 101,
+  "ID": 102,
   "Name": "Harran Dunes",
   "Resource Location": "zollerngalaxy:harran dunes",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranDunes",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DEAD",
     "DRY",
+    "MOUNTAIN",
     "WASTELAND",
-    "MOUNTAIN"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

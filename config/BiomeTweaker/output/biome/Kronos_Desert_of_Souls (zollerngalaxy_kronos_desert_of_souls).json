@@ -1,6 +1,6 @@
 
 {
-  "ID": 137,
+  "ID": 138,
   "Name": "Kronos Desert of Souls",
   "Resource Location": "zollerngalaxy:kronos desert of souls",
   "Class": "zollerngalaxy.biomes.kronos.BiomeKronosSoulDesert",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
-    "DEAD",
     "DRY",
     "WASTELAND",
+    "DEAD",
+    "SPOOKY",
     "NETHER"
   ],
   "BiomeManager Entries": {},

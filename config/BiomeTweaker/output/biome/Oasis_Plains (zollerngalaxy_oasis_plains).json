@@ -1,6 +1,6 @@
 
 {
-  "ID": 64,
+  "ID": 65,
   "Name": "Oasis Plains",
   "Resource Location": "zollerngalaxy:oasis plains",
   "Class": "zollerngalaxy.biomes.oasis.BiomeOasisPlains",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "WET",
     "LUSH",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

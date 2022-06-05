@@ -1,6 +1,6 @@
 
 {
-  "ID": 80,
+  "ID": 81,
   "Name": "Lost Oasis",
   "Resource Location": "zollerngalaxy:lost oasis",
   "Class": "zollerngalaxy.biomes.perdita.BiomeLostOasis",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "WET",
     "LUSH",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

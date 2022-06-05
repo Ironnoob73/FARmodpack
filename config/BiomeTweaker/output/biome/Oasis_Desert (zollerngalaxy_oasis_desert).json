@@ -1,6 +1,6 @@
 
 {
-  "ID": 69,
+  "ID": 70,
   "Name": "Oasis Desert",
   "Resource Location": "zollerngalaxy:oasis desert",
   "Class": "zollerngalaxy.biomes.oasis.BiomeOasisDesert",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "HOT",
     "DRY",
-    "HILLS",
     "LUSH",
-    "WET",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 124,
   "Name": "Toci Valley",
   "Resource Location": "zollerngalaxy:toci valley",
   "Class": "zollerngalaxy.biomes.toci.BiomeTociValley",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY"
+    "DRY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

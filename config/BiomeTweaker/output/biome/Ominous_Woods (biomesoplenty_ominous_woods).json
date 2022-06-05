@@ -1,6 +1,6 @@
 
 {
-  "ID": 240,
+  "ID": 241,
   "Name": "Ominous Woods",
   "Resource Location": "biomesoplenty:ominous_woods",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOminousWoods",
@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "FOREST",
     "DENSE",
-    "MAGICAL",
+    "RARE",
+    "WET",
     "SPOOKY",
     "DEAD",
-    "FOREST",
-    "WET"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

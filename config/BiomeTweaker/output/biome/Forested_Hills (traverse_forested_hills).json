@@ -1,6 +1,6 @@
 
 {
-  "ID": 330,
+  "ID": 331,
   "Name": "Forested Hills",
   "Resource Location": "traverse:forested_hills",
   "Class": "prospector.traverse.world.biomes.BiomeForestedHills",

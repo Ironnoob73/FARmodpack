@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 126,
   "Name": "Tlaloc",
   "Resource Location": "zollerngalaxy:tlaloc",
   "Class": "zollerngalaxy.biomes.tlaloc.BiomeTlaloc",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
+    "MOUNTAIN",
     "COLD",
     "DEAD",
-    "MOUNTAIN"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

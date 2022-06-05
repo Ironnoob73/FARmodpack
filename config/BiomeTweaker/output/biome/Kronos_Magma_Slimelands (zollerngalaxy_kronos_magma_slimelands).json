@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 144,
   "Name": "Kronos Magma Slimelands",
   "Resource Location": "zollerngalaxy:kronos magma slimelands",
   "Class": "zollerngalaxy.biomes.kronos.BiomeKronosMagmaSlimelands",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
-    "DEAD",
     "DRY",
     "WASTELAND",
+    "DEAD",
+    "SPOOKY",
     "NETHER"
   ],
   "BiomeManager Entries": {},

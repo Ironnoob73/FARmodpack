@@ -1,6 +1,6 @@
 
 {
-  "ID": 255,
+  "ID": 256,
   "Name": "Temperate Rainforest",
   "Resource Location": "biomesoplenty:temperate_rainforest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenTemperateRainforest",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "FOREST",
-    "LUSH",
-    "WET"
+    "DENSE",
+    "WET",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

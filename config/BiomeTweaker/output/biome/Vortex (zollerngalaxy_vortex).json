@@ -1,6 +1,6 @@
 
 {
-  "ID": 97,
+  "ID": 98,
   "Name": "Vortex",
   "Resource Location": "zollerngalaxy:vortex",
   "Class": "zollerngalaxy.biomes.vortex.BiomeVortex",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "WET",
     "HOT",
-    "MOUNTAIN",
-    "WET"
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

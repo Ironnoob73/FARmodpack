@@ -1,6 +1,6 @@
 
 {
-  "ID": 68,
+  "ID": 69,
   "Name": "Muddy Mesa",
   "Resource Location": "zollerngalaxy:muddy mesa",
   "Class": "zollerngalaxy.biomes.oasis.BiomeOasisMudSwamp",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "WET",
     "SWAMP",
-    "HILLS",
     "LUSH",
-    "WET"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

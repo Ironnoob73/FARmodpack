@@ -1,6 +1,6 @@
 
 {
-  "ID": 312,
+  "ID": 313,
   "Name": "Deep Mushroom Forest",
   "Resource Location": "twilightforest:deep_mushroom_forest",
   "Class": "twilightforest.biomes.TFBiomeDeepMushrooms",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "FOREST",
-    "MUSHROOM",
-    "TWILIGHT"
+    "TWILIGHT",
+    "MUSHROOM"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

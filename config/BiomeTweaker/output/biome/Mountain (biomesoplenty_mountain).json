@@ -1,6 +1,6 @@
 
 {
-  "ID": 238,
+  "ID": 239,
   "Name": "Mountain",
   "Resource Location": "biomesoplenty:mountain",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenMountain",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "FOREST",
     "SPARSE",
+    "DRY",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

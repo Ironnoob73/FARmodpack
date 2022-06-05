@@ -1,6 +1,6 @@
 
 {
-  "ID": 323,
+  "ID": 324,
   "Name": "Meadow",
   "Resource Location": "traverse:meadow",
   "Class": "prospector.traverse.world.biomes.BiomeMeadow",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "WET",
     "LUSH",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

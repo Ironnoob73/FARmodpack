@@ -1,6 +1,6 @@
 
 {
-  "ID": 93,
+  "ID": 94,
   "Name": "Rocky Hills",
   "Resource Location": "zollerngalaxy:rocky hills",
   "Class": "zollerngalaxy.biomes.exodus.BiomeExodusRockyHills",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
     "WET",
+    "LUSH",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 215,
+  "ID": 216,
   "Name": "Brushland",
   "Resource Location": "biomesoplenty:brushland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBrushland",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "DRY",
+    "SAVANNA",
     "SPARSE",
-    "SAVANNA"
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

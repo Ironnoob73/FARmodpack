@@ -1,6 +1,6 @@
 
 {
-  "ID": 172,
+  "ID": 173,
   "Name": "Infected Forest",
   "Resource Location": "moreplanets:infected_forest",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "FOREST"
+    "FOREST",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

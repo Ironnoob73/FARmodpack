@@ -1,6 +1,6 @@
 
 {
-  "ID": 107,
+  "ID": 108,
   "Name": "Harran Marsh",
   "Resource Location": "zollerngalaxy:harran marsh",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranMarsh",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
     "JUNGLE",
-    "DEAD",
+    "WET",
+    "SWAMP",
     "WASTELAND",
-    "WET"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

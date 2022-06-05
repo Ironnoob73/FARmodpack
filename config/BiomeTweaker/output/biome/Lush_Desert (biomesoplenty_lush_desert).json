@@ -1,6 +1,6 @@
 
 {
-  "ID": 231,
+  "ID": 232,
   "Name": "Lush Desert",
   "Resource Location": "biomesoplenty:lush_desert",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLushDesert",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SAVANNA",
+    "SPARSE",
     "HOT",
     "DRY",
-    "SPARSE",
-    "SAVANNA",
     "LUSH",
     "SANDY"
   ],

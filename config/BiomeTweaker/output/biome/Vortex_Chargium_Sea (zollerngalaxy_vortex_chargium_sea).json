@@ -1,6 +1,6 @@
 
 {
-  "ID": 99,
+  "ID": 100,
   "Name": "Vortex Chargium Sea",
   "Resource Location": "zollerngalaxy:vortex chargium sea",
   "Class": "zollerngalaxy.biomes.vortex.BiomeVortexChargiumSea",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WATER",
-    "SPOOKY",
+    "HOT",
+    "OCEAN",
     "DEAD",
-    "OCEAN"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

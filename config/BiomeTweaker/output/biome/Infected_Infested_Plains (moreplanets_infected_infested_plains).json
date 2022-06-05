@@ -1,6 +1,6 @@
 
 {
-  "ID": 152,
+  "ID": 153,
   "Name": "Infected Infested Plains",
   "Resource Location": "moreplanets:infected_infested_plains",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedPlains",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
+    "DRY",
     "PLAINS",
-    "DEAD",
-    "DRY"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

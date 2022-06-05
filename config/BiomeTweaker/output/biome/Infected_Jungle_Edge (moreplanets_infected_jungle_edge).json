@@ -1,6 +1,6 @@
 
 {
-  "ID": 190,
+  "ID": 191,
   "Name": "Infected Jungle Edge",
   "Resource Location": "moreplanets:infected_jungle_edge",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedJungle",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "JUNGLE",
-    "RARE",
-    "DEAD",
     "FOREST",
-    "WET"
+    "RARE",
+    "JUNGLE",
+    "WET",
+    "HOT",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 102,
+  "ID": 103,
   "Name": "Harran Ocean",
   "Resource Location": "zollerngalaxy:harran ocean",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranOcean",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "DEAD",
+    "WET",
     "OCEAN",
-    "WET"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

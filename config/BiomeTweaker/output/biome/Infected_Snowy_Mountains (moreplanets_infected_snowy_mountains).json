@@ -1,6 +1,6 @@
 
 {
-  "ID": 192,
+  "ID": 193,
   "Name": "Infected Snowy Mountains",
   "Resource Location": "moreplanets:infected_snowy_mountains",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedSnow",
@@ -21,9 +21,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "COLD",
-    "DEAD",
+    "MOUNTAIN",
     "SNOWY",
-    "MOUNTAIN"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

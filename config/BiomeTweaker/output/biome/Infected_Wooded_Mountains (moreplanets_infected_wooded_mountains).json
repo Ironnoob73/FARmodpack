@@ -1,6 +1,6 @@
 
 {
-  "ID": 178,
+  "ID": 179,
   "Name": "Infected Wooded Mountains",
   "Resource Location": "moreplanets:infected_wooded_mountains",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedMountains",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
     "FOREST",
     "SPARSE",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

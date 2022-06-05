@@ -1,6 +1,6 @@
 
 {
-  "ID": 83,
+  "ID": 84,
   "Name": "Rocky Isles",
   "Resource Location": "zollerngalaxy:rocky isles",
   "Class": "zollerngalaxy.biomes.altum.BiomeRockyIsles",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "BEACH",
+    "WET",
     "LUSH",
-    "WET"
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

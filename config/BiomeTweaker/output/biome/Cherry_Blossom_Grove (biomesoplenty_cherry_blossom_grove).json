@@ -1,6 +1,6 @@
 
 {
-  "ID": 217,
+  "ID": 218,
   "Name": "Cherry Blossom Grove",
   "Resource Location": "biomesoplenty:cherry_blossom_grove",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenCherryBlossomGrove",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "MAGICAL",
     "FOREST",
+    "DENSE",
+    "WET",
     "LUSH",
-    "WET"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

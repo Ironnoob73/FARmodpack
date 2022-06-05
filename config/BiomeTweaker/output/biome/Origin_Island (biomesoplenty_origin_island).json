@@ -1,6 +1,6 @@
 
 {
-  "ID": 271,
+  "ID": 272,
   "Name": "Origin Island",
   "Resource Location": "biomesoplenty:origin_island",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenOriginIsland",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "WATER",
-    "RARE",
-    "FOREST"
+    "RARE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

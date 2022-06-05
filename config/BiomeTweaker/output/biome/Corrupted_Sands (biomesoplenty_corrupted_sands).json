@@ -1,6 +1,6 @@
 
 {
-  "ID": 275,
+  "ID": 276,
   "Name": "Corrupted Sands",
   "Resource Location": "biomesoplenty:corrupted_sands",
   "Class": "biomesoplenty.common.biome.nether.BiomeCorruptedSands",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "DENSE",
+    "HOT",
     "DRY",
-    "NETHER",
-    "SANDY"
+    "SANDY",
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

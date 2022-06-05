@@ -1,6 +1,6 @@
 
 {
-  "ID": 169,
+  "ID": 170,
   "Name": "Infected River",
   "Resource Location": "moreplanets:infected_river",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeNibiru",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "DEAD",
-    "RIVER"
+    "RIVER",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

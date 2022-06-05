@@ -1,6 +1,6 @@
 
 {
-  "ID": 114,
+  "ID": 115,
   "Name": "Astros Moonrocks",
   "Resource Location": "zollerngalaxy:astros moonrocks",
   "Class": "zollerngalaxy.biomes.astros.BiomeAstrosRockies",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DEAD",
-    "SNOWY",
     "WET",
-    "MOUNTAIN"
+    "COLD",
+    "MOUNTAIN",
+    "SNOWY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 194,
+  "ID": 195,
   "Name": "Green Vein Fields",
   "Resource Location": "moreplanets:green_vein_fields",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeGreenVeinFields",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "RARE",
-    "MAGICAL",
-    "FOREST"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

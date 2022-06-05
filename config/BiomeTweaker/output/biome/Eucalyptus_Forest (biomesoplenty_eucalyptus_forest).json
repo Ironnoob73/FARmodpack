@@ -1,6 +1,6 @@
 
 {
-  "ID": 223,
+  "ID": 224,
   "Name": "Eucalyptus Forest",
   "Resource Location": "biomesoplenty:eucalyptus_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenEucalyptusForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "DENSE",
     "FOREST",
-    "LUSH",
-    "WET"
+    "DENSE",
+    "JUNGLE",
+    "WET",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 88,
+  "ID": 89,
   "Name": "Creeplands",
   "Resource Location": "zollerngalaxy:creeplands",
   "Class": "zollerngalaxy.biomes.caligro.BiomeCaligroCreeplands",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
     "COLD",
-    "DEAD",
-    "WASTELAND"
+    "WASTELAND",
+    "SPOOKY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

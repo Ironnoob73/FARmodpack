@@ -1,6 +1,6 @@
 
 {
-  "ID": 87,
+  "ID": 88,
   "Name": "Upside Down",
   "Resource Location": "zollerngalaxy:upside down",
   "Class": "zollerngalaxy.biomes.caligro.BiomeCaligroUpsideDown",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "PLAINS",
     "SPOOKY",
-    "COLD",
     "DEAD"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 98,
+  "ID": 99,
   "Name": "Vortex Mountains",
   "Resource Location": "zollerngalaxy:vortex mountains",
   "Class": "zollerngalaxy.biomes.vortex.BiomeVortexMountain",
@@ -21,9 +21,9 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "HOT",
-    "DEAD",
     "DRY",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

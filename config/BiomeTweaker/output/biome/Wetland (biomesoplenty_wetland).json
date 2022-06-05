@@ -1,6 +1,6 @@
 
 {
-  "ID": 259,
+  "ID": 260,
   "Name": "Wetland",
   "Resource Location": "biomesoplenty:wetland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenWetland",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "DENSE",
     "FOREST",
-    "LUSH",
-    "WET"
+    "DENSE",
+    "WET",
+    "SWAMP",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

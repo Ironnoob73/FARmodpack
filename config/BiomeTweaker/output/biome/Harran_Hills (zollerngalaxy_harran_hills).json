@@ -1,6 +1,6 @@
 
 {
-  "ID": 110,
+  "ID": 111,
   "Name": "Harran Hills",
   "Resource Location": "zollerngalaxy:harran hills",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranHills",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "DRY",
     "LUSH",
+    "COLD",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

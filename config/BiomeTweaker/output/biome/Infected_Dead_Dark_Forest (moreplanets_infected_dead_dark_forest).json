@@ -1,6 +1,6 @@
 
 {
-  "ID": 175,
+  "ID": 176,
   "Name": "Infected Dead Dark Forest",
   "Resource Location": "moreplanets:infected_dead_dark_forest",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedForest",
@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
+    "FOREST",
     "SPOOKY",
-    "DEAD",
-    "FOREST"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

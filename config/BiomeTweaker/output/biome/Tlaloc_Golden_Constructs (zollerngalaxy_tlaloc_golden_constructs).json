@@ -1,6 +1,6 @@
 
 {
-  "ID": 135,
+  "ID": 136,
   "Name": "Tlaloc Golden Constructs",
   "Resource Location": "zollerngalaxy:tlaloc golden constructs",
   "Class": "zollerngalaxy.biomes.tlaloc.BiomeTlalocGoldenConstructs",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
-    "DEAD",
+    "MOUNTAIN",
     "WASTELAND",
-    "MOUNTAIN"
+    "DEAD",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

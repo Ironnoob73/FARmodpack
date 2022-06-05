@@ -1,6 +1,6 @@
 
 {
-  "ID": 329,
+  "ID": 330,
   "Name": "Rocky Plateau",
   "Resource Location": "traverse:rocky_plateau",
   "Class": "prospector.traverse.world.biomes.BiomeRockyPlateau",

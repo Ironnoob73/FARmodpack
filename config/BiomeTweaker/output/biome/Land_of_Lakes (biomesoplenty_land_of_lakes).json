@@ -1,6 +1,6 @@
 
 {
-  "ID": 229,
+  "ID": 230,
   "Name": "Land of Lakes",
   "Resource Location": "biomesoplenty:land_of_lakes",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenLandOfLakes",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "DENSE",
     "FOREST",
-    "WET"
+    "DENSE",
+    "WET",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -1,6 +1,6 @@
 
 {
-  "ID": 77,
+  "ID": 78,
   "Name": "Radiolarian Ocean",
   "Resource Location": "zollerngalaxy:radiolarian ocean",
   "Class": "zollerngalaxy.biomes.atheon.BiomeRadiolarianLakes",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WATER",
-    "SPOOKY",
+    "HOT",
+    "OCEAN",
     "DEAD",
-    "OCEAN"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

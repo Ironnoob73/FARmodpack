@@ -1,6 +1,6 @@
 
 {
-  "ID": 188,
+  "ID": 189,
   "Name": "Infected Jungle",
   "Resource Location": "moreplanets:infected_jungle",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedJungle",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "JUNGLE",
     "DENSE",
-    "DEAD",
-    "WET"
+    "JUNGLE",
+    "WET",
+    "HOT",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

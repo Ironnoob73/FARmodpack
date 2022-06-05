@@ -1,6 +1,6 @@
 
 {
-  "ID": 182,
+  "ID": 183,
   "Name": "Infected Snowy Taiga",
   "Resource Location": "moreplanets:infected_snowy_taiga",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedTaiga",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "CONIFEROUS",
     "COLD",
     "DEAD",
-    "SNOWY",
-    "CONIFEROUS"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

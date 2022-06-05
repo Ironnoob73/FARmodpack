@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 116,
   "Name": "Astros Glaciers",
   "Resource Location": "zollerngalaxy:astros glaciers",
   "Class": "zollerngalaxy.biomes.astros.BiomeAstrosGlaciers",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DEAD",
-    "SNOWY",
     "WET",
-    "MOUNTAIN"
+    "COLD",
+    "MOUNTAIN",
+    "SNOWY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

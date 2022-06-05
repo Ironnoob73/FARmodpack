@@ -1,6 +1,6 @@
 
 {
-  "ID": 253,
+  "ID": 254,
   "Name": "Snowy Forest",
   "Resource Location": "biomesoplenty:snowy_forest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenSnowyForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "FOREST",
+    "WET",
     "SPARSE",
-    "SNOWY",
-    "WET"
+    "COLD",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

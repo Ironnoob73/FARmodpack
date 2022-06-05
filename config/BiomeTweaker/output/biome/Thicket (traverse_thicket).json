@@ -1,6 +1,6 @@
 
 {
-  "ID": 339,
+  "ID": 340,
   "Name": "Thicket",
   "Resource Location": "traverse:thicket",
   "Class": "prospector.traverse.world.biomes.BiomeThicket",

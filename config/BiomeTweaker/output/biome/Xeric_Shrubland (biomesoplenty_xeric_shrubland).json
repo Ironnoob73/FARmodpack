@@ -1,6 +1,6 @@
 
 {
-  "ID": 261,
+  "ID": 262,
   "Name": "Xeric Shrubland",
   "Resource Location": "biomesoplenty:xeric_shrubland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenXericShrubland",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SAVANNA",
+    "SPARSE",
     "HOT",
     "DRY",
-    "SPARSE",
-    "SAVANNA",
     "LUSH",
     "SANDY"
   ],

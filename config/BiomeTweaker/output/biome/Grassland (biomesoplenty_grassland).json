@@ -1,6 +1,6 @@
 
 {
-  "ID": 226,
+  "ID": 227,
   "Name": "Grassland",
   "Resource Location": "biomesoplenty:grassland",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenGrassland",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "WET",
     "HILLS",
-    "WET"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

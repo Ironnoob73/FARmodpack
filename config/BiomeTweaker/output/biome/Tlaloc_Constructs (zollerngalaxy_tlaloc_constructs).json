@@ -1,6 +1,6 @@
 
 {
-  "ID": 126,
+  "ID": 128,
   "Name": "Tlaloc Constructs",
   "Resource Location": "zollerngalaxy:tlaloc constructs",
   "Class": "zollerngalaxy.biomes.tlaloc.BiomeTlalocConstructs",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPOOKY",
+    "WASTELAND",
     "DEAD",
-    "WASTELAND"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

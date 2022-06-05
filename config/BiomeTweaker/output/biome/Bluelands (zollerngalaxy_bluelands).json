@@ -24,14 +24,7 @@
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityAlienVillager",
-      "Weight": 1,
-      "Min Group Count": 0,
-      "Max Group Count": 1
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedZombie",

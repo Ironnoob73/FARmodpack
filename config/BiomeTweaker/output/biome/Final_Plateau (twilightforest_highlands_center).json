@@ -1,6 +1,6 @@
 
 {
-  "ID": 317,
+  "ID": 318,
   "Name": "Final Plateau",
   "Resource Location": "twilightforest:highlands_center",
   "Class": "twilightforest.biomes.TFBiomeFinalPlateau",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
+    "TWILIGHT",
     "DRY",
     "WASTELAND",
-    "TWILIGHT",
+    "DEAD",
     "MESA"
   ],
   "BiomeManager Entries": {},

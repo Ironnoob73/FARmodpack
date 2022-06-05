@@ -1,6 +1,6 @@
 
 {
-  "ID": 344,
+  "ID": 345,
   "Name": "Canyon",
   "Resource Location": "flansmodapocalypse:canyon_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeDesertCanyon",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "WATER",
-    "PLAINS",
-    "RIVER",
     "DRY",
+    "HOT",
+    "RIVER",
+    "PLAINS",
     "SANDY"
   ],
   "BiomeManager Entries": {},

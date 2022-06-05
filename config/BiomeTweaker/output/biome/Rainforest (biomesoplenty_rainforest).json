@@ -1,6 +1,6 @@
 
 {
-  "ID": 246,
+  "ID": 247,
   "Name": "Rainforest",
   "Resource Location": "biomesoplenty:rainforest",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenRainforest",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "JUNGLE",
-    "DENSE",
     "FOREST",
-    "HILLS",
+    "DENSE",
+    "JUNGLE",
+    "WET",
     "LUSH",
-    "WET"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

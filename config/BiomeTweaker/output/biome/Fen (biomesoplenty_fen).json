@@ -1,6 +1,6 @@
 
 {
-  "ID": 224,
+  "ID": 225,
   "Name": "Fen",
   "Resource Location": "biomesoplenty:fen",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenFen",
@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "DENSE",
-    "COLD",
-    "DEAD",
     "FOREST",
-    "WET"
+    "DENSE",
+    "WET",
+    "SWAMP",
+    "COLD",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

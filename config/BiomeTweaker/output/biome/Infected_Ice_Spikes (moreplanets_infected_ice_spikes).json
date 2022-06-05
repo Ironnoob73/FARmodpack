@@ -1,6 +1,6 @@
 
 {
-  "ID": 193,
+  "ID": 194,
   "Name": "Infected Ice Spikes",
   "Resource Location": "moreplanets:infected_ice_spikes",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedSnow",
@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "RARE",
     "COLD",
-    "DEAD",
     "HILLS",
-    "SNOWY"
+    "SNOWY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

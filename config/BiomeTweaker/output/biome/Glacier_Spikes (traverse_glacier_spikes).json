@@ -1,6 +1,6 @@
 
 {
-  "ID": 335,
+  "ID": 336,
   "Name": "Glacier Spikes",
   "Resource Location": "traverse:glacier_spikes",
   "Class": "prospector.traverse.world.biomes.BiomeGlacier",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "MOUNTAIN",
     "COLD",
-    "SNOWY",
-    "MOUNTAIN"
+    "SNOWY"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [

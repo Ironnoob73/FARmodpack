@@ -1,3 +1,4 @@
 item.contenttweaker.quartz_enriched_iron_plate.name=Quartz Enriched Iron Plate
 item.contenttweaker.material_wire_iron.name=Iron Wire
-item.contenttweaker.rod_constantan.name=Constantan Stick(Obsolete)
+item.contenttweaker.rod_constantan.name=Constantan Rod
+tile.far.item.contenttweaker.rod_constantan.name=Constantan Stick(Obsolete)

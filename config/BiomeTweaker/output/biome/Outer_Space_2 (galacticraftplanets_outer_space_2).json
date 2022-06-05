@@ -1,6 +1,6 @@
 
 {
-  "ID": 282,
+  "ID": 283,
   "Name": "Outer Space 2",
   "Resource Location": "galacticraftplanets:outer space 2",
   "Class": "micdoodle8.mods.galacticraft.api.prefab.world.gen.BiomeAdaptive",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DEAD",
     "DRY",
+    "DEAD",
     "SANDY"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 185,
+  "ID": 186,
   "Name": "Infected Giant Tree Taiga Hills",
   "Resource Location": "moreplanets:infected_giant_tree_taiga_hills",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedTaiga",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DEAD",
     "FOREST",
+    "CONIFEROUS",
+    "COLD",
     "HILLS",
-    "CONIFEROUS"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

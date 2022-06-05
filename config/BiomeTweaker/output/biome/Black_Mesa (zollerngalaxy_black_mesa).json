@@ -1,6 +1,6 @@
 
 {
-  "ID": 96,
+  "ID": 97,
   "Name": "Black Mesa",
   "Resource Location": "zollerngalaxy:black mesa",
   "Class": "zollerngalaxy.biomes.exodus.BiomeBlackMesa",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DEAD",
     "DRY",
+    "MOUNTAIN",
     "WASTELAND",
-    "MOUNTAIN"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

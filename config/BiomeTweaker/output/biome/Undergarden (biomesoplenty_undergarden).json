@@ -1,6 +1,6 @@
 
 {
-  "ID": 278,
+  "ID": 279,
   "Name": "Undergarden",
   "Resource Location": "biomesoplenty:undergarden",
   "Class": "biomesoplenty.common.biome.nether.BiomeUndergarden",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "NETHER",
-    "LUSH"
+    "LUSH",
+    "NETHER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

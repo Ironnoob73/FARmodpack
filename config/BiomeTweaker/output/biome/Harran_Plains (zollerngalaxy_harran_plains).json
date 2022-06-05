@@ -1,6 +1,6 @@
 
 {
-  "ID": 100,
+  "ID": 101,
   "Name": "Harran Plains",
   "Resource Location": "zollerngalaxy:harran plains",
   "Class": "zollerngalaxy.biomes.metztli.BiomeHarranPlains",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "WASTELAND",
+    "WET",
     "LUSH",
-    "WET"
+    "WASTELAND",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

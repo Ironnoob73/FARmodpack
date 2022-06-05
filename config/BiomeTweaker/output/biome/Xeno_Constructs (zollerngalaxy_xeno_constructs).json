@@ -1,6 +1,6 @@
 
 {
-  "ID": 119,
+  "ID": 120,
   "Name": "Xeno Constructs",
   "Resource Location": "zollerngalaxy:xeno constructs",
   "Class": "zollerngalaxy.biomes.centotl.BiomeCentoConstructs",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "SPOOKY",
-    "DEAD"
+    "DEAD",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

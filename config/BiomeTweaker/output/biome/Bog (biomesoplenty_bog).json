@@ -1,6 +1,6 @@
 
 {
-  "ID": 213,
+  "ID": 214,
   "Name": "Bog",
   "Resource Location": "biomesoplenty:bog",
   "Class": "biomesoplenty.common.biome.overworld.BiomeGenBog",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "COLD",
     "FOREST",
-    "WET"
+    "WET",
+    "SWAMP",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

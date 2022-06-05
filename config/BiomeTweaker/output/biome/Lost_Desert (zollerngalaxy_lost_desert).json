@@ -1,6 +1,6 @@
 
 {
-  "ID": 78,
+  "ID": 79,
   "Name": "Lost Desert",
   "Resource Location": "zollerngalaxy:lost desert",
   "Class": "zollerngalaxy.biomes.perdita.BiomeLostDesert",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "DEAD",
     "DRY",
+    "MOUNTAIN",
     "WASTELAND",
-    "MOUNTAIN"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

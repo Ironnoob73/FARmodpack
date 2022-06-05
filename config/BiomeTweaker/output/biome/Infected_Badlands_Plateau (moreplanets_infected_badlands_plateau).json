@@ -1,6 +1,6 @@
 
 {
-  "ID": 202,
+  "ID": 203,
   "Name": "Infected Badlands Plateau",
   "Resource Location": "moreplanets:infected_badlands_plateau",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedBadlands",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
     "DRY",
-    "MESA",
-    "SANDY"
+    "DEAD",
+    "SANDY",
+    "MESA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

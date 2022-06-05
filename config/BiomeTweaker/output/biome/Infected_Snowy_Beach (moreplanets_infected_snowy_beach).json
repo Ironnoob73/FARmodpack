@@ -1,6 +1,6 @@
 
 {
-  "ID": 199,
+  "ID": 200,
   "Name": "Infected Snowy Beach",
   "Resource Location": "moreplanets:infected_snowy_beach",
   "Class": "stevekung.mods.moreplanets.planets.nibiru.world.gen.biome.BiomeInfectedBeach",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "BEACH",
-    "DEAD",
     "COLD",
-    "SNOWY"
+    "DEAD",
+    "SNOWY",
+    "BEACH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
