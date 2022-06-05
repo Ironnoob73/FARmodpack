@@ -23,8 +23,8 @@
     "DENSE",
     "JUNGLE",
     "RARE",
-    "WET",
     "HOT",
+    "WET",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
