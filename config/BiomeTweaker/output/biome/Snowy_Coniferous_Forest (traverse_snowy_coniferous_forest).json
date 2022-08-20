@@ -1,6 +1,6 @@
 
 {
-  "ID": 337,
+  "ID": 340,
   "Name": "Snowy Coniferous Forest",
   "Resource Location": "traverse:snowy_coniferous_forest",
   "Class": "prospector.traverse.world.biomes.BiomeConiferousForest",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
     "COLD",
+    "SNOWY",
     "CONIFEROUS",
     "FOREST"
   ],

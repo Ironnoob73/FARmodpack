@@ -105,6 +105,10 @@
     "joystickDeadZone": {
       "value": 0.03,
       "comment": "Dead zone for joystick axis.  This is NOT joystick specific."
+    },
+    "masterVolume": {
+      "value": 1.0,
+      "comment": "Volume for all sounds in the mod.  This is used instead of the game's master volume."
     }
   },
   "controls": {

@@ -1,6 +1,6 @@
 
 {
-  "ID": 341,
+  "ID": 344,
   "Name": "Arid Highland",
   "Resource Location": "traverse:arid_highland",
   "Class": "prospector.traverse.world.biomes.BiomeAridHighland",
@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "HILLS",
-    "HOT",
+    "MOUNTAIN",
     "SPARSE",
-    "MOUNTAIN"
+    "HILLS",
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

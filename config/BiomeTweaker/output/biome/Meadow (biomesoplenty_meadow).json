@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "COLD",
     "LUSH",
-    "WET",
     "SPARSE",
     "FOREST",
+    "WET",
     "PLAINS"
   ],
   "BiomeManager Entries": {},
@@ -232,8 +232,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

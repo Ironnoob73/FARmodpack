@@ -1,6 +1,6 @@
 
 {
-  "ID": 321,
+  "ID": 324,
   "Name": "Autumnal Woods",
   "Resource Location": "traverse:autumnal_woods",
   "Class": "prospector.traverse.world.biomes.BiomeAutumnalWoods",

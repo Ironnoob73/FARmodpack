@@ -1,6 +1,6 @@
 
 {
-  "ID": 339,
+  "ID": 342,
   "Name": "Desert Shrubland",
   "Resource Location": "traverse:desert_shrubland",
   "Class": "prospector.traverse.world.biomes.BiomeDesertShrubland",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
+    "DEAD",
     "DRY",
     "HOT",
-    "DEAD"
+    "SANDY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

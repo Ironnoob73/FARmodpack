@@ -257,7 +257,8 @@
     "input.turnsignal_l": "LeftSignal",
     "system.iav": "IAV has been detected as installed.  This pack messes up the font for IV and MUST be removed to continue.",
     "sytstem.soundslot": "IMMERSIVE VEHICLES ERROR: Tried to play a sound, but was told no sound slots were available.  Some mod is taking up all the slots.  Probabaly Immersive Railroading or Dynamic Surroundings.  If you have those installed, complain to the mod author or check the mod configs.  Sound will not play.",
-    "sytstem.debug": "%s"
+    "sytstem.debug": "%s",
+    "gui.config.controls.volume": "Volume: "
   },
   "packs": {
     "mts": {

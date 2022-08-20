@@ -23,8 +23,8 @@
     "COLD",
     "SWAMP",
     "DEAD",
-    "WET",
     "SPARSE",
+    "WET",
     "SPOOKY"
   ],
   "BiomeManager Entries": {},

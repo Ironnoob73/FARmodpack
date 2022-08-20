@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "COLD",
     "SWAMP",
-    "WET",
-    "FOREST"
+    "FOREST",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
