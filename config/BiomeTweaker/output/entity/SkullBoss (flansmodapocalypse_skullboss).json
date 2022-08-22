@@ -1,0 +1,6 @@
+
+{
+  "Name": "SkullBoss",
+  "Registry ID": "flansmodapocalypse:skullboss",
+  "Class": "com.flansmod.apocalypse.common.entity.EntitySkullBoss"
+}

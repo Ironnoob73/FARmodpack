@@ -1,0 +1,33 @@
+{
+	icon: "rustic:condenser",
+	x: 9.0d,
+	y: 0.5d,
+	description: "远古技艺",
+	text: [
+		"曾经有人迷信于从各类物品中炼取金子，金子有没有炼到不清楚，但的确发现了许多有用的配方。",
+		"炼金冷凝器是一个多方块结构，除了冷凝器本身外，你还需要在它两边放置蒸馏器。"
+	],
+	dependencies: [
+		"8b956b11"
+	],
+	tasks: [{
+		uid: "5ecc7006",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "fbf5ed4c",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d0bdcd71",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

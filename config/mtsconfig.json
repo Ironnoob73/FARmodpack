@@ -1,0 +1,422 @@
+{
+  "general": {
+    "dumpCraftingConfig": {
+      "value": false,
+      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to pick up vehicles with wrenches.  Does not affect client worlds."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, vehicles can only be picked up in creative mode."
+    },
+    "keyRequiredToStartVehicles": {
+      "value": false,
+      "comment": "If true, vehicles can only be started if the player has the key in their hand."
+    },
+    "blockBreakage": {
+      "value": true,
+      "comment": "Whether or not vehicles and guns can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks, and guns won't break blocks when they hit them.  This will also disable explosive block breakage, though not explosions themselves."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "creativeDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players."
+    },
+    "chunkloadVehicles": {
+      "value": true,
+      "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "If enabled, the MTS dev mode will export color values as HSV instead of hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
+    "roadMaxLength": {
+      "value": 32,
+      "comment": "How long a single segment of road can be, in blocks.  While you can have longer segements, be aware they have more collision boxes and will generate more lag when broken or interacted with, and may not render if outside the chunk they are in.  Must be a whole number."
+    },
+    "aircraftSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to aircraft movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "carSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to car movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines use fuel.  Change this if you think engines use fuel too fast or slow."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "How far a vehicle will 'climb' blocks every tick when the wheels go into the ground.  Higher values make vehicles climb blocks quicker at the cost of smooth movement."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
+    },
+    "engineDimensionBlacklist": {
+      "value": [],
+      "comment": "Blacklist of dimension names where engines will be prevented from being started.  Can be used to disable vehicles in specific dimensions.  Think Galacticraft, where you don't want folks flying planes on the moon."
+    },
+    "engineDimensionWhitelist": {
+      "value": [],
+      "comment": "Whitelist of dimension names where engines will only be alowed to work.  Overrides the blacklist if this exists."
+    },
+    "packVehicleScales": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
+      },
+      "comment": "Scale of all vheicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
+    },
+    "packSpeedFactors": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "waywardcraft": 1.0,
+        "mts": 1.0,
+        "unuparts": 1.0,
+        "unucivil": 1.0
+      },
+      "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
+    },
+    "itemWeights": {
+      "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
+      "comment2": "This mass factors into vehicle performance, with particular emphasis on vehicle payloads.  Some defaults are presented here, but you can add/remove to your liking.",
+      "comment3": "Note that the part of the name searched is the item's registry name, NOT the in-game display name.  This is similar to what is in the /give command.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    },
+    "joinedPlayers": {
+      "value": [
+        "2af0c9de-afdf-48a7-857b-bef93c3efd0b"
+      ],
+      "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
+    }
+  },
+  "damage": {
+    "explosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Whether or not wheels can be broken (go flat)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "allowExternalDamage": {
+      "value": false,
+      "comment": "Whether or not non-IV things can damage vehicles.  This is normally false, as external damage is a hassle for most people, but can be true if you want other mod's guns to be able to attack vehicles in addition to IV's."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a propeller."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a jet engine."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by wheels on vehicles."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by crashes."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by bullets on vehicles."
+    },
+    "engineLeakProbability": {
+      "value": 0.01,
+      "comment": "Chance an engine will spring a leak if hit.  Explosions cause 10x this chance."
+    },
+    "crashItemDropPercentage": {
+      "value": 0.75,
+      "comment": "Percent that a crafting ingredient will be dropped when a vehicle is crashed.  Note that fire/explosions may destroy these items if enabled, so just because they drop does not mean you will get all of them."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    }
+  },
+  "fuel": {
+    "comment1": "The following section is used for fuel configs for engines.  Each entry here is a single fuel type for engines.",
+    "comment2": "Inside each entry exist values for the potency of the fluids that can be considered to be that fuel type.",
+    "comment3": "You can make engines take different types of fluids for their fuels by editing these values.  See the in-game handbook for more information.",
+    "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the 'lastLoadedFluids' list.  This contains all the fluids that were present during the last run of the game.",
+    "comment5": "The first entry in the list is the registered fluid name, while the second entry will be the displayed name.  Only use the first name, as the second name changes based on game language settings.",
+    "fuels": {
+      "diesel": {
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      },
+      "furnace": {
+        "lava": 1.0
+      }
+    },
+    "lastLoadedFluids": {
+      "seed_oil": "种子油",
+      "virinium": "熔融Virinium",
+      "fueltonium": "熔融铀",
+      "brine": "盐水",
+      "vibranium": "熔融Vibranium",
+      "liquidhydrogen": "液态氢",
+      "invar": "熔融殷钢§r",
+      "palladium": "熔融钯",
+      "liquid_chocolate_fluid": "液态巧克力",
+      "yellorium": "液态黄铀",
+      "endacid": "幽冥酸液",
+      "liquidsulfurdioxide": "液态二氧化硫",
+      "liquidoxygen": "液态氧",
+      "napalm": "凝固汽油",
+      "fiery_essence": "炽血精华",
+      "milk": "牛奶",
+      "nuclear_waste_fluid": "核废料",
+      "gaseous_cheese_milk": "Gaseous Cheese Milk",
+      "crude_oil": "石油",
+      "bronze": "熔融青铜§r",
+      "liquidsodium": "液态钠",
+      "infected_purlonite_water_fluid": "Infected Purlonite Water",
+      "frozen_water_fluid": "冰水",
+      "wine": "葡萄酒",
+      "redstone": "不稳定红石",
+      "liquidchlorine": "液态氯",
+      "aerotheum": "飞扬之清风",
+      "coldiron": "熔融寒铁§r",
+      "fuelcolumn": "fluid.fuelcolumn",
+      "cider": "苹果酒",
+      "gold": "fluid.mmdlib.gold.name§r",
+      "copper": "熔融铜§r",
+      "adamantine": "熔融精金§r",
+      "superheatedmoltensodium": "过热熔融钠",
+      "potion_lingering": "滞留药水",
+      "electrum": "熔融绿宝石§r",
+      "carbondioxide": "二氧化碳",
+      "biomass": "生物质",
+      "antimony": "熔融锑§r",
+      "oilgc": "fluid.oilgc",
+      "poison": "毒液",
+      "refinedcanolaoil": "精制菜籽油",
+      "dark_iron": "熔融玄铁",
+      "infected_purlonite_lava_fluid": "Infected Purlonite Lava",
+      "helium": "氦",
+      "radite": "熔融Radite",
+      "blood": "血",
+      "amaranth": "熔融Amaranth",
+      "atmosphericgases": "大气",
+      "mana": "元始魔力",
+      "liquidethene": "液态乙烯",
+      "charcoal": "fluid.mmdlib.charcoal.name§r",
+      "helium_gas": "氦气",
+      "refined_biofuel": "藿香碱",
+      "wildberrywine": "野莓酒",
+      "xpjuice": "液态经验",
+      "infected_water_fluid_mp": "Infected Water",
+      "radium": "熔融镭",
+      "fierymetal": "熔融炽铁",
+      "salt_fluid": "盐水",
+      "menrilresin": "门瑞欧树脂",
+      "evenium": "熔融Evenium",
+      "tin": "熔融锡§r",
+      "shinium": "熔融Shinium",
+      "empoweredoil": "充能油",
+      "obsidian": "fluid.mmdlib.obsidian.name§r",
+      "sand": "流沙",
+      "mushroom_stew": "蘑菇煲",
+      "methane": "甲烷",
+      "desh": "熔融戴斯",
+      "raditefluid": "Molten Radite",
+      "liquidfusionfuel": "液态氘氚燃料",
+      "emerald": "fluid.mmdlib.emerald.name§r",
+      "chargium": "熔融超充能煤炭",
+      "witchwater": "巫水",
+      "gasoline": "汽油",
+      "heavywater": "重水",
+      "infected_water_fluid": "污染水",
+      "etrium": "熔融Etrium",
+      "iridium": "熔融铱",
+      "lava": "熔岩",
+      "liquiddeuterium": "液态氘",
+      "honey": "蜂蜜",
+      "bacterialsludge": "菌泥",
+      "liquid_caramel_fluid": "液态焦糖",
+      "mythril": "熔融Mythril",
+      "nickel": "熔融镍§r",
+      "potion": "药水",
+      "knightmetal": "熔融骑士金属",
+      "nitrogen": "氮",
+      "plantoil": "植物油",
+      "osmium": "熔融锇",
+      "syrup": "糖浆",
+      "zollernium": "熔融Zollernium",
+      "aquarium": "熔融海洋合金§r",
+      "chlorine": "氯",
+      "purified_water": "纯净水",
+      "purified_water_fluid": "Purified Water",
+      "iron": "fluid.mmdlib.iron.name§r",
+      "alewort": "麦芽汁",
+      "naturegas": "Nature Gas",
+      "bismuth": "熔融铋§r",
+      "petrotheum": "板块之层岩",
+      "distwater": "蒸馏水",
+      "liquidhydrogenchloride": "液态氯化氢",
+      "potion_splash": "喷溅药水",
+      "liquidnitrogen": "液氮",
+      "ender": "谐振末影珍珠",
+      "hydrogen": "氢",
+      "liquidethanemethane": "液化乙烷-甲烷",
+      "refined_fuel": "精炼油",
+      "glowstone": "充能液态荧石",
+      "adamantite": "熔融Adamantite",
+      "spacemilk": "Space Milk",
+      "tungsten": "熔融钨",
+      "tree_oil": "树油",
+      "carbon": "熔融碳",
+      "heliumhydrogen": "液化氦-氢",
+      "zinc": "熔融锌§r",
+      "nitrogen_ice_fluid": "液氮冰",
+      "biodiesel": "生物柴油",
+      "helium3": "氦-3",
+      "magnesium": "熔融镁",
+      "liquidmethane": "液态甲烷",
+      "argon": "氩气",
+      "highpressuresteam": "高压蒸汽",
+      "silver": "熔融银§r",
+      "liquidlithium": "液态锂",
+      "radioactive_water_fluid": "放射性水",
+      "ironwine": "铁树莓酒",
+      "steel": "熔融钢§r",
+      "diesel": "柴油",
+      "crystal": "黑曜石晶体",
+      "hot_spring_water": "温泉水",
+      "moltensalt": "熔融盐",
+      "cobalt": "熔融钴",
+      "ethanol": "乙醇",
+      "refined_oil": "石脑油",
+      "pewter": "熔融白镴§r",
+      "cheese_milk_fluid": "Cheese Milk",
+      "pyrotheum": "烈焰之炽焱",
+      "amber": "琥珀",
+      "biocrude": "生物质原油",
+      "lead": "熔融铅§r",
+      "ethane": "乙烷",
+      "magma_fluid": "液态岩浆",
+      "aluminium": "熔融铝",
+      "liquidchorus": "紫颂果汁",
+      "adamantium": "熔融Adamantium",
+      "prismarine": "fluid.mmdlib.prismarine.name§r",
+      "grapejuice": "葡萄汁",
+      "fuel": "汽油",
+      "exhauststeam": "余热蒸汽",
+      "mead": "蜂蜜酒",
+      "oliveoil": "橄榄油",
+      "applejuice": "苹果汁",
+      "experience": "知识精华",
+      "platinum": "熔融铂§r",
+      "meteoric_iron": "熔融陨铁",
+      "cyanite": "液态蓝晶",
+      "ale": "啤酒",
+      "oxygen": "氧",
+      "liquidargon": "液氩",
+      "cryotheum": "极寒之凛冰",
+      "brass": "熔融黄铜§r",
+      "glowstone_fluid": "液态荧石",
+      "starsteel": "熔融星钢§r",
+      "water": "水",
+      "plutonium": "熔融钚",
+      "cupronickel": "熔融白铜§r",
+      "resin": "树脂",
+      "nitrogen_fluid": "液氮",
+      "coal": "fluid.mmdlib.coal.name§r",
+      "liquidtritium": "液态氚",
+      "uranium": "熔融铀",
+      "fuelgc": "fluid.fuelgc",
+      "canolaoil": "菜籽油",
+      "sulfuricacid": "硫酸",
+      "concrete": "液态混凝土",
+      "mithril": "熔融秘银§r",
+      "sulphuricacid": "fluid.tile.blocksulphuricacid",
+      "mercury": "液态汞§r",
+      "swamp_water": "沼泽水",
+      "clean_water_fluid": "清水",
+      "chocolatemelted": "液态巧克力",
+      "oil": "原油",
+      "liquid_hydrocarbon_fluid": "液态烃",
+      "steam": "蒸汽",
+      "wildberryjuice": "野莓果汁",
+      "moltensodium": "熔融钠",
+      "ironberryjuice": "铁树莓汁",
+      "methane_fluid": "液态甲烷",
+      "creosote": "杂酚油",
+      "sap": "树汁",
+      "fluegas": "燃烧废气",
+      "whitelava": "放射性熔岩",
+      "quartz": "fluid.mmdlib.quartz.name§r",
+      "crystaloil": "晶化油",
+      "liquidsulfurtrioxide": "液态三氧化硫",
+      "ancient_debris": "熔融Ancient Debris",
+      "diamond": "fluid.mmdlib.diamond.name§r",
+      "zogite": "熔融Zogite",
+      "lubricant": "润滑油"
+    }
+  }
+}

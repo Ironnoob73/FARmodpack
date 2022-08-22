@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	description: "简陋的加工厂",
+	text: [
+		"一个温度不高的熔炉，你甚至不能直接用它熔炼矿物，而是需要先把矿物打成粉再放进去熔炼成锭。"
+	],
+	dependencies: [
+		"c81ab466"
+	],
+	tasks: [{
+		uid: "77b9b3b1",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "b089cbbf",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	}]
+}

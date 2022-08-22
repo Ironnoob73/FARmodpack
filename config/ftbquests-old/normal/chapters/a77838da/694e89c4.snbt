@@ -1,0 +1,50 @@
+{
+	title: "模组检测",
+	x: -0.7d,
+	y: 0.7d,
+	description: "用于确认你没有少添加模组",
+	text: [
+		"该包并不包含全部模组文件，某些模组由于协议原因我不能直接放在整合包里面发布，这就需要你自行去对应网站下载了。如果一切正常，你应该会在准备安装整合包时看到“安装前必读”文件，那里已经列出了这些模组的下载链接。下载完之后，在这个任务的右侧查看有没有问号，如果没有，那你就可以忽略掉该任务了。",
+		"通常来说，缺失的模组是并不能在curseforge上下到的那些。"
+	],
+	dependencies: [
+		"d637c7f5"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "b458e4bd",
+		type: "custom",
+		title: "模组检测",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "e88cbb35",
+		type: "toast",
+		title: "检测:幸运方块",
+		icon: "lucky:lucky_block"
+	},
+	{
+		uid: "bdd7c7bc",
+		type: "toast",
+		title: "检测:flan",
+		icon: {
+			id: "flansmod:ak47",
+			tag: {
+				attachments: {
+					barrel: {},
+					grip: {},
+					generic_0: {},
+					scope: {},
+					stock: {}
+				},
+				ammo: [{}]
+			}
+		}
+	},
+	{
+		uid: "e8949e70",
+		type: "toast",
+		title: "检测:星系",
+		icon: "galacticraftcore:rocket_t1"
+	}]
+}

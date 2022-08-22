@@ -1,0 +1,63 @@
+# Generic Dungeon Garden
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# 26 Jan 2016 - MC 1.7.10
+# Note: Place in \templateparser folder.
+# Updated to MC 1.9: 24 Apr 2016
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=3,8,8
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:double_stone_slab-0
+rule2=0,100,minecraft:grass-0
+rule3=0,100,minecraft:log-1
+rule4=0,100,minecraft:leaves-4
+rule5=0,100,minecraft:tallgrass-1,minecraft:tallgrass-2
+rule6=0,100,minecraft:double_plant-4
+rule7=0,100,minecraft:red_flower-1,minecraft:red_flower,minecraft:red_flower-2
+rule8=0,100,preserveBlock
+rule9=0,100,minecraft:double_plant-8
+rule10=0,100,minecraft:double_plant-11
+
+layer
+1,2,2,2,2,2,2,1
+2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2
+2,2,2,3,3,2,2,2
+2,2,2,3,3,2,2,2
+2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2
+1,2,2,2,2,2,2,1
+endlayer
+
+layer
+0,4,4,5,5,4,4,0
+4,6,5,5,5,5,6,4
+4,5,5,7,7,5,5,4
+5,5,7,8,8,7,5,5
+5,5,7,8,8,7,5,5
+4,5,5,7,7,5,5,4
+4,6,5,5,5,5,6,4
+0,4,4,5,5,4,4,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0
+0,10,0,0,0,0,9,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,10,0,0,0,0,10,0
+0,0,0,0,0,0,0,0
+endlayer
+

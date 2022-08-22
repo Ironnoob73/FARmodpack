@@ -1,0 +1,6 @@
+
+{
+  "Name": "Caveman",
+  "Registry ID": "cavern:caveman",
+  "Class": "cavern.entity.monster.EntityCaveman"
+}

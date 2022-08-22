@@ -1,0 +1,120 @@
+
+# Sandstone Dungeon Item - Guardian Lion Statue
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# MC 1.7.10; modified 3 Jan 2015
+# Last Updated: 14 Nov 2015
+# Updated to MC 1.8: 5 Mar 2016
+# Updated to MC 1.9: 24 Apr 2016
+# Last Updated (MC 1.11): 11 May 2017
+# Updated to MC 1.12: 22 Jun 2017
+
+# Thanks to Syndaryl for bug reporting.
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=
+dimensions=7,8,5
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=0
+
+rule1=0,100,minecraft:sandstone_stairs-0
+rule2=0,100,minecraft:sandstone_stairs-3
+rule3=0,100,minecraft:sandstone_stairs-2
+rule4=0,100,minecraft:sandstone-0
+rule5=0,100,minecraft:sandstone_stairs-1
+rule6=0,100,preserveBlock
+rule7=0,100,minecraft:sandstone-1
+rule8=0,100,minecraft:double_stone_slab-1
+rule9=0,100,minecraft:stone_slab-1
+rule10=0,100,minecraft:sandstone_stairs-6
+rule11=0,100,minecraft:sandstone_stairs-7
+rule12=0,100,ChestGenHook:chests/desert_pyramid:3
+
+rule13=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 mob_spawner 0 replace {SpawnData:{id:cave_spider,CustomName:"Tomb Scarab",ActiveEffects:[{Id:14,Amplifier:1,Duration:999999,Ambient:1}]}}:@,CommandBlock:RUINSTRIGGER /setblock ~0 ~-1 ~0 mob_spawner 0 replace {SpawnData:{id:skeleton,HandItems:[{Count:1,id:golden_axe},{Count:1,id:shield}],ArmorItems:[{Count:1,id:chainmail_boots},{Count:1,id:chainmail_leggings},{Count:1,id:golden_chestplate},{Count:1,id:golden_helmet}],CustomName:"Tomb Guardian",Attributes:[{Name:generic.movementSpeed,Base:0.5},{Name:generic.attackDamage,Base:3},{Name:generic.knockbackResistance,Base:1}],HandDropChances:[0.1F,0.0F],ArmorDropChances:[0.0F,0.0F,0.1F,0.1F],Silent:1}}:@
+
+layer
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+4,4,4,4,4
+endlayer
+
+
+layer
+2,1,1,1,1
+2,4,4,4,3
+2,4,12,4,3
+2,4,13,4,3
+2,4,4,4,3
+2,4,4,4,3
+2,4,4,4,3
+2,5,5,5,3
+endlayer
+
+layer
+6,6,6,6,6
+6,7,7,7,6
+6,7,4,7,6
+6,7,4,7,6
+6,7,4,7,6
+6,7,4,7,6
+6,7,7,7,6
+6,6,6,6,6
+endlayer
+
+layer
+6,6,6,6,6
+6,8,8,4,6
+6,4,8,8,6
+6,9,8,9,6
+6,8,8,8,6
+6,9,6,9,6
+6,9,6,9,6
+6,6,6,6,6
+endlayer
+
+layer
+6,6,6,6,6
+6,1,4,1,6
+6,5,4,5,6
+0,6,4,0,6
+0,9,8,9,6
+6,0,0,0,6
+6,6,6,6,6
+6,6,6,6,6
+endlayer
+
+layer
+6,6,0,6,6
+6,0,0,0,6
+0,0,1,0,6
+0,0,4,0,0
+0,11,7,10,0
+0,0,5,0,6
+6,0,0,0,6
+6,6,0,6,6
+endlayer
+
+layer
+0,0,0,0,0
+0,0,0,0,0
+0,0,0,0,0
+0,0,1,0,0
+0,2,4,3,0
+0,0,5,0,0
+0,0,0,0,0
+0,0,0,0,0
+endlayer
+

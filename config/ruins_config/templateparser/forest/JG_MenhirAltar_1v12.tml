@@ -1,0 +1,165 @@
+
+# Menhir Altar
+# 7 Mar 2014; updated to MC 1.7.10, 16 Oct 2014
+# Created by Ruins mod version 12.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.8: 28 Feb 2016
+# Updated to MC 1.9: 30 Apr 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=dead_forest,forest,foresthills,forest_hills,swampland,extreme hills edge,jungle,jungle_edge,junglehills,jungle_hills,mutated_jungle,mutated_jungle_edge,ominous woods,ominous_woods,eerie,eldritch,tainted land,fen,moor,highland,enchanted forest,magical forest,rwg_coldforest,rwg_hotforest,rwg_snowforest,rwg_temperateforest,smaller_extreme_hills,witherlands
+
+uniqueMinDistance=500
+
+weight=1
+embed_into_distance=4
+
+unacceptable_target_blocks=lava,flowing_lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+dimensions=8,9,9
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=4
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+#Corners do not spawn, to leave existing terrain.
+rule1=0,100,preserveBlock
+
+#Circle Base; random chance of mossy cobblestone, cobblestone, or grass
+rule2=0,100,minecraft:mossy_cobblestone-0,minecraft:cobblestone-0,minecraft:grass-0
+
+#Inner Base; stone slabs
+rule3=0,100,minecraft:double_stone_slab
+
+#Monster-Trapped Engraved Blocks
+rule4=0,100,minecraft:monster_egg-5
+
+#Pillars (random chance of not spawning; must be supported from below)
+
+rule5=1,95,minecraft:cobblestone-0,minecraft:mossy_cobblestone-0,minecraft:mossy_cobblestone-0
+
+rule6=0,100,minecraft:stone_brick_stairs-0
+rule7=0,100,minecraft:stone_brick_stairs-2
+rule8=0,100,MobSpawner:Skeleton,MobSpawner:Zombie,MobSpawner:Creeper
+rule9=0,100,minecraft:stone_brick_stairs-3
+rule10=0,100,minecraft:stone_brick_stairs-1
+rule11=0,100,minecraft:stone_brick_stairs-4
+rule12=0,100,minecraft:stone_brick_stairs-6
+rule13=0,100,minecraft:netherrack-0
+rule14=0,100,minecraft:stone_brick_stairs-7
+rule15=0,100,minecraft:stone_brick_stairs-5
+rule16=0,100,minecraft:fire-15
+
+#Stone Caps (must be supported adjacent, or won't spawn)
+
+rule17=2,100,minecraft:cobblestone-0,minecraft:mossy_cobblestone-0,minecraft:gravel-0
+
+#Stone Heart; random chance of solid stone or unusual block at heart
+
+rule18=0,100,minecraft:stone-0,minecraft:soul_sand-0,minecraft:glowstone-0,minecraft:lapis_ore,minecraft:lava,minecraft:quartz_ore-0,minecraft:emerald_ore-0,ChestGenHook:chests/desert_pyramid:2
+
+layer
+1,1,1,2,2,2,1,1,1
+1,2,2,2,2,2,2,2,1
+1,2,2,3,3,3,2,2,1
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+1,2,2,3,3,3,2,2,1
+1,2,2,2,2,2,2,2,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+layer
+1,1,1,2,2,2,1,1,1
+1,2,2,2,2,2,2,2,1
+1,2,2,3,3,3,2,2,1
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+1,2,2,3,3,3,2,2,1
+1,2,2,2,2,2,2,2,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+
+layer
+1,1,1,2,2,2,1,1,1
+1,2,2,2,2,2,2,2,1
+1,2,2,3,3,3,2,2,1
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+2,2,3,3,3,3,3,2,2
+1,2,2,3,3,3,2,2,1
+1,2,2,2,2,2,2,2,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+
+
+layer
+1,1,1,2,2,2,1,1,1
+1,2,2,2,2,2,2,2,1
+1,2,2,3,3,3,2,2,1
+2,2,3,4,4,4,3,2,2
+2,2,3,4,18,4,3,2,2
+2,2,3,4,4,4,3,2,2
+1,2,2,3,3,3,2,2,1
+1,2,2,2,2,2,2,2,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+layer
+1,1,1,5,0,5,1,1,1
+1,5,0,0,0,0,0,5,1
+1,0,0,0,0,0,0,0,1
+5,0,0,0,6,0,0,0,5
+0,0,0,9,8,7,0,0,0
+5,0,0,0,10,0,0,0,5
+1,0,0,0,0,0,0,0,1
+1,5,0,0,0,0,0,5,1
+1,1,1,5,0,5,1,1,1
+endlayer
+
+layer
+1,1,1,5,0,5,1,1,1
+1,5,0,0,0,0,0,5,1
+1,0,0,0,0,0,0,0,1
+5,0,0,0,11,0,0,0,5
+0,0,0,14,13,12,0,0,0
+5,0,0,0,15,0,0,0,5
+1,0,0,0,0,0,0,0,1
+1,5,0,0,0,0,0,5,1
+1,1,1,5,0,5,1,1,1
+endlayer
+
+layer
+1,1,1,5,0,5,1,1,1
+1,5,0,0,0,0,0,5,1
+1,0,0,0,0,0,0,0,1
+5,0,0,0,10,0,0,0,5
+0,0,0,7,16,9,0,0,0
+5,0,0,0,6,0,0,0,5
+1,0,0,0,0,0,0,0,1
+1,5,0,0,0,0,0,5,1
+1,1,1,5,0,5,1,1,1
+endlayer
+
+layer
+1,1,1,5,17,5,1,1,1
+1,5,17,0,0,0,17,5,1
+1,17,0,0,0,0,0,17,1
+5,0,0,0,0,0,0,0,5
+17,0,0,0,0,0,0,0,17
+5,0,0,0,0,0,0,0,5
+1,17,0,0,0,0,0,17,1
+1,5,17,0,0,0,17,5,1
+1,1,1,5,17,5,1,1,1
+endlayer
+

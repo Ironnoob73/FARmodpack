@@ -1,0 +1,111 @@
+
+{
+  "ID": 61,
+  "Name": "Xathius Ocean",
+  "Resource Location": "zollerngalaxy:xathius ocean",
+  "Class": "zollerngalaxy.biomes.xathius.BiomeXathiusOcean",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:air",
+  "Filler Block": "minecraft:air",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "9109759",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 9109759,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WATER",
+    "OCEAN",
+    "LUSH",
+    "WET"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedEnderman",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedWitch",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.robots.sentinels.EntitySentinelDrone",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntitySquidlus",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

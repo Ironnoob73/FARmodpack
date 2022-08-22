@@ -1,0 +1,47 @@
+# Wide Tree Circle - Giant Spruce
+# MC 1.12.2: Created 14 May 2018
+# Created by Ruins mod version 14.4 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+biomesToSpawnIn=boreal forest,boreal_forest,hot springs,hot_springs,mega spruce taiga,mega taiga,mega taiga hills,shield,spruce hills,spruce_hills,spruce forest,spruce_forest,spruce woods,spruce_woods,taiga,taiga m,taigahills,rwg_temperaterainforest,rwg_snowforest,mining biome,mining_biome,mutated_taiga,mutated_taiga_cold,taiga_hills,taiga_cold,taiga_cold_hills,temperate_rainforest
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+
+unacceptable_target_blocks=cloud,Natura:Cloud,lava,flowing_lava,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;24;24;0
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;-24;24;0
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;0;24;24
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;0;24;-24
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;10;12;18
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;18;12;10
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;-10;12;18
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;-18;12;10
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;10;12;-18
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;18;12;-10
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;-10;12;-18
+adjoining_template=taiga/JG_Tree_GiantSpruce_1v12;-18;12;-10
+
+
+rule1=0,100,minecraft:grass-0
+rule2=0,100,minecraft:sapling-2-addbonemeal
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+

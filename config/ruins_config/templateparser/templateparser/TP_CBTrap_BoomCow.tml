@@ -1,0 +1,35 @@
+# Command Block Trap -- Boom Cow Summon
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 24 Mar 2016
+# Updated to MC 1.9: 20 Apr 2016
+# Updated to MC 1.11: 11 Jan 2017
+# Verified for MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+#rule1=0,100,CommandBlock:RUINSTRIGGER /summon PrimedTnt ~0 ~3 ~0 {Fuse:127,Riding:{id:"cow",CustomName:"Booom Cow"}}:@
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon cow ~0 ~3 ~0 {Passengers:[{id:"tnt",Fuse:127}]}:@
+
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

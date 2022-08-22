@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	description: "手有寸石",
+	text: [
+		"这里的怪物比较凶残，需要格外小心地对付它们......你可能需要一把石斧，虽然攻速较慢，但单次伤害较高。除此之外，你还能用它砍树。"
+	],
+	dependencies: [
+		"e24e4f2c"
+	],
+	dependency_requirement: "one_started",
+	optional: true,
+	tasks: [{
+		uid: "871eb0b5",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a28f76a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

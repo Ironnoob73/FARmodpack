@@ -1,0 +1,32 @@
+# Command Block Trap -- Barrow Guardian Summon
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 18 Feb 2016
+# Updated to MC 1.9: 20 Apr 2016
+# Updated to MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon Skeleton ~0 ~2 ~0 {HandItems:[{Count:1,id:iron_sword,tag:{display:{Name:"Rusty Warblade"},ench:[{id:20,lvl:2},{id:16,lvl:3}]}},{Count:1,id:shield,tag:{display:{Name:"Rusty Shield"}}}],ArmorItems:[{Count:1,id:chainmail_boots,tag:{display:{Name:"Rusty Boots"}}},{Count:1,id:chainmail_leggings,tag:{display:{Name:"Rusty Greaves"}}},{Count:1,id:chainmail_chestplate,tag:{display:{Name:"Rusty Coat"}}},{Count:1,id:chainmail_helmet,tag:{display:{Name:"Rusty Coif"}}}],CustomName:"Barrow Guardian",Attributes:[{Name:generic.followRange,Base:50}],HandDropChances:[0.5F,0.2F],ArmorDropChances:[0.1F,0.1F,0.1F,0.1F],ActiveEffects:[{Id:14,Amplifier:1,Duration:999999,Ambient:1},{Id:13,Amplifier:1,Duration:999999,Ambient:1}],Glowing:1,PersistenceRequired:1,Health:30.0f}:@
+
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

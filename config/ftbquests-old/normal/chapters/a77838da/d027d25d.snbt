@@ -1,0 +1,16 @@
+{
+	x: 6.6499999999999995d,
+	y: 0.7d,
+	shape: "rsquare",
+	dependencies: [
+		"480bf3fc"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "127a8822",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "失落城市 §8111",
+	icon: {
+		id: "thermalexpansion:morb",
+		tag: {
+			Generic: 1b,
+			id: "quark:stoneling"
+		}
+	},
+	x: -1.0d,
+	y: 0.0d,
+	description: "这里繁荣过吗？",
+	text: [
+		"这里存在着大量的高层建筑，大多建筑会生成挑战怪物，只有杀死这些怪物才能解锁其中的箱子。",
+		"§l常见矿物§r:§a铜 锡 铝 硅 钴 镍 铀§r",
+		"§8主要矿物来自星系"
+	],
+	dependencies: [
+		"4e49162e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "2d3d0dff",
+		type: "dimension",
+		dim: 111
+	}]
+}

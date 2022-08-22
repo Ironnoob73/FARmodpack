@@ -1,0 +1,161 @@
+{
+  "consumeCatalyst": false,
+  "location": "far:wafer_maker",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "modelName": "wafer_maker",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AA",
+        "GC",
+        "DD"
+      ],
+      [
+        "EA",
+        "FF",
+        "DD"
+      ],
+      [
+        "A@",
+        "BF",
+        "DD"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "minecraft:iron_block",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "controller": {
+        "location": "far:wafer_maker",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 8
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1_slab",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "mekanism:energycube",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "engineersdecor:panzerglass_block",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  },
+  "recipeMap": "wafer_maker_recipe"
+}

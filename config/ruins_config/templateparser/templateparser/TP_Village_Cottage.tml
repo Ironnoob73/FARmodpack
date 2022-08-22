@@ -1,0 +1,305 @@
+# Cottage (Village/bandit Version)
+# Originally Created for MC 1.6.4: 25 Apr 2014
+# Updated to MC 1.7.10, 10 Oct 2014
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated for MC 1.8: 26 Jul 2015
+# Updated for MC 1.9: 24 Apr 2016
+# Updated for MC 1.12: 22 Jun 2017
+# Note: Place in \templateparser folder.
+
+
+# biomesToSpawnIn=alps forest,autumn hills,autumn woods,birch forest,birch forest hills,birch forest hills m,birch forest m,boreal forest,chaparral,cold taiga,coniferous forest,deciduous forest,extreme hills,extreme hills edge,extreme hills m,extreme hills+,extreme hills+ m,flower forest,forest,forested hills,foresthills,forested field,forested island,green hills,grove,heathland,highland,highlands,highlands center,lighted forest,magical forest,maplewoods,meadow forest,mega spruce taiga,mega taiga,mega taiga hills,mystic grove,oak savanna,ominous woods,orchard,pine forest,roofed forest,roofed forest m,seasonal forest,seasonal spruce forest,snow forest,snowy forest,taiga,taiga m,taiga hills,thinned mystic grove,thinned timber,timber,tundra,twilight clearing,twilight forest,wonderous woods,woodland,woodlands
+
+weight=1
+embed_into_distance=4
+
+# uniqueMinDistance=500
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,mossy_cobblestone,iron_bars,glass,redstone_torch,torch,stone_slab,double_stone_slab,oak_stairs,spruce_stairs,birch_stairs,dark_oak_stairs,acacia_stairs,jungle_stairs,slime_congealed,slime_dirt,slime_grass,fence,stone_brick,cobblestone_wall,command_block
+
+dimensions=16,9,11
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=12
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+# Dirt
+rule1=0,100,minecraft:dirt
+
+# Birch Planks (wall)
+rule2=0,100,minecraft:planks-2
+
+# Nether Brick (roof)
+rule3=0,100,minecraft:nether_brick
+
+# Black Blocks
+rule4=0,100,minecraft:stained_hardened_clay-15
+
+# Grass
+rule5=0,100,minecraft:grass
+
+# Cellar Supplies (melon, pumpkin, hay)
+rule6=0,100,minecraft:melon_block,minecraft:pumpkin-4,minecraft:lit_pumpkin-4,minecraft:hay_block
+
+# Stone Slab (Nether)
+rule7=0,100,minecraft:stone_slab-6
+
+# Iron Bars
+rule8=0,100,minecraft:iron_bars
+
+# Webs
+rule9=0,100,minecraft:web
+
+# Lower Furnace
+rule10=0,100,IInventory;minecraft:lit_furnace;minecraft:coal#4#1#1-4
+
+# Terrain Preserve
+rule11=0,100,preserveBlock
+
+# Cobblestone Fireplace Base
+rule12=0,100,minecraft:cobblestone
+
+# Fence
+rule13=0,100,minecraft:fence
+
+# Flowers
+rule14=0,100,minecraft:yellow_flower,minecraft:red_flower,minecraft:red_flower-1,minecraft:red_flower-2,minecraft:red_flower-3,minecraft:red_flower-4,minecraft:red_flower-5,minecraft:red_flower-6,minecraft:red_flower-7,minecraft:red_flower-8
+
+# Wooden Door
+rule15=1,100,minecraft:birch_door-2
+
+# Nether Brick Slabs
+rule16=0,100,minecraft:stone_slab-6
+
+# Crafting Table
+rule17=0,100,minecraft:crafting_table
+
+# Chest
+rule18=0,100,ChestGenHook:chests/spawn_bonus_chest:3
+
+# Chest
+rule19=0,100,ChestGenHook:chests/spawn_bonus_chest:1
+
+# Upper Furnace
+rule20=0,100,IInventory;minecraft:lit_furnace;minecraft:coal#4#1#1-4
+
+# Fence
+rule21=0,100,minecraft:fence
+
+# Wooden Door
+rule22=1,100,minecraft:birch_door-8
+
+# Spruce Planks
+rule23=0,100,minecraft:planks-1
+
+# Lit Furnace
+rule24=0,100,IInventory;minecraft:lit_furnace;minecraft:coal#4#1#1-4
+
+# Chimney Top
+rule25=0,100,minecraft:cobblestone_wall
+
+# Carpet
+rule26=0,100,minecraft:carpet-14
+
+# Highwayman (Bandit Archer)
+rule27=0,100,CommandBlock:RUINSTRIGGER /summon Skeleton ~0 ~0 ~0 {HandItems:[{Count:1,id:bow,tag:{display:{Name:"Bandit Bow"},ench:[{id:48,lvl:3},{id:49,lvl:2}]}},{Count:8,id:tipped_arrow,tag:{Potion:"minecraft:strong_harming"}}],ArmorItems:[{Count:1,id:leather_boots},{Count:1,id:leather_leggings},{Count:1,id:leather_chestplate},{Count:1,id:skull,Damage:3,tag:{SkullOwner:MHF_Villager}}],CustomName:Highwayman,HandDropChances:[1.0F,0.0F],ArmorDropChances:[0.5F,0.5F,0.5F,0.0F],Silent:1,PersistenceRequired:1,Health:15.0f}:@
+
+
+
+layer
+1,1,1,1,1,1,1,1,1,1,1
+1,23,2,2,2,2,2,2,2,23,1
+1,2,3,3,3,3,3,3,3,2,1
+1,2,3,3,3,3,3,3,3,2,1
+1,2,3,3,3,3,3,3,3,2,1
+1,2,3,3,3,3,3,3,3,2,1
+1,2,3,3,4,3,4,3,3,2,1
+1,23,2,2,4,12,4,2,2,23,1
+1,1,1,1,4,4,4,1,1,1,1
+endlayer
+
+layer
+5,1,1,1,1,1,1,1,1,1,1
+1,23,2,2,2,2,2,2,2,23,1
+1,2,3,6,6,6,0,6,6,2,1
+1,2,3,0,6,0,0,0,6,2,1
+1,2,7,27,0,0,27,0,0,2,1
+1,2,0,0,0,0,0,0,6,2,1
+1,2,6,9,4,0,4,6,6,2,1
+1,23,2,2,4,10,4,2,2,23,1
+5,1,1,1,4,4,4,1,1,1,1
+endlayer
+
+layer
+11,5,1,1,1,1,1,1,1,5,11
+5,23,2,2,2,2,2,2,2,23,5
+1,2,7,3,6,0,0,0,6,2,1
+1,2,0,0,0,0,0,0,0,2,1
+1,2,0,0,0,0,0,0,0,2,1
+1,2,0,0,0,0,0,0,0,2,1
+1,2,0,0,4,0,4,0,6,2,1
+5,23,2,2,4,10,4,2,2,23,1
+11,5,1,1,4,4,4,1,1,1,11
+endlayer
+
+layer
+11,11,5,5,5,5,5,5,5,11,11
+11,23,23,23,23,3,23,23,23,23,11
+5,23,0,0,7,3,3,3,3,23,5
+5,23,0,3,3,3,3,3,3,23,5
+5,23,0,3,3,3,3,3,3,23,5
+5,23,0,3,3,3,3,3,3,23,5
+5,23,3,3,4,4,4,3,3,23,5
+11,23,23,23,4,12,4,23,23,23,11
+11,11,5,5,4,4,4,5,5,11,11
+endlayer
+
+layer
+11,11,14,14,14,0,14,14,14,11,11
+11,23,2,2,23,15,23,2,2,23,11
+14,2,0,0,0,0,26,26,26,2,14
+14,2,0,26,26,26,26,26,26,2,14
+14,2,0,26,26,26,26,26,26,2,14
+14,2,0,26,26,26,26,26,26,2,14
+14,2,19,19,4,0,4,18,17,2,14
+11,23,2,2,4,20,4,2,2,23,11
+11,11,14,14,4,4,4,14,14,11,11
+endlayer
+
+layer
+11,0,0,0,0,0,0,0,0,0,11
+0,23,2,21,23,22,23,21,2,23,0
+0,2,0,0,0,0,0,0,0,2,0
+0,2,0,0,0,0,0,0,0,2,0
+0,2,0,0,0,27,0,0,0,2,0
+0,2,0,0,0,0,0,0,0,2,0
+0,2,0,0,4,0,4,0,0,2,0
+0,23,2,21,4,24,4,21,2,23,0
+11,0,0,0,4,4,4,0,0,0,11
+endlayer
+
+layer
+3,3,0,0,0,0,0,0,0,3,3
+3,3,2,21,23,2,23,21,2,3,3
+3,3,0,0,0,0,0,0,0,3,3
+3,3,0,0,0,0,0,0,0,3,3
+3,3,0,0,0,0,0,0,0,3,3
+3,3,0,0,0,0,0,0,0,3,3
+3,3,0,0,4,4,4,0,0,3,3
+3,3,2,21,4,4,4,21,2,3,3
+3,3,0,0,4,4,4,0,0,3,3
+endlayer
+
+layer
+16,3,13,13,13,13,13,13,13,3,16
+16,3,23,23,23,23,23,23,23,3,16
+16,3,0,0,0,0,0,0,0,3,16
+16,3,0,0,0,0,0,0,0,3,16
+16,3,0,0,0,0,0,0,0,3,16
+16,3,0,0,0,0,0,0,0,3,16
+16,3,0,0,0,4,0,0,0,3,16
+16,3,23,23,23,4,23,23,23,3,16
+16,3,13,13,13,4,13,13,13,3,16
+endlayer
+
+layer
+0,16,3,0,0,0,0,0,3,16,0
+0,16,3,2,23,16,23,2,3,16,0
+0,16,3,0,0,0,0,0,3,16,0
+0,16,3,0,0,0,0,0,3,16,0
+0,16,3,0,0,0,0,0,3,16,0
+0,16,3,0,0,0,0,0,3,16,0
+0,16,3,0,0,4,0,0,3,16,0
+0,16,3,2,23,4,23,2,3,16,0
+0,16,3,0,0,4,0,0,3,16,0
+endlayer
+
+layer
+0,0,3,0,0,0,0,0,3,0,0
+0,0,3,2,23,0,23,2,3,0,0
+0,0,3,0,0,0,0,0,3,0,0
+0,0,3,0,0,0,0,0,3,0,0
+0,0,3,0,0,0,0,0,3,0,0
+0,0,3,0,0,0,0,0,3,0,0
+0,0,3,0,0,4,0,0,3,0,0
+0,0,3,2,23,4,23,2,3,0,0
+0,0,3,0,0,4,0,0,3,0,0
+endlayer
+
+layer
+0,0,16,3,0,0,0,3,16,0,0
+0,0,16,3,23,2,23,3,16,0,0
+0,0,16,3,0,0,0,3,16,0,0
+0,0,16,3,0,0,0,3,16,0,0
+0,0,16,3,0,0,0,3,16,0,0
+0,0,16,3,0,0,0,3,16,0,0
+0,0,16,3,0,4,0,3,16,0,0
+0,0,16,3,23,4,23,3,16,0,0
+0,0,16,3,0,4,0,3,16,0,0
+endlayer
+
+layer
+0,0,0,3,0,0,0,3,0,0,0
+0,0,0,3,23,2,23,3,0,0,0
+0,0,0,3,0,0,0,3,0,0,0
+0,0,0,3,0,0,0,3,0,0,0
+0,0,0,3,0,0,0,3,0,0,0
+0,0,0,3,0,0,0,3,0,0,0
+0,0,0,3,0,4,0,3,0,0,0
+0,0,0,3,23,4,23,3,0,0,0
+0,0,0,3,0,4,0,3,0,0,0
+endlayer
+
+layer
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,3,3,16,0,0,0
+0,0,0,16,3,4,3,16,0,0,0
+endlayer
+
+layer
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,3,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,16,16,0,0,0,0
+0,0,0,0,16,4,16,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,8,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,4,0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,8,0,0,0,0,0
+0,0,0,0,8,8,8,0,0,0,0
+0,0,0,0,0,8,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,25,0,0,0,0,0
+endlayer
+

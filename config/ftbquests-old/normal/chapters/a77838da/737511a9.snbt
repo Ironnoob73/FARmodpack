@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: -0.75d,
+	text: [
+		"拥有了剑类工具，你的攻速更高，而且能发动横扫对一群怪物造成伤害，不过单次伤害较低。"
+	],
+	dependencies: [
+		"3d8a4186"
+	],
+	size: 0.5d,
+	optional: true,
+	tasks: [{
+		uid: "9fdb525f",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

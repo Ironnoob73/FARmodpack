@@ -1,0 +1,51 @@
+# Graveyard Gate
+# MC 1.7.10; 12 Nov 2014
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Special Instructions: Place in /templateparser folder.
+
+# Last Updated: 30 Apr 2015
+# Updated to MC 1.11: 12 Jan 2017
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,mossy_cobblestone,iron_bars,glass,redstone_torch,torch,stone_slab,double_stone_slab,oak_stairs,spruce_stairs,birch_stairs,dark_oak_stairs,acacia_stairs,jungle_stairs,slime_congealed,slime_dirt,slime_grass,fence,stone_brick,cobblestone_wall,command_block
+
+dimensions=6,1,4
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:double_stone_slab-0
+rule2=0,100,minecraft:cobblestone_wall-1
+rule3=0,100,preserveBlock
+
+layer
+1,0,0,1
+endlayer
+
+layer
+1,0,0,1
+endlayer
+
+layer
+1,0,0,1
+endlayer
+
+layer
+1,0,0,1
+endlayer
+
+layer
+2,2,2,2
+endlayer
+
+layer
+0,2,2,0
+endlayer
+

@@ -1,0 +1,103 @@
+{
+  "name": "wafer_maker_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "wafer_maker_recipe_detail",
+      "duration": 320,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "ore": "itemSilicon"
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.9,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

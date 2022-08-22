@@ -1,0 +1,6 @@
+
+{
+  "Name": "SkySeeker",
+  "Registry ID": "cavern:sky_seeker",
+  "Class": "cavern.entity.boss.EntitySkySeeker"
+}

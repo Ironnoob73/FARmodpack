@@ -1,0 +1,6 @@
+
+{
+  "Name": "moreplanets.nibiru_villager",
+  "Registry ID": "moreplanets:nibiru_villager",
+  "Class": "stevekung.mods.moreplanets.planets.nibiru.entity.EntityNibiruVillager"
+}

@@ -1,0 +1,6 @@
+{
+	title: "基础精华包",
+	icon: "usefulbackpacks:backpack",
+	loot_size: 1,
+	rewards: []
+}

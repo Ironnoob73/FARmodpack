@@ -1,0 +1,180 @@
+
+# Wood House Foundation (28 Mar 2014; MC 1.5.*)
+# Updated to MC 1.7.10, 11 Oct 2014
+# authoring Player: Jordan_Greywolf
+
+# Updated to MC 1.9: 17 Apr 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+# Last Updated: 24 Jun 2018
+
+biomesToSpawnIn=autumn hills,autumn woods,autumnal_woods,bamboo forest,bamboo_forest,birch forest,birch_forest,boreal forest,boreal_forest,brushland,chaparral,cherry blossom grove,cherry_blossom_grove,coniferous forest,coniferous_forest,deciduous forest,dead forest,dead_forest,extreme hills edge,fen,field,forest,forested field,forested hills,forested island,frost forest,garden,grassland,green swamplands,grove,heathland,highland,hot springs,jungle,lavender fields,lush redwoods,lush swamp,lush_swamp,magical forest,majestic meadow,mangrove,maplewoods,maple_woods,meadow,meadow forest,mini jungle,mini_jungle,mutated_birch_forest,mutated_forest,mutated_jungle,mutated_plains,mystic grove,orchard,outback,overgrown beach,overgrown greens,pasture,pasture meadow,pine forest,plains,prairie,redwood forest,rwg_coldplains,rwg_plains,sacred springs,savanna,scrubland,smaller_extreme_hills,spruce forest,snow forest,snowy forest,snowy_forest,snowy coniferous forest,snowy dead forest,snowy rainforest,thicket,thinned mystic grove,thinned pasture,thinned timber,timber,tropical rainforest,tropical_rainforest,tundra,wonderous woods,woodland,woodlands,wyvern biome,wetland,wetlands,xeric shrubland,xeric_shrubland
+
+weight=1
+embed_into_distance=4
+
+unacceptable_target_blocks=water,flowing_water,lava,flowing_lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+
+dimensions=9,8,7
+allowable_overhang=50
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+#Debris
+rule01=0,50,minecraft:grass,minecraft:gravel
+
+#Stone Floor
+rule02=0,100,minecraft:stone
+
+#Foundation (mossy cobblestone)
+rule03=0,100,minecraft:mossy_cobblestone
+
+#Intact Fireplace (brick)
+rule04=0,100,minecraft:brick_block
+
+#Ruined Chimney (brick)
+rule05=1,75,minecraft:brick_block
+
+#Fireplace Slope - ascend E
+rule06=0,100,minecraft:brick_stairs-0
+
+#Fireplace Slope - ascend W
+rule07=0,100,minecraft:brick_stairs-1
+
+#Decayed Floor (spruce plank/grass)
+rule08=0,100,minecraft:planks-1,minecraft:wooden_slab-1,minecraft:grass
+
+#Fireplace Base (netherrack)
+rule09=0,100,minecraft:netherrack
+
+#Buried Treasure/Trouble
+rule10=0,100,MobSpawner:Creeper,minecraft:emerald_ore,minecraft:tnt-1,minecraft:bookshelf,minecraft:iron_ore,ChestGenHook:chests/spawn_bonus_chest:6-5
+
+#Ruined Cobble (mossy/cobblestone)
+rule11=1,75,minecraft:cobblestone,minecraft:mossy_cobblestone
+
+#Ruined Wood (oak)
+rule12=1,75,minecraft:planks-0
+
+# ------------------------------
+
+# Basement Floor (-4)
+layer
+01,01,04,04,04,01,01
+03,03,04,04,04,03,03
+03,02,02,02,02,02,03
+03,02,02,02,02,02,03
+03,02,02,02,02,02,03
+03,02,02,02,02,02,03
+03,02,02,02,02,02,03
+03,03,03,03,03,03,03
+endlayer
+
+
+# Basement (-3)
+layer
+01,01,04,04,04,01,01
+03,03,04,04,04,03,03
+03,01,04,10,04,01,03
+03,01,01,01,01,01,03
+03,10,01,00,01,10,03
+03,01,00,01,00,01,03
+03,01,01,10,01,01,03
+03,03,03,03,03,03,03
+endlayer
+
+
+# Basement (-2)
+layer
+01,01,04,04,04,01,01
+03,03,04,04,04,03,03
+03,01,04,01,04,01,03
+03,01,01,01,01,01,03
+03,01,01,00,01,01,03
+03,01,00,01,00,01,03
+03,01,01,01,01,01,03
+03,03,03,03,03,03,03
+endlayer
+
+
+# Floor (-1)
+layer
+01,01,04,04,04,01,01
+03,03,04,09,04,03,03
+03,08,04,04,04,08,03
+03,08,08,08,08,08,03
+03,08,08,08,08,08,03
+03,08,08,08,08,08,03
+03,08,08,08,08,08,03
+03,03,03,03,03,03,03
+endlayer
+
+# Aboveground (1)
+layer
+01,01,04,04,04,01,01
+11,12,04,01,04,12,11
+12,00,00,01,00,00,12
+12,00,00,00,00,00,12
+12,01,00,00,00,01,12
+01,01,00,00,00,01,01
+12,01,00,00,00,01,12
+11,12,12,12,12,12,11
+endlayer
+
+# Aboveground (2)
+layer
+01,01,04,04,04,01,01
+11,12,04,01,04,12,11
+12,00,00,00,00,00,12
+00,00,00,00,00,00,00
+12,00,00,00,00,00,12
+01,00,00,00,00,00,01
+12,00,00,00,00,00,12
+11,12,12,12,12,12,11
+endlayer
+
+# Aboveground (3)
+layer
+01,01,06,04,07,01,01
+11,12,04,04,04,12,11
+12,00,00,00,00,00,12
+00,00,00,00,00,00,00
+12,00,00,00,00,00,12
+00,00,00,00,00,00,00
+12,00,00,00,00,00,12
+11,12,12,12,12,12,11
+endlayer
+
+# Aboveground (4)
+layer
+01,00,00,05,00,00,01
+11,12,12,05,12,12,11
+12,00,00,00,00,00,12
+00,00,00,00,00,00,00
+12,00,00,00,00,00,12
+00,00,00,00,00,00,00
+12,00,00,00,00,00,12
+11,12,12,12,12,12,11
+endlayer
+
+# Aboveground (5)
+layer
+00,00,00,05,00,00,00
+11,00,00,05,00,00,11
+00,00,00,00,00,00,00
+00,00,00,00,00,00,00
+00,00,00,00,00,00,00
+00,00,00,00,00,00,00
+00,00,00,00,00,00,00
+11,00,00,00,00,00,11
+endlayer
+
+

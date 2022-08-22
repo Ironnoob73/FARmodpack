@@ -1,0 +1,191 @@
+# Obsidian Dungeon Ruin
+# MC 1.7.10; 8 Apr 2015
+# Created by Ruins mod version 14.7 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Note: Accompanying templates must be in \templateparser folder.
+# Uses Command Blocks to summon other structures.
+# Updated to MC 1.8: 28 Feb 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+weight=1
+embed_into_distance=0
+
+biomesToSpawnIn=birch forest,birch_forest,boreal forest,boreal_forest,brushland,chaparral,cold taiga,coniferous forest,coniferous_forest,crag,dead forest,dead_forest,deciduous forest,dry river,dry_river,eerie,eldritch,extreme hills edge,fen,forest,frost forest,fungi forest,grassland,grove,heathland,highland,jade cliffs,jungle,jungle_edge,land_of_lakes,magical forest,maple woods,maple_woods,meadow,mega spruce taiga,mega taiga,mini_jungle,mutated_birch_forest,mutated_forest,mystic grove,oak savanna,oak_savanna,ominous woods,ominous_woods,orchard,origin_island,origin valley,plains,polar chasm,polar_chasm,prairie,redwood forest,roofed forest,savanna,scrubland,seasonal forest,seasonal_forest,shield,shrubland,silkglades,spruce woods,taiga,tainted land,tainted_land,thicket,tundra,wasteland,woodland,rwg_coldforest,rwg_coldplains,rwg_plains,rwg_snowforest,rwg_temperateforest,taiga_cold,witherlands,xeric shrubland,xeric_shrubland
+
+uniqueMinDistance=2000
+preventRotation=1
+
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+dimensions=4,8,8
+allowable_overhang=500
+max_leveling=4
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=1,90,minecraft:double_stone_slab-0
+rule2=1,90,minecraft:obsidian-0
+
+# Stairwell (3 down)
+rule3=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_Stairwell ~1 ~-18 ~1:@
+
+# Stairwell Base (4 down)
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_StairBase ~1 ~-24 ~0:@
+
+# Stairwell (2 down)
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_Stairwell ~0 ~-12 ~1:@
+
+# Stairwell (1 down)
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_Stairwell ~0 ~-6 ~0:@
+
+# Ruined Wall: West Middle (W)
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-26 _ ~2 1:@
+
+# Dungeon: Southwest (Diagonal) 1 Step
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-12 ~-25 ~15:@
+
+# Dungeon: Northwest (Diagonal) 1 Step
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-12 ~-25 ~-14:@
+
+# Ruined Wall: South Middle (S)
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~2 _ ~27:@
+
+# Dungeon "Boss" Room: North 2 Steps
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_Torture ~1 ~-25 ~-26:@
+
+# Dungeon: North 1 Step
+rule12=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NS ~1 ~-25 ~-13:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~1 ~-25 ~-13:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~1 ~-25 ~-13 2:@
+
+# Dungeon: South 1 Step
+rule13=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NS ~1 ~-25 ~14:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~1 ~-25 ~14:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~1 ~-25 ~14 2:@
+
+# Dungeon: Northeast (Diagonal) 1 Step
+rule14=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~15 ~-25 ~-15:@
+
+# Dungeon: East 2 Steps
+rule15=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~28 ~-25 ~2:@
+
+# Dungeon: East 1 Step
+rule16=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NS ~14 ~-25 ~1 1:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~14 ~-25 ~1 1:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~14 ~-25 ~1 3:@
+
+# Dungeon: West 1 Step
+rule17=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NS ~-14 ~-25 ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~-14 ~-25 ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSE ~-14 ~-25 ~0 3:@
+
+# Dungeon: Southeast (Diagonal) 1 Step
+rule18=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~14 ~-25 ~13:@
+
+# Ruined Wall: North Middle (N)
+rule19=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-1 _ ~-26:@
+
+# Dungeon: West 2 Steps
+rule20=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-29 ~-25 ~1:@
+
+# Dungeon: South 2 Steps
+rule21=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-1 ~-25 ~28:@
+
+# Ruined Wall: East Middle (E)
+rule22=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~27 _ ~-1 1:@
+
+# Ruined Wall: East Right (ESE)
+rule23=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~30 _ ~16 1:@
+
+# Ruined Wall: East Left (ENE)
+rule24=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~30 _ ~-15 1:@
+
+# Ruined Wall: West Left (WSW)
+rule25=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-27 _ ~15 1:@
+
+# Ruined Wall: West Right (WNW)
+rule26=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-28 _ ~-17 1:@
+
+# Ruined Wall: North Right (NNE)
+rule27=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~15 _ ~-26:@
+
+# Ruined Wall: North Left (NNW)
+rule28=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-16 _ ~-26:@
+
+# Ruined Wall: South Left (SSE)
+rule29=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~15 _ ~28:@
+
+# Ruined Wall: South Right (SSW)
+rule30=0,100,CommandBlock:RUINSTRIGGER /testruin TP_CastleWallRuin ~-17 _ ~29:@
+
+# Dungeon: North 2 Steps, West 1 (NNW)
+rule31=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-11 ~-24 ~-28:@
+
+# Dungeon: North 2 Steps, East 1 (NNE)
+rule32=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~17 ~-24 ~-27:@
+
+# Dungeon: West 2 Steps, North 1 (WNW)
+rule33=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-27 ~-24 ~-16:@
+
+# Dungeon: West 2 Steps, South 1 (WSW)
+rule34=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-28 ~-24 ~12:@
+
+# Dungeon: East 2 Steps, North 1 (ENE)
+rule35=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~29 ~-24 ~-11:@
+
+# Dungeon: East 2 Steps, South 1 (ESE)
+rule36=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~28 ~-24 ~17:@
+
+# Dungeon: South 2 Steps, West 1 (SSW)
+rule37=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~-16 ~-24 ~28:@
+
+# Dungeon: South 2 Steps, East 1 (SSE)
+rule38=0,100,CommandBlock:RUINSTRIGGER /testruin TP_OC_NSEW ~12 ~-24 ~29:@
+
+# Silence Rule
+rule39=0,100,CommandBlock:RUINSTRIGGER /gamerule commandBlockOutput false:@
+
+#-----------------------------------------
+
+layer
+1,2,2,2,2,2,2,1
+2,39,0,31,32,0,0,2
+2,0,0,23,24,0,0,2
+2,33,25,4,3,27,35,2
+2,34,26,6,5,28,36,2
+2,0,0,29,30,0,0,2
+2,0,0,37,38,0,0,2
+1,2,2,0,0,2,2,1
+endlayer
+
+layer
+1,2,2,2,2,2,2,1
+2,0,0,0,0,0,0,2
+2,0,10,9,8,7,0,2
+2,0,14,13,12,11,0,2
+2,0,18,17,16,15,0,2
+2,0,22,21,20,19,0,2
+2,0,0,0,0,0,0,2
+1,2,2,0,0,2,2,1
+endlayer
+
+layer
+1,2,2,0,0,2,2,1
+2,0,0,0,0,0,0,2
+2,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+2,0,0,0,0,0,0,2
+2,0,0,0,0,0,0,2
+1,2,2,0,0,2,2,1
+endlayer
+
+layer
+1,2,0,0,0,0,2,1
+2,0,0,0,0,0,0,2
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0
+2,0,0,0,0,0,0,2
+1,2,0,0,0,0,2,1
+endlayer
+

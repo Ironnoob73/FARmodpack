@@ -1,0 +1,7 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("Just Craft")
+setDescription("制作一个工作台，幸运的是它依旧只需要四木板。")
+addParent("far:i/A01root")
+setPos(25,0)
+criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
+criteria.addItem("minecraft:crafting_table")

@@ -1,0 +1,44 @@
+# Kitchen Witch Trap -- 24 Nov 2015
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Place in \templateparser folder.
+# Called by HauntedManor template -- obliterates calling
+# Command Block, summons Witch and "water trap" plus treasure.
+# Updated to MC 1.8: 28 Feb 2016
+# Updated to MC 1.9: 24 Apr 2016
+# Updated to MC 1.11: 12 Jan 2017
+# Updated to MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=4,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,ChestGenHook:chests/simple_dungeon:4
+rule2=0,100,minecraft:flowing_water
+
+rule3=0,100,CommandBlock:RUINSTRIGGER /summon witch ~0 ~0 ~0 {HandItems:[{Count:1,id:emerald},{Count:1,id:iron_shovel,tag:{display:{Name:"Witch Broom",Lore:["Sweep away your foes!"]},ench:[{id:18,lvl:5},{id:20,lvl:2},{id:19,lvl:2},{id:16,lvl:5},{id:33,lvl:1},{id:34,lvl:5}]}}],CustomName:"Kitchen Witch",Attributes:[{Name:generic.knockbackResistance,Base:1}],HandDropChances:[1.0F,1.0F],ActiveEffects:[{Id:12,Amplifier:1,Duration:999999},{Id:3,Amplifier:1,Duration:999999},{Id:21,Amplifier:1,Duration:999999},{Id:8,Amplifier:1,Duration:999999},{Id:10,Amplifier:1,Duration:999999},{Id:11,Amplifier:1,Duration:999999},{Id:1,Amplifier:1,Duration:999999},{Id:5,Amplifier:1,Duration:999999},{Id:13,Amplifier:1,Duration:999999}],Health:100.0f,PersistenceRequired:1}:@
+
+layer
+0
+endlayer
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+layer
+3
+endlayer
+
+

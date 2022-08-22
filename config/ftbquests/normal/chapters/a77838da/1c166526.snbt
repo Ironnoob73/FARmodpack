@@ -1,0 +1,16 @@
+{
+	x: 11.15d,
+	y: -0.55d,
+	shape: "rsquare",
+	dependencies: [
+		"7a1e8b02"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "064f6d7d",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	description: "烤箱！",
+	text: [
+		"良好的食物加工方式，它不会烧糊你的食物，而且拥有两倍速度。"
+	],
+	dependencies: [
+		"7fd06fb5",
+		"480bf3fc"
+	],
+	tasks: [{
+		uid: "b8423b80",
+		type: "item",
+		items: [{
+			item: "futuremc:smoker"
+		}]
+	}]
+}

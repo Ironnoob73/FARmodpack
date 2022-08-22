@@ -1,0 +1,40 @@
+# River Gold Rush
+# Created by Ruins mod version 17.0 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Created for MC 1.12: 14 May 2018
+
+weight=1
+embed_into_distance=3
+
+acceptable_target_blocks=clay,dirt,gravel,sand,stone
+
+
+dimensions=3,3,3
+allowable_overhang=0
+max_leveling=1
+leveling_buffer=-1
+preserve_water=1
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+rule2=0,100,minecraft:gold_ore-0
+
+layer
+1,1,1
+1,2,1
+1,1,1
+endlayer
+
+layer
+1,2,1
+2,2,2
+1,2,1
+endlayer
+
+layer
+1,1,1
+1,2,1
+1,1,1
+endlayer
+

@@ -1,0 +1,28 @@
+{
+	title: "木钩",
+	x: 3.0d,
+	y: -0.8999999999999999d,
+	description: "这可不是拐棍",
+	text: [
+		"如果想加快点脚步，不妨试试这个。木钩不仅增加了树叶掉落树苗的几率，同时也会使得树叶掉落蚕这个物品。"
+	],
+	dependencies: [
+		"83504359"
+	],
+	size: 0.6d,
+	optional: true,
+	tasks: [{
+		uid: "385c1a6d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97fb5abb",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

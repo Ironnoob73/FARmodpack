@@ -1,0 +1,6 @@
+
+{
+  "Name": "moreplanets.infected_creeper",
+  "Registry ID": "moreplanets:infected_creeper",
+  "Class": "stevekung.mods.moreplanets.planets.nibiru.entity.EntityInfectedCreeper"
+}

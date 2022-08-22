@@ -1,0 +1,113 @@
+# Abandoned Village Plot
+# MC 1.7.10; 8 Nov 2014
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Adapted 27 Apr 2015 (from "Cursed Village")
+# Updated to MC 1.8: 22 Jul 2015
+# Verified for MC 1.9: 16 Apr 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+# Last Updated: 24 Jun 2018
+
+biomesToSpawnIn=autumnal_woods,dead_forest,field,forest,flower forest,flower_forest,plains,sunflower plains,pasture,prairie,swampland,origin valley,brushland,coniferous forest,deciduous forest,eerie,eldritch,enchanted forest,flower field,flower_field,garden,grassland,grove,heathland,meadow,meadow forest,mining biome,mining_biome,mutated_forest,mutated_plains,ominous woods,thick ominous woods,tainted land,tainted lands,thinned timber,orchard,seasonal forest,seasonal_forest,rwg_plains
+
+weight=1
+embed_into_distance=3
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=6,9,13
+allowable_overhang=0
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:log-0
+rule2=0,100,minecraft:dirt,minecraft:farmland-4,minecraft:farmland-7,minecraft:farmland-1,minecraft:grass,minecraft:sand
+rule3=0,100,minecraft:water-0
+rule4=0,75,minecraft:tallgrass-1,minecraft:wheat-3,minecraft:tallgrass-0
+rule5=0,100,minecraft:double_plant-2
+rule6=0,100,minecraft:double_plant-8
+rule7=0,100,minecraft:double_plant-11
+rule8=0,100,minecraft:double_plant-9
+rule9=0,100,preserveBlock
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,2,2,2,2,2,1,2,2,2,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+
+layer
+1,1,1,1,1,1,1,1,1,1,1,1,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,2,2,3,2,2,1,2,2,3,2,2,1
+1,1,1,1,1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+9,9,0,0,0,0,9,9,0,0,0,9,9
+9,4,4,0,4,4,0,4,4,0,5,4,9
+0,4,4,0,4,5,0,4,4,0,4,5,0
+0,5,4,0,4,4,0,4,5,0,4,4,0
+0,4,4,0,4,4,0,4,4,0,4,4,0
+0,4,4,0,4,4,0,5,4,0,4,4,9
+9,4,4,0,5,4,0,4,4,0,4,4,0
+9,4,4,0,4,4,0,4,4,0,4,5,9
+9,9,0,0,9,9,0,0,0,0,9,9,9
+endlayer
+
+layer
+9,0,0,0,0,0,0,0,0,0,0,0,9
+0,0,0,0,0,0,0,0,0,0,6,0,0
+0,0,0,0,0,7,0,0,0,0,0,6,0
+0,7,0,0,0,0,0,0,8,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,7,0,0,0,0,0
+0,0,0,0,7,0,0,0,0,0,0,0,0
+9,0,0,0,0,0,0,0,0,0,0,6,0
+9,0,0,0,0,0,0,0,0,0,0,9,9
+endlayer
+

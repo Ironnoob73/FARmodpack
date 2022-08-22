@@ -1,0 +1,1 @@
+This folder contains templates that rely on Benimatic's Twilight Forest mod.  If you do not have Twilight Forest installed, just delete this folder.
