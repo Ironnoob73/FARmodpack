@@ -1,0 +1,14 @@
+mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<galacticraftcore:basic_item:13>*3);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<galacticraftcore:basic_item:13>,<minecraft:diamond>,<refinedstorage:silicon>,<refinedstorage:silicon>,<minecraft:redstone>,<minecraft:redstone_torch>);
+mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<galacticraftcore:basic_item:14>);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<galacticraftcore:basic_item:14>,<minecraft:diamond>,<refinedstorage:silicon>,<refinedstorage:silicon>,<minecraft:redstone>,<minecraft:redstone_torch>);
+mods.GalacticraftTweaker.removeCircuitFabricatorRecipe(<extraplanets:wafer>*3);
+mods.GalacticraftTweaker.addCircuitFabricatorRecipe(<extraplanets:wafer>,<minecraft:diamond>,<refinedstorage:silicon>,<refinedstorage:silicon>,<minecraft:redstone>,<minecraft:redstone_lamp>);
+mods.extendedcrafting.TableCrafting.addShaped(0,<galacticraftplanets:mars_machine:4>,[
+    [<ore:compressedSteel>,<galacticraftplanets:item_basic_mars:3>,<galacticraftplanets:item_basic_mars:3>,<galacticraftplanets:item_basic_mars:3>,<ore:compressedSteel>], 
+	[<ore:compressedSteel>,<ore:circuitUltimate>,<ore:oc:cpu3>,<ore:circuitUltimate>,<ore:compressedSteel>], 
+	[<ore:plateDesh>,<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:plateDesh>], 
+	[<ore:plateDesh>,null,null,null,<ore:plateDesh>], 
+	[<ore:plateDesh>,<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:plateDesh>], 
+	[<ore:plateDesh>,null,null,null,<ore:plateDesh>], 
+	[<ore:compressedSteel>,<galaxyspace:machineframes:2>,<galaxyspace:machineframes:2>,<galaxyspace:machineframes:2>,<ore:compressedSteel>]]);
