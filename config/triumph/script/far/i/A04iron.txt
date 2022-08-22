@@ -1,7 +1,0 @@
-setIcon(<minecraft:iron_ingot>)
-setTitle("硬实力")
-setDescription("获取铁锭")
-addParent("far:i/A03stone")
-setPos(75,0)
-criteria = addCriteria("iron", "minecraft:inventory_changed")
-criteria.addItem("minecraft:iron_ingot")

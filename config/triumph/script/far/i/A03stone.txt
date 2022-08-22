@@ -1,7 +1,0 @@
-setIcon(<minecraft:cobblestone>)
-setTitle("石器时代")
-setDescription("获得圆石，我猜你眼里的木镐只有三点耐久。")
-addParent("far:i/A02crafting_table")
-setPos(50,0)
-criteria = addCriteria("get_stone", "minecraft:inventory_changed")
-criteria.addItem("minecraft:cobblestone")

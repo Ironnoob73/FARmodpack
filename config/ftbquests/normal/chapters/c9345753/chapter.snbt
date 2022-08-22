@@ -1,7 +1,0 @@
-{
-	title: "维度旅行",
-	icon: "mekanism:teleportationcore",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "hexagon"
-}

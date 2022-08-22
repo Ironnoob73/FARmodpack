@@ -1,6 +1,0 @@
-
-{
-  "Name": "Squid",
-  "Registry ID": "cavern:squid",
-  "Class": "cavern.entity.passive.EntityAquaSquid"
-}

@@ -1,2 +1,0 @@
-mods.inworldcrafting.FluidToItem.transform(<minecraft:redstone>,<liquid:water>,[<ore:clathrateRedstone>]);
-recipes.addShapeless("redstone_from_ice",<minecraft:redstone>,[<ore:clathrateRedstone>,<toughasnails:ice_cube>]);
