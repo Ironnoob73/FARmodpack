@@ -1,7 +1,0 @@
-{
-	title: "章节II:矿工之梦",
-	icon: "minecraft:iron_pickaxe",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

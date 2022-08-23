@@ -1,7 +1,0 @@
-setIcon(<thermalfoundation:material:32>)
-setTitle("薄板加工")
-setDescription("获取铁板")
-addParent("far:i/A04iron")
-setPos(100,0)
-criteria = addCriteria("plate", "minecraft:inventory_changed")
-criteria.addItem(<thermalfoundation:material:32>)

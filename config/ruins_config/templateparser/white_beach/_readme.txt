@@ -1,1 +1,0 @@
-This folder contains templates that rely on Biomes o' Plenty.  If you do not have Biomes o' Plenty installed, just delete this folder.
