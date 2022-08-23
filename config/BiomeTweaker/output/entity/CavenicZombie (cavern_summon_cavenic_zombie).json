@@ -1,0 +1,6 @@
+
+{
+  "Name": "CavenicZombie",
+  "Registry ID": "cavern:summon_cavenic_zombie",
+  "Class": "cavern.entity.monster.EntitySummonCavenicZombie"
+}

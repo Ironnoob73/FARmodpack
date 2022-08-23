@@ -1,0 +1,21 @@
+{
+	title: "乱码？",
+	icon: "quark:rune 1 15",
+	disable_toast: true,
+	x: 0.75d,
+	y: 1.75d,
+	shape: "square",
+	text: [
+		"几乎每个章节都会有这样套指引，不过你会在指引中找到一些乱码，这是为了装......咳，保持一定的神秘性。你可以通过获取一些特殊物品或做了一些任务来获取后续的\"破译\"版本，破译版本会出现在\"未破译\"的指引旁。有些乱码不会有破译版本。"
+	],
+	dependencies: [
+		"c3ebe5f2",
+		"19e51c2b"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "aaa06faf",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

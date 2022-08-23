@@ -1,0 +1,33 @@
+# Command Block Trap -- Chest Guardian
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 18 Feb 2016
+# Updated for MC 1.8: 5 Mar 2016
+# Updated for MC 1.9: 20 Apr 2016
+# Updated for MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon Skeleton ~0 ~1 ~0 {HandItems:[{Count:1,id:wooden_sword,tag:{display:{Name:"Golem Sword"},ench:[{id:19,lvl:25},{id:16,lvl:5}]}},{}],ArmorItems:[{Count:1,id:leather_boots,tag:{display:{color:8017974,Name:"Golem Feet"}}},{Count:1,id:leather_leggings,tag:{display:{color:9856071,Name:"Golem Legs"}}},{Count:1,id:leather_chestplate,tag:{display:{color:7885880,Name:"Golem Chest"}}},{Count:1,id:skull,Damage:3,tag:{SkullOwner:MHF_Chest,display:{Name:"Golem Head"}}}],CustomName:"Chest Golem",Attributes:[{Name:generic.movementSpeed,Base:0.2},{Name:generic.knockbackResistance,Base:1.0}],HandDropChances:[0.5F,0.0F],ArmorDropChances:[0.1F,0.1F,0.1F,0.5F],ActiveEffects:[{Id:14,Amplifier:1,Duration:999999,Ambient:1},{Id:13,Amplifier:1,Duration:999999,Ambient:1}],Silent:1,PersistenceRequired:1,Health:40.0f}:@
+
+rule2=0,100,minecraft:planks-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

@@ -1,0 +1,36 @@
+# Creeper Boat
+# MC 1.7.10; 26 Nov 2014
+# Created by Ruins mod version 14.4 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Last Updated 22 Nov 2015
+# Updated for MC 1.9: 29 Apr 2016
+# Updated for MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 21 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=ocean,deep ocean,deep_ocean,oceanic abyss,coral reef,coral_reef,kelp forest,kelp_forest,flower_island,forested island,beach,gravel beach,gravel_beach,stone beach,stone_beach,mushroomislandshore,rwg_oceantemperate,rwg_oceanwet,beaches,white_beach,tropical_island
+
+uniqueMinDistance=500
+
+weight=1
+embed_into_distance=2
+
+acceptable_target_blocks=water
+
+unacceptable_target_blocks=
+dimensions=1,1,1
+allowable_overhang=9999
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+#rule1=0,100,CommandBlock:RUINSTRIGGER /summon Creeper ~0 ~2 ~0 {Riding:{id:"Boat"},PersistenceRequired:1}:@
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon boat ~0 ~2 ~0 {Type:jungle,Passengers:[{id:creeper,EntityId:creeper,PersistenceRequired:1}]}:@
+
+# -------------------------------------------
+
+layer
+1
+endlayer

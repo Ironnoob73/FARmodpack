@@ -1,0 +1,42 @@
+
+# Snowman
+# 12 Mar 2014; MC 1.7.10, updated 15 Dec 2014
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Verified for MC 1.11: 10 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated 8 Jul 2017
+# Updated to MC 1.12.1: 9 Sep 2017
+
+biomesToSpawnIn=alps,arctic,cold beach,cold taiga,cold taiga hills,cold taiga m,frozenocean,frozen ocean,frozenriver,frozen river,glacier,ice mountains,ice plains,ice plains spikes,ice wasteland,icy hills,polar,polar_chasm,rwg_colddesert,rwg_coldplains,rwg_coldforest,snowy forest,snowy_forest,snow forest,snow_forest,snow plains,snowy coniferous forest,snowy dead forest,twilight glacier,twilight_glacier,winter wonderland,cold_beach,frozen_ocean,ice_flats,ice_mountains,frozen_river,mutated_ice_flats,taiga_cold,taiga_cold_hills
+
+weight=1
+embed_into_distance=0
+
+unacceptable_target_blocks=lava,flowing_lava,water,flowing_water,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=3,1,1
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=3
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:snow-0
+rule2=0,100,minecraft:pumpkin
+
+layer
+1
+endlayer
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

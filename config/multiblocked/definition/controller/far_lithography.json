@@ -1,0 +1,183 @@
+{
+  "consumeCatalyst": false,
+  "location": "far:lithography",
+  "traits": {},
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "minecraft:iron_block",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "modelName": "lithography",
+    "isGlobal": true,
+    "type": "geo"
+  },
+  "isOpaqueCube": false,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "AA",
+        "BC",
+        "DD"
+      ],
+      [
+        "AA",
+        "EC",
+        "DD"
+      ],
+      [
+        "F@",
+        "EC",
+        "DD"
+      ],
+      [
+        "AA",
+        "GG",
+        "  "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "galaxyspace:machineframes",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "controller": {
+        "location": "far:lithography",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "extrautils2:decorativeglass",
+            "meta": 3
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1_slab",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 8
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "IN": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "mekanism:energycube",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "IN"
+      ]
+    }
+  },
+  "recipeMap": "lithography_recipe"
+}

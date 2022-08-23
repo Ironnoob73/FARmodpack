@@ -1,0 +1,46 @@
+# Jungle Feature Seed
+# MC 1.7.10; 4 Nov 2014
+
+# Created by Ruins mod version 14.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Updated for MC 1.8: 21 Jul 2015
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+# Note: This is meant to "seed" a random jungle structure in the
+# /templateparser folder, increasing successful spawn chances
+# by keeping a small "footprint" despite lack of leveling.
+
+biomesToSpawnIn=extreme jungle,extreme_jungle,jungle,jungle m,junglehills,jungle_edge,jungleedge,jungleedge m,minijungle,mini jungle,mini_jungle,rainforest,tropical_island,tropical jungle,tropical rainforest,mutated_jungle,mutated_jungle_edge
+
+weight=5
+embed_into_distance=0
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+# "Hush" Rule (to minimize Command Block chatter)
+rule1=0,100,CommandBlock:RUINSTRIGGER /gamerule commandBlockOutput false:@
+
+# Random Underground Feature
+rule2=1,100,CommandBlock:RUINSTRIGGER /testruin TP_Jungle_TreeStand ~0 ~0 ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_Jungle_Ziggurat ~0 ~0 ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_Jungle_Ziggurat ~0 ~-20 ~0:@
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+
+
+

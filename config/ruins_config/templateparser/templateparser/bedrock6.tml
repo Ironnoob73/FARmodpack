@@ -1,0 +1,29 @@
+# Bedrock Baseplate 6x6
+# Created by Ruins mod version 15.5 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# For \templateparser folder ONLY.
+# DO NOT place in biomes sub-folders!
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=1,6,6
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:bedrock-0
+
+layer
+1,1,1,1,1,1
+1,1,1,1,1,1
+1,1,1,1,1,1
+1,1,1,1,1,1
+1,1,1,1,1,1
+1,1,1,1,1,1
+endlayer
+

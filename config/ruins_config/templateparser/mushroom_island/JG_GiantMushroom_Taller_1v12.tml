@@ -1,0 +1,324 @@
+
+# Mushroom - Taller
+# 2 Apr 2014; updated to MC 1.7.10, 16 Oct 2014
+
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Updated to MC 1.8: 22 Jul 2015
+# Last Updated 24 Mar 2016
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=mushroomisland,mushroomislandshore,roofed forest,roofed forest m,mushrooms,lots of mushrooms,fungi forest,mushroom forest,deep mushroom forest,mushroom_island,mushroom_island_shore,roofed_forest,mutated_roofed_forest
+
+weight=1
+
+embed_into_distance=5
+
+unacceptable_target_blocks=lava,flowing_lava,water,flowing_water,ice,snow,snow_layer,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=24,7,7
+allowable_overhang=49
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=6
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+
+# Brown Mushroom Block - stem texture all sides
+rule2=0,100,minecraft:brown_mushroom_block-15
+
+# Mycelium
+rule3=0,100,minecraft:mycelium
+
+# Water Source
+rule4=0,100,minecraft:flowing_water
+
+# Brown Mushroom Block (Stem)
+rule5=0,100,minecraft:brown_mushroom_block-10
+
+# Brown Mushroom Block (Cap)
+rule6=0,100,minecraft:brown_mushroom_block-1
+rule7=0,100,minecraft:brown_mushroom_block-4
+rule8=0,100,minecraft:brown_mushroom_block-7
+rule9=0,100,minecraft:brown_mushroom_block-5
+rule10=0,100,minecraft:brown_mushroom_block-2
+rule11=0,100,minecraft:brown_mushroom_block-8
+rule12=0,100,minecraft:brown_mushroom_block-3
+rule13=0,100,minecraft:brown_mushroom_block-9
+rule14=0,100,minecraft:brown_mushroom_block-6
+
+# Embed Layer (-1)
+layer
+1,1,1,1,1,1,1
+1,1,2,2,2,1,1
+1,2,3,3,3,2,1
+1,2,3,4,3,2,1
+1,2,3,3,3,2,1
+1,1,2,2,2,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Embed Layer (-1)
+layer
+1,1,1,1,1,1,1
+1,1,2,2,2,1,1
+1,2,3,3,3,2,1
+1,2,3,4,3,2,1
+1,2,3,3,3,2,1
+1,1,2,2,2,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Embed Layer (-1)
+layer
+1,1,1,1,1,1,1
+1,1,2,2,2,1,1
+1,2,3,3,3,2,1
+1,2,3,4,3,2,1
+1,2,3,3,3,2,1
+1,1,2,2,2,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Embed Layer (-1)
+layer
+1,1,1,1,1,1,1
+1,1,2,2,2,1,1
+1,2,3,3,3,2,1
+1,2,3,4,3,2,1
+1,2,3,3,3,2,1
+1,1,2,2,2,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Embed Layer (-1)
+layer
+1,1,1,1,1,1,1
+1,1,2,2,2,1,1
+1,2,3,3,3,2,1
+1,2,3,4,3,2,1
+1,2,3,3,3,2,1
+1,1,2,2,2,1,1
+1,1,1,1,1,1,1
+endlayer
+
+
+# Wide Base (+1)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+2)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+2)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+2)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+2)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+2)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+
+# Wide Base (+3)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+4)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Wide Base (+5)
+layer
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,5,5,5,5,5,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+6)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+7)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+7)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+7)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+7)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+7)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+
+# Upper Stem (+8)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+# Upper Stem (+9)
+layer
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,5,5,5,1,1
+1,1,1,1,1,1,1
+1,1,1,1,1,1,1
+endlayer
+
+
+# Cap Base (+10)
+layer
+1,8,7,7,7,6,1
+8,9,9,9,9,9,6
+11,9,9,9,9,9,10
+11,9,9,9,9,9,10
+11,9,9,9,9,9,10
+13,9,9,9,9,9,12
+1,13,14,14,14,12,1
+endlayer
+
+# Cap Top (+11)
+layer
+1,1,1,1,1,1,1
+1,1,8,7,6,1,1
+1,8,9,9,9,6,1
+1,11,9,9,9,10,1
+1,13,9,9,9,12,1
+1,1,13,14,12,1,1
+1,1,1,1,1,1,1
+endlayer
+
+

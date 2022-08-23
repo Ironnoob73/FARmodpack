@@ -1,0 +1,6 @@
+
+{
+  "Name": "extraplanets.EvolvedSpaceManBoss",
+  "Registry ID": "extraplanets:extraplanets.evolvedspacemanboss",
+  "Class": "com.mjr.extraplanets.entities.bosses.EntityEvolvedSpacemanBoss"
+}

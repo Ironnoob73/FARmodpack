@@ -1,0 +1,38 @@
+{
+	title: "矿物粉",
+	icon: "thermalfoundation:material 1 64",
+	x: 6.3d,
+	y: 0.35d,
+	shape: "rsquare",
+	description: "折磨......",
+	text: [
+		"将矿物打成粉之后，就可以放进熔炉熔炼成锭了。"
+	],
+	dependencies: [
+		"a33a24bb",
+		"ac04c13a"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "27ec3068",
+		type: "item",
+		title: "矿物粉",
+		items: [{
+			item: "thermalfoundation:material"
+		},
+		{
+			item: "thermalfoundation:material 1 64"
+		},
+		{
+			item: "thermalfoundation:material 1 65"
+		},
+		{
+			item: "thermalfoundation:material 1 68"
+		}]
+	}],
+	rewards: [{
+		uid: "e705633c",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

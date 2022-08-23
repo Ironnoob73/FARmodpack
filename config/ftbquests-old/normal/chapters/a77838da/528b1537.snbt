@@ -1,0 +1,24 @@
+{
+	title: "自动存档",
+	icon: "opencomputers:storage 1 1",
+	disable_toast: true,
+	x: 1.25d,
+	y: 1.75d,
+	shape: "square",
+	description: "啊！我的审稿！——针难人",
+	text: [
+		"整合包自带存档mod，并会在一定时间后自动进行存档。一旦出现意外，你可以在存档列表选择将要恢复的存档并点击下面的“备份”，然后选择合适的备份即可。",
+		"如果你正在做一些危险的事情，你也可以直接输入§9/backup§r直接开始备份。",
+		"§c§l警告§r:正在存档的情况下请勿暂停游戏或是退出游戏！可能会引起备份错误甚至崩档、坏档！如果你想更安全地备份你的存档，请在游戏没有运行的情况下在saves文件夹里手动备份。"
+	],
+	dependencies: [
+		"19e51c2b"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "5199965a",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

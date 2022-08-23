@@ -1,0 +1,45 @@
+# Water Cave Cluster - Experimental Adjoining Structures
+# Created by Ruins mod version 16.8 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Created for MC 1.12: 15 May 2018
+
+# NOTE: This uses the JG_Sphere_WaterCave_31_1v*.tml template in a
+# cluster to create a "flooded mini-cave" area.
+
+weight=1
+embed_into_distance=18
+acceptable_target_blocks=
+
+biomesToSpawnIn=beaches,biome_degraded,biome_meneglin,brushland,chaparral,coral_reef,dreadlands,eerie,eldritch,grassland,kelp_forest,ocean,oceanic_abyss,plains,river,meadow,mining biome,miningbiome,outback,pasture,plains,prairie,rwg_plains,rwg_coldplains,savanna,scrubland,shrubland,swampland,wasteland,wetlands,white_beach
+
+unacceptable_target_blocks=cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block
+
+dimensions=1,1,1
+allowable_overhang=1
+max_leveling=1
+leveling_buffer=-1
+preserve_water=1
+preserve_lava=1
+preserve_plants=1
+
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;0;10;0
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;10;10;10
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;-10;10;-10
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;10;10;-10
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;-10;10;10
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;-16;10;0
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;16;10;0
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;0;10;-16
+adjoining_template=plains/JG_Sphere_WaterCave_31_1v12;0;10;16
+
+# DoNothing
+rule1=0,100,minecraft:flowing_water
+
+# 0
+layer
+1
+endlayer
+
+
+

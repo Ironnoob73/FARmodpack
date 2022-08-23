@@ -1,0 +1,22 @@
+{
+	title: "洞穴 §8-50",
+	icon: "cavern:cave_item 1 5",
+	x: 0.5d,
+	y: 1.0d,
+	description: "较为理想的挖矿世界",
+	text: [
+		"钻石在这里可以挖到......",
+		"§l常见矿物§r:§a煤 铁 金 钻石 铜 银 铅 铝 镍 青金石 红石 铀 超硝石 海蓝宝石 白钻石 §d奇异矿石(随机) §a空间碎片§r",
+		"§8主要矿物来自沉浸工程"
+	],
+	dependencies: [
+		"4e49162e"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "40ab51d4",
+		type: "dimension",
+		dim: -50
+	}]
+}

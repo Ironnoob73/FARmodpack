@@ -1,0 +1,22 @@
+{
+	x: 6.6499999999999995d,
+	y: 1.05d,
+	shape: "rsquare",
+	dependencies: [
+		"29ff2a2f"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "127a8822",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 128"
+		}]
+	}],
+	rewards: [{
+		uid: "4e63821c",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 25
+	}]
+}

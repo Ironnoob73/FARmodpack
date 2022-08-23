@@ -1,0 +1,42 @@
+# Bedrock Dungeon Seed -- MC 1.7.10 -- 29 Jan 2016
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Note: Place this in biomes folder
+# Updated to MC 1.8
+# Updated to MC 1.9: 16 Apr 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+# Last Updated: 9 Jun 2018
+
+biomesToSpawnIn=beach,beaches,desert,mutated_plains,oak_savannah,plains,rwg_plains,savanna,sunflower plains,xeric shrubland,xeric_shrubland
+
+uniqueMinDistance=2000
+spawnMinDistance=2000
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=1
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /testruin TP_BRD_Hub ~15 9 ~0:@
+rule2=0,100,CommandBlock:RUINSTRIGGER /testruin TP_BRD_Tower ~15 64 ~0:@
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

@@ -1,0 +1,142 @@
+
+{
+  "ID": 79,
+  "Name": "Lost Desert",
+  "Resource Location": "zollerngalaxy:lost desert",
+  "Class": "zollerngalaxy.biomes.perdita.BiomeLostDesert",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "zollerngalaxy:perdsand",
+  "Filler Block": "zollerngalaxy:perdrock",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "1780991",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 1780991,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DEAD",
+    "HOT",
+    "DRY",
+    "MOUNTAIN",
+    "WASTELAND"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.villagers.EntityPerditaVillager",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedSkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedEnderman",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedWitch",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.robots.sentinels.EntitySentinelDrone",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityGrayAlien",
+      "Weight": 25,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityMummy",
+      "Weight": 35,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityScorpion",
+      "Weight": 25,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityMegaCreeper",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "zollerngalaxy.mobs.entities.EntityBloodWorm",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

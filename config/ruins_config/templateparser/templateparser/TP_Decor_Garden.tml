@@ -1,0 +1,75 @@
+# Dungeon Decor - Garden
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.8: 1 Nov 2015
+# Updated to MC 1.9: 29 Apr 2016
+# Updated to MC 1.12.1: 10 Sep 2017
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=5,5,5
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:stonebrick-3
+rule2=0,100,minecraft:stone_brick_stairs-0
+rule3=0,100,minecraft:stone_brick_stairs-2
+rule4=0,100,minecraft:grass-0
+rule5=0,100,minecraft:stone_brick_stairs-3
+rule6=0,100,minecraft:water
+rule7=0,100,minecraft:stone_brick_stairs-1
+
+# Flower Pot: Sapling
+rule8=0,100,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:0,id:"minecraft:flower_pot"}-0,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:1,id:"minecraft:flower_pot"}-0,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:2,id:"minecraft:flower_pot"}-0,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:3,id:"minecraft:flower_pot"}-0,,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:4,id:"minecraft:flower_pot"}-0,teBlock;minecraft:flower_pot;{Item:"minecraft:sapling",x:0,y:0,z:0,Data:5,id:"minecraft:flower_pot"}-0
+
+rule9=0,100,minecraft:red_flower,minecraft:red_flower-1,minecraft:red_flower-2,minecraft:red_flower-3,minecraft:red_flower-4,minecraft:red_flower-5,minecraft:red_flower-6,minecraft:red_flower-7
+rule10=0,100,minecraft:cobblestone_wall-1,minecraft:cobblestone_wall
+rule11=1,100,minecraft:redstone_lamp
+
+layer
+1,2,2,2,1
+5,4,4,4,3
+5,4,6,4,3
+5,4,4,4,3
+1,7,7,7,1
+endlayer
+
+layer
+1,8,0,8,1
+8,9,9,9,8
+0,9,10,9,0
+8,9,9,9,8
+1,8,0,8,1
+endlayer
+
+layer
+8,0,0,0,8
+0,0,0,0,0
+0,0,11,0,0
+0,0,0,0,0
+8,0,0,0,8
+endlayer
+
+layer
+0,0,0,0,0
+0,0,0,0,0
+0,0,10,0,0
+0,0,0,0,0
+0,0,0,0,0
+endlayer
+
+layer
+0,0,0,0,0
+0,0,0,0,0
+0,0,10,0,0
+0,0,0,0,0
+0,0,0,0,0
+endlayer
+
+
+

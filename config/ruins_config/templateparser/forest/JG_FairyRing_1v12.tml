@@ -1,0 +1,81 @@
+# Fairy_Ring_1v8 -- updated to 1.7.10 - 7 Oct 2014
+# Updated to MC 1.8: 22 Jul 2015
+# Created by Ruins mod version 12.3 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Last Updated 22 Nov 2015
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=autumn woods,autumnal_woods,biome_degraded,biome_meneglin,birch forest,birch_forest,boreal forest,boreal_forest,cherry blossom grove,cherry_blossom_grove,coniferous forest,coniferous_forest,deep mushroom forest,deep_mushroom_forest,deciduous forest,deciduous_forest,enchanted forest,extreme hills edge,forested field,flower forest,flower_forest,forest,fungi forest,fungi_forest,highland,highlands,highlands center,hot springs,hot_springs,lighted forest,magical forest,maple_woods,maplewoods,meadow forest,miningbiome,mutated_birch_forest,mutated_forest,mutated_plains,mystic grove,mystic_grove,oak savannah,oak_savannah,ominous woods,ominous_woods,orchard,pine forest,redwood forest,sacred springs,sacred_springs,seasonal forest,seasonal_forest,seasonal spruce forest,silkglades,smaller_extreme_hills,spruce woods,sunflower plains,swampland,swampland m,taiga,thick ominous woods,thinned mystic grove,thinned timber,timber,wonderous woods,wondrous woods,rwg_coldforest,rwg_snowforest,rwg_temperateforest
+
+weight=15
+embed_into_distance=3
+
+unacceptable_target_blocks=lava,flowing_lava,water,flowing_water,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+dimensions=4,9,9
+allowable_overhang=0
+max_cut_in=0
+cut_in_buffer=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,preserveBlock
+rule2=0,100,minecraft:grass-0
+rule3=0,100,minecraft:dirt-0
+rule4=0,100,minecraft:mycelium-0
+rule5=0,100,minecraft:red_mushroom-0,minecraft:brown_mushroom-0
+rule6=0,100,minecraft:tallgrass-0,minecraft:tallgrass-1,minecraft:tallgrass-2
+
+layer
+1,1,1,2,2,2,1,1,1
+1,1,2,3,3,3,2,1,1
+1,2,3,3,3,3,3,2,1
+2,3,3,3,3,3,3,3,2
+2,3,3,3,3,3,3,3,2
+2,3,3,3,3,3,3,3,2
+1,2,3,3,3,3,3,2,1
+1,1,2,3,3,3,2,1,1
+1,1,1,2,2,2,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1
+1,1,1,2,2,2,1,1,1
+1,1,2,3,3,3,2,1,1
+1,2,3,3,3,3,3,2,1
+1,2,3,3,3,3,3,2,1
+1,2,3,3,3,3,3,2,1
+1,1,2,3,3,3,2,1,1
+1,1,1,2,2,2,1,1,1
+1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,4,4,4,1,1,1
+1,1,4,4,2,4,4,1,1
+1,1,4,2,2,2,4,1,1
+1,1,4,4,2,4,4,1,1
+1,1,1,4,4,4,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+endlayer
+
+layer
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,5,5,5,1,1,1
+1,1,5,5,6,5,5,1,1
+1,1,5,6,6,6,5,1,1
+1,1,5,5,6,5,5,1,1
+1,1,1,5,5,5,1,1,1
+1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1
+endlayer
+
+

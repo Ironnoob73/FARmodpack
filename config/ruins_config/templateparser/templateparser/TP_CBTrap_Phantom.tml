@@ -1,0 +1,31 @@
+# Command Block Trap -- Phantom Summon
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 24 Mar 2016
+# Updated to MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /setblock ~0 ~1 ~0 mob_spawner 0 replace {SpawnData:{HandItems:[{Count:1,id:wooden_sword,tag:{display:{Name:"Death Scythe"}}},{}],ArmorItems:[{},{},{},{Count:1,id:skull,Damage:0}],CustomName:Phantom,HandDropChances:[0.1F,0.0F],ArmorDropChances:[0.0F,0.0F,0.0F,0.2F],ActiveEffects:[{Id:14,Amplifier:1,Duration:999999}],id:blaze,Passengers:[{id:fireball,direction:[0.0,0.0,0.0],ExplosionPower:5,PersistenceRequired:1}]}}:@
+
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

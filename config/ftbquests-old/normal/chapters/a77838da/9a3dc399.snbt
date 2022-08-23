@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 1.75d,
+	shape: "rsquare",
+	dependencies: [
+		"ba4d9565"
+	],
+	size: 0.5d,
+	tasks: [{
+		uid: "98701ffb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}]
+	}]
+}

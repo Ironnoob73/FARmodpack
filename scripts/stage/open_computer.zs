@@ -1,0 +1,11 @@
+mods.rustic.Condenser.addRecipe(<opencomputers:material:1>,[<ore:dustSulfur>,<ore:dustIron>,<ore:dustSulfur>],null,<ore:itemEmptyBucket>,<liquid:water>*256,1000);
+#Material
+mods.recipestages.Recipes.setRecipeStage("computer",<opencomputers:material:12>);
+#CPU
+mods.recipestages.Recipes.setRecipeStage("computer",<opencomputers:component>);
+mods.recipestages.Recipes.setRecipeStage("computer",<opencomputers:component:1>);
+mods.recipestages.Recipes.setRecipeStage("computer",<opencomputers:component:2>);
+#Circuit
+recipes.remove(<opencomputers:material:1>);
+recipes.addShapeless("oc_circuit_rs",<opencomputers:material:2>*4,[<refinedstorage:cutting_tool>.anyDamage().transformDamage(1),<ore:clay>,<ore:dyeGreen>,<ore:plateCopper>]);
+recipes.addShapeless("oc_circuit_et",<opencomputers:material:2>*4,[<extrautils2:glasscutter>.anyDamage().transformDamage(1),<ore:clay>,<ore:dyeGreen>,<ore:plateCopper>]);

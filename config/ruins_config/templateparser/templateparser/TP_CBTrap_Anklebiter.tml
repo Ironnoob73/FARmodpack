@@ -1,0 +1,32 @@
+# Command Block Trap -- Anklebiter Summon
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Alternative "Command Block Trap" for self-destructing Command Blocks
+# via /testruin command.  (Place in \templateparser folder.)
+# Last Updated 18 Feb 2016
+# Updated to MC 1.11: 11 Jan 2017
+# Updated to MC 1.12: 22 Jun 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=2,1,1
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,CommandBlock:RUINSTRIGGER /summon zombie_villager ~0 ~3 ~0 {CustomName:"Anklebiter Spirit",CanPickUpLoot:1,CanBreakDoors:1,IsBaby:1,PersistenceRequired:1,Attributes:[{Name:generic.maxHealth,Base:20}],ActiveEffects:[{Id:3,Amplifier:1,Duration:999999,Ambient:1},{Id:14,Amplifier:1,Duration:999999,Ambient:1}]}:@
+
+rule2=0,100,minecraft:stone-0
+
+layer
+1
+endlayer
+
+layer
+2
+endlayer
+

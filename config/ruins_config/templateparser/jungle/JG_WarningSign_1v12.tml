@@ -1,0 +1,61 @@
+# Warning Sign
+# MC 1.7.10: 7 Nov 2014
+# Updated to MC 1.8: 21 Jul 2015
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Last Updated (MC 1.8): 28 Feb 2016
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=jungle,jungle_edge,junglehills,jungle_hills,extreme jungle,swampland,swampland m,bog,mire,sludgepit,minijungle,mini jungle,mini_jungle,tropical_island,tropical rainforest,tropics,dead swamp,lush swamp,mutated_jungle,mutated_jungle_edge
+
+weight=1
+embed_into_distance=2
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick,fence
+
+dimensions=5,2,3
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:fence-0
+rule2=2,100,WallSign:DANGER!:Turn:Back:Now!-5,WallSign:***:Certain:DOOM!:***-5,WallSign:Beware:of:ZOMBIES!:***-5
+rule3=1,100,minecraft:redstone_torch-5
+rule4=0,100,Skull:0:4-1
+rule5=0,100,preserveBlock
+rule6=0,100,MobSpawner:Zombie
+rule7=0,100,minecraft:grass
+
+layer
+7,6,7
+7,7,7
+endlayer
+
+
+layer
+5,7,5
+5,5,5
+endlayer
+
+
+layer
+5,1,5
+5,5,5
+endlayer
+
+layer
+1,1,1
+5,2,5
+endlayer
+
+layer
+3,4,3
+0,0,0
+endlayer
+

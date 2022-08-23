@@ -1,0 +1,22 @@
+{
+	title: "延时摄影",
+	icon: "futuremc:record_pigstep",
+	disable_toast: true,
+	x: 1.25d,
+	y: 2.25d,
+	shape: "square",
+	text: [
+		"整合包带有replay，但该mod需要玩家自行决定是否下载(已于安装说明中提及)。在主界面选择\"回放中心\"即可查看录像。",
+		"不保证100%与所有模组兼容，如果不想使用，可以在存档列表右上角取消。"
+	],
+	dependencies: [
+		"19e51c2b"
+	],
+	hide: true,
+	size: 0.5d,
+	tasks: [{
+		uid: "4657b308",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

@@ -1,0 +1,80 @@
+# Headless Horseman
+# MC 1.7.10; 27 Oct 2014
+# Happy Halloween!
+# Created by Ruins mod version 13.8 Ingame Parser
+# authoring Player: Jordan_Greywolf
+
+# Updated to MC 1.8: 28 Feb 2016
+# Updated to MC 1.9: 30 Apr 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Updated to MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+biomesToSpawnIn=arcana,birch forest,birch_forest,corrupted land,dark forest,dead forest,dead_forest,dead swamp,dead_swamp,dense forest,dreadlands,dungeon,eerie,eldritch,fen,forest,forest meadow,magical forest,meadow forest,ominous woods,ominous_woods,rwg_coldforest,rwg_snowforest,rwg_temperateforest,seasonal woods,seasonal_woods,silkglades,taiga,tainted land,thick ominous woods,twilight clearing,twilight_clearing,wasteland,witherlands,wonderous woods,woodland,woodlands
+
+uniqueMinDistance=500
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,planks,planks2,concrete,cobblestone,stonebrick,brick_block,glass,torch,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,cobblestone_wall,stone_slab,double_stone_slab,stone_slab2,wooden_slab,double_wooden_slab,nether_brick
+
+dimensions=5,3,4
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:grass-0
+rule2=0,100,minecraft:dirt-0
+rule3=0,100,minecraft:tallgrass-1
+rule4=0,100,minecraft:double_plant-2
+rule5=0,100,minecraft:vine-1
+rule6=0,100,minecraft:stone-0
+rule7=0,100,minecraft:stone_slab-0
+rule8=0,100,minecraft:vine-8
+rule9=0,100,minecraft:double_plant-9
+rule10=0,100,minecraft:monster_egg-5
+rule11=0,100,minecraft:vine-4
+
+rule12=0,100,CommandBlock:RUINSTRIGGER /summon skeleton_horse ~0 ~0 ~0 {Attributes:[{Name:generic.movementSpeed,Base:0.4},{Name:generic.knockbackResistance,Base:1.0},{Name:horse.jumpStrength,Base:1.5}],PersistenceRequired:1,Tame:1,Saddle:1,CustomName:"Deathsteed",Health:100.0f,Passengers:[{id:skeleton,HandItems:[{Count:1,id:bow,tag:{display:{Name:"Jack o' Lantern Bow",Lore:["A bow made of twined pumpkin vines."]},ench:[{id:50,lvl:1},{id:48,lvl:5},{id:49,lvl:2}]}},{Count:1,id:skull,Damage:3}],ArmorItems:[{Count:1,id:leather_boots,tag:{display:{color:0,Name:"Horseman's Boots"},ench:[{id:2,lvl:4},{id:0,lvl:2}]}},{Count:1,id:leather_leggings,tag:{display:{color:4007962,Name:"Horseman's Leggings"},ench:[{id:0,lvl:2},{id:7,lvl:3}]}},{Count:1,id:leather_chestplate,tag:{display:{color:0,Name:"Horseman's Coat"},ench:[{id:4,lvl:4},{id:0,lvl:2}]}},{Count:1,id:pumpkin,tag:{display:{Name:"Pumpkin Head"},ench:[{id:3,lvl:4},{id:1,lvl:4}]}}],CustomName:"Horseman",Attributes:[{Name:generic.knockbackResistance,Base:1}],HandDropChances:[1.0F,0.5F],ArmorDropChances:[0.3F,0.3F,0.3F,0.3F],ActiveEffects:[{Id:12,Amplifier:1,Duration:999999},{Id:3,Amplifier:1,Duration:999999},{Id:1,Amplifier:1,Duration:999999}],PersistenceRequired:1,Health:50.0f}]}:@
+
+
+rule13=0,100,minecraft:double_plant-8
+rule14=0,100,minecraft:cobblestone_wall-0
+rule15=2,100,WallSign:~~*~~:R. I. P.:null:~~*~~-3
+rule16=0,100,CommandBlock:RUINSTRIGGER /summon bat ~0 ~5 ~0 {PersistenceRequired:1}:@
+
+layer
+1,1,1,1
+12,16,2,1
+1,1,1,1
+endlayer
+
+layer
+4,3,3,3
+7,7,6,5
+3,3,4,3
+endlayer
+
+layer
+9,0,8,0
+0,11,10,5
+0,0,13,0
+endlayer
+
+layer
+0,0,14,0
+0,15,14,0
+0,0,14,0
+endlayer
+
+layer
+0,0,0,0
+0,0,14,0
+0,0,0,0
+endlayer
+

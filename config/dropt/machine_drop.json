@@ -1,0 +1,19 @@
+{"rules": [
+    {"match": {"blocks": {"blocks": ["soviet:sysblock"]}},"drops": [
+        {"item": {"items": ["soviet:soviet_steel"],"quantity": {"min": 0,"max": 4}}},
+        {"item": {"items": ["opencomputers:material:7"],"quantity": {"min": 0,"max": 2}}},
+        {"item": {"items": ["opencomputers:component:16"],"quantity": {"min": 0,"max": 1}}},
+        {"item": {"items": ["opencomputers:material:12"],"quantity": {"min": 0,"max": 2}}},
+        {"item": {"items": ["opencomputers:material:4"],"quantity": {"min": 0,"max": 3}}}]},
+    {"match": {"blocks": {"blocks": ["soviet:comp"]}},"drops": [
+        {"item": {"items": ["soviet:soviet_steel"],"quantity": {"min": 0,"max": 4}}},
+        {"item": {"items": ["opencomputers:material:7"],"quantity": {"min": 0,"max": 2}}},
+        {"item": {"items": ["rftools:screen"],"quantity": {"min": 0,"max": 1}}},
+        {"item": {"items": ["opencomputers:material:4"],"quantity": {"min": 0,"max": 1}}}]},
+    {"match": {"blocks": {"blocks": ["soviet:keyboard"]}},"drops": [
+        {"item": {"items": ["soviet:soviet_steel"],"quantity": {"min": 0,"max": 1}}},
+        {"item": {"items": ["opencomputers:material:14"],"quantity": {"min": 0,"max": 4}}},
+        {"item": {"items": ["opencomputers:material:15"],"quantity": {"min": 0,"max": 1}}},
+        {"item": {"items": ["opencomputers:material:16"],"quantity": {"min": 0,"max": 1}}},
+        {"item": {"items": ["opencomputers:material:4"],"quantity": {"min": 0,"max": 1}}}]}
+]}

@@ -1,0 +1,72 @@
+# Grave #1
+# MC 1.7.10; 12 Nov 2014
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Special Instructions: Place in /templateparser folder.
+
+# Updated to MC 1.8: 22 Jan 2016
+# Updated to MC 1.9: 24 Apr 2016
+# Updated to MC 1.11: 12 Jan 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+weight=1
+embed_into_distance=1
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud,red_mushroom_block,brown_mushroom_block,command_block,slime_grass,slime_dirt,slime_congealed
+
+dimensions=4,4,3
+allowable_overhang=0
+max_leveling=2
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:grass-0
+rule2=0,100,minecraft:dirt-0
+rule3=0,100,MobSpawner:Zombie,MobSpawner:Skeleton
+rule4=0,100,minecraft:skull,ChestGenHook:chests/spawn_bonus_chest:8,ChestGenHook:chests/jungle_temple:1
+rule5=0,100,minecraft:tallgrass-1,minecraft:tallgrass-1,minecraft:tallgrass-0,minecraft:red_flower
+rule6=0,100,minecraft:cobblestone,minecraft:mossy_cobblestone
+rule7=0,100,minecraft:double_plant-2
+rule8=0,100,minecraft:stone_slab-0
+rule9=0,100,minecraft:cobblestone_wall,minecraft:cobblestone_wall-1
+rule10=0,100,minecraft:double_plant-11
+rule11=2,100,WallSign:/\@/\:Rest in:Peace:~@~ x ~@~-5,WallSign:~@~:R. I. P.:~@~:x-5,WallSign:~~@~~:Here Lies:...:~~@~~-5
+rule12=0,100,minecraft:double_plant-8
+
+# Gravestone Top
+rule13=0,100,minecraft:cobblestone_wall,minecraft:redstone_torch-5,minecraft:flower_pot,minecraft:iron_bars
+
+# Gravestone Middle
+rule14=0,100,minecraft:cobblestone_wall,minecraft:cobblestone,minecraft:mossy_cobblestone,minecraft:stonebrick-3,minecraft:stone-6,minecraft:stone-2
+
+layer
+1,2,1
+1,3,1
+1,4,1
+1,1,1
+endlayer
+
+layer
+5,6,5
+5,8,7
+7,8,5
+5,5,7
+endlayer
+
+layer
+9,14,9
+0,11,10
+12,0,0
+0,0,10
+endlayer
+
+layer
+0,13,0
+0,0,0
+0,0,0
+0,0,0
+endlayer
+

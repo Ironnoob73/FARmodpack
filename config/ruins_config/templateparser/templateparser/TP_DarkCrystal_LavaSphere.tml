@@ -1,0 +1,93 @@
+# Dark Crystal Tower - Lava Sphere
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Note: Place in \templateparser folder
+# Last Updated 2 Nov 2015
+# Updated to MC 1.11: 12 Jan 2017
+
+
+weight=0
+embed_into_distance=1
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava
+dimensions=8,5,5
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=0
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:stained_glass-15
+rule2=0,100,minecraft:stained_glass-14
+rule3=0,100,minecraft:stained_glass-1
+rule4=0,100,minecraft:stained_glass-4
+rule5=0,100,CommandBlock:/tp @p[r=3] ~0 ~-67 ~0:@
+rule6=0,100,minecraft:stone_pressure_plate-0
+rule7=0,100,minecraft:lava
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin TP_DarkCrystal_Base ~0 ~-74 ~0:@
+rule9=0,100,preserveBlock
+
+layer
+1,2,2,2,1
+2,3,4,3,2
+2,4,5,4,2
+2,3,4,3,2
+1,2,2,2,1
+endlayer
+
+layer
+9,9,9,9,9
+9,0,0,0,9
+9,0,6,0,9
+9,0,0,0,9
+9,9,9,9,9
+endlayer
+
+layer
+9,9,9,9,9
+9,9,9,9,9
+9,9,9,9,9
+9,9,9,9,9
+9,9,9,9,9
+endlayer
+
+layer
+9,9,9,9,9
+9,2,2,2,9
+9,2,2,2,9
+9,2,2,2,9
+9,9,9,9,9
+endlayer
+
+layer
+9,2,2,2,9
+2,2,7,2,2
+2,7,7,7,2
+2,2,7,2,2
+9,2,2,2,9
+endlayer
+
+layer
+9,2,2,2,9
+2,7,7,7,2
+2,7,8,7,2
+2,7,7,7,2
+9,2,2,2,9
+endlayer
+
+layer
+9,2,2,2,9
+2,2,7,2,2
+2,7,7,7,2
+2,2,7,2,2
+9,2,2,2,9
+endlayer
+
+layer
+9,9,9,9,9
+9,2,2,2,9
+9,2,2,2,9
+9,2,2,2,9
+9,9,9,9,9
+endlayer
+

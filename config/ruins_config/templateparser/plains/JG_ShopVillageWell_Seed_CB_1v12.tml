@@ -1,0 +1,199 @@
+# Shop Village Well
+# MC 1.8: 26 Jul 2015
+# Created by Ruins mod version 14.2 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Special Instructions: Put TP_Village_* templates in
+# /templateparser folder.
+
+# Updated to MC 1.10: 13 Sep 2016
+# Updated to MC 1.11: 13 Jan 2017
+# Verified for MC 1.12: 23 Jun 2017
+# Updated to MC 1.12.1: 10 Sep 2017
+
+# Last Updated 9 Jun 2018
+
+biomesToSpawnIn=clearing,field,flower field,flower_field,grassland,lavender fields,lavender_fields,meadow,origin valley,origin_valley,pasture,plains,prairie,rwg_plains,shrubland,scrubland,sunflower plains,twilight clearing,twilight_clearing,xeric shrubland,xeric_shrubland,mutated_forest,mutated_plains
+
+uniqueMinDistance=2000
+spawnMinDistance=500
+
+weight=1
+embed_into_distance=12
+acceptable_target_blocks=
+
+unacceptable_target_blocks=flowing_lava,lava,cloud,Natura:Cloud,slime_congealed,slime_dirt,slime_grass,command_block,cobblestone,mossy_cobblestone,planks,planks2,torch,fence,cobblestone_wall,glass,concrete,stone_slab,double_stone_slab,wooden_slab,double_wooden_slab,quartz_block,oak_stairs,stone_stairs,brick_stairs,stone_brick_stairs,nether_brick_stairs,sandstone_stairs,spruce_stairs,birch_stairs,jungle_stairs,quartz_stairs,acacia_stairs,dark_oak_stairs,brick_block,stonebrick,nether_brick
+
+dimensions=17,4,4
+allowable_overhang=0
+max_leveling=6
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+preserve_plants=1
+
+rule1=0,100,minecraft:cobblestone,minecraft:mossy_cobblestone
+rule2=0,100,minecraft:water-0
+rule3=0,100,minecraft:fence-0
+
+rule4=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_PumpkinPatch ~-26 _ ~-17:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Windmill ~-26 _ ~-17:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Tannery ~-26 _ ~-17:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~-26 _ ~-17:@
+
+rule5=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-16 _ ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Gardener ~-16 _ ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~-16 _ ~0 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_HorseBarn ~-16 _ ~0 1:@
+
+rule6=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_IronGolem ~-5 _ ~8:@
+
+rule7=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_FancyChurch ~10 _ ~6 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_FancyChurch ~48 _ ~24 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_FancyChurch ~-46 _ ~-40 2:@
+
+rule8=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Inn ~-8 _ ~-48 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Inn ~56 _ ~-16 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Inn ~-56 _ ~-16 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Inn ~16 _ ~48 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Inn ~16 _ ~-48 2:@
+
+rule9=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~24 _ ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_HorseBarn ~24 _ ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Greenhouse ~24 _ ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Potter ~24 _ ~-24:@
+
+rule10=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~-26 _ ~28:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-26 _ ~28:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_ChickenPit ~-26 _ ~28:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_HorseBarn ~-26 _ ~28:@
+
+rule11=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Fletcher ~-18 _ ~52 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_ChickenPit ~-18 _ ~52 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_MelonPatch ~-18 _ ~52 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Bakery ~-18 _ ~52 3:@
+
+rule12=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Curio ~-20 _ ~14 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-20 _ ~14 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~-20 _ ~14 3:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Tannery ~-20 _ ~14 3:@
+
+rule13=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~16 _ ~-6 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Windmill ~16 _ ~-6 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~16 _ ~-6 1:@
+
+rule14=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Cottage ~-32 _ ~0 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_ChickenPit ~-32 _ ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-32 _ ~0:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~-32 _ ~0:@
+
+rule15=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~24 _ ~10 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Lodge ~24 _ ~10 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Shepherd ~24 _ ~10 1:@
+
+rule16=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_PumpkinPatch ~-7 _ ~-8:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Smeltery ~36 _ ~-8 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Smeltery ~-7 _ ~-46:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Smeltery ~-52 _ ~-8:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Smeltery ~0 _ ~56:@
+
+rule17=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-10 _ ~28:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Lodge ~-10 _ ~28:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Potter ~-10 _ ~28:@
+
+rule18=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_CrazyCatLady ~-16 _ ~-32 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Cottage ~-16 _ ~-32 1:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~-16 _ ~-32 1:@
+
+rule19=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Townhouse ~8 _ ~21 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Shepherd ~8 _ ~21 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Greenhouse ~8 _ ~21 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_ChickenPit ~8 _ ~21 2:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Plot ~8 _ ~21 2:@
+
+rule20=0,100,CommandBlock:RUINSTRIGGER /testruin TP_Village_Butcher ~48 _ ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Butcher ~-48 _ ~-24:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Butcher ~-36 _ ~48:@,CommandBlock:RUINSTRIGGER /testruin TP_Village_Butcher ~-24 _ ~-48:@
+
+# Silence "block summoned" messages on chat
+rule21=0,100,CommandBlock:RUINSTRIGGER /gamerule commandBlockOutput false:@
+
+# Central Path EW
+rule22=0,100,CommandBlock:RUINSTRIGGER /fill ~-48 ~-10 ~-1 ~48 ~10 ~0 minecraft:grass_path 0 replace minecraft:grass
+
+# Central Path NS
+rule23=0,100,CommandBlock:RUINSTRIGGER /fill ~-1 ~-10 ~-48 ~0 ~10 ~48 minecraft:grass_path 0 replace minecraft:grass
+
+layer
+1,1,1,21
+1,1,1,1
+1,1,1,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,2,2,1
+1,2,2,1
+1,1,1,1
+endlayer
+
+layer
+1,1,1,1
+1,0,0,1
+1,0,0,1
+1,1,1,1
+endlayer
+
+layer
+3,0,0,3
+0,0,0,0
+0,0,0,0
+3,0,0,3
+endlayer
+
+layer
+3,0,6,3
+0,0,22,0
+0,23,20,0
+3,0,6,3
+endlayer
+
+layer
+1,1,1,1
+1,1,1,1
+1,1,1,1
+1,1,1,1
+endlayer
+
+layer
+7,6,5,4
+11,10,9,8
+15,14,13,12
+19,18,17,16
+endlayer
+

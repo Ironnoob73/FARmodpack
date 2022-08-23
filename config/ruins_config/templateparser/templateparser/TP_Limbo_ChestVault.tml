@@ -1,0 +1,85 @@
+# Dungeon Decor - Limbo Chest Vault
+# Created by Ruins mod version 15.1 Ingame Parser
+# authoring Player: Jordan_Greywolf
+# Updated to MC 1.8: 20 Feb 2016
+# Updated to MC 1.9: 24 Apr 2016
+# Updated to MC 1.11: 12 Jan 2017
+
+weight=1
+embed_into_distance=0
+acceptable_target_blocks=
+unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,cloud,Natura:Cloud
+dimensions=6,5,5
+allowable_overhang=0
+max_leveling=0
+leveling_buffer=-1
+preserve_water=0
+preserve_lava=0
+
+rule1=0,100,minecraft:soul_sand-0
+rule2=0,100,minecraft:nether_brick_stairs-0
+rule3=0,100,minecraft:nether_brick_stairs-2
+rule4=0,100,minecraft:nether_brick-0
+rule5=0,100,minecraft:nether_brick_stairs-3
+rule6=0,100,minecraft:nether_brick_stairs-1
+rule7=0,100,minecraft:nether_brick-0
+rule8=0,100,minecraft:iron_bars-0
+rule9=0,100,minecraft:skull-0
+rule10=0,100,minecraft:stained_hardened_clay-15
+rule11=0,100,minecraft:nether_brick_stairs-4
+rule12=0,100,minecraft:nether_brick_stairs-6
+rule13=0,100,minecraft:nether_brick_stairs-7
+rule14=0,100,minecraft:nether_brick_stairs-5
+
+rule15=0,100,ChestGenHook:chests/simple_dungeon:3,ChestGenHook:chests/village_blacksmith:3,IInventory;minecraft:trapped_chest;minecraft:arrow#6#0#0+minecraft:fire#1#15#6+minecraft:coal#3#0#12+minecraft:glowstone#1#0#19+minecraft:quartz_ore#4#0#24,IInventory;minecraft:trapped_chest;minecraft:stained_glass#6#14#3+minecraft:nether_brick#12#0#5+minecraft:stained_hardened_clay#6#15#10+minecraft:iron_bars#6#0#16+minecraft:stained_glass#6#15#21
+
+rule16=0,100,CommandBlock:/testruin TP_CBTrap_LavaBlock ~0 ~0 ~0:@,CommandBlock:/testruin TP_CBTrap_CreeperSpawner ~0 ~0 ~0:@,CommandBlock:/testruin TP_CBTrap_Anklebiter ~0 ~0 ~0:@
+
+layer
+1,2,2,2,1
+5,4,4,4,3
+5,4,1,4,3
+5,4,4,4,3
+1,6,6,6,1
+endlayer
+
+layer
+7,0,0,0,7
+0,4,2,4,0
+0,5,16,3,0
+0,4,6,4,0
+7,0,0,0,7
+endlayer
+
+layer
+7,0,0,0,7
+0,4,8,4,0
+0,8,15,8,0
+0,4,8,4,0
+7,0,0,0,7
+endlayer
+
+layer
+7,0,0,0,7
+0,4,8,4,0
+0,8,9,8,0
+0,4,8,4,0
+7,0,0,0,7
+endlayer
+
+layer
+7,0,0,0,7
+0,4,11,4,0
+0,13,10,12,0
+0,4,14,4,0
+7,0,0,0,7
+endlayer
+
+layer
+1,11,11,11,1
+13,4,4,4,12
+13,4,1,4,12
+13,4,4,4,12
+1,14,14,14,1
+endlayer
+
