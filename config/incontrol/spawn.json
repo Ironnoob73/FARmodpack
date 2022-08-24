@@ -9,7 +9,6 @@
     "minheight": 60,
     "dimension": 0,
     "hostile": true,
-    "onjoin": true,
     "result": "deny"
   },
   {

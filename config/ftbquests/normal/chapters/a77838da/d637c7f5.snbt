@@ -32,5 +32,11 @@
 		item: "galacticraftcore:food 1 9",
 		count: 5,
 		random_bonus: 25
+	},
+	{
+		uid: "40eab695",
+		type: "advancement",
+		advancement: "far:i/A01root",
+		criterion: ""
 	}]
 }

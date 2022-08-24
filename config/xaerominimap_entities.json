@@ -14,13 +14,13 @@
     "displayNameWhenIconFails": true,
     "entityNumber": 200.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 1.0,
     "startFadingAt": 0.0,
-    "displayY": false,
+    "dotSize": 1.0,
     "renderOverMinimapFrame": 1.0,
+    "displayY": false,
     "icons": 1.0,
-    "names": 0.0,
     "heightLimit": 20.0,
+    "names": 0.0,
     "iconScale": 0.2500000037252903
   },
   "subCategories": [

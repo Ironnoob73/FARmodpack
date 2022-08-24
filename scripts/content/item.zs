@@ -16,3 +16,9 @@ constantanStick.creativeTab=<creativetab:materials.base>;constantanStick.registe
 #Photoresist
 val photoresist as Item=VanillaFactory.createItem("photoresist");
 photoresist.creativeTab=<creativetab:materials.base>;photoresist.register();
+#Sticky sawdust
+val stickySawdust as Item=VanillaFactory.createItem("sticky_sawdust");
+stickySawdust.creativeTab=<creativetab:materials.base>;stickySawdust.register();
+#Kraft paper
+val kraftPaper as Item=VanillaFactory.createItem("kraft_paper");
+kraftPaper.creativeTab=<creativetab:materials.base>;kraftPaper.register();
