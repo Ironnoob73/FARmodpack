@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "FOREST",
-    "WET",
-    "LUSH"
+    "LUSH",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

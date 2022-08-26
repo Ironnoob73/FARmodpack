@@ -36,6 +36,7 @@
 	{
 		uid: "40eab695",
 		type: "advancement",
+		auto: "enabled",
 		advancement: "far:i/A01root",
 		criterion: ""
 	}]

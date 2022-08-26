@@ -1,4 +1,6 @@
 tile.far.hibernation_cabin_mid.name=冬眠舱（已废弃）
+hibernation_cabin_mid.name=冬眠舱（已废弃）
+far.hibernation_cabin_mid.description=破坏中间的方块可以获取一些材料，除此之外无任何作用。
 
 tile.far.wafer_maker.name=晶片制造机
 wafer_maker.name=晶片制造机

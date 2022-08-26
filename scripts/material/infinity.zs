@@ -64,5 +64,4 @@ mods.extendedcrafting.TableCrafting.addShaped(0,miss, [
 	[<extendedcrafting:material:48>, <ore:compressed8xCobblestone>, <ore:compressed8xCobblestone>, <ore:compressed4xDirt>, <ore:compressed2xSand>, <ore:compressed4xDirt>, <ore:compressed8xCobblestone>, <ore:compressed8xCobblestone>, <extendedcrafting:material:48>], 
 	[<extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>]
 ]);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<biomesoplenty:terrestrial_artifact>*1,10000,100, <quark:rune:16>,[<ore:gemRuby>,<ore:gemTopaz>,<ore:gemAmber>,<ore:gemPeridot>,<ore:gemMalachite>,<ore:gemSapphire>,<ore:gemTanzanite>]);
 mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(res8*10000,sin0);
