@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "SANDY",
-    "RIVER",
     "DRY",
     "HOT",
-    "WATER"
+    "WATER",
+    "RIVER",
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,15 +1,40 @@
 {
-  "consumeCatalyst": false,
+  "version": 1,
   "location": "far:wafer_maker",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "modelName": "wafer_maker",
-    "isGlobal": true,
-    "type": "geo"
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
   },
-  "isOpaqueCube": false,
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "wafer_maker",
+        "isGlobal": true,
+        "type": "geo"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "wafer_maker_recipe",
+  "catalyst": "{id:\"minecraft:air\",Count:2b,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -156,6 +181,5 @@
         "G"
       ]
     }
-  },
-  "recipeMap": "wafer_maker_recipe"
+  }
 }

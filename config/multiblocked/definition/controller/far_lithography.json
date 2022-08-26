@@ -1,22 +1,47 @@
 {
-  "consumeCatalyst": false,
+  "version": 1,
   "location": "far:lithography",
   "traits": {},
-  "allowRotate": true,
-  "showInJei": true,
-  "baseRenderer": {
-    "state": {
-      "id": "minecraft:iron_block",
-      "meta": 0
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "minecraft:iron_block",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
     },
-    "type": "blockstate"
+    "idle": {
+      "renderer": {
+        "modelName": "lithography",
+        "isGlobal": true,
+        "type": "geo"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
   },
-  "formedRenderer": {
-    "modelName": "lithography",
-    "isGlobal": true,
-    "type": "geo"
-  },
-  "isOpaqueCube": false,
+  "recipeMap": "lithography_recipe",
+  "catalyst": "{id:\"minecraft:air\",Count:2b,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "FRONT",
@@ -178,6 +203,5 @@
         "IN"
       ]
     }
-  },
-  "recipeMap": "lithography_recipe"
+  }
 }
