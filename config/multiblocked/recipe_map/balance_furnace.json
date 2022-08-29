@@ -1,0 +1,62 @@
+{
+  "name": "balance_furnace",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "recipes": [
+    {
+      "uid": "balance_furnace_0",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "blockCoal"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "balance_furnace_1",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "ore": "blockCharcoal"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 0.5,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"fire": {
+					"scale": 0
+				},
+				"core_off": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": [0, 180, 0]
+					}
+				},
+				"core_on": {
+					"scale": 0
+				},
+				"translucent": {
+					"scale": 0
+				}
+			}
+		},
+		"suspend": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"fire": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"2.52": [1, 0.9, 1],
+						"5.0": [1, 1, 1]
+					}
+				},
+				"core_off": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": [0, 180, 0]
+					}
+				},
+				"core_on": {
+					"scale": 0
+				},
+				"translucent": {
+					"scale": 0
+				}
+			}
+		},
+		"working": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"fire": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"2.52": [1, 0.9, 1],
+						"5.0": [1, 1, 1]
+					}
+				},
+				"core_off": {
+					"scale": 0
+				},
+				"core_on": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"5.0": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"unformed": {
+			"loop": true,
+			"bones": {
+				"base": {
+					"scale": 0
+				},
+				"fire": {
+					"scale": 0
+				},
+				"beacon": {
+					"scale": 0
+				},
+				"core_on": {
+					"scale": 0
+				},
+				"translucent": {
+					"scale": 0
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

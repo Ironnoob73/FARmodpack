@@ -32,7 +32,7 @@
     }
   },
   "recipeMap": "wafer_maker_recipe",
-  "catalyst": "{id:\"minecraft:air\",Count:2b,Damage:0s}",
+  "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
   "noNeedController": false,
   "basePattern": {

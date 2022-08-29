@@ -39,7 +39,7 @@
     }
   },
   "recipeMap": "lithography_recipe",
-  "catalyst": "{id:\"minecraft:air\",Count:2b,Damage:0s}",
+  "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
   "noNeedController": false,
   "basePattern": {
@@ -66,7 +66,7 @@
       ],
       [
         "AA",
-        "GG",
+        "GH",
         "  "
       ]
     ],
@@ -157,7 +157,8 @@
         ],
         "type": "states",
         "disableRenderFormed": true,
-        "io": "IN"
+        "io": "IN",
+        "slotName": "input_wafer"
       },
       "F": {
         "states": [
@@ -169,6 +170,18 @@
         "type": "states",
         "disableRenderFormed": true,
         "io": "IN"
+      },
+      "IN2": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN",
+        "slotName": "input_photoresist"
       },
       "any": {
         "type": "any"
@@ -201,6 +214,9 @@
       ],
       "G": [
         "IN"
+      ],
+      "H": [
+        "IN2"
       ]
     }
   }

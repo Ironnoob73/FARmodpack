@@ -6,18 +6,33 @@
       {
         "cIO": 1,
         "gIO": 1,
-        "x": 25,
-        "y": 5,
-        "autoIO": false
+        "x": 119,
+        "y": 62,
+        "autoIO": true
       },
       {
         "cIO": 0,
-        "gIO": 0,
-        "x": 5,
-        "y": 5,
+        "gIO": 2,
+        "x": 21,
+        "y": 62,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 39,
+        "y": 62,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 137,
+        "y": 62,
         "autoIO": true
       }
-    ]
+    ],
+    "background": "multiblocked:textures/gui/test.png"
   },
   "properties": {
     "rotationState": "ALL",
@@ -33,25 +48,24 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "minecraft:furnace",
-          "meta": 2
-        },
-        "type": "blockstate"
+        "modelName": "balance_furnace",
+        "type": "geo"
       }
     },
     "idle": {
       "parent": "unformed"
     },
     "working": {
+      "lightEmissive": 15,
       "parent": "idle"
     },
     "suspend": {
+      "lightEmissive": 7,
       "parent": "working"
     }
   },
-  "recipeMap": "empty",
-  "catalyst": "{id:\"base:wrench\",Count:1b,Damage:0s}",
+  "recipeMap": "balance_furnace",
+  "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
   "noNeedController": true,
   "basePattern": {
@@ -88,7 +102,8 @@
             "meta": 0
           }
         ],
-        "type": "states"
+        "type": "states",
+        "disableRenderFormed": true
       },
       "controller": {
         "location": "far:balance_furnace",
@@ -101,7 +116,8 @@
             "meta": 0
           }
         ],
-        "type": "states"
+        "type": "states",
+        "disableRenderFormed": true
       },
       "C": {
         "states": [
@@ -110,21 +126,23 @@
             "meta": 0
           }
         ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "Furnace": {
+        "states": [
+          {
+            "id": "minecraft:furnace",
+            "meta": 2
+          }
+        ],
         "type": "states"
-      },
-      "air": {
-        "type": "air"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
-        "controller"
-      ],
-      " ": [
-        "any"
+        "controller",
+        "Furnace"
       ],
       "A": [
         "A"
@@ -134,9 +152,6 @@
       ],
       "C": [
         "C"
-      ],
-      "-": [
-        "air"
       ]
     }
   }

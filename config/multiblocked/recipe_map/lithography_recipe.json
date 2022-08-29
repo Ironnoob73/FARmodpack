@@ -9,6 +9,7 @@
         "item": [
           {
             "chance": 1.0,
+            "slotName": "IN",
             "content": {
               "amount": 1,
               "matches": [
@@ -18,6 +19,7 @@
           },
           {
             "chance": 1.0,
+            "slotName": "IN2",
             "content": {
               "amount": 1,
               "matches": [
