@@ -30,9 +30,117 @@
         "x": 137,
         "y": 62,
         "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 16,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 34,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 119,
+        "y": 80,
+        "autoIO": true
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 137,
+        "y": 80,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 21,
+        "y": 80,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 39,
+        "y": 80,
+        "autoIO": true
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 52,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 70,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 88,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 106,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 124,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 142,
+        "y": 111,
+        "autoIO": true,
+        "valid": [
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1b,Damage:0s}\""
+        ]
       }
     ],
-    "background": "multiblocked:textures/gui/test.png"
+    "background": "multiblocked:textures/gui/balance_furnace_gui.png"
   },
   "properties": {
     "rotationState": "ALL",
@@ -49,6 +157,7 @@
     "unformed": {
       "renderer": {
         "modelName": "balance_furnace",
+        "isGlobal": true,
         "type": "geo"
       }
     },
@@ -130,13 +239,13 @@
         "disableRenderFormed": true
       },
       "Furnace": {
-        "states": [
+        "blocks": [
           {
-            "id": "minecraft:furnace",
-            "meta": 2
+            "id": "minecraft:furnace"
           }
         ],
-        "type": "states"
+        "type": "blocks",
+        "disableRenderFormed": true
       }
     },
     "symbolMap": {

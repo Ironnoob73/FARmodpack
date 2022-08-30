@@ -110,8 +110,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -119,6 +117,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
@@ -133,7 +133,7 @@ key_key.cavern.magicBook:0
 key_neat.keybind.toggle:0
 key_keys.quantumstorage.openbag:0
 key_keys.baubleshud.config:0
-key_dshuds.keybind.SelectionBox:48
+key_dshuds.keybind.SelectionBox:374
 key_dshuds.keybind.LightLevel:65
 key_dshuds.keybind.ChunkBorders:67
 key_smoothfont.key.guiOpen:199
@@ -247,7 +247,7 @@ key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
-soundCategory_master:0.49668875
+soundCategory_master:0.5
 soundCategory_music:0.6197183
 soundCategory_record:1.0
 soundCategory_weather:1.0

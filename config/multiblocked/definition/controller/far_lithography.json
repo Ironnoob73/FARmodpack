@@ -1,7 +1,21 @@
 {
   "version": 1,
   "location": "far:lithography",
-  "traits": {},
+  "traits": {
+    "background": "multiblocked:textures/gui/lithography_len.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 71,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"actuallyadditions:item_misc\\\",Count:1b,Damage:18s}\""
+        ]
+      }
+    ]
+  },
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
@@ -16,17 +30,13 @@
   "status": {
     "unformed": {
       "renderer": {
-        "state": {
-          "id": "minecraft:iron_block",
-          "meta": 0
-        },
-        "type": "blockstate"
+        "modelName": "lithography",
+        "type": "geo"
       }
     },
     "idle": {
       "renderer": {
         "modelName": "lithography",
-        "isGlobal": true,
         "type": "geo"
       },
       "parent": "unformed"

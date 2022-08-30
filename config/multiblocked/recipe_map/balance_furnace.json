@@ -28,6 +28,19 @@
             }
           }
         ]
+      },
+      "tickInputs": {
+        "item": [
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
       }
     },
     {
@@ -52,6 +65,19 @@
               "amount": 1,
               "matches": [
                 "{id:\"minecraft:diamond\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "item": [
+          {
+            "chance": 0.1,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1b,Damage:0s}"
               ]
             }
           }

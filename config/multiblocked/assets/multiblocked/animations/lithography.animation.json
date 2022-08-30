@@ -39,6 +39,9 @@
 				},
 				"joint0": {
 					"position": [0, 3, 0]
+				},
+				"unformed": {
+					"scale": 0
 				}
 			}
 		},
@@ -398,6 +401,9 @@
 						"12.3333": [0, 0, 0],
 						"12.375": [1, 1, 1]
 					}
+				},
+				"unformed": {
+					"scale": 0
 				}
 			}
 		},
@@ -444,6 +450,38 @@
 					"scale": 0
 				},
 				"red0": {
+					"scale": 0
+				},
+				"unformed": {
+					"scale": 0
+				}
+			}
+		},
+		"unformed": {
+			"loop": true,
+			"bones": {
+				"base": {
+					"scale": 0
+				},
+				"lens": {
+					"scale": 0
+				},
+				"photoresist": {
+					"scale": 0
+				},
+				"water": {
+					"scale": 0
+				},
+				"hand0": {
+					"scale": 0
+				},
+				"hand1": {
+					"scale": 0
+				},
+				"translucent": {
+					"scale": 0
+				},
+				"emissive": {
 					"scale": 0
 				}
 			}

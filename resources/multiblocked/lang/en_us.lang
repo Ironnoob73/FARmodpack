@@ -9,3 +9,8 @@ tile.far.lithography.name=Lithography
 lithography.name=Lithography
 far.lithography.description=For making more advanced wafers.
 multiblocked.recipe_map.lithography_recipe=Photolithography
+
+tile.far.balance_furnace.name=Balance Furnace
+balance_furnace.name=Balance Furnace
+far.balance_furnace.description=The most balance furnace of Modpack.
+multiblocked.recipe_map.balance_furnace_recipe=Pearl BBQ

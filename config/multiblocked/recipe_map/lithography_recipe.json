@@ -9,7 +9,7 @@
         "item": [
           {
             "chance": 1.0,
-            "slotName": "IN",
+            "slotName": "input_wafer",
             "content": {
               "amount": 1,
               "matches": [
@@ -19,11 +19,20 @@
           },
           {
             "chance": 1.0,
-            "slotName": "IN2",
+            "slotName": "input_photoresist",
             "content": {
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:photoresist\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 0.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"actuallyadditions:item_misc\",Count:1b,Damage:18s}"
               ]
             }
           }

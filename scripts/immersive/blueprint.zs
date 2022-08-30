@@ -8,3 +8,9 @@ recipes.addShaped("insulating_glass",<immersiveengineering:stone_decoration:8>*2
 [null,<ore:blockGlass>,null],
 [<ore:dustIron>,<ore:slimeball>,<ore:dustIron>],
 [null,<ore:blockGlass>,null]]);
+#Coupling Component
+recipes.addShaped("coupling_component",<contenttweaker:coupling_component>,[
+[<ore:plateQuartzBlack>,null,<ore:plateQuartzBlack>], 
+[null,<ore:gemLapis>,null], 
+[<ore:plateQuartzBlack>,null,<ore:plateQuartzBlack>]]);
+mods.immersiveengineering.Blueprint.addRecipe("components",<contenttweaker:coupling_component>,[<ore:plateQuartzBlack>*2,<ore:gemLapis>]);

@@ -22,3 +22,6 @@ stickySawdust.creativeTab=<creativetab:materials.base>;stickySawdust.register();
 #Kraft paper
 val kraftPaper as Item=VanillaFactory.createItem("kraft_paper");
 kraftPaper.creativeTab=<creativetab:materials.base>;kraftPaper.register();
+#Coupling Component
+val couplingComponent as Item=VanillaFactory.createItem("coupling_component");
+couplingComponent.creativeTab=<creativetab:materials.base>;couplingComponent.register();

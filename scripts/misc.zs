@@ -22,6 +22,9 @@ mods.rustic.Condenser.addRecipe(<forge:bucketfilled>.withTag({FluidName: "creoso
 mods.rustic.Condenser.addRecipe(<contenttweaker:photoresist>,[<ore:slimeball>,<ore:dustEnderium>,<ore:dustQuartz>],null,<galacticraftcore:canister>,<liquid:water>*256,1000);
 #Hammer
 recipes.addShaped("soviet_hammer",<soviet:hammer>,[[<minecraft:stone_slab>],[<ore:stickWood>]]);
+#Wrench
+recipes.addShaped("soviet_wrench",<soviet:wrench>,[[<contenttweaker:coupling_component>],[<ore:stickSteel>]]);
+<soviet:wrench>.addTooltip("用于激活多方块结构");
 #Calculator
 recipes.remove(<jecalculation:item_calculator:1>);
 recipes.addShaped("calculator",<jecalculation:item_calculator:1>,[

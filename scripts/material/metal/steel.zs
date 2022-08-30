@@ -35,6 +35,7 @@ val shield=<thermalfoundation:tool.shield_steel>;
 val shield0=<basemetals:steel_shield>;
 #Dict
 val CompressedSteel=compress;CompressedSteel.add(compress0);
+val StickSteel=stick;StickSteel.add(<galacticraftcore:steel_pole>);
 val PlateSteel=plate;PlateSteel.remove(<galacticraftcore:basic_item:9>);
 #Tool
 recipes.remove(boot);

@@ -11,3 +11,8 @@ tile.far.lithography.name=光刻机
 lithography.name=光刻机
 far.lithography.description=用于制作更高级的晶圆。
 multiblocked.recipe_map.lithography_recipe=光刻
+
+tile.far.balance_furnace.name=平衡熔炉
+balance_furnace.name=平衡熔炉
+far.balance_furnace.description=整合包里最平衡的熔炉。
+multiblocked.recipe_map.balance_furnace_recipe=珍珠烧烤
