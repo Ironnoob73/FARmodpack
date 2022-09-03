@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "RIVER",
-    "WATER",
     "DRY",
+    "HOT",
+    "WATER",
+    "RIVER",
     "PLAINS",
     "SANDY"
   ],

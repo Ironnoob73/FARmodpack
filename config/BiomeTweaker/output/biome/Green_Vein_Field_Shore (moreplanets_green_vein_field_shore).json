@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RARE",
-    "FOREST",
+    "MAGICAL",
     "BEACH",
-    "MAGICAL"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

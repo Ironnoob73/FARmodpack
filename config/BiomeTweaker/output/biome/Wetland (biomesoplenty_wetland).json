@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
-    "SWAMP",
-    "FOREST",
+    "WET",
     "LUSH",
-    "WET"
+    "SWAMP",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -265,8 +265,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COLD_SWAMP": 5,
-    "WET_TEMPERATE": 7
+    "WET_TEMPERATE": 7,
+    "COLD_SWAMP": 5
   },
   "BOP Climate Weights": {
     "COLD_SWAMP": [

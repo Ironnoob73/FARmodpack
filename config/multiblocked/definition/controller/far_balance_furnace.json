@@ -173,7 +173,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "balance_furnace",
+  "recipeMap": "balance_furnace_recipe",
   "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
   "consumeCatalyst": false,
   "noNeedController": true,

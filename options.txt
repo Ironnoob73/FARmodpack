@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:fast
-resourcePacks:["SIV","Minecraft-Mod-Language-Modpack.zip","A16x"]
+resourcePacks:["Minecraft-Mod-Language-Modpack.zip","A16x","FarModpackResources"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -92,13 +92,6 @@ key_key.torcherino.useage_key:42
 key_[GC] 星图:50
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,6 +110,13 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:11
