@@ -1,0 +1,73 @@
+{
+  "name": "assembly_plant_recipe",
+  "progressTexture": "multiblocked:textures/progress_bar/progress_bar_arc_furnace.png",
+  "recipes": [
+    {
+      "uid": "assembly_plant_0",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "slotName": "input_0",
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mekanism:controlcircuit\",Count:1b,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "slotName": "input_1",
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"opencomputers:material\",Count:1b,Damage:11s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "slotName": "input_2",
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"opencomputers:material\",Count:1b,Damage:10s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "slotName": "input_3",
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"galacticraftcore:basic_item\",Count:1b,Damage:13s}"
+              ]
+            }
+          }
+        ],
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 500
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"opencomputers:component\",Count:1b,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

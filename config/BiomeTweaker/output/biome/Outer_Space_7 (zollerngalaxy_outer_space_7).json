@@ -17,11 +17,11 @@
   "Temperature": 0.5,
   "Humidity": 0.5,
   "Water Tint": 255,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": true,
   "Dictionary Types": [
-    "SNOWY",
-    "PLAINS"
+    "PLAINS",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

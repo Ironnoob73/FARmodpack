@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "location": "far:assembly_plant",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "assembly_plant",
+        "type": "geo"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "assembly_plant_recipe",
+  "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "BB",
+        "GF"
+      ],
+      [
+        "D@",
+        "HE"
+      ],
+      [
+        "BB",
+        "IJ"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "far:assembly_plant",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "extendedcrafting:trimmed",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "mekanism:energycube",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:conveyor",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "IN0": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN",
+        "slotName": "input_0"
+      },
+      "IN2": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN",
+        "slotName": "input_2"
+      },
+      "IN1": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN",
+        "slotName": "input_1"
+      },
+      "IN3": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "IN",
+        "slotName": "input_3"
+      },
+      "OUT": {
+        "states": [
+          {
+            "id": "mekanism:basicblock",
+            "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "OUT"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      "B": [
+        "B"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "IN0"
+      ],
+      "G": [
+        "IN1"
+      ],
+      "H": [
+        "IN2"
+      ],
+      "I": [
+        "IN3"
+      ],
+      "J": [
+        "OUT"
+      ]
+    }
+  }
+}

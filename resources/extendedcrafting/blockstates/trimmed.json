@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+	"defaults":
+	{
+		"model": "chisel:cube_2_layer_topshaded"
+	},
+	"variants": {
+		"variant=iron": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_iron",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_iron"
+			}
+		  }],
+		"variant=gold": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_gold",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_gold"
+			}
+		  }],
+		"variant=diamond": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_diamond",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_diamond"
+			}
+		  }],
+		"variant=emerald": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_emerald",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_emerald"
+			}
+		  }],
+		"variant=crystaltine": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_crystaltine",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_crystaltine"
+			}
+		  }],
+		"variant=ultimate": [{
+			"textures": {
+			  "particle": "extendedcrafting:blocks/trimmed_ultimate",
+			  "top"     : "extendedcrafting:blocks/trimmed_frame",
+			  "bot"     : "extendedcrafting:blocks/trimmed_ultimate"
+			}
+		  }]
+	}
+}

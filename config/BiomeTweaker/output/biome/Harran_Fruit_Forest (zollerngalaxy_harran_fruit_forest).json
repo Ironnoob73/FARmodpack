@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "LUSH",
     "FOREST",
-    "PLAINS",
-    "WET"
+    "WET",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

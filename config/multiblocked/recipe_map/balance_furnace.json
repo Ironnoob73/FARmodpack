@@ -1,5 +1,5 @@
 {
-  "name": "balance_furnace",
+  "name": "balance_furnace_recipe",
   "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
   "recipes": [
     {

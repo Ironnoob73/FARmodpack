@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HILLS",
     "FOREST",
     "SNOWY",
+    "HILLS",
     "CONIFEROUS",
     "COLD"
   ],

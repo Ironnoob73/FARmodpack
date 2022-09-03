@@ -93,6 +93,10 @@
           {
             "id": "mekanism:basicblock",
             "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
           }
         ],
         "type": "states",
@@ -126,6 +130,10 @@
           {
             "id": "mekanism:energycube",
             "meta": 0
+          },
+          {
+            "id": "thermalexpansion:cell",
+            "meta": 0
           }
         ],
         "type": "states",
@@ -148,6 +156,10 @@
           {
             "id": "mekanism:basicblock",
             "meta": 6
+          },
+          {
+            "id": "thermalexpansion:cache",
+            "meta": 0
           }
         ],
         "type": "states",

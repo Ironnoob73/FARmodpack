@@ -14,3 +14,8 @@ tile.far.balance_furnace.name=Balance Furnace
 balance_furnace.name=Balance Furnace
 far.balance_furnace.description=The most balance furnace of Modpack.
 multiblocked.recipe_map.balance_furnace_recipe=Pearl BBQ
+
+tile.far.assembly_plant.name=Assembly Plant
+assembly_plant.name=Assembly Plant
+far.assembly_plant.description=Used to assemble some machines or parts.
+multiblocked.recipe_map.assembly_plant_recipe=Assembly

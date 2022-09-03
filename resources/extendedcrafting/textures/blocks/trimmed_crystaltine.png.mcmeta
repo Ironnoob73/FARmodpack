@@ -1,0 +1,18 @@
+{
+  "ctm": {
+      "ctm_version": 1,
+      "type": "pattern",
+      "extra": {
+          "size": 3,
+          "light": 15,
+          "connect_to": [
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"iron"}},
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"gold"}},
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"diamond"}},
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"emerald"}},
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"crystaltine"}},
+              {"block": "extendedcrafting:trimmed","predicate":{"variant":"ultimate"}}
+          ]
+      }
+  }
+}

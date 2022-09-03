@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "mekanism:basic_cube",
+        "textures": {
+            "all": "contenttweaker:blocks/test_ctm"
+        }
+    },
+    "variants": {
+        "normal": [
+            {}
+        ],
+        "inventory": [
+            {}
+        ]
+    }
+}

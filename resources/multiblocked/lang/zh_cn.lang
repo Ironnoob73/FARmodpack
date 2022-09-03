@@ -16,3 +16,8 @@ tile.far.balance_furnace.name=平衡熔炉
 balance_furnace.name=平衡熔炉
 far.balance_furnace.description=整合包里最平衡的熔炉。
 multiblocked.recipe_map.balance_furnace_recipe=珍珠烧烤
+
+tile.far.assembly_plant.name=装配厂
+assembly_plant.name=装配厂
+far.assembly_plant.description=用于组装一些机器或零件。
+multiblocked.recipe_map.assembly_plant_recipe=装配

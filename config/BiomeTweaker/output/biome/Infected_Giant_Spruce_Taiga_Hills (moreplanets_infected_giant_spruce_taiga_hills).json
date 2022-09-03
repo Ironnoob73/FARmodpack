@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "DENSE",
     "RARE",
-    "HILLS",
     "FOREST",
-    "DEAD"
+    "DEAD",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -30,11 +30,8 @@ recipes.remove(BlackIronStick);
 recipes.addShapeless("blackiron_stick_oc",BlackIronStick,[<ore:oc:materialCuttingWire>,BlackIronPlate]);
 recipes.addShapeless("blackiron_stick_rs",BlackIronStick*2,[<refinedstorage:cutting_tool>.anyDamage().transformDamage(1),BlackIronPlate]);
 recipes.addShapeless("blackiron_stick_et",BlackIronStick*2,[<extrautils2:glasscutter>.anyDamage().transformDamage(1),BlackIronPlate]);
-recipes.remove(<extendedcrafting:frame>);
-recipes.addShaped("blackiron_frame",<extendedcrafting:frame>,[
-[BlackIronPlate,BlackIronStick,BlackIronPlate], 
-[BlackIronStick,<ore:blockGlassColorless>,BlackIronStick], 
-[BlackIronPlate,BlackIronStick,BlackIronPlate]]);
+val BlackIronPlate0=<ore:plateBlackIron>;BlackIronPlate0.add(BlackIronPlate);
+val BlackIronStick0=<ore:stickBlackIron>;BlackIronStick0.add(BlackIronStick);
 #White
 recipes.remove(WhiteIron);
 mods.immersiveengineering.AlloySmelter.addRecipe(WhiteIron,<ore:ingotIron>,<ore:gemQuartz>*3,400);

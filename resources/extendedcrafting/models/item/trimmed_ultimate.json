@@ -1,0 +1,4 @@
+{
+    "parent": "block/cube_all",
+    "textures": {"all": "extendedcrafting:items/trimmed_ultimate"}
+}

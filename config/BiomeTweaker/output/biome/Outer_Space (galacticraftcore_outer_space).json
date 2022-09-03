@@ -17,13 +17,13 @@
   "Temperature": 0.5,
   "Humidity": 0.0,
   "Water Tint": 16777215,
-  "Enable Rain": true,
-  "Enable Snow": false,
+  "Enable Rain": false,
+  "Enable Snow": true,
   "Dictionary Types": [
-    "SPOOKY",
-    "DEAD",
     "DRY",
-    "SPARSE"
+    "DEAD",
+    "SPARSE",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
