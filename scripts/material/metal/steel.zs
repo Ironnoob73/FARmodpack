@@ -118,3 +118,7 @@ recipes.remove(<immersiveengineering:sword_steel>);
 mods.recipestages.Recipes.setRecipeStage("immersive_engineer",<immersiveengineering:sword_steel>);
 mods.extendedcrafting.TableCrafting.addShaped(1,<immersiveengineering:sword_steel>,[[plate],[plate],[<ore:stickTreatedWood>]]);
 recipes.remove(<basemetals:steel_sword>);
+#Dust
+recipes.addShapeless("steel_blend_dust",<basemetals:steel_blend>*2,[<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustCoal>,<ore:dustCoal>,<ore:dustCoal>,<ore:dustCoal>]);
+furnace.remove(ingot0,<ore:dustSteel>);
+mods.futuremc.BlastFurnace.addRecipe(<basemetals:steel_blend>,ingot0);

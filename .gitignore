@@ -7,7 +7,6 @@
 !/patchouli_books/**
 !/resourcepacks/A16x/**
 !/resourcepacks/FarModpackResources/**
-!/resources/**
 !/scripts/**
 !/.gitignore
 !/options.txt

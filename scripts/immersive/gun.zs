@@ -3,17 +3,24 @@ val hipow=<flansmod:highexgunpowder>;
 val ingot=<ore:ingotIron>;
 val fiber=<flansmod:fiberglass>;
 val wood=<ore:logWood>;
-val glass=<ore:blockGlassColorless>;
+val glass=<ore:paneGlassColorless>;
 val redstone=<ore:dustRedstone>;
+#add
+val shell=<contenttweaker:brass_cartridge_case>;
+val pipe=<immersiveengineering:material:14>;
+val plate=<ore:plateSteel>;
+val plank=<ore:plankTreatedWood>;
+val rod=<ore:stickSteel>;
+val comp=<immersiveengineering:material:9>;
 #Zombie
 #   Guns
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:winchestermodel70>,[ingot*12,<ore:plankWood>*8,glass*4]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:3006bullet>,[ingot,pow]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:shulkersniperammo>,[<ore:shulkerShell>,hipow]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:m4carbine>,[ingot*16]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:m4carbineammo>,[ingot*3,pow*3]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:mp5k>,[ingot*10]);
-mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:mp5kammo>,[ingot*2,pow*2]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:winchestermodel70>,[pipe*2,comp,plate*8,plank*8,glass*4]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:3006bullet>,[shell,pow]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:shulkersniperammo>,[<ore:plateTungsten>,<ore:shulkerShell>,hipow]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:m4carbine>,[rod*2,pipe,comp*2,plate*10]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:m4carbineammo>,[plate*3,shell*10,pow*3]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:mp5k>,[pipe,comp,plate*7]);
+mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:mp5kammo>,[plate*2,shell*5,pow*2]);
 mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:smg100ammo>,[fiber*6,pow*9]);
 mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:olympia>,[ingot*12,<ore:plankWood>*8]);
 mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:doublebarrelledshotgun>,[ingot*8,<ore:plankWood>*6]);

@@ -132,7 +132,8 @@
     },
     "joinedPlayers": {
       "value": [
-        "2af0c9de-afdf-48a7-857b-bef93c3efd0b"
+        "2af0c9de-afdf-48a7-857b-bef93c3efd0b",
+        "43b6f600-1302-3f43-a5d4-953ad5861df4"
       ],
       "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
     }

@@ -1,3 +1,4 @@
+//还没法确定是否需要将所有同色宝石类物品归类为一种矿辞来合成天地宝晶
 val GemRed=<ore:gemRed>;GemRed.add(<quark:crystal:1>,<biomesoplenty:gem:1>,<zollerngalaxy:ruby>,<jaopca:item_plateruby>,<actuallyadditions:item_crystal>,<basemetals:redstone_ingot>,<extraplanets:tier5_items:8>,<extraplanets:tier11_items:1>,<extraplanets:wafer:3>,<extrautils2:ingredients>,<redstonearsenal:material:160>);
 val GemOrange=<ore:gemOrange>;GemOrange.add(<quark:crystal:2>,<biomesoplenty:gem:7>,<cyclicmagic:crystallized_amber>,<zollerngalaxy:amber>,<zollerngalaxy:staticamber>,<zollerngalaxy:plutoniumcrystal>);
 val GemYellow=<ore:gemYellow>;GemYellow.add(<quark:crystal:3>,<biomesoplenty:gem:3>,<extraplanets:tier11_items:3>,<zollerngalaxy:topaz>,<bigreactors:ingotyellorium>,<extrautils2:suncrystal:0>,<bigreactors:mineralanglesite>,<aether_legacy:golden_amber>);

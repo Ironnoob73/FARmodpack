@@ -1,3 +1,5 @@
+#priority 98
+
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("thermal_frame",<thermalexpansion:frame>,[
 [null,<ore:circuitBasic>,null], 

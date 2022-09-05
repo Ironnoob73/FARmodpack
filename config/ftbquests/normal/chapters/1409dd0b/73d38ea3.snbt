@@ -1,5 +1,10 @@
 {
-	icon: "cavern:cavern_portal",
+	icon: {
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "ftblib:textures/icons/elevator_i.png"
+		}
+	},
 	x: 0.0d,
 	y: 0.0d,
 	shape: "gear",

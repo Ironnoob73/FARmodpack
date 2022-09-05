@@ -3,5 +3,16 @@
 	icon: "minecraft:sapling",
 	always_invisible: false,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 7.0d,
+		y: 2.0d,
+		width: 19.0d,
+		height: 10.0d,
+		rotation: 0.0d,
+		image: "minecraft:optifine/gui/loading/backgrounddim0.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
 }

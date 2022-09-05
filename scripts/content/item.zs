@@ -25,3 +25,9 @@ kraftPaper.creativeTab=<creativetab:materials.base>;kraftPaper.register();
 #Coupling Component
 val couplingComponent as Item=VanillaFactory.createItem("coupling_component");
 couplingComponent.creativeTab=<creativetab:materials.base>;couplingComponent.register();
+#Minner Key I
+val minnerKeyI as Item=VanillaFactory.createItem("minner_key_i");
+minnerKeyI.creativeTab=<creativetab:materials.base>;minnerKeyI.register();
+#Brass Cartridge Case
+val brassCartridgeCase as Item=VanillaFactory.createItem("brass_cartridge_case");
+brassCartridgeCase.creativeTab=<creativetab:materials.base>;brassCartridgeCase.register();

@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "WET",
     "LUSH",
+    "WET",
     "BEACH"
   ],
   "BiomeManager Entries": {},
