@@ -1,14 +1,19 @@
 {
-	x: 14.0d,
+	x: 12.5d,
 	y: 0.5d,
+	description: "直译：可乐炉！",
+	text: [
+		"现在你有了稳定的杂酚油获取途径，同时还能获取焦煤。不知以后你会如何处理多出来的杂酚油。"
+	],
 	dependencies: [
-		"169fe321"
+		"9a9385c7"
 	],
 	tasks: [{
 		uid: "a8b194ed",
 		type: "item",
 		items: [{
 			item: "immersiveengineering:stone_decoration"
-		}]
+		}],
+		count: 27L
 	}]
 }

@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "SANDY",
     "NETHER",
     "DRY",
-    "HOT",
     "DENSE"
   ],
   "BiomeManager Entries": {},

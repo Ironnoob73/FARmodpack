@@ -1,0 +1,32 @@
+{
+	title: "生物群系宝石",
+	x: 9.1d,
+	y: 1.4d,
+	shape: "rsquare",
+	description: "合理替代品",
+	text: [
+		""
+	],
+	dependencies: [
+		"7a1e8b02"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "c89db679",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bopOverWorldGem",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bopOverWorldGem"
+				}
+			}
+		}]
+	}]
+}

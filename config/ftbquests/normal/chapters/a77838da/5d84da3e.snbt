@@ -1,0 +1,23 @@
+{
+	title: "探索者蓝图",
+	x: 14.5d,
+	y: 1.5d,
+	text: [
+		"在主世界挖掘那些生物群系下的特殊宝石，然后合成一张探索者蓝图，这主要用于合成开启各维度的钥匙。"
+	],
+	dependencies: [
+		"c0ff033f"
+	],
+	tasks: [{
+		uid: "6caf2eb5",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "探索者蓝图"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

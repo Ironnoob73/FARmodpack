@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "TWILIGHT",
     "DEAD",
-    "SPOOKY",
     "DENSE",
-    "FOREST"
+    "FOREST",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

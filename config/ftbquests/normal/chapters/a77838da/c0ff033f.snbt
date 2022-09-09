@@ -1,0 +1,18 @@
+{
+	x: 13.5d,
+	y: 1.0d,
+	description: "开卷考试",
+	text: [
+		"使用蓝图可以以更少的材料制作某些物品，也有些物品只能在这里制作。"
+	],
+	dependencies: [
+		"50f969a2"
+	],
+	tasks: [{
+		uid: "09097d99",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}]
+}

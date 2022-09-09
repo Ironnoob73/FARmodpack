@@ -33,7 +33,7 @@ val sickle=<thermalfoundation:tool.sickle_diamond>;
 val lumberaxe=<lumberjack:diamond_lumberaxe>;
 val crook=<exnihilocreatio:crook_diamond>;
 val sickle0=<extrautils2:sickle_diamond>;
-val shears=<minecraft:shears>;
+val shears=<thermalfoundation:tool.shears_diamond>;
 val shield=<thermalfoundation:tool.shield_diamond>;
 val shield0=<basemetals:diamond_shield>;
 #Dict

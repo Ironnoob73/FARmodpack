@@ -6,3 +6,12 @@ item.contenttweaker.sticky_sawdust.name=Sticky Sawdust
 item.contenttweaker.kraft_paper.name=Kraft Paper
 item.contenttweaker.coupling_component.name=Coupling Component
 item.contenttweaker.minner_key_i.name=Minner Key I
+item.contenttweaker.brass_cartridge_case.name=Brass Cartridge Case
+
+tile.contenttweaker.slate_coal_ore.name=Slate Coal Ore
+tile.contenttweaker.slate_iron_ore.name=Slate Iron Ore
+tile.contenttweaker.slate_gold_ore.name=Slate Gold Ore
+tile.contenttweaker.slate_diamond_ore.name=Slate Diamond Ore
+tile.contenttweaker.slate_emerald_ore.name=Slate Emerald Ore
+tile.contenttweaker.slate_lapis_ore.name=Slate Lapis Ore
+tile.contenttweaker.laboratory_security_brick.name=Laboratory Security Brick

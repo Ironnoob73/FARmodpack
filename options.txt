@@ -93,7 +93,6 @@ key_[GC] 星图:50
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
 key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -119,6 +118,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
@@ -232,7 +232,7 @@ key_key.material_list:15
 key_key.travelersbackpack.inventory:48
 key_key.travelersbackpack.toggle_tank:49
 key_key.travelersbackpack.cycle_tool:44
-key_key.infinity_armor.noclip:40
+key_key.infinity_armor.noclip:56
 key_cyberware.keybinds.menu:221
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
@@ -247,7 +247,7 @@ key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
 key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.balance:48
-soundCategory_master:0.5
+soundCategory_master:0.50993377
 soundCategory_music:0.6197183
 soundCategory_record:1.0
 soundCategory_weather:1.0

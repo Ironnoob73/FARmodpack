@@ -120,5 +120,5 @@ mods.extendedcrafting.TableCrafting.addShaped(1,<immersiveengineering:sword_stee
 recipes.remove(<basemetals:steel_sword>);
 #Dust
 recipes.addShapeless("steel_blend_dust",<basemetals:steel_blend>*2,[<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustIron>,<ore:dustCoal>,<ore:dustCoal>,<ore:dustCoal>,<ore:dustCoal>]);
-furnace.remove(ingot0,<ore:dustSteel>);
+furnace.remove(ingot);
 mods.futuremc.BlastFurnace.addRecipe(<basemetals:steel_blend>,ingot0);

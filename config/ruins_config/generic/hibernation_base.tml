@@ -46,11 +46,11 @@ rule24=0,100,soviet:sovietlamp-8
 rule25=0,100,minecraft:planks-0
 rule26=0,100,engineersdecor:iron_floor_edge_light-3
 
-rule27=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],x:0,y:0,z:0,id:"minecraft:redstonepastete",faces:[I;0,3,0,3,0,0],facetype:[I;0,0,0,0,0,0]}-0
-rule28=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],x:0,y:0,z:0,id:"minecraft:redstonepastete",faces:[I;0,11,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
-rule29=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],x:0,y:0,z:0,id:"minecraft:redstonepastete",faces:[I;0,12,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
-rule30=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],x:0,y:0,z:0,id:"minecraft:redstonepastete",faces:[I;0,3,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
-rule31=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],x:0,y:0,z:0,id:"minecraft:redstonepastete",faces:[I;0,10,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule27=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],faces:[I;0,3,0,3,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule28=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],faces:[I;0,11,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule29=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],faces:[I;0,12,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule30=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],faces:[I;0,3,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
+rule31=0,100,teBlock;redstonepaste:redstonepaste;{facedata:[I;0,0,0,0,0,0],faces:[I;0,10,0,0,0,0],facetype:[I;0,0,0,0,0,0]}-0
 
 layer
 1,1,1,1,1,1,1,1,1,1

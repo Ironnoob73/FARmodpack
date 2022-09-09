@@ -78,6 +78,8 @@ mods.extendedcrafting.TableCrafting.addShapeless(0,shield,[<minecraft:shield>.an
 recipes.remove(shield0);
 SmithingTable.addRecipe(<minecraft:shield>.anyDamage(),compress*2,shield0);
 mods.extendedcrafting.TableCrafting.addShapeless(0,shield0,[<minecraft:shield>.anyDamage(),compress,compress]);
+recipes.removeShaped(<basemetals:invar_pickaxe>);
+mods.extendedcrafting.TableCrafting.addShaped(0,<basemetals:invar_pickaxe>,[[ingot,ingot,ingot],[null,STW,null],[null,STW,null]]);
 #Split
 recipes.removeShaped(block0,[[ingot,ingot,ingot],[ingot,ingot,ingot],[ingot,ingot,ingot]]);
 recipes.removeShaped(ingot0*9,[[block]]);

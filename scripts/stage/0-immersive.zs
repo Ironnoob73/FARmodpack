@@ -19,21 +19,26 @@ ResearchTable.builder("GetTechImmersive",ImmersiveEngineeringGuide)
   .setNoMaxCount()
   .build();
 mods.ItemStages.stageModItems("immersive_engineer","immersiveengineering");
-val ImmersiveItem = [
+val ImmersiveItemOut = [
 	<immersiveengineering:tool>,
 	<immersiveengineering:tool:1>,
 	<immersiveengineering:treated_wood:*>,
 	<immersiveengineering:treated_wood_slab:*>,
-    <immersiveengineering:material>,
-    <immersiveengineering:seed>,
-    <immersiveengineering:material:4>,
-    <immersiveengineering:wooden_decoration>
+  <immersiveengineering:material>,
+  <immersiveengineering:seed>,
+  <immersiveengineering:material:4>,
+  <immersiveengineering:wooden_decoration>,
+  <immersiveengineering:metal_multiblock>
 ]as IIngredient[];
-for item in ImmersiveItem{mods.ItemStages.removeItemStage(item);}
+for item in ImmersiveItemOut{mods.ItemStages.removeItemStage(item);}
+val ImmersiveItemIn = [
+  <contenttweaker:minner_key_i>
+]as IIngredient[];
+for item in ImmersiveItemIn{mods.ItemStages.addItemStage("immersive_engineer",item);}
 //mods.orestages.OreStages.addReplacementById("immersive_engineer","immersiveengineering:modworkbench","engineersdecor:treated_wood_table");
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
+/*events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
     var player as IPlayer = event.player;
     var block as IBlock = event.block;
     if(!player.hasGameStage("immersive_engineer")&&block.definition.id =="immersiveengineering:modworkbench"){
     event.cancel();
-}});
+}});*/

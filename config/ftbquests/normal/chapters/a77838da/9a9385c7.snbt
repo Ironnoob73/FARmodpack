@@ -1,9 +1,9 @@
 {
 	title: "研究台",
-	x: 12.5d,
-	y: 0.5d,
+	x: 11.25d,
+	y: 0.75d,
 	shape: "diamond",
-	description: "认真？这还要花钱？",
+	description: "知识付费",
 	text: [
 		"为了防止灾后技术失传，人们将所有有用的主流科技都打包放进了研究台，研究台被设置于各冬眠基地，以便于研究员一旦醒来就能进行科技重建。"
 	],
@@ -25,5 +25,16 @@
 		type: "advancement",
 		advancement: "far:i/research",
 		criterion: ""
+	},
+	{
+		uid: "bfb85996",
+		type: "item",
+		item: "ordinarycoins:coinbronze",
+		count: 25
+	},
+	{
+		uid: "1b3381b3",
+		type: "item",
+		item: "minecraft:book"
 	}]
 }

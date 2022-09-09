@@ -6,4 +6,6 @@ val GemGreen=<ore:gemGreen>;GemGreen.add(<quark:crystal:4>,<minecraft:emerald>,<
 val GemCyan=<ore:gemCyan>;GemCyan.add(<quark:crystal:5>,<biomesoplenty:gem:5>);
 val GemWhite=<ore:gemWhite>;GemWhite.add(<quark:crystal>,<cavern:cave_item:2>,<extraplanets:tier7_items:7>,<extraplanets:wafer:5>,<galaxyspace:gs_basic:3>,<zollerngalaxy:opal>,<extraplanets:tier7_items:5>,<zollerngalaxy:purgotcrystal>,<actuallyadditions:item_crystal:5>);
 recipes.remove(<biomesoplenty:terrestrial_artifact>);
+
+val BopOverWorldGem=<ore:bopOverWorldGem>;BopOverWorldGem.add(<biomesoplenty:gem:1>,<biomesoplenty:gem:2>,<biomesoplenty:gem:3>,<biomesoplenty:gem:4>,<biomesoplenty:gem:5>,<biomesoplenty:gem:6>,<biomesoplenty:gem:7>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<biomesoplenty:terrestrial_artifact>*1,10000,100, <quark:rune:16>,[<ore:gemRuby>,<ore:gemTopaz>,<ore:gemAmber>,<ore:gemPeridot>,<ore:gemMalachite>,<ore:gemSapphire>,<ore:gemTanzanite>]);

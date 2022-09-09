@@ -117,6 +117,7 @@ recipes.addShaped("iron_gear",gear0,[
 [null,ingot,null]]);
 #Wire
 recipes.addShapeless("iron_wire",wire0,[<immersiveengineering:tool:1>,plate]);
+mods.immersiveengineering.MetalPress.addRecipe(wire0*2,ingot0,<immersiveengineering:mold:4>,2400);
 #Chisel
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>,[[plate],[SW]]);

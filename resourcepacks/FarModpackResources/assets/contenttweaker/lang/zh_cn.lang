@@ -6,3 +6,12 @@ item.contenttweaker.sticky_sawdust.name=粘性锯末
 item.contenttweaker.kraft_paper.name=牛皮纸
 item.contenttweaker.coupling_component.name=联结零件
 item.contenttweaker.minner_key_i.name=矿工钥匙I
+item.contenttweaker.brass_cartridge_case.name=黄铜弹壳
+
+tile.contenttweaker.slate_coal_ore.name=板岩煤矿石
+tile.contenttweaker.slate_iron_ore.name=板岩铁矿石
+tile.contenttweaker.slate_gold_ore.name=板岩金矿石
+tile.contenttweaker.slate_diamond_ore.name=板岩钻石矿石
+tile.contenttweaker.slate_emerald_ore.name=板岩绿宝石矿石
+tile.contenttweaker.slate_lapis_ore.name=板岩青金石矿石
+tile.contenttweaker.laboratory_security_brick.name=实验室安全砖

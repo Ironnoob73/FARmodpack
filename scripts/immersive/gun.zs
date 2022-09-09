@@ -12,6 +12,12 @@ val plate=<ore:plateSteel>;
 val plank=<ore:plankTreatedWood>;
 val rod=<ore:stickSteel>;
 val comp=<immersiveengineering:material:9>;
+#Brass Cartridge Case
+recipes.addShaped("brass_cartridge_case",shell,[
+[<ore:plateBrass>,null,<ore:plateBrass>], 
+[<ore:plateBrass>,null,<ore:plateBrass>], 
+[null,<ore:plateBrass>,null]]);
+mods.immersiveengineering.MetalPress.addRecipe(shell*2,<ore:plateBrass>,<immersiveengineering:mold:3>,2400);
 #Zombie
 #   Guns
 mods.immersiveengineering.Blueprint.addRecipe("gun_zombie",<flansmod:winchestermodel70>,[pipe*2,comp,plate*8,plank*8,glass*4]);

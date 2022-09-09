@@ -3,7 +3,7 @@
     "defaults": {
         "model": "mekanism:basic_cube",
         "textures": {
-            "all": "contenttweaker:blocks/test_ctm"
+            "all": "contenttweaker:blocks/slate_gold_ore"
         }
     },
     "variants": {

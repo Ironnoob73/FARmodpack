@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: 1.5d,
+	text: [
+		"可以用于缓存合成过的配方，也用于合成工程师工作台。"
+	],
+	dependencies: [
+		"9a9385c7"
+	],
+	tasks: [{
+		uid: "23b8461f",
+		type: "item",
+		items: [{
+			item: "engineersdecor:treated_wood_crafting_table"
+		}]
+	}]
+}

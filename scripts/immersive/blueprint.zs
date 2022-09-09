@@ -14,10 +14,10 @@ recipes.addShaped("coupling_component",<contenttweaker:coupling_component>,[
 [null,<ore:gemLapis>,null], 
 [<ore:plateBlackIron>,null,<ore:plateBlackIron>]]);
 mods.immersiveengineering.Blueprint.addRecipe("components",<contenttweaker:coupling_component>,[<ore:plateBlackIron>*2,<ore:gemLapis>]);
+#Explorer Blue Print
+recipes.addShaped("explorer_blue_print",<immersiveengineering:blueprint>.withTag({blueprint:"探索者蓝图"}),[
+[<ore:bopOverWorldGem>,<ore:bopOverWorldGem>,<ore:bopOverWorldGem>],
+[<ore:dyeBlue>,<ore:dyeBlue>,<ore:dyeBlue>],
+[<ore:paper>,<ore:paper>,<ore:paper>]]);
 #Minner Key I
 mods.immersiveengineering.Blueprint.addRecipe("探索者蓝图",<contenttweaker:minner_key_i>,[<immersiveengineering:wirecoil:3>,<immersiveengineering:connector:6>,<ore:fenceAluminum>]);
-#Brass Cartridge Case
-recipes.addShaped("coupling_component",<contenttweaker:brass_cartridge_case>,[
-[<ore:plateBrass>,null,<ore:plateBrass>], 
-[<ore:plateBrass>,null,<ore:plateBrass>], 
-[null,<ore:plateBrass>,null]]);
