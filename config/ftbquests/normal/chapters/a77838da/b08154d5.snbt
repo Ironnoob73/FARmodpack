@@ -1,0 +1,33 @@
+{
+	icon: "basemetals:steel_ingot",
+	x: 8.4d,
+	y: 2.1d,
+	shape: "rsquare",
+	description: "提前获取",
+	text: [
+		""
+	],
+	dependencies: [
+		"c81ab466",
+		"8b956b11"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "f03bad76",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotSteel",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotSteel"
+				}
+			}
+		}]
+	}]
+}

@@ -1,8 +1,8 @@
 //Hibernation Cabin-mid
 mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<mekanism:dirtydust:6>,1,0.4,0.5);
-mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<jaopca:item_sharddesh>,1,0.5,0.5);
+mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<mekores:mekanismore:91>,1,0.5,0.5);
 mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<galacticraftplanets:item_basic_mars:3>,1,0.1,0.5);
-mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<jaopca:item_platedensesteel>,1,0.2,0.5);
+mods.exnihilocreatio.Hammer.addRecipe(<far:hibernation_cabin_mid>,<jaopca:dense_plate.steel>,1,0.2,0.5);
 //Hardened Glass-lead
 mods.exnihilocreatio.Hammer.addRecipe(<thermalfoundation:glass:3>,<mekanism:dirtydust:6>,1,0.25,0.5);
 mods.exnihilocreatio.Hammer.addRecipe(<thermalfoundation:glass:3>,<mekanism:otherdust:6>,1,0.25,0.5);

@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 3.0d,
+	dependencies: [
+		"fd977a77"
+	],
+	tasks: [{
+		uid: "06326003",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coupling_component"
+		}]
+	}]
+}

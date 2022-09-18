@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=east":  { "model": "soviet:shelf_base_right", "y": 90},
+        "facing=west":  { "model": "soviet:shelf_base_right", "y": 270},
+        "facing=south": { "model": "soviet:shelf_base_right", "y": 180 },
+        "facing=north": { "model": "soviet:shelf_base_right", "y": 0 }
+    }
+}
+

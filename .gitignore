@@ -13,6 +13,7 @@
 !/optionsof.txt
 !/optionsshaders.txt
 !/README.md
+!/structures/**
 /.mixin.out
 /.replay_cache
 /1.12.2EC-C1-natives

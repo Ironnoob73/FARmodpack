@@ -18,7 +18,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(BlackIron,<ore:dustIron>,null,200
 mods.immersiveengineering.ArcFurnace.addRecipe(BlackIron,<ore:dustIron>,null,200,50,[<ore:dustQuartzBlack>],"Alloying");
 InfuserType.addTypeObject(<ore:dustQuartzBlack>,"BLACKQUARTZ",10);
 InfuserType.addTypeObject(<ore:plateQuartzBlack>,"BLACKQUARTZ",80);
-mods.mekanism.enrichment.addRecipe(<ore:gemQuartzBlack>,<jaopca:item_platequartzblack>);
+mods.mekanism.enrichment.addRecipe(<ore:gemQuartzBlack>,<jaopca:plate.quartz_black>);
 Infuser.addRecipe("BLACKQUARTZ",10,<ore:ingotIron>,BlackIron);
 recipes.remove(BlackIronPlate);
 recipes.addShapeless("blackiron_plate_h",BlackIronPlate,[<immersiveengineering:tool>,BlackIron]);
@@ -44,7 +44,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(WhiteIron,<ore:dustIron>,null,200
 mods.immersiveengineering.ArcFurnace.addRecipe(WhiteIron,<ore:dustIron>,null,200,50,[<ore:dustQuartz>],"Alloying");
 InfuserType.addTypeObject(<ore:dustQuartz>,"QUARTZ",10);
 InfuserType.addTypeObject(<ore:plateQuartz>,"QUARTZ",80);
-mods.mekanism.enrichment.addRecipe(<ore:gemQuartz>,<jaopca:item_platequartz>);
+mods.mekanism.enrichment.addRecipe(<ore:gemQuartz>,<jaopca:plate.quartz>);
 Infuser.addRecipe("QUARTZ",10,<ore:ingotIron>,WhiteIron);
 recipes.addShapeless("whiteiron_plate_h",WhiteIronPlate,[<immersiveengineering:tool>,WhiteIron]);
 recipes.addShapeless("whiteiron_plate_sh",WhiteIronPlate,[<soviet:hammer>.anyDamage().transformDamage(1),WhiteIron,WhiteIron]);

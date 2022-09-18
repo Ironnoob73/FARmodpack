@@ -1,0 +1,14 @@
+{
+    "name": "沉浸工程§7(@immersiveengineering)",
+    "icon": "immersiveengineering:tool",
+    "category": "research",
+    "sortnum": "1",
+    "pages": [
+        {
+          "type": "spotlight",
+          "title": "§l沉浸工程",
+          "item": "immersiveengineering:tool",
+          "text": "$(l)项目名称/$：immersiveengineering$(br)沉浸工程是为了在获取更方便的生产力之前快速进入工业进程的项目。"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+
+{
+    "variants": {
+        "facing=east":  { "model": "soviet:dry_cab", "y": 90},
+        "facing=west":  { "model": "soviet:dry_cab", "y": 270},
+        "facing=south": { "model": "soviet:dry_cab", "y": 180 },
+        "facing=north": { "model": "soviet:dry_cab", "y": 0 }
+    }
+}

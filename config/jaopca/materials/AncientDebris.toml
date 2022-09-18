@@ -1,0 +1,29 @@
+
+[general]
+	#The alternative names of this material.
+	alternativeNames = []
+	#The byproducts of this material.
+	extras = []
+	#The module blacklist of this material.
+	moduleBlacklist = []
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#The model type of the material.
+	modelType = "metallic"
+	#The color of this material.
+	color = 5650738
+
+[exnihilocreatio]
+	#The default base to sieve in Ex Nihilo Creatio to get ore pieces.
+	oreBase = "#gravel"
+	#The output chance of the sieve recipes added using a flint mesh.
+	sieveFlintChance = 0.05000000074505806
+	#The output chance of the sieve recipes added using an iron mesh.
+	sieveIronChance = 0.07500000298023224
+	#The output chance of the sieve recipes added using a diamond mesh.
+	sieveDiamondChance = 0.15000000596046448
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
+

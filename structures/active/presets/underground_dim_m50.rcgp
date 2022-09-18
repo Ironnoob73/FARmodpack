@@ -1,0 +1,49 @@
+{
+  "data": {
+    "factors": [
+      {
+        "type": "match",
+        "factor": {
+          "priority": 1.0,
+          "sourceExpression": "",
+          "destExpression": "",
+          "requiredConformity": 0.5
+        }
+      },
+      {
+        "type": "limit",
+        "factor": {
+          "priority": 1.0,
+          "rays": [
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "world_height"
+              }
+            },
+            {
+              "type": "dynmove",
+              "ray": {
+                "type": "structure_height",
+                "up": false
+              }
+            },
+            {
+              "type": "dynpos",
+              "ray": {
+                "type": "bedrock",
+                "weight": 1.0035378
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Cavern DIM-50",
+    "description": [
+      ""
+    ]
+  }
+}

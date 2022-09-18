@@ -1,0 +1,9 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[oredict]
+	#Should the module register ore oredict for chunks.
+	registerOreOredict = true
+

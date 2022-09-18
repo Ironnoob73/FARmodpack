@@ -1,0 +1,19 @@
+{
+	x: 9.1d,
+	y: 2.1d,
+	shape: "rsquare",
+	text: [
+		"在岩浆附近常见的一种矿石。"
+	],
+	dependencies: [
+		"7a1e8b02"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "8a7cfa89",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 5"
+		}]
+	}]
+}

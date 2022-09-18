@@ -1,0 +1,18 @@
+{
+	x: 12.25d,
+	y: 2.8d,
+	shape: "rsquare",
+	dependencies: [
+		"8b956b11",
+		"5af1bee7",
+		"722feefc"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "bc6e80e4",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}]
+}

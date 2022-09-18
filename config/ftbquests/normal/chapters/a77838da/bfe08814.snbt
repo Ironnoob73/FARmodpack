@@ -1,0 +1,18 @@
+{
+	x: 13.5d,
+	y: 4.0d,
+	text: [
+		"这个扳手用于构建多方快结构。"
+	],
+	dependencies: [
+		"b08154d5",
+		"66ee9107"
+	],
+	tasks: [{
+		uid: "afe549d8",
+		type: "item",
+		items: [{
+			item: "soviet:wrench"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 14.5d,
+	y: 1.5d,
+	dependencies: [
+		"5d84da3e"
+	],
+	tasks: [{
+		uid: "eb764e5e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:minner_key_i"
+		}]
+	}]
+}
