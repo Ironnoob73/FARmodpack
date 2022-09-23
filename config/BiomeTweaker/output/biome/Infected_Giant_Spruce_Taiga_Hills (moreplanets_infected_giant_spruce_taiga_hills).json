@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "DEAD",
-    "HILLS",
     "RARE",
+    "HILLS",
     "DENSE"
   ],
   "BiomeManager Entries": {},
