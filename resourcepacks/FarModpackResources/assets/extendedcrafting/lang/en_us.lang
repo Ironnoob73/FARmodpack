@@ -1,0 +1,12 @@
+tile.ec.trimmed_iron.name=Basic Coupling Engineering Block
+tooltip.ec.trimmed_iron=Tier:I
+tile.ec.trimmed_gold.name=Advanced Coupling Engineering Block
+tooltip.ec.trimmed_gold=Tier:II
+tile.ec.trimmed_diamond.name=Elite Coupling Engineering Block
+tooltip.ec.trimmed_diamond=Tier:III
+tile.ec.trimmed_emerald.name=Ultimate Coupling Engineering Block
+tooltip.ec.trimmed_emerald=Tier:IV
+tile.ec.trimmed_crystaltine.name=Crystaltine Coupling Engineering Block
+tooltip.ec.trimmed_crystaltine=Tier:V
+tile.ec.trimmed_ultimate.name=The Ultimate Coupling Engineering Block
+tooltip.ec.trimmed_ultimate=Tier:§k|||

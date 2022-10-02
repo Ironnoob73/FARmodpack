@@ -1,4 +1,3 @@
-game.setLocalization("item.netherquartz.name","石英");
 #Silicon
 furnace.remove(<refinedstorage:silicon>);
 mods.futuremc.BlastFurnace.addRecipe(<ore:gemQuartz>,<refinedstorage:silicon>);

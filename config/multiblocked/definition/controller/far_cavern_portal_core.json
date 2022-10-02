@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "location": "far:cavern_portal_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "NON_Y_AXIS",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "cavern_portal",
+        "isGlobal": true,
+        "type": "geo"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "CB@BC",
+        "A   A",
+        "A   A",
+        "A   A",
+        "A   A",
+        "AABAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 5
+          },
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 6
+          },
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 7
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "controller": {
+        "location": "far:cavern_portal_core",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 4
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 9
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller",
+        "B"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ]
+    }
+  }
+}

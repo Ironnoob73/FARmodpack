@@ -174,7 +174,7 @@
     }
   },
   "recipeMap": "balance_furnace_recipe",
-  "catalyst": "{id:\"soviet:wrench\",Count:1b,Damage:0s}",
+  "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
   "consumeCatalyst": false,
   "noNeedController": true,
   "basePattern": {

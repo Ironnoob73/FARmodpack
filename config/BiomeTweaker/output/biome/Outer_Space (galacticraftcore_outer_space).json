@@ -1,6 +1,6 @@
 
 {
-  "ID": 281,
+  "ID": 282,
   "Name": "Outer Space",
   "Resource Location": "galacticraftcore:outer space",
   "Class": "micdoodle8.mods.galacticraft.api.prefab.world.gen.BiomeAdaptive",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DEAD",
-    "SPARSE",
     "DRY",
-    "SPOOKY"
+    "SPOOKY",
+    "DEAD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

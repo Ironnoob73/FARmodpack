@@ -1,6 +1,6 @@
 
 {
-  "ID": 294,
+  "ID": 295,
   "Name": "Space",
   "Resource Location": "galaxyspace:space",
   "Class": "asmodeuscore.core.astronomy.dimension.world.gen.biome.ACBiomeGen",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "DEAD",
-    "DRY"
+    "DRY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

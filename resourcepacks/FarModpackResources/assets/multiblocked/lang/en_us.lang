@@ -19,3 +19,11 @@ tile.far.assembly_plant.name=Assembly Plant
 assembly_plant.name=Assembly Plant
 far.assembly_plant.description=Used to assemble some machines or parts.
 multiblocked.recipe_map.assembly_plant_recipe=Assembly
+
+tile.far.cavern_portal_core.name=Cavern Portal Core
+cavern_portal_core.name=Cavern Portal
+far.cavern_portal_core.description=Used to entering cavern.
+
+tile.far.nether_portal_core.name=Nether Portal Core
+nether_portal_core.name=Nether Portal
+far.nether_portal_core.description=Used to entering nether.

@@ -28,6 +28,9 @@ couplingComponent.creativeTab=<creativetab:materials.base>;couplingComponent.reg
 #Minner Key I
 val minnerKeyI as Item=VanillaFactory.createItem("minner_key_i");
 minnerKeyI.creativeTab=<creativetab:materials.base>;minnerKeyI.register();
+#Nether Key
+val netherKey as Item=VanillaFactory.createItem("nether_key");
+netherKey.creativeTab=<creativetab:materials.base>;netherKey.register();
 #Brass Cartridge Case
 val brassCartridgeCase as Item=VanillaFactory.createItem("brass_cartridge_case");
 brassCartridgeCase.creativeTab=<creativetab:materials.base>;brassCartridgeCase.register();

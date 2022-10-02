@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "location": "far:nether_portal_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "nether_portal",
+        "isGlobal": true,
+        "type": "geo"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      [
+        "B",
+        " ",
+        " ",
+        " ",
+        " ",
+        "B"
+      ],
+      [
+        "@",
+        " ",
+        " ",
+        " ",
+        " ",
+        "B"
+      ],
+      [
+        "B",
+        " ",
+        " ",
+        " ",
+        " ",
+        "B"
+      ],
+      [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "quark:magma_bricks",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "controller": {
+        "location": "far:nether_portal_core",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "minecraft:obsidian",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller",
+        "B"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  }
+}

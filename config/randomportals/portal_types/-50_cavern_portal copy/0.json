@@ -1,0 +1,123 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "immersiveengineering:metal_decoration1",
+				"meta": 5,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "immersiveengineering:metal_decoration1",
+				"meta": 6,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "immersiveengineering:metal_decoration1",
+				"meta": 7,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "immersiveengineering:metal_decoration0",
+				"meta": 4,
+				"minimumAmount": 3
+			},
+			{
+				"registryName": "far:cavern_portal_core",
+				"meta": 32767,
+				"minimumAmount": 1
+			},
+			{
+				"registryName": "immersiveengineering:sheetmetal",
+				"meta": 9,
+				"minimumAmount": 1
+			}
+		],
+		"requiredCorner": "SAME",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "contenttweaker:minner_key_i",
+				"meta": 0
+			}
+		],
+		"activatorConsumeBehavior": "DO_NOTHING",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": [
+			"cavern:cave_portal"
+		]
+	},
+	"color": {
+		"colors": [
+			"GRAY"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": -50,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalZ": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

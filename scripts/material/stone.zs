@@ -4,7 +4,7 @@ val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Smooth slab
 recipes.removeShaped(<minecraft:stone_slab>*6,[[<ore:stone>,<ore:stone>,<ore:stone>]]);
 #Andesite
-game.setLocalization("item.andesite_rock.name","安山岩碎块");
+//game.setLocalization("item.andesite_rock.name","安山岩碎块");
 #   Rock
 recipes.addShapeless("andesite_rock",<soviet:andesite_rock>,[shammer,<ore:stoneAndesite>]);
 mods.mekanism.enrichment.addRecipe(<ore:stoneAndesite>,<soviet:andesite_rock>*2);

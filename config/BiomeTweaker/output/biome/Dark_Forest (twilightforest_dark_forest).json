@@ -1,6 +1,6 @@
 
 {
-  "ID": 314,
+  "ID": 315,
   "Name": "Dark Forest",
   "Resource Location": "twilightforest:dark_forest",
   "Class": "twilightforest.biomes.TFBiomeDarkForest",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "TWILIGHT",
     "SPOOKY",
-    "DENSE"
+    "FOREST",
+    "DENSE",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MESA",
-    "DEAD",
     "DRY",
-    "SANDY"
+    "SANDY",
+    "DEAD",
+    "MESA"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -41,7 +41,57 @@
             {"block": "soviet:betons","metadata": 7,"tileEntity": "null"}
       ]}},
       {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_kafel_blue",
+        "transformer": {"uniform": false,"id": "replace_concrete_green",
+          "sourceExpression": "soviet:betons \u0026 metadata\u003d1","destination": [
+            {"block": "soviet:betons","metadata": 1,"tileEntity": "null"},
+            {"block": "soviet:betons","metadata": 3,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_concrete_yellow",
+          "sourceExpression": "soviet:betons \u0026 metadata\u003d15","destination": [
+            {"block": "soviet:betons","metadata": 15,"tileEntity": "null"},
+            {"block": "soviet:betons","metadata": 14,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_concrete_red",
+          "sourceExpression": "soviet:betons \u0026 metadata\u003d12","destination": [
+            {"block": "soviet:betons","metadata": 12,"tileEntity": "null"},
+            {"block": "soviet:betons","metadata": 13,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_concrete_beige",
+          "sourceExpression": "soviet:betons \u0026 metadata\u003d8","destination": [
+            {"block": "soviet:betons","metadata": 8,"tileEntity": "null"},
+            {"block": "soviet:betons","metadata": 9,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_concrete_stair_e",
+          "sourceExpression": "soviet:beton_stairs \u0026 metadata\u003d1","destination": [
+            {"block": "soviet:beton_stairs","metadata": 1,"tileEntity": "null"},
+            {"block": "soviet:beton_with_ralling","metadata": 0,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_concrete_stair_w",
+          "sourceExpression": "soviet:beton_stairs \u0026 metadata\u003d0","destination": [
+            {"block": "soviet:beton_stairs","metadata": 0,"tileEntity": "null"},
+            {"block": "soviet:beton_with_ralling","metadata": 0,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_kafel_1",
+          "sourceExpression": "soviet:kafels \u0026 metadata\u003d0","destination": [
+            {"block": "soviet:kafels","metadata": 0,"tileEntity": "null"},
+            {"block": "soviet:kafels","metadata": 3,"tileEntity": "null"},
+            {"block": "soviet:kafels","metadata": 6,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_kafel_2",
+          "sourceExpression": "soviet:kafels \u0026 metadata\u003d1","destination": [
+            {"block": "soviet:kafels","metadata": 1,"tileEntity": "null"},
+            {"block": "soviet:kafels","metadata": 4,"tileEntity": "null"},
+            {"block": "soviet:kafels","metadata": 7,"tileEntity": "null"}
+      ]}},
+      {"type": "replaceAll",
+        "transformer": {"uniform": false,"id": "replace_kafel_3",
           "sourceExpression": "soviet:kafels \u0026 metadata\u003d2","destination": [
             {"block": "soviet:kafels","metadata": 2,"tileEntity": "null"},
             {"block": "soviet:kafels","metadata": 5,"tileEntity": "null"},
@@ -68,205 +118,21 @@
             {"block": "soviet:sovietlamp_cracked","metadata": 8,"tileEntity": "null"}
       ]}},
       {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_table_s",
-          "sourceExpression": "soviet:wood_labshelf_upper \u0026 metadata\u003d0","destination": [
-            {"block": "soviet:wood_labshelf_upper","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_upper_break","metadata": 0,"tileEntity": "null"}
+        "transformer": {"uniform": false,"id": "replace_lamp_e",
+          "sourceExpression": "soviet:physical/accl_lamp \u0026 metadata\u003d10","destination": [
+            {"block": "soviet:physical/accl_lamp","metadata": 10,"tileEntity": "null"},
+            {"block": "soviet:physical/accl_lamp_cracked","metadata": 10,"tileEntity": "null"}
       ]}},
       {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_table_w",
-          "sourceExpression": "soviet:wood_labshelf_upper \u0026 metadata\u003d1","destination": [
-            {"block": "soviet:wood_labshelf_upper","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_upper_break","metadata": 1,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_table_n",
-          "sourceExpression": "soviet:wood_labshelf_upper \u0026 metadata\u003d2","destination": [
-            {"block": "soviet:wood_labshelf_upper","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_upper_break","metadata": 2,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_table_e",
-          "sourceExpression": "soviet:wood_labshelf_upper \u0026 metadata\u003d3","destination": [
-            {"block": "soviet:wood_labshelf_upper","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_upper_break","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_drawer_s",
-          "sourceExpression": "soviet:wood_labshelf_down \u0026 metadata\u003d0","destination": [
-            {"block": "soviet:wood_labshelf_down","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_down_break","metadata": 0,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_drawer_w",
-          "sourceExpression": "soviet:wood_labshelf_down \u0026 metadata\u003d1","destination": [
-            {"block": "soviet:wood_labshelf_down","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_down_break","metadata": 1,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_drawer_n",
-          "sourceExpression": "soviet:wood_labshelf_down \u0026 metadata\u003d2","destination": [
-            {"block": "soviet:wood_labshelf_down","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_down_break","metadata": 2,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_wooden_drawer_e",
-          "sourceExpression": "soviet:wood_labshelf_down \u0026 metadata\u003d3","destination": [
-            {"block": "soviet:wood_labshelf_down","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:wood_labshelf_down_break","metadata": 3,"tileEntity": "null"}
+        "transformer": {"uniform": false,"id": "replace_lamp_w",
+          "sourceExpression": "soviet:physical/accl_lamp \u0026 metadata\u003d9","destination": [
+            {"block": "soviet:physical/accl_lamp","metadata": 9,"tileEntity": "null"},
+            {"block": "soviet:physical/accl_lamp_cracked","metadata": 9,"tileEntity": "null"}
       ]}},
       {"type": "replaceAll",
         "transformer": {"uniform": false,"id": "replace_rubbish",
           "sourceExpression": "soviet:rubbish","destination": [
             {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_stuff_s",
-          "sourceExpression": "soviet:chem_stuff_1 \u0026 metadata\u003d0","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_1","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_2","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:magnetmixer","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:alkofire","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:electro_stove","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:distill_app","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:quartz_tigel","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:glass_tube","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:mixer","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_stuff_w",
-          "sourceExpression": "soviet:chem_stuff_1 \u0026 metadata\u003d1","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_1","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_2","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:magnetmixer","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:alkofire","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:electro_stove","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:distill_app","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:quartz_tigel","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:glass_tube","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:mixer","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_stuff_n",
-          "sourceExpression": "soviet:chem_stuff_1 \u0026 metadata\u003d2","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_1","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_2","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:magnetmixer","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:alkofire","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:electro_stove","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:distill_app","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:quartz_tigel","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:glass_tube","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:mixer","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_stuff_e",
-          "sourceExpression": "soviet:chem_stuff_1 \u0026 metadata\u003d3","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_1","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:chem_stuff_2","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:magnetmixer","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:alkofire","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:electro_stove","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:distill_app","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:quartz_tigel","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:glass_tube","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:mixer","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_machine_s",
-          "sourceExpression": "soviet:physical/ameter \u0026 metadata\u003d0","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/ameter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/vmeter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/pmeter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/m_meter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/em_meter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/f_meter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/wmeter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/om_meter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/kmeter","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/oscilloscope","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_machine_n",
-          "sourceExpression": "soviet:physical/ameter \u0026 metadata\u003d1","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/ameter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/vmeter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/pmeter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/m_meter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/em_meter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/f_meter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/wmeter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/om_meter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/kmeter","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:physical/oscilloscope","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_machine_w",
-          "sourceExpression": "soviet:physical/ameter \u0026 metadata\u003d2","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/ameter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/vmeter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/pmeter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/m_meter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/em_meter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/f_meter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/wmeter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/om_meter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/kmeter","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:physical/oscilloscope","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},
-            {"block": "soviet:rubbish","metadata": 3,"tileEntity": "null"}
-      ]}},
-      {"type": "replaceAll",
-        "transformer": {"uniform": false,"id": "replace_machine_e",
-          "sourceExpression": "soviet:physical/ameter \u0026 metadata\u003d3","destination": [
-            {"weight": 3,"block": "minecraft:air","metadata": 0,"tileEntity": "null"},
-            {"block": "soviet:physical/ameter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/vmeter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/pmeter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/m_meter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/em_meter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/f_meter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/wmeter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/om_meter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/kmeter","metadata": 3,"tileEntity": "null"},
-            {"block": "soviet:physical/oscilloscope","metadata": 3,"tileEntity": "null"},
             {"block": "soviet:rubbish","metadata": 0,"tileEntity": "null"},
             {"block": "soviet:rubbish","metadata": 1,"tileEntity": "null"},
             {"block": "soviet:rubbish","metadata": 2,"tileEntity": "null"},

@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
-    "HOT",
+    "SPOOKY",
     "DEAD",
-    "SPOOKY"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

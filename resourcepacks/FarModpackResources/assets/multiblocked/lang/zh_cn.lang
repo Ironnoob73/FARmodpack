@@ -21,3 +21,11 @@ tile.far.assembly_plant.name=装配厂
 assembly_plant.name=装配厂
 far.assembly_plant.description=用于组装一些机器或零件。
 multiblocked.recipe_map.assembly_plant_recipe=装配
+
+tile.far.cavern_portal_core.name=洞穴传送门核心
+cavern_portal_core.name=洞穴传送门
+far.cavern_portal_core.description=用于进入洞穴世界。
+
+tile.far.nether_portal_core.name=下界传送门核心
+nether_portal_core.name=下界传送门
+far.nether_portal_core.description=用于进入下界。

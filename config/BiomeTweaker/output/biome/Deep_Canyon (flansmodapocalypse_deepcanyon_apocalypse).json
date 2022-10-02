@@ -1,6 +1,6 @@
 
 {
-  "ID": 344,
+  "ID": 345,
   "Name": "Deep Canyon",
   "Resource Location": "flansmodapocalypse:deepcanyon_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeDesertCanyon",
@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "RIVER",
-    "PLAINS",
-    "HOT",
-    "DRY",
     "WATER",
-    "SANDY"
+    "PLAINS",
+    "DRY",
+    "SANDY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

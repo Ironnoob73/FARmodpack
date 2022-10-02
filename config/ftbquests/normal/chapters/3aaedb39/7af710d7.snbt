@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "0a58a82e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "226e8e01",
+		type: "item",
+		item: {
+			id: "minecraft:stone",
+			tag: {
+				__storagedrawers_count: 10200
+			}
+		}
+	}]
+}

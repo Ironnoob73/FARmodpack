@@ -1,6 +1,6 @@
 
 {
-  "ID": 319,
+  "ID": 320,
   "Name": "Thornlands",
   "Resource Location": "twilightforest:thornlands",
   "Class": "twilightforest.biomes.TFBiomeThornlands",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "DEAD",
     "HILLS",
-    "TWILIGHT",
-    "DRY"
+    "WASTELAND",
+    "DRY",
+    "DEAD",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -14,7 +14,7 @@
         },
         {
             "type": "image",
-            "images": ["minecraft:textures/gui/image/start/c03/0.png","minecraft:textures/gui/image/start/c03/1.png"],
+            "images": ["article:textures/gui/image/start/c03/0.png","article:textures/gui/image/start/c03/1.png"],
             "border": true,
             "text": ""
         }

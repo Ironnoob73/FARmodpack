@@ -1,6 +1,6 @@
 
 {
-  "ID": 304,
+  "ID": 305,
   "Name": "Twilight Highlands",
   "Resource Location": "twilightforest:twilight_highlands",
   "Class": "twilightforest.biomes.TFBiomeHighlands",
@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "CONIFEROUS",
     "FOREST",
     "MOUNTAIN",
-    "CONIFEROUS",
     "TWILIGHT"
   ],
   "BiomeManager Entries": {},

@@ -1,6 +1,6 @@
 
 {
-  "ID": 318,
+  "ID": 319,
   "Name": "Final Plateau",
   "Resource Location": "twilightforest:highlands_center",
   "Class": "twilightforest.biomes.TFBiomeFinalPlateau",
@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
-    "MESA",
+    "DRY",
     "DEAD",
-    "TWILIGHT",
-    "DRY"
+    "MESA",
+    "TWILIGHT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

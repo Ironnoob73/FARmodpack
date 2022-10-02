@@ -6,7 +6,7 @@ ofSmoothFps:true
 ofSmoothWorld:true
 ofAoLevel:1.0
 ofClouds:1
-ofCloudsHeight:0.0
+ofCloudsHeight:1.0
 ofTrees:4
 ofDroppedItems:0
 ofRain:0
@@ -64,7 +64,7 @@ ofDynamicLights:1
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
-ofShowGlErrors:true
+ofShowGlErrors:false
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false

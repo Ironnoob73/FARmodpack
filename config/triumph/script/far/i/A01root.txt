@@ -1,6 +1,6 @@
 setIcon(<patchouli:guide_book,nbt:{"patchouli:book":"patchouli:article"}>)
-setTitle("开端")
-setDescription("你已踏上无尽之途")
+setTitle("far.advancements.category.i.title")
+setDescription("far.advancements.category.i.description")
 setBackground("minecraft:textures/blocks/stone.png")
 setShowToast(false)
 setAnnounceToChat(true)
