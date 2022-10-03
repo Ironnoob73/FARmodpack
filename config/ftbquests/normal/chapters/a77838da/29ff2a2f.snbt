@@ -1,12 +1,12 @@
 {
-	title: "矿物粉",
+	title: "{far.quest.category.i.task.vii.powder.title}",
 	icon: "thermalfoundation:material 1 64",
 	x: 6.3d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "折磨......",
+	description: "{far.quest.category.i.task.vii.powder.subtitle}",
 	text: [
-		"将矿物打成粉之后，就可以放进熔炉熔炼成锭了。"
+		"{far.quest.category.i.task.vii.powder.description}"
 	],
 	dependencies: [
 		"a33a24bb",

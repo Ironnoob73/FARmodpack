@@ -1,11 +1,11 @@
 {
 	x: 8.0d,
 	y: 0.5d,
-	description: "更难的工具制作",
+	description: "{far.quest.category.i.task.iixe.ironpickaxe.subtitle}",
 	text: [
-		"通过合成铁镐挖掘更硬的矿物。",
-		"你也许已经发现了，现在金属类工具的制作变得更加困难——部分锭被替换为了板。",
-		"哦，对了，事先提醒你一下：主世界并不会主动生成钻石，详见§3整合包手册>杂记>《生存手册》>自然环境§r。"
+		"{far.quest.category.i.task.iixe.ironpickaxe.description}",
+		"{far.quest.category.i.task.iixe.ironpickaxe.description0}",
+		"{far.quest.category.i.task.iixe.ironpickaxe.description1}"
 	],
 	dependencies: [
 		"8b956b11"

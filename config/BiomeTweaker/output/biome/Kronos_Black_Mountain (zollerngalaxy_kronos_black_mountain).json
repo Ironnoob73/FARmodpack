@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WASTELAND",
+    "MOUNTAIN",
     "DEAD",
     "HOT",
-    "SPOOKY",
-    "MOUNTAIN",
     "NETHER",
+    "SPOOKY",
     "DRY"
   ],
   "BiomeManager Entries": {},

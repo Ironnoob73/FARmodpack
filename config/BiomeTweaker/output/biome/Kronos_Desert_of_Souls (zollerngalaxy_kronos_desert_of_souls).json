@@ -23,8 +23,8 @@
     "WASTELAND",
     "DEAD",
     "HOT",
-    "SPOOKY",
     "NETHER",
+    "SPOOKY",
     "DRY"
   ],
   "BiomeManager Entries": {},

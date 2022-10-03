@@ -1,10 +1,10 @@
 {
 	x: 5.5d,
 	y: 0.5d,
-	description: "简陋至极",
+	description: "{far.quest.category.i.task.vi.hammer.subtitle}",
 	text: [
-		"如何将矿物加工成粉？首先你需要一把锤子。将圆石烧炼成石头再烧炼成平滑石头，然后合成石台阶，再加上一个木棍就合成出了一把极为简陋的锤子。",
-		"它可以将矿物变成粉末，并将金属锭制作成板，但制作一个板需要消耗两个金属锭。"
+		"{far.quest.category.i.task.vi.hammer.description}",
+		"{far.quest.category.i.task.vi.hammer.description0}"
 	],
 	dependencies: [
 		"480bf3fc"

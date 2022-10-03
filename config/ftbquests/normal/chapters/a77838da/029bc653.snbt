@@ -1,14 +1,14 @@
 {
-	title: "粘土平衡论？",
+	title: "{far.quest.category.i.task.iiie.clay.title}",
 	x: 4.5d,
 	y: -1.5d,
 	shape: "rsquare",
-	description: "§m整合包传统",
+	description: "{far.quest.category.i.task.iiie.clay.subtitle}",
 	text: [
-		"你需要粘土来进行科技发展......你没找到粘土？这也好办，将沙子碎解为尘土，丢入水中或者放在盛水的木桶里可以获得粘土块。",
-		"当然，如果只是需要砖头那么有一些物品可以进行代替：",
-		"将泥土和水桶合成获得泥巴块，破坏获得泥巴球，泥巴球可以烧成泥砖；",
-		"将安山岩用（加工金属的）锤子制作为安山岩碎块，放在高炉里可以烧成白砖。"
+		"{far.quest.category.i.task.iiie.clay.description}",
+		"{far.quest.category.i.task.iiie.clay.description0}",
+		"{far.quest.category.i.task.iiie.clay.description1}",
+		"{far.quest.category.i.task.iiie.clay.description2}"
 	],
 	dependencies: [
 		"83504359"

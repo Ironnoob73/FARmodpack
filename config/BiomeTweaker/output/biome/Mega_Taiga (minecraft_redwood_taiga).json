@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "MEGA_TAIGA_TREES",
     "CONIFEROUS",
-    "COLD",
     "THEMED_TREES",
+    "COLD",
     "FOREST"
   ],
   "BiomeManager Entries": {},

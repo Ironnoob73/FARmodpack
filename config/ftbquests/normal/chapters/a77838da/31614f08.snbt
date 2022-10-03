@@ -2,10 +2,10 @@
 	icon: "rustic:condenser",
 	x: 8.5d,
 	y: -0.5d,
-	description: "远古技艺",
+	description: "{far.quest.category.i.task.ix.alchemic.subtitle}",
 	text: [
-		"曾经有人迷信于从各类物品中炼取金子，金子有没有炼到不清楚，但的确发现了许多有用的配方。",
-		"炼金冷凝器是一个多方块结构，除了冷凝器本身外，你还需要在它两边放置蒸馏器。"
+		"{far.quest.category.i.task.ix.alchemic.description}",
+		"{far.quest.category.i.task.ix.alchemic.description0}"
 	],
 	dependencies: [
 		"8b956b11"

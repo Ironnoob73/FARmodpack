@@ -2,10 +2,10 @@
 	x: 3.5d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "基础燃料",
+	description: "{far.quest.category.i.task.iv.coal.subtitle}",
 	text: [
-		"掘开土地，地下尽是这种黑色的燃料，你需要燃烧它们提供热量来烧制食物、矿物。当然，你想用木头也行......",
-		"钻石也是碳构成的，但是你还没有能力将其压缩成那种材料。"
+		"{far.quest.category.i.task.iv.coal.description}",
+		"{far.quest.category.i.task.iv.coal.description0}"
 	],
 	dependencies: [
 		"83504359"

@@ -1,12 +1,12 @@
 {
-	title: "原木",
+	title: "{far.quest.category.i.task.ii.log.title}",
 	icon: "minecraft:log",
 	x: 1.5d,
 	y: 0.0d,
 	shape: "rsquare",
-	description: "我想应该不用提起句老话了",
+	description: "{far.quest.category.i.task.ii.log.subtitle}",
 	text: [
-		"木头是制作前期工具的重要基础，也是伴随整个科技流程的重要材料，你需要保证有足够的木头供你发展。"
+		"{far.quest.category.i.task.ii.log.description}"
 	],
 	dependencies: [
 		"d637c7f5"

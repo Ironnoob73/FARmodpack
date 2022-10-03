@@ -2,10 +2,10 @@
 	x: 9.0d,
 	y: 0.5d,
 	shape: "rsquare",
-	description: "是不是顺序有点不对？",
+	description: "{far.quest.category.i.task.x.treatedwood.subtitle}",
 	text: [
-		"将木碳块放入炼金冷凝器，并将铁桶放在原本应该放瓶子的地方，再加上水（不消耗，但必须加水才能制作）和燃料，你就可以制作杂酚油了。",
-		"将木板丢入杂酚油或者在工作台里合成来获得防腐木板。"
+		"{far.quest.category.i.task.x.treatedwood.description}",
+		"{far.quest.category.i.task.x.treatedwood.description0}"
 	],
 	dependencies: [
 		"31614f08"

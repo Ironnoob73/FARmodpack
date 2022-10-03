@@ -2,9 +2,9 @@
 	x: 7.0d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "工业之血",
+	description: "{far.quest.category.i.task.iix.iron.subtitle}",
 	text: [
-		"铁将会成为你之后的科技发展中消耗最大的材料。可能你一开始挖不到太多，但之后会有更好的采集方式帮助你获取大量的铁。"
+		"{far.quest.category.i.task.iix.iron.description}"
 	],
 	dependencies: [
 		"29ff2a2f"
