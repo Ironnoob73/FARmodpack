@@ -1,6 +1,6 @@
 setIcon(<patchouli:guide_book,nbt:{"patchouli:book":"patchouli:article"}>)
-setTitle("far.advancements.category.i.title")
-setDescription("far.advancements.category.i.description")
+setTranslatedTitle("far.advancements.category.i.root.title")
+setTranslatedDescription("far.advancements.category.i.root.description")
 setBackground("minecraft:textures/blocks/stone.png")
 setShowToast(false)
 setAnnounceToChat(true)

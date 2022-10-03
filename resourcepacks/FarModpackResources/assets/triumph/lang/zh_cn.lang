@@ -1,2 +1,12 @@
-far.advancements.category.i.title=开端
-far.advancements.category.i.description=你已踏上无尽之途
+far.advancements.category.i.root.title=开端
+far.advancements.category.i.root.description=你已踏上无尽之途
+far.advancements.category.i.craftingtable.title=Just Craft
+far.advancements.category.i.craftingtable.description=制作一个工作台，幸运的是它依旧只需要四木板。
+far.advancements.category.i.stone.title=石器时代
+far.advancements.category.i.stone.description=获得圆石，我猜你眼里的木镐只有三点耐久。
+far.advancements.category.i.iron.title=硬实力
+far.advancements.category.i.iron.description=获取铁锭
+far.advancements.category.i.plate.title=薄板加工
+far.advancements.category.i.plate.description=获取铁板
+far.advancements.category.i.research_table.title=研究台
+far.advancements.category.i.research_table.description=科技起步

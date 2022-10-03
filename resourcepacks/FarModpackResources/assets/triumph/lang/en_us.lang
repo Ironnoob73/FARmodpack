@@ -1,2 +1,12 @@
-far.advancements.category.i.title=Beginning
-far.advancements.category.i.description=You are on an endless journey.
+far.advancements.category.i.root.title=Beginning
+far.advancements.category.i.root.description=You are on an endless journey.
+far.advancements.category.i.craftingtable.title=Just Craft
+far.advancements.category.i.craftingtable.description=Craft a crafting table,fortunately it still only needs four planks.
+far.advancements.category.i.stone.title=Stone age
+far.advancements.category.i.stone.description=Get cobblestone,I guess the wooden pickaxe in your eyes have only three points of durability.
+far.advancements.category.i.iron.title=Hard power
+far.advancements.category.i.iron.description=Get iron ingot.
+far.advancements.category.i.plate.title=Sheet processing
+far.advancements.category.i.plate.description=Get iron plate.
+far.advancements.category.i.research_table.title=Research Table
+far.advancements.category.i.research_table.description=Technology is on the rise.

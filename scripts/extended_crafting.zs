@@ -1,6 +1,6 @@
 #Wrench
 recipes.addShaped("soviet_wrench",<soviet:wrench>,[[<contenttweaker:coupling_component>],[<ore:stickSteel>]]);
-<soviet:wrench>.addTooltip("用于激活多方块结构");
+//<soviet:wrench>.addTooltip("用于激活多方块结构");
 #Frame
 recipes.remove(<extendedcrafting:frame>);
 recipes.addShaped("blackiron_frame",<extendedcrafting:frame>,[

@@ -1,12 +1,36 @@
 {
-    "name": "D-2079-2099",
-    "icon": "itemfilters:missing",
+    "name": "Diary-§m2079§r2100",
+    "icon": "minecraft:paper",
     "category": "start",
     "sortnum": "2",
     "pages": [
         {
             "type": "text",
-            "text": "x"
+            "text": "2079-10-15$(br) Finally, the bulky hibernation capsule opened, and I came back to life, not knowing how the world is now. $(br) After checking, the end-time system appears to have had something wrong with some solar radiation, but it should not be a big problem. $(br) What puzzled me was that the surrounding area of the base was surprisingly quiet, and I could barely hear the"
+        },
+        {
+            "type": "text",
+            "text": "movements of other people, and I didn't know what was going on with the other hibernators — or what happened to the others."
+        },
+        {
+            "type": "text",
+            "text": "2079-10-16$(br) This morning I found out that the mailbox detection system at the door had long been damaged, so yesterday I did not find the letter inside. There are not many letters, the only valuable thing is an evacuation voucher, the letter date is 2070-1-1, the evacuation deadline is 2089-12-31, it seems that time is still relatively generous, I should be ready to leave now."
+        },
+        {
+            "type": "text",
+            "text": "2079-10-17$(br) The weather is so cold that I don't know if it's time to go, but fortunately I found a thick wool coat and a pair of wool pants, which should help me resist the cold to some extent. Unfortunately, there seemed to be no guns in the base, and I could only carry a knife and an iron axe to defend myself, hoping that the zombies had not evolved. Finally I pulled out some more money and food, which should be enough to use on the road."
+        },
+        {
+            "type": "text",
+            "text": "2079-10-25$(br) After walking for several days, even zombies are rare along the way. But according to common sense, if the destination is the same, there should be a companion on the road, what happened? $(br) Modified: The date should be 2100-3-25!"
+        },
+        {
+            "type": "text",
+            "text": "2100-2-28$(br) Today I learned the desperate news: a problem with my terminal time system actually caused me a huge disaster, it slowed down for almost 20 years! This problem was only learned when I finally found another hibernation pod base. $(br) I suddenly felt that all the previous preparations were in vain, and after walking for so long, I had already missed the last train out of here. Where else can I go now?"
+        },
+        {
+            "type": "text",
+            "text": "2100-3-1$(br) may not be without a turnaround. I stumbled upon a terminal with a complete set of tech development guides stored in it, and maybe I could follow them to continue to live on this planet...$(br2)$(3)  The ftb quests in the top left corner of backpack is the development guide."
         }
     ]
 }

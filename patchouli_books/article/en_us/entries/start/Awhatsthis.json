@@ -1,12 +1,16 @@
 {
-    "name": "About this book",
+    "name": "§3About this book",
     "icon": "itemfilters:missing",
     "category": "start",
     "sortnum": "0",
     "pages": [
         {
             "type": "text",
-            "text": "This is a test entry, but it should show up!"
+            "text": "This book is a guide book for the modpack, which mainly records the plot part of the integration pack and the hidden tutorial(not shown in the ftb quests). Due to the needs of the plot, some of the content will conflict with the ftb quests, please refer to the content recorded in this book."
+        },
+        {
+            "type": "text",
+            "text": "$(3)Lake Blue title and content are meant to be tutorial titles outside the plot and do not exist in the actual plot./$$(br2)Author:Iron_noob_73$(br)Thanks:armadillo_core_$(br)$(l:https://github.com/Ironnoob73/FARmodpack)Github respository of the modpack$(/l) "
         }
     ]
 }

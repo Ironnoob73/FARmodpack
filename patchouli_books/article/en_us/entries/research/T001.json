@@ -1,12 +1,18 @@
 {
-    "name": "Research Table",
+    "name": "Research Table§7(#11442)",
     "icon": "researchtable:table",
     "category": "research",
     "sortnum": "0",
     "pages": [
-        {
-            "type": "text",
-            "text": "This is a test entry, but it should show up!"
-        }
+      {
+        "type": "spotlight",
+        "title": "§lResearch Table",
+        "item": "researchtable:table",
+        "text": "$(l)Number/$:11442$(br)The research table is an important tool for conducting scientific and technological research, containing all available copies of science and technology. In order to facilitate the rebuilding of civilization in the aftermath of a disaster, each hibernation pod base has been equipped with one."
+      },
+      {
+          "type": "text",
+          "text": "If the research table denies access, it can be reset once after the destruction."
+      }
     ]
-}
+  }

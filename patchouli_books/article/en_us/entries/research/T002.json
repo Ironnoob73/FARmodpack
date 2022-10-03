@@ -1,12 +1,14 @@
 {
-    "name": "Immersive Engineering",
+    "name": "Immersive Engineering§7(@immersiveengineering)",
     "icon": "immersiveengineering:tool",
     "category": "research",
     "sortnum": "1",
     "pages": [
         {
-            "type": "text",
-            "text": "This is a test entry, but it should show up!"
+          "type": "spotlight",
+          "title": "§lImmersive Engineering",
+          "item": "immersiveengineering:tool",
+          "text": "$(l)Name/$:immersiveengineering$(br)Immersive Engineering is a project that quickly enters the industrial process before gaining more convenient productivity."
         }
     ]
 }

@@ -10,11 +10,11 @@ import ResearchTable.Builder;
 var ImmersiveEngineeringGuide = ResearchTable.addCategory(<immersiveengineering:tool:3>,"ImmersiveEngineer");
 ResearchTable.builder("GetTechImmersive",ImmersiveEngineeringGuide)
   .setIcons(<immersiveengineering:tool:3>)
-  .setTitle("沉浸工程")
-  .setDescription("Des")
+  .setTitle("researchtable.i.get_tech_immersive.title")
+  .setDescription("researchtable.i.get_tech_immersive.description")
   .addCondition(<immersiveengineering:tool>,<minecraft:book>,<liquid:creosote>*1000,<ordinarycoins:coinbronze>*25)
   .setRewardStages("immersive_engineer")
-  .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"text\":\" 完成了沉浸工程的初期研究\"}]}")
+  .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\" researchtable.i.get_tech_immersive.complete\"}]}")
   .setRewardItems(<immersiveengineering:tool:3>)
   .setNoMaxCount()
   .build();

@@ -1,36 +1,42 @@
 {
-    "name": "Technology progress",
+    "name": "§3Technology progress",
     "icon": "exnihilocreatio:item_material:7",
     "category": "start",
     "sortnum": "1",
     "pages": [
         {
             "type": "text",
-            "text": "This is a test entry, but it should show up! "
+            "text": "This chapter is the basic line for the development of module technology lines, and in principle, you cannot skip technology line."
         },
         {
             "type": "spotlight",
             "title":"Primaeval",
             "item":"minecraft:sapling",
-            "text": "The first step!"
+            "text": "Although there were many technologies developed in the past, now you can only learn how to drill wood for fire."
         },
         {
             "type": "spotlight",
-            "title":"Immersive",
+            "title":"Immersive Engineering",
             "item":"immersiveengineering:tool",
-            "text": "Work as an engineer."
+            "text": "Finally, you have some machinery that can prove that you are a higher species."
         },
         {
             "type": "spotlight",
-            "title":"Thermal",
+            "title":"Thermal Expansion",
             "item":"thermalexpansion:frame",
-            "text": "Industry?"
+            "text": "At least not that much soot anymore, isn't it?"
         },
         {
             "type": "spotlight",
-            "title":"Actually additions&Psi",
+            "title":"Actually Additions&Mystical Agriculture",
             "item":"actuallyadditions:item_crystal:5",
             "text": "Magic?"
+        },
+        {
+            "type": "spotlight",
+            "title":"Open Computer",
+            "item":"opencomputers:component:2",
+            "text": "Information age."
         },
         {
             "type": "spotlight",
@@ -40,21 +46,15 @@
         },
         {
             "type": "spotlight",
-            "title":"Computer",
-            "item":"opencomputers:component:2",
-            "text": "Information age."
-        },
-        {
-            "type": "spotlight",
             "title":"Refined storage",
             "item":"refinedstorage:storage_housing",
-            "text": "Storage all you things."
+            "text": "It's hard to explain how it was achieved, basically by typing things into an atomic state and storing them in the form of data..."
         },
         {
             "type": "spotlight",
             "title":"Aerospace",
             "item":"galacticraftcore:rocket_t1",
-            "text": "Roam the galaxy."
+            "text": "Roam the galaxy,hope you come back alive.."
         },
         {
             "type": "spotlight",

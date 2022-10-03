@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "DRY",
     "HOT",
-    "SPARSE"
+    "SPARSE",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

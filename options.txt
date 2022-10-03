@@ -18,7 +18,7 @@ renderClouds:fast
 resourcePacks:["Minecraft-Mod-Language-Modpack.zip","A16x","FarModpackResources"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:zh_cn
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -40,7 +40,7 @@ chatHeightUnfocused:1.0
 chatScale:1.0
 chatWidth:1.0
 mipmapLevels:4
-forceUnicodeFont:false
+forceUnicodeFont:true
 reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
@@ -89,16 +89,23 @@ key_of.key.zoom:58
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
 key_key.torcherino.useage_key:42
-key_[GC] 星图:50
-key_[GC] 打开飞船舱:33
-key_[GC] 切换传感器护目镜模式:37
+key_[GC] Galaxy Map:50
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:37
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,13 +124,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
@@ -199,7 +199,7 @@ key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
-key_切换 Numina 视场固定:0
+key_keybind.fovfixtoggle:0
 key_key.cofh.multimode:76
 key_key.keyExtraInvo:45:SHIFT
 key_key.keyWheel:19:CONTROL
@@ -208,10 +208,10 @@ key_mekanism.key.mode:43
 key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
 key_mekanism.key.voice:19:SHIFT
-key_打开电力漫游车物品栏:34
-key_打开模块管理器:35
-key_打开发射检查表 GUI:0
-key_打开便携式 NASA 工作台 GUI:0
+key_Open Powered Vehicle Inventory:34
+key_Open Module Manager:35
+key_Open Pre Launch Checklist GUI:25
+key_Open Portable NASA Workbench GUI:24
 key_key.aether.accessory_menu:0
 key_key.securitycraft.cameraZoomIn:13
 key_key.securitycraft.cameraZoomOut:12

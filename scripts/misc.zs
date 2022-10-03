@@ -38,6 +38,6 @@ recipes.addShapeless(<jecalculation:item_calculator>,[<jecalculation:item_calcul
 game.setLocalization("entity.mts_entity.name","");
 game.setLocalization("entity.mts_entity_renderer.name","");
 #Description
-JEI.addDescription(<contenttweaker:photoresist>,"尽管略显简陋，但它的确可以用来代替光刻胶，问就是魔法的力量。");
+JEI.addDescription(<contenttweaker:photoresist>,"item.contenttweaker.photoresist.description");
 #Disable Dragonite Tea become Bucket
 //mods.thermalexpansion.Transposer.removeFillRecipe(<endreborn:item_dragonite_tea>,<liquid:*>);

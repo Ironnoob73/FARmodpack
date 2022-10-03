@@ -1,0 +1,932 @@
+{
+  "core": {
+    "death.bullet.null": "%s was shot by a spy",
+    "death.bullet.player": "%s was shot by %s",
+    "death.propellor.null": "%s was shredded by a propeller",
+    "death.propellor.player": "%s was shredded by %s's propeller",
+    "death.jet_intake.null": "%s was sucked into a jet engine",
+    "death.jet_intake.player": "%s was sucked into %s's jet engine",
+    "death.jet_exhaust.null": "%s was burnt to a crisp by a jet engine",
+    "death.jet_exhaust.player": "%s was burnt to a crisp by %s's jet engine",
+    "death.wheel.null": "%s was run over",
+    "death.wheel.player": "%s was run over by %s",
+    "death.crash.null": "%s died in a crash",
+    "death.crash.player": "%s crashed their vehicle and killed %s",
+    "gui.confirm": "CONFIRM",
+    "gui.masterconfig": "Open configuration screen",
+    "gui.signalcontroller.scan": "Scan For Signals & Components",
+    "gui.signalcontroller.scandistance": "Radius: ",
+    "gui.signalcontroller.scancenter": "Center (X/Z): ",
+    "gui.signalcontroller.scanfound": "Found: ",
+    "gui.signalcontroller.righthanddrive": "Right-Hand Drive",
+    "gui.signalcontroller.lefthanddrive": "Left-Hand Drive",
+    "gui.signalcontroller.timemode": "Time Delay",
+    "gui.signalcontroller.triggermode": "Vehicle Trigger",
+    "gui.signalcontroller.primaryaxis": "Main Axis: ",
+    "gui.signalcontroller.lanewidth": "Lane Width: ",
+    "gui.signalcontroller.greenmaintime": "Green Time (Main): ",
+    "gui.signalcontroller.greencrosstime": "Green Time (Cross): ",
+    "gui.signalcontroller.yellowmaintime": "Yellow Time (Main): ",
+    "gui.signalcontroller.yellowcrosstime": "Yellow Time (Cross): ",
+    "gui.signalcontroller.allredtime": "All Red Time: ",
+    "gui.signalcontroller.lanesettings": "SIGNAL SETTINGS",
+    "gui.signalcontroller.leftlanes": "# Left Lanes: ",
+    "gui.signalcontroller.centerlanes": "# Center Lanes: ",
+    "gui.signalcontroller.rightlanes": "# Right Lanes: ",
+    "gui.signalcontroller.roadwidth": "Road Width: ",
+    "gui.signalcontroller.centerdist": "Dist Center->Road: ",
+    "gui.signalcontroller.mediandist": "Dist Road->Median: ",
+    "gui.part_bench.weight": "Weight (kg): ",
+    "gui.part_bench.fuel": "Fuel Cap. (mb): ",
+    "gui.part_bench.controllers": "Drivers/Pilots: ",
+    "gui.part_bench.passengers": "Passengers: ",
+    "gui.part_bench.cargo": "Cargo: ",
+    "gui.part_bench.mixed": "Mixed: ",
+    "gui.part_bench.engine": "Engine Size: ",
+    "gui.part_bench.wheel": "Wheel Size: ",
+    "gui.part_bench.color": "Color: ",
+    "gui.panel.off": "OFF",
+    "gui.panel.on": "ON",
+    "gui.panel.start": "START",
+    "gui.panel.magneto": "MAG",
+    "gui.panel.engine": "ENGINE",
+    "gui.panel.trim_roll": "ROLL TRIM",
+    "gui.panel.trim_pitch": "PITCH TRIM",
+    "gui.panel.trim_yaw": "YAW TRIM",
+    "gui.panel.reverse": "REV",
+    "gui.panel.gear": "GEAR",
+    "gui.panel.beacon": "BEACON",
+    "gui.panel.autopilot": "AUTO",
+    "gui.panel.cruisecontrol": "CRUISE",
+    "gui.instruments.main": "Main Instruments",
+    "gui.instruments.panel": "Control Panel",
+    "gui.instruments.clear": "CLEAR",
+    "gui.instruments.idle": "Select an instrument.",
+    "gui.instruments.decide": "Click an instrument to add.",
+    "gui.config.header.rendering": "RENDERING",
+    "gui.config.header.config": "CONFIG",
+    "gui.config.header.controls": "CONTROLS",
+    "gui.config.controls.title": "Choose a configuration to change: ",
+    "gui.config.controls.volume": "Volume: ",
+    "gui.config.controls.aircraft.keyboard": "AIRCRAFT KEYBOARD",
+    "gui.config.controls.aircraft.joystick": "AIRCRAFT JOYSTICK",
+    "gui.config.controls.car.keyboard": "CAR/BOAT KEYBOARD",
+    "gui.config.controls.car.joystick": "CAR/BOAT JOYSTICK",
+    "gui.config.controls.confirm": "Confirm",
+    "gui.config.joystick.error": "ERROR: MTS could not initialize the control system!  This is likely due to a device mis-representing itself as a joystick to Java.  Mice have been known to have this issue, especially Corsair mice, so try a different mouse.  You may also try un-plugging your mouse, and then opening this GUI to re-poll the joysticks.  This won't make controls work on boot, but can be used if you only have one mouse.",
+    "gui.config.joystick.disabled": "ERROR: The control system locked up when MTS tried to initialize it.  This is likely a driver issue, and happens for some reason on some machines.  The root cause is not known, but if you find out how to make this erorr go away, let us know!  For now, joysick support will be disabled.",
+    "gui.config.joystick.select": "Choose a joystick: ",
+    "gui.config.joystick.name": "Name: ",
+    "gui.config.joystick.type": "Type: ",
+    "gui.config.joystick.mapping": "Mapping",
+    "gui.config.joystick.deadzone": "Dead-zone: ",
+    "gui.config.joystick.state": "State: ",
+    "gui.config.joystick.assignment": "Assigned to: ",
+    "gui.config.joystick.cancel": "Cancel",
+    "gui.config.joystick.clear": "Clear Assignment",
+    "gui.config.joystick.choosemap": "Choose what gets mapped to this button.",
+    "gui.config.joystick.calibrate1": "Move axis until numbers stop changing.",
+    "gui.config.joystick.calibrate2": "Then hit confirm to save settings.",
+    "gui.config.joystick.axismode": "Axis mode: ",
+    "gui.config.joystick.normal": "Normal",
+    "gui.config.joystick.invert": "Inverted",
+    "gui.config.joystick.confirm": "Confirm",
+    "gui.packmissing.title": "!ERROR!",
+    "gui.packmissing.text": "MTS has detected that it has been started without a content pack.  This will result in NO vehicles being present!  If you do NOT have a content pack yet installed, please see the Curse page for this mod for a link to one.  If you DID download a pack ensure that it is the same place as all your other mods.  If the pack is in that location, and you are still seeing this message, ensure you are running the correct pack version.",
+    "interact.key.lock": "Vehicle locked!",
+    "interact.key.unlock": "Vehicle unlocked!",
+    "interact.key.bind": "Key bound to vehicle.  Ready for locking/unlocking use.",
+    "interact.key.notowner": "This key is not for any vehicle, and only the owner of this vehicle may make new keys!",
+    "interact.key.wrongkey": "This key does not go to this vehicle!",
+    "interact.fuelpump.toofar": "The fuel pump is too far away from the vehicle.  The pump should be no more than 16 blocks away.",
+    "interact.fuelpump.nofuel": "The fuel pump does not have any fuel in it.  You need fuel in the fuel pump to use it.",
+    "interact.fuelpump.wrongtype": "This pump does not contain the same liquid as what is in the vehicle.",
+    "interact.fuelpump.wrongengines": "The fuel in this pump is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.fuelpump.connect": "Fuel pump connected and pumping.",
+    "interact.fuelpump.complete": "Vehicle is full, disconnecting.",
+    "interact.fuelpump.empty": "Fuel pump is empty, disconnecting.",
+    "interact.fuelpump.disconnect": "Disconnecting and stopping pumping.",
+    "interact.road.set": "Setting first dynamic road point.",
+    "interact.road.alreadyconnected": "This road segment is already connected to another road.",
+    "interact.road.lanemismatchfirst": "The number of lanes at the road segment clicked first does not match the number of lanes for this road.",
+    "interact.road.lanemismatchsecond": "The number of lanes at the road segment just clicked does not match the number of lanes for this road.",
+    "interact.road.blocked": "No space found to place the master block for this road.  Try a less crowded area?",
+    "interact.road.same": "Both the first point and the second point clicked are the same block.  Reset and try again.",
+    "interact.road.toofar": "The two points clicked are too far apart.  Either find closer points, or increase the distance in the config file.",
+    "interact.road.blockingblocks": "There are blocks blocking the placement of this road.  Break the highlighted red ones, and then click the blue master road block to continue.",
+    "interact.jerrycan.empty": "This jerrycan is empty and cannot fuel this vehicle.",
+    "interact.jerrycan.wrongtype": "This jerrycan does not contain the same liquid as what is in the vehicle.",
+    "interact.jerrycan.toofull": "This vehicle is already full of fuel.  You cannot add any more.",
+    "interact.jerrycan.success": "Added 1000mb of fluid to this vehicle.",
+    "interact.vehicle.seattaken": "This seat is taken!",
+    "interact.vehicle.locked": "This vehicle is locked!",
+    "interact.vehicle.owned": "You are not the owner of this vehicle and therefore cannot change it or its parts!",
+    "interact.vehicle.needkey": "You must have the key of this vehicle to start it!",
+    "interact.vehicle.nospace": "There is not enough space to place down this vehicle here.",
+    "interact.vehicle.cantremoveinventory": "You cannot remove this part because it is not empty!",
+    "interact.vehicle.jumperpack": "Charged vehicle battery to maximum.",
+    "interact.jumpercable.firstlink": "Linking first engine to jumper cable.",
+    "interact.jumpercable.secondlink": "Engines linked.  Transmitting power.",
+    "interact.jumpercable.linkdropped": "The two engines have moved too far apart from one another.  Breaking link.",
+    "interact.jumpercable.powerequal": "The two engines now have the same battery level.  Breaking link.",
+    "interact.jumpercable.alreadylinked": "This engine is already linked to another engine and cannot be linked.",
+    "interact.jumpercable.toofar": "The two engines are too far away.  They should be no further than 16 blocks apart.",
+    "interact.jumpercable.samevehicle": "The two engines are on the same vehicle.  That's not going to work well..",
+    "interact.fuelhose.firstlink": "Source tank linked to fuel hose.",
+    "interact.fuelhose.secondlink": "Linked to tank/vehicle.  Transfering fluid.",
+    "interact.fuelhose.linkdropped": "The linked tanks have moved too far apart from one another.  Breaking link.",
+    "interact.fuelhose.tankempty": "Source tank is empty, disconnecting.",
+    "interact.fuelhose.tankfull": "Destination tank is full, disconnecting.",
+    "interact.fuelhose.alreadylinked": "This tank is already linked to another tank and cannot be linked.",
+    "interact.fuelhose.toofar": "The two tanks are too far away.  They should be no further than 16 blocks apart.",
+    "interact.fuelhose.differentfluids": "The source and destination tanks do not contain the same fluid and cannot be linked.",
+    "interact.trailer.connected": "Trailer connected.",
+    "interact.trailer.disconnected": "Trailer disconnected.",
+    "interact.trailer.notfound": "No trailers were found anywhere near this vehicle.",
+    "interact.trailer.toofar": "The trailer is too far from the vehicle.",
+    "interact.trailer.wronghitch": "This vehicle does not have the correct hitch for this trailer.",
+    "interact.trailer.mismatch": "A hitch was found that is close enough to connect, but was not the correct type.  Also, a matching hitch was found, but it was too far to connect.  Are you trying to use the wrong hitch?",
+    "interact.trailer.alreadytowed": "The only nearby vehicle is already being towed.",
+    "interact.trailer.feedbackloop": "The only nearby vehicles are being towed by this vehicle, towing would result in an infinite towing loop.",
+    "iteminfo.engine.automatic": "Transmission: Automatic",
+    "iteminfo.engine.manual": "Transmission: Manual",
+    "iteminfo.engine.numbergears": "Number gears: ",
+    "iteminfo.engine.gearratios": "Gear Ratios: ",
+    "iteminfo.engine.jetpowerfactor": "Jet Power: ",
+    "iteminfo.engine.bypassratio": "Bypass Ratio: ",
+    "iteminfo.engine.maxrpm": "Max Possible RPM: ",
+    "iteminfo.engine.maxsaferpm": "Max safe RPM: ",
+    "iteminfo.engine.fuelconsumption": "Fuel use (mb/t): ",
+    "iteminfo.engine.superchargerfuelconsumption": "Supercharger fuel use (mb/t): ",
+    "iteminfo.engine.superchargerefficiency": "Supercharger efficiency: ",
+    "iteminfo.engine.fueltype": "Fuel type: ",
+    "iteminfo.engine.fluids": "Takes Fluids: ",
+    "iteminfo.engine.hours": "Runtime hours: ",
+    "iteminfo.engine.oilleak": "ï¿½cHas an oil leak!",
+    "iteminfo.engine.fuelleak": "ï¿½cHas a fuel leak!",
+    "iteminfo.engine.brokenstarter": "ï¿½cElectric starter is broken!",
+    "iteminfo.engine.creative": "ï¿½5Creative: Needs no fuel, accumulates no hours, cannot blow up.",
+    "iteminfo.ground_device.diameter": "Diameter: ",
+    "iteminfo.ground_device.motivefrictionmotivefriction": "Power friction: ",
+    "iteminfo.ground_device.lateralfriction": "Turning friction: ",
+    "iteminfo.ground_device.frictionmodifiers": "Friction Modifiers: ",
+    "iteminfo.ground_device.rotatesonshaft_true": "Is a wheel",
+    "iteminfo.ground_device.rotatesonshaft_false": "Is NOT a wheel",
+    "iteminfo.ground_device.canfloat_true": "Floats",
+    "iteminfo.ground_device.canfloat_false": "Does not float",
+    "iteminfo.propeller.staticPitch": "Static Pitch",
+    "iteminfo.propeller.dynamicPitch": "Dynamic Pitch",
+    "iteminfo.propeller.numberBlades": "Blades: ",
+    "iteminfo.propeller.pitch": "Pitch: ",
+    "iteminfo.propeller.diameter": "Diameter: ",
+    "iteminfo.gun.diameter": "Barrel Diameter (mm): ",
+    "iteminfo.gun.length": "Barrel Length (m): ",
+    "iteminfo.gun.caseRange": "Case Range (mm): ",
+    "iteminfo.gun.fireDelay": "Fire Delay (ticks): ",
+    "iteminfo.gun.muzzleVelocity": "Velocity (blk/s): ",
+    "iteminfo.gun.capacity": "Bullet Capacity: ",
+    "iteminfo.gun.autoReload": "Auto-Reloads",
+    "iteminfo.gun.yawRange": "Yaw Range: ",
+    "iteminfo.gun.pitchRange": "Pitch Range: ",
+    "iteminfo.bullet.type.normal": "Normal Bullet",
+    "iteminfo.bullet.type.explosive": "Explosive Bullet",
+    "iteminfo.bullet.type.incendiary": "Incendiary Bullet",
+    "iteminfo.bullet.type.armor_piercing": "Armor Piercing Bullet",
+    "iteminfo.bullet.type.tracer": "Tracer Bullet",
+    "iteminfo.bullet.type.water": "Water Bullet",
+    "iteminfo.bullet.diameter": "Diameter (mm): ",
+    "iteminfo.bullet.caseLength": "Case Length (mm): ",
+    "iteminfo.bullet.penetration": "Penetration (mm): ",
+    "iteminfo.bullet.quantity": "Quantity: ",
+    "iteminfo.interactable.capacity": "Capacity: ",
+    "iteminfo.jerrycan.fill": "Fill this can by right-clicking a fuel pump.",
+    "iteminfo.jerrycan.drain": "Fill a vehicle by right-clicking with a full can.",
+    "iteminfo.jerrycan.empty": "This can is currently empty.",
+    "iteminfo.jerrycan.contains": "This can contains: ",
+    "input.mod": "Mod",
+    "input.camlock": "CamLock",
+    "input.yaw": "Yaw",
+    "input.yaw_r": "YawRight",
+    "input.yaw_l": "YawLeft",
+    "input.pitch": "Pitch",
+    "input.pitch_u": "PitchUp",
+    "input.pitch_d": "PitchDown",
+    "input.roll": "Roll",
+    "input.roll_r": "RollRight",
+    "input.roll_l": "RollLeft",
+    "input.throttle": "Throttle",
+    "input.throttle_u": "ThrottleUp",
+    "input.throttle_d": "ThrottleDown",
+    "input.flaps_u": "FlapsUp",
+    "input.flaps_d": "FlapsDown",
+    "input.brake": "Brake",
+    "input.brake_digital": "Brake",
+    "input.gear": "Gear",
+    "input.panel": "Panel",
+    "input.park": "ParkingBrake",
+    "input.gun_fire": "Gun",
+    "input.gun_switch": "Switch Gun",
+    "input.radio": "Radio",
+    "input.zoom_i": "ZoomIn",
+    "input.zoom_o": "ZoomOut",
+    "input.changeview": "ChangeView",
+    "input.look_l": "LookLeft",
+    "input.look_r": "LookRight",
+    "input.look_u": "LookUp",
+    "input.look_d": "LookDown",
+    "input.look_a": "LookDirectional",
+    "input.trim_yaw_r": "TrimYawRight",
+    "input.trim_yaw_l": "TrimYawLeft",
+    "input.trim_pitch_u": "TrimPitchUp",
+    "input.trim_pitch_d": "TrimPitchDown",
+    "input.trim_roll_r": "TrimRollRight",
+    "input.trim_roll_l": "TrimRollLeft",
+    "input.reverse": "Reverse",
+    "input.js_inhibit": "DisableJoystick",
+    "input.turn": "Turn",
+    "input.turn_r": "TurnRight",
+    "input.turn_l": "TurnLeft",
+    "input.gas": "Gas",
+    "input.shift_u": "ShiftUp",
+    "input.shift_d": "ShiftDown",
+    "input.shift_n": "ShiftNeutral",
+    "input.horn": "Horn",
+    "input.trailer": "TrailerLink",
+    "input.slow": "Slow",
+    "input.lights": "Lights",
+    "input.turnsignal_r": "RightSignal",
+    "input.turnsignal_l": "LeftSignal",
+    "sytstem.soundslot": "IMMERSIVE VEHICLES ERROR: Tried to play a sound, but was told no sound slots were available.  Some mod is taking up all the slots.  If you have Immersive Engineering, set override sound channels to false in that mod's config.  If running GregTech, set maxNumSounds to a lower value in that mod's config.  Dynamic Surrondings and Optifine also may cause issues.  Apply fixes, or complain to those mod's authors.  Sounds will not play.",
+    "sytstem.debug": "%s"
+  },
+  "packs": {
+    "mts": {
+      "mts.invisible_seat": {
+        "name": "Invisible Seat (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.invisible_standing": {
+        "name": "Invisible Standing Seat (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.invisible_wheel": {
+        "name": "Invisible Wheel (DO NOT USE!)",
+        "description": ""
+      },
+      "mts.jerrycan": {
+        "name": "Jerrycan",
+        "description": ""
+      },
+      "mts.custombench": {
+        "name": "Custom Bench",
+        "description": ""
+      },
+      "mts.decorbench": {
+        "name": "Decor Bench",
+        "description": ""
+      },
+      "mts.enginebench": {
+        "name": "Engine Bench",
+        "description": ""
+      },
+      "mts.fuelpump": {
+        "name": "Fuel Pump",
+        "description": ""
+      },
+      "mts.gunbench": {
+        "name": "Gun Bench",
+        "description": ""
+      },
+      "mts.instrumentbench": {
+        "name": "Instrument Bench",
+        "description": ""
+      },
+      "mts.itembench": {
+        "name": "Component Bench",
+        "description": ""
+      },
+      "mts.propellerbench": {
+        "name": "Propeller Bench",
+        "description": ""
+      },
+      "mts.seatbench": {
+        "name": "Seat & Cargo Bench",
+        "description": ""
+      },
+      "mts.vehiclebench": {
+        "name": "Vehicle Bench",
+        "description": ""
+      },
+      "mts.wheelbench": {
+        "name": "Wheel Bench",
+        "description": ""
+      },
+      "mts.fuelhose": {
+        "name": "Fuel Hose",
+        "description": "Use on a vehicle tank to select.\nUse on second tank or vehicle to link.\nHose will transfer liquids from tank 1 to selected.\nHose will stop when tank 1 is empty, selected is full or if tank 1 and selected are too far away."
+      },
+      "mts.handbook_car": {
+        "name": "IV Operator's Manual (READ ME!)",
+        "description": ""
+      },
+      "mts.handbook_plane": {
+        "name": "MFS Flight Manual (READ ME!)",
+        "description": ""
+      },
+      "mts.jumpercable": {
+        "name": "Jumper Cables",
+        "description": "Use on an engine to select.\nUse on second engine to link.\nLinked engines will exchange power.\nEngines will un-link when power is even or if they get too far away."
+      },
+      "mts.jumperpack": {
+        "name": "Jumper Pack",
+        "description": "Use on a vehicle to charge battery to max level."
+      },
+      "mts.key": {
+        "name": "Key",
+        "description": "Because leaving a car unlocked in Minecraft is like leaving it unlocked in GTA..."
+      },
+      "mts.paintgun": {
+        "name": "Paint Gun",
+        "description": "Use on a vehicle, a part, decor, or sign to change its color.\nNote: Not all things you can click will have multiple colors."
+      },
+      "mts.partscanner": {
+        "name": "Part Scanner",
+        "description": "Hover over a part box to see what can be placed at that slot.\nSneak while using to cycle slower."
+      },
+      "mts.ticket": {
+        "name": "Ticket",
+        "description": "Right-click on a vehicle to load nearby entities.\nSneak-click on a vehicle to unload all entities.\nNote: Will not unload players."
+      },
+      "mts.wrench": {
+        "name": "Wrench",
+        "description": "Attack a vehicle part to remove it.\nSneak-attack a vehicle to remove entire vehicle.\nUse on vehicle to change instruments.\nSneak-use on vehicle to change text.\nUse on pole components to remove them.\nUse on fuel pumps you placed to change prices."
+      },
+      "mts.y2kbutton": {
+        "name": "Y2K Button",
+        "description": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins."
+      }
+    },
+    "mtsofficialpack": {
+      "mtsofficialpack.bell47g": {
+        "name": "Bell 47G",
+        "description": "The Bell 47G is a simple, yet versatile helicopter.  While it only seats two, it can carry cargo or extra fuel in optional external containers, making it ideal for either short cargo flights or medium trips to remote bases.  Small guns may also be mounted to the fuselage, though these can only fire the direction the helicopter is facing.  As such, they are not recommended against 'hot' ground targets."
+      },
+      "mtsofficialpack.comanche_blue": {
+        "name": "Blue Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_grey": {
+        "name": "Grey Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_red": {
+        "name": "Red Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.comanche_yellow": {
+        "name": "Yellow Comanche",
+        "description": "The Comanche is a small, swift, twin-engine craft.  While the lower wing might pose a hazard on overgrown runways, it makes up for it by being faster and nimbler than other planes of its size."
+      },
+      "mtsofficialpack.e500_blue": {
+        "name": "Blue Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_green": {
+        "name": "Green Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_red": {
+        "name": "Red Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.e500_yellow": {
+        "name": "Yellow Eclipse 500",
+        "description": "The Eclipse 500, first flown in 2002, created a new class of aircraft: the very light jet, or VLJ. The MTS version is configured to seat five, with the pilot in the front and four passengers behind them. A great addition to any private airport, and quite efficient for its capacity and speed as well."
+      },
+      "mtsofficialpack.firetruck": {
+        "name": "Fire Truck",
+        "description": "The 1973 Ward LaFrance P80 Ambassador is a small fire truck, mostly known for being on the TV show Emergency!  This rendition seats two, and comes equipped with a working siren and emergency lights.  A must-have for any town!"
+      },
+      "mtsofficialpack.ft17_blue": {
+        "name": "Blue Renualt FT",
+        "description": "The Renault FT (frequently referred to in post-World War I literature as the FT-17, FT17, or similar) was a French light tank that was among the most revolutionary and influential tank designs in history.  Although hoplessly outclassed by modern tanks, the FT17 is still a formidable threat against infantry and lightly-armored vehicles."
+      },
+      "mtsofficialpack.ft17_olive": {
+        "name": "Olive Renualt FT",
+        "description": "The Renault FT (frequently referred to in post-World War I literature as the FT-17, FT17, or similar) was a French light tank that was among the most revolutionary and influential tank designs in history.  Although hoplessly outclassed by modern tanks, the FT17 is still a formidable threat against infantry and lightly-armored vehicles."
+      },
+      "mtsofficialpack.gmcbrig_black": {
+        "name": "Black GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_blue": {
+        "name": "Blue GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_green": {
+        "name": "Green GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_red": {
+        "name": "Red GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_white": {
+        "name": "White GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.gmcbrig_yellow": {
+        "name": "Yellow GMC Brigadier",
+        "description": "The GMC Brigadier is a Heavy-Duty truck made by GMC produced from 1978 to 1988.  Its solid frame combined with its ability to be equipped with a variety of beds makes it a solid addition to any city."
+      },
+      "mtsofficialpack.mc172_acacia": {
+        "name": "Acacia MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_birch": {
+        "name": "Birch MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_darkoak": {
+        "name": "Dark Oak MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_jungle": {
+        "name": "Jungle MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_oak": {
+        "name": "Oak MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.mc172_spruce": {
+        "name": "Spruce MC-172",
+        "description": "The MC-172 is not fancy, but its cheap and sturdy airframe is at home on any rural Minecraft base.  High wings and a good power-to-weight ratio make this a good all-around starter."
+      },
+      "mtsofficialpack.pzlp11": {
+        "name": "PZL P11.c",
+        "description": "The PZL P11.c is a born and bred fighter aircraft. Its shoulder wing monoplane configuration provides the pilot with exceptional visibility of the sky and ground, and makes the PZL P11.c much faster than it's biplane fighter counterparts."
+      },
+      "mtsofficialpack.scout_blue": {
+        "name": "Blue Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_orange": {
+        "name": "Orange Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_patriot": {
+        "name": "Patriotic Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_red": {
+        "name": "Red Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.scout_yellow": {
+        "name": "Yellow Scout",
+        "description": "The International Harvester Scout is an off road two door SUV made from 1961-1980. This SUV, the Scout II, was produced from 1971-1980. It seats two, with area for cargo in the back."
+      },
+      "mtsofficialpack.trimotor_black": {
+        "name": "Black Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_blue": {
+        "name": "Blue Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_red": {
+        "name": "Red Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.trimotor_white": {
+        "name": "White Ford Trimotor",
+        "description": "The Ford Trimotor is an old, yet trustworthy aircraft.  Its large wingspan provides ample lift for short takeoffs, as well as enough to maintain flight with one engine out.  With room for 12 passengers or crates, it's a great choice for long-haul flights where reliability (but not time) is of the essence."
+      },
+      "mtsofficialpack.vulcanair_black": {
+        "name": "Black Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_blue": {
+        "name": "Blue Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_dark_red": {
+        "name": "Dark Red Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_green": {
+        "name": "Green Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_red": {
+        "name": "Red Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_white": {
+        "name": "White Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.vulcanair_white_orange": {
+        "name": "White-Orange Vulcanair",
+        "description": "The Vulcanair is a six-seat, twin-engined, high-wing monoplane aircraft.  Inspired by the real life Vulcanair P.68 Italian aircraft, its rigid landing gear allows for the mounting of pontoons for both land and sea flights."
+      },
+      "mtsofficialpack.barrel": {
+        "name": "Barrel",
+        "description": ""
+      },
+      "mtsofficialpack.barrelbell47g": {
+        "name": "Bell 47G External Fuel Tank",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedbox": {
+        "name": "Brigadier Box Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbeddump": {
+        "name": "Brigadier Dump Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedflat": {
+        "name": "Brigadier Flatbed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedlogs": {
+        "name": "Brigadier Logging Bed",
+        "description": ""
+      },
+      "mtsofficialpack.brigbedstake": {
+        "name": "Brigadier Stakebed",
+        "description": ""
+      },
+      "mtsofficialpack.bumpersticker_roostair": {
+        "name": "Roost Air Bumper Sticker",
+        "description": ""
+      },
+      "mtsofficialpack.crate": {
+        "name": "Crate",
+        "description": ""
+      },
+      "mtsofficialpack.cratebell47g": {
+        "name": "Bell 47G External Storage Crate",
+        "description": ""
+      },
+      "mtsofficialpack.engineamci4": {
+        "name": "AMC I4 Car Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginebristolmercury": {
+        "name": "Bristol Mercury Plane Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginedetroitdiesel": {
+        "name": "Detroit Diesel Truck Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginefranklin0335": {
+        "name": "Franklin O-335 Helicopter Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginelycomingo360": {
+        "name": "Lycoming O-360 Plane Engine",
+        "description": ""
+      },
+      "mtsofficialpack.enginepw610f": {
+        "name": "Pratt & Whitney 610F Jet Engine",
+        "description": ""
+      },
+      "mtsofficialpack.ft17track": {
+        "name": "Renualt FT track",
+        "description": ""
+      },
+      "mtsofficialpack.gunft17turret": {
+        "name": "Renualt FT 37mm Turret",
+        "description": ""
+      },
+      "mtsofficialpack.gunm1919": {
+        "name": "M1919 Browning Machine Gun",
+        "description": ""
+      },
+      "mtsofficialpack.pontoon": {
+        "name": "Pontoon",
+        "description": ""
+      },
+      "mtsofficialpack.propellerlarge2blade": {
+        "name": "Large 2-Bladed Propeller",
+        "description": ""
+      },
+      "mtsofficialpack.propellerrotor": {
+        "name": "Small Helicopter Rotor",
+        "description": ""
+      },
+      "mtsofficialpack.propellersmall2blade": {
+        "name": "Small 2-Bladed Propeller",
+        "description": ""
+      },
+      "mtsofficialpack.propellersmall3blade": {
+        "name": "Small 3-Bladed Propeller (Dynamic Pitch)",
+        "description": ""
+      },
+      "mtsofficialpack.scouthardtop": {
+        "name": "Scout Hard-Top",
+        "description": ""
+      },
+      "mtsofficialpack.scoutvinyltop": {
+        "name": "Scout Vinyl-Top",
+        "description": ""
+      },
+      "mtsofficialpack.seatblack": {
+        "name": "Black Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatblue": {
+        "name": "Blue Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatbrown": {
+        "name": "Brown Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatgrey": {
+        "name": "Grey Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatpink": {
+        "name": "Pink Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatred": {
+        "name": "Red Seat",
+        "description": ""
+      },
+      "mtsofficialpack.seatwhite": {
+        "name": "White Seat",
+        "description": ""
+      },
+      "mtsofficialpack.skid": {
+        "name": "PZL P11 Skid",
+        "description": ""
+      },
+      "mtsofficialpack.skidhelicopter": {
+        "name": "Small Helicopter Skid",
+        "description": ""
+      },
+      "mtsofficialpack.wheellarge": {
+        "name": "Large Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.wheelmedium": {
+        "name": "Medium Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.wheelsmall": {
+        "name": "Small Wheel",
+        "description": ""
+      },
+      "mtsofficialpack.bullet3700he": {
+        "name": "37mm HE Shell",
+        "description": ""
+      },
+      "mtsofficialpack.bullet3700solid": {
+        "name": "37mm Solid Shot",
+        "description": ""
+      },
+      "mtsofficialpack.bullet762": {
+        "name": "7.62mm Bullet",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_top": {
+        "name": "Beacon",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_tower_inverted": {
+        "name": "Beacon (With Tower)",
+        "description": ""
+      },
+      "mtsofficialpack.beacon_tower_standard": {
+        "name": "Beacon (With Tower)",
+        "description": ""
+      },
+      "mtsofficialpack.crashbarrier": {
+        "name": "Crash Barrier",
+        "description": ""
+      },
+      "mtsofficialpack.fluidloader": {
+        "name": "Fluid Loader",
+        "description": "Adds fluids to tanks/barrels on vehicles.  Connect pipes to the bottom."
+      },
+      "mtsofficialpack.fluidunloader": {
+        "name": "Fluid Unloader",
+        "description": "Removes fluids from tanks/barrels on vehicles.  Connect pipes to the bottom."
+      },
+      "mtsofficialpack.fuelpump": {
+        "name": "Fuel Pump",
+        "description": ""
+      },
+      "mtsofficialpack.signalcontroller": {
+        "name": "Signal Controller",
+        "description": ""
+      },
+      "mtsofficialpack.telephonebooth": {
+        "name": "Telephone Booth",
+        "description": ""
+      },
+      "mtsofficialpack.trafficcone": {
+        "name": "Traffic Cone",
+        "description": ""
+      },
+      "mtsofficialpack.pole_core": {
+        "name": "Pole",
+        "description": ""
+      },
+      "mtsofficialpack.pole_crossingsignal": {
+        "name": "Crossing Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_flashingsignal_red": {
+        "name": "Flashing Red Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_flashingsignal_yellow": {
+        "name": "Flashing Yellow Signal",
+        "description": ""
+      },
+      "mtsofficialpack.pole_streetlight": {
+        "name": "Street Light",
+        "description": ""
+      },
+      "mtsofficialpack.pole_trafficsignal": {
+        "name": "Traffic Signal",
+        "description": ""
+      },
+      "mtsofficialpack.sign_donotenter": {
+        "name": "Do Not Enter",
+        "description": ""
+      },
+      "mtsofficialpack.sign_mts": {
+        "name": "MTS (AKA Free Product Placement)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_noparking": {
+        "name": "No Parking",
+        "description": ""
+      },
+      "mtsofficialpack.sign_oneway_left": {
+        "name": "One Way (Left)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_oneway_right": {
+        "name": "One Way (Right)",
+        "description": ""
+      },
+      "mtsofficialpack.sign_route": {
+        "name": "Route",
+        "description": ""
+      },
+      "mtsofficialpack.sign_speedlimit": {
+        "name": "Speed Limit",
+        "description": ""
+      },
+      "mtsofficialpack.sign_stop": {
+        "name": "Stop",
+        "description": ""
+      },
+      "mtsofficialpack.sign_wrongway": {
+        "name": "Wrong Way",
+        "description": ""
+      },
+      "mtsofficialpack.sign_yield": {
+        "name": "Yield",
+        "description": ""
+      },
+      "mtsofficialpack.nuts": {
+        "name": "Nuts",
+        "description": ""
+      },
+      "mtsofficialpack.rods": {
+        "name": "Rods",
+        "description": ""
+      },
+      "mtsofficialpack.instrument_aircraft_adf": {
+        "name": "ADF Indicator",
+        "description": "Indicates beacon direction."
+      },
+      "mtsofficialpack.instrument_aircraft_airspeed": {
+        "name": "Airspeed Indicator",
+        "description": "Indicates speed."
+      },
+      "mtsofficialpack.instrument_aircraft_altimeter": {
+        "name": "Altimeter",
+        "description": "Indicates height."
+      },
+      "mtsofficialpack.instrument_aircraft_attitude": {
+        "name": "Attitude Indicator",
+        "description": "Indicates where the plane is pointing."
+      },
+      "mtsofficialpack.instrument_aircraft_electric": {
+        "name": "Electrical Gauge",
+        "description": "Indicates electrical power and usage."
+      },
+      "mtsofficialpack.instrument_aircraft_enginetemp": {
+        "name": "Engine Temperature Gauge",
+        "description": "Indicates engine temperature."
+      },
+      "mtsofficialpack.instrument_aircraft_flaps": {
+        "name": "Flaps Gauge",
+        "description": "Indicates flap setpoint and current value."
+      },
+      "mtsofficialpack.instrument_aircraft_fuelflow": {
+        "name": "Fuel Flow Gauge",
+        "description": "Indicates fuel consumption rate."
+      },
+      "mtsofficialpack.instrument_aircraft_fuelqty": {
+        "name": "Fuel Gauge",
+        "description": "Indicates fuel."
+      },
+      "mtsofficialpack.instrument_aircraft_heading": {
+        "name": "Heading Indicator",
+        "description": "Indicates heading direction."
+      },
+      "mtsofficialpack.instrument_aircraft_ils": {
+        "name": "ILS Indicator",
+        "description": "Displays instrument landing system (ILS) information for beacons."
+      },
+      "mtsofficialpack.instrument_aircraft_liftreserve": {
+        "name": "Lift Reserve Indicator",
+        "description": "Indicates lift potential."
+      },
+      "mtsofficialpack.instrument_aircraft_oilpressure": {
+        "name": "Oil Pressure Gauge",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_aircraft_tachometer": {
+        "name": "Tachometer",
+        "description": "Indicates engine speeds."
+      },
+      "mtsofficialpack.instrument_aircraft_trim": {
+        "name": "Trim Indicator",
+        "description": "Indicates trim positions."
+      },
+      "mtsofficialpack.instrument_aircraft_turncoord": {
+        "name": "Turn Coordinator",
+        "description": "Indicates bank rate and slip."
+      },
+      "mtsofficialpack.instrument_aircraft_turnslip": {
+        "name": "Turn and Slip Indicator",
+        "description": "Indicates turn rate and slip."
+      },
+      "mtsofficialpack.instrument_aircraft_verticalspeed": {
+        "name": "Vertical Speed Indicator",
+        "description": "Indicates climb rate."
+      },
+      "mtsofficialpack.instrument_car_electric": {
+        "name": "Electrical Gauge",
+        "description": "Indicates electrical power."
+      },
+      "mtsofficialpack.instrument_car_enginetemp_c": {
+        "name": "Engine Temperature Gauge (C)",
+        "description": "Indicates engine temperature in Celcius."
+      },
+      "mtsofficialpack.instrument_car_enginetemp_f": {
+        "name": "Engine Temperature Gauge (F)",
+        "description": "Indicates engine temperature in Fahrenheit."
+      },
+      "mtsofficialpack.instrument_car_fuelqty": {
+        "name": "Fuel Gauge",
+        "description": "Indicates fuel."
+      },
+      "mtsofficialpack.instrument_car_gear": {
+        "name": "Gear Indicator",
+        "description": "Indicates current gear."
+      },
+      "mtsofficialpack.instrument_car_oilpressure_b": {
+        "name": "Oil Presure Gauge (BAR)",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_car_oilpressure_p": {
+        "name": "Oil Presure Gauge (PSI)",
+        "description": "Indicates oil pressure."
+      },
+      "mtsofficialpack.instrument_car_spedometer_blk": {
+        "name": "Spedometer (BLK/S)",
+        "description": "Indicates speed in Blocks Per Second."
+      },
+      "mtsofficialpack.instrument_car_spedometer_kph": {
+        "name": "Spedometer (KPH)",
+        "description": "Indicates speed in Kilometers Per Hour."
+      },
+      "mtsofficialpack.instrument_car_spedometer_mph": {
+        "name": "Spedometer (MPH)",
+        "description": "Indicates speed in Miles Per Hour."
+      },
+      "mtsofficialpack.instrument_car_tachometer_amc": {
+        "name": "AMC I4 Tachometer",
+        "description": "Indicates engine speeds."
+      },
+      "mtsofficialpack.instrument_car_tachometer_det": {
+        "name": "Detroit Diesel Tachometer",
+        "description": "Indicates engine speeds."
+      }
+    }
+  }
+}

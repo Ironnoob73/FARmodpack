@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "WET",
-    "OCEAN"
+    "OCEAN",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
