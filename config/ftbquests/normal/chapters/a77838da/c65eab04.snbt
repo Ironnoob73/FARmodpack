@@ -1,11 +1,11 @@
 {
-	title: "蚕",
+	title: "{far.quest.category.i.task.iiiee.silkworm.title}",
 	x: 2.6999999999999997d,
 	y: -1.5d,
-	description: "这玩意可以吃？",
+	description: "{far.quest.category.i.task.iiiee.silkworm.subtitle}",
 	text: [
-		"在使用钩子破坏树叶的过程中，除了树苗，你还将有机会获得蚕。手持蚕右键树叶（仅限原版树叶）可以将树叶感染，被感染的树叶会缓慢变白并传染周围的树叶。当树叶完全变白之后，使用钩子破坏树叶就能获得线。你可以利用这个方法在前期快速获得床。",
-		"同时，将蚕烤制也可以食用，至于味道如何就需要你自己去体会了。"
+		"{far.quest.category.i.task.iiiee.silkworm.description}",
+		"{far.quest.category.i.task.iiiee.silkworm.description0}"
 	],
 	dependencies: [
 		"e9f27bf8"

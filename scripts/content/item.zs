@@ -5,14 +5,17 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 #Quartz iron plate
-val quartzIronPlate as Item=VanillaFactory.createItem("quartz_enriched_iron_plate");
-quartzIronPlate.creativeTab=<creativetab:materials.base>;quartzIronPlate.register();
+//val quartzIronPlate as Item=VanillaFactory.createItem("quartz_enriched_iron_plate");
+//quartzIronPlate.creativeTab=<creativetab:materials.base>;quartzIronPlate.register();
 #Iron wire
 val ironWire as Item=VanillaFactory.createItem("material_wire_iron");
 ironWire.creativeTab=<creativetab:materials.base>;ironWire.register();
 #Constantan stick
-val constantanStick as Item=VanillaFactory.createItem("rod_constantan");
-constantanStick.creativeTab=<creativetab:materials.base>;constantanStick.register();
+//val constantanStick as Item=VanillaFactory.createItem("rod_constantan");
+//constantanStick.creativeTab=<creativetab:materials.base>;constantanStick.register();
+#Cast stone ingot
+val castStoneIngot as Item=VanillaFactory.createItem("cast_stone_ingot");
+castStoneIngot.creativeTab=<creativetab:materials.base>;castStoneIngot.register();
 #Photoresist
 val photoresist as Item=VanillaFactory.createItem("photoresist");
 photoresist.creativeTab=<creativetab:materials.base>;photoresist.register();

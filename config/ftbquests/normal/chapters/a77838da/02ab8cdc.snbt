@@ -1,11 +1,11 @@
 {
-	title: "筛子与筛网",
+	title: "{far.quest.category.i.task.iiiee.sievemesh.title}",
 	icon: "exnihilocreatio:block_sieve",
 	x: 3.3d,
 	y: -1.5d,
-	description: "无限矿物？",
+	description: "{far.quest.category.i.task.iiiee.sievemesh.subtitle}",
 	text: [
-		"你可以通过筛子从诸如沙砾、沙子这样的粉状方块中筛取一些特定资源。首先，你需要使用木头制作筛子以及使用线制作筛网。"
+		"{far.quest.category.i.task.iiiee.sievemesh.description}"
 	],
 	dependencies: [
 		"e9f27bf8",

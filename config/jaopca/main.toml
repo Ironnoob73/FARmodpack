@@ -37,7 +37,7 @@
 	#List of oredict modules that should not be registered.
 	moduleBlacklist = []
 	#List of custom oredict entries to add. Format: <mod:item@meta=oredict>
-	custom = []
+	custom = ["refinedstorage:quartz_enriched_iron@0=ingotQuartzEnrichedIron", "contenttweaker:cast_stone_ingot@0=ingotCastStone"]
 
 #Configurations related to recipes.
 [recipes]

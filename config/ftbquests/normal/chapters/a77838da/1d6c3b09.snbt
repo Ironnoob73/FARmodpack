@@ -1,7 +1,7 @@
 {
 	x: 2.4d,
 	y: -0.8999999999999999d,
-	description: "便携式工作站",
+	description: "{far.quest.category.i.task.iiie.craftingtableoas.subtitle}",
 	text: [
 		""
 	],

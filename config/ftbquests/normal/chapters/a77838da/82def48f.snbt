@@ -1,12 +1,12 @@
 {
-	title: "锤",
+	title: "{far.quest.category.i.task.iiie.hammer.title}",
 	icon: "exnihilocreatio:hammer_wood",
 	x: 3.9d,
 	y: -1.5d,
-	description: "碎解！",
+	description: "{far.quest.category.i.task.iiie.hammer.subtitle}",
 	text: [
-		"来自于无中生有的锤可以用于进行方块碎解配方，如将圆石变为沙砾，沙砾变为沙子。",
-		"需要注意的是，无中生有的锤子和用于加工金属的锤子配方上不兼容。"
+		"{far.quest.category.i.task.iiie.hammer.description}",
+		"{far.quest.category.i.task.iiie.hammer.description0}"
 	],
 	dependencies: [
 		"83504359"

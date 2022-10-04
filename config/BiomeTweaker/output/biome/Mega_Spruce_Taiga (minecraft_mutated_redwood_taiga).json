@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "MEGA_TAIGA_SPRUCE_TREES",
     "DENSE",
+    "RARE",
     "THEMED_TREES",
-    "FOREST",
-    "RARE"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

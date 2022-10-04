@@ -1,4 +1,4 @@
-val material=<contenttweaker:quartz_enriched_iron_plate>;
+val material=<ore:plateQuartzEnrichedIron>;
 val shell=<mekanism:polyethene:2>;
 val glass=<ore:blockGlass>;
 #Storage Housing

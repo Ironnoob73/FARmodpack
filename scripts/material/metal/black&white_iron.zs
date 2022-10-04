@@ -4,7 +4,7 @@ val BlackIron=<extendedcrafting:material>;
 val BlackIronPlate=<extendedcrafting:material:2>;
 val BlackIronStick=<extendedcrafting:material:3>;
 val WhiteIron=<refinedstorage:quartz_enriched_iron>;
-val WhiteIronPlate=<contenttweaker:quartz_enriched_iron_plate>;
+val WhiteIronPlate=<jaopca:plate.quartz_enriched_iron>;
 #Black
 mods.extrautils2.Resonator.add(<actuallyadditions:item_misc:5>,<minecraft:quartz>,200);
 recipes.remove(BlackIron);

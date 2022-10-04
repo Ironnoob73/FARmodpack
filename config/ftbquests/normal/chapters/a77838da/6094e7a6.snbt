@@ -1,6 +1,6 @@
 {
 	title: "更深一层",
-	icon: "cavern:cavern_portal",
+	icon: "far:cavern_portal_core",
 	x: 14.25d,
 	y: 3.0d,
 	shape: "gear",
@@ -8,7 +8,6 @@
 		"使用苔石像搭建地狱门那样搭建框架，然后用矿工钥匙I右键，这会消耗钥匙并开启前往洞穴世界的传送门。记得准备好装备和火把，下面尽管资源丰富，但同时也很危险。"
 	],
 	dependencies: [
-		"f79ecffe",
 		"7538557c"
 	],
 	size: 1.5d,

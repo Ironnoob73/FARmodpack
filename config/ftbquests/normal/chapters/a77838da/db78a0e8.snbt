@@ -3,7 +3,7 @@
 	y: 1.0d,
 	shape: "rsquare",
 	text: [
-		"如果地下挖出来的煤炭不够，或者你恰好没挖到煤炭，那么你就需要木炭来代替煤炭了......"
+		"{far.quest.category.i.task.ve.charcoal.description}"
 	],
 	dependencies: [
 		"480bf3fc"

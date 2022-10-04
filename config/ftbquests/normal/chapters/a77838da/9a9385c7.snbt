@@ -1,11 +1,11 @@
 {
-	title: "研究台",
+	title: "{far.quest.category.i.task.xii.researchtable.title}",
 	x: 11.25d,
 	y: 0.75d,
 	shape: "diamond",
-	description: "知识付费",
+	description: "{far.quest.category.i.task.xii.researchtable.subtitle}",
 	text: [
-		"为了防止灾后技术失传，人们将所有有用的主流科技都打包放进了研究台，研究台被设置于各冬眠基地，以便于研究员一旦醒来就能进行科技重建。"
+		"{far.quest.category.i.task.xii.researchtable.description}"
 	],
 	dependencies: [
 		"169fe321"

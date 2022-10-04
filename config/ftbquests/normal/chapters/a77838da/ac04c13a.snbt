@@ -1,12 +1,12 @@
 {
-	title: "粗矿？",
+	title: "{far.quest.category.i.task.iiitvii.orechunk.title}",
 	icon: "exnihilocreatio:item_ore_copper 1 1",
 	x: 2.8d,
 	y: 1.05d,
 	shape: "rsquare",
-	description: "时运的胜利",
+	description: "{far.quest.category.i.task.iiitvii.orechunk.subtitle}",
 	text: [
-		"现在，挖掘矿物并不会掉落矿物方块而是矿物碎块，使用普通镐挖掘会掉落1~2个，使用时运会掉落更多。碎块价值等价于原矿，所以如果你有物品形式的矿物方块，建议是用时运附魔进行挖掘。"
+		"{far.quest.category.i.task.iiitvii.orechunk.description}"
 	],
 	dependencies: [
 		"83504359"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "9dccb13c",
 		type: "item",
-		title: "矿物碎块",
+		title: "{far.quest.category.i.task.iiitvii.orechunk.item}",
 		items: [{
 			item: "exnihilocreatio:item_ore_copper 1 1"
 		},

@@ -1,9 +1,9 @@
 {
 	x: 10.0d,
 	y: 0.5d,
-	description: "更高级的锤子",
+	description: "{far.quest.category.i.task.xi.engineershammer.subtitle}",
 	text: [
-		"相较于那把石质的简陋锤子，它可以更好的加工金属板，并能够用来制作一些机械。终于，你可以证明自己不是野蛮人了。"
+		"{far.quest.category.i.task.xi.engineershammer.description}"
 	],
 	dependencies: [
 		"246a850f"

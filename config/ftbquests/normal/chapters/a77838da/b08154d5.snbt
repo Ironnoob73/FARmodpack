@@ -29,5 +29,12 @@
 				}
 			}
 		}]
+	},
+	{
+		uid: "b4f2a569",
+		type: "item",
+		items: [{
+			item: "basemetals:steel_blend"
+		}]
 	}]
 }
