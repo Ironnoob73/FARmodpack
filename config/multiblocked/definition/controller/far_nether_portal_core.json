@@ -34,7 +34,7 @@
   "recipeMap": "empty",
   "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
   "consumeCatalyst": false,
-  "noNeedController": true,
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "BACK",
@@ -114,7 +114,8 @@
           }
         ],
         "type": "states",
-        "disableRenderFormed": true
+        "disableRenderFormed": true,
+        "io": "null"
       },
       "controller": {
         "location": "far:nether_portal_core",
@@ -128,7 +129,8 @@
           }
         ],
         "type": "states",
-        "disableRenderFormed": true
+        "disableRenderFormed": true,
+        "io": "null"
       },
       "any": {
         "type": "any"

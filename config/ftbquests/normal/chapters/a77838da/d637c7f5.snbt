@@ -20,7 +20,7 @@
 	rewards: [{
 		uid: "111eef58",
 		type: "item",
-		auto: "enabled",
+		auto: "no_toast",
 		item: "ordinarycoins:coinbronze",
 		count: 10,
 		random_bonus: 40
@@ -28,7 +28,7 @@
 	{
 		uid: "b7a29fa6",
 		type: "item",
-		auto: "enabled",
+		auto: "no_toast",
 		item: "galacticraftcore:food 1 9",
 		count: 5,
 		random_bonus: 25

@@ -1,3 +1,9 @@
+researchtable.category.i.title=Basic
+
 researchtable.i.get_tech_immersive.title=Immersive Engineering
 researchtable.i.get_tech_immersive.description=Des
 researchtable.i.get_tech_immersive.complete=completed the initial study of immersive engineering.
+
+researchtable.ii.get_tech_thermal.title=Thermal Industry
+researchtable.ii.get_tech_thermal.description=Des
+researchtable.ii.get_tech_thermal.complete=completed the initial study of thermal industry.

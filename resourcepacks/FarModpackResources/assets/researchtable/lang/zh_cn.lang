@@ -1,3 +1,9 @@
+researchtable.category.i.title=基础科学
+
 researchtable.i.get_tech_immersive.title=沉浸工程
 researchtable.i.get_tech_immersive.description=Des
 researchtable.i.get_tech_immersive.complete=完成了沉浸工程的初期研究
+
+researchtable.ii.get_tech_thermal.title=热力工业
+researchtable.ii.get_tech_thermal.description=Des
+researchtable.ii.get_tech_thermal.complete=完成了热力工业的初期研究

@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "location": "far:hunting_portal_core",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelName": "hunter_portal",
+        "isGlobal": true,
+        "type": "geo"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
+  "consumeCatalyst": false,
+  "noNeedController": false,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      [
+        "B",
+        " ",
+        " ",
+        " ",
+        " ",
+        "C"
+      ],
+      [
+        "@",
+        " ",
+        " ",
+        " ",
+        " ",
+        "C"
+      ],
+      [
+        "B",
+        " ",
+        " ",
+        " ",
+        " ",
+        "C"
+      ],
+      [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "actuallyadditions:block_misc",
+            "meta": 4
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "controller": {
+        "location": "far:hunting_portal_core",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "ci:flint_block",
+            "meta": 0
+          },
+          {
+            "id": "excompressum:compressed_block",
+            "meta": 5
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mysticalagriculture:storage",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "disableRenderFormed": true,
+        "io": "null"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller",
+        "B"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ]
+    }
+  }
+}

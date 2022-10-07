@@ -7,23 +7,35 @@ import crafttweaker.event.PlayerInteractBlockEvent;
 import mods.ResearchTable;
 import ResearchTable.Category;
 import ResearchTable.Builder;
-var ImmersiveEngineeringGuide = ResearchTable.addCategory(<immersiveengineering:tool:3>,"ImmersiveEngineer");
-ResearchTable.builder("GetTechImmersive",ImmersiveEngineeringGuide)
+//All basic research
+var Basic = ResearchTable.addCategory(<exnihilocreatio:item_material:7>,"researchtable.category.i.title");
+ResearchTable.builder("GetTechImmersive",Basic)
   .setIcons(<immersiveengineering:tool:3>)
   .setTitle("researchtable.i.get_tech_immersive.title")
   .setDescription("researchtable.i.get_tech_immersive.description")
   .addCondition(<immersiveengineering:tool>,<minecraft:book>,<liquid:creosote>*1000,<ordinarycoins:coinbronze>*25)
   .setRewardStages("immersive_engineer")
-  .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\" researchtable.i.get_tech_immersive.complete\"}]}")
+  .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\"researchtable.i.get_tech_immersive.complete\"}]}")
   .setRewardItems(<immersiveengineering:tool:3>)
   .setNoMaxCount()
   .build();
+ResearchTable.builder("GetTechThermal",Basic)
+  .setIcons(<thermalfoundation:tome_lexicon>)
+  .setTitle("researchtable.ii.get_tech_thermal.title")
+  .setDescription("researchtable.ii.get_tech_thermal.description")
+  .addCondition(<thermalfoundation:wrench>,<minecraft:book>,<chisel:chisel_iron>,<ordinarycoins:coinbronze>*50)
+  .setRewardStages("thermal_industry")
+  .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\"researchtable.ii.get_tech_thermal.complete\"}]}")
+  .setRewardItems(<thermalfoundation:tome_lexicon>)
+  .setNoMaxCount()
+  .build();
+
 mods.ItemStages.stageModItems("immersive_engineer","immersiveengineering");
 val ImmersiveItemOut = [
-	<immersiveengineering:tool>,
-	<immersiveengineering:tool:1>,
-	<immersiveengineering:treated_wood:*>,
-	<immersiveengineering:treated_wood_slab:*>,
+  <immersiveengineering:tool>,
+  <immersiveengineering:tool:1>,
+  <immersiveengineering:treated_wood:*>,
+  <immersiveengineering:treated_wood_slab:*>,
   <immersiveengineering:material>,
   <immersiveengineering:seed>,
   <immersiveengineering:material:4>,
@@ -32,7 +44,9 @@ val ImmersiveItemOut = [
 ]as IIngredient[];
 for item in ImmersiveItemOut{mods.ItemStages.removeItemStage(item);}
 val ImmersiveItemIn = [
-  <contenttweaker:minner_key_i>
+  <contenttweaker:minner_key_i>,
+  <thermalfoundation:wrench>,
+  <chisel:chisel_iron>
 ]as IIngredient[];
 for item in ImmersiveItemIn{mods.ItemStages.addItemStage("immersive_engineer",item);}
 //mods.orestages.OreStages.addReplacementById("immersive_engineer","immersiveengineering:modworkbench","engineersdecor:treated_wood_table");

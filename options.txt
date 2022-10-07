@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
-fov:-0.06727314
+fov:-0.06738243
 gamma:1.0
 saturation:0.0
 renderDistance:16
@@ -15,10 +15,10 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:fast
-resourcePacks:["Minecraft-Mod-Language-Modpack.zip","A16x","FarModpackResources"]
+resourcePacks:["A16x","FarModpackResources"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:zh_cn
+lang:en_us
 chatVisibility:0
 chatColors:true
 chatLinks:true
@@ -115,6 +115,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
@@ -123,19 +124,18 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_keybind.baublesinventory:11
 key_key.toggle_shaders:0
 key_key.hooked.fire:0
 key_keybind.togglehelmet.name:73
-key_keybind.togglechest.name:34
-key_keybind.togglelegs.name:35
+key_keybind.togglechest.name:77
+key_keybind.togglelegs.name:81
 key_keybind.toggleboots.name:36
 key_key.xu2.searchforitems:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:0
-key_Open Tool GUI:34
+key_Open Tool GUI:0
 key_neat.keybind.toggle:0
 key_keys.quantumstorage.openbag:0
 key_key.toggleFoVChanges:51:SHIFT
@@ -153,6 +153,7 @@ key_key.xat.race_ability.desc:19
 key_dshuds.keybind.SelectionBox:374
 key_dshuds.keybind.LightLevel:65
 key_dshuds.keybind.ChunkBorders:67
+key_key.pickup.item:0
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
@@ -166,14 +167,14 @@ key_key.teamsMenu.desc:0
 key_key.teamsScores.desc:0
 key_key.rollLeft.desc:0
 key_key.rollRight.desc:0
-key_key.toggleLandingGear.desc:0
+key_key.toggleLandingGear.desc:76
 key_key.toggleDoors.desc:0
 key_key.switchMovementMode.desc:74
 key_key.lookAtGun.desc:38
 key_key.debug.desc:68
 key_key.reloadModels.desc:0
-key_key.primaryVehicleInteract.desc:73
-key_key.secondaryVehicleInteract.desc:0
+key_key.primaryVehicleInteract.desc:-97
+key_key.secondaryVehicleInteract.desc:56
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -199,8 +200,8 @@ key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
-key_切换 Numina 视场固定:0
-key_key.cofh.multimode:76
+key_keybind.fovfixtoggle:0
+key_key.cofh.multimode:0
 key_key.keyExtraInvo:45:SHIFT
 key_key.keyWheel:19:CONTROL
 key_key.keyExtraCraftin:0
@@ -208,7 +209,7 @@ key_mekanism.key.mode:43
 key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
 key_mekanism.key.voice:19:SHIFT
-key_打开电力漫游车物品栏:34
+key_打开电力漫游车物品栏:0
 key_打开模块管理器:35
 key_打开发射检查表 GUI:25
 key_打开便携式 NASA 工作台 GUI:24
@@ -241,7 +242,7 @@ key_gui.xaero_open_settings:52
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:0
-key_key.settings_menu:34
+key_key.settings_menu:0
 key_key.range:19:SHIFT
 key_key.undo:14
 key_key.anchor:35
@@ -263,10 +264,10 @@ key_key.stackable.place:25:CONTROL
 key_key.stackable.cycle:0
 key_key.inventoryhud.toggle:23
 key_key.inventoryhud.openconfig:0
-key_key.inventoryhud.togglepot:-1
-key_key.inventoryhud.togglearm:-1
-key_key.inventoryhud.toggleall:-1
-key_key.refinedstorageaddons.openWirelessCraftingGrid:34:CONTROL
+key_key.inventoryhud.togglepot:0
+key_key.inventoryhud.togglearm:0
+key_key.inventoryhud.toggleall:0
+key_key.refinedstorageaddons.openWirelessCraftingGrid:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_key.integratedterminals.terminal.tab.next:15

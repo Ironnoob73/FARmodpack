@@ -23,7 +23,7 @@
 	#List of materials that should be crystals.
 	crystal = []
 	#List of materials that should be dusts.
-	dust = ["Redstone"]
+	dust = ["Redstone", "BlazePowder"]
 
 #Configurations related to item selection.
 [itemSelection]

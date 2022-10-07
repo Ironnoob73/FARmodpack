@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": true,
   "Dictionary Types": [
-    "DRY",
     "SPOOKY",
     "DEAD",
+    "DRY",
     "SPARSE"
   ],
   "BiomeManager Entries": {},

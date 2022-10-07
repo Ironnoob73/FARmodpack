@@ -1,0 +1,9 @@
+tooltip.itemstages.name.default=未知物品
+tooltip.itemstages.description=你还不知道如何使用它
+tooltip.itemstages.info=你需要先解锁阶段 %s。
+tooltip.itemstages.stage=阶段:
+tooltip.itemstages.enchant=在了解这个附魔前你无法使用它。
+
+message.itemstages.drop=你丢掉了 %s。
+
+message.itemstages.attack=在了解附魔前你不能用 %s 造成伤害。 

@@ -34,7 +34,7 @@
   "recipeMap": "empty",
   "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
   "consumeCatalyst": false,
-  "noNeedController": true,
+  "noNeedController": false,
   "basePattern": {
     "structureDir": [
       "LEFT",

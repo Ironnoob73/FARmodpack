@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "HILLS",
     "BIRCH_TREES",
-    "THEMED_TREES",
-    "FOREST"
+    "FOREST",
+    "THEMED_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

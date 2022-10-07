@@ -1,0 +1,14 @@
+item.ordinarycoins.coinBronze.name=青铜币
+item.ordinarycoins.coinSilver.name=银币
+item.ordinarycoins.coinGold.name=金币
+item.ordinarycoins.coinPlatinum.name=铂币
+
+coins.stacked=合并硬币。
+coins.unstacked=拆分硬币。
+coins.repaired=物品修理。
+coins.repair.disabled=修理物品已禁用。
+coins.cantrepair=物品无法被修理或者无需修理。
+coins.notenough.bronze=你没有足够的硬币，需要 %d 个青铜币。
+coins.notenough.silver=你没有足够的硬币，需要 %d 个银币。
+coins.notenough.gold=你没有足够的硬币，需要 %d 个金币。
+coins.notenough.platinum=你没有足够的硬币，需要 %d 个铂币。
