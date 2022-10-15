@@ -22,11 +22,11 @@
   "Dictionary Types": [
     "NETHER",
     "SPOOKY",
-    "MOUNTAIN",
     "DEAD",
-    "DRY",
+    "HOT",
     "WASTELAND",
-    "HOT"
+    "DRY",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

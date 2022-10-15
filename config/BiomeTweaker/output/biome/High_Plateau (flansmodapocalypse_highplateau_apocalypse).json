@@ -1,6 +1,6 @@
 
 {
-  "ID": 349,
+  "ID": 356,
   "Name": "High Plateau",
   "Resource Location": "flansmodapocalypse:highplateau_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeDesertCanyon",
@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "SANDY",
+    "HOT",
     "PLAINS",
-    "HOT"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

@@ -1,6 +1,6 @@
 
 {
-  "ID": 350,
+  "ID": 357,
   "Name": "Sulphur Pits",
   "Resource Location": "flansmodapocalypse:sulphurpits_apocalypse",
   "Class": "com.flansmod.apocalypse.common.world.BiomeSulphurPits",
@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RIVER",
-    "DRY",
-    "WATER",
     "SANDY",
+    "HOT",
     "PLAINS",
-    "HOT"
+    "WATER",
+    "DRY",
+    "RIVER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

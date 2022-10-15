@@ -28,6 +28,7 @@ id="minecraft:cake" -> 128
 id="twilightforest:meef_stroganoff" -> 32
 id="minecraft:totem_of_undying" -> 128
 id="soviet:wrench" -> 1
+id="integrateddynamics:wrench" -> 1
 id="flyringbaublemod:*" -> 1
 blockClass>="net.minecraft.block.BlockContainer" -> 128
 id="minecraft:crafting_table" -> 128

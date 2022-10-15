@@ -38,6 +38,7 @@ val lumberaxe=<lumberjack:emerald_lumberaxe>;
 val shield0=<basemetals:emerald_shield>;
 #Dict
 val CompressedEmerald=compress;CompressedEmerald.add(compress0);CompressedEmerald.add(<zollerngalaxy:compressedemerald>);
+val EmeraldOre=<ore:oreEmerald>;EmeraldOre.add(<contenttweaker:slate_emerald_ore>);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);

@@ -43,6 +43,7 @@ val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 val CompressedIron=compress;CompressedIron.add(compress0);
 val PlateIron=plate;PlateIron.remove(<galacticraftcore:basic_item:11>);
 val IronWire=<ore:wireIron>;IronWire.add(wire0);
+val IronOre=ore;IronOre.add(<contenttweaker:slate_iron_ore>);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);

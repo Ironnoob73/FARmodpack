@@ -1,6 +1,6 @@
 
 {
-  "ID": 335,
+  "ID": 342,
   "Name": "Cliffs",
   "Resource Location": "traverse:cliffs",
   "Class": "prospector.traverse.world.biomes.BiomeCliffs",
@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "COLD",
     "HILLS",
-    "MOUNTAIN",
-    "COLD"
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [

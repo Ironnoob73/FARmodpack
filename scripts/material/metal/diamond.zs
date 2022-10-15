@@ -38,6 +38,7 @@ val shield=<thermalfoundation:tool.shield_diamond>;
 val shield0=<basemetals:diamond_shield>;
 #Dict
 val CompressedDiamond=compress;CompressedDiamond.add(compress0);CompressedDiamond.add(<zollerngalaxy:compresseddiamond>);
+val DiamondOre=<ore:oreDiamond>;DiamondOre.add(<contenttweaker:slate_diamond_ore>);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);

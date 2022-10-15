@@ -23,11 +23,11 @@
     "NETHER",
     "SPOOKY",
     "DEAD",
-    "OCEAN",
-    "DRY",
-    "WATER",
+    "HOT",
     "WASTELAND",
-    "HOT"
+    "WATER",
+    "DRY",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

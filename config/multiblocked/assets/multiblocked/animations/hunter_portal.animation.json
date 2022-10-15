@@ -3,7 +3,7 @@
 	"animations": {
 		"idle": {
 			"loop": true,
-			"animation_length": 5.54167,
+			"animation_length": 5.5417,
 			"bones": {
 				"11": {
 					"position": {
@@ -241,6 +241,9 @@
 				},
 				"unformed": {
 					"scale": 0
+				},
+				"main": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		},
@@ -256,6 +259,9 @@
 						"0.0": [0, 0, 0],
 						"2.0": [0, -360, 0]
 					}
+				},
+				"unformed": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		}

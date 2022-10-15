@@ -7,3 +7,21 @@ researchtable.i.get_tech_immersive.complete=completed the initial study of immer
 researchtable.ii.get_tech_thermal.title=Thermal Industry
 researchtable.ii.get_tech_thermal.description=Des
 researchtable.ii.get_tech_thermal.complete=completed the initial study of thermal industry.
+
+researchtable.category.ii.title=Magic
+
+researchtable.i.get_magic_menril.title=Mneril
+researchtable.i.get_magic_menril.description=Des
+researchtable.i.get_magic_menril.complete=completed the initial study of mneril.
+
+researchtable.ii.get_magic_utilities.title=Ex-utilities
+researchtable.ii.get_magic_utilities.description=Des
+researchtable.ii.get_magic_utilities.complete=completed the initial study of ex-utilities.
+
+researchtable.iii.get_magic_cyclic.title=Cyclic
+researchtable.iii.get_magic_cyclic.description=Des
+researchtable.iii.get_magic_cyclic.complete=completed the initial study of cyclic.
+
+researchtable.iv.get_magic_actually.title=Actually additions
+researchtable.iv.get_magic_actually.description=Des
+researchtable.iv.get_magic_actually.complete=completed the initial study of actually additions.

@@ -87,7 +87,19 @@
     "iron": {
       "distribution": "uniform",
       "generator": {
-        "block": "iron_ore",
+        "block": [
+          {
+            "name": "minecraft:iron_ore",
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "variant": "iron"
+            },
+            "weight": 60
+          }
+        ],
         "material": "minecraft:stone",
         "cluster-size": 9
       },
@@ -104,7 +116,19 @@
     "gold": {
       "distribution": "uniform",
       "generator": {
-        "block": "gold_ore",
+        "block": [
+          {
+            "name": "minecraft:gold_ore",
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "variant": "gold"
+            },
+            "weight": 60
+          }
+        ],
         "material": "minecraft:stone",
         "cluster-size": 9
       },
@@ -242,60 +266,26 @@
         "value": [0]
       }
     },
-    "peridot": {
-      "distribution": "uniform",
-      "generator": {
-        "block": {
-          "name": "biomesoplenty:gem_ore",
-          "properties": {
-            "variant": "peridot"
-          }
-        },
-        "material": "minecraft:stone",
-        "cluster-size": 1
-      },
-      "cluster-count": {
-        "min": 3,
-        "max": 6
-      },
-      "min-height": 1,
-      "max-height": 128,
-      "retrogen": false,
-      "biome": {
-        "restriction": "whitelist",
-        "value": [
-          {
-            "type": "id",
-            "entry": [
-              "chaparral",
-              "flower_field",
-              "grassland",
-              "lavender_fields",
-              "meadow",
-              "orchard",
-              "pasture",
-              "prairie",
-              "shrubland",
-              "plains"
-            ]
-          }
-        ]
-      },
-      "dimension": {
-        "restriction": "whitelist",
-        "value": [0]
-      }
-    },
     "copper": {
       "enabled": "true",
       "distribution": "uniform",
       "generator": {
-        "block": {
-          "name": "thermalfoundation:ore",
-          "properties": {
-            "type": "copper"
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 60
           }
-        },
+        ],
         "material": "minecraft:stone",
         "cluster-size": 16
       },
@@ -313,12 +303,22 @@
       "enabled": "true",
       "distribution": "uniform",
       "generator": {
-        "block": {
-          "name": "thermalfoundation:ore",
-          "properties": {
-            "type": "tin"
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "tin"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "tin"
+            },
+            "weight": 60
           }
-        },
+        ],
         "material": "minecraft:stone",
         "cluster-size": 16
       },
@@ -338,18 +338,18 @@
       "generator": {
         "block": [
           {
-            "name": "thermalfoundation:ore",
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "variant": "silver"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
             "properties": {
               "type": "silver"
             },
-            "weight": 80
-          },
-          {
-            "name": "thermalfoundation:ore",
-            "properties": {
-              "type": "lead"
-            },
-            "weight": 20
+            "weight": 60
           }
         ],
         "material": "minecraft:stone",
@@ -371,18 +371,18 @@
       "generator": {
         "block": [
           {
-            "name": "thermalfoundation:ore",
+            "name": "railcraft:ore_metal",
             "properties": {
               "type": "lead"
             },
-            "weight": 90
+            "weight": 40
           },
           {
-            "name": "thermalfoundation:ore",
+            "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "silver"
+              "type": "lead"
             },
-            "weight": 10
+            "weight": 60
           }
         ],
         "material": "minecraft:stone",
@@ -403,9 +403,9 @@
       "distribution": "uniform",
       "generator": {
         "block": {
-          "name": "thermalfoundation:ore",
+          "name": "galacticraftcore:basic_block_core",
           "properties": {
-            "type": "aluminum"
+            "basictype": "ore_aluminum_gc"
           }
         },
         "material": "minecraft:stone",
@@ -425,12 +425,55 @@
       "enabled": "true",
       "distribution": "uniform",
       "generator": {
-        "block": {
-          "name": "thermalfoundation:ore",
-          "properties": {
-            "type": "nickel"
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "nickel"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "nickel"
+            },
+            "weight": 60
           }
-        },
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 4
+      },
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 15,
+      "retrogen": "true",
+      "biome": "all",
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
+    },
+    "zinc": {
+      "enabled": "true",
+      "distribution": "uniform",
+      "generator": {
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "zinc"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "zinc"
+            },
+            "weight": 60
+          }
+        ],
         "material": "minecraft:stone",
         "cluster-size": 4
       },
@@ -448,12 +491,22 @@
       "enabled": "true",
       "distribution": "uniform",
       "generator": {
-        "block": {
-          "name": "thermalfoundation:ore",
-          "properties": {
-            "type": "copper"
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 60
           }
-        },
+        ],
         "material": "minecraft:stone",
         "cluster-size": 8
       },
@@ -479,12 +532,22 @@
       "enabled": "true",
       "distribution": "uniform",
       "generator": {
-        "block": {
-          "name": "thermalfoundation:ore",
-          "properties": {
-            "type": "copper"
+        "block": [
+          {
+            "name": "railcraft:ore_metal",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 40
+          },
+          {
+            "name": "railcraft:ore_metal_poor",
+            "properties": {
+              "type": "copper"
+            },
+            "weight": 60
           }
-        },
+        ],
         "material": "minecraft:stone",
         "cluster-size": 8
       },

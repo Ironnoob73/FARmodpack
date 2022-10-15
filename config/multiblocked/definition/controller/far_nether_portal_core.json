@@ -32,9 +32,9 @@
     }
   },
   "recipeMap": "empty",
-  "catalyst": "{id:\"soviet:wrench\",Count:1,Damage:0s}",
+  "catalyst": "{id:\"contenttweaker:nether_key\",Count:1,Damage:0s}",
   "consumeCatalyst": false,
-  "noNeedController": false,
+  "noNeedController": true,
   "basePattern": {
     "structureDir": [
       "BACK",

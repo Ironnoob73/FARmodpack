@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "TWILIGHT",
-    "WASTELAND",
     "COLD",
+    "WASTELAND",
     "SNOWY"
   ],
   "BiomeManager Entries": {},

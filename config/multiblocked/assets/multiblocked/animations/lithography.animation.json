@@ -42,6 +42,9 @@
 				},
 				"unformed": {
 					"scale": 0
+				},
+				"main": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		},
@@ -404,6 +407,9 @@
 				},
 				"unformed": {
 					"scale": 0
+				},
+				"main": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		},
@@ -454,6 +460,9 @@
 				},
 				"unformed": {
 					"scale": 0
+				},
+				"main": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		},
@@ -483,6 +492,9 @@
 				},
 				"emissive": {
 					"scale": 0
+				},
+				"main": {
+					"position": [0, -0.16, 0]
 				}
 			}
 		}

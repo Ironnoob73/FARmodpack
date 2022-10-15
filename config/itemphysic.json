@@ -186,10 +186,10 @@
     }
   },
   "pickup": {
-    "customPickup": true,
+    "customPickup": false,
     "pickupWhenSneaking": true,
     "maximumPickupRange": 5.0,
-    "pickupMinedImmediately": true,
+    "pickupMinedImmediately": false,
     "respectRangeWhenMined": true
   }
 }

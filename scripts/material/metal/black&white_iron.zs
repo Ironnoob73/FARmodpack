@@ -48,5 +48,5 @@ mods.mekanism.enrichment.addRecipe(<ore:gemQuartz>,<jaopca:plate.quartz>);
 Infuser.addRecipe("QUARTZ",10,<ore:ingotIron>,WhiteIron);
 recipes.addShapeless("whiteiron_plate_h",WhiteIronPlate,[<immersiveengineering:tool>,WhiteIron]);
 recipes.addShapeless("whiteiron_plate_sh",WhiteIronPlate,[<soviet:hammer>.anyDamage().transformDamage(1),WhiteIron,WhiteIron]);
-mods.immersiveengineering.MetalPress.addRecipe(WhiteIronPlate,WhiteIron,<immersiveengineering:mold>,2400);
-mods.thermalexpansion.Compactor.addPressRecipe(WhiteIronPlate,WhiteIron,4000);
+//mods.immersiveengineering.MetalPress.addRecipe(WhiteIronPlate,WhiteIron,<immersiveengineering:mold>,2400);
+//mods.thermalexpansion.Compactor.addPressRecipe(WhiteIronPlate,WhiteIron,4000);

@@ -1,0 +1,14 @@
+#Backup
+aromabackup:backup.start.server=备份开始。服务器可能会有一定延迟！
+aromabackup:backup.start.client=备份开始。世界可能会有一定延迟！
+aromabackup:backup.done.server=服务器备份完成！
+aromabackup:backup.done.client=世界备份完成！
+aromabackup:backup.failed.server=服务器备份失败！
+aromabackup:backup.failed.client=世界备份失败！
+aromabackup:backup.next.server=下一次服务器备份将在%s分钟后。
+aromabackup:backup.next.client=下一次世界备份将在%s分钟后。
+
+#Command
+aromabackup:command.commandOverride=无法执行%s，因为已经有备份在进行了。
+aromabackup:command.alreadyrunning=另一个备份已经在进行了。
+aromabackup:command.playerstarted=%s启动了一次备份。

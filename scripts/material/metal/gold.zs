@@ -42,6 +42,7 @@ val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Dict
 val Compressedgold=compress;Compressedgold.add(compress0);
 val PlateGold=plate;PlateGold.add(<zollerngalaxy:compressedgold>);
+val GoldOre=ore;GoldOre.add(<contenttweaker:slate_gold_ore>);
 #Tool
 recipes.remove(boot);
 recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);

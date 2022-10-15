@@ -4,9 +4,12 @@ import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
-#Quartz iron plate
-//val quartzIronPlate as Item=VanillaFactory.createItem("quartz_enriched_iron_plate");
-//quartzIronPlate.creativeTab=<creativetab:materials.base>;quartzIronPlate.register();
+#Brass plate
+val BrassPlate as Item=VanillaFactory.createItem("brass_plate");
+BrassPlate.creativeTab=<creativetab:materials.base>;BrassPlate.register();
+#Zinc plate
+val ZincPlate as Item=VanillaFactory.createItem("zinc_plate");
+ZincPlate.creativeTab=<creativetab:materials.base>;ZincPlate.register();
 #Iron wire
 val ironWire as Item=VanillaFactory.createItem("material_wire_iron");
 ironWire.creativeTab=<creativetab:materials.base>;ironWire.register();

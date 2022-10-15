@@ -9,10 +9,10 @@
 				"maxHeight": 30
 			},
 			"verticalX": {
-				"minWidth": 3,
-				"maxWidth": 30,
-				"minHeight": 3,
-				"maxHeight": 30
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 6,
+				"maxHeight": 6
 			},
 			"verticalZ": {
 				"minWidth": 3,
