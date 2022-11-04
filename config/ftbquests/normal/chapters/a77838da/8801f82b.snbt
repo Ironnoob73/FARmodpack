@@ -1,0 +1,77 @@
+{
+	title: "{far.quest.category.i.task.ia.nature_resources.title}",
+	x: 1.0d,
+	y: -1.0d,
+	description: "{far.quest.category.i.task.ia.nature_resources.subtitle}",
+	text: [
+		"{far.quest.category.i.task.ia.nature_resources.des}",
+		"{far.quest.category.i.task.ia.nature_resources.des0}"
+	],
+	dependencies: [
+		"d637c7f5"
+	],
+	tasks: [{
+		uid: "d66ae81c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "stickWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any stickWood"
+				}
+			}
+		}],
+		consume_items: false
+	},
+	{
+		uid: "c3486b51",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "sevendaystomine:plantfiber"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "c57cb519",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "sevendaystomine:smallstone"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "baa35b12",
+		type: "item",
+		items: [{
+			item: "ftgumod:parchment_empty"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "68ccc6a1",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "ftgumod:parchment_research",
+			tag: {
+				FTGU: "far:primaeval/1_stonetool"
+			}
+		}
+	},
+	{
+		uid: "fef4f37a",
+		type: "advancement",
+		auto: "invisible",
+		advancement: "far:i/A02stonetool",
+		criterion: ""
+	}]
+}

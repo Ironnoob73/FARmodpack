@@ -27,3 +27,11 @@
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	oreBase = "minecraft:cobblestone"
 
+[magneticraft]
+	#The default byproduct material to output in Magneticraft's grinder.
+	grinderByproduct = "minecraft:gravel"
+
+[hbm]
+	#The default byproduct material to output in HBMNTM's centrifuge.
+	byproduct = "minecraft:gravel"
+

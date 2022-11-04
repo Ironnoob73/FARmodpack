@@ -1,0 +1,17 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have crushing table to light plate recipes added.
+	blockToLightPlateMaterialBlacklist = []
+	#The materials that should not have grinder to dust recipes added.
+	toDustMaterialBlacklist = []
+	#The materials that should not have hydraulic press to heavy plate recipes added.
+	toHeavyPlateMaterialBlacklist = []
+	#The materials that should not have hydraulic press to light plate recipes added.
+	materialToLightPlateMaterialBlacklist = []
+	#The materials that should not have hydraulic press to plate recipes added.
+	toPlateMaterialBlacklist = []
+

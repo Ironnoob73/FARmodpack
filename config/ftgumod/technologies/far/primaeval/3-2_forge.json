@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "sevendaystomine:forge"
+      },
+      "title": {
+        "translate": "tile.futuremc.campfire.name"
+      },
+      "description": {
+        "translate": "far.quest.category.i.task.ii.log.subtitle"
+      },
+      "x": 4,
+      "y": 1
+    },
+    "parent": "far:primaeval/3-1_campfire",
+    "idea": {
+      "amount": 3,
+      "ingredients": [
+        "futuremc:campfire",
+        "minecraft:cobblestone",
+        "sevendaystomine:bellows"
+      ]
+    },
+    "unlock": [
+      "sevendaystomine:forge"
+    ]
+}

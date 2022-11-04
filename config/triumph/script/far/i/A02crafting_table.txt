@@ -1,7 +1,0 @@
-setIcon(<minecraft:crafting_table>)
-setTranslatedTitle("far.advancements.category.i.craftingtable.title")
-setTranslatedDescription("far.advancements.category.i.craftingtable.description")
-addParent("far:i/A01root")
-setPos(25,0)
-criteria = addCriteria("crafting_table", "minecraft:inventory_changed")
-criteria.addItem("minecraft:crafting_table")

@@ -1,6 +1,6 @@
 
 {
-  "ID": 310,
+  "ID": 322,
   "Name": "Twilight Glacier",
   "Resource Location": "twilightforest:twilight_glacier",
   "Class": "twilightforest.biomes.TFBiomeGlacier",
@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "TWILIGHT",
     "COLD",
-    "WASTELAND",
-    "SNOWY"
+    "SNOWY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -34,7 +34,74 @@
       "Max Group Count": 4
     }
   ],
-  "Spawnable Monsters": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityBloatedZombie",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityPlaguedNurse",
+      "Weight": 60,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieCrawler",
+      "Weight": 50,
+      "Min Group Count": 2,
+      "Max Group Count": 9
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrozenLumberjack",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrigidHunter",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrostbittenWorker",
+      "Weight": 40,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieWolf",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieMiner",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFeralZombie",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {

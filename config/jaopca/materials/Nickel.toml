@@ -13,3 +13,7 @@
 	#The color of this material.
 	color = 10329995
 
+[hbm]
+	#The default byproduct material to output in HBMNTM's centrifuge.
+	byproduct = "minecraft:gravel"
+

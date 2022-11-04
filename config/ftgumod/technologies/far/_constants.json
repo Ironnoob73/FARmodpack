@@ -1,0 +1,26 @@
+[
+  {
+    "ingredient": [
+      {"item": "minecraft:log","data": 32767},
+      {"item": "minecraft:log2","data": 32767},
+      {"item": "biomesoplenty:log_0","data": 32767},
+      {"item": "biomesoplenty:log_1","data": 32767},
+      {"item": "biomesoplenty:log_2","data": 32767},
+      {"item": "biomesoplenty:log_3","data": 32767},
+      {"item": "biomesoplenty:log_4","data": 32767},
+      {"item": "rustic:log","data": 32767}
+    ],
+    "name": "overworldNatureLog"
+  },
+  {
+    "ingredient": [
+      {"item": "sevendaystomine:oakplanksframe","data": 32767},
+      {"item": "sevendaystomine:birchplanksframe","data": 32767},
+      {"item": "sevendaystomine:spruceplanksframe","data": 32767},
+      {"item": "sevendaystomine:jungleplanksframe","data": 32767},
+      {"item": "sevendaystomine:acaciaplanksframe","data": 32767},
+      {"item": "sevendaystomine:darkoakplanksframe","data": 32767}
+    ],
+    "name": "WoodenFrame"
+  }
+]

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:planks"
+      },
+      "title": {
+        "translate": "tile.wood.name"
+      },
+      "description": {
+        "translate": "ftg.primaeval.IV.planks.desc"
+      },
+      "x": 4,
+      "y": 0
+    },
+    "parent": "far:primaeval/3_craftingtable",
+    "idea": {
+      "amount": 3,
+      "ingredients": [
+        "sevendaystomine:woodplank",
+        "#WoodenFrame",
+        {"type": "forge:ore_dict","ore": "plankWood"}
+      ]
+    },
+    "unlock": [
+        {"type": "forge:ore_dict","ore": "plankWood"}
+    ]
+}

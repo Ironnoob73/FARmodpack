@@ -1,0 +1,7 @@
+setIcon(<sevendaystomine:stoneaxe>)
+setTranslatedTitle("ftg.primaeval.I.stonetool.name")
+setTranslatedDescription("ftg.primaeval.I.stonetool.desc")
+addParent("far:i/A01root")
+setPos(30,0)
+criteria = addCriteria("get_tool", "minecraft:inventory_changed")
+criteria.addItem("sevendaystomine:stoneaxe")

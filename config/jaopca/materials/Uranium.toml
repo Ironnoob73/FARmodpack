@@ -13,3 +13,9 @@
 	#The color of this material.
 	color = 6199628
 
+[magneticraft]
+	#The default byproduct material to output in Magneticraft's grinder.
+	grinderByproduct = "minecraft:gravel"
+	#The default byproduct material to output in Magneticraft's sluice box.
+	sluiceBoxByproduct = "minecraft:cobblestone"
+

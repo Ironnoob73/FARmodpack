@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "sevendaystomine:woodplank"
+      },
+      "title": {
+        "translate": "ftg.primaeval.II.wood.name"
+      },
+      "description": {
+        "translate": "far.quest.category.i.task.ii.log.subtitle"
+      },
+      "x": 2,
+      "y": 0
+    },
+    "parent": "far:primaeval/1_stonetool",
+    "unlock": [
+      "minecraft:stick",
+      "sevendaystomine:woodplank",
+      "randomthings:blockofsticks",
+      "ftgumod:idea_table",
+      "#overworldNatureLog",
+      "sevendaystomine:large_rock",
+      "minecraft:wooden_pickaxe",
+      "sevendaystomine:scrapiron",
+      "sevendaystomine:emptycan"
+    ]
+}

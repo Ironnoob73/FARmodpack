@@ -1,6 +1,6 @@
 
 {
-  "ID": 286,
+  "ID": 291,
   "Name": "Outer Space 4",
   "Resource Location": "zollerngalaxy:outer space 4",
   "Class": "micdoodle8.mods.galacticraft.api.prefab.world.gen.BiomeAdaptive",
@@ -13,10 +13,10 @@
   "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-  "Water Color": "159",
+  "Water Color": "255",
   "Temperature": 0.5,
   "Humidity": 0.5,
-  "Water Tint": 159,
+  "Water Tint": 255,
   "Enable Rain": false,
   "Enable Snow": true,
   "Dictionary Types": [

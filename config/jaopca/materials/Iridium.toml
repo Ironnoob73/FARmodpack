@@ -23,3 +23,13 @@
 	#The output chance of the sieve recipes added using a diamond mesh.
 	sieveDiamondChance = 0.15000000596046448
 
+[magneticraft]
+	#The default byproduct material to output in Magneticraft's grinder.
+	grinderByproduct = "minecraft:gravel"
+	#The default byproduct material to output in Magneticraft's sluice box.
+	sluiceBoxByproduct = "minecraft:cobblestone"
+
+[hbm]
+	#The default byproduct material to output in HBMNTM's centrifuge.
+	byproduct = "minecraft:gravel"
+

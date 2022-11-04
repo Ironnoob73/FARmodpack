@@ -9,7 +9,7 @@
 		"{far.quest.category.i.task.iii.craftingtable.description0}"
 	],
 	dependencies: [
-		"f70cf16f"
+		"c67c4037"
 	],
 	tasks: [{
 		uid: "599887af",

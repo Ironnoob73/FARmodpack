@@ -9,7 +9,7 @@
 		"{far.quest.category.i.task.ii.log.description}"
 	],
 	dependencies: [
-		"d637c7f5"
+		"8801f82b"
 	],
 	tasks: [{
 		uid: "54fb532c",
@@ -28,13 +28,34 @@
 				}
 			}
 		}],
+		consume_items: false,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "c630a9c4",
+		type: "item",
+		items: [{
+			item: "ftgumod:parchment_empty"
+		}],
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "50d8b885",
 		type: "item",
 		title: "立即提供足够前期发展的木头！惊不惊喜？",
+		auto: "disabled",
 		item: "minecraft:log",
 		count: 50
+	},
+	{
+		uid: "99fc987c",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "ftgumod:parchment_research",
+			tag: {
+				FTGU: "far:primaeval/2_wood"
+			}
+		}
 	}]
 }

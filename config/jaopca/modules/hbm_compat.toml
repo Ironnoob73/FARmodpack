@@ -1,0 +1,11 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have anvil to plate recipes added. (Why are press recipes hardcoded)
+	anvilToPlateMaterialBlacklist = []
+	#The materials that should not have crystallizing to material recipes added.
+	toCrystalMaterialBlacklist = []
+

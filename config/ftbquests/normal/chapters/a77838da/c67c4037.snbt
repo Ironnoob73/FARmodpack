@@ -1,0 +1,21 @@
+{
+	disable_toast: true,
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"f70cf16f"
+	],
+	tasks: [{
+		uid: "23c8d4aa",
+		type: "item",
+		items: [{
+			item: "ftgumod:idea_table"
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "aa32e5bd",
+		type: "item",
+		item: "minecraft:feather"
+	}]
+}

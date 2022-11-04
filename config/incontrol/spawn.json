@@ -1,6 +1,6 @@
 [
   {
-    "mob":["rewired:cyberskeleton","quark:dweller","quark:ashen"],
+    "mob":["rewired:cyberskeleton","quark:dweller","quark:ashen","sevendaystomine:survivor","sevendaystomine:bandit"],
     "onjoin":true,
     "dimension":0,
     "result":"deny"

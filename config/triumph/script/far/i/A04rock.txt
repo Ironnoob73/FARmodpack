@@ -1,0 +1,7 @@
+setIcon(<sevendaystomine:large_rock>)
+setTranslatedTitle("far.advancements.category.i.rock.title")
+setTranslatedDescription("far.advancements.category.i.rock.desc")
+addParent("far:i/A03wood")
+setPos(90,-15)
+criteria = addCriteria("break_rock", "triumph:player_break_block")
+criteria.setBlock(<sevendaystomine:large_rock>)

@@ -1,7 +1,7 @@
 {
 	title: "{far.quest.category.i.task.iiitvii.orechunk.title}",
 	icon: "exnihilocreatio:item_ore_copper 1 1",
-	x: 2.8d,
+	x: 3.15d,
 	y: 1.05d,
 	shape: "rsquare",
 	description: "{far.quest.category.i.task.iiitvii.orechunk.subtitle}",

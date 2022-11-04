@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "futuremc:campfire"
+      },
+      "title": {
+        "translate": "tile.futuremc.campfire.name"
+      },
+      "description": {
+        "translate": "far.advancements.category.i.campfire.desc"
+      },
+      "x": 3,
+      "y": 1
+    },
+    "parent": "far:primaeval/3_craftingtable",
+    "idea": {
+      "amount": 3,
+      "ingredients": [
+        "minecraft:stick",
+        "sevendaystomine:woodplank",
+        "minecraft:coal"
+      ]
+    },
+    "unlock": [
+      "futuremc:campfire",
+      "minecraft:torch",
+      {"item":"minecraft:coal","data":1}
+    ]
+}

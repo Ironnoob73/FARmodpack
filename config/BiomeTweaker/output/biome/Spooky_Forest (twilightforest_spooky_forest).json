@@ -1,6 +1,6 @@
 
 {
-  "ID": 321,
+  "ID": 333,
   "Name": "Spooky Forest",
   "Resource Location": "twilightforest:spooky_forest",
   "Class": "twilightforest.biomes.TFBiomeSpookyForest",
@@ -23,8 +23,8 @@
     "TWILIGHT",
     "FOREST",
     "SPOOKY",
-    "DENSE",
-    "DEAD"
+    "DEAD",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -105,6 +105,54 @@
     {
       "Entity Class": "twilightforest.entity.EntityTFSkeletonDruid",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityBloatedZombie",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityPlaguedNurse",
+      "Weight": 60,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieCrawler",
+      "Weight": 50,
+      "Min Group Count": 2,
+      "Max Group Count": 9
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombiePig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieMiner",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFeralZombie",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

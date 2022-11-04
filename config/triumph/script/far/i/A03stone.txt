@@ -1,7 +1,0 @@
-setIcon(<minecraft:cobblestone>)
-setTranslatedTitle("far.advancements.category.i.stone.title")
-setTranslatedDescription("far.advancements.category.i.stone.description")
-addParent("far:i/A02crafting_table")
-setPos(50,0)
-criteria = addCriteria("get_stone", "minecraft:inventory_changed")
-criteria.addItem("minecraft:cobblestone")

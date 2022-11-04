@@ -1,0 +1,496 @@
+[
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:gearbox"
+    },
+    "input": [
+      "iri",
+      "rbr",
+      "iri"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "b": {
+        "item": "efab:base"
+      },
+      "i": "ingotIron"
+    },
+    "time": 0
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:boiler"
+    },
+    "input": [
+      "ici",
+      "ibi",
+      "iii"
+    ],
+    "inputmap": {
+      "b": {
+        "item": "efab:base"
+      },
+      "c": {
+        "item": "minecraft:air",
+        "amount": 0
+      },
+      "i": "ingotIron"
+    },
+    "time": 20,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:tank"
+    },
+    "input": [
+      "iii",
+      "i i",
+      "iii"
+    ],
+    "inputmap": {
+      "i": "ingotIron"
+    },
+    "time": 10,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:tank2"
+    },
+    "input": [
+      "iii",
+      "i i",
+      "iii"
+    ],
+    "inputmap": {
+      "i": "blockIron"
+    },
+    "time": 50,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:steamengine"
+    },
+    "input": [
+      "ici",
+      "ibi",
+      "ici"
+    ],
+    "inputmap": {
+      "b": {
+        "item": "efab:base"
+      },
+      "c": {
+        "item": "minecraft:piston"
+      },
+      "i": "ingotIron"
+    },
+    "time": 20,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:pipes"
+    },
+    "input": [
+      "ii ",
+      "ii ",
+      "   "
+    ],
+    "inputmap": {
+      "i": "ingotIron"
+    },
+    "time": 10,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:storage"
+    },
+    "input": [
+      "iii",
+      " c ",
+      "iii"
+    ],
+    "inputmap": {
+      "c": {
+        "item": "minecraft:chest"
+      },
+      "i": "ingotIron"
+    },
+    "time": 40,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:crafter"
+    },
+    "input": [
+      "iii",
+      " c ",
+      "iii"
+    ],
+    "inputmap": {
+      "c": {
+        "item": "minecraft:crafting_table"
+      },
+      "i": "ingotIron"
+    },
+    "time": 40,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:rfcontrol"
+    },
+    "input": [
+      "rrr",
+      "rbr",
+      "rrr"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "b": {
+        "item": "efab:base"
+      }
+    },
+    "time": 100,
+    "tiers": [
+      "STEAM"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:power_optimizer"
+    },
+    "input": [
+      "rrr",
+      "rbr",
+      "rrr"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone_block"
+      },
+      "b": {
+        "item": "efab:base"
+      }
+    },
+    "time": 1000,
+    "tiers": [
+      "RF",
+      "COMPUTING"
+    ],
+    "rfpertick": 50
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:processor"
+    },
+    "input": [
+      "rqr",
+      "rbr",
+      "rqr"
+    ],
+    "inputmap": {
+      "q": {
+        "item": "minecraft:quartz"
+      },
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "b": {
+        "item": "efab:base"
+      }
+    },
+    "time": 100,
+    "tiers": [
+      "RF"
+    ],
+    "rfpertick": 10
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:monitor"
+    },
+    "input": [
+      "dqd",
+      "qbq",
+      "dqd"
+    ],
+    "inputmap": {
+      "q": {
+        "item": "minecraft:quartz"
+      },
+      "b": {
+        "item": "efab:base"
+      },
+      "d": "dyeBlack"
+    },
+    "time": 100,
+    "tiers": [
+      "RF",
+      "COMPUTING"
+    ],
+    "rfpertick": 10
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:autocrafting_monitor"
+    },
+    "input": [
+      "rqr",
+      "qbq",
+      "dqd"
+    ],
+    "inputmap": {
+      "q": {
+        "item": "minecraft:quartz"
+      },
+      "b": {
+        "item": "efab:base"
+      },
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "d": "dyeBlack"
+    },
+    "time": 100,
+    "tiers": [
+      "RF",
+      "COMPUTING"
+    ],
+    "rfpertick": 10
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:rfstorage"
+    },
+    "input": [
+      "rRr",
+      "RbR",
+      "rRr"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "b": {
+        "item": "efab:base"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "time": 100,
+    "tiers": [
+      "STEAM",
+      "LIQUID"
+    ],
+    "fluids": [
+      {
+        "fluid": "lava",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "efab:rfstorage_advanced"
+    },
+    "input": [
+      "rRr",
+      "RbR",
+      "rRr"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "b": {
+        "item": "efab:rfstorage"
+      },
+      "R": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "time": 500,
+    "tiers": [
+      "RF"
+    ],
+    "rfpertick": 200
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "minecraft:furnace"
+    },
+    "input": [
+      "ccc",
+      "c c",
+      "ccc"
+    ],
+    "inputmap": {
+      "c": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "time": 0
+  },
+  {
+    "type": "shapeless",
+    "output": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "input": [
+      "r"
+    ],
+    "inputmap": {
+      "r": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "time": 100,
+    "tiers": [
+      "RF"
+    ],
+    "rfpertick": 10
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "minecraft:piston"
+    },
+    "input": [
+      "ppp",
+      "crc",
+      "cic"
+    ],
+    "inputmap": {
+      "p": "plankWood",
+      "r": {
+        "item": "minecraft:redstone"
+      },
+      "c": "cobblestone",
+      "i": "ingotIron"
+    },
+    "time": 20,
+    "tiers": [
+      "GEARBOX"
+    ]
+  },
+  {
+    "type": "shaped",
+    "output": {
+      "item": "minecraft:obsidian"
+    },
+    "input": [
+      "ccc",
+      "ccc",
+      "ccc"
+    ],
+    "inputmap": {
+      "c": "cobblestone"
+    },
+    "time": 60,
+    "tiers": [
+      "STEAM",
+      "RF",
+      "LIQUID"
+    ],
+    "rfpertick": 10,
+    "fluids": [
+      {
+        "fluid": "water",
+        "amount": 1000
+      },
+      {
+        "fluid": "lava",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "type": "shapeless",
+    "output": {
+      "item": "minecraft:water_bucket"
+    },
+    "input": [
+      "b"
+    ],
+    "inputmap": {
+      "b": {
+        "item": "minecraft:bucket"
+      }
+    },
+    "time": 40,
+    "tiers": [
+      "LIQUID"
+    ],
+    "fluids": [
+      {
+        "fluid": "water",
+        "amount": 1000
+      }
+    ]
+  },
+  {
+    "type": "shapeless",
+    "output": {
+      "item": "minecraft:lava_bucket"
+    },
+    "input": [
+      "b"
+    ],
+    "inputmap": {
+      "b": {
+        "item": "minecraft:bucket"
+      }
+    },
+    "time": 40,
+    "tiers": [
+      "LIQUID"
+    ],
+    "fluids": [
+      {
+        "fluid": "lava",
+        "amount": 1000
+      }
+    ]
+  }
+]

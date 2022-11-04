@@ -24,5 +24,10 @@
 		uid: "97fb5abb",
 		type: "ftbmoney:money",
 		ftb_money: 5L
+	},
+	{
+		uid: "e620269b",
+		type: "item",
+		item: "ftgumod:research_book"
 	}]
 }

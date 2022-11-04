@@ -1,6 +1,6 @@
 
 {
-  "ID": 297,
+  "ID": 302,
   "Name": "SpaceMidPlains",
   "Resource Location": "galaxyspace:spacemidplains",
   "Class": "asmodeuscore.core.astronomy.dimension.world.gen.biome.ACBiomeGen",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "COLD",
-    "DEAD",
-    "DRY"
+    "DRY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

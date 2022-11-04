@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "title": {
+        "translate": "tile.workbench.name"
+      },
+      "description": {
+        "translate": "ftg.primaeval.III.craftingtable.desc"
+      },
+      "x": 3,
+      "y": 0
+    },
+    "parent": "far:primaeval/2_wood",
+    "idea": {
+      "amount": 3,
+      "ingredients": [
+        "sevendaystomine:scrapiron",
+        "sevendaystomine:woodplank",
+        "randomthings:blockofsticks"
+      ]
+    },
+    "unlock": [
+      "minecraft:crafting_table",
+      "cyclicmagic:block_fragile",
+      "#WoodenFrame",
+      "minecraft:cobblestone",
+      "sevendaystomine:bellows"
+    ]
+}

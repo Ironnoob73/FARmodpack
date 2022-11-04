@@ -14,6 +14,7 @@
 !/optionsshaders.txt
 !/README.md
 !/structures/**
+!/bansoukou/**
 /.mixin.out
 /.replay_cache
 /1.12.2EC-C1-natives
@@ -54,4 +55,5 @@
 /usercache.json
 /usernamecache.json
 resourcepacks/Minecraft-Mod-Language-Modpack.zip
-/config/BiomeTweaker/output/
+config/BiomeTweaker/output/
+config/randomportals/portal_types/RandomPortals-example.zip

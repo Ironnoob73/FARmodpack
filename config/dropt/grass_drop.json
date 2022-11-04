@@ -1,0 +1,17 @@
+{"rules": [
+    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:0"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
+    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:11"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:vine"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
+
+    {"match": {"blocks": {"blocks": ["minecraft:tallgrass:*","biomesoplenty:plant_0:1"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "hoe;0;1"}}},"dropStrategy":"UNIQUE","drops": [
+        {"selector":{"weight":{"value":50}}},
+        {"selector":{"weight":{"value":25}},"item":{"items":["exnihilocreatio:item_material:4"]}},
+        {"selector":{"weight":{"value":6}},"item":{"items":["exnihilocreatio:item_seed_oak"]}},
+        {"selector":{"weight":{"value":6}},"item":{"items":["exnihilocreatio:item_seed_birch"]}},
+        {"selector":{"weight":{"value":12}},"item":{"items":["minecraft:wheat_seeds"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:tallgrass:*","biomesoplenty:plant_0:1"]}},"replaceStrategy":"REPLACE_ALL_IF_SELECTED","drops": [
+        {"selector":{"weight":{"value":25}}},
+        {"selector":{"weight":{"value":25}},"item":{"items":["exnihilocreatio:item_material:4"]}},
+        {"selector":{"weight":{"value":50}},"item":{"items":["sevendaystomine:plantfiber"]}}]}
+]}

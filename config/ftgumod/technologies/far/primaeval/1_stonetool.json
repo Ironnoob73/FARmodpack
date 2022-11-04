@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "sevendaystomine:stoneaxe"
+      },
+      "title": {
+        "translate": "ftg.primaeval.I.stonetool.name"
+      },
+      "description": {
+        "translate": "ftg.primaeval.I.stonetool.desc"
+      },
+      "x": 1,
+      "y": 0
+    },
+    "parent": "far:primaeval/0_root",
+    "unlock": [
+      "sevendaystomine:stoneaxe",
+      "sevendaystomine:stoneshovel",
+      "sevendaystomine:crudeclub",
+      "sevendaystomine:crude_bow",
+      "sevendaystomine:fiber_hat",
+      "sevendaystomine:fiber_chestplate",
+      "sevendaystomine:fiber_leggings",
+      "sevendaystomine:fiber_boots"
+    ]
+}
