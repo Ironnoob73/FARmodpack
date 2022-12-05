@@ -1,0 +1,26 @@
+{"rules": [
+    {"match": {"blocks": {"blocks": ["minecraft:planks"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:planks:1"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks:1"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:planks:2"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks:2"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:planks:3"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks:3"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:planks:4"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks:4"]}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:planks:5"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["minecraft:planks:5"]}}]},
+    {"match": {"blocks": {"blocks": ["biomesoplenty:planks_0:*"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "BLACKLIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["sevendaystomine:woodplank"],"quantity": {"min": 1,"max": 4}}}]},
+    {"match": {"blocks": {"blocks": ["rustic:planks:*"]},
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "BLACKLIST","harvestLevel": "axe;0;-1"}}},"drops": [
+        {"item": {"items": ["sevendaystomine:woodplank"],"quantity": {"min": 1,"max": 4}}}]}
+]}

@@ -1,0 +1,59 @@
+{
+    "name": "原始手工艺研究",
+    "icon": "ftgumod:parchment_empty",
+    "category": "start",
+    "sortnum": "3",
+    "turnin":"far:i/A04wood",
+    "pages": [
+        {
+            "type": "text",
+            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。$(br)  另外我还需要一些$(item)纸/$来进行研究，在一些废弃的公路上可以找到很多。"
+        },
+        {
+            "type": "crafting",
+            "title":"打个草稿",
+            "recipe":"crafttweaker:parchment_empty",
+            "text": "  使用两根木棍和一张纸合成羊皮纸。在制作工具前，也许我应该把它画下来来确定它大概是什么样子？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究，研究完成后可别把羊皮纸丢了。"
+        },
+        {
+            "type": "text",
+            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"寸石",
+            "recipe":"sevendaystomine:stone_axe",
+            "recipe2":"sevendaystomine:stone_shovel",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"比毛衣扎人",
+            "recipe":"crafttweaker:fiber_hat_half",
+            "recipe2":"crafttweaker:fiber_chestplate_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":" ",
+            "recipe":"crafttweaker:fiber_leggings_half",
+            "recipe2":"crafttweaker:fiber_boots_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"蛮力攻击",
+            "recipe":"sevendaystomine:crude_club",
+            "recipe2":"crafttweaker:crude_bow_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"木板",
+            "recipe":"crafttweaker:woodplanks_by_axe",
+            "text": "  容易被加工使用的木板",
+            "advancement":"far:i/A04wood"
+        }
+    ]
+}

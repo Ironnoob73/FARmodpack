@@ -1,7 +1,0 @@
-setIcon(<minecraft:crafting_table>)
-setTitle("Just Craft")
-setTranslatedDescription("far.advancements.category.i.craftingtable.description")
-addParent("far:i/A04rock")
-setShowToast(false)
-setPos(120,0)
-addCriteria("impossible","minecraft:impossible")

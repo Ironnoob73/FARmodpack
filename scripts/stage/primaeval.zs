@@ -29,9 +29,9 @@ recipes.addShapedMirrored("stickblock_weak",<randomthings:blockofsticks>,[
 [fiber,stick],
 [stick,fiber]]);
 recipes.remove(<minecraft:wooden_pickaxe>);
-recipes.addShapedMirrored("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
+/*recipes.addShapedMirrored("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
 [fiber,plank],
-[null,stick]]);
+[null,stick]]);*/
 recipes.addShapeless("scrapiron_from_emptycan",<sevendaystomine:scrapiron>,[<sevendaystomine:emptycan>]);
 
 recipes.remove(<ftgumod:idea_table>);

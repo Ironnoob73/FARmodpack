@@ -1,1 +1,5 @@
 item.netherquartz.name=石英
+tile.anvil.name=附魔铁砧
+tile.anvil.intact.name=附魔铁砧
+tile.anvil.slightlyDamaged.name=轻微损坏的附魔铁砧
+tile.anvil.veryDamaged.name=严重损坏的附魔铁砧

@@ -51,16 +51,20 @@
     "playerTweaks": {
       "value": true,
       "comment": "If true, player hands will be modified when holding guns, and hands and legs will be modified when riding in vehicles.  Set this to false if mods cause issues, like two-hand rendering or player model issues."
+    },
+    "customMainMenu": {
+      "value": false,
+      "comment": "Whether or not the custom main menu should replace the vanilla main menu."
     }
   },
   "controlSettings": {
-    "mouseYoke": {
-      "value": false,
-      "comment": "Enable mouse yoke for vehicles? Prevents looking around unless unlocked.  Think MCHeli controls."
-    },
     "kbOverride": {
       "value": true,
       "comment": "Should keyboard controls be ignored when a joystick control is mapped?  Leave true to free up the keyboard while using a joysick."
+    },
+    "north360": {
+      "value": true,
+      "comment": "If true, instruments will represent North as 360 degrees, instead of the Minecraft default of 180. Allows using the heading system that real-world pilots and militaries do."
     },
     "simpleThrottle": {
       "value": true,
@@ -85,10 +89,6 @@
     "classicJystk": {
       "value": false,
       "comment": "If true, the classic controller code will be used.  Note: THIS CODE MAY CRASH MOBILE DEVICES!  Also note that switching will probably mess up your keybinds.  Only do this if you are having issues with a joystick or controller not being recognized.  After changing this setting, reboot the game to make it take effect."
-    },
-    "north360": {
-      "value": true,
-      "comment": "If true, instruments will represent North as 360 degrees, instead of the Minecraft default of 180. Allows using the heading system that real-world pilots and militaries do."
     },
     "steeringControlRate": {
       "value": 2.0,

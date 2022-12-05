@@ -1,12 +1,13 @@
 far.advancements.category.i.root.title=Beginning
 far.advancements.category.i.root.desc=You are on an endless journey.
-far.advancements.category.i.wood.desc=Get wood.
+far.advancements.category.i.scavenger.title=Scavenger
+far.advancements.category.i.wood.desc=Get wood by cutting down tree.
 far.advancements.category.i.campfire.title=Light a campfire
 far.advancements.category.i.campfire.desc=Used to cook food and gain heat.
 far.advancements.category.i.idea.title=Inspiration
 far.advancements.category.i.idea.desc=Do a little research to find the recipe in memory.
 far.advancements.category.i.rock.title=Look, a Rock!
-far.advancements.category.i.rock.desc=Break large rocks with a wooden pickaxe. Why is there scrap iron in it?
+far.advancements.category.i.rock.desc=Break large rocks with a Stone Axe. Why is there scrap iron in it?
 far.advancements.category.i.craftingtable.desc=Elementary Advanced.
 far.advancements.category.i.stone.title=Stone age
 far.advancements.category.i.stone.desc=Get cobblestone, I guess the wooden pickaxe in your eyes have only three points of durability.

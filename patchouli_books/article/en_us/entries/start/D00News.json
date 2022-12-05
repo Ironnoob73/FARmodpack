@@ -1,0 +1,20 @@
+{
+    "name": "News-Immigration program",
+    "icon": "minecraft:filled_map",
+    "category": "start",
+    "sortnum": "4",
+    "pages": [
+        {
+            "type": "text",
+            "text": "  During my trip I found some newspapers with some useful information on it to help me understand what had happened during the decades of hibernation..."
+        },
+        {
+            "type": "text",
+            "text": "$(l)$(4) Integrated Control Bureau Announces Cosmic Colonization Plan/$$(br)  $(l)Losted Hope News /$At about 14:00 today, after three years of discussions, the headquarters of the Integrated Control Bureau officially approved the launch of the space migration plan. $(br) Due to the deteriorating global environment, the future of human survival is worrying. After a rigorous analysis by several scientific experts, it was proposed that the earth"
+        },
+        {
+            "type": "text",
+            "text": "was no longer suitable for human survival, and it was recommended to immediately migrate to Kepler-22b.$(br)$(3)[The later plot felt too awkward so I deleted it for the time being...]"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "§oSurvive Guide",
+    "icon": "minecraft:book",
+    "category": "start",
+    "sortnum": "5",
+    "pages": [
+        {
+            "type": "text",
+            "text": "  A book that I accidentally turned over, written about human characteristics and how to eat, sleep and other activities, it should be said that it is common sense..."
+        },
+        {
+            "type": "text",
+            "text": "$(l) About humans/$$(br) Humans are thermostatic animals that have a pronounced sense of changes in ambient temperature, and can cause illness and harm if they stay in an environment that is too cold or too hot. You can light a campfire to increase the temperature. $(br) Water is very important to humans, and if you want to survive in the wild, don't forget to look for a water source. If there is no suitable way to filter water, you can directly$(3) sneak + right-click"
+        },
+        {
+            "type": "text",
+            "text": "the bottom of the water/$, but this will dehydrate you, so once you choose this way of drinking, you need to replenish your water at any time.$(br)  Food is equally essential for humans, and a variety of diets contributes to health. $(3) Each 10 different foods consumed can increase the upper limit of 1 blood volume. /$$(br2)$(l)Natural environment/$$(br) A day lasts about 80 minutes, which$(3) is 4 times more than the vanilla."
+        },
+        {
+            "type": "text",
+            "text": "  Underground has rich ore resources, such as: $(br)$(thing) coal, copper, aluminum, tin, iron, lead, silver, gold, nickel, lapis, redstone, black quartz /$, etc., after geological exploration, there are also rare ores such as $(thing) diamonds/$ under the bedrock layer. $(br) will spawn special gems in some biomes:$(li)$(#eb0000)Ruby/$ generated in Desert$(br)$(li)$(#eb6b00)Amber/$ generated in Forest$(br)$(li)$(#ebeb00)Topaz/$ generated in Jungle$(br)$(li)$(#00eb00)Peridot/$ generated in Plain$(br)$(li)$(#00ebeb)Malachite/$ generated in"
+        },
+        {
+            "type": "text",
+            "text": "Swamp$(br)$(li)$(#0000eb)Sapphire/$ generated in Wetland$(br)$(li)$(#eb00eb)Tanzanite/$ generated in Cold$(br)$(li)$(#6beb00)Emerald/$ generated in Mountain"
+        }
+    ]
+}

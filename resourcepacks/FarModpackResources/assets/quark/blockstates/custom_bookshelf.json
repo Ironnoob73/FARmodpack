@@ -1,0 +1,14 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "chisel:cube_2_layer_sides",
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"variant=bookshelf_spruce": [{ "textures": { "side": "quark:blocks/bookshelf_spruce", "all": "minecraft:blocks/planks_spruce" } }],
+		"variant=bookshelf_birch": [{ "textures": { "side": "quark:blocks/bookshelf_birch", "all": "minecraft:blocks/planks_birch" } }],
+		"variant=bookshelf_jungle": [{ "textures": { "side": "quark:blocks/bookshelf_jungle", "all": "minecraft:blocks/planks_jungle" } }],
+		"variant=bookshelf_acacia": [{ "textures": { "side": "quark:blocks/bookshelf_acacia", "all": "minecraft:blocks/planks_acacia" } }],
+		"variant=bookshelf_dark_oak": [{ "textures": { "side": "quark:blocks/bookshelf_dark_oak", "all": "minecraft:blocks/planks_big_oak" } }]
+	}
+}

@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
+    "THEMED_TREES",
     "BIRCH_TREES",
-    "THEMED_TREES"
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -247,6 +247,18 @@
       "Weight": 15,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "com.mr208.rewired.common.entities.EntityCyberSkeleton",

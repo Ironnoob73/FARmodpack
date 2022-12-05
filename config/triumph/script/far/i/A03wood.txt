@@ -1,7 +1,0 @@
-setIcon(<sevendaystomine:woodplank>)
-setTitle("§oCaveman hate tree!")
-setTranslatedDescription("far.advancements.category.i.wood.desc")
-addParent("far:i/A02stonetool")
-setPos(60,0)
-criteria = addCriteria("break_log","triumph:player_break_block")
-criteria.setBlock(<ore:logWood>)

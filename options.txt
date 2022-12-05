@@ -97,7 +97,6 @@ key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -124,25 +123,24 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:0
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
+key_key.fart.desc:34
 key_keybind.togglehelmet.name:73
 key_keybind.togglechest.name:77
 key_keybind.togglelegs.name:81
 key_keybind.toggleboots.name:36
-key_key.jetpack_activate:36
-key_key.jetpack_hover:35
-key_key.jetpack_hud:22
-key_key.fsb_flashlight:77
-key_key.categories.hbm.toggleBack:46
-key_key.categories.hbm.toggleHUD:47
-key_key.categories.hbm.reload:19
-key_key.hooked.fire:0
+key_key.hooked.fire:23
 key_neat.keybind.toggle:0
+key_openblocks.keybind.vario_switch:47
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
 key_key.toggle_shaders:0
+key_key.torcherino.useage_key:42
 key_psimisc.keybind:46
 key_keys.quantumstorage.openbag:0
 key_key.toggleFoVChanges:51:SHIFT
@@ -162,7 +160,6 @@ key_rpsideas.kb.switchslot09:0
 key_rpsideas.kb.switchslot10:0
 key_rpsideas.kb.switchslot11:0
 key_rpsideas.kb.switchslot12:0
-key_key.torcherino.useage_key:42
 key_key.xat.trinket_gui.desc:0
 key_key.xat.trinket_target.desc:0
 key_key.xat.trinket_toggle_effect.desc:43
@@ -244,7 +241,7 @@ key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
-key_key.ftgumod.open:48
+key_key.ftgumod.open:0
 key_Open configuration screen:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
@@ -261,6 +258,9 @@ key_key.inventoryhud.toggleall:0
 key_invtweaks.key.sort:0
 key_jecalculation.key.gui_craft:0
 key_jecalculation.key.gui_math:0
+key_Open Matter Scanner GUI:46
+key_Android Ability key:45
+key_Android Switch Ability key:19
 key_key.nekeys.push_to_talk:56
 key_key.nekeys.preset_1:79
 key_key.nekeys.preset_2:80
@@ -278,10 +278,6 @@ key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.securitycraft.cameraZoomIn:13
-key_key.securitycraft.cameraZoomOut:12
-key_key.securitycraft.cameraEmitRedstone:19:SHIFT
-key_key.securitycraft.cameraActivateNightVision:49
 key_key.reload.desc:19
 key_key.camera.width.increase.desc:77
 key_key.camera.width.decrease.desc:75

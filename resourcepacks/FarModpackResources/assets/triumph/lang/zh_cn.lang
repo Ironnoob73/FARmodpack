@@ -1,12 +1,13 @@
 far.advancements.category.i.root.title=开端
 far.advancements.category.i.root.desc=你已踏上无尽之途
-far.advancements.category.i.wood.desc=获得木头。
+far.advancements.category.i.scavenger.title=拾荒者
+far.advancements.category.i.wood.desc=通过砍树获得木头。
 far.advancements.category.i.campfire.title=燃起篝火
 far.advancements.category.i.campfire.desc=用来烹饪食物和获取热量。
 far.advancements.category.i.idea.title=灵感
 far.advancements.category.i.idea.desc=稍做研究，找到记忆中的配方。
 far.advancements.category.i.rock.title=顽石
-far.advancements.category.i.rock.desc=用木镐敲碎大岩石。为什么里面会含废铁？
+far.advancements.category.i.rock.desc=用石斧敲碎大岩石。为什么里面会含废铁？
 far.advancements.category.i.craftingtable.desc=初等进阶。
 far.advancements.category.i.stone.title=石器时代
 far.advancements.category.i.stone.desc=获得圆石，我猜你眼里的木镐只有三点耐久。

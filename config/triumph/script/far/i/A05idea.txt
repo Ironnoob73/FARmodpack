@@ -1,0 +1,8 @@
+setIcon(<ftgumod:idea_table>)
+setTranslatedTitle("far.advancements.category.i.idea.title")
+setTranslatedDescription("far.advancements.category.i.idea.desc")
+addParent("far:i/A04wood")
+setPos(120,15)
+setFrameType("goal")
+criteria = addCriteria("idea_table", "minecraft:inventory_changed")
+criteria.addItem("ftgumod:idea_table")

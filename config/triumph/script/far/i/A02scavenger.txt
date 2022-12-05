@@ -1,0 +1,6 @@
+setIcon(<sevendaystomine:smallstone>)
+setTranslatedTitle("far.advancements.category.i.scavenger.title")
+setTranslatedDescription("far.quest.category.i.task.ia.nature_resources.subtitle")
+addParent("far:i/A01root")
+setPos(30,0)
+addCriteria("impossible","minecraft:impossible")

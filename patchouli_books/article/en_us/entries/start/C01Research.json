@@ -1,0 +1,13 @@
+{
+    "name": "日记-手工艺研究",
+    "icon": "minecraft:paper",
+    "category": "start",
+    "sortnum": "3",
+    "turnin":"far:i/A04wood",
+    "pages": [
+        {
+            "type": "text",
+            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。"
+        }
+    ]
+}

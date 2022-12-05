@@ -1,0 +1,7 @@
+{"rules": [
+    {"match": {"blocks": {"blocks": ["sevendaystomine:garbage:*"]}},"drops": [{"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 1,"max": 2}}},
+    {"selector": {"fortuneLevelRequired": 1},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 2,"max": 4}}},
+    {"selector": {"fortuneLevelRequired": 2},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 4,"max": 6}}},
+    {"selector": {"fortuneLevelRequired": 3},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 6,"max": 8}}},
+    {"selector": {"weight": {"value": 2147483646},"silktouch": "REQUIRED"},"item": {"items" : ["sevendaystomine:garbage"]}}]}
+]}

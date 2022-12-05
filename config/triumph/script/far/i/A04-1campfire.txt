@@ -1,7 +1,0 @@
-setIcon(<futuremc:campfire>)
-setTranslatedTitle("far.advancements.category.i.campfire.title")
-setTranslatedDescription("far.advancements.category.i.campfire.desc")
-addParent("far:i/A04idea")
-setPos(120,30)
-criteria = addCriteria("get_campfire", "minecraft:inventory_changed")
-criteria.addItem("futuremc:campfire")

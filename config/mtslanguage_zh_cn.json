@@ -368,6 +368,10 @@
       "mts.y2kbutton": {
         "name": "Y2K Button",
         "description": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins."
+      },
+      "mts.charger": {
+        "name": "Vehicle Charger",
+        "description": ""
       }
     },
     "mtsofficialpack": {

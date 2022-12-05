@@ -1,2 +1,6 @@
 item.netherquartz.name=Quartz
 tile.null.name=§c§kDATA ERROR
+tile.anvil.name=Enchantment Anvil
+tile.anvil.intact.name=Enchantment Anvil
+tile.anvil.slightlyDamaged.name=Slightly Damaged Enchantment Anvil
+tile.anvil.veryDamaged.name=Very Damaged Enchantment Anvil

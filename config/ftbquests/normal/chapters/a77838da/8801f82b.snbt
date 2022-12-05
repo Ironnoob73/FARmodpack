@@ -71,7 +71,7 @@
 		uid: "fef4f37a",
 		type: "advancement",
 		auto: "invisible",
-		advancement: "far:i/A02stonetool",
+		advancement: "far:i/A02scavenger",
 		criterion: ""
 	}]
 }
