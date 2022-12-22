@@ -1,6 +1,6 @@
 
 {
-  "ID": 301,
+  "ID": 321,
   "Name": "SpaceLowPlains",
   "Resource Location": "galaxyspace:spacelowplains",
   "Class": "asmodeuscore.core.astronomy.dimension.world.gen.biome.ACBiomeGen",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "DEAD"
+    "DEAD",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

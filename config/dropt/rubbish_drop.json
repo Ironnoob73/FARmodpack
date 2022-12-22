@@ -1,7 +1,11 @@
 {"rules": [
     {"match": {"blocks": {"blocks": ["sevendaystomine:garbage:*"]}},"drops": [{"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 1,"max": 2}}},
-    {"selector": {"fortuneLevelRequired": 1},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 2,"max": 4}}},
-    {"selector": {"fortuneLevelRequired": 2},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 4,"max": 6}}},
-    {"selector": {"fortuneLevelRequired": 3},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 6,"max": 8}}},
-    {"selector": {"weight": {"value": 2147483646},"silktouch": "REQUIRED"},"item": {"items" : ["sevendaystomine:garbage"]}}]}
+        {"selector": {"fortuneLevelRequired": 1},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 2,"max": 4}}},
+        {"selector": {"fortuneLevelRequired": 2},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 4,"max": 6}}},
+        {"selector": {"fortuneLevelRequired": 3},"item": {"items": ["emergingtechnology:plasticwaste"],"quantity": {"min": 6,"max": 8}}},
+        {"selector": {"weight": {"value": 2147483646},"silktouch": "REQUIRED"},"item": {"items" : ["sevendaystomine:garbage"]}}]},
+    {"match": {"blocks": {"blocks": ["sevendaystomine:large_rock:*"]},"drops": {"drops": ["sevendaystomine:scrapiron"]}},
+        "replaceStrategy": "REPLACE_ITEMS","drops": [{}]},
+    {"match": {"blocks": {"blocks": ["sevendaystomine:large_rock:*"]}},"replaceStrategy": "ADD",
+        "drops": [{"item": {"drop": "ALL","items": ["exnihilocreatio:item_ore_iron"],"matchQuantity": {"drops": ["sevendaystomine:scrapiron"]}}}]}
 ]}

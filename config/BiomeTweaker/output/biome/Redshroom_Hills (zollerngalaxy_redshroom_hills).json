@@ -136,12 +136,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
       "Entity Class": "fat_cat.entities.EntityFatCat",
       "Weight": 0,
       "Min Group Count": 1,
@@ -260,6 +254,12 @@
       "Weight": 50,
       "Min Group Count": 2,
       "Max Group Count": 9
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombiePig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",

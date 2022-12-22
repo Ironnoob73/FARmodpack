@@ -1,6 +1,6 @@
 
 {
-  "ID": 306,
+  "ID": 326,
   "Name": "-\u003d|WorldEngine 2|\u003d-",
   "Resource Location": "asmodeuscore:-\u003d|worldengine 2|\u003d-",
   "Class": "asmodeuscore.core.utils.worldengine2.world.biome.WE_Biome",
@@ -48,6 +48,12 @@
       "Weight": 50,
       "Min Group Count": 2,
       "Max Group Count": 9
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombiePig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",

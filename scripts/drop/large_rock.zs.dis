@@ -1,0 +1,6 @@
+events.onBlockHarvestDrops(function(event as PlayerCraftedEvent){
+    event.drops -= <sevendaystomine:scrapiron>;
+});
+/*,
+    {"match": {"blocks": {"blocks": ["sevendaystomine:large_rock:*"]},"drops": {"drops": ["sevendaystomine:scrapiron"]}},"replaceStrategy": "ADD",
+        "drops": [{"item": {"items": ["exnihilocreatio:item_ore_iron"],"matchQuantity": {"drops": ["sevendaystomine:scrapiron"]}}}]}*/

@@ -1,0 +1,1929 @@
+{
+  "Client": {
+    "comment": [
+      "All client-side related stuff is here"
+    ],
+    "value": {
+      "Content settings": {
+        "value": {
+          "Period": {
+            "comment": [
+              "How often you will receive updates",
+              "This option also depends on your Time Unit",
+              "Range < 1 ; 1000 >"
+            ],
+            "value": 5
+          },
+          "Allow periodic updates": {
+            "comment": [
+              "Will peridically check for updates"
+            ],
+            "value": false
+          },
+          "Time unit": {
+            "comment": [
+              "Allowed values:",
+              "# SECONDS",
+              "# MINUTES",
+              "# HOURS"
+            ],
+            "value": "MINUTES"
+          }
+        }
+      },
+      "Scopes": {
+        "comment": [
+          "Configure your reticles here"
+        ],
+        "value": {
+          "Holographic color": {
+            "comment": [
+              "Manages color of holographic reticle"
+            ],
+            "value": "#FFFF0000"
+          },
+          "Red dot variant": {
+            "comment": [
+              "Allowed values:",
+              "# pubgmc:textures/overlay/red_dot_dot.png",
+              "# pubgmc:textures/overlay/red_dot_chevron.png",
+              "# pubgmc:textures/overlay/red_dot_cross.png"
+            ],
+            "value": "pubgmc:textures/overlay/red_dot_dot.png"
+          },
+          "8X scope sensitivity": {
+            "comment": [
+              "Range < 0.01 ; 1 >"
+            ],
+            "value": 0.35
+          },
+          "Holographic variant": {
+            "comment": [
+              "Allowed values:",
+              "# pubgmc:textures/overlay/holographic_normal.png",
+              "# pubgmc:textures/overlay/holographic_large.png",
+              "# pubgmc:textures/overlay/holographic_holosun.png"
+            ],
+            "value": "pubgmc:textures/overlay/holographic_normal.png"
+          },
+          "15X scope sensitivity": {
+            "comment": [
+              "Range < 0.01 ; 1 >"
+            ],
+            "value": 0.15
+          },
+          "Red dot color": {
+            "comment": [
+              "Manages color of red dot reticle"
+            ],
+            "value": "#FFFF0000"
+          },
+          "Glowing reticles": {
+            "comment": [
+              "Reticles will be rendered with full brightness"
+            ],
+            "value": true
+          },
+          "4X scope sensitivity": {
+            "comment": [
+              "Range < 0.01 ; 1 >"
+            ],
+            "value": 0.6
+          },
+          "2X scope sensitivity": {
+            "comment": [
+              "Range < 0.01 ; 1 >"
+            ],
+            "value": 0.85
+          }
+        }
+      },
+      "Overlays": {
+        "comment": [
+          "Overlay rendering options"
+        ],
+        "value": {
+          "Image Overlay Coords": {
+            "value": {
+              "X": {
+                "value": 0
+              },
+              "Y": {
+                "value": 0
+              }
+            }
+          },
+          "Text Overlay Coords": {
+            "value": {
+              "X": {
+                "value": 0
+              },
+              "Y": {
+                "value": 0
+              }
+            }
+          },
+          "Boost Overlay": {
+            "comment": [
+              "Changes boost overlay render style",
+              "Allowed values:",
+              "# TEXT",
+              "# IMAGE"
+            ],
+            "value": "IMAGE"
+          },
+          "Render Armor Icons": {
+            "value": true
+          }
+        }
+      },
+      "Other": {
+        "value": {
+          "Loot render distance": {
+            "comment": [
+              "Distance at which is loot being rendered",
+              "Range < 8 ; 128 >"
+            ],
+            "value": 32
+          },
+          "Zone color": {
+            "value": "#00BAFF"
+          },
+          "Log-In Messages": {
+            "comment": [
+              "Toggle info messages about updates on log-in"
+            ],
+            "value": false
+          }
+        }
+      }
+    }
+  },
+  "Developer mode": {
+    "comment": [
+      "Enables use of some internal tools",
+      "O - attachment placer",
+      "N - hand placer",
+      "M - animator"
+    ],
+    "value": true
+  },
+  "Common": {
+    "value": {
+      "Weapons": {
+        "value": {
+          "Scorpion": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "DP-28": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.03
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 6
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Deagle": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 12.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "AUG A3": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 12.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "P18C": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Wincherster-94": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.008
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 10.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 12.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Vector 9mm": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "M24": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.03
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 19.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "R1895": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.01
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 5
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Micro-uzi": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.02
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "M416": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 12.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "M16A4": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.005
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 8
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 12.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "R45": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.01
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 5
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 6.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.25
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Mini-14": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 8
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 14.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "AWM": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.005
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 10
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 24.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 17.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "UMP-45": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.02
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 5
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 5.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "SLR": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 11.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 10.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Beryl M762": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.025
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Scar-L": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "AKM": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.025
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "QBU": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 8
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 14.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "P1911": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.01
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 5
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 5.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.25
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "S686": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.175
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 0
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 5.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "P92": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.015
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "QBZ": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "MK-14 EBR": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.025
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 12.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Tommy gun": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.02
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 5
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 5.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "M249": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 6
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "S1897": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.175
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 0
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 5.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "S12K": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.175
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 0
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 3.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 5.5
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Sawed-off": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.175
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 0
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 3.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 5.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "MP5-k": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Groza": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.025
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "VSS": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 2
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 6.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 7.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "Kar98k": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.04
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 8
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 18.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "G36C": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.007
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 8.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 11.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "PP-19 Bizon": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 4
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 4.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 8.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "SKS": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.035
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 10.0
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 10.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          },
+          "MK-47 Mutant": {
+            "value": {
+              "Gravity modifier": {
+                "comment": [
+                  "Range < 0 ; 0.2 >"
+                ],
+                "value": 0.025
+              },
+              "Gravity effect delay": {
+                "comment": [
+                  "Ticks before gravity effect is applied on bullet",
+                  "Range < 0 ; ... >"
+                ],
+                "value": 7
+              },
+              "Vertical recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              },
+              "Damage": {
+                "comment": [
+                  "Range < 1 ; 100 >"
+                ],
+                "value": 9.5
+              },
+              "Velocity": {
+                "comment": [
+                  "Velocity applied to bullet each tick",
+                  "Range < 0.1 ; 50 >"
+                ],
+                "value": 9.0
+              },
+              "Horizontal recoil multiplier": {
+                "comment": [
+                  "Range < 0 ; 5 >"
+                ],
+                "value": 1.0
+              }
+            }
+          }
+        }
+      },
+      "World": {
+        "value": {
+          "Plane Y position": {
+            "comment": [
+              "Range < 40 ; 255 >"
+            ],
+            "value": 150
+          },
+          "Weapon griefing": {
+            "comment": [
+              "Determines whether blocks can be affected by bullets",
+              "This will for example cause glass breaking"
+            ],
+            "value": true
+          },
+          "Plane start delay": {
+            "comment": [
+              "Define how many seconds plane will wait before flying",
+              "Range < 0 ; 60 >"
+            ],
+            "value": 5
+          },
+          "Zone notifications": {
+            "comment": [
+              "Toggle sending zone status to players"
+            ],
+            "value": true
+          }
+        }
+      },
+      "Vehicles": {
+        "value": {
+          "Dacia": {
+            "value": {
+              "Speed": {
+                "comment": [
+                  "Set max speed",
+                  "Range < 0.5 ; 3 >"
+                ],
+                "value": 2.35
+              },
+              "Turn speed": {
+                "comment": [
+                  "Set turning speed",
+                  "Range < 0.1 ; 1 >"
+                ],
+                "value": 0.3
+              },
+              "Max turning angle": {
+                "comment": [
+                  "Set max turning angle",
+                  "Range < 1 ; 5 >"
+                ],
+                "value": 3.3
+              },
+              "Health": {
+                "comment": [
+                  "Set max health",
+                  "Range < 1 ; 1000 >"
+                ],
+                "value": 200.0
+              },
+              "Acceleration": {
+                "comment": [
+                  "Set acceleration",
+                  "Range < 0.001 ; 1 >"
+                ],
+                "value": 0.01
+              }
+            }
+          },
+          "UAZ": {
+            "value": {
+              "Speed": {
+                "comment": [
+                  "Set max speed",
+                  "Range < 0.5 ; 3 >"
+                ],
+                "value": 1.6
+              },
+              "Turn speed": {
+                "comment": [
+                  "Set turning speed",
+                  "Range < 0.1 ; 1 >"
+                ],
+                "value": 0.25
+              },
+              "Max turning angle": {
+                "comment": [
+                  "Set max turning angle",
+                  "Range < 1 ; 5 >"
+                ],
+                "value": 3.0
+              },
+              "Health": {
+                "comment": [
+                  "Set max health",
+                  "Range < 1 ; 1000 >"
+                ],
+                "value": 250.0
+              },
+              "Acceleration": {
+                "comment": [
+                  "Set acceleration",
+                  "Range < 0.001 ; 1 >"
+                ],
+                "value": 0.015
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

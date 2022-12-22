@@ -1,6 +1,6 @@
 
 {
-  "ID": 294,
+  "ID": 314,
   "Name": "Outer Space 7",
   "Resource Location": "zollerngalaxy:outer space 7",
   "Class": "micdoodle8.mods.galacticraft.api.prefab.world.gen.BiomeAdaptive",
@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": true,
   "Dictionary Types": [
-    "PLAINS",
-    "SNOWY"
+    "SNOWY",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

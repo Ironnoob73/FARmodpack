@@ -50,6 +50,12 @@
       "Max Group Count": 9
     },
     {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombiePig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",
       "Weight": 20,
       "Min Group Count": 1,

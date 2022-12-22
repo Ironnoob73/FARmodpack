@@ -1,6 +1,0 @@
-
-{
-  "Name": "FakePlayer",
-  "Registry ID": "flansmodapocalypse:fakeplayer",
-  "Class": "com.flansmod.apocalypse.common.entity.EntityFakePlayer"
-}

@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "CONIFEROUS",
-    "COLD",
+    "HILLS",
     "FOREST",
-    "HILLS"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -114,6 +114,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
       "Weight": 80,
       "Min Group Count": 1,
@@ -130,12 +136,6 @@
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     },
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",

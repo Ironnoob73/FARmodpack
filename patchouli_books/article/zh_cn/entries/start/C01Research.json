@@ -10,6 +10,11 @@
             "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。$(br)  另外我还需要一些$(item)纸/$来进行研究，在一些废弃的公路上可以找到很多。"
         },
         {
+            "type": "text",
+            "text": "目录$(li)$(l:start/C01Research#rubbish)寸石$()$(li)$(l:start/C01Research#board)木板$()$(li)$(l:start/C01Research#idea)创作台$()$(li)$(l:start/C01Research#craft)工作台$()$(li)$(l:start/C01Research#plank)木板$()",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
             "type": "crafting",
             "title":"打个草稿",
             "recipe":"crafttweaker:parchment_empty",
@@ -17,12 +22,13 @@
         },
         {
             "type": "text",
-            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？",
+            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究。",
             "advancement":"far:i/A02scavenger"
         },
         {
             "type": "crafting",
             "title":"寸石",
+            "anchor":"rubbish",
             "recipe":"sevendaystomine:stone_axe",
             "recipe2":"sevendaystomine:stone_shovel",
             "advancement":"far:i/A02scavenger"
@@ -51,9 +57,48 @@
         {
             "type": "crafting",
             "title":"木板",
+            "anchor":"board",
             "recipe":"crafttweaker:woodplanks_by_axe",
+            "recipe2":"crafttweaker:stickblock_weak",
             "text": "  容易被加工使用的木板",
             "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"创作台",
+            "anchor":"idea",
+            "recipe":"crafttweaker:idea_table",
+            "text": "  我需要用它来进行比较复杂的研究。$(br2)  为了制作出工作台，我还需要找一些废铁，在公路上的垃圾堆里或许能找到。",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "text",
+            "title":"工作台",
+            "anchor":"craft",
+            "text": "  要制造工作台，我需要以下物品：$(li)一块用于加工物品的铁皮$(li)一块用于制作外壳的木板$(li)一个木框架$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出工作台的制作方法了。",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"工作台",
+            "recipe":"crafttweaker:crafting_table",
+            "text": "  在完成上一个步骤前，这一步无效。",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"可回收脚手架",
+            "anchor":"plank",
+            "recipe":"crafttweaker:frame_thin",
+            "text": "  工作台，还有比这更令人兴奋的东西吗？我终于可以利用它证明自己不是蛮荒时代的人了。不过，我还需要更稳定的木板获取方式，这样才能建起一座庇护所。",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "crafting",
+            "title":"木框架",
+            "recipe":"crafttweaker:frame_oak",
+            "text": "  就目前来说，绝对不便宜......$(br)  背包里需要带上六块木板，然后用石斧$(3)右击/$木框架添加木板。最后使用石斧把搭建好的木板挖下来，和一块木板、一个木框架一同放进创作台进行研究。$(br)  如果不出意外，研究完成后我就能徒手分解木板了。",
+            "advancement":"far:i/A06crafting_table"
         }
     ]
 }

@@ -1,0 +1,125 @@
+{
+  "Enum": {
+    "comment": [
+      "Example of enum data type",
+      "Allowed values:",
+      "# ENTRY_0",
+      "# ENTRY_1",
+      "# ENTRY_2"
+    ],
+    "value": "ENTRY_2"
+  },
+  "String": {
+    "comment": [
+      "Example of string data type"
+    ],
+    "value": "This is string value"
+  },
+  "Pattern String": {
+    "comment": [
+      "Example of resource location pattern"
+    ],
+    "value": "namespace:path"
+  },
+  "RGB": {
+    "comment": [
+      "Color in RGB format"
+    ],
+    "value": "#00FF00"
+  },
+  "Integer": {
+    "comment": [
+      "This is an example of integer data type"
+    ],
+    "value": 1234
+  },
+  "Ranged Decimal": {
+    "comment": [
+      "Example of decimal with value range from 27.5 to 55.0",
+      "Range < 27.5 ; 55.0 >"
+    ],
+    "value": 43.21
+  },
+  "ARGB": {
+    "comment": [
+      "Color in ARGB format"
+    ],
+    "value": "#56FFFF00"
+  },
+  "Example Object": {
+    "comment": [
+      "This is an object which contains multiple entries"
+    ],
+    "value": {
+      "Integer In Object": {
+        "comment": [
+          "This is a ranged integer inside object",
+          "Range < 0 ; 45 >"
+        ],
+        "value": 12
+      }
+    }
+  },
+  "Ranged Integer": {
+    "comment": [
+      "Example of integer with value range from 0 to 20",
+      "Range < 0 ; 20 >"
+    ],
+    "value": 10
+  },
+  "Decimal": {
+    "comment": [
+      "Example of decimal data type"
+    ],
+    "value": 12.43
+  },
+  "Formatted Decimal": {
+    "comment": [
+      "Example of formatted decimal to two decimal spaces"
+    ],
+    "value": 43.12
+  },
+  "List": {
+    "comment": [
+      "This is an example of element list"
+    ],
+    "value": [
+      {
+        "value": "a"
+      },
+      {
+        "value": "b"
+      },
+      {
+        "value": "c"
+      },
+      {
+        "value": "d"
+      },
+      {
+        "value": "e"
+      },
+      {
+        "value": "f"
+      },
+      {
+        "value": "g"
+      },
+      {
+        "value": "h"
+      },
+      {
+        "value": "i"
+      },
+      {
+        "value": "j"
+      }
+    ]
+  },
+  "Boolean": {
+    "comment": [
+      "This is an example of boolean data type"
+    ],
+    "value": false
+  }
+}

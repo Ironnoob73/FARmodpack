@@ -1,6 +1,6 @@
 
 {
-  "ID": 305,
+  "ID": 325,
   "Name": "-\u003d|WorldEngine|\u003d-",
   "Resource Location": "asmodeuscore:-\u003d|worldengine|\u003d-",
   "Class": "asmodeuscore.core.utils.worldengine.WE_Biome",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "DEAD"
+    "DEAD",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

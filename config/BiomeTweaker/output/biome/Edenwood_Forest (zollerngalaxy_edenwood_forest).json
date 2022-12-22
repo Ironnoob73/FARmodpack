@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "WET",
-    "LUSH",
-    "FOREST"
+    "FOREST",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -375,6 +375,30 @@
       "Weight": 20,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrozenLumberjack",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrigidHunter",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrostbittenWorker",
+      "Weight": 40,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieWolf",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntityZombieMiner",

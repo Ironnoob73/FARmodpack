@@ -1,6 +1,6 @@
 
 {
-  "ID": 333,
+  "ID": 306,
   "Name": "Spooky Forest",
   "Resource Location": "twilightforest:spooky_forest",
   "Class": "twilightforest.biomes.TFBiomeSpookyForest",
@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "SPOOKY",
     "DEAD",
     "TWILIGHT",
-    "FOREST"
+    "FOREST",
+    "DENSE",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

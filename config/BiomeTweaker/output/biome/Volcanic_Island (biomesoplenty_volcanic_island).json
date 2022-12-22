@@ -20,22 +20,16 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
     "DRY",
+    "DEAD",
     "MOUNTAIN",
     "WATER",
-    "DEAD",
-    "WASTELAND"
+    "WASTELAND",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedLlamaEntity",
       "Weight": 10,

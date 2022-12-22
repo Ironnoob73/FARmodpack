@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "DEAD",
     "MOUNTAIN",
-    "SPOOKY",
-    "DEAD"
+    "HOT",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -52,12 +52,6 @@
       "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     },
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",

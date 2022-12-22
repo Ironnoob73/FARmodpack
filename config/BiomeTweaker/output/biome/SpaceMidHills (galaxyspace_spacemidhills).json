@@ -1,6 +1,6 @@
 
 {
-  "ID": 304,
+  "ID": 324,
   "Name": "SpaceMidHills",
   "Resource Location": "galaxyspace:spacemidhills",
   "Class": "asmodeuscore.core.astronomy.dimension.world.gen.biome.ACBiomeGen",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "COLD",
-    "DEAD"
+    "DEAD",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

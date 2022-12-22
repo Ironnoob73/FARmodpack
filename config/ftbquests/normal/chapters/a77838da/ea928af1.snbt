@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "94cba9df",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:mars 1 9"
+		}]
+	},
+	{
+		uid: "f7737223",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "c5c8b30c",
+		type: "item",
+		title: "带火星的木条",
+		item: "minecraft:redstone_torch"
+	}]
+}

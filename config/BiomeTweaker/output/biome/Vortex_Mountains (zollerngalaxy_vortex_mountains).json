@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HOT",
     "DRY",
     "MOUNTAIN",
-    "DEAD"
+    "DEAD",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -74,12 +74,6 @@
     {
       "Entity Class": "micdoodle8.mods.galacticraft.core.entities.EntityEvolvedWitch",
       "Weight": 80,
-      "Min Group Count": 1,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 4
     },

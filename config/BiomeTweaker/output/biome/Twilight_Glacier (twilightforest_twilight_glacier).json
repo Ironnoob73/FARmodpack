@@ -1,6 +1,6 @@
 
 {
-  "ID": 322,
+  "ID": 295,
   "Name": "Twilight Glacier",
   "Resource Location": "twilightforest:twilight_glacier",
   "Class": "twilightforest.biomes.TFBiomeGlacier",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
-    "WASTELAND",
+    "SNOWY",
     "TWILIGHT",
-    "SNOWY"
+    "WASTELAND",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

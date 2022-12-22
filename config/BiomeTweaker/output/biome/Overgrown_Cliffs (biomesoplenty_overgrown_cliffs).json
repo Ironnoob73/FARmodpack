@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
     "MOUNTAIN",
+    "JUNGLE",
+    "HILLS",
     "WET",
     "LUSH",
-    "JUNGLE",
-    "HILLS"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -90,12 +90,6 @@
       "Weight": 2,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     },
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",

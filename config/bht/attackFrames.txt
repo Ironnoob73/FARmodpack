@@ -1,0 +1,3 @@
+minecraft:slime:1.0
+tconstruct:blueslime:1.0
+thaumcraft:thaumslime:1.0

@@ -1,6 +1,6 @@
 
 {
-  "ID": 348,
+  "ID": 354,
   "Name": "miningBiome",
   "Resource Location": "aroma1997sdimension:miningbiome",
   "Class": "aroma1997.world.dimension.MiningBiome",
@@ -121,6 +121,12 @@
       "Weight": 50,
       "Min Group Count": 2,
       "Max Group Count": 9
+    },
+    {
+      "Entity Class": "nuparu.sevendaystomine.entity.EntityZombiePig",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",
