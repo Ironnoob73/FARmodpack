@@ -1,6 +1,6 @@
 
 {
-  "ID": 353,
+  "ID": 362,
   "Name": "Aether",
   "Resource Location": "aether_legacy:aether_highlands",
   "Class": "com.gildedgames.the_aether.world.biome.AetherBiome",
@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "VOID",
     "MAGICAL",
+    "VOID",
     "COLD"
   ],
   "BiomeManager Entries": {},
@@ -99,6 +99,18 @@
       "Weight": 10,
       "Min Group Count": 2,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",

@@ -89,14 +89,15 @@ key_of.key.zoom:58
 key_keybind.railcraft.cart.bed:208
 key_keybind.baublesinventory:11
 key_key.xu2.searchforitems:0
-key_[GC] 星图:0
-key_[GC] 打开飞船舱:33
-key_[GC] 切换传感器护目镜模式:37
+key_星图:50
+key_打开飞船舱:33
+key_切换传感器护目镜模式:37
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -115,6 +116,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -122,11 +124,23 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:0
+key_key.ebwizardry.next_spell:49
+key_key.ebwizardry.previous_spell:48
+key_key.ebwizardry.spell_1:2:ALT
+key_key.ebwizardry.spell_2:3:ALT
+key_key.ebwizardry.spell_3:4:ALT
+key_key.ebwizardry.spell_4:5:ALT
+key_key.ebwizardry.spell_5:6:ALT
+key_key.ebwizardry.spell_6:7:ALT
+key_key.ebwizardry.spell_7:8:ALT
+key_key.ebwizardry.spell_8:9:ALT
+key_key.erebus.glide:34
+key_key.erebus.poweredglide:35
+key_key.erebus.beetleram:19
+key_key.erebus.beetlemine:56
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
 key_key.fart.desc:34
@@ -195,12 +209,12 @@ key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.aether.accessory_menu:0
 key_key.reveal:34
 key_key.keyExtraInvo:45:SHIFT
-key_key.keyWheel:19:CONTROL
+key_key.keyWheel:0
 key_key.keyExtraCraftin:0
 key_mekanism.key.mode:43
 key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
-key_mekanism.key.voice:19:SHIFT
+key_mekanism.key.voice:0
 key_keybind.fovfixtoggle:0
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
@@ -214,7 +228,7 @@ key_打开发射检查表 GUI:0
 key_打开便携式 NASA 工作台 GUI:24
 key_key.infinity_armor.noclip:56
 key_key.settings_menu:34
-key_key.range:19:SHIFT
+key_key.range:0
 key_key.undo:14
 key_key.anchor:35
 key_key.fuzzy:0
@@ -227,7 +241,7 @@ key_FpsReducer.key.forceIdle:197
 key_key.ftgumod.open:0
 key_Open configuration screen:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
-key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:0
 key_key.integratedterminals.terminal.tab.next:15
 key_key.integratedterminals.terminal.tab.previous:15:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
@@ -255,7 +269,11 @@ key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.reload.desc:19
+key_key.securitycraft.cameraZoomIn:13
+key_key.securitycraft.cameraZoomOut:12
+key_key.securitycraft.cameraEmitRedstone:19
+key_key.securitycraft.cameraActivateNightVision:49
+key_key.reload.desc:0
 key_key.camera.width.increase.desc:77
 key_key.camera.width.decrease.desc:75
 key_key.camera.height.increase.desc:72
@@ -299,7 +317,7 @@ key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
 key_开关喷气背包:45
 key_打开火箭界面:46
-key_Toggle RCS:19
+key_Toggle RCS:0
 key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44

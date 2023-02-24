@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SNOWY",
-    "DRY",
-    "COLD"
+    "COLD",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -151,6 +151,24 @@
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedBatEntity",
       "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

@@ -1,6 +1,6 @@
 
 {
-  "ID": 354,
+  "ID": 363,
   "Name": "miningBiome",
   "Resource Location": "aroma1997sdimension:miningbiome",
   "Class": "aroma1997.world.dimension.MiningBiome",
@@ -95,6 +95,18 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

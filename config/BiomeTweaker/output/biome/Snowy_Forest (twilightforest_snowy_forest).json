@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "FOREST",
+    "CONIFEROUS",
     "SNOWY",
     "TWILIGHT",
-    "CONIFEROUS",
-    "FOREST",
     "COLD"
   ],
   "BiomeManager Entries": {},
@@ -97,16 +97,16 @@
       "Max Group Count": 4
     },
     {
-      "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",
-      "Weight": 70,
-      "Min Group Count": 3,
-      "Max Group Count": 7
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
-      "Entity Class": "nuparu.sevendaystomine.entity.EntityFrigidHunter",
-      "Weight": 40,
+      "Entity Class": "nuparu.sevendaystomine.entity.EntitySpiderZombie",
+      "Weight": 20,
       "Min Group Count": 1,
-      "Max Group Count": 3
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [],

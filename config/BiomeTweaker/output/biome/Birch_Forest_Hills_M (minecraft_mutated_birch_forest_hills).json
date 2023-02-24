@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "THEMED_TREES",
-    "MOUNTAIN",
     "FOREST",
-    "DENSE",
+    "MOUNTAIN",
     "RARE",
-    "SUPER_BIRCH_TREES"
+    "SUPER_BIRCH_TREES",
+    "DENSE",
+    "THEMED_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -316,6 +316,18 @@
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedBatEntity",
       "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

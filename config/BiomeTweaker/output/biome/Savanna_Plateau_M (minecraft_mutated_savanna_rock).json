@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
+    "RARE",
+    "SPARSE",
     "SAVANNA",
     "HILLS",
     "HOT",
-    "SPARSE",
-    "RARE"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -328,6 +328,18 @@
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedBatEntity",
       "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
