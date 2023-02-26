@@ -322,6 +322,8 @@ key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
+key_toolbelt.binding.access:47
+key_toolbelt.binding.restock:47:SHIFT
 soundCategory_master:0.50993377
 soundCategory_music:0.6197183
 soundCategory_record:1.0

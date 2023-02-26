@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "COLD",
+    "SNOWY",
     "FOREST",
     "CONIFEROUS",
-    "SNOWY",
-    "DENSE",
-    "COLD"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -395,12 +395,6 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
-      "Weight": 40,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",

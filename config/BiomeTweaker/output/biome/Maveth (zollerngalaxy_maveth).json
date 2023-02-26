@@ -23,8 +23,8 @@
     "MOUNTAIN",
     "SANDY",
     "COLD",
-    "DEAD",
-    "SPOOKY"
+    "SPOOKY",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

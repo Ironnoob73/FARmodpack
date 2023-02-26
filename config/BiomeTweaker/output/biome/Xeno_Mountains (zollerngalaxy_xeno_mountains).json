@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "HOT",
     "MOUNTAIN",
-    "DEAD",
     "SPOOKY",
-    "HOT"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

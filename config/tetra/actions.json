@@ -1,0 +1,132 @@
+[
+    {
+        "key": "break_geode_action",
+        "requirement": {
+            "item": "tetra:geode"
+        },
+        "requiredCapabilities": {
+            "hammer": 2
+        },
+        "lootTable": "tetra:geode"
+    },
+    {
+        "key": "shatter_diamond_action",
+        "requirement": {
+            "item": "tetra:pristine_diamond"
+        },
+        "requiredCapabilities": {
+            "hammer": 2
+        },
+        "lootTable": "tetra:shatter_diamond"
+    },
+    {
+        "key": "shatter_emerald_action",
+        "requirement": {
+            "item": "tetra:pristine_emerald"
+        },
+        "requiredCapabilities": {
+            "hammer": 2
+        },
+        "lootTable": "tetra:shatter_emerald"
+    },
+    {
+        "key": "shatter_lapis_action",
+        "requirement": {
+            "item": "tetra:pristine_lapis"
+        },
+        "requiredCapabilities": {
+            "hammer": 2
+        },
+        "lootTable": "tetra:shatter_lapis"
+    },
+    {
+        "key": "salvage_bolt_action",
+        "requirement": {
+            "item": "tetra:forged_bolt"
+        },
+        "requiredCapabilities": {
+            "hammer": 3
+        },
+        "lootTable": "tetra:forged/bolt_salvage"
+    },
+    {
+        "key": "salvage_beam_action",
+        "requirement": {
+            "item": "tetra:forged_beam"
+        },
+        "requiredCapabilities": {
+            "hammer": 4
+        },
+        "lootTable": "tetra:forged/beam_salvage"
+    },
+    {
+        "key": "salvage_mesh_action",
+        "requirement": {
+            "item": "tetra:forged_mesh"
+        },
+        "requiredCapabilities": {
+            "hammer": 3
+        },
+        "lootTable": "tetra:forged/mesh_salvage"
+    },
+    {
+        "key": "salvage_vent_plate_action",
+        "requirement": {
+            "item": "tetra:vent_plate"
+        },
+        "requiredCapabilities": {
+            "hammer": 3
+        },
+        "lootTable": "tetra:forged/vent_plate_salvage"
+    },
+    {
+        "key": "salvage_metal_scrap_action",
+        "requirement": {
+            "item": "tetra:metal_scrap"
+        },
+        "requiredCapabilities": {
+            "hammer": 3
+        },
+        "lootTable": "tetra:forged/metal_scrap_salvage"
+    },
+    {
+        "key": "salvage_quick_latch_action_hammer",
+        "requirement": {
+            "item": "tetra:quick_latch"
+        },
+        "requiredCapabilities": {
+            "hammer": 3
+        },
+        "lootTable": "tetra:forged/quick_latch_salvage_hammer"
+    },
+    {
+        "key": "salvage_quick_latch_action_pry",
+        "requirement": {
+            "item": "tetra:quick_latch"
+        },
+        "requiredCapabilities": {
+            "pry": 1
+        },
+        "lootTable": "tetra:forged/quick_latch_salvage_pry"
+    },
+    {
+        "key": "dismantle_emptycan",
+        "requirement": {
+            "item": "sevendaystomine:emptycan"
+        },
+        "requiredCapabilities": {
+            "hammer": 1
+        },
+        "lootTable": "tetra:dismantle_emptycan"
+    },
+    {
+        "key": "dismantle_emptycan_t2",
+        "requirement": {
+            "item": "sevendaystomine:emptycan"
+        },
+        "requiredCapabilities": {
+            "hammer": 2
+        },
+        "lootTable": "tetra:dismantle_emptycan"
+    }
+]

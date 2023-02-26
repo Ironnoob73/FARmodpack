@@ -1,0 +1,60 @@
+itemGroup.nyx=Nyx
+
+enchantment.nyx.lunar_edge=月缘
+enchantment.nyx.lunar_edge.desc=更强版本的锋利，其强度受当前月相影响。
+enchantment.nyx.lunar_shield=月盾
+enchantment.nyx.lunar_shield.desc=更强版本的保护，其强度受当前月相影响。
+
+info.nyx.day_enchanting=现在太亮了，无法附魔
+info.nyx.harvest_moon=丰收之月正在升起......
+info.nyx.star_shower=坠星开始从天而降......
+info.nyx.full_moon=满月正在升起......
+info.nyx.blood_moon=血月正在升起......
+info.nyx.blood_moon_sleeping=一想到睡觉就让你不舒服
+info.nyx.meteor=一个陨石降落在附近！
+
+tile.nxy.lunar_water.name=月露
+tile.nyx.lunar_water_cauldron.name=装满月露的锅
+tile.nyx.star_block.name=星块
+tile.nyx.chiseled_star_block.name=錾制星块
+tile.nyx.cracked_star_block.name=裂纹星块
+tile.nyx.star_stairs.name=星块楼梯
+tile.nyx.star_slab.name=星块台阶
+tile.nyx.star_slab_double.name=星块双台阶
+tile.nyx.gleaning_meteor_rock.name=拾穗流星团
+tile.nyx.crystal.name=拾穗水晶
+tile.nyx.meteor_block.name=陨铁块
+tile.nyx.meteor_glass.name=陨铁玻璃
+tile.nyx.meteor_rock.name=陨铁矿
+
+fluid.nyx.lunar_water=月露
+
+item.nyx.lunar_water_bottle.name=瓶装月露
+item.nyx.meteor_shard.name=陨铁盾
+item.nyx.fallen_star.name=坠星
+item.nyx.meteor_dust.name=陨铁粉
+item.nyx.meteor_finder.name=陨石定位器
+item.nyx.unrefined_crystal.name=未加工拾穗水晶
+item.nyx.scythe.name=拾穗镰刀
+item.nyx.meteor_ingot.name=陨铁锭
+item.nyx.meteor_bow.name=陨铁弓
+item.nyx.meteor_pickaxe.name=陨铁镐
+item.nyx.meteor_axe.name=陨铁斧
+item.nyx.meteor_shovel.name=陨铁锹
+item.nyx.meteor_hoe.name=陨铁锄
+item.nyx.meteor_sword.name=陨铁剑
+item.nyx.meteor_helm.name=陨铁头盔
+item.nyx.meteor_chest.name=陨铁胸甲
+item.nyx.meteor_pants.name=陨铁护腿
+item.nyx.meteor_boots.name=陨铁靴
+item.nyx.meteor_hammer.name=陨铁锤
+
+command.nyx.clearcache.usage=/nyxclearcache to clear the meteor cache
+command.nyx.clearcache.success=Cleared %s positions from the meteor cache!
+command.nyx.clearcache.notfound=Nyx World not found in current world
+command.nyx.force.usage=/nyxforce <event> to cause a lunar event to happen
+command.nyx.force.invalid=There is no lunar event with the name %s
+command.nyx.force.success=%s will occur on the next possible night
+command.nyx.force.clear=Forced event was cleared
+command.nyx.meteor.usage=/nyxmeteor [x z] [size] [homing] to spawn a meteor
+command.nyx.meteor.success=Spawned a meteor at %s, %s, %s

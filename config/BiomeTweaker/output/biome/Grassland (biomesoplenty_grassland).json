@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "HILLS",
-    "WET"
+    "WET",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -287,12 +287,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
-      "Weight": 40,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
       "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",
       "Weight": 70,
       "Min Group Count": 3,
@@ -451,8 +445,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 7,
-    "WET_TEMPERATE": 3
+    "WET_TEMPERATE": 3,
+    "COOL_TEMPERATE": 7
   },
   "BOP Climate Weights": {
     "WET_TEMPERATE": [

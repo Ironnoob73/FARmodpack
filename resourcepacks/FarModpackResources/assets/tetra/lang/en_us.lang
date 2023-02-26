@@ -1,0 +1,10 @@
+###############################
+# ANCIENT TILESET
+###############################
+tile.forged_platform_slab.name=Forged Platform Slab
+###############################
+# CUSTOM
+###############################
+tetra.workbench=Craftsmanship Table
+dismantle_emptycan.label=Dismantle
+dismantle_emptycan_t2.label=Dismantle(T2)

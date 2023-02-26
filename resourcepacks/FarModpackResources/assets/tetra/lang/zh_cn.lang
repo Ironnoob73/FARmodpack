@@ -1,0 +1,336 @@
+itemGroup.tetra=匠魂低配版
+# MISSING——————————————————————
+###############################
+# MISC
+###############################
+item.modular.repair_material.label=修理材料：
+belt/rope.item_name=绳子
+belt/rope.description=用绳子制成的非常基本的腰带。可以容纳非常有限的附件。
+###############################
+# CAPABILITIES
+###############################
+capability.hammer=锤
+capability.hammer.requirement=这步操作需要层级为 %d 的锤
+capability.axe=斧
+capability.axe.requirement=这步操作需要层级为 %d 的斧
+capability.pickaxe=镐
+capability.pickaxe.requirement=这步操作需要层级为 %d 的镐
+capability.shovel=锹
+capability.shovel.requirement=这步操作需要层级为 %d 的锹
+capability.cut=刃
+capability.cut.requirement=这步操作需要层级为 %d 的切割工具
+capability.pry=撬
+capability.pry.requirement=这步操作需要层级为 %d 的撬棍
+
+capability.available=你具有的层级为 %d 
+###############################
+# GEODE
+###############################
+tile.block_geode.name=晶洞方块
+break_geode_action.label=破开
+
+item.pristine_diamond.name=原始钻石
+shatter_diamond_action.label=粉碎
+
+item.pristine_emerald.name=原始青金石
+shatter_emerald_action.label=粉碎
+
+item.pristine_lapis.name=原始绿宝石
+shatter_lapis_action.label=粉碎
+###############################
+# CLAW HEAD
+###############################
+claw_schema.name=羊角
+claw_schema.description=用给定的材料制作羊角。羊角可以用来撬开东西并快速打破大多数木制方块。
+claw_schema.slot1=材料
+
+duplex/claw.name=羊角
+duplex/claw.description=用给定的材料制作羊角。羊角可以用来撬开东西并快速打破大多数木制方块。
+
+claw/oak=木制羊角
+claw/oak.name=羊角
+claw/oak.prefix=原木
+claw/cobblestone=石制羊角
+claw/cobblestone.name=羊角
+claw/cobblestone.prefix=圆石
+claw/flint=Flint羊角
+claw/flint.name=羊角
+claw/flint.prefix=Flint
+claw/iron=Iron羊角
+claw/iron.name=羊角
+claw/iron.prefix=Iron
+claw/diamond=Diamond羊角
+claw/diamond.name=羊角
+claw/diamond.prefix=Diamond
+claw/gold=Gold羊角
+claw/gold.name=羊角
+claw/gold.prefix=Gold
+claw/copper=Copper羊角
+claw/copper.name=羊角
+claw/copper.prefix=Copper
+claw/tin=Tin羊角
+claw/tin.name=羊角
+claw/tin.prefix=Tin
+claw/silver=Silver羊角
+claw/silver.name=羊角
+claw/silver.prefix=Silver
+claw/nickel=Nickel羊角
+claw/nickel.name=羊角
+claw/nickel.prefix=Nickel
+claw/lead=Lead羊角
+claw/lead.name=羊角
+claw/lead.prefix=Lead
+claw/bronze=Bronze羊角
+claw/bronze.name=羊角
+claw/bronze.prefix=Bronze
+claw/electrum=Electrum羊角
+claw/electrum.name=羊角
+claw/electrum.prefix=Electrum
+claw/steel=Steel羊角
+claw/steel.name=羊角
+claw/steel.prefix=Steel
+claw/thaumium=Thaumium羊角
+claw/thaumium.name=羊角
+claw/thaumium.prefix=Thaumium
+claw/ironwood=Ironwood羊角
+claw/ironwood.name=羊角
+claw/ironwood.prefix=Ironwood
+claw/steeleaf=Steeleaf羊角
+claw/steeleaf.name=羊角
+claw/steeleaf.prefix=Steeleaf
+claw/fierymetal=Fiery羊角
+claw/fierymetal.name=羊角
+claw/fierymetal.prefix=Fiery
+claw/knightmetal=Knightmetal羊角
+claw/knightmetal.name=羊角
+claw/knightmetal.prefix=Knightmetal
+###############################
+# HAMMER HEAD
+###############################
+duplex/basic_hammer.name=锤头
+duplex/basic_hammer.description=锤头可以在制作模块化物品时使用，有时也用于提取。\n\n双锤头可以提供协同加成。
+
+basic_hammer/log=木槌
+basic_hammer/log.item_name=槌
+basic_hammer/log.prefix=原木
+basic_hammer/stone=Stone锤
+basic_hammer/stone.item_name=锤
+basic_hammer/stone.prefix=Stone
+basic_hammer/iron=Iron锤
+basic_hammer/iron.item_name=锤
+basic_hammer/iron.prefix=Iron
+basic_hammer/obsidian=Obsidian锤
+basic_hammer/obsidian.item_name=锤
+basic_hammer/obsidian.prefix=Obsidian
+basic_hammer/copper=Copper锤
+basic_hammer/copper.item_name=锤
+basic_hammer/copper.prefix=Copper
+basic_hammer/tin=Tin锤
+basic_hammer/tin.item_name=锤
+basic_hammer/tin.prefix=Tin
+basic_hammer/nickel=Nickel锤
+basic_hammer/nickel.item_name=锤
+basic_hammer/nickel.prefix=Nickel
+basic_hammer/lead=Lead锤
+basic_hammer/lead.item_name=锤
+basic_hammer/lead.prefix=Lead
+basic_hammer/bronze=Bronze锤
+basic_hammer/bronze.item_name=锤
+basic_hammer/bronze.prefix=Bronze
+basic_hammer/electrum=Electrum锤
+basic_hammer/electrum.item_name=锤
+basic_hammer/electrum.prefix=Electrum
+basic_hammer/steel=Steel锤
+basic_hammer/steel.item_name=锤
+basic_hammer/steel.prefix=Steel
+basic_hammer/thaumium=Thaumium锤
+basic_hammer/thaumium.item_name=锤
+basic_hammer/thaumium.prefix=Thaumium
+basic_hammer/ironwood=Ironwood锤
+basic_hammer/ironwood.item_name=锤
+basic_hammer/ironwood.prefix=Ironwood
+basic_hammer/steeleaf=Steeleaf锤
+basic_hammer/steeleaf.item_name=锤
+basic_hammer/steeleaf.prefix=Steeleaf
+basic_hammer/fierymetal=Fiery锤
+basic_hammer/fierymetal.item_name=锤
+basic_hammer/fierymetal.prefix=Fiery
+basic_hammer/knightmetal=Knightmetal锤
+basic_hammer/knightmetal.item_name=锤
+basic_hammer/knightmetal.prefix=Knightmetal
+###############################
+# THERMAL CELL
+###############################
+item.magmatic_cell.name=热电池
+item.magmatic_cell.charge=充能： %s
+item.magmatic_cell.charge_full=§a满
+item.magmatic_cell.charge_good=§a好
+item.magmatic_cell.charge_low=§e低
+item.magmatic_cell.charge_empty=§c空
+###############################
+# ANCIENT TILESET
+###############################
+tile.forged_pillar.name=锻造支柱
+tile.forged_platform.name=锻造平台
+tile.forged_platform_slab.name=锻造平台台阶
+tile.forged_wall.name=锻造墙
+tile.forged_vent.name=锻造通风口
+tile.forged_crate.name=锻造板条箱
+
+tile.forged_container.name=锻造容器
+forged_container.compartment=容量 %s
+
+tile.hammer_base.name=锤子底座
+tile.hammer_head.name=锤头
+
+tile.transfer_unit.name=传输单元
+tile.core_extractor.name=抽芯器
+tile.extractor_piston.name=提取器活塞
+tile.extractor_pipe.name=提取管
+tile.seeping_bedrock.name=渗漏的基岩
+
+item.forged_bolt.name=螺栓
+salvage_bolt_action.label=提取
+
+item.forged_beam.name=结构梁
+salvage_beam_action.label=提取
+
+item.forged_mesh.name=柔性网格
+salvage_mesh_action.label=提取
+
+item.quick_latch.name=快速闩锁
+item.quick_latch.description=显示背包中的相关升级架构。
+salvage_quick_latch_action_hammer.label=提取
+salvage_quick_latch_action_pry.label=提取
+
+item.metal_scrap.name=金属废料
+item.metal_scrap.description=一小块金属，它们的用途或许永远不被知道，等待着一个新的目的
+salvage_metal_scrap_action.label=提取
+
+item.vent_plate.name=排气板
+item.vent_plate.description=将其重新连接到机器上以略微提高效率。
+salvage_vent_plate_action.label=提取
+
+forged_description=发现于白雪皑皑的生物群系地下深处的结构中
+###############################
+# STATS
+###############################
+stats.efficiency_suffix=效率
+stats.strength_suffix=强度
+stats.tier_suffix=层级
+stats.level_suffix=等级
+
+stats.durability=Durability
+stats.durability.tooltip=This item has §e%s§r durability
+
+stats.speed=Speed
+stats.speed.tooltip=Affects how fast this item can be swinged\n\n§e%s §7seconds between swings\n§ex%s§7 gathering speed multiplier
+
+stats.speed_normalized=Speed
+stats.speed_normalized.tooltip=Changes attack speed by §e%s
+
+stats.damage=Damage
+stats.damage.tooltip=Deals §e%s §rdamage
+
+stats.bleeding=Bleeding
+stats.bleeding.tooltip=Hitting entities has a 30%% chance to cause them to bleed for §e%s§r damage over 2 seconds
+
+stats.backstab=Backstab
+stats.backstab.tooltip=Hitting entities from behind cause critical hits that deal §e%s§r bonus damage
+
+stats.armor=Armor
+stats.armor.tooltip=Provides §e%s§r armor when held
+
+stats.armorPenetration=Penetrating
+stats.armorPenetration.tooltip=Hitting an entity will always deal at least §e%s§r damage regardless of the targets armor
+
+stats.unarmoredDamage=Severing
+stats.unarmoredDamage.tooltip=Deals §e%s§r bonus damage when attacking entities with no armor
+
+stats.knockback=Knockback
+stats.knockback.tooltip=Increases how far hit entities are knocked back by a factor of §e%s
+
+stats.looting=Looting
+stats.looting.tooltip=Increases drops from killing entities
+
+stats.fiery=Fiery
+stats.fiery.tooltip=Hitting an entity sets it on fire for §e%s§r seconds
+
+stats.smite=Smite
+stats.smite.tooltip=Deals §e%s§r bonus damage when attacking undead entities
+
+stats.arthropod=Arthropod
+stats.arthropod.tooltip=Deals §e%s§r bonus damage when attacking an arthropod and applies slowness IV for 1 to §e%s§r seconds
+
+stats.sweeping=Sweeping
+stats.sweeping.tooltip=Attacking an entity also hits all adjacent enemies for §e%s§r weapon damage
+
+stats.unbreaking=Unbreaking
+stats.unbreaking.tooltip=Has a chance to not take durability damage on use\n\n§7Unbreaking level: §e%s§7\nAvoid chance: §e%s%%
+
+stats.mending=Mending
+stats.mending.tooltip=Consumes gathered experience orbs to repair durability by §e%s§r per experience point\n\n§7Only active while held in the mainhand or the offhand
+
+stats.silkTouch=Silktouch
+stats.silkTouch.tooltip=Harvesting blocks cause the block to drop instead of the usual item
+
+stats.fortune=Fortune
+stats.fortune.tooltip=Increases drop chance when harvesting or salvaging blocks
+
+stats.quickStrike=Quick
+stats.quickStrike.tooltip=Reduces the minimum damage dealt to §e%s§r while the attack cooldown is active
+
+stats.softStrike=Soft strike
+stats.softStrike.tooltip=Items crafted using this tool gains increased durability
+
+stats.fierySelf=Blazing
+stats.fierySelf.tooltip=Using the item has a chance to set the wielder on fire, occurs less frequent in cold biomes\n\n§7Base chance: §e%s§7\nFire duration: §e%s
+
+stats.enderReverb=Reverb
+stats.enderReverb.tooltip=Using the item angers nearby endermen and nearby ender teleportation has a chance to also teleport the wielder\n\n§7Base chance: §e%s§7
+
+stats.toolbelt.quickslot=Quickslots
+stats.toolbelt.quickslot.tooltip=Has §e%s§r quickslots
+
+stats.toolbelt.potion_storage=Potion slots
+stats.toolbelt.potion_storage.tooltip=Has §e%s§r potion slots
+
+stats.toolbelt.storage=Storage slots
+stats.toolbelt.storage.tooltip=Has §e%s§r storage slots
+
+stats.toolbelt.quiver=Quiver slots
+stats.toolbelt.quiver.tooltip=Has §e%s§r quiver slots
+
+stats.toolbelt.booster=Boost strength
+stats.toolbelt.booster.tooltip=Provides jump boost and limited flight with strength §e%s
+
+stats.criticalStrike=Crit
+stats.criticalStrike.tooltip=Has a chance to critically hit when hitting entities or breaking blocks.\n\n§e%s§7 chance to deal §e%s §7damage\n§e%s§7 chance to instantly break blocks\n\n§7This effect cannot occur for blocks that are exceptionally hard
+
+stats.intuit=Intuit
+stats.intuit.tooltip=Experience gained from killing entities and destroying blocks yields honing progress at a §e%sx§r ratio
+
+stats.magicCapacity=Magic capacity
+stats.magicCapacity.tooltip=The amount of magic that the module may hold, this capacity is utilized by improvement such as enchantments.\n\n§7Magic capacity: §e%s
+
+stats.hammer.tooltip=This item can be used for hammering, usable when crafting and salvaging\n\n§7Hammer tier: §e%s\n§7Hammer efficiency: §e%s
+stats.axe.tooltip=This item can be used for chopping wood\n\n§7Axe tier: §e%s\n§7Axe efficiency: §e%s
+stats.pickaxe.tooltip=This item can be used for mining\n\n§7Pickaxe tier: §e%s\n§7Pickaxe efficiency: §e%s
+stats.shovel.tooltip=This item can be used for digging\n\n§7Shovel tier: §e%s\n§7Shovel efficiency: §e%s
+stats.cut.tooltip=This item can be used for cutting, usable for crafting and for breaking webs and plants\n\n§7Cut tier: §e%s\n§7Cut efficiency: §e%s
+stats.pry.tooltip=This item can be used for prying things open, usable for salvaging\n\n§7Pry tier: §e%s\n§7Pry efficiency: §e%s
+
+
+stats.integrity=Integrity
+stats.integrity.tooltip_positive=This module provides §e%s§r integrity
+stats.integrity.tooltip_negative=This module requires §e%s§r integrity
+
+stats.integrity_usage=Integrity usage: %s/%s
+stats.integrity_usage.tooltip=Integrity is provided by some modules (often in a specific slot), while it is required by other modules and most improvements.
+
+###############################
+# CUSTOM
+###############################
+tetra.workbench=匠艺台
+dismantle_emptycan.label=拆解
+dismantle_emptycan_t2.label=拆解(T2)

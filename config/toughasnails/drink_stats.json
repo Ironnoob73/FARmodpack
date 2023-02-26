@@ -43,5 +43,14 @@
     "thirst": 3,
     "hydration": 0.0,
     "poisonChance": 0.9
+  },
+  {
+    "item": {
+      "name": "sevendaystomine:soda",
+      "metadata": 0
+    },
+    "thirst": 6,
+    "hydration": 0.7,
+    "poisonChance": 0.0
   }
 ]
