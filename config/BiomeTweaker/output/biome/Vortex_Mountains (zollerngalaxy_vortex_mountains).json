@@ -21,8 +21,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "MOUNTAIN",
-    "HOT",
     "DRY",
+    "HOT",
     "DEAD"
   ],
   "BiomeManager Entries": {},

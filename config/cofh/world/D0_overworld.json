@@ -786,6 +786,23 @@
         "restriction": "whitelist",
         "value": [0]
       }
+    },
+    "rubbish":{
+      "enabled": true,
+      "distribution": "surface",
+      "generator": {
+        "type": "decoration",
+        "block": "soviet:rubbish",
+        "cluster-size":1,
+        "see-sky":false,
+        "check-stay":false
+      },
+      "cluster-count":50,
+      "chunk-chance":2,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      }
     }
   }
 }

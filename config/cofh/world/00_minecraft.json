@@ -2,7 +2,6 @@
 	"priority": 1000000000000,
 	"populate": {
 		"dirt": {
-
 			"distribution": "uniform",
 			"generator": {
 				"block": "dirt",
@@ -22,7 +21,6 @@
 				]
 			}
 		},
-
 		"gravel": {
 			"distribution": "uniform",
 			"generator": {

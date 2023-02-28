@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WATER",
     "MOUNTAIN",
-    "HOT",
     "DRY",
     "WASTELAND",
+    "HOT",
     "DEAD"
   ],
   "BiomeManager Entries": {},

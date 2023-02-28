@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "MAGICAL",
     "HOT",
-    "WET",
-    "FOREST",
     "RARE",
-    "PLAINS"
+    "PLAINS",
+    "FOREST",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

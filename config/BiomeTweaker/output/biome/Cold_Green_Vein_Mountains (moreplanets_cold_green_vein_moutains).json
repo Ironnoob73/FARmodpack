@@ -23,10 +23,10 @@
     "MAGICAL",
     "MOUNTAIN",
     "HILLS",
-    "COLD",
     "SNOWY",
+    "RARE",
     "FOREST",
-    "RARE"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

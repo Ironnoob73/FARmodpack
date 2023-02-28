@@ -16,11 +16,11 @@
     "alwaysDisplayNametags": false,
     "startFadingAt": 0.0,
     "dotSize": 1.0,
-    "displayY": false,
     "renderOverMinimapFrame": 1.0,
+    "displayY": false,
     "icons": 1.0,
-    "names": 0.0,
     "heightLimit": 20.0,
+    "names": 0.0,
     "iconScale": 0.5
   },
   "subCategories": [
