@@ -331,6 +331,6 @@ stats.integrity_usage.tooltip=Integrity is provided by some modules (often in a 
 ###############################
 # CUSTOM
 ###############################
-tetra.workbench=匠艺台
+tile.craftsmanship_table.name=匠艺台
 dismantle_emptycan.label=拆解
 dismantle_emptycan_t2.label=拆解(T2)

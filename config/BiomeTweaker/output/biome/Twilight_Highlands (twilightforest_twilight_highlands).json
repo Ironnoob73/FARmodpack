@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "FOREST",
-    "CONIFEROUS",
-    "TWILIGHT"
+    "TWILIGHT",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

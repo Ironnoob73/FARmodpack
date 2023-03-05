@@ -24,7 +24,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:true
+snooperEnabled:false
 fullscreen:false
 enableVsync:false
 useVbo:true
@@ -97,7 +97,7 @@ key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -116,7 +116,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -324,7 +324,7 @@ key_Move Vehicle Up:44
 key_Move Vehicle Down:45
 key_toolbelt.binding.access:47
 key_toolbelt.binding.restock:47:SHIFT
-soundCategory_master:0.50993377
+soundCategory_master:1.0
 soundCategory_music:0.6197183
 soundCategory_record:1.0
 soundCategory_weather:1.0

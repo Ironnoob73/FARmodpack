@@ -20,14 +20,14 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "NETHER",
-    "SPOOKY",
-    "WATER",
-    "DRY",
-    "WASTELAND",
+    "OCEAN",
     "HOT",
     "DEAD",
-    "OCEAN"
+    "SPOOKY",
+    "WATER",
+    "NETHER",
+    "DRY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

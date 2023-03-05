@@ -792,13 +792,104 @@
       "distribution": "surface",
       "generator": {
         "type": "decoration",
-        "block": "soviet:rubbish",
+        "block": [
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:0,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"sevendaystomine:emptycan\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:1,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"sevendaystomine:emptycan\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:2,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"sevendaystomine:emptycan\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"sevendaystomine:emptycan\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:0,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"minecraft:glass_bottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:1,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"minecraft:glass_bottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:2,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"minecraft:glass_bottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"minecraft:glass_bottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:0,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:paperwaste\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:1,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:paperwaste\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:2,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:paperwaste\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:paperwaste\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:0,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:plasticbottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:1,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:plasticbottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:2,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:plasticbottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:plasticbottle\",Count:1,Damage:0s}]}"
+          }
+        ],
+        "surface":[
+          {"name":"minecraft:grass"},
+          {"name":"minecraft:sand"},
+          {"name":"minecraft:hardened_clay"},
+          {"name":"minecraft:stained_hardened_clay"},
+          {"name":"minecraft:dirt"},
+          {"name":"minecraft:gravel"},
+          {"name":"biomesoplenty:grass"},
+          {"name":"minecraft:stone"}
+        ],
         "cluster-size":1,
-        "see-sky":false,
+        "see-sky":true,
         "check-stay":false
       },
-      "cluster-count":50,
-      "chunk-chance":2,
+      "cluster-count":25,
+      "chunk-chance":1,
       "dimension": {
         "restriction": "whitelist",
         "value": [0]

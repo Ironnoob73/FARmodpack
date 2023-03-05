@@ -49,11 +49,6 @@ recipes.removeByRecipeName("minecraft:rabbit_stew_from_brown_mushroom");
 #Water
 mods.futuremc.Campfire.addRecipe(<sevendaystomine:bottledmurkywater>,<sevendaystomine:bottledwater>,600);
 mods.futuremc.Campfire.addRecipe(<sevendaystomine:cannedmurkywater>,<sevendaystomine:cannedwater>,600);
-recipes.removeByRecipeName("simpleores:copper_bucket");
-recipes.addShaped("wooden_bucket",<simpleores:copper_bucket>,[
-[<ore:plankWood>,null,<ore:plankWood>],
-[null,<ore:plankWood>,null]]);
-furnace.remove(<thermalfoundation:material:128>*3,<simpleores:copper_bucket>);
 #Tetra
 //<tetra:workbench>.displayName=game.localize("tetra.workbench");
 #STM Tooltip

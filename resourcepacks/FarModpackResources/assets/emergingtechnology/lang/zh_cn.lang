@@ -1,0 +1,76 @@
+﻿#Item
+
+#HYDROPONICS MODULE
+item.emergingtechnology.aquaponicblock.name=鱼菜共生框架
+item.emergingtechnology.aquaponicglass.name=鱼菜共生玻璃
+item.emergingtechnology.aquaponicbase.name=鱼菜共生基座
+item.emergingtechnology.aquaponic.name=鱼菜共生控制器
+item.emergingtechnology.aquaponicport.name=鱼菜共生端口
+
+#ELECTRICS MODULE
+item.emergingtechnology.optimiser.name=算法优化器
+item.emergingtechnology.circuit.name=空白电路板
+item.emergingtechnology.circuitbasic.name=基础电路板
+item.emergingtechnology.circuitadvanced.name=高级电路板
+item.emergingtechnology.circuitsuperior.name=超级电路版
+item.emergingtechnology.torch.name=导光灯
+
+#Blocks
+
+#HYDROPONICS MODULE
+blocks.emergingtechnology.aquaponicblock.name=鱼菜共生框架
+blocks.emergingtechnology.aquaponicglass.name=鱼菜共生玻璃
+blocks.emergingtechnology.aquaponicbase.name=鱼菜共生基座
+blocks.emergingtechnology.aquaponic.name=鱼菜共生控制器
+blocks.emergingtechnology.aquaponicport.name=鱼菜共生端口
+
+#ELECTRICS MODULE
+blocks.emergingtechnology.optimiser.name=算法优化器
+blocks.emergingtechnology.torch.name=导光灯
+
+#Tiles
+
+#HYDROPONICS MODULE
+tile.emergingtechnology.aquaponicblock.name=鱼菜共生框架
+tile.emergingtechnology.aquaponicglass.name=鱼菜共生玻璃
+tile.emergingtechnology.aquaponicbase.name=鱼菜共生基座
+tile.emergingtechnology.aquaponic.name=鱼菜共生控制器
+tile.emergingtechnology.aquaponicport.name=鱼菜共生端口
+
+#ELECTRICS MODULE
+tile.emergingtechnology.optimiser.name=算法优化器
+tile.emergingtechnology.torch.name=导光灯
+
+# Machine descriptions
+info.emergingtechnology.optimiser.description=提高相邻机器的效率。
+info.emergingtechnology.aquaponic.description=鱼菜共生箱的主控制块。
+info.emergingtechnology.aquaponicport.description=鱼菜共生箱的自动化端口。
+
+info.emergingtechnology.circuit.description=在优化器中使用。提供 %s 内核。
+
+# Generated
+info.emergingtechnology.optimiserrange.generated=将北侧、东侧、南侧或西侧的机器效率提高到 %s 块。
+
+gui.emergingtechnology.optimiser.buttonadd=为此提升分配一个核心。
+gui.emergingtechnology.optimiser.buttonremove=从此提升中取消分配核心。
+gui.emergingtechnology.optimiser.remaining=%s 剩余内核。
+gui.emergingtechnology.optimiser.resource=将资源使用率降低 %s 百分比。
+gui.emergingtechnology.optimiser.progress=将处理时间减少 %s %。
+
+gui.emergingtechnology.battery.inputlabel=将%s端设置为输入（当前输出）
+gui.emergingtechnology.battery.outputlabel=将%s端设置为输出（当前输入）
+
+item.emergingtechnology.drinkpowder.name=代餐粉
+item.emergingtechnology.drink.name=代餐饮料
+item.emergingtechnology.plasticbottle.name=塑料瓶
+item.emergingtechnology.speaker.name=智能音箱
+blocks.emergingtechnology.speaker.name=智能音箱
+tile.emergingtechnology.speaker.name=智能音箱
+multiblock.emergingtechnology.aquaponictank=鱼菜共生箱
+info.emergingtechnology.speaker.description=响应玩家发送的消息
+gui.emergingtechnology.aquaponic.inputlabel=新鱼被保存在水箱中
+gui.emergingtechnology.aquaponic.outputlabel=新鱼被转移到输出
+config.emergingtechnology.hydroponics.aquaponic.title=
+config.emergingtechnology.polymers.worldgen.title=世界生成
+config.emergingtechnology.electrics.solarglass.title=太阳能玻璃
+config.emergingtechnology.electrics.optimiser.title=算法优化器

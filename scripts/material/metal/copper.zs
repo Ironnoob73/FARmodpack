@@ -112,3 +112,10 @@ furnace.remove(ingot0,ore);
 mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);
 mods.mekanism.smelter.addRecipe(ore,ingot0);
+#Misc
+recipes.removeByRecipeName("simpleores:copper_bucket");
+recipes.addShaped("wooden_bucket",<simpleores:copper_bucket>,[
+[<ore:plankWood>,null,<ore:plankWood>],
+[null,<ore:plankWood>,null]]);
+furnace.remove(<simpleores:copper_ingot>,<simpleores:copper_bucket>);
+furnace.setFuel(<simpleores:copper_bucket>,900);

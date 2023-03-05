@@ -1,6 +1,6 @@
 
 {
-  "ID": 285,
+  "ID": 286,
   "Name": "A mod doesn\u0027t support extended biome IDs -- report to JEID",
   "Resource Location": "jeid:error_biome",
   "Class": "net.minecraft.world.biome.BiomeVoid",

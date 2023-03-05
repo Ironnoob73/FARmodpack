@@ -5,7 +5,12 @@ val stick=<minecraft:stick>;
 val plank=<sevendaystomine:woodplank>;
 
 recipes.remove(<ftgumod:parchment_empty>);
-recipes.addShapeless("parchment_empty",<ftgumod:parchment_empty>,[stick,stick,paper]);
+recipes.addShapeless("parchment_from_paper",<ftgumod:parchment_empty>,[stick,stick,paper]);
+val Cloth=<ore:cloth>;Cloth.add(<sevendaystomine:cloth>,<extraplanets:cloth>,<immersiveengineering:material:5>);
+recipes.addShapeless("parchment_from_cloth",<ftgumod:parchment_empty>,[stick,stick,<ore:cloth>]);
+recipes.addShaped("parchment_from_waste",<ftgumod:parchment_empty>,[[stick,<emergingtechnology:paperwaste>],[<emergingtechnology:paperwaste>,stick]]);
+val Book=<ore:book>;Book.add(<minecraft:book>,<sevendaystomine:book_forging>,<sevendaystomine:book_ammo>,<sevendaystomine:book_computers>,<sevendaystomine:book_concrete>,<sevendaystomine:book_electricity>,<sevendaystomine:book_chemistry>,<sevendaystomine:book_metalworking>,<sevendaystomine:book_pistol>,<sevendaystomine:book_minibike>);
+recipes.addShapeless("paper_from_book",<minecraft:paper>*3,[<ore:book>]);
 
 recipes.addShaped("crude_bow_half",<sevendaystomine:crude_bow:10>,[
 [stick,fiber],
@@ -32,7 +37,7 @@ recipes.remove(<minecraft:wooden_pickaxe>);
 /*recipes.addShapedMirrored("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
 [fiber,plank],
 [null,stick]]);*/
-//recipes.addShapeless("scrapiron_from_emptycan",<sevendaystomine:scrapiron>,[<sevendaystomine:emptycan>]);
+recipes.addShapeless("scrapiron_from_emptycan",<sevendaystomine:scrapiron>,[<sevendaystomine:emptycan>]);
 
 recipes.remove(<ftgumod:idea_table>);
 recipes.addShapedMirrored("idea_table",<ftgumod:idea_table>,[
