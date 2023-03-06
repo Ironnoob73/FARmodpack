@@ -17,8 +17,13 @@
         {
             "type": "crafting",
             "title":"打个草稿",
-            "recipe":"crafttweaker:parchment_empty",
-            "text": "  使用两根木棍和一张纸合成羊皮纸。在制作工具前，也许我应该把它画下来来确定它大概是什么样子？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究，研究完成后可别把羊皮纸丢了。"
+            "recipe":"crafttweaker:parchment_from_paper",
+            "recipe2":"crafttweaker:parchment_from_cloth"
+        },
+        {
+            "type": "crafting",
+            "recipe":"crafttweaker:parchment_from_waste",
+            "text": "  使用两根木棍和一张纸(或是一块布/两张废纸)合成羊皮纸。在制作工具前，也许我应该把它画下来来确定它大概是什么样子？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究，研究完成后可别把羊皮纸丢了。"
         },
         {
             "type": "text",

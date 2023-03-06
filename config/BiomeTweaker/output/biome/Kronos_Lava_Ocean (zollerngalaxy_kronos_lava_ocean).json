@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "HOT",
-    "DEAD",
-    "SPOOKY",
     "WATER",
-    "NETHER",
+    "HOT",
     "DRY",
+    "OCEAN",
+    "NETHER",
+    "SPOOKY",
+    "DEAD",
     "WASTELAND"
   ],
   "BiomeManager Entries": {},

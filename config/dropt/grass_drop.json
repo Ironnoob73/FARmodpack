@@ -1,7 +1,7 @@
 {"rules": [
-    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:0"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
-    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:11"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
-    {"match": {"blocks": {"blocks": ["minecraft:vine"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 0}}}]},
+    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:0"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 1}}}]},
+    {"match": {"blocks": {"blocks": ["biomesoplenty:plant_0:11"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 1}}}]},
+    {"match": {"blocks": {"blocks": ["minecraft:vine:*"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 1}}}]},
 
     {"match": {"blocks": {"blocks": ["minecraft:tallgrass:*","biomesoplenty:plant_0:1"]},
         "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "hoe;0;1"}}},"dropStrategy":"UNIQUE","drops": [
