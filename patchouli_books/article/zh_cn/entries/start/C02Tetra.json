@@ -1,0 +1,15 @@
+{
+    "name": "替代方案/资源回收",
+    "icon": "ftgumod:parchment_empty",
+    "category": "start",
+    "sortnum": "4",
+    "turnin":"far:i/A04wood",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"替代方案/资源回收",
+            "item":"tetra:workbench",
+            "text": "  有时候某些资源很难立刻被找到，也许你会被生成在一个远离公路或者城市的地方。不用担心，你可以利用随处可见的垃圾补全这段空缺。"
+        }
+    ]
+}

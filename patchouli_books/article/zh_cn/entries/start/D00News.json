@@ -2,7 +2,7 @@
     "name": "剪报-移民计划",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "4",
+    "sortnum": "5",
     "pages": [
         {
             "type": "text",

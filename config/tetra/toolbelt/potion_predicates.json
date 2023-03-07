@@ -1,0 +1,8 @@
+[
+    { "item": "minecraft:potion" },
+    { "item": "minecraft:lingering_potion" },
+    { "item": "minecraft:splash_potion" },
+    { "item": "minecraft:glass_bottle" },
+    { "item": "rustic:elixir" },
+    { "item": "rustic:fluid_bottle" }
+]

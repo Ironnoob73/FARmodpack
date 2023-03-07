@@ -1,0 +1,266 @@
+[
+    {
+        "key": "short_blade_schema",
+        "slots": ["sword/blade"],
+        "materialSlotCount": 1,
+        "displayType": "major",
+        "glyph": { "textureX": 32 },
+        "outcomes": [
+            {
+                "material": {
+                    "item": "minecraft:planks",
+                    "data": 1
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/spruce"
+            },
+            {
+                "material": {
+                    "item": "minecraft:planks",
+                    "data": 2
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/birch"
+            },
+            {
+                "material": {
+                    "item": "minecraft:planks",
+                    "data": 3
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/jungle"
+            },
+            {
+                "material": {
+                    "item": "minecraft:planks",
+                    "data": 4
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/acacia"
+            },
+            {
+                "material": {
+                    "item": "minecraft:planks",
+                    "data": 5
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/dark_oak"
+            },
+            {
+                "material": {
+                    "item": "minecraft:flint"
+                },
+                "requiredCapabilities": {
+                    "hammer": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/flint"
+            },
+            {
+                "material": {
+                    "item": "minecraft:iron_ingot"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/iron"
+            },
+            {
+                "material": {
+                    "item": "minecraft:gold_ingot"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/gold"
+            },
+            {
+                "material": {
+                    "item": "minecraft:prismarine_shard"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/prismarine"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotCopper"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/copper"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotTin"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/tin"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotSilver"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/silver"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotNickel"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/nickel"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotLead"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/lead"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotBronze"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/bronze"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotElectrum"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/electrum"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotSteel"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/steel"
+            },
+            {
+                "material": {
+                    "item": "thaumcraft:ingot",
+                    "data": 0
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/thaumium"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotIronwood"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/ironwood"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotSteeleaf"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/steeleaf",
+                "improvements": {
+                    "enchantment/looting": 2
+                }
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotFiery"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/fierymetal",
+                "improvements": {
+                    "enchantment/fire_aspect": 2
+                }
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "ingotKnightmetal"
+                },
+                "requiredCapabilities": {
+                    "hammer": 3
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/knightmetal"
+            },
+            {
+                "material": {
+                    "type": "forge:ore_dict",
+                    "ore": "plankWood"
+                },
+                "requiredCapabilities": {
+                    "axe": 2
+                },
+                "moduleKey": "sword/short_blade",
+                "moduleVariant": "short_blade/oak"
+            }
+        ]
+    }
+]

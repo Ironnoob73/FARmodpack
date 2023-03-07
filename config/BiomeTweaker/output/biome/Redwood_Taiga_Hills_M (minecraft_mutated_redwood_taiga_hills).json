@@ -24,8 +24,8 @@
     "HILLS",
     "DENSE",
     "RARE",
-    "THEMED_TREES",
-    "MEGA_TAIGA_SPRUCE_TREES"
+    "MEGA_TAIGA_SPRUCE_TREES",
+    "THEMED_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

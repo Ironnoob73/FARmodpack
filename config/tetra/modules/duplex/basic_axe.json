@@ -1,0 +1,287 @@
+[
+    {
+        "key": "basic_axe/oak",
+        "durability": 26,
+        "integrity": -1,
+        "magicCapacity": 15,
+        "damage": 6,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "866526",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [1, 2.5]
+        }
+    },
+    {
+        "key": "basic_axe/cobblestone",
+        "durability": 92,
+        "integrity": -1,
+        "magicCapacity": 5,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "9a9a9a",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [1, 5]
+        }
+    },
+    {
+        "key": "basic_axe/flint",
+        "durability": 145,
+        "integrity": -1,
+        "magicCapacity": 15,
+        "damage": 8,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "343434",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [2, 5]
+        }
+    },
+    {
+        "key": "basic_axe/iron",
+        "durability": 193,
+        "integrity": -2,
+        "magicCapacity": 14,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "d8d8d8",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [3, 6.6666667]
+        }
+    },
+    {
+        "key": "basic_axe/diamond",
+        "durability": 992,
+        "integrity": -2,
+        "magicCapacity": 10,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "33ebcb",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [4, 8]
+        }
+    },
+    {
+        "key": "basic_axe/gold",
+        "durability": 11,
+        "integrity": -2,
+        "magicCapacity": 22,
+        "damage": 6,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "eaee57",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [1, 12]
+        }
+    },
+    {
+        "key": "basic_axe/copper",
+        "durability": 113,
+        "integrity": 0,
+        "magicCapacity": 13,
+        "damage": 7,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "df7646",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [2, 5]
+        }
+    },
+    {
+        "key": "basic_axe/tin",
+        "durability": 44,
+        "integrity": 0,
+        "magicCapacity": 12,
+        "damage": 6.5,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "b3c9c1",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [2, 6.6]
+        }
+    },
+    {
+        "key": "basic_axe/silver",
+        "durability": 29,
+        "integrity": -1,
+        "magicCapacity": 21,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "d6f6ff",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [1, 11]
+        }
+    },
+    {
+        "key": "basic_axe/nickel",
+        "durability": 156,
+        "integrity": -2,
+        "magicCapacity": 12,
+        "damage": 7,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "c2d3a6",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [3, 7]
+        }
+    },
+    {
+        "key": "basic_axe/lead",
+        "durability": 64,
+        "integrity": -1,
+        "magicCapacity": 11,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "897a9b",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [3, 5]
+        }
+    },
+    {
+        "key": "basic_axe/bronze",
+        "durability": 357,
+        "integrity": -1,
+        "magicCapacity": 13,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "b2712c",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [3, 7.8]
+        }
+    },
+    {
+        "key": "basic_axe/electrum",
+        "durability": 89,
+        "integrity": -1,
+        "magicCapacity": 24,
+        "damage": 7,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "e4da4c",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [2, 13]
+        }
+    },
+    {
+        "key": "basic_axe/steel",
+        "durability": 394,
+        "integrity": -2,
+        "magicCapacity": 11,
+        "damage": 8,
+        "attackSpeed": -0.4,
+        "glyph": {
+            "tint": "999999",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [4, 8.2]
+        }
+    },
+    {
+        "key": "basic_axe/thaumium",
+        "durability": 419,
+        "integrity": -2,
+        "magicCapacity": 25,
+        "damage": 8,
+        "attackSpeed": -0.4,
+        "glyph": {
+            "tint": "4d3984",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [3, 6.7]
+        }
+    },
+    {
+        "key": "basic_axe/ironwood",
+        "durability": 416,
+        "integrity": -2,
+        "magicCapacity": 18,
+        "damage": 6,
+        "attackSpeed": -0.6,
+        "glyph": {
+            "tint": "5ea917",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [2, 7.22]
+        }
+    },
+    {
+        "key": "basic_axe/steeleaf",
+        "durability": 96,
+        "integrity": -1,
+        "magicCapacity": 15,
+        "damage": 7,
+        "attackSpeed": -0.4,
+        "glyph": {
+            "tint": "458430",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [4, 8.88]
+        }
+    },
+    {
+        "key": "basic_axe/fierymetal",
+        "durability": 756,
+        "integrity": -2,
+        "magicCapacity": 12,
+        "damage": 8,
+        "attackSpeed": -0.5,
+        "glyph": {
+            "tint": "fa9f00",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [5, 10]
+        }
+    },
+    {
+        "key": "basic_axe/knightmetal",
+        "durability": 396,
+        "integrity": -2,
+        "magicCapacity": 12,
+        "damage": 7,
+        "attackSpeed": -0.4,
+        "glyph": {
+            "tint": "b8cf9c",
+            "textureX": 144
+        },
+        "capabilities": {
+            "axe": [4, 8.88]
+        }
+    }
+]

@@ -2,7 +2,7 @@
     "name": "§oSurvive Guide",
     "icon": "minecraft:book",
     "category": "start",
-    "sortnum": "5",
+    "sortnum": "6",
     "pages": [
         {
             "type": "text",

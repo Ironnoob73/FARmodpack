@@ -1,0 +1,217 @@
+[
+    {
+        "key": "basic_hilt/hilt_stick",
+        "durability": 10,
+        "integrity": 3,
+        "magicCapacity": 15,
+        "glyph": {
+            "tint": "866526",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/oak",
+        "durability": 17,
+        "integrity": 4,
+        "magicCapacity": 15,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "9d804e",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/spruce",
+        "durability": 23,
+        "integrity": 4,
+        "magicCapacity": 15,
+        "attackSpeed": -0.15,
+        "glyph": {
+            "tint": "694f2f",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/birch",
+        "durability": 33,
+        "integrity": 4,
+        "magicCapacity": 15,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "c8b77d",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/jungle",
+        "durability": 17,
+        "integrity": 4,
+        "magicCapacity": 17,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "996e4c",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/acacia",
+        "durability": 17,
+        "integrity": 4,
+        "magicCapacity": 15,
+        "glyph": {
+            "tint": "ac5d33",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/dark_oak",
+        "durability": 17,
+        "integrity": 4,
+        "magicCapacity": 17,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "3c2712",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/maple",
+        "durability": 23,
+        "integrity": 5,
+        "magicCapacity": 16,
+        "glyph": {
+            "tint": "623913",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/cherry",
+        "durability": 27,
+        "integrity": 6,
+        "magicCapacity": 13,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "684817",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/baobab",
+        "durability": 33,
+        "integrity": 8,
+        "magicCapacity": 13,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "444b2c",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/bone",
+        "durability": 12,
+        "integrity": 4,
+        "magicCapacity": 18,
+        "glyph": {
+            "tint": "edebca",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/iron",
+        "durability": 32,
+        "integrity": 5,
+        "magicCapacity": 14,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "d8d8d8",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/bronze",
+        "durability": 12,
+        "integrity": 6,
+        "magicCapacity": 13,
+        "attackSpeed": -0.3,
+        "glyph": {
+            "tint": "b2712c",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/steel",
+        "durability": 64,
+        "integrity": 5,
+        "magicCapacity": 11,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "383838",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/blaze_rod",
+        "durability": 63,
+        "integrity": 7,
+        "magicCapacity": 18,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "ffc100",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/end_rod",
+        "durability": 88,
+        "integrity": 8,
+        "magicCapacity": 17,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "bd9ab1",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/greatwood",
+        "durability": 14,
+        "integrity": 6,
+        "magicCapacity": 20,
+        "glyph": {
+            "tint": "33231e",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/treated_wood",
+        "durability": 81,
+        "integrity": 6,
+        "magicCapacity": 15,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "422114",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/ironwood",
+        "durability": 44,
+        "integrity": 5,
+        "magicCapacity": 15,
+        "glyph": {
+            "tint": "8c714d",
+            "textureX": 16
+        }
+    },
+    {
+        "key": "basic_hilt/forged_beam",
+        "durability": 150,
+        "integrity": 8,
+        "magicCapacity": 6,
+        "attackSpeed": -0.3,
+        "damageMultiplier": 0.9,
+        "glyph": {
+            "tint": "383838",
+            "textureX": 16
+        }
+    }
+]

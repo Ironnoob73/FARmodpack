@@ -1,0 +1,46 @@
+[
+    {
+        "key": "potion_storage/forged_mesh",
+        "integrity": -3,
+        "effects": {
+            "potionSlot": 4
+        },
+        "glyph": {
+            "tint": "383838",
+            "textureX": 208
+        }
+    },
+    {
+        "key": "potion_storage/leather",
+        "integrity": -3,
+        "effects": {
+            "potionSlot": 3
+        },
+        "glyph": {
+            "tint": "cfcfcf",
+            "textureX": 208
+        }
+    },
+    {
+        "key": "potion_storage/wool",
+        "integrity": -1,
+        "effects": {
+            "potionSlot": 2
+        },
+        "glyph": {
+            "tint": "cfcfcf",
+            "textureX": 208
+        }
+    },
+    {
+        "key": "potion_storage/hide",
+        "integrity": 0,
+        "effects": {
+            "potionSlot": 1
+        },
+        "glyph": {
+            "tint": "cfcfcf",
+            "textureX": 208
+        }
+    }
+]

@@ -24,8 +24,8 @@
     "HILLS",
     "DENSE",
     "RARE",
-    "THEMED_TREES",
-    "SUPER_BIRCH_TREES"
+    "SUPER_BIRCH_TREES",
+    "THEMED_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

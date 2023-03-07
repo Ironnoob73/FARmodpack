@@ -872,6 +872,26 @@
             "name": "plonk:placed_items",
             "properties": {"facing": "up"},
             "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"emergingtechnology:plasticbottle\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:0,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"colacraft:can\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:1,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"colacraft:can\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:2,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"colacraft:can\",Count:1,Damage:0s}]}"
+          },
+          {
+            "name": "plonk:placed_items",
+            "properties": {"facing": "up"},
+            "data-tag":"{id:\"plonk:placed_items\",Version:1,TileRotation:3,Items:[{Slot:0b,RenderType:0,ItemRotation:0,id:\"colacraft:can\",Count:1,Damage:0s}]}"
           }
         ],
         "surface":[

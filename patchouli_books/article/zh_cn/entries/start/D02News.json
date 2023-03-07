@@ -2,7 +2,7 @@
     "name": "剪报-冬眠",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "6",
+    "sortnum": "7",
     "pages": [
         {
             "type": "text",
