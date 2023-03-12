@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "DENSE",
-    "PLAINS",
+    "DEAD",
     "SPOOKY",
-    "DEAD"
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

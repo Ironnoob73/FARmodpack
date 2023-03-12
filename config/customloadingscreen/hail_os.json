@@ -1,0 +1,355 @@
+{
+    "renders": [
+        {
+            "image": {
+                "parent": "builtin/panorama",
+                "image": "textures/gui/title/background/panorama_x.png"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/hail_electronic.png",
+                "position_type": "BOTTOM_RIGHT",
+                "offset_pos": "BOTTOM_RIGHT",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "256",
+                    "height": "96"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/base.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "360",
+                    "height": "240"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/title.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "position":{
+                    "x":-177.5,
+                    "y":-112.5,
+                    "width":"percentage * 356",
+                    "height":"10"
+                },
+                "texture":{
+                    "x":"0",
+                    "y":"0",
+                    "width": "percentage",
+                    "height":"1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "TOP_LEFT",
+                "text": "'§lLaunch Progress : ' + (floor(percentage * 100)) + '.' + (floor(percentage * 10000) % 100) + '%'", 
+                "position": {
+                    "x": -165,
+                    "y": -116
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/memory.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "position":{
+                    "x":-133.5,
+                    "y":-100,
+                    "width":"(memory_bytes_used*1.0)/(memory_bytes_max*1.0) * 100",
+                    "height":"8"
+                },
+                "texture":{
+                    "x":"0",
+                    "y":"0",
+                    "width": "(memory_bytes_used*1.0)/(memory_bytes_max*1.0)",
+                    "height":"1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "'Memory'", 
+                "position": {
+                    "x":-171,
+                    "y":-99
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "'|'", 
+                "position": {
+                    "x":"-133.5 + (memory_bytes_total*1.0)/(memory_bytes_max*1.0) * 100",
+                    "y":-99
+                },
+                "colour": "0xFF0000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "memory_used + '/' + memory_total + '/' + memory_max + 'MiB'", 
+                "position": {
+                    "x":-83,
+                    "y":-99
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "'Time used: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's Please be patient...'", 
+                "position": {
+                    "x":-26,
+                    "y":-99
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "forge_progress_bar_title(0) + ':' + forge_progress_bar_message(0)", 
+                "position": {
+                    "x":-175,
+                    "y":-85
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/forge.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "position":{
+                    "x":-175,
+                    "y":-76.5,
+                    "width":"forge_progress_bar_percent(0) * 250",
+                    "height":"8"
+                },
+                "texture":{
+                    "x":"0",
+                    "y":"0",
+                    "width": "forge_progress_bar_percent(0)",
+                    "height":"1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "(floor(forge_progress_bar_percent(0) * 100)) + '.' + (floor(forge_progress_bar_percent(0) * 10000) % 100) + '%'", 
+                "position": {
+                    "x":-50,
+                    "y":-75
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "forge_progress_bar_title(1) + ':' + forge_progress_bar_message(1)", 
+                "position": {
+                    "x":-175,
+                    "y":-65
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/forge.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "position":{
+                    "x":-175,
+                    "y":-56.5,
+                    "width":"forge_progress_bar_percent(1) * 250",
+                    "height":"8"
+                },
+                "texture":{
+                    "x":"0",
+                    "y":"0",
+                    "width": "forge_progress_bar_percent(1)",
+                    "height":"1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "(floor(forge_progress_bar_percent(1) * 100)) + '.' + (floor(forge_progress_bar_percent(1) * 10000) % 100) + '%'", 
+                "position": {
+                    "x":-50,
+                    "y":-55
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "forge_progress_bar_title(2) + ':' + forge_progress_bar_message(2)", 
+                "position": {
+                    "x":-175,
+                    "y":-45
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
+                "image": "customloadingscreen:image/forge.png",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "position":{
+                    "x":-175,
+                    "y":-36.5,
+                    "width":"forge_progress_bar_percent(2) * 250",
+                    "height":"8"
+                },
+                "texture":{
+                    "x":"0",
+                    "y":"0",
+                    "width": "forge_progress_bar_percent(2)",
+                    "height":"1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER",
+                "text": "(floor(forge_progress_bar_percent(2) * 100)) + '.' + (floor(forge_progress_bar_percent(2) * 10000) % 100) + '%'", 
+                "position": {
+                    "x":-50,
+                    "y":-35
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "(has_tips() ? tip(floor(time / 0.1)) : '')", 
+                "position": {
+                    "x":-175,
+                    "y":114
+                },
+                "colour": "0x000000"
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/text",
+                "position_type": "CENTER",
+                "offset_pos": "CENTER_LEFT",
+                "text": "'Version 0.1-2023.3-α'", 
+                "position": {
+                    "x":50,
+                    "y":114
+                },
+                "colour": "0x000000"
+            }
+        }
+    ],
+    "functions": [
+        
+    ],
+    "variables": {
+        "max_scroll_count": "15",
+        "scroll_text": "status + (is_reloading ? '' : (' - ' + sub_status))"
+    },
+    "factories": [
+        {
+            "parent": "builtin/change",
+            "change": "scroll_text",
+            "variables": {
+                "factory_age" : "factory_count - factory_index"
+            },
+            "kept_variables": {
+                "factory_status": "scroll_text"
+            },
+            "to_create": {
+                "should_render": "factory_age < max_scroll_count",
+                "image": {
+                    "parent": "builtin/text",
+                    "image": "textures/font/ascii.png",
+                    "position_type": "CENTER",
+                    "offset_pos": "CENTER_LEFT",
+                    "text": "factory_status + (factory_age == 1 ? ( is_reloading ? ' - ' + sub_status : '') : '')",
+                    "position": {
+                        "x": "-175",
+                        "y": "111 + (factory_index - factory_count) * 9.5"
+                      },
+                      "colour": "0x000000"
+                }
+            }
+        }
+    ],
+    "actions": [
+        
+    ]
+}

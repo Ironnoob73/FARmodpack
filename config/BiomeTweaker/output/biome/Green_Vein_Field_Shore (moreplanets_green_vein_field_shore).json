@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MAGICAL",
+    "BEACH",
     "FOREST",
     "RARE",
-    "HOT",
-    "WET",
     "PLAINS",
-    "BEACH",
-    "MAGICAL"
+    "WET",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

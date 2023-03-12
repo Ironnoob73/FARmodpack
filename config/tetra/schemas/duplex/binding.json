@@ -44,7 +44,18 @@
             {
                 "material": {
                     "item": "minecraft:vine",
-                    "count": 4
+                    "count": 1
+                },
+                "requiredCapabilities": {
+                    "cut": 1
+                },
+                "moduleKey": "duplex/binding",
+                "moduleVariant": "duplex_binding/vine"
+            },
+            {
+                "material": {
+                    "item": "sevendaystomine:plantfiber",
+                    "count": 1
                 },
                 "requiredCapabilities": {
                     "cut": 1

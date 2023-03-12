@@ -1,6 +1,6 @@
 
 {
-  "ID": 362,
+  "ID": 365,
   "Name": "Aether",
   "Resource Location": "aether_legacy:aether_highlands",
   "Class": "com.gildedgames.the_aether.world.biome.AetherBiome",
@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
+    "MAGICAL",
     "VOID",
-    "MAGICAL"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

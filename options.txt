@@ -40,7 +40,7 @@ chatHeightUnfocused:1.0
 chatScale:1.0
 chatWidth:1.0
 mipmapLevels:4
-forceUnicodeFont:true
+forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
 entityShadows:true
@@ -97,7 +97,6 @@ key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -116,7 +115,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:0
 key_quark.keybind.chestSort:0
@@ -124,6 +122,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:0
@@ -139,7 +139,7 @@ key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_key.erebus.glide:34
 key_key.erebus.poweredglide:35
-key_key.erebus.beetleram:19
+key_key.erebus.beetleram:0
 key_key.erebus.beetlemine:56
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
@@ -271,7 +271,7 @@ key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_key.securitycraft.cameraZoomIn:13
 key_key.securitycraft.cameraZoomOut:12
-key_key.securitycraft.cameraEmitRedstone:19
+key_key.securitycraft.cameraEmitRedstone:0
 key_key.securitycraft.cameraActivateNightVision:49
 key_key.reload.desc:0
 key_key.camera.width.increase.desc:77

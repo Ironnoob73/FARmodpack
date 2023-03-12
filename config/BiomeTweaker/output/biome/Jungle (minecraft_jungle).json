@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
+    "JUNGLE",
     "HOT",
-    "WET",
-    "JUNGLE"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -292,6 +292,48 @@
       "Weight": 25,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityLizardmanScuffler",
+      "Weight": 30,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityLizardmanStalker",
+      "Weight": 40,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityLizardmanWitchDoctor",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityLizardmanSticker",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityMistSpider",
+      "Weight": 31,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityStoneGolem",
+      "Weight": 5,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.salvestrom.w2theJungle.mobs.entity.EntityRhinopter",
+      "Weight": 25,
+      "Min Group Count": 2,
+      "Max Group Count": 5
     },
     {
       "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
