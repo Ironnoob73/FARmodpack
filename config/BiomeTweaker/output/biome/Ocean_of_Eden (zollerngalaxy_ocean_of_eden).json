@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "OCEAN",
-    "LUSH",
+    "WATER",
     "WET",
-    "WATER"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

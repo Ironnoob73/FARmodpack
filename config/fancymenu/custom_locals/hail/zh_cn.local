@@ -1,0 +1,14 @@
+mainmenu.singleplayer.name=§e§l单人游戏
+mainmenu.singleplayer.des=在本地存档进行游戏
+mainmenu.multiplayer.name=§e§l多人游戏
+mainmenu.multiplayer.des=在网络服务器上进行游戏
+mainmenu.quickstart.name=§e§l快速游戏
+mainmenu.quickstart.des=加入最后一次打开的世界或服务器
+mainmenu.settings.name=§e§l设置
+mainmenu.settings.des=对游戏基础设置进行变更
+mainmenu.mods.name=§e§l模组
+mainmenu.mods.des=对模组配置进行更改（通常不需要）
+mainmenu.replay.name=§e§l回放中心
+mainmenu.replay.des=对Replay录制的内容进行管理\n§c需要安装Replay！
+mainmenu.quit.name=§e§l退出游戏
+mainmenu.quit.des=结束Minecraft进程

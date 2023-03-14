@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "DRY",
-    "LUSH",
-    "COLD"
+    "COLD",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

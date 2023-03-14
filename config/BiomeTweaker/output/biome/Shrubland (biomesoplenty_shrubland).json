@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "PLAINS",
     "DRY",
-    "SPARSE",
-    "PLAINS"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -427,8 +427,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "MEDITERANEAN": 7,
-    "DRY_TEMPERATE": 10
+    "DRY_TEMPERATE": 10,
+    "MEDITERANEAN": 7
   },
   "BOP Climate Weights": {
     "DRY_TEMPERATE": [

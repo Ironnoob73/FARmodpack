@@ -1,0 +1,14 @@
+mainmenu.singleplayer.name=§e§lSingle Player
+mainmenu.singleplayer.des=Play in a local save
+mainmenu.multiplayer.name=§e§lMulti Player
+mainmenu.multiplayer.des=Play on a web server
+mainmenu.quickstart.name=§e§lQuick Start
+mainmenu.quickstart.des=Join the last world or server
+mainmenu.settings.name=§e§lSettings
+mainmenu.settings.des=Make changes to the game's basic settings
+mainmenu.mods.name=§e§lMods
+mainmenu.mods.des=Make changes to the mods config (usually not required)
+mainmenu.replay.name=§e§lReplay Viewer
+mainmenu.replay.des=Manage Replay recordings\n§c Replay needs to be installed!
+mainmenu.quit.name=§e§lQuit Game
+mainmenu.quit.des=End the Minecraft program process

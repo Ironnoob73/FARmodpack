@@ -1,0 +1,382 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 25
+  action = movebutton
+  y = -100
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 150
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_singleplayer
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_singleplayer/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.singleplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.singleplayer.des"}}
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 175
+  action = movebutton
+  y = -4
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=400322%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_replay
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_replay/0.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.replay.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.replay.des"}}
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 75
+  action = movebutton
+  y = -36
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 150
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_settings
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_settings/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.settings.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.settings.des"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 25
+  action = movebutton
+  y = 28
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 200
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_quit
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_quit/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.quit.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.quit.des"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 25
+  action = movebutton
+  y = -36
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_language
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_language/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = &e&l语言 Language%n%&r更改你的游戏语言%n%Change your game language
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 25
+  action = movebutton
+  y = -68
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 200
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_multiplayer
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_multiplayer/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.multiplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.multiplayer.des"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 25
+  action = movebutton
+  y = -4
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 150
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_mods
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_mods/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mainmenu.mods.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.des"}}
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  hidden = false
+  x = 380
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 59661838-86d6-4aed-83de-4d2d7e3133551678719202809
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 123
+  action = deep_customization_element:title_screen_branding
+  actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
+  y = 449
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 791
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
+  y = 491
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5b5e08f2-e407-4fa9-9bf7-a999bd3f69411678719202857
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 2cb4c55e-b9a6-40f3-9e1c-ed8eaf7e6e961678719202858
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #ffff00
+  hidden = false
+  x = 289
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 5f148f68-572f-4f0a-8350-c05d920ff2581678719202859
+  y = -76
+  height = 30
+}
+
+customization {
+  path = resourcepacks/FarModpackResources/assets/minecraft/textures/gui/title/far_journey.png
+  orientation = top-left
+  x = 26
+  width = 718
+  actionid = 99820ce2-23b2-4cb1-83d4-b7cc303b430c1678719405109
+  action = addtexture
+  y = 50
+  height = 100
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_quickstart
+  buttonaction = join_last_world
+  description = {"placeholder":"local","values":{"key":"mainmenu.quickstart.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.quickstart.des"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 175
+  width = 50
+  actionid = f1162113-9117-4b15-898a-f0ae3f11865b1678772296288
+  action = addbutton
+  y = -100
+  backgroundnormal = resources/fm_mainmenu_quickstart/0.png
+  value = null
+  height = 32
+}
+

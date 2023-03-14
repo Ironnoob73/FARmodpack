@@ -1,0 +1,41 @@
+type = customizablemenus
+
+galaxyspace.core.client.gui.GSGuiMainMenu {
+}
+
+dev.toma.pubgmc.client.gui.menu.GuiMenu {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+mezz.jei.gui.recipes.RecipesGui {
+}
+
+net.minecraft.client.gui.GuiScreenWorking {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+betteradvancements.gui.GuiScreenBetterAdvancements {
+}
+
+com.feed_the_beast.ftblib.lib.gui.GuiWrapper {
+}
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.GuiGameOver {
+}
+
