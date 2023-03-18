@@ -1,5 +1,5 @@
-#Sun Mar 12 20:49:27 CST 2023
-shaderPack=OFF
+#Thu Mar 16 18:02:13 CST 2023
+shaderPack=ComplementaryShaders_v4.3.3.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
@@ -7,7 +7,7 @@ renderResMul=1.0
 shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false
-oldHandLight=default
+oldHandLight=true
 oldLighting=default
 tweakBlockDamage=false
 shadowClipFrustrum=true

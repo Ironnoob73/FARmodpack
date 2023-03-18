@@ -9,12 +9,21 @@ customization-meta {
 }
 
 customization {
-  path = resourcepacks/FarModpackResources/assets/minecraft/textures/gui/title/background/end_panorama_0.png
-  action = texturizebackground
+  name = spruce_forest
+  action = setbackgroundpanorama
 }
 
 customization {
   keepaspectratio = false
   action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_curseforge
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mainmenu_curseforge/0.png
 }
 

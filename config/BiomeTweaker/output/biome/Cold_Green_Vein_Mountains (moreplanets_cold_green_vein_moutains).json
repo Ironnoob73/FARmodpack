@@ -22,11 +22,11 @@
   "Dictionary Types": [
     "HILLS",
     "SNOWY",
-    "RARE",
-    "FOREST",
-    "MAGICAL",
     "MOUNTAIN",
-    "COLD"
+    "COLD",
+    "FOREST",
+    "RARE",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -23,8 +23,8 @@
     "DENSE",
     "WATER",
     "WET",
-    "LUSH",
-    "JUNGLE"
+    "JUNGLE",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

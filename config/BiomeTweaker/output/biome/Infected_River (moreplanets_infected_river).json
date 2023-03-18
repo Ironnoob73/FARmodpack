@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DEAD",
-    "PLAINS",
     "WATER",
+    "PLAINS",
     "RIVER"
   ],
   "BiomeManager Entries": {},

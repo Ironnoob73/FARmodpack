@@ -99,6 +99,15 @@ key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,15 +126,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:88
 key_key.cavern.magicBook:0
@@ -193,7 +193,7 @@ key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
 key_replaymod.input.playeroverview:48
 key_replaymod.input.lighting:44
-key_replaymod.input.quickmode:16
+key_replaymod.input.quickmode:0
 key_replaymod.input.settings:0
 key_replaymod.input.marker:50
 key_replaymod.input.thumbnail:49
@@ -209,6 +209,10 @@ key_replaymod.input.positionkeyframe:23
 key_replaymod.input.positiononlykeyframe:0
 key_replaymod.input.timekeyframe:24
 key_replaymod.input.bothkeyframes:0
+key_key.securitycraft.cameraZoomIn:13
+key_key.securitycraft.cameraZoomOut:12
+key_key.securitycraft.cameraEmitRedstone:0
+key_key.securitycraft.cameraActivateNightVision:49
 key_key.clipboardPaste:210
 key_key.cofh.multimode:0
 key_key.jei.toggleOverlay:24:CONTROL
@@ -289,10 +293,6 @@ key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.securitycraft.cameraZoomIn:13
-key_key.securitycraft.cameraZoomOut:12
-key_key.securitycraft.cameraEmitRedstone:0
-key_key.securitycraft.cameraActivateNightVision:49
 key_key.reload.desc:0
 key_key.camera.width.increase.desc:77
 key_key.camera.width.decrease.desc:75

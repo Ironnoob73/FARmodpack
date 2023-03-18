@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "HILLS",
     "MOUNTAIN",
-    "HOT",
-    "DRY",
     "WET",
-    "LUSH"
+    "DRY",
+    "LUSH",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

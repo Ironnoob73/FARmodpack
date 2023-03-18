@@ -3,7 +3,7 @@
         {
             "image": {
                 "parent": "builtin/panorama",
-                "image": "textures/gui/title/background/panorama_x.png"
+                "image": "textures/gui/title/background/end_panorama_x.png"
             }
         },
         {

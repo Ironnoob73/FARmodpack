@@ -1,0 +1,23 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiCustomizeSkin
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400262%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -24
+}
+

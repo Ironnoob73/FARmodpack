@@ -47,6 +47,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources/fancymenu/mainmenu/button_hovered.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources/fancymenu/mainmenu/button_clicked.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.singleplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.singleplayer.des"}}
 }
@@ -87,6 +99,13 @@ customization {
   identifier = %id=400322%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.replay.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.replay.des"}}
+}
+
+customization {
+  identifier = %id=400322%
+  vr:showif:modloaded = true
+  action = vanilla_button_visibility_requirements
+  vr:value:modloaded = replaymod
 }
 
 customization {
@@ -275,7 +294,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttondescription
-  description = {"placeholder":"local","values":{"key":"mainmenu.mods.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.des"}}
+  description = {"placeholder":"local","values":{"key":"mainmenu.mods.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.des"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.load"}}{"placeholder":"loadedmods"} {"placeholder":"local","values":{"key":"mainmenu.mods.tot"}}{"placeholder":"totalmods"}
 }
 
 customization {
@@ -377,6 +396,98 @@ customization {
   y = -100
   backgroundnormal = resources/fm_mainmenu_quickstart/0.png
   value = null
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  vr:showif:modloaded = false
+  backgroundhovered = resources/fm_mainmenu_replay/1.png
+  description = {"placeholder":"local","values":{"key":"mainmenu.replay.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.replay.unav"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 175
+  width = 50
+  actionid = bd8b3401-e6ba-47d6-9118-ae47534bdf391678936046085
+  action = addbutton
+  y = -4
+  vr:value:modloaded = replaymod
+  backgroundnormal = resources/fm_mainmenu_replay/1.png
+  value = 
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_github
+  buttonaction = openlink
+  description = {"placeholder":"local","values":{"key":"mainmenu.github.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.github.des"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 25
+  width = 50
+  actionid = 627c0048-5587-4376-af57-e24c6c48b7b61678944906614
+  action = addbutton
+  y = 60
+  backgroundnormal = resources/fm_mainmenu_github/0.png
+  value = https://github.com/Ironnoob73/FARmodpack
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_bilibili
+  buttonaction = openlink
+  description = {"placeholder":"local","values":{"key":"mainmenu.bili.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.bili.des"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 75
+  width = 50
+  actionid = f5b63ef7-775d-416f-b8da-dabcc20237b61678945042203
+  action = addbutton
+  y = 60
+  backgroundnormal = resources/fm_mainmenu_bilibili/0.png
+  value = https://space.bilibili.com/437590986
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_mcmod
+  buttonaction = openlink
+  description = {"placeholder":"local","values":{"key":"mainmenu.mcmod.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mcmod.des"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 125
+  width = 50
+  actionid = 862e951f-77e6-491d-82ec-762ad531a56d1678945126206
+  action = addbutton
+  y = 60
+  backgroundnormal = resources/fm_mainmenu_mcmod/0.png
+  value = 
+  height = 32
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mainmenu_curseforge
+  buttonaction = openlink
+  description = {"placeholder":"local","values":{"key":"mainmenu.curseforge.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.curseforge.des"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 175
+  width = 50
+  actionid = ec838456-fa12-4101-820e-adde888d9dc91678945149307
+  action = addbutton
+  y = 60
+  backgroundnormal = resources/fm_mainmenu_curseforge/0.png
+  value = 
   height = 32
 }
 

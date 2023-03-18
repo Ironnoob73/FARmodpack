@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiGameOver
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  orientation = mid-centered
+  x = -125
+  action = movebutton
+  y = 20
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 100
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_death_button
+  action = setbuttontexture
+  backgroundanimationnormal = fm_death_button_unlit
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  orientation = mid-centered
+  x = 25
+  action = movebutton
+  y = 20
+}
+
+customization {
+  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  width = 50
+  action = resizebutton
+  advanced_width = 100
+  height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_death_button
+  action = setbuttontexture
+  backgroundanimationnormal = fm_death_button_unlit
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"death.totitle.warning.name"}}%n%{"placeholder":"local","values":{"key":"death.totitle.warning.des"}}
+}
+
+customization {
+  orientation = mid-centered
+  name = fm_death_fail
+  x = -213
+  width = 426
+  actionid = f8ef9385-8984-410f-acc6-4295dd6134451678862649756
+  action = addanimation
+  y = -180
+  height = 200
+}
+

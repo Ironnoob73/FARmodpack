@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
-    "RARE",
     "FOREST",
     "THEMED_TREES",
+    "RARE",
     "MEGA_TAIGA_SPRUCE_TREES"
   ],
   "BiomeManager Entries": {},
