@@ -12,3 +12,24 @@ net.minecraft.client.gui.GuiMainMenu {
 net.minecraft.client.gui.GuiWorldSelection {
 }
 
+net.minecraft.client.gui.GuiScreenWorking {
+}
+
+net.minecraft.client.gui.GuiYesNo {
+}
+
+aroma1997.backup.recovery.GuiRestoreWorld {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+dev.toma.configuration.internal.gui.ConfigGui {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+

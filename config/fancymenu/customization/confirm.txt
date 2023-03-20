@@ -1,0 +1,97 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiYesNo
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505262%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 10
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=505262%
+  width = 50
+  action = resizebutton
+  advanced_width = 32
+  height = 50
+}
+
+customization {
+  identifier = %id=505262%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=505262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_confirm_nope/0.png
+  backgroundnormal = resources/fm_confirm_nope/1.png
+}
+
+customization {
+  identifier = %id=505262%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=505262%
+  action = setbuttondescription
+  description = &c&lNope...
+}
+
+customization {
+  identifier = %id=345262%
+  orientation = mid-centered
+  x = 68
+  action = movebutton
+  y = 10
+}
+
+customization {
+  advanced_height = 32
+  identifier = %id=345262%
+  width = 50
+  action = resizebutton
+  advanced_width = 32
+  height = 50
+}
+
+customization {
+  identifier = %id=345262%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=345262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_confirm_yep/0.png
+  backgroundnormal = resources/fm_confirm_yep/1.png
+}
+
+customization {
+  identifier = %id=345262%
+  action = setbuttondescription
+  description = &a&lYep!
+}
+

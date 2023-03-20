@@ -20,10 +20,252 @@ customization {
 
 customization {
   identifier = %id=346948%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 50
+  identifier = %id=346948%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346948%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  backgroundanimationhovered = fm_mainmenu_curseforge
   action = setbuttontexture
-  backgroundnormal = resources/fm_mainmenu_curseforge/0.png
+  backgroundhovered = resources/fm_save_join/1.png
+  backgroundnormal = resources/fm_save_join/0.png
+}
+
+customization {
+  identifier = %id=346948%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"save.join.name"}}%n%{"placeholder":"local","values":{"key":"save.join.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
+}
+
+customization {
+  identifier = %id=504948%
+  orientation = bottom-centered
+  x = 50
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 50
+  identifier = %id=504948%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=504948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_new/1.png
+  backgroundnormal = resources/fm_save_new/0.png
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"save.new.name"}}%n%{"placeholder":"local","values":{"key":"save.new.des"}}
+}
+
+customization {
+  identifier = %id=582972%
+  orientation = bottom-left
+  x = 10
+  action = movebutton
+  y = -30
+}
+
+customization {
+  advanced_height = 16
+  identifier = %id=582972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=582972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=582972%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_esc
+  action = setbuttontexture
+  backgroundnormal = resources/fm_esc/frames_main/1.png
+}
+
+customization {
+  identifier = %id=582972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=346972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_edit/1.png
+  backgroundnormal = resources/fm_save_edit/0.png
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"save.edit.name"}}%n%{"placeholder":"local","values":{"key":"save.edit.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -35
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=424972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=424972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_delet/1.png
+  backgroundnormal = resources/fm_save_delet/0.png
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"save.delet.name"}}%n%{"placeholder":"local","values":{"key":"save.delet.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = bottom-centered
+  x = 0
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=504972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=504972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_backup/1.png
+  backgroundnormal = resources/fm_save_backup/0.png
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"save.backup.name"}}%n%{"placeholder":"local","values":{"key":"save.backup.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton
+  backgroundhovered = resources/fm_unuse/0.png
+  label = 
+  loopbackgroundanimations = true
+  x = 0
+  width = 50
+  actionid = c7546551-10bf-42d6-8856-853541b0c0101679235913756
+  action = addbutton
+  y = -35
+  backgroundnormal = resources/fm_unuse/0.png
+  value = aroma1997.backup.recovery.GuiRestoreWorld:504972
+  height = 25
 }
 

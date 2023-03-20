@@ -320,7 +320,7 @@ customization {
   width = 123
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
-  y = 449
+  y = 439
   height = 60
 }
 
@@ -331,7 +331,7 @@ customization {
   width = 168
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
-  y = 491
+  y = 481
   height = 9
 }
 
@@ -360,24 +360,24 @@ customization {
 customization {
   orientation = mid-left
   splash_color = #ffff00
-  hidden = false
-  x = 289
+  hidden = true
+  x = 279
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
   actionid = 5f148f68-572f-4f0a-8350-c05d920ff2581678719202859
-  y = -76
+  y = -55
   height = 30
 }
 
 customization {
   path = resourcepacks/FarModpackResources/assets/minecraft/textures/gui/title/far_journey.png
   orientation = top-left
-  x = 26
+  x = 20
   width = 718
   actionid = 99820ce2-23b2-4cb1-83d4-b7cc303b430c1678719405109
   action = addtexture
-  y = 50
+  y = 45
   height = 100
 }
 
@@ -489,5 +489,56 @@ customization {
   backgroundnormal = resources/fm_mainmenu_curseforge/0.png
   value = 
   height = 32
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 2.0
+  refresh = false
+  bouncing = true
+  vanilla-like = true
+  x = 607
+  actionid = d41b1602-0b32-4496-ab14-d29aefe9bf1a1679321040964
+  action = addsplash
+  y = 102
+  text = §c§k⚠BETA TEST
+}
+
+customization {
+  orientation = mid-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = false
+  vanilla-like = false
+  x = 64
+  actionid = b76298df-d9a4-4007-8258-3c64b89233421679321372026
+  action = addsplash
+  y = 92
+  text = Version 0.1-2023.3-α
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-10)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-18)^2)^(1/2)","decimal":"false"}} days old today.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 294
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 51aa974f-9413-415a-b43f-4a83731442001679323712827
+  y = -60
+  alignment = left
+  height = 58
 }
 

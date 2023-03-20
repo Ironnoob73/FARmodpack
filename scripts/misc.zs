@@ -244,3 +244,5 @@ val removeSTMTooltip = [
   <sevendaystomine:fake_anvil>
 ]as IIngredient[];
 for item in removeSTMTooltip{item.removeTooltip("[0-9]+x");}
+#OpenBlocks Grave
+<openblocks:grave>.addTooltip("铁砧！这个坟墓在生存模式下需要背包里也有坟墓才会生效！别傻了吧唧的把坟墓禁用了！");

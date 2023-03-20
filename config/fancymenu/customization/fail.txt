@@ -16,27 +16,39 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
   orientation = mid-centered
-  x = -125
+  x = -100
   action = movebutton
-  y = 20
+  y = 10
 }
 
 customization {
-  advanced_height = 20
+  advanced_height = 32
   identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
   width = 50
   action = resizebutton
-  advanced_width = 100
+  advanced_width = 32
   height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  backgroundanimationhovered = fm_death_button
   action = setbuttontexture
-  backgroundanimationnormal = fm_death_button_unlit
+  backgroundhovered = resources/fm_death_respawn/0.png
+  backgroundanimationnormal = fm_death_respawn
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = sethoverlabel
+  label = 
 }
 
 customization {
@@ -49,29 +61,41 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
-  orientation = mid-centered
-  x = 25
-  action = movebutton
-  y = 20
+  identifier = %id=button_compatibility_id:mc_deathscreen_respawn_button%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"death.respawn.name"}}
 }
 
 customization {
-  advanced_height = 20
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  orientation = mid-centered
+  x = 68
+  action = movebutton
+  y = 10
+}
+
+customization {
+  advanced_height = 32
   identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
   width = 50
   action = resizebutton
-  advanced_width = 100
+  advanced_width = 32
   height = 50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  backgroundanimationhovered = fm_death_button
   action = setbuttontexture
-  backgroundanimationnormal = fm_death_button_unlit
+  backgroundhovered = resources/fm_death_quit/0.png
+  backgroundnormal = resources/fm_death_quit/1.png
 }
 
 customization {
@@ -86,7 +110,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_deathscreen_titlemenu_button%
   action = setbuttondescription
-  description = {"placeholder":"local","values":{"key":"death.totitle.warning.name"}}%n%{"placeholder":"local","values":{"key":"death.totitle.warning.des"}}
+  description = {"placeholder":"local","values":{"key":"death.totitle.name"}}%n%{"placeholder":"local","values":{"key":"death.totitle.warning.name"}}%n%{"placeholder":"local","values":{"key":"death.totitle.warning.des"}}
 }
 
 customization {

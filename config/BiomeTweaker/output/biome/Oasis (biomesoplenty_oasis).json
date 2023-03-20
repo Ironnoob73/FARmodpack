@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
-    "SPARSE",
     "WET",
+    "SPARSE",
     "JUNGLE",
+    "SANDY",
     "LUSH",
     "HOT"
   ],

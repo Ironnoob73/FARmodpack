@@ -1,0 +1,286 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = server
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 50
+  identifier = %id=346948%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_server_join/1.png
+  backgroundnormal = resources/fm_server_join/0.png
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.join.name"}}%n%{"placeholder":"local","values":{"key":"server.join.des"}}%n%{"placeholder":"local","values":{"key":"server.select.tip"}}
+}
+
+customization {
+  identifier = %id=450948%
+  orientation = bottom-centered
+  x = 0
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=450948%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=450948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=450948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_server_direct/1.png
+  backgroundnormal = resources/fm_server_direct/0.png
+}
+
+customization {
+  identifier = %id=450948%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.direct.name"}}%n%{"placeholder":"local","values":{"key":"server.direct.des"}}
+}
+
+customization {
+  identifier = %id=580972%
+  orientation = bottom-left
+  x = 10
+  action = movebutton
+  y = -30
+}
+
+customization {
+  advanced_height = 16
+  identifier = %id=580972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=580972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=580972%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_esc
+  action = setbuttontexture
+  backgroundnormal = resources/fm_esc/frames_main/1.png
+}
+
+customization {
+  identifier = %id=580972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=346972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=346972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_edit/1.png
+  backgroundnormal = resources/fm_save_edit/0.png
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.edit.name"}}%n%{"placeholder":"local","values":{"key":"server.edit.des"}}%n%{"placeholder":"local","values":{"key":"server.select.tip"}}
+}
+
+customization {
+  identifier = %id=426972%
+  orientation = bottom-centered
+  x = -50
+  action = movebutton
+  y = -35
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=426972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=426972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=426972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_save_delet/1.png
+  backgroundnormal = resources/fm_save_delet/0.png
+}
+
+customization {
+  identifier = %id=426972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.delet.name"}}%n%{"placeholder":"local","values":{"key":"server.delet.des"}}%n%{"placeholder":"local","values":{"key":"server.select.tip"}}
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = bottom-centered
+  x = 0
+  action = movebutton
+  y = -35
+}
+
+customization {
+  advanced_height = 25
+  identifier = %id=504972%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=504972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_server_refresh/1.png
+  backgroundnormal = resources/fm_server_refresh/0.png
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.refresh.name"}}%n%{"placeholder":"local","values":{"key":"server.refresh.des"}}
+}
+
+customization {
+  identifier = %id=554948%
+  orientation = bottom-centered
+  x = 50
+  action = movebutton
+  y = -60
+}
+
+customization {
+  advanced_height = 50
+  identifier = %id=554948%
+  width = 50
+  action = resizebutton
+  advanced_width = 50
+  height = 50
+}
+
+customization {
+  identifier = %id=554948%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=554948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/fm_server_add/1.png
+  backgroundnormal = resources/fm_server_add/0.png
+}
+
+customization {
+  identifier = %id=554948%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"server.add.name"}}%n%{"placeholder":"local","values":{"key":"server.add.des"}}
+}
+
