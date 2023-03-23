@@ -23,6 +23,7 @@ mainmenu.mcmod.name=§a§lMC百科 ↗
 mainmenu.mcmod.des=前往该整合包的MC百科介绍页面
 mainmenu.curseforge.name=§a§l“诅咒锻造” ↗
 mainmenu.curseforge.des=前往该整合包的CurseForge下载页面
+mainmenu.refresh.name=§7刷新主菜单（用于刷新闪烁标语）
 
 save.join.name=§e§l加入世界
 save.join.des=进入选中的世界

@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWinGame
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-left
+  basecolor = #7f7f7f
+  shadow = true
+  delayappearanceseconds = 1.0
+  rotation = 0.0
+  scale = 1.0
+  refresh = false
+  bouncing = false
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  x = 42
+  actionid = 8f17e958-3cb6-4cb4-8782-12c5f85120ba1679468596304
+  action = addsplash
+  y = -24
+  delayappearance = true
+  text = Press ESC to skip
+  delayappearanceeverytime = true
+}
+

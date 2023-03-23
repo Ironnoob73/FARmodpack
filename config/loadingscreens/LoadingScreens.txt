@@ -1,0 +1,8 @@
+background = addStretchedTexture("top_left", "customloadingscreen:image/background.png")
+background.setRelRender(1, 1)
+
+tips = addRandomText("top_left")
+tips.setAbsXOffset(5)
+tips.setAbsYOffset(5)
+tips.addTip("ftg.primaeval.root.desc")
+tips.addTip("ftg.primaeval.I.stonetool.desc")

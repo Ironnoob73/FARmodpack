@@ -23,6 +23,7 @@ mainmenu.mcmod.name=§a§lMcMod ↗
 mainmenu.mcmod.des=Go to the McMod page of the Modpack
 mainmenu.curseforge.name=§a§lCurseForge ↗
 mainmenu.curseforge.des=Go to the CurseForge download page of the Modpack
+mainmenu.refresh.name=§7Refresh the main menu (for refreshing the splashes)
 
 save.join.name=§e§lPlay
 save.join.des=Play selected world

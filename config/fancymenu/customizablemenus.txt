@@ -33,3 +33,9 @@ dev.toma.configuration.internal.gui.ConfigGui {
 net.minecraft.client.gui.GuiOptions {
 }
 
+net.minecraft.client.gui.GuiWinGame {
+}
+
+com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiScreen$MinecraftGuiScreen {
+}
+

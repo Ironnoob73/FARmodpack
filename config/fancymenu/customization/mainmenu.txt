@@ -47,18 +47,6 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  path = resources/fancymenu/mainmenu/button_hovered.wav
-  action = addhoversound
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  path = resources/fancymenu/mainmenu/button_clicked.wav
-  action = setbuttonclicksound
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.singleplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.singleplayer.des"}}
 }
@@ -498,13 +486,13 @@ customization {
   rotation = -20.0
   scale = 2.0
   refresh = false
-  bouncing = true
+  bouncing = false
   vanilla-like = true
-  x = 607
+  x = 50
   actionid = d41b1602-0b32-4496-ab14-d29aefe9bf1a1679321040964
   action = addsplash
-  y = 102
-  text = §c§k⚠BETA TEST
+  y = 74
+  text = §c⚠BETA TEST
 }
 
 customization {
@@ -525,20 +513,54 @@ customization {
 
 customization {
   orientation = bottom-left
-  enable_scrolling = true
+  enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-10)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-18)^2)^(1/2)","decimal":"false"}} days old today.
-  text_border = 0
+  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-9)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-18)^2)^(1/2)","decimal":"false"}} days old today.
+  text_border = 10
   case_mode = normal
   source_mode = direct
-  line_spacing = 1
-  x = 2
+  line_spacing = 0
+  x = -8
   width = 294
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 51aa974f-9413-415a-b43f-4a83731442001679323712827
   y = -60
   alignment = left
   height = 58
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resources/fancymenu/mainmenu/splashes.txt
+  rotation = -20.0
+  scale = 2.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 628
+  actionid = 331b2f2e-a576-4bf5-8d74-d12dfddc40021679373025163
+  action = addsplash
+  y = 100
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = reloadmenu
+  backgroundhovered = resources/fm_unuse/1.png
+  description = {"placeholder":"local","values":{"key":"mainmenu.refresh.name"}}
+  label = 
+  loopbackgroundanimations = true
+  x = 666
+  width = 50
+  actionid = 9b8fd80a-f434-4fe5-a9bb-933c7a2ca4a51679374800834
+  action = addbutton
+  y = 95
+  backgroundnormal = resources/fm_unuse/1.png
+  value = null
+  height = 50
 }
 
