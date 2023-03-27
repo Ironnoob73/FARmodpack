@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DEAD",
     "SWAMP",
     "WASTELAND",
-    "WET",
-    "DEAD"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -182,6 +182,24 @@
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",
       "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 3
     },

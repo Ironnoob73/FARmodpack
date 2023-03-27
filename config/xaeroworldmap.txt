@@ -1,4 +1,4 @@
-ignoreUpdate:144
+ignoreUpdate:154
 updateNotification:true
 differentiateByServerAddress:true
 netherlikeCaveMapAllowed:true
@@ -12,6 +12,7 @@ terrainDepth:true
 footsteps:true
 flowers:true
 coordinates:true
+hoveredBiome:true
 biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true

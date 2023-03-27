@@ -11,7 +11,7 @@ bobView:false
 anaglyph3d:false
 maxFps:60
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -99,14 +99,7 @@ key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -125,7 +118,14 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:62
 key_key.cavern.magicBook:0
@@ -152,6 +152,9 @@ key_keybind.togglechest.name:77
 key_keybind.togglelegs.name:81
 key_keybind.toggleboots.name:36
 key_key.hooked.fire:23
+key_Jet Pack Lift:33
+key_Jet Pack Hover:35
+key_Creepssile Launch:34
 key_neat.keybind.toggle:0
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
@@ -232,7 +235,6 @@ key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.aether.accessory_menu:0
-key_key.reveal:34
 key_key.keyExtraInvo:45:SHIFT
 key_key.keyWheel:0
 key_key.keyExtraCraftin:0
@@ -240,6 +242,7 @@ key_mekanism.key.mode:43
 key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
 key_mekanism.key.voice:0
+key_key.reveal:34
 key_keybind.fovfixtoggle:0
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
@@ -343,10 +346,12 @@ key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44
 key_Move Vehicle Down:45
+key_regeneration.keybinds.regenerate:0
+key_regeneration.keybinds.regenerate_forced:21
 key_toolbelt.binding.access:47
 key_toolbelt.binding.restock:47:SHIFT
 soundCategory_master:1.0
-soundCategory_music:0.6197183
+soundCategory_music:0.53521127
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SWAMP",
-    "DENSE",
     "LUSH",
+    "SWAMP",
+    "WET",
     "WATER",
-    "WET"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -76,6 +76,24 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedWolfEntity",

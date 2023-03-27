@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
-    "LUSH",
     "PLAINS",
+    "LUSH",
     "FOREST",
     "WET",
-    "COLD"
+    "COLD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -112,6 +112,24 @@
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",
       "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 3
     },
@@ -604,8 +622,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "BOREAL": 7,
-    "COOL_TEMPERATE": 3
+    "COOL_TEMPERATE": 3,
+    "BOREAL": 7
   },
   "BOP Climate Weights": {
     "BOREAL": [

@@ -21,11 +21,11 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "PLAINS",
-    "WATER",
-    "COLD",
     "DEAD",
     "RIVER",
-    "SNOWY"
+    "SNOWY",
+    "COLD",
+    "WATER"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -108,6 +108,24 @@
       "Weight": 20,
       "Min Group Count": 2,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedVillagerEntity",

@@ -20,16 +20,34 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "WASTELAND",
-    "WATER",
-    "HOT",
     "DEAD",
-    "MOUNTAIN"
+    "WASTELAND",
+    "MOUNTAIN",
+    "DRY",
+    "WATER",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
   "Spawnable Monsters": [
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
     {
       "Entity Class": "com.herobrine.mod.entities.InfectedLlamaEntity",
       "Weight": 10,
