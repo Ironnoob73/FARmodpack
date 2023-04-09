@@ -403,10 +403,7 @@
       "distribution": "uniform",
       "generator": {
         "block": {
-          "name": "galacticraftcore:basic_block_core",
-          "properties": {
-            "basictype": "ore_aluminum_gc"
-          }
+          "name": "colacraft:ore_aluminum"
         },
         "material": "minecraft:stone",
         "cluster-size": 16

@@ -6,9 +6,6 @@ net.minecraft.client.gui.GuiGameOver {
 net.minecraft.client.gui.GuiCustomizeSkin {
 }
 
-net.minecraft.client.gui.GuiMainMenu {
-}
-
 net.minecraft.client.gui.GuiWorldSelection {
 }
 
@@ -27,9 +24,6 @@ net.minecraft.client.gui.GuiMultiplayer {
 net.minecraft.client.gui.GuiLanguage {
 }
 
-dev.toma.configuration.internal.gui.ConfigGui {
-}
-
 net.minecraft.client.gui.GuiOptions {
 }
 
@@ -40,5 +34,11 @@ com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiScreen$Minecra
 }
 
 net.tardis.mod.client.guis.GuiOptifineWarning {
+}
+
+dev.toma.configuration.internal.gui.ConfigGui {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
 }
 

@@ -51,6 +51,12 @@ server.add.name=§e§lAdd Server
 server.add.des=Add a new server
 server.select.tip=§6§oPlease select a server first
 
+mods.config.name=§e§lConfig
+mods.config.des=Configure mods, some mods cannot be configured in-game
+mods.config.des0=§6§oUnless you know what you're doing, don't change the configuration
+mods.disable.name=§7§lDisable
+mods.disable.des=§8This button doesn't seem to do anything
+
 death.respawn.name=§c§lRespawn
 death.totitle.name=§c§lQuit
 death.totitle.warning.name=§e⚠Notices

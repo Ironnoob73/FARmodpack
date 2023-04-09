@@ -261,7 +261,8 @@
     "gui.config.controls.volume": "Volume: ",
     "death.propeller.null": "%s was shredded by a propeller",
     "death.propeller.player": "%s was shredded by %s's propeller",
-    "iteminfo.bullet.pellets": "Pellets: "
+    "iteminfo.bullet.pellets": "Pellets: ",
+    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details."
   },
   "packs": {
     "mts": {

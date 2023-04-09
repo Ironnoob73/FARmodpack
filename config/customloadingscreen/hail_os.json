@@ -29,6 +29,26 @@
         {
             "image": {
                 "parent": "builtin/image",
+                "image": "customloadingscreen:image/minesweeper.png",
+                "position_type": "TOP_RIGHT",
+                "offset_pos": "TOP_RIGHT",
+                "position": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "144",
+                    "height": "136"
+                },
+                "texture": {
+                    "x": "0",
+                    "y": "0",
+                    "width": "1",
+                    "height": "1"
+                }
+            }
+        },
+        {
+            "image": {
+                "parent": "builtin/image",
                 "image": "customloadingscreen:image/base.png",
                 "position_type": "CENTER",
                 "offset_pos": "CENTER",
@@ -293,7 +313,7 @@
                 "parent": "builtin/text",
                 "position_type": "CENTER",
                 "offset_pos": "CENTER_LEFT",
-                "text": "(has_tips() ? tip(floor(time / 0.1)) : '')", 
+                "text": "(has_tips() ? tip(floor(time / 1)) : '')", 
                 "position": {
                     "x":-175,
                     "y":114
@@ -306,7 +326,7 @@
                 "parent": "builtin/text",
                 "position_type": "CENTER",
                 "offset_pos": "CENTER_LEFT",
-                "text": "'Version 0.1-2023.3-α'", 
+                "text": "'Version 0.1-2023.4-α'", 
                 "position": {
                     "x":50,
                     "y":114

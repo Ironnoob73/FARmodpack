@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HILLS",
-    "LUSH",
-    "MOUNTAIN",
     "JUNGLE",
-    "WET",
-    "DENSE"
+    "MOUNTAIN",
+    "DENSE",
+    "LUSH",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

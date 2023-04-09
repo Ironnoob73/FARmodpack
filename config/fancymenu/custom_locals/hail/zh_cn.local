@@ -51,6 +51,12 @@ server.add.name=§e§l添加服务器
 server.add.des=添加一个服务器
 server.select.tip=§6§o请先选择一个服务器
 
+mods.config.name=§e§l配置
+mods.config.des=对模组进行配置，部分模组无法在游戏内进行配置
+mods.config.des0=§6§o除非你知道你在干什么，否则不要改动配置
+mods.disable.name=§7§l禁用
+mods.disable.des=§8该按钮似乎不起任何作用
+
 death.respawn.name=§c§l重生
 death.totitle.name=§c§l退出
 death.totitle.warning.name=§e⚠注意

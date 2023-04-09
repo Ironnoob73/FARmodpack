@@ -3,6 +3,7 @@ val paper=<ore:paper>;
 val fiber=<sevendaystomine:plantfiber>;
 val stick=<minecraft:stick>;
 val plank=<sevendaystomine:woodplank>;
+val stone=<sevendaystomine:smallstone>;
 
 recipes.remove(<ftgumod:parchment_empty>);
 recipes.addShapeless("parchment_from_paper",<ftgumod:parchment_empty>,[stick,stick,paper]);
@@ -124,3 +125,8 @@ recipes.addShaped("forge",<sevendaystomine:forge>,[
 [null,<sevendaystomine:smallstone>,null],
 [<sevendaystomine:smallstone>,<sevendaystomine:scrapiron>,<sevendaystomine:smallstone>],
 [<sevendaystomine:smallstone>,<sevendaystomine:smallstone>,<sevendaystomine:smallstone>]]);
+
+#Tetera
+recipes.addShaped("cobblestone_hammer",<tetra:duplex_tool_modular>.withTag({"duplex/basic_hammer_right_material": "basic_hammer/log", "duplex/binding_material": "duplex_binding/vine", "duplex/basic_hammer_left_material": "basic_hammer/log", honing_progress: 620, HideFlags: 1, "duplex/handle": "duplex/basic_handle", "duplex/binding": "duplex/binding", "duplex/head_left": "duplex/basic_hammer_left", "duplex/basic_handle_material": "basic_handle/stick", "duplex/head_right": "duplex/basic_hammer_right"}),[
+[stone,fiber],
+[stick,stone]]);

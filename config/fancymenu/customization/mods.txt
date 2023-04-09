@@ -54,16 +54,71 @@ customization {
 customization {
   identifier = %id=10951%
   orientation = bottom-centered
-  x = -150
+  x = -80
   action = movebutton
-  y = -50
+  y = -64
+}
+
+customization {
+  advanced_height = 50
+  identifier = %id=10951%
+  width = 50
+  action = resizebutton
+  advanced_width = 200
+  height = 50
+}
+
+customization {
+  identifier = %id=10951%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=10951%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  backgroundanimationhovered = fm_mods_config
+  action = setbuttontexture
+  backgroundnormal = resources/fm_mods_config/0.png
+}
+
+customization {
+  identifier = %id=10951%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mods.config.name"}}%n%{"placeholder":"local","values":{"key":"mods.config.des"}}%n%{"placeholder":"local","values":{"key":"mods.config.des0"}}
 }
 
 customization {
   identifier = %id=10973%
-  orientation = bottom-centered
-  x = 10
+  orientation = bottom-right
+  x = -150
   action = movebutton
-  y = -50
+  y = -20
+}
+
+customization {
+  identifier = %id=10973%
+  action = setbuttondescription
+  description = {"placeholder":"local","values":{"key":"mods.disable.name"}}%n%{"placeholder":"local","values":{"key":"mods.disable.des"}}
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = {"placeholder":"local","values":{"key":"mainmenu.mods.load"}}{"placeholder":"loadedmods"} {"placeholder":"local","values":{"key":"mainmenu.mods.tot"}}{"placeholder":"totalmods"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2551c6d0-134f-42c3-90f3-334abbc54fd51680081822383
+  y = -47
+  alignment = left
+  height = 40
 }
 

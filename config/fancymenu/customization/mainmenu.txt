@@ -508,7 +508,7 @@ customization {
   actionid = b76298df-d9a4-4007-8258-3c64b89233421679321372026
   action = addsplash
   y = 92
-  text = Version 0.1-2023.3-α
+  text = Version 0.1-2023.4-α
 }
 
 customization {
@@ -516,7 +516,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-9)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-18)^2)^(1/2)","decimal":"false"}} days old today.
+  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-10)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-19)^2)^(1/2)","decimal":"false"}} days old today.
   text_border = 10
   case_mode = normal
   source_mode = direct
