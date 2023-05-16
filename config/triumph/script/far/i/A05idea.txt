@@ -1,6 +1,6 @@
 setIcon(<ftgumod:idea_table>)
-setTranslatedTitle("far.advancements.category.i.idea.title")
-setTranslatedDescription("far.advancements.category.i.idea.desc")
+setTranslatedTitle("far.advancements.i.idea.title")
+setTranslatedDescription("far.advancements.i.idea.desc")
 addParent("far:i/A04wood")
 setPos(120,15)
 setFrameType("goal")

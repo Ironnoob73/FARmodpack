@@ -1,11 +1,11 @@
 {
-	title: "{far.quest.category.i.task.iiiee.sievemesh.title}",
+	title: "{far.quest.i.iiiee.sievemesh.title}",
 	icon: "exnihilocreatio:block_sieve",
 	x: 3.3d,
 	y: -1.5d,
-	description: "{far.quest.category.i.task.iiiee.sievemesh.subtitle}",
+	description: "{far.quest.i.iiiee.sievemesh.sub}",
 	text: [
-		"{far.quest.category.i.task.iiiee.sievemesh.description}"
+		"{far.quest.i.iiiee.sievemesh.des}"
 	],
 	dependencies: [
 		"e9f27bf8",

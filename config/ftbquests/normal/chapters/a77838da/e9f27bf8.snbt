@@ -1,10 +1,10 @@
 {
-	title: "{far.quest.category.i.task.iiie.woodencrook.title}",
+	title: "{far.quest.i.iiie.woodencrook.title}",
 	x: 3.0d,
 	y: -0.8999999999999999d,
-	description: "{far.quest.category.i.task.iiie.woodencrook.subtitle}",
+	description: "{far.quest.i.iiie.woodencrook.sub}",
 	text: [
-		"{far.quest.category.i.task.iiie.woodencrook.description}"
+		"{far.quest.i.iiie.woodencrook.des}"
 	],
 	dependencies: [
 		"83504359"

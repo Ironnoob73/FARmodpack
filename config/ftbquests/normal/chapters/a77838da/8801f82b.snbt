@@ -1,11 +1,10 @@
 {
-	title: "{far.quest.category.i.task.ia.nature_resources.title}",
+	title: "{far.quest.i.ia.nature_resources.title}",
 	x: 1.0d,
 	y: -1.0d,
-	description: "{far.quest.category.i.task.ia.nature_resources.subtitle}",
+	description: "{far.quest.i.ia.nature_resources.sub}",
 	text: [
-		"{far.quest.category.i.task.ia.nature_resources.des}",
-		"{far.quest.category.i.task.ia.nature_resources.des0}"
+		"{far.quest.i.ia.nature_resources.des}"
 	],
 	dependencies: [
 		"d637c7f5"
@@ -15,16 +14,23 @@
 		type: "item",
 		disable_toast: true,
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "stickWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any stickWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "stickWood"
+				},
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
 				}
 			}
 		}],
@@ -35,7 +41,16 @@
 		type: "item",
 		disable_toast: true,
 		items: [{
-			item: "sevendaystomine:plantfiber"
+			id: "sevendaystomine:plantfiber",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		consume_items: false
 	},
@@ -44,33 +59,23 @@
 		type: "item",
 		disable_toast: true,
 		items: [{
-			item: "sevendaystomine:smallstone"
+			id: "sevendaystomine:smallstone",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		consume_items: false
-	},
-	{
-		uid: "baa35b12",
-		type: "item",
-		items: [{
-			item: "ftgumod:parchment_empty"
-		}],
-		consume_items: true
 	}],
 	rewards: [{
-		uid: "68ccc6a1",
-		type: "item",
-		auto: "enabled",
-		item: {
-			id: "ftgumod:parchment_research",
-			tag: {
-				FTGU: "far:primaeval/1_stonetool"
-			}
-		}
-	},
-	{
 		uid: "fef4f37a",
 		type: "advancement",
-		auto: "invisible",
+		auto: "no_toast",
 		advancement: "far:i/A02scavenger",
 		criterion: ""
 	}]

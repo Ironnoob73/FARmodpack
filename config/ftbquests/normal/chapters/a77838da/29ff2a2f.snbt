@@ -1,12 +1,12 @@
 {
-	title: "{far.quest.category.i.task.vii.powder.title}",
+	title: "{far.quest.i.vii.powder.title}",
 	icon: "thermalfoundation:material 1 64",
 	x: 6.3d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.vii.powder.subtitle}",
+	description: "{far.quest.i.vii.powder.sub}",
 	text: [
-		"{far.quest.category.i.task.vii.powder.description}"
+		"{far.quest.i.vii.powder.des}"
 	],
 	dependencies: [
 		"a33a24bb",

@@ -262,7 +262,20 @@
     "death.propeller.null": "%s was shredded by a propeller",
     "death.propeller.player": "%s was shredded by %s's propeller",
     "iteminfo.bullet.pellets": "Pellets: ",
-    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details."
+    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.fuelpump.fullitems": "This pump is set up to require payment for fuel, but it cannot accept more items.  Contact the owner to empty it!",
+    "interact.fuelpump.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "interact.jerrycan.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "iteminfo.scanner": "Hover over a part box to see what can be placed at that slot.\nSneak while using to cycle slower.",
+    "iteminfo.wrench": "Attack a vehicle part to remove it.\nSneak-attack a vehicle to remove entire vehicle.\nUse on vehicle to change instruments.\nSneak-use on vehicle or blocks to change text.\nUse on pole components to remove them.\nUse on fuel pumps you placed to change prices.",
+    "iteminfo.screwdriver": "Like a wrench, but used only to remove specific parts that wrenches cannot.  Does not interact with blocks or other things.",
+    "iteminfo.paintgun": "Use on a vehicle, a part, decor, or sign to change its color.\nNote: Not all things you can click will have multiple colors.",
+    "iteminfo.key": "Sneak-use on cars to take ownership, right-click to lock/unlock.",
+    "iteminfo.ticket": "Right-click on a vehicle to load nearby entities.\nRight-click on a seat to load just that seat.\nSneak-click on a vehicle to unload all entities.\nNote: Will not unload players.",
+    "iteminfo.fuelhose": "Use on a vehicle tank to select.\nUse on second tank or vehicle to link.\nHose will transfer liquids from tank 1 to selected.\nHose will stop when tank 1 is empty, selected is full or if tank 1 and selected are too far away.",
+    "iteminfo.jumpercables": "Use on an engine to select.\nUse on second engine to link.\nLinked engines will exchange power.\nEngines will un-link when power is even or if they get too far away.",
+    "iteminfo.jumperpack": "Use on a vehicle to charge battery to max level.",
+    "iteminfo.y2kbutton": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins."
   },
   "packs": {
     "mts": {

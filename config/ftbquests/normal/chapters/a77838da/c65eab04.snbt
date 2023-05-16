@@ -1,11 +1,11 @@
 {
-	title: "{far.quest.category.i.task.iiiee.silkworm.title}",
+	title: "{far.quest.i.iiiee.silkworm.title}",
 	x: 2.6999999999999997d,
 	y: -1.5d,
-	description: "{far.quest.category.i.task.iiiee.silkworm.subtitle}",
+	description: "{far.quest.i.iiiee.silkworm.sub}",
 	text: [
-		"{far.quest.category.i.task.iiiee.silkworm.description}",
-		"{far.quest.category.i.task.iiiee.silkworm.description0}"
+		"{far.quest.i.iiiee.silkworm.des}",
+		"{far.quest.i.iiiee.silkworm.des0}"
 	],
 	dependencies: [
 		"e9f27bf8"

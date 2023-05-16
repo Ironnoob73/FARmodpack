@@ -3,7 +3,7 @@
 	y: 1.0d,
 	shape: "rsquare",
 	text: [
-		"{far.quest.category.i.task.ve.charcoal.description}"
+		"{far.quest.i.ve.charcoal.des}"
 	],
 	dependencies: [
 		"480bf3fc"

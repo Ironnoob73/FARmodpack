@@ -16,16 +16,23 @@
 		uid: "f03bad76",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "ingotSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any ingotSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotSteel"
+				},
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
 				}
 			}
 		}]

@@ -2,9 +2,9 @@
 	x: 7.0d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.iix.iron.subtitle}",
+	description: "{far.quest.i.iix.iron.sub}",
 	text: [
-		"{far.quest.category.i.task.iix.iron.description}"
+		"{far.quest.i.iix.iron.des}"
 	],
 	dependencies: [
 		"29ff2a2f"

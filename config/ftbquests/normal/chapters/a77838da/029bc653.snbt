@@ -1,14 +1,14 @@
 {
-	title: "{far.quest.category.i.task.iiie.clay.title}",
+	title: "{far.quest.i.iiie.clay.title}",
 	x: 4.5d,
 	y: -1.5d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.iiie.clay.subtitle}",
+	description: "{far.quest.i.iiie.clay.sub}",
 	text: [
-		"{far.quest.category.i.task.iiie.clay.description}",
-		"{far.quest.category.i.task.iiie.clay.description0}",
-		"{far.quest.category.i.task.iiie.clay.description1}",
-		"{far.quest.category.i.task.iiie.clay.description2}"
+		"{far.quest.i.iiie.clay.des}",
+		"{far.quest.i.iiie.clay.des0}",
+		"{far.quest.i.iiie.clay.des1}",
+		"{far.quest.i.iiie.clay.des2}"
 	],
 	dependencies: [
 		"83504359"

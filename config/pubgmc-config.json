@@ -98,6 +98,9 @@
           }
         }
       },
+      "Custom Main Menu": {
+        "value": false
+      },
       "Overlays": {
         "comment": [
           "Overlay rendering options"
@@ -170,6 +173,19 @@
   },
   "Common": {
     "value": {
+      "Player": {
+        "value": {
+          "Allow knockback": {
+            "value": true
+          },
+          "Inventory restrictions": {
+            "comment": [
+              "Your inventory capacity will be affected by equipped backpack"
+            ],
+            "value": false
+          }
+        }
+      },
       "Weapons": {
         "value": {
           "Scorpion": {

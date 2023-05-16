@@ -1,5 +1,5 @@
 {
-	title: "{far.quest.category.i.title}",
+	title: "{far.quest.i.title}",
 	icon: "minecraft:sapling",
 	always_invisible: false,
 	group: 0,

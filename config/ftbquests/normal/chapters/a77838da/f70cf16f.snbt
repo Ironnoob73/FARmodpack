@@ -1,12 +1,12 @@
 {
-	title: "{far.quest.category.i.task.ii.log.title}",
+	title: "{far.quest.i.ii.log.title}",
 	icon: "minecraft:log",
 	x: 1.5d,
 	y: 0.0d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.ii.log.subtitle}",
+	description: "{far.quest.i.ii.log.sub}",
 	text: [
-		"{far.quest.category.i.task.ii.log.description}"
+		"{far.quest.i.ii.log.des}"
 	],
 	dependencies: [
 		"8801f82b"
@@ -15,16 +15,23 @@
 		uid: "54fb532c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "logWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				},
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
 				}
 			}
 		}],
@@ -46,16 +53,5 @@
 		auto: "disabled",
 		item: "minecraft:log",
 		count: 50
-	},
-	{
-		uid: "99fc987c",
-		type: "item",
-		auto: "enabled",
-		item: {
-			id: "ftgumod:parchment_research",
-			tag: {
-				FTGU: "far:primaeval/2_wood"
-			}
-		}
 	}]
 }

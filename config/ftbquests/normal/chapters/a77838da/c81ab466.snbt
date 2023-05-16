@@ -2,10 +2,10 @@
 	x: 3.5d,
 	y: 0.35d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.iv.coal.subtitle}",
+	description: "{far.quest.i.iv.coal.sub}",
 	text: [
-		"{far.quest.category.i.task.iv.coal.description}",
-		"{far.quest.category.i.task.iv.coal.description0}"
+		"{far.quest.i.iv.coal.des}",
+		"{far.quest.i.iv.coal.des0}"
 	],
 	dependencies: [
 		"83504359"

@@ -15,16 +15,23 @@
 		uid: "c89db679",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "bopOverWorldGem",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any bopOverWorldGem"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "bopOverWorldGem"
+				},
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
 				}
 			}
 		}]

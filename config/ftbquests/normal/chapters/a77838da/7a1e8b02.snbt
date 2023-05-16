@@ -1,11 +1,11 @@
 {
 	x: 8.0d,
 	y: 0.5d,
-	description: "{far.quest.category.i.task.iixe.ironpickaxe.subtitle}",
+	description: "{far.quest.i.iixe.ironpickaxe.sub}",
 	text: [
-		"{far.quest.category.i.task.iixe.ironpickaxe.description}",
-		"{far.quest.category.i.task.iixe.ironpickaxe.description0}",
-		"{far.quest.category.i.task.iixe.ironpickaxe.description1}"
+		"{far.quest.i.iixe.ironpickaxe.des}",
+		"{far.quest.i.iixe.ironpickaxe.des0}",
+		"{far.quest.i.iixe.ironpickaxe.des1}"
 	],
 	dependencies: [
 		"8b956b11"

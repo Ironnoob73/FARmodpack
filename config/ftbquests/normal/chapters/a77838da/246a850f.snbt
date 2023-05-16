@@ -2,10 +2,10 @@
 	x: 9.0d,
 	y: 0.5d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.x.treatedwood.subtitle}",
+	description: "{far.quest.i.x.treatedwood.sub}",
 	text: [
-		"{far.quest.category.i.task.x.treatedwood.description}",
-		"{far.quest.category.i.task.x.treatedwood.description0}"
+		"{far.quest.i.x.treatedwood.des}",
+		"{far.quest.i.x.treatedwood.des0}"
 	],
 	dependencies: [
 		"31614f08"

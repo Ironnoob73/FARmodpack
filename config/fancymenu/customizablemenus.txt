@@ -36,9 +36,9 @@ com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiScreen$Minecra
 net.tardis.mod.client.guis.GuiOptifineWarning {
 }
 
-dev.toma.configuration.internal.gui.ConfigGui {
+net.minecraft.client.gui.GuiMainMenu {
 }
 
-net.minecraft.client.gui.GuiMainMenu {
+dev.toma.configuration.internal.gui.ConfigGui {
 }
 

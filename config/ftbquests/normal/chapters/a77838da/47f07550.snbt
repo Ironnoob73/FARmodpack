@@ -1,10 +1,10 @@
 {
 	x: 4.0d,
 	y: -0.5d,
-	description: "{far.quest.category.i.task.ive.campfire.subtitle}",
+	description: "{far.quest.i.ive.campfire.sub
 	text: [
-		"{far.quest.category.i.task.ive.campfire.description}",
-		"{far.quest.category.i.task.ive.campfire.description0}"
+		"{far.quest.i.ive.campfire.des}",
+		"{far.quest.i.ive.campfire.des0}"
 	],
 	dependencies: [
 		"c81ab466"

@@ -1,12 +1,12 @@
 {
-	title: "{far.quest.category.i.task.iiitvii.orechunk.title}",
+	title: "{far.quest.i.iiitvii.orechunk.title}",
 	icon: "exnihilocreatio:item_ore_copper 1 1",
 	x: 3.15d,
 	y: 1.05d,
 	shape: "rsquare",
-	description: "{far.quest.category.i.task.iiitvii.orechunk.subtitle}",
+	description: "{far.quest.i.iiitvii.orechunk.sub}",
 	text: [
-		"{far.quest.category.i.task.iiitvii.orechunk.description}"
+		"{far.quest.i.iiitvii.orechunk.des}"
 	],
 	dependencies: [
 		"83504359"
@@ -15,7 +15,7 @@
 	tasks: [{
 		uid: "9dccb13c",
 		type: "item",
-		title: "{far.quest.category.i.task.iiitvii.orechunk.item}",
+		title: "{far.quest.i.iiitvii.orechunk.item}",
 		items: [{
 			item: "exnihilocreatio:item_ore_copper 1 1"
 		},

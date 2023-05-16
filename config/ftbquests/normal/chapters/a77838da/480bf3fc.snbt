@@ -1,9 +1,9 @@
 {
 	x: 4.5d,
 	y: 0.5d,
-	description: "{far.quest.category.i.task.v.furnace.subtitle}",
+	description: "{far.quest.i.v.furnace.sub
 	text: [
-		"{far.quest.category.i.task.v.furnace.description}"
+		"{far.quest.i.v.furnace.des}"
 	],
 	dependencies: [
 		"c81ab466"

@@ -8,11 +8,11 @@ import mods.ResearchTable;
 import ResearchTable.Category;
 import ResearchTable.Builder;
 //All basic research
-var Basic = ResearchTable.addCategory(<exnihilocreatio:item_material:7>,"researchtable.category.i.title");
+var Basic = ResearchTable.addCategory(<exnihilocreatio:item_material:7>,"researchtable.i.title");
 ResearchTable.builder("GetTechImmersive",Basic)
   .setIcons(<immersiveengineering:tool:3>)
   .setTitle("researchtable.i.get_tech_immersive.title")
-  .setDescription("researchtable.i.get_tech_immersive.description")
+  .setDescription("researchtable.i.get_tech_immersive.des")
   .addCondition(<immersiveengineering:tool>,<minecraft:book>,<liquid:creosote>*1000,<ordinarycoins:coinbronze>*25)
   .setRewardStages("immersive_engineer")
   .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\"researchtable.i.get_tech_immersive.complete\"}]}")
@@ -21,7 +21,7 @@ ResearchTable.builder("GetTechImmersive",Basic)
 ResearchTable.builder("GetTechThermal",Basic)
   .setIcons(<thermalfoundation:tome_lexicon>)
   .setTitle("researchtable.ii.get_tech_thermal.title")
-  .setDescription("researchtable.ii.get_tech_thermal.description")
+  .setDescription("researchtable.ii.get_tech_thermal.des")
   .addCondition(<thermalfoundation:wrench>,<minecraft:book>,<chisel:chisel_iron>,<ordinarycoins:coinbronze>*50)
   .setRewardStages("thermal_industry")
   .setRewardCommands("/tellraw @a {\"text\":\" \",\"extra\":[{\"selector\":\"@s\"},{\"translate\":\"researchtable.ii.get_tech_thermal.complete\"}]}")

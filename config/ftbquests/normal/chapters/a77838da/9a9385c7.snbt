@@ -1,11 +1,11 @@
 {
-	title: "{far.quest.category.i.task.xii.researchtable.title}",
+	title: "{far.quest.i.xii.researchtable.title}",
 	x: 11.25d,
 	y: 0.75d,
 	shape: "diamond",
-	description: "{far.quest.category.i.task.xii.researchtable.subtitle}",
+	description: "{far.quest.i.xii.researchtable.sub}",
 	text: [
-		"{far.quest.category.i.task.xii.researchtable.description}"
+		"{far.quest.i.xii.researchtable.des}"
 	],
 	dependencies: [
 		"169fe321"

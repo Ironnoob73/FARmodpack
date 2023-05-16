@@ -1,12 +1,12 @@
 {
-	title: "{far.quest.category.i.task.iii.craftingtable.title}",
+	title: "{far.quest.i.iii.craftingtable.title}",
 	icon: "minecraft:crafting_table",
 	x: 2.5d,
 	y: 0.0d,
-	description: "{far.quest.category.i.task.iii.craftingtable.subtitle}",
+	description: "{far.quest.i.iii.craftingtable.sub}",
 	text: [
-		"{far.quest.category.i.task.iii.craftingtable.description}",
-		"{far.quest.category.i.task.iii.craftingtable.description0}"
+		"{far.quest.i.iii.craftingtable.des}",
+		"{far.quest.i.iii.craftingtable.des0}"
 	],
 	dependencies: [
 		"c67c4037"
@@ -15,16 +15,23 @@
 		uid: "599887af",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "craftingTableWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any craftingTableWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingTableWood"
+				},
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
 				}
 			}
 		}]

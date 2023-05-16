@@ -1,6 +1,6 @@
 setIcon(<minecraft:crafting_table>)
 setTitle("Just Craft")
-setTranslatedDescription("far.advancements.category.i.craftingtable.desc")
+setTranslatedDescription("far.advancements.i.craftingtable.desc")
 addParent("far:i/A05idea")
 setPos(150,0)
 criteria = addCriteria("crafting_table", "minecraft:inventory_changed")

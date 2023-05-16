@@ -23,8 +23,8 @@
     "NETHER",
     "WASTELAND",
     "HOT",
-    "MAGICAL",
     "DRY",
+    "MAGICAL",
     "SPOOKY"
   ],
   "BiomeManager Entries": {},

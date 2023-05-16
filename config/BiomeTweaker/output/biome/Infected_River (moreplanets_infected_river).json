@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "RIVER",
     "DEAD",
-    "PLAINS",
-    "WATER"
+    "WATER",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

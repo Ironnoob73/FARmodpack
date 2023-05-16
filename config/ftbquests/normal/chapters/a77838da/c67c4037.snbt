@@ -1,9 +1,9 @@
 {
 	disable_toast: true,
-	x: 1.5d,
-	y: 1.0d,
+	x: 2.5d,
+	y: 1.5d,
 	dependencies: [
-		"f70cf16f"
+		"50587b18"
 	],
 	tasks: [{
 		uid: "23c8d4aa",

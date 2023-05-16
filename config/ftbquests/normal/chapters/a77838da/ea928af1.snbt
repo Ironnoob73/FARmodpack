@@ -12,7 +12,16 @@
 		uid: "f7737223",
 		type: "item",
 		items: [{
-			item: "minecraft:stick"
+			id: "minecraft:stick",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}]
 	}],
 	rewards: [{

@@ -4,7 +4,7 @@
         "item": "minecraft:book"
       },
       "title": {
-        "translate": "far.advancements.category.i.root.title"
+        "translate": "far.advancements.i.root.title"
       },
       "description": {
         "translate": "ftg.primaeval.root.desc"

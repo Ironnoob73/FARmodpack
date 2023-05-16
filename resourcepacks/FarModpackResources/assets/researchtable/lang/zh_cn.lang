@@ -1,27 +1,27 @@
-researchtable.category.i.title=基础科学
+researchtable.i.title=基础科学
 
 researchtable.i.get_tech_immersive.title=沉浸工程
-researchtable.i.get_tech_immersive.description=Des
+researchtable.i.get_tech_immersive.des=Des
 researchtable.i.get_tech_immersive.complete=完成了沉浸工程的初期研究
 
 researchtable.ii.get_tech_thermal.title=热力工业
-researchtable.ii.get_tech_thermal.description=Des
+researchtable.ii.get_tech_thermal.des=Des
 researchtable.ii.get_tech_thermal.complete=完成了热力工业的初期研究
 
-researchtable.category.ii.title=应用魔法
+researchtable.ii.title=应用魔法
 
 researchtable.i.get_magic_menril.title=门瑞欧
-researchtable.i.get_magic_menril.description=Des
+researchtable.i.get_magic_menril.des=Des
 researchtable.i.get_magic_menril.complete=完成了门瑞欧的初期研究
 
 researchtable.ii.get_magic_extrautils.title=实用设备
-researchtable.ii.get_magic_extrautils.description=Des
+researchtable.ii.get_magic_extrautils.des=Des
 researchtable.ii.get_magic_extrautils.complete=完成了实用设备的初期研究
 
 researchtable.iii.get_magic_cyclic.title=循环
-researchtable.iii.get_magic_cyclic.description=Des
+researchtable.iii.get_magic_cyclic.des=Des
 researchtable.iii.get_magic_cyclic.complete=完成了循环的初期研究
 
 researchtable.iv.get_magic_actually.title=实用拓展
-researchtable.iv.get_magic_actually.description=Des
+researchtable.iv.get_magic_actually.des=Des
 researchtable.iv.get_magic_actually.complete=完成了实用拓展的初期研究

@@ -1,13 +1,13 @@
 {
-	title: "{far.quest.category.i.task.i.helloworld.title}",
+	title: "{far.quest.i.i.helloworld.title}",
 	icon: "minecraft:grass",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "gear",
-	description: "{far.quest.category.i.task.i.helloworld.subtitle}",
+	description: "{far.quest.i.i.helloworld.sub}",
 	text: [
-		"{far.quest.category.i.task.i.helloworld.description}",
-		"{far.quest.category.i.task.i.helloworld.description0}"
+		"{far.quest.i.i.helloworld.des}",
+		"{far.quest.i.i.helloworld.des0}"
 	],
 	hide_dependency_lines: true,
 	size: 1.5d,

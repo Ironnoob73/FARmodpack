@@ -1,0 +1,20 @@
+{
+	title: "{tile.craftsmanship_table.name}",
+	x: 1.5d,
+	y: 1.0d,
+	description: "{far.quest.i.iia.craftsmanship_table.sub}",
+	text: [
+		"{far.quest.i.iia.craftsmanship_table.des}"
+	],
+	dependencies: [
+		"f70cf16f"
+	],
+	tasks: [{
+		uid: "f497f8c6",
+		type: "observation",
+		icon: "tetra:workbench",
+		match_type: "block_id",
+		match: "tetra:workbench",
+		timer: 0L
+	}]
+}

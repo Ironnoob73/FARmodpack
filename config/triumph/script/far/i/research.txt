@@ -1,6 +1,6 @@
 setIcon(<researchtable:table>)
-setTranslatedTitle("far.advancements.category.i.research_table.title")
-setTranslatedDescription("far.advancements.category.i.research_table.description")
+setTranslatedTitle("far.advancements.i.research_table.title")
+setTranslatedDescription("far.advancements.i.research_table.des")
 addParent("far:i/A01root")
 setPos(25,25)
 addCriteria("impossible","minecraft:impossible")

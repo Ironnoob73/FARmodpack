@@ -2,10 +2,10 @@
 	icon: "rustic:condenser",
 	x: 8.5d,
 	y: -0.5d,
-	description: "{far.quest.category.i.task.ix.alchemic.subtitle}",
+	description: "{far.quest.i.ix.alchemic.sub}",
 	text: [
-		"{far.quest.category.i.task.ix.alchemic.description}",
-		"{far.quest.category.i.task.ix.alchemic.description0}"
+		"{far.quest.i.ix.alchemic.des}",
+		"{far.quest.i.ix.alchemic.des0}"
 	],
 	dependencies: [
 		"8b956b11"

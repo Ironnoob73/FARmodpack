@@ -1,9 +1,9 @@
 {
 	x: 10.0d,
 	y: 0.5d,
-	description: "{far.quest.category.i.task.xi.engineershammer.subtitle}",
+	description: "{far.quest.i.xi.engineershammer.sub}",
 	text: [
-		"{far.quest.category.i.task.xi.engineershammer.description}"
+		"{far.quest.i.xi.engineershammer.des}"
 	],
 	dependencies: [
 		"246a850f"

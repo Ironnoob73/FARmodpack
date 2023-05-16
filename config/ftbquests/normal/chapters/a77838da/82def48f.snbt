@@ -1,12 +1,12 @@
 {
-	title: "{far.quest.category.i.task.iiie.hammer.title}",
+	title: "{far.quest.i.iiie.hammer.title}",
 	icon: "exnihilocreatio:hammer_wood",
 	x: 3.9d,
 	y: -1.5d,
-	description: "{far.quest.category.i.task.iiie.hammer.subtitle}",
+	description: "{far.quest.i.iiie.hammer.sub}",
 	text: [
-		"{far.quest.category.i.task.iiie.hammer.description}",
-		"{far.quest.category.i.task.iiie.hammer.description0}"
+		"{far.quest.i.iiie.hammer.des}",
+		"{far.quest.i.iiie.hammer.des0}"
 	],
 	dependencies: [
 		"83504359"
