@@ -304,10 +304,10 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 123
+  width = 122
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
-  y = 439
+  y = 445
   height = 60
 }
 
@@ -318,7 +318,7 @@ customization {
   width = 168
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
-  y = 481
+  y = 487
   height = 9
 }
 
@@ -500,7 +500,7 @@ customization {
   actionid = b76298df-d9a4-4007-8258-3c64b89233421679321372026
   action = addsplash
   y = 92
-  text = Version 0.1-2023.4-α
+  text = Version 0.1-2023.6-α
 }
 
 customization {

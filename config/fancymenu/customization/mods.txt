@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = resources/adventure.png
-  action = texturizebackground
+  name = spruce_forest
+  action = setbackgroundpanorama
 }
 
 customization {

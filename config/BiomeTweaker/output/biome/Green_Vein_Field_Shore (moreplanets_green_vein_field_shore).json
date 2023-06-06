@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "BEACH",
-    "FOREST",
-    "MAGICAL",
-    "WET",
     "RARE",
+    "MAGICAL",
+    "FOREST",
+    "BEACH",
+    "PLAINS",
+    "WET",
     "HOT"
   ],
   "BiomeManager Entries": {},

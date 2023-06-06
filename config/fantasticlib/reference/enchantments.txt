@@ -74,6 +74,7 @@ endreborn:shulker_core
 exnihilocreatio:sieve_efficiency
 exnihilocreatio:sieve_fortune
 exnihilocreatio:sieve_luck_of_the_sea
+kathairis:ethereal
 lava_walker:lava_walker
 matteroverdrive:overclock
 nyx:lunar_edge

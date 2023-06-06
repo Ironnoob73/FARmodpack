@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
+    "RARE",
     "WET",
-    "HILLS",
-    "RARE"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

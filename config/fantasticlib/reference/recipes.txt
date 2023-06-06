@@ -10493,6 +10493,18 @@ mysticaladaptations:gear
 mysticaladaptations:block_to_netherstar
 mysticaladaptations:block_to_hop_graphite
 naturescompass:natures_compass
+nice:solid_yellow
+nice:solid
+nice:cylinder
+nice:solidcylinder
+nice:cylinder_green
+nice:solid_red
+nice:solidsmallcylinder
+nice:cylinder_red
+nice:solid_blue
+nice:smallcylinder
+nice:solid_green
+nice:cylinder_yellow
 nyx:meteor_helm
 nyx:star_block
 nyx:meteor_pants
@@ -11955,6 +11967,73 @@ chisel:voidstone
 chisel:voidstone2
 chisel:waterstone
 akashictome:attachment
+quark:root_dye
+quark:root_dye_1
+quark:root_dye_2
+quark:biotite_slab
+quark:biotite_stairs
+quark:biotite_wall
+quark:biotite_block
+quark:biotite_block_1
+quark:biotite_block_2
+quark:stone_basalt_slab
+quark:stone_basalt_stairs
+quark:basalt_wall
+quark:golden_frog_leg
+quark:stone_marble_slab
+quark:stone_marble_stairs
+quark:marble_wall
+quark:marble
+quark:stone_limestone_slab
+quark:stone_limestone_stairs
+quark:limestone_wall
+quark:limestone
+quark:stone_jasper_slab
+quark:stone_jasper_stairs
+quark:jasper_wall
+quark:jasper
+quark:stone_slate_slab
+quark:stone_slate_stairs
+quark:slate_wall
+quark:slate
+quark:fire_stone_slab
+quark:fire_stone_stairs
+quark:fire_stone_brick_slab
+quark:fire_stone_brick_stairs
+quark:icy_stone_slab
+quark:icy_stone_stairs
+quark:icy_stone_brick_slab
+quark:icy_stone_brick_stairs
+quark:cobbed_stone_slab
+quark:cobbed_stone_stairs
+quark:elder_prismarine_slab
+quark:elder_prismarine_stairs
+quark:elder_prismarine_bricks_slab
+quark:elder_prismarine_bricks_stairs
+quark:elder_prismarine_dark_slab
+quark:elder_prismarine_dark_stairs
+quark:fire_stone_wall
+quark:icy_stone_wall
+quark:cobbed_stone_wall
+quark:fire_stone_brick_wall
+quark:icy_stone_brick_wall
+quark:elder_prismarine_wall
+quark:elder_prismarine_bricks_wall
+quark:elder_prismarine_dark_wall
+quark:arrow_ender
+quark:arrow_explosive
+quark:arrow_torch
+quark:map_pinning
+quark:rune
+quark:dispenser
+quark:repeater
+quark:chest_minecart
+quark:furnace_minecart
+quark:hopper_minecart
+quark:tnt_minecart
+quark:chest_minecart_1
+quark:horse_whistle
+quark:elytra_duplication
 quark:paper_wall
 quark:paper_wall_big
 quark:paper_wall_sakura
@@ -12038,22 +12117,44 @@ quark:blaze_lantern
 quark:nether_brick_fence_gate
 quark:grate
 quark:glass_item_frame
+quark:chute
+quark:sugar_block
+quark:sugar
+quark:iron_button
+quark:iron_button_1
+quark:gold_button
+quark:gold_button_1
+quark:iron_rod
+quark:gravisand
+quark:obsidian_pressure_plate
+quark:rain_detector
+quark:chain
+quark:chainmail_helmet
+quark:chainmail_chestplate
+quark:chainmail_leggings
+quark:chainmail_boots
+quark:clay_ball
+quark:glass
+quark:stained_glass
+quark:stained_glass_1
+quark:stained_glass_2
+quark:stained_glass_3
+quark:stained_glass_4
+quark:stained_glass_5
+quark:stained_glass_6
+quark:stained_glass_7
+quark:stained_glass_8
+quark:stained_glass_9
+quark:stained_glass_10
+quark:stained_glass_11
+quark:stained_glass_12
+quark:stained_glass_13
+quark:stained_glass_14
+quark:stained_glass_15
+quark:tiny_potato
+quark:tiny_potato_1
 quark:elytra_dyeing
 quark:firework_cloning
-quark:arrow_ender
-quark:arrow_explosive
-quark:arrow_torch
-quark:map_pinning
-quark:rune
-quark:dispenser
-quark:repeater
-quark:chest_minecart
-quark:furnace_minecart
-quark:hopper_minecart
-quark:tnt_minecart
-quark:chest_minecart_1
-quark:horse_whistle
-quark:elytra_duplication
 quark:sandstone_new
 quark:sandstone_new_1
 quark:sandstone_new_2
@@ -12363,95 +12464,46 @@ quark:quilted_wool_12
 quark:quilted_wool_13
 quark:quilted_wool_14
 quark:quilted_wool_15
-quark:chute
-quark:sugar_block
-quark:sugar
-quark:iron_button
-quark:iron_button_1
-quark:gold_button
-quark:gold_button_1
-quark:iron_rod
-quark:gravisand
-quark:obsidian_pressure_plate
-quark:rain_detector
-quark:chain
-quark:chainmail_helmet
-quark:chainmail_chestplate
-quark:chainmail_leggings
-quark:chainmail_boots
-quark:clay_ball
-quark:glass
-quark:stained_glass
-quark:stained_glass_1
-quark:stained_glass_2
-quark:stained_glass_3
-quark:stained_glass_4
-quark:stained_glass_5
-quark:stained_glass_6
-quark:stained_glass_7
-quark:stained_glass_8
-quark:stained_glass_9
-quark:stained_glass_10
-quark:stained_glass_11
-quark:stained_glass_12
-quark:stained_glass_13
-quark:stained_glass_14
-quark:stained_glass_15
-quark:root_dye
-quark:root_dye_1
-quark:root_dye_2
-quark:biotite_slab
-quark:biotite_stairs
-quark:biotite_wall
-quark:biotite_block
-quark:biotite_block_1
-quark:biotite_block_2
-quark:stone_basalt_slab
-quark:stone_basalt_stairs
-quark:basalt_wall
-quark:golden_frog_leg
-quark:stone_marble_slab
-quark:stone_marble_stairs
-quark:marble_wall
-quark:marble
-quark:stone_limestone_slab
-quark:stone_limestone_stairs
-quark:limestone_wall
-quark:limestone
-quark:stone_jasper_slab
-quark:stone_jasper_stairs
-quark:jasper_wall
-quark:jasper
-quark:stone_slate_slab
-quark:stone_slate_stairs
-quark:slate_wall
-quark:slate
-quark:fire_stone_slab
-quark:fire_stone_stairs
-quark:fire_stone_brick_slab
-quark:fire_stone_brick_stairs
-quark:icy_stone_slab
-quark:icy_stone_stairs
-quark:icy_stone_brick_slab
-quark:icy_stone_brick_stairs
-quark:cobbed_stone_slab
-quark:cobbed_stone_stairs
-quark:elder_prismarine_slab
-quark:elder_prismarine_stairs
-quark:elder_prismarine_bricks_slab
-quark:elder_prismarine_bricks_stairs
-quark:elder_prismarine_dark_slab
-quark:elder_prismarine_dark_stairs
-quark:fire_stone_wall
-quark:icy_stone_wall
-quark:cobbed_stone_wall
-quark:fire_stone_brick_wall
-quark:icy_stone_brick_wall
-quark:elder_prismarine_wall
-quark:elder_prismarine_bricks_wall
-quark:elder_prismarine_dark_wall
-quark:tiny_potato
-quark:tiny_potato_1
+quark:rune_1
+quark:rune_2
+quark:rune_3
+quark:rune_4
+quark:rune_5
+quark:rune_6
+quark:rune_7
+quark:rune_8
+quark:rune_9
+quark:crystal_pane
+quark:crystal_pane_1
+quark:crystal_pane_2
+quark:crystal_pane_3
+quark:crystal_pane_4
+quark:crystal_pane_5
+quark:crystal_pane_6
+quark:crystal_pane_7
+quark:crystal_pane_8
+quark:stone_speleothem
+quark:granite_speleothem
+quark:diorite_speleothem
+quark:andesite_speleothem
+quark:netherrack_speleothem
+quark:basalt_speleothem
+quark:marble_speleothem
+quark:limestone_speleothem
+quark:jasper_speleothem
+quark:slate_speleothem
+quark:basalt
+quark:stone
+quark:basalt_1
+quark:biome_brick
+quark:biome_brick_1
+quark:elder_prismarine
+quark:elder_prismarine_1
+quark:elder_prismarine_2
+quark:elder_sea_lantern
+quark:biome_cobblestone
+quark:pickarang
+quark:soul_powder
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -12492,66 +12544,6 @@ quark:birch_button
 quark:jungle_button
 quark:acacia_button
 quark:dark_oak_button
-quark:pickarang
-quark:soul_powder
-quark:sandstone_new_4
-quark:sandstone_new_5
-quark:world_stone_bricks
-quark:world_stone_carved
-quark:world_stone_bricks_1
-quark:world_stone_carved_1
-quark:world_stone_bricks_2
-quark:world_stone_carved_2
-quark:world_stone_bricks_3
-quark:world_stone_carved_3
-quark:world_stone_bricks_4
-quark:world_stone_carved_4
-quark:world_stone_bricks_5
-quark:world_stone_carved_5
-quark:world_stone_bricks_6
-quark:world_stone_carved_6
-quark:world_stone_bricks_7
-quark:world_stone_carved_7
-quark:vertical_stained_planks
-quark:stained_planks_16
-quark:vertical_stained_planks_1
-quark:stained_planks_17
-quark:vertical_stained_planks_2
-quark:stained_planks_18
-quark:vertical_stained_planks_3
-quark:stained_planks_19
-quark:vertical_stained_planks_4
-quark:stained_planks_20
-quark:vertical_stained_planks_5
-quark:stained_planks_21
-quark:vertical_stained_planks_6
-quark:stained_planks_22
-quark:vertical_stained_planks_7
-quark:stained_planks_23
-quark:vertical_stained_planks_8
-quark:stained_planks_24
-quark:vertical_stained_planks_9
-quark:stained_planks_25
-quark:vertical_stained_planks_10
-quark:stained_planks_26
-quark:vertical_stained_planks_11
-quark:stained_planks_27
-quark:vertical_stained_planks_12
-quark:stained_planks_28
-quark:vertical_stained_planks_13
-quark:stained_planks_29
-quark:vertical_stained_planks_14
-quark:stained_planks_30
-quark:vertical_stained_planks_15
-quark:stained_planks_31
-quark:world_stone_pavement
-quark:world_stone_pavement_1
-quark:world_stone_pavement_2
-quark:world_stone_pavement_3
-quark:world_stone_pavement_4
-quark:world_stone_pavement_5
-quark:world_stone_pavement_6
-quark:world_stone_pavement_7
 quark:redstone_randomizer
 quark:ender_watcher
 quark:slime
@@ -12627,46 +12619,66 @@ quark:wool_30
 quark:wool_31
 quark:quilted_wool_46
 quark:quilted_wool_47
-quark:rune_1
-quark:rune_2
-quark:rune_3
-quark:rune_4
-quark:rune_5
-quark:rune_6
-quark:rune_7
-quark:rune_8
-quark:rune_9
-quark:crystal_pane
-quark:crystal_pane_1
-quark:crystal_pane_2
-quark:crystal_pane_3
-quark:crystal_pane_4
-quark:crystal_pane_5
-quark:crystal_pane_6
-quark:crystal_pane_7
-quark:crystal_pane_8
-quark:stone_speleothem
-quark:granite_speleothem
-quark:diorite_speleothem
-quark:andesite_speleothem
-quark:netherrack_speleothem
-quark:basalt_speleothem
-quark:marble_speleothem
-quark:limestone_speleothem
-quark:jasper_speleothem
-quark:slate_speleothem
-quark:basalt
-quark:stone
-quark:basalt_1
-quark:biome_brick
-quark:biome_brick_1
-quark:elder_prismarine
-quark:elder_prismarine_1
-quark:elder_prismarine_2
-quark:elder_sea_lantern
-quark:biome_cobblestone
 quark:soul_compass
 quark:pipe
+quark:sandstone_new_4
+quark:sandstone_new_5
+quark:world_stone_bricks
+quark:world_stone_carved
+quark:world_stone_bricks_1
+quark:world_stone_carved_1
+quark:world_stone_bricks_2
+quark:world_stone_carved_2
+quark:world_stone_bricks_3
+quark:world_stone_carved_3
+quark:world_stone_bricks_4
+quark:world_stone_carved_4
+quark:world_stone_bricks_5
+quark:world_stone_carved_5
+quark:world_stone_bricks_6
+quark:world_stone_carved_6
+quark:world_stone_bricks_7
+quark:world_stone_carved_7
+quark:vertical_stained_planks
+quark:stained_planks_16
+quark:vertical_stained_planks_1
+quark:stained_planks_17
+quark:vertical_stained_planks_2
+quark:stained_planks_18
+quark:vertical_stained_planks_3
+quark:stained_planks_19
+quark:vertical_stained_planks_4
+quark:stained_planks_20
+quark:vertical_stained_planks_5
+quark:stained_planks_21
+quark:vertical_stained_planks_6
+quark:stained_planks_22
+quark:vertical_stained_planks_7
+quark:stained_planks_23
+quark:vertical_stained_planks_8
+quark:stained_planks_24
+quark:vertical_stained_planks_9
+quark:stained_planks_25
+quark:vertical_stained_planks_10
+quark:stained_planks_26
+quark:vertical_stained_planks_11
+quark:stained_planks_27
+quark:vertical_stained_planks_12
+quark:stained_planks_28
+quark:vertical_stained_planks_13
+quark:stained_planks_29
+quark:vertical_stained_planks_14
+quark:stained_planks_30
+quark:vertical_stained_planks_15
+quark:stained_planks_31
+quark:world_stone_pavement
+quark:world_stone_pavement_1
+quark:world_stone_pavement_2
+quark:world_stone_pavement_3
+quark:world_stone_pavement_4
+quark:world_stone_pavement_5
+quark:world_stone_pavement_6
+quark:world_stone_pavement_7
 potionfingers:ring
 potionfingers:ring_1
 potionfingers:ring_2
@@ -16104,19 +16116,19 @@ lumberjack:lazuli
 lumberjack:tritanium
 lumberjack:nether
 lumberjack:sandstone
-lumberjack:osmium2
-lumberjack:power
-lumberjack:katana
 lumberjack:polymer
 lumberjack:scarlite
-lumberjack:plasteel
-lumberjack:scarlite_razor
-lumberjack:steel2
 lumberjack:spectre
 lumberjack:glowstone2
-lumberjack:lazuli2
-lumberjack:bronze2
+lumberjack:katana
+lumberjack:osmium2
+lumberjack:plasteel
 lumberjack:obsidian2
+lumberjack:bronze2
+lumberjack:scarlite_razor
+lumberjack:steel2
+lumberjack:power
+lumberjack:lazuli2
 quark:slabs_to_blocks
 rustic:candle_silver
 rustic:candle_lever_silver
@@ -16965,6 +16977,145 @@ advancedrocketry:geartitaniumiridium
 advancedrocketry:unpackblocktitaniumiridium
 advancedrocketry:packblocktitaniumiridium
 immersivepetroleum:projector
+kathairis:mystic gem1
+kathairis:mystic gem2
+kathairis:mystic sword1
+kathairis:mystic sword2
+kathairis:mystic sword3
+kathairis:mystic axe
+kathairis:mystic pickaxe
+kathairis:mystic hoe1
+kathairis:mystic hoe2
+kathairis:mystic hoe3
+kathairis:mystic hoe4
+kathairis:mystic shovel1
+kathairis:mystic shovel2
+kathairis:mystic shovel3
+kathairis:titanium sword1
+kathairis:titanium sword2
+kathairis:titanium sword3
+kathairis:titanium axe
+kathairis:titanium pickaxe
+kathairis:titanium hoe1
+kathairis:titanium hoe2
+kathairis:titanium hoe3
+kathairis:titanium hoe4
+kathairis:titanium shovel1
+kathairis:titanium shovel2
+kathairis:titanium shovel3
+kathairis:revenum sword1
+kathairis:revenum sword2
+kathairis:revenum sword3
+kathairis:revenum axe
+kathairis:revenum pickaxe
+kathairis:crystal pickaxe
+kathairis:magnethium sword1
+kathairis:magnethium sword2
+kathairis:magnethium sword3
+kathairis:magnethium axe
+kathairis:magnethium pickaxe
+kathairis:magnethium hoe1
+kathairis:magnethium hoe2
+kathairis:magnethium hoe3
+kathairis:magnethium hoe4
+kathairis:magnethium shovel1
+kathairis:magnethium shovel2
+kathairis:magnethium shovel3
+kathairis:mystic helmet
+kathairis:mystic chestplate
+kathairis:mystic leggins
+kathairis:mystic boots
+kathairis:titanium helmet
+kathairis:titanium chestplate
+kathairis:titanium leggins
+kathairis:titanium boots
+kathairis:revenum helmet
+kathairis:revenum chestplate
+kathairis:revenum leggins
+kathairis:revenum boots
+kathairis:cloud boots
+kathairis:titanium block
+kathairis:titanium ingot
+kathairis:titanium rod
+kathairis:mythic stone tiles
+kathairis:mystic planks
+kathairis:shiny planks
+kathairis:soul planks
+kathairis:redwood planks
+kathairis:redwood log size 6
+kathairis:redwood log size 5
+kathairis:redwood log size 4
+kathairis:redwood log size 3
+kathairis:redwood log size 2
+kathairis:redwood log size 1
+kathairis:hardened weathered rock tiles
+kathairis:hardened weathered rock bricks
+kathairis:hardened weathered rock brick stairs
+kathairis:mythic stone sign
+kathairis:crystals_cluster1
+kathairis:crystals_cluster2
+kathairis:crystals_cluster3
+kathairis:crystals_cluster4
+kathairis:crystals_cluster5
+kathairis:crystals_cluster6
+kathairis:sticks
+kathairis:hardened weathered rock stairs
+kathairis:mystic wood stairs
+kathairis:shiny wood stairs
+kathairis:mythic stone stairs
+kathairis:mystic wood fence
+kathairis:shiny wood fence
+kathairis:mystic wood fence gate
+kathairis:shiny wood fence gate
+kathairis:mythic stone wall
+kathairis:hardened weathered rock wall
+kathairis:blue cloud
+kathairis:yellow cloud
+kathairis:blue condensed cloud
+kathairis:yellow condensed cloud
+kathairis:blue cloud bricks
+kathairis:yellow cloud block
+kathairis:yellow cloud dust
+kathairis:blue cloud dust
+kathairis:glass jar
+kathairis:blue condensed cloud1
+kathairis:yellow condensed cloud1
+kathairis:blue cloud bricks1
+kathairis:yellow cloud block1
+kathairis:shiny stick
+kathairis:shock wand
+kathairis:charger
+kathairis:turtle shell plate
+kathairis:big wings
+kathairis:shiny bark
+kathairis:mystic wood slab
+kathairis:shiny wood slab
+kathairis:soul wood slab
+kathairis:soul wood stairs
+kathairis:mystic bark
+kathairis:soul bark
+kathairis:mystic gem block
+kathairis:mystic gem
+kathairis:mystic wood trap door
+kathairis:shiny wood trap door
+kathairis:soul wood trap door
+kathairis:mystic wood door
+kathairis:shiny wood door
+kathairis:soul wood door
+kathairis:magnethium
+kathairis:magnethium shards
+kathairis:iron gold ingot 1
+kathairis:iron gold block
+kathairis:iron gold ingot 2
+kathairis:ritual blade
+kathairis:bowl of nectar
+kathairis:mystic planks s
+kathairis:shiny planks s
+kathairis:soul planks s
+kathairis:katharian arrow1
+kathairis:katharian arrow2
+kathairis:baurble
+kathairis:cotton candy
 extraplanets:trapdoor_alt_alt_alt_alt_alt
 extraplanets:trapdoor_alt_alt_alt_alt
 extraplanets:trapdoor_alt_alt_alt

@@ -171,6 +171,8 @@ rpsideas:unseeing
 rpsideas:flash
 rpsideas:burnout
 rpsideas:affinity
+kathairis:stun
+kathairis:dissolution
 tfspellpack:mist_cloak
 tfspellpack:ironwood_heart
 wizardrynextgeneration:disempowerment

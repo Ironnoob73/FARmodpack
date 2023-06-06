@@ -105,9 +105,9 @@
                 "position_type": "CENTER",
                 "offset_pos": "CENTER_LEFT",
                 "position":{
-                    "x":-133.5,
+                    "x":-133,
                     "y":-100,
-                    "width":"(memory_bytes_used*1.0)/(memory_bytes_max*1.0) * 100",
+                    "width":"(memory_bytes_used*1.0)/(memory_bytes_max*1.0) * 115",
                     "height":"8"
                 },
                 "texture":{
@@ -138,7 +138,7 @@
                 "offset_pos": "CENTER_LEFT",
                 "text": "'|'", 
                 "position": {
-                    "x":"-133.5 + (memory_bytes_total*1.0)/(memory_bytes_max*1.0) * 100",
+                    "x":"-133.5 + (memory_bytes_total*1.0)/(memory_bytes_max*1.0) * 115",
                     "y":-99
                 },
                 "colour": "0xFF0000"
@@ -151,7 +151,7 @@
                 "offset_pos": "CENTER",
                 "text": "memory_used + '/' + memory_total + '/' + memory_max + 'MiB'", 
                 "position": {
-                    "x":-83,
+                    "x":-75.5,
                     "y":-99
                 },
                 "colour": "0x000000"
@@ -164,7 +164,7 @@
                 "offset_pos": "CENTER_LEFT",
                 "text": "'Time used: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's Please be patient...'", 
                 "position": {
-                    "x":-26,
+                    "x":-11,
                     "y":-99
                 },
                 "colour": "0x000000"
@@ -326,7 +326,7 @@
                 "parent": "builtin/text",
                 "position_type": "CENTER",
                 "offset_pos": "CENTER_LEFT",
-                "text": "'Version 0.1-2023.4-α'", 
+                "text": "'Version 0.1-2023.6-α'", 
                 "position": {
                     "x":50,
                     "y":114

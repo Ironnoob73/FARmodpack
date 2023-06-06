@@ -13,6 +13,7 @@ Avada Kedavra!
 Subscribe!
 EXTERMINATE!
 Awesome!
+It's been so long...
 §oDo not go gentle into that good night
 <.*>
 rm -rf
@@ -57,6 +58,7 @@ Buy bugs and get game free!
 ℋⅇℒⅬ⊚
 What's going on!
 [[HYPERLINK BLOCKED]]
+404 Not Found.
 +1
 -4800
 -8000
@@ -67,7 +69,10 @@ Not funny...
 oiiaiioiiiai
 WIN!
 A winner is you
-PLAYERNAME Is You
+You're Winner
+Where did you learn to fly?
+64Bit!
+{"placeholder":"playername"} Is You
 赢！
 好好好好好好好
 乐

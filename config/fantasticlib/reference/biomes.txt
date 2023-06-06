@@ -342,6 +342,12 @@ erebus:submerged_swamp
 erebus:fields_sub_forest
 erebus:petrified_forest
 integrateddynamics:biome_meneglin
+kathairis:mystic forest
+kathairis:mystic plains
+kathairis:mystic desert
+kathairis:mystic swamps
+kathairis:floating islands
+kathairis:katharian ocean
 herobrine:cursed_forest
 theaurorian:aurorianforest
 theaurorian:aurorianforesthills
