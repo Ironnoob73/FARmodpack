@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  path = resources/adventure.png
+  action = texturizebackground
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }

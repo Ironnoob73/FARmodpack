@@ -1,8 +1,8 @@
 {
   "general": {
-    "dumpCraftingConfig": {
+    "generateOverrideConfigs": {
       "value": false,
-      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+      "comment": "If true, then crafting and damage override config files will be dumped into the config folder at boot.  WARNING: this will overwrite your existing override files!"
     },
     "opSignEditingOnly": {
       "value": false,

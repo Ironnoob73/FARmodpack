@@ -1,4 +1,4 @@
-ignoreUpdate:158
+ignoreUpdate:159
 updateNotification:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
@@ -41,4 +41,5 @@ legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
+biomeBlending:true
 globalVersion:1

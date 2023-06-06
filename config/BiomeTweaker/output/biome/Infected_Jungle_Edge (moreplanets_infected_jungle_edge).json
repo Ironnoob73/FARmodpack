@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "HOT",
-    "WET",
-    "DEAD",
+    "PLAINS",
     "JUNGLE",
     "FOREST",
-    "PLAINS"
+    "WET",
+    "RARE",
+    "DEAD",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -217,6 +217,12 @@
       "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.ipdnaeip.wizardrynextgeneration.entity.living.EntityWebspitter",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "nuparu.sevendaystomine.entity.EntityReanimatedCorpse",

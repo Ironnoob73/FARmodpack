@@ -21,13 +21,13 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "NETHER",
-    "WASTELAND",
-    "HOT",
-    "DEAD",
-    "DRY",
-    "SPOOKY",
     "WATER",
-    "OCEAN"
+    "DEAD",
+    "SPOOKY",
+    "WASTELAND",
+    "OCEAN",
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

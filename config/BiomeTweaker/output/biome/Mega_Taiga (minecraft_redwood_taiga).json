@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "COLD",
     "FOREST",
-    "MEGA_TAIGA_TREES",
+    "CONIFEROUS",
     "THEMED_TREES",
-    "CONIFEROUS"
+    "MEGA_TAIGA_TREES"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

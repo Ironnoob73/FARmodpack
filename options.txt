@@ -99,6 +99,13 @@ key_Go Down (MPS Flight Control):0
 key_Cycle Tool Backward (MPS):0
 key_Cycle Tool Forward (MPS):0
 key_Cosmetic (MPS):0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,15 +124,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:62
 key_key.cavern.magicBook:0
@@ -267,6 +267,14 @@ key_key.connected_area:0
 key_key.rotate_mirror:0
 key_key.material_list:15
 key_cyberware.keybinds.menu:221
+key_key.reload.desc:0
+key_key.camera.width.increase.desc:77
+key_key.camera.width.decrease.desc:75
+key_key.camera.height.increase.desc:72
+key_key.camera.height.decrease.desc:80
+key_key.camera.zoom.desc:78
+key_key.camera.unzoom.desc:74
+key_key.honk.desc:57
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_key.ftgumod.open:0
@@ -301,14 +309,6 @@ key_key.porterNextDestination:0
 key_key.porterPrevDestination:0
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
-key_key.reload.desc:0
-key_key.camera.width.increase.desc:77
-key_key.camera.width.decrease.desc:75
-key_key.camera.height.increase.desc:72
-key_key.camera.height.decrease.desc:80
-key_key.camera.zoom.desc:78
-key_key.camera.unzoom.desc:74
-key_key.honk.desc:57
 key_key.stackable.place:25:CONTROL
 key_key.stackable.cycle:0
 key_key.travelersbackpack.inventory:48
