@@ -358,17 +358,6 @@ customization {
 }
 
 customization {
-  path = resourcepacks/FarModpackResources/assets/minecraft/textures/gui/title/far_journey.png
-  orientation = top-left
-  x = 20
-  width = 718
-  actionid = 99820ce2-23b2-4cb1-83d4-b7cc303b430c1678719405109
-  action = addtexture
-  y = 45
-  height = 100
-}
-
-customization {
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_quickstart
@@ -401,6 +390,17 @@ customization {
   [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:f6dc6f57-4bb1-4ad9-97be-4dca451e839f1682063020303] = replaymod
   backgroundnormal = resources/fm_mainmenu_replay/1.png
   height = 32
+}
+
+customization {
+  orientation = top-left
+  name = fm_mainmenu_title
+  x = 27
+  width = 650
+  actionid = 9392df0b-8e64-4da5-bf52-49bc20b1905c1686299508848
+  action = addanimation
+  y = 44
+  height = 100
 }
 
 customization {
@@ -532,10 +532,10 @@ customization {
   refresh = false
   bouncing = true
   vanilla-like = false
-  x = 628
+  x = 595
   actionid = 331b2f2e-a576-4bf5-8d74-d12dfddc40021679373025163
   action = addsplash
-  y = 100
+  y = 102
 }
 
 customization {
@@ -546,7 +546,7 @@ customization {
   description = {"placeholder":"local","values":{"key":"mainmenu.refresh.name"}}
   label = 
   loopbackgroundanimations = true
-  x = 666
+  x = 628
   width = 50
   action = addbutton
   actionid = 9b8fd80a-f434-4fe5-a9bb-933c7a2ca4a51679374800834

@@ -6,9 +6,6 @@
 		"{far.quest.iammer.des}",
 		"{far.quest.iammer.des0}"
 	],
-	dependencies: [
-		"480bf3fc"
-	],
 	tasks: [{
 		uid: "7c88fa9f",
 		type: "item",

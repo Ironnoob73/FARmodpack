@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  name = spruce_forest
+  action = setbackgroundpanorama
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -50,3 +55,4 @@ customization {
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
 }
+

@@ -23,8 +23,8 @@
     "RARE",
     "HILLS",
     "DEAD",
-    "COLD",
-    "SNOWY"
+    "SNOWY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

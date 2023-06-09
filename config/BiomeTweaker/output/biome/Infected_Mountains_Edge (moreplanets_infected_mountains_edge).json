@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "DEAD",
-    "MOUNTAIN"
+    "MOUNTAIN",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

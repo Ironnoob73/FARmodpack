@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "PLAINS",
     "DEAD",
-    "COLD",
-    "SNOWY"
+    "SNOWY",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -5,9 +5,6 @@
 	text: [
 		"良好的食物加工方式，它不会烧糊你的食物，而且拥有两倍速度。"
 	],
-	dependencies: [
-		"480bf3fc"
-	],
 	optional: true,
 	tasks: [{
 		uid: "b8423b80",

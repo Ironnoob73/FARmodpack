@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "BEACH",
     "PLAINS",
     "DEAD",
-    "COLD",
-    "SNOWY"
+    "SNOWY",
+    "BEACH",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

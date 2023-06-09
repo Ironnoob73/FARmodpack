@@ -37,14 +37,6 @@
 		}],
 		consume_items: false,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "c630a9c4",
-		type: "item",
-		items: [{
-			item: "ftgumod:parchment_empty"
-		}],
-		consume_items: true
 	}],
 	rewards: [{
 		uid: "50d8b885",

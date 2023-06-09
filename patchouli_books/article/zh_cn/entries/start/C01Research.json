@@ -7,7 +7,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。$(br)  另外我还需要一些$(item)纸/$来进行研究，在一些废弃的公路上可以找到很多。"
+            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。"
         },
         {
             "type": "text",
@@ -15,19 +15,8 @@
             "advancement":"far:i/A02scavenger"
         },
         {
-            "type": "crafting",
-            "title":"打个草稿",
-            "recipe":"crafttweaker:parchment_from_paper",
-            "recipe2":"crafttweaker:parchment_from_cloth"
-        },
-        {
-            "type": "crafting",
-            "recipe":"crafttweaker:parchment_from_waste",
-            "text": "  使用两根木棍和一张纸(或是一块布/两张废纸)合成羊皮纸。在制作工具前，也许我应该把它画下来来确定它大概是什么样子？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究，研究完成后可别把羊皮纸丢了。"
-        },
-        {
             "type": "text",
-            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？$(br)  $(3)记得去FTB任务里提交羊皮纸来获得研究。",
+            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？$(br)",
             "advancement":"far:i/A02scavenger"
         },
         {
@@ -61,11 +50,31 @@
         },
         {
             "type": "crafting",
+            "title":"资源回收",
+            "recipe":"crafttweaker:cobblestone_hammer",
+            "text": "  制作一个粗糙的槌，对着$(item)任意原木/$§3潜行+右击/$即可制作$(item)匠艺台/$。$(br)  匠艺台可以对各类垃圾、机器进行回收或拆解，也可以用来打造一些特殊工具。",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
             "title":"木板",
             "anchor":"board",
             "recipe":"crafttweaker:woodplanks_by_axe",
             "recipe2":"crafttweaker:stickblock_weak",
             "text": "  容易被加工使用的木板",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"打个草稿",
+            "recipe":"crafttweaker:parchment_from_paper",
+            "recipe2":"crafttweaker:parchment_from_cloth",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "recipe":"crafttweaker:parchment_from_waste",
+            "text": "  使用两根木棍和一张纸(或是一块布/两张废纸)合成羊皮纸。",
             "advancement":"far:i/A04wood"
         },
         {
