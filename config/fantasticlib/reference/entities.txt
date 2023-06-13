@@ -197,7 +197,9 @@ moreplanets:anti_gravity_arrow
 moreplanets:falling_koentus_meteor
 moreplanets:anti_gravity_falling_block
 moreplanets:koentus_meteor
-quark:chest_passenger
+quark:totem_of_holding
+quark:gravisand
+quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -205,13 +207,10 @@ quark:arrow_torch
 quark:dragon_breath_bottle
 quark:soul_powder
 quark:parrot_egg
-quark:totem_of_holding
-quark:seat
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:gravisand
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -220,6 +219,7 @@ quark:ashen
 quark:frog
 quark:crab
 quark:wraith
+quark:chest_passenger
 avaritia:endest_pearl
 avaritia:gaping_void
 avaritia:heaven_arrow

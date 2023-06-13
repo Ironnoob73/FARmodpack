@@ -128,5 +128,26 @@
             "hammer": 2
         },
         "lootTable": "tetra:dismantle_emptycan"
+    },
+    {
+        "key": "planks_from_log",
+        "requirement": {
+            "type": "forge:ore_dict",
+            "ore": "logWood"
+        },
+        "requiredCapabilities": {
+            "axe": 1
+        },
+        "lootTable": "tetra:planks_from_log"
+    },
+    {
+        "key": "sticks_from_plank",
+        "requirement": {
+            "item": "sevendaystomine:woodplank"
+        },
+        "requiredCapabilities": {
+            "axe": 1
+        },
+        "lootTable": "tetra:sticks_from_plank"
     }
 ]

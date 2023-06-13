@@ -10,7 +10,16 @@
 		uid: "7c88fa9f",
 		type: "item",
 		items: [{
-			item: "soviet:hammer"
+			id: "soviet:hammer",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

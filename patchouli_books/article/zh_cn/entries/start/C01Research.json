@@ -57,11 +57,10 @@
         },
         {
             "type": "crafting",
-            "title":"木板",
+            "title":"原始木工",
             "anchor":"board",
-            "recipe":"crafttweaker:woodplanks_by_axe",
-            "recipe2":"crafttweaker:stickblock_weak",
-            "text": "  容易被加工使用的木板",
+            "recipe":"crafttweaker:stickblock_weak",
+            "text": "  木板和木棍都可以通过匠艺台制作。在制作更高级的制作台前，我首先需要确定它的框架。",
             "advancement":"far:i/A04wood"
         },
         {

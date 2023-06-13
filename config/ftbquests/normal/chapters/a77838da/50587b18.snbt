@@ -1,13 +1,13 @@
 {
 	title: "{tile.craftsmanship_table.name}",
-	x: 1.5d,
+	x: 1.0d,
 	y: 1.0d,
 	description: "{far.quest.i.iia.craftsmanship_table.sub}",
 	text: [
 		"{far.quest.i.iia.craftsmanship_table.des}"
 	],
 	dependencies: [
-		"f70cf16f"
+		"8801f82b"
 	],
 	tasks: [{
 		uid: "f497f8c6",
@@ -16,5 +16,12 @@
 		match_type: "block_id",
 		match: "tetra:workbench",
 		timer: 0L
+	}],
+	rewards: [{
+		uid: "d4e74395",
+		type: "advancement",
+		auto: "enabled",
+		advancement: "far:i/A03craftsmanship_table",
+		criterion: ""
 	}]
 }

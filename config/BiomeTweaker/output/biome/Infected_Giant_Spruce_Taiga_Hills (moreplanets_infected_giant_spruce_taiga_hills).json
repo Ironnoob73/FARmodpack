@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
+    "DENSE",
+    "DEAD",
     "RARE",
     "HILLS",
-    "DEAD",
-    "DENSE",
     "FOREST"
   ],
   "BiomeManager Entries": {},

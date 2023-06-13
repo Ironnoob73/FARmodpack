@@ -1,0 +1,6 @@
+setIcon(<tetra:workbench>)
+setTranslatedTitle("itemGroup.tetra")
+setTranslatedDescription("far.advancements.i.cms_table.desc")
+addParent("far:i/A02scavenger")
+setPos(60,30)
+addCriteria("impossible","minecraft:impossible")

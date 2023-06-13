@@ -23,8 +23,8 @@
     "PLAINS",
     "DEAD",
     "COLD",
-    "FOREST",
-    "CONIFEROUS"
+    "CONIFEROUS",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

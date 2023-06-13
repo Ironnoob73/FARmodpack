@@ -292,7 +292,7 @@ customization {
 customization {
   orientation = mid-left
   hidden = false
-  x = 380
+  x = 113
   width = 200
   action = deep_customization_element:title_screen_forge_top
   actionid = 59661838-86d6-4aed-83de-4d2d7e3133551678719202809
@@ -307,18 +307,18 @@ customization {
   width = 122
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
-  y = 445
+  y = 178
   height = 60
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 791
+  x = 258
   width = 168
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
-  y = 487
+  y = 220
   height = 9
 }
 
@@ -395,11 +395,11 @@ customization {
 customization {
   orientation = top-left
   name = fm_mainmenu_title
-  x = 27
+  x = 25
   width = 650
   actionid = 9392df0b-8e64-4da5-bf52-49bc20b1905c1686299508848
   action = addanimation
-  y = 44
+  y = 50
   height = 100
 }
 
@@ -553,5 +553,18 @@ customization {
   y = 95
   backgroundnormal = resources/fm_unuse/1.png
   height = 50
+}
+
+customization {
+  orientation = top-left
+  [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if_not][req_id:bffa55a6-f67b-4eec-b944-5493aaa3830c1686664775210] = 480
+  shape = rectangle
+  color = #ffffff
+  x = 248
+  width = 100
+  actionid = 52ad130a-9734-4a55-a74d-0ef7d83b1d7b1686664762028
+  action = addshape
+  y = 164
+  height = 100
 }
 

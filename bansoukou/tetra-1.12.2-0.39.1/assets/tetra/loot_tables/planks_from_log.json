@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "name": "planks_from_tree",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "sevendaystomine:woodplank",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count":{
+                                "max":4,
+                                "min":1
+                            }
+                        },
+                        {
+                            "function": "tetra:fortune_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 0.3
+                            },
+                            "requiredCapability": "axe",
+                            "capabilityLevel": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

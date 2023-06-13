@@ -29,7 +29,6 @@ recipes.addShaped("fiber_boots_half",<sevendaystomine:fiber_boots:13>,[
 [fiber,fiber],
 [paper,paper]]);
 
-recipes.addShapeless("woodplanks_by_axe",plank*2,[<sevendaystomine:stoneaxe>.anyDamage().transformDamage(1),<ore:logWood>]);
 recipes.addShapeless("woodsticks_by_axe",stick*2,[<sevendaystomine:stoneaxe>.anyDamage().transformDamage(1),<sevendaystomine:woodplank>]);
 recipes.addShapedMirrored("stickblock_weak",<randomthings:blockofsticks>,[
 [fiber,stick],

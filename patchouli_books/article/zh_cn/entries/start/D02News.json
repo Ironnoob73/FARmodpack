@@ -1,8 +1,8 @@
 {
-    "name": "剪报-冬眠",
+    "name": "§7剪报-冬眠",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "7",
+    "sortnum": "8",
     "pages": [
         {
             "type": "text",

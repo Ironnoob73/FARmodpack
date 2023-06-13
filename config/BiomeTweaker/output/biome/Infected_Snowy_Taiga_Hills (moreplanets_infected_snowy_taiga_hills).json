@@ -21,10 +21,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "PLAINS",
-    "HILLS",
-    "DEAD",
     "SNOWY",
+    "DEAD",
     "COLD",
+    "HILLS",
     "CONIFEROUS"
   ],
   "BiomeManager Entries": {},

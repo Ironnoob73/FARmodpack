@@ -1,8 +1,8 @@
 {
-    "name": "News-Hibernation Cabin",
+    "name": "§7News-Hibernation Cabin",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "7",
+    "sortnum": "8",
     "pages": [
         {
             "type": "text",

@@ -21,12 +21,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "RARE",
-    "MAGICAL",
     "WET",
+    "RARE",
+    "HOT",
     "BEACH",
     "FOREST",
-    "HOT"
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

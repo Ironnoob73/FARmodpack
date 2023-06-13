@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MUSHROOM",
-    "NETHER",
     "DENSE",
+    "NETHER",
+    "MUSHROOM",
     "HOT"
   ],
   "BiomeManager Entries": {},

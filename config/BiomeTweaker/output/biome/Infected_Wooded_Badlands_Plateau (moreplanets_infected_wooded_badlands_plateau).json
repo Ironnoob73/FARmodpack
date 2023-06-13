@@ -20,13 +20,13 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
-    "DRY",
     "SAVANNA",
-    "SPARSE",
-    "DEAD",
-    "MESA",
+    "PLAINS",
     "SANDY",
+    "DEAD",
+    "DRY",
+    "SPARSE",
+    "MESA",
     "HOT"
   ],
   "BiomeManager Entries": {},
