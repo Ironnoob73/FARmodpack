@@ -1,0 +1,52 @@
+{
+    "block_pools": [
+        {
+            "name": "Frame0",
+            "type": {
+                "type": "block",
+                "name": "randomthings:blockofsticks"
+            },
+            "clicktype": "right",
+            "properties": [
+                {
+                    "type":"require_item",
+                    "name":"tetra:duplex_tool_modular"
+                },
+                {
+                    "type":"player_has_items",
+                    "items":[
+                        {"name":"sevendaystomine:woodplank"},
+                        {"name":"ftgumod:parchment_empty"}
+                    ]
+                },
+                {
+                    "type":"consume_block",
+                    "name":"ftgumod:idea_table"
+                },
+                {
+                    "type":"require_sneak"
+                },
+                {
+                    "type":"consume_player_items",
+                    "items":{"name":"sevendaystomine:woodplank"}
+                },
+                {
+                    "type":"damage_item",
+                    "amount":1
+                }
+            ],
+            "drops": [
+            ],
+            "messages": [
+                {
+                    "id":"require_sneak",
+                    "message":"⍔"
+                },
+                {
+                    "id":"player_has_items",
+                    "message":"⌸"
+                }
+            ]
+        }
+    ]
+}

@@ -379,5 +379,17 @@
             "duplex/head_right": ["duplex/butt_right", "butt/steel"],
             "duplex/handle": ["duplex/basic_handle", "basic_handle/treated_wood"]
         }
+    },
+    {
+        "predicate": {
+            "item": "sevendaystomine:stoneaxe"
+        },
+        "item": "tetra:duplex_tool_modular",
+        "modules": {
+            "duplex/head_left": ["duplex/adze_left", "adze/cobblestone"],
+            "duplex/head_right": ["duplex/basic_pickaxe_right", "basic_pickaxe/cobblestone"],
+            "duplex/binding": ["duplex/binding","duplex_binding/vine"],
+            "duplex/handle": ["duplex/basic_handle", "basic_handle/stick"]
+        }
     }
 ]

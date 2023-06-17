@@ -52,6 +52,18 @@ customization {
 
 customization {
   identifier = %id=346948%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=346948%
+  path = resources/fancymenu/mainmenu/piano_echo.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=346948%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"server.join.name"}}%n%{"placeholder":"local","values":{"key":"server.join.des"}}%n%{"placeholder":"local","values":{"key":"server.select.tip"}}
 }
@@ -86,6 +98,18 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/fm_server_direct/1.png
   backgroundnormal = resources/fm_server_direct/0.png
+}
+
+customization {
+  identifier = %id=450948%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=450948%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -128,6 +152,18 @@ customization {
 
 customization {
   identifier = %id=580972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=580972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=580972%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
 }
@@ -162,6 +198,18 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/fm_save_edit/1.png
   backgroundnormal = resources/fm_save_edit/0.png
+}
+
+customization {
+  identifier = %id=346972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=346972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -204,6 +252,18 @@ customization {
 
 customization {
   identifier = %id=426972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=426972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=426972%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"server.delet.name"}}%n%{"placeholder":"local","values":{"key":"server.delet.des"}}%n%{"placeholder":"local","values":{"key":"server.select.tip"}}
 }
@@ -242,6 +302,18 @@ customization {
 
 customization {
   identifier = %id=504972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=504972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=504972%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"server.refresh.name"}}%n%{"placeholder":"local","values":{"key":"server.refresh.des"}}
 }
@@ -276,6 +348,18 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/fm_server_add/1.png
   backgroundnormal = resources/fm_server_add/0.png
+}
+
+customization {
+  identifier = %id=554948%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=554948%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {

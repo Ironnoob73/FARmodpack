@@ -52,8 +52,20 @@ customization {
 
 customization {
   identifier = %id=346948%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=346948%
   action = sethoverlabel
   label = 
+}
+
+customization {
+  identifier = %id=346948%
+  path = resources/fancymenu/mainmenu/piano_echo.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -96,6 +108,18 @@ customization {
 
 customization {
   identifier = %id=504948%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=504948%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=504948%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"save.new.name"}}%n%{"placeholder":"local","values":{"key":"save.new.des"}}
 }
@@ -130,6 +154,18 @@ customization {
   backgroundanimationhovered = fm_esc
   action = setbuttontexture
   backgroundnormal = resources/fm_esc/frames_main/1.png
+}
+
+customization {
+  identifier = %id=582972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=582972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -172,6 +208,18 @@ customization {
 
 customization {
   identifier = %id=346972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=346972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=346972%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"save.edit.name"}}%n%{"placeholder":"local","values":{"key":"save.edit.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
 }
@@ -206,6 +254,18 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources/fm_save_delet/1.png
   backgroundnormal = resources/fm_save_delet/0.png
+}
+
+customization {
+  identifier = %id=424972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=424972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -248,6 +308,18 @@ customization {
 
 customization {
   identifier = %id=504972%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=504972%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=504972%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"save.backup.name"}}%n%{"placeholder":"local","values":{"key":"save.backup.des"}}%n%{"placeholder":"local","values":{"key":"save.select.tip"}}
 }
@@ -255,17 +327,17 @@ customization {
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;aroma1997.backup.recovery.GuiRestoreWorld:504972%btnaction_splitter_fm%
   backgroundhovered = resources/fm_unuse/0.png
   label = 
+  clicksound = resources/fancymenu/mainmenu/short_wave_low.wav
   loopbackgroundanimations = true
   x = 0
   width = 50
-  actionid = c7546551-10bf-42d6-8856-853541b0c0101679235913756
   action = addbutton
+  actionid = c7546551-10bf-42d6-8856-853541b0c0101679235913756
   y = -35
   backgroundnormal = resources/fm_unuse/0.png
-  value = aroma1997.backup.recovery.GuiRestoreWorld:504972
   height = 25
 }
 

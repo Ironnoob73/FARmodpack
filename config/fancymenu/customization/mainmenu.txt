@@ -47,6 +47,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.singleplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.singleplayer.des"}}
 }
@@ -81,6 +93,18 @@ customization {
   backgroundanimationhovered = fm_mainmenu_replay
   action = setbuttontexture
   backgroundnormal = resources/fm_mainmenu_replay/0.png
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=400322%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -134,6 +158,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.settings.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.settings.des"}}
 }
@@ -172,6 +208,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  path = resources/fancymenu/mainmenu/piano_echo_deep.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.quit.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.quit.des"}}
 }
@@ -200,6 +248,18 @@ customization {
   backgroundanimationhovered = fm_mainmenu_language
   action = setbuttontexture
   backgroundnormal = resources/fm_mainmenu_language/0.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
 customization {
@@ -242,6 +302,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.multiplayer.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.multiplayer.des"}}
 }
@@ -280,6 +352,18 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mainmenu.mods.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.des"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mods.load"}}{"placeholder":"loadedmods"} {"placeholder":"local","values":{"key":"mainmenu.mods.tot"}}{"placeholder":"totalmods"}
 }
@@ -292,7 +376,7 @@ customization {
 customization {
   orientation = mid-left
   hidden = false
-  x = 113
+  x = 380
   width = 200
   action = deep_customization_element:title_screen_forge_top
   actionid = 59661838-86d6-4aed-83de-4d2d7e3133551678719202809
@@ -307,18 +391,18 @@ customization {
   width = 122
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
-  y = 178
+  y = 445
   height = 60
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 258
+  x = 791
   width = 168
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
-  y = 220
+  y = 487
   height = 9
 }
 
@@ -358,12 +442,14 @@ customization {
 }
 
 customization {
+  hoversound = resources/fancymenu/mainmenu/stapler_click.wav
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_quickstart
   buttonaction = join_last_world;null%btnaction_splitter_fm%
   description = {"placeholder":"local","values":{"key":"mainmenu.quickstart.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.quickstart.des"}}
   label = 
+  clicksound = resources/fancymenu/mainmenu/piano_echo_deep.wav
   loopbackgroundanimations = true
   x = 175
   width = 50
@@ -404,12 +490,14 @@ customization {
 }
 
 customization {
+  hoversound = resources/fancymenu/mainmenu/stapler_click.wav
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_github
   buttonaction = openlink;https://github.com/Ironnoob73/FARmodpack%btnaction_splitter_fm%
   description = {"placeholder":"local","values":{"key":"mainmenu.github.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.github.des"}}
   label = 
+  clicksound = resources/fancymenu/mainmenu/stapler_use.wav
   loopbackgroundanimations = true
   x = 25
   width = 50
@@ -421,12 +509,14 @@ customization {
 }
 
 customization {
+  hoversound = resources/fancymenu/mainmenu/stapler_click.wav
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_bilibili
   buttonaction = openlink;https://space.bilibili.com/437590986%btnaction_splitter_fm%
   description = {"placeholder":"local","values":{"key":"mainmenu.bili.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.bili.des"}}
   label = 
+  clicksound = resources/fancymenu/mainmenu/stapler_use.wav
   loopbackgroundanimations = true
   x = 75
   width = 50
@@ -438,12 +528,14 @@ customization {
 }
 
 customization {
+  hoversound = resources/fancymenu/mainmenu/stapler_click.wav
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_mcmod
   buttonaction = openlink;%btnaction_splitter_fm%
   description = {"placeholder":"local","values":{"key":"mainmenu.mcmod.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.mcmod.des"}}
   label = 
+  clicksound = resources/fancymenu/mainmenu/short_wave_high.wav
   loopbackgroundanimations = true
   x = 125
   width = 50
@@ -455,12 +547,14 @@ customization {
 }
 
 customization {
+  hoversound = resources/fancymenu/mainmenu/stapler_click.wav
   orientation = mid-left
   restartbackgroundanimations = true
   backgroundanimationhovered = fm_mainmenu_curseforge
   buttonaction = openlink;%btnaction_splitter_fm%
   description = {"placeholder":"local","values":{"key":"mainmenu.curseforge.name"}}%n%{"placeholder":"local","values":{"key":"mainmenu.curseforge.des"}}
   label = 
+  clicksound = resources/fancymenu/mainmenu/stapler_use.wav
   loopbackgroundanimations = true
   x = 175
   width = 50

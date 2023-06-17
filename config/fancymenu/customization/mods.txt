@@ -52,6 +52,18 @@ customization {
 
 customization {
   identifier = %id=480962%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=480962%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=480962%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
 }
@@ -90,6 +102,18 @@ customization {
 
 customization {
   identifier = %id=10951%
+  path = resources/fancymenu/mainmenu/short_wave_low.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=10951%
+  path = resources/fancymenu/mainmenu/short_wave_high.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=10951%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"mods.config.name"}}%n%{"placeholder":"local","values":{"key":"mods.config.des"}}%n%{"placeholder":"local","values":{"key":"mods.config.des0"}}
 }
@@ -100,6 +124,12 @@ customization {
   x = -150
   action = movebutton
   y = -20
+}
+
+customization {
+  identifier = %id=10973%
+  path = resources/fancymenu/mainmenu/short_wave_low.wav
+  action = setbuttonclicksound
 }
 
 customization {

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "SPOOKY",
     "DEAD",
+    "SPOOKY",
     "HOT",
+    "OCEAN",
     "WATER"
   ],
   "BiomeManager Entries": {},

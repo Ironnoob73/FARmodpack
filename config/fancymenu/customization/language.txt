@@ -47,6 +47,18 @@ customization {
 
 customization {
   identifier = %id=505962%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=505962%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=505962%
   action = setbuttondescription
   description = {"placeholder":"local","values":{"key":"button.esc.name"}}%n%{"placeholder":"local","values":{"key":"button.esc.des"}}
 }
@@ -57,5 +69,17 @@ customization {
   x = -75
   action = movebutton
   y = -45
+}
+
+customization {
+  identifier = %id=345962%
+  path = resources/fancymenu/mainmenu/stapler_click.wav
+  action = addhoversound
+}
+
+customization {
+  identifier = %id=345962%
+  path = resources/fancymenu/mainmenu/stapler_use.wav
+  action = setbuttonclicksound
 }
 
