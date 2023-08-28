@@ -1,0 +1,12 @@
+{
+	"components": [
+        {"type": "header","text": "#title","x":-1},
+        {"type": "item","item": "#i0","framed":false,"x":50,"y":13},
+		{"type": "image","image":"#f0","x":47,"y":10,"width":22,"height":22,"texture_width":22,"texture_height":22},
+        {"type": "item","item": "#i1","framed":false,"x":38,"y":25},
+		{"type": "image","image":"#f1","x":35,"y":22,"width":22,"height":22,"texture_width":22,"texture_height":22},
+        {"type": "item","item": "#i2","framed":false,"x":62,"y":25},
+		{"type": "image","image":"#f2","x":59,"y":22,"width":22,"height":22,"texture_width":22,"texture_height":22},
+        {"type": "text","text": "#des","y":45}
+    ]
+}

@@ -20,13 +20,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
-    "WET",
-    "DENSE",
-    "LUSH",
     "RARE",
+    "JUNGLE",
+    "LUSH",
+    "FOREST",
     "MAGICAL",
-    "JUNGLE"
+    "DENSE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -53,6 +53,18 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityRogue",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityAnthermite",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -107,6 +119,24 @@
     {
       "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
       "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityMimic",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.boss.EntityCrawler",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntitySlimond",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

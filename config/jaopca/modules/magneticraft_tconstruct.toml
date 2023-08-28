@@ -1,0 +1,15 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#Should the module only add recipes for materials with JAOPCA molten fluids.
+	jaopcaOnly = false
+	#The materials that should not have rock chunk melting recipes added.
+	rockyChunkToMoltenMaterialBlacklist = []
+	#The materials that should not have chunk melting recipes added.
+	chunkToMoltenMaterialBlacklist = []
+	#The materials that should not have heavy plate melting recipes added.
+	heavyPlateToMoltenMaterialBlacklist = []
+

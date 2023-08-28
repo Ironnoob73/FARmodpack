@@ -4,7 +4,7 @@
     {"match": {"blocks": {"blocks": ["minecraft:vine:*"]}},"drops": [{"item": {"items": ["sevendaystomine:plantfiber"],"quantity": {"min": 0,"max": 1}}}]},
 
     {"match": {"blocks": {"blocks": ["minecraft:tallgrass:*","biomesoplenty:plant_0:1"]},
-        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","harvestLevel": "hoe;0;1"}}},"dropStrategy":"UNIQUE","drops": [
+        "harvester": {"type": "PLAYER","heldItemMainHand": {"type": "WHITELIST","items":["minecraft:wooden_hoe","minecraft:stone_hoe","minecraft:golden_hoe","extrautils2:sickle_wood","extrautils2:sickle_stone","extrautils2:sickle_gold","thermalfoundation:tool.sickle_wood","thermalfoundation:tool.sickle_stone","thermalfoundation:tool.sickle_gold","cyclicmagic:tool_harvest_weeds:5"]}}},"dropStrategy":"UNIQUE","drops": [
         {"selector":{"weight":{"value":50}}},
         {"selector":{"weight":{"value":25}},"item":{"items":["exnihilocreatio:item_material:4"]}},
         {"selector":{"weight":{"value":6}},"item":{"items":["exnihilocreatio:item_seed_oak"]}},

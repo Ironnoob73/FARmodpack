@@ -1,9 +1,9 @@
 {
-    "name": "原始手工艺研究",
+    "name": "§lI.原始手工艺研究",
     "icon": "ftgumod:parchment_empty",
     "category": "start",
     "sortnum": "3",
-    "turnin":"far:i/A04wood",
+    "turnin":"far:i/A07-1campfire",
     "pages": [
         {
             "type": "text",
@@ -11,7 +11,7 @@
         },
         {
             "type": "text",
-            "text": "目录$(li)$(l:start/C01Research#rubbish)寸石$()$(li)$(l:start/C01Research#board)木板$()$(li)$(l:start/C01Research#idea)创作台$()$(li)$(l:start/C01Research#craft)工作台$()$(li)$(l:start/C01Research#plank)木板$()",
+            "text": "目录$(li)$(l:start/C01Research#rubbish)寸石$()$(li)$(l:start/C01Research#frame)框架$()$(li)$(l:start/C01Research#idea)创作台$()$(li)$(l:start/C01Research#craft)工作台$()$(li)$(l:start/C01Research#plank)木板$()$(li)$(l:start/C01Research#campfire)营火$()",
             "advancement":"far:i/A02scavenger"
         },
         {
@@ -58,9 +58,9 @@
         {
             "type": "crafting",
             "title":"原始木工",
-            "anchor":"board",
+            "anchor":"frame",
             "recipe":"crafttweaker:stickblock_weak",
-            "text": "  木板和木棍都可以通过匠艺台制作。在制作更高级的制作台前，我首先需要确定它的框架。$(br)  这些框架极其脆弱，弱不经风，随时都会碎掉，所以我需要尽快搭建方块，尽量在做好准备后再使用。",
+            "text": "  木制板材和木棍都可以通过匠艺台制作。在制作更高级的制作台前，我首先需要确定它的框架。$(br)  $(l:start/C02tooltoblock)$(m)$(7)这些框架极其脆弱，弱不经风，随时都会碎掉，所以我需要尽快搭建方块，尽量在做好准备后再使用。$(/l)",
             "advancement":"far:i/A04wood"
         },
         {
@@ -88,7 +88,7 @@
             "type": "text",
             "title":"工作台",
             "anchor":"craft",
-            "text": "  要制造工作台，我需要以下物品：$(li)一块用于加工物品的铁皮$(li)一块用于制作外壳的木板$(li)一个木框架$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出工作台的制作方法了。",
+            "text": "  要制造工作台，我需要以下物品：$(li)一块用于加工物品的铁皮$(li)一块用于制作外壳的板材$(li)一个框架$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出工作台的制作方法了。$(br) $(br2) $(br2) $(br2) $(br2)$(t:废铁 木制板材 脚手架)$(#343434)[?]$(/t)",
             "advancement":"far:i/A05idea"
         },
         {
@@ -110,7 +110,21 @@
             "type": "crafting",
             "title":"木框架",
             "recipe":"crafttweaker:frame_oak",
-            "text": "  就目前来说，绝对不便宜......$(br)  背包里需要带上六块木板，然后用石斧$(3)右击/$木框架添加木板。最后使用石斧把搭建好的木板挖下来，和一块木板、一个木框架一同放进创作台进行研究。$(br)  如果不出意外，研究完成后我就能徒手分解木板了。",
+            "text": "  就目前来说，绝对不便宜......$(br)  背包里需要带上六块木制板材，然后用石斧$(3)右击/$木框架添加木制板材。最后使用石斧把搭建好的木板挖下来，和一块木制板材、一个木框架一同放进创作台进行研究。$(br)  如果不出意外，研究完成后我就能徒手分解木板了。",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "text",
+            "title":"营火",
+            "anchor":"campfire",
+            "text": "  我需要照明，热量，净水和食物。在野外一个营火是必不可少的，它可以满足我需要的这四样要求。$(br)  要制造营火，我需要以下物品：$(li)一块具有较高热量的燃料$(li)一些作为辅助燃料的基础$(li)一些支撑物$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出营火的制作方法了。$(br2) $(br) $(br2)$(t:煤炭 木制板材 木棍)$(#343434)[?]$(/t)",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"普罗米修斯",
+            "recipe":"crafttweaker:camp_fire",
+            "text": "  我可以用它简单烹饪一些食物以及制作火把，它的热量目前还不足以让我开始工业进程。",
             "advancement":"far:i/A06crafting_table"
         }
     ]

@@ -15,7 +15,16 @@
 		uid: "385c1a6d",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:crook_wood"
+			id: "exnihilocreatio:crook_wood",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -10,3 +10,10 @@ dismantle_emptycan.label=Dismantle
 dismantle_emptycan_t2.label=Dismantle(T2)
 planks_from_log.label=Decompose
 sticks_from_plank.label=Decompose
+
+###############################
+# HAMMER HEAD
+###############################
+basic_hammer/cobblestone=Rough Stone Mallet
+basic_hammer/cobblestone.item_name=Mallet
+basic_hammer/cobblestone.prefix=Cobblestone

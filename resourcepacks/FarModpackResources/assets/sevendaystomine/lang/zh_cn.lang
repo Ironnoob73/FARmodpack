@@ -13,8 +13,8 @@ material.tin=锡
 material.zinc=锌
 material.wolfram=钨
 material.uranium=铀
-material.wood=木头
-material.stone=石头
+material.wood=木
+material.stone=石
 material.glass=玻璃
 material.cloth=布
 material.plant_fiber=植物纤维
@@ -78,3 +78,6 @@ tile.sofa_lime.name=淡绿色沙发
 tile.sofa_light_blue.name=淡蓝色沙发
 tile.sofa_silver.name=淡灰色沙发
 tile.sofa_gray.name=灰色沙发
+#Item
+item.WoodPlank.name=木制板材
+item.StoneAxe.name=粗糙石斧

@@ -11,6 +11,7 @@ val plate0=<thermalfoundation:material:326>;
 val compress=<ore:compressedPlatinum>;
 val compress0=<jaopca:dense_plate.platinum>;
 val gear0=<thermalfoundation:material:262>;
+val coin=<ore:coinPlatinum>;
 val stick=<ore:stickPlatinum>;
 val stick0=<basemetals:platinum_rod>;
 val nugget=<ore:nuggetPlatinum>;
@@ -102,3 +103,21 @@ recipes.addShaped("platinum_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Repair
+recipes.addShapeless("platinum_boot_repair",boot,[boot.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_legging_repair",legging,[legging.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_chestplate_repair",chestplate,[chestplate.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_helmet_repair",helmet,[helmet.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_shovel_repair",shovel,[shovel.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_axe_repair",axe,[axe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_pickaxe_repair",pickaxe,[pickaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_sword_repair",sword,[sword.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_hoe_repair",hoe,[hoe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_fishrod_repair",fishrod,[fishrod.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_bow_repair",bow,[bow.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_excavator_repair",excavator,[excavator.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_hammer_repair",hammer,[hammer.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_sickle_repair",sickle,[sickle.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_lumberaxe_repair",lumberaxe,[lumberaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_shield_repair",shield,[shield.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);
+recipes.addShapeless("platinum_shield0_repair",shield0,[shield0.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 150));},null);

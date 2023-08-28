@@ -21,10 +21,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "FOREST",
-    "SPARSE",
+    "SNOWY",
     "DRY",
     "MOUNTAIN",
-    "SNOWY",
+    "SPARSE",
     "COLD"
   ],
   "BiomeManager Entries": {},
@@ -34,6 +34,18 @@
       "Weight": 5,
       "Min Group Count": 4,
       "Max Group Count": 6
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityRogue",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityAnthermite",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -82,6 +94,24 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityMimic",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.boss.EntityCrawler",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntitySlimond",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

@@ -1,2 +1,5 @@
 tile.fake_anvil.name=Anvil
 tile.sofa_yellow.name=Yellow Sofa
+#Item
+item.WoodPlank.name=Wood Board
+item.StoneAxe.name=Rough Stone Axe

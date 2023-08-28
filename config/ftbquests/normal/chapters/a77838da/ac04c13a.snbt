@@ -17,16 +17,56 @@
 		type: "item",
 		title: "{far.quest.i.iiitvii.orechunk.item}",
 		items: [{
-			item: "exnihilocreatio:item_ore_copper 1 1"
+			id: "exnihilocreatio:item_ore_copper",
+			Damage: 1s,
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		},
 		{
-			item: "exnihilocreatio:item_ore_iron 1 1"
+			id: "exnihilocreatio:item_ore_iron",
+			Damage: 1s,
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		},
 		{
-			item: "exnihilocreatio:item_ore_tin 1 1"
+			id: "exnihilocreatio:item_ore_tin",
+			Damage: 1s,
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		},
 		{
-			item: "exnihilocreatio:item_ore_aluminium 1 1"
+			id: "exnihilocreatio:item_ore_aluminium",
+			Damage: 1s,
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}]
 	}],
 	rewards: [{

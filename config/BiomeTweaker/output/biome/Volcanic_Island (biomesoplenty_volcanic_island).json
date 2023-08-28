@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "DRY",
-    "MOUNTAIN",
+    "WASTELAND",
     "HOT",
     "WATER",
-    "WASTELAND"
+    "DEAD",
+    "DRY",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -241,6 +241,12 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityPiranha",
+      "Weight": 0,
+      "Min Group Count": 2,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Cave Creatures": [

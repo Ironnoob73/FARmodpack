@@ -1,10 +1,10 @@
 {
 	x: 5.5d,
 	y: 0.5d,
-	description: "{far.quest.iammer.sub}",
+	description: "{far.quest.hammer.sub}",
 	text: [
-		"{far.quest.iammer.des}",
-		"{far.quest.iammer.des0}"
+		"{far.quest.hammer.des}",
+		"{far.quest.hammer.des0}"
 	],
 	tasks: [{
 		uid: "7c88fa9f",

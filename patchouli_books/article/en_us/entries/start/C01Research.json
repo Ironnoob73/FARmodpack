@@ -1,13 +1,141 @@
 {
-    "name": "日记-手工艺研究",
-    "icon": "minecraft:paper",
+    "name": "§lI.One small step",
+    "icon": "ftgumod:parchment_empty",
     "category": "start",
     "sortnum": "3",
-    "turnin":"far:i/A04wood",
+    "turnin":"far:i/A07-1campfire",
     "pages": [
         {
             "type": "text",
-            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。"
+            "text": "  Maybe it's time to look into how to make something basic. First I need to look for some resources that can be used in nature, such as $(item)Sticks/$, $(item)Small Stones/$, and $(item)Plant Fiber/$, the former two can be found everywhere on the ground, and $(item)Plant Fiber/$ requires me to pull grass out of the ground."
+        },
+        {
+            "type": "text",
+            "text": "Directory$(li)$(l:start/C01Research#rubbish)No more unarmed$()$(li)$(l:start/C01Research#frame)Frames$()$(li)$(l:start/C01Research#idea)Idea Table$()$(li)$(l:start/C01Research#craft)Crafting Table$()$(li)$(l:start/C01Research#plank)Wood Planks$()$(li)$(l:start/C01Research#campfire)Campfire$()",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "text",
+            "text": "  I can't deal with wood empty-handed, because I'm not a karate master, and I need tools to get wood. $(br)  I can also make some very rough armor, although they are very fragile, but it is better than nothing, it is not a big deal to wear two pieces together. $(br)  Now I can cut down those trees, but such large logs are not good to use, maybe they should be processed into smaller forms? $(br)",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"No more unarmed",
+            "anchor":"rubbish",
+            "recipe":"sevendaystomine:stone_axe",
+            "recipe2":"sevendaystomine:stone_shovel",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"This is more than",
+            "recipe":"crafttweaker:fiber_hat_half",
+            "recipe2":"crafttweaker:fiber_chestplate_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"a sweater prick",
+            "recipe":"crafttweaker:fiber_leggings_half",
+            "recipe2":"crafttweaker:fiber_boots_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"Brute force attacks",
+            "recipe":"sevendaystomine:crude_club",
+            "recipe2":"crafttweaker:crude_bow_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"Resource recycling",
+            "recipe":"crafttweaker:cobblestone_hammer",
+            "text": "  Make a Rough Mallet and /$§3Sneak + Right-Click/$ on $(item)Any Log/$ to craft a $(item)Craftsmanship Table/$.$(br)  The Craftsmanship Table can be used to recycle or disassemble many kinds of garbage, machines, and can also be used to create some special tools.",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"Original carpentry",
+            "anchor":"frame",
+            "recipe":"crafttweaker:stickblock_weak",
+            "text": "  Both Wooden Boards and Sticks can be made by crafting from the Craftsmanship Table. Before making a more advanced production table, I first need to determine its framework.",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "text",
+            "text": "$(br)  $(l:start/C02tooltoblock)$(m)$(7)These frameworks are extremely fragile, weak, and can break at any time, so I need to build blocks as soon as possible and try to use them as soon as possible.$(/l)",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"Make a draft",
+            "recipe":"crafttweaker:parchment_from_paper",
+            "recipe2":"crafttweaker:parchment_from_cloth",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "recipe":"crafttweaker:parchment_from_waste",
+            "text": "  Use two Sticks and a piece of Paper (or one piece of Cloth or Fabric/two sheets of Paper Waste) to synthesize Parchment.",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"Idea Table",
+            "anchor":"idea",
+            "recipe":"crafttweaker:idea_table",
+            "text": "  I need to use it for more complex research.$(br2)  In order to make the Crafting Table, I also need to find some Scrap Iron, which may be found in the Garbage on the road.",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "text",
+            "title":"Crafting Table",
+            "anchor":"craft",
+            "text": "  To make a Crafting Table, I need the following items:$(li)A piece of iron for processing items$(li)A board for making the shell$(li)A frame $(br) Put them together with a piece of parchment paper and a feather into the Idea Table, and you can figure out how to make the Crafting Table.$(br) $(br2) $(br2)$(t:[Scrap Iron] [Wood Board] [Block Of Sticks])$(#343434)  [?]$(/t)",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"Crafting Table",
+            "recipe":"crafttweaker:crafting_table",
+            "text": "  This step has no effect until the previous step is completed.",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"Recyclabe Scaffolding",
+            "anchor":"plank",
+            "recipe":"crafttweaker:frame_thin",
+            "text": "  Crafting Table, is there anything more exciting than that? I can finally use it to prove that I am not from the barbarian era. However, I also needed a more stable way to obtain planks so that I could build a shelter.",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "crafting",
+            "title":"Wooden Frame",
+            "recipe":"crafttweaker:frame_oak",
+            "text": "  For now, it's definitely not cheap...$(br)  You need to bring six Wood Boards in your Inventory, and then add Wood Boards by /$§3right-click/$ the Wooden Frame with a Rough Stone Axe. Finally, use a Rough Stone Axe to dig down the planks that",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "text",
+            "text": "have been built. It was placed in the Idea Table along with a Wood Board and a Wooden Frame for research. $(br) If nothing else, I was able to break down the planks with my bare hands after the research was done.",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "text",
+            "title":"Campfire",
+            "anchor":"campfire",
+            "text": "  I need light, heat, clean water and food. A campfire in the wilderness is essential to meet all four of the requirements I need.$(br)  To make a campfire, I need the following items:$(li)A piece of fuel with higher calories$(li)Some base as auxiliary fuel$(li)Some support$(br)  Put them together with a piece of parchment and a feather into the Idea Table and you can figure out how to make the Campfire.$(br)$(t:[Coal] [Wood Board] [Stick])$(#343434)[?]$(/t)",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"Prometheus",
+            "recipe":"crafttweaker:camp_fire",
+            "text": "  I can use it to simply cook some food and make torches, and it's not yet hot enough for me to start the industrial process.",
+            "advancement":"far:i/A06crafting_table"
         }
     ]
 }

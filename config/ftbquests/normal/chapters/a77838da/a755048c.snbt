@@ -15,14 +15,33 @@
 		uid: "106c75e8",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 893"
+			id: "thermalfoundation:material",
+			Damage: 893s,
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}]
 	},
 	{
 		uid: "352dbe30",
 		type: "item",
 		items: [{
-			item: "minecraft:redstone"
+			id: "minecraft:redstone",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}]
 	}],
 	rewards: [{

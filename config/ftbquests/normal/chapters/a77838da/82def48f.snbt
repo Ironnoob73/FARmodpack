@@ -17,10 +17,28 @@
 		uid: "41621610",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:hammer_stone"
+			id: "exnihilocreatio:hammer_stone",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		},
 		{
-			item: "exnihilocreatio:hammer_wood"
+			id: "exnihilocreatio:hammer_wood",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

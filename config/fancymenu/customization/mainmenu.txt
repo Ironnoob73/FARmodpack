@@ -376,8 +376,8 @@ customization {
 customization {
   orientation = mid-left
   hidden = false
-  x = 380
-  width = 200
+  x = 346
+  width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 59661838-86d6-4aed-83de-4d2d7e3133551678719202809
   y = 4
@@ -388,7 +388,7 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 122
+  width = 169
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
   y = 445
@@ -398,8 +398,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 791
-  width = 168
+  x = 731
+  width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
   y = 487
@@ -578,7 +578,7 @@ customization {
   actionid = d41b1602-0b32-4496-ab14-d29aefe9bf1a1679321040964
   action = addsplash
   y = 74
-  text = §c⚠BETA TEST
+  text = §c⚠ALPHA TEST
 }
 
 customization {
@@ -594,7 +594,7 @@ customization {
   actionid = b76298df-d9a4-4007-8258-3c64b89233421679321372026
   action = addsplash
   y = 92
-  text = Version 0.1-2023.6-α
+  text = Version 0.1-2023.8-α
 }
 
 customization {
@@ -608,7 +608,7 @@ customization {
   source_mode = direct
   line_spacing = 0
   x = -9
-  width = 294
+  width = 964
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 51aa974f-9413-415a-b43f-4a83731442001679323712827
   y = -71

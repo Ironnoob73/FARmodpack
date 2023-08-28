@@ -11,6 +11,7 @@ val plate0=<thermalfoundation:material:353>;
 val compress=<ore:compressedElectrum>;
 val compress0=<jaopca:dense_plate.electrum>;
 val gear0=<thermalfoundation:material:289>;
+val coin=<ore:coinElectrum>;
 val stick=<ore:stickElectrum>;
 val stick0=<basemetals:electrum_rod>;
 val nugget=<ore:nuggetElectrum>;
@@ -102,3 +103,21 @@ recipes.addShaped("electrum_gear",gear0,[
 [null,ingot,null],
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
+#Repair
+recipes.addShapeless("electrum_boot_repair",boot,[boot.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_legging_repair",legging,[legging.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_chestplate_repair",chestplate,[chestplate.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_helmet_repair",helmet,[helmet.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_shovel_repair",shovel,[shovel.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_axe_repair",axe,[axe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_pickaxe_repair",pickaxe,[pickaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_sword_repair",sword,[sword.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_hoe_repair",hoe,[hoe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_fishrod_repair",fishrod,[fishrod.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_bow_repair",bow,[bow.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_excavator_repair",excavator,[excavator.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_hammer_repair",hammer,[hammer.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_sickle_repair",sickle,[sickle.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_lumberaxe_repair",lumberaxe,[lumberaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_shield_repair",shield,[shield.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);
+recipes.addShapeless("electrum_shield0_repair",shield0,[shield0.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 10));},null);

@@ -1,0 +1,20 @@
+{
+    "name": "§lII.挺进地下",
+    "icon": "tetra:duplex_tool_modular{'duplex/basic_pickaxe_left_material': 'basic_pickaxe/cobblestone','duplex/duplex/basic_pickaxe_right_material': 'basic_pickaxe/cobblestone', 'duplex/handle': 'duplex/basic_handle', 'duplex/head_left': 'duplex/basic_pickaxe_left', 'duplex/basic_handle_material': 'basic_handle/stick', 'duplex/head_right': 'duplex/basic_pickaxe_right'}",
+    "category": "start",
+    "sortnum": "6",
+    "advancement": "far:i/A07-2woodplank",
+    "pages": [
+        {
+            "type": "item_show",
+            "title":"工欲善其事...",
+            "i0":"tetra:duplex_tool_modular{'duplex/basic_pickaxe_left_material': 'basic_pickaxe/cobblestone', 'duplex/binding_material': 'duplex_binding/vine', 'duplex/basic_pickaxe_right_material': 'basic_pickaxe/cobblestone', 'duplex/handle': 'duplex/basic_handle', 'duplex/basic_handle_material': 'basic_handle/stick', 'duplex/binding': 'duplex/binding', 'duplex/head_left': 'duplex/basic_pickaxe_left', 'duplex/head_right': 'duplex/basic_pickaxe_right'},minecraft:stone_pickaxe",
+            "f0": "patchouli:textures/gui/show_frame_down.png",
+            "i1":"tetra:duplex_tool_modular{'duplex/binding_material': 'duplex_binding/vine', 'duplex/butt_right_material': 'butt/cobblestone', 'duplex/basic_axe_left_material': 'basic_axe/cobblestone', 'duplex/handle': 'duplex/basic_handle', 'duplex/binding': 'duplex/binding', 'duplex/basic_handle_material': 'basic_handle/stick', 'duplex/head_left': 'duplex/basic_axe_left', 'duplex/head_right': 'duplex/butt_right'},minecraft:stone_axe",
+            "f1": "patchouli:textures/gui/show_frame_up.png",
+            "i2":"tetra:sword_modular{'sword/basic_hilt_material': 'basic_hilt/stick', 'sword/guard': 'sword/makeshift_guard', 'sword/counterweight_material': 'counterweight/cobblestone', 'sword/hilt': 'sword/basic_hilt', 'sword/makeshift_guard_material': 'makeshift_guard/oak', 'sword/blade': 'sword/basic_blade', 'sword/basic_blade_material': 'basic_blade/cobblestone', 'sword/pommel': 'sword/counterweight'},minecraft:stone_sword",
+            "f2": "patchouli:textures/gui/show_frame_up.png",
+            "des": "  现在我有能力去地下获取更多资源了，但在那之前最好准备一些趁手的工具。$(br)$(3)  原版和tetra的工具皆可，不过tetra的工具名没法正常显示，恐怕也没有任何修复的方式。"
+        }
+    ]
+}

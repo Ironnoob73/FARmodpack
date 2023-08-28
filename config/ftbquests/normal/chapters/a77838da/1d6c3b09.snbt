@@ -14,7 +14,16 @@
 		uid: "d5c7ed2d",
 		type: "item",
 		items: [{
-			item: "actuallyadditions:item_crafter_on_a_stick"
+			id: "actuallyadditions:item_crafter_on_a_stick",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

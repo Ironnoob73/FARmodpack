@@ -31,3 +31,7 @@
 	#The default byproduct material to output in Magneticraft's grinder.
 	grinderByproduct = "minecraft:gravel"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

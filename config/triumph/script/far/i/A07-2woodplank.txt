@@ -1,0 +1,7 @@
+setIcon(<minecraft:planks>)
+setTranslatedTitle("far.advancements.i.woodplank.title")
+setTranslatedDescription("far.advancements.i.woodplank.desc")
+addParent("far:i/A03craftsmanship_table")
+setPos(180,30)
+criteria = addCriteria("get_woodplanks", "minecraft:inventory_changed")
+criteria.addItem(<ore:plankWood>)

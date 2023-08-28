@@ -1,0 +1,143 @@
+{
+  "formatVersion": 2,
+  "module.powersuits.transparentArmor.name": {
+    "dataName": "transparentArmor",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.axe.name": {
+    "dataName": "axe",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.pickaxe.name": {
+    "dataName": "pickaxe",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.diamondPickUpgrade.name": {
+    "dataName": "diamondPickUpgrade",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.shovel.name": {
+    "dataName": "shovel",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.waterElectrolyzer.name": {
+    "dataName": "waterElectrolyzer",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.nightVision.name": {
+    "dataName": "nightVision",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.binoculars.name": {
+    "dataName": "binoculars",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.flightControl.name": {
+    "dataName": "flightControl",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.autoFeeder.name": {
+    "dataName": "autoFeeder",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.clock.name": {
+    "dataName": "clock",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.compass.name": {
+    "dataName": "compass",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.parachute.name": {
+    "dataName": "parachute",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.glider.name": {
+    "dataName": "glider",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.jetpack.name": {
+    "dataName": "jetpack",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.invisibility.name": {
+    "dataName": "invisibility",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.basicCoolingSystem.name": {
+    "dataName": "basicCoolingSystem",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.magnet.name": {
+    "dataName": "magnet",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.mobRepulsor.name": {
+    "dataName": "mobRepulsor",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.advancedCoolingSystem.name": {
+    "dataName": "advancedCoolingSystem",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.sprintAssist.name": {
+    "dataName": "sprintAssist",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.jumpAssist.name": {
+    "dataName": "jumpAssist",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.swimAssist.name": {
+    "dataName": "swimAssist",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.kineticGenerator.name": {
+    "dataName": "kineticGenerator",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.climbAssist.name": {
+    "dataName": "climbAssist",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.jetBoots.name": {
+    "dataName": "jetBoots",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.shockAbsorber.name": {
+    "dataName": "shockAbsorber",
+    "showOnHud": false,
+    "currentKey": 0
+  },
+  "module.powersuits.madModule.name": {
+    "dataName": "madModule",
+    "showOnHud": false,
+    "currentKey": 0
+  }
+}

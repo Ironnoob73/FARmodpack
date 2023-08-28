@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "DEAD",
-    "SPARSE",
     "MOUNTAIN",
+    "SPARSE",
     "HILLS"
   ],
   "BiomeManager Entries": {},

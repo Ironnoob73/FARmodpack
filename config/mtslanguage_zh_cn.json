@@ -279,7 +279,9 @@
     "interact.repair.pass": "Repaired vehicle.",
     "interact.repair.fail": "This vehicle is totaled and cannot be repaired with this repair pack.  Only special repair packs can repair totaled vehicles.",
     "iteminfo.repairpack": "Use on a vehicle to repair it.  This pack heals the vehicle ",
-    "iteminfo.repairpack.untotal": "This repair pack is able to repair totaled vehicles as well."
+    "iteminfo.repairpack.untotal": "This repair pack is able to repair totaled vehicles as well.",
+    "interact.repair.noneed": "This vehicle is already at full health and doesn't need to be repaired.",
+    "interact.repair.toosoon": "You cannot repair this vehicle now.  Wait 10 seconds between repairs."
   },
   "packs": {
     "mts": {

@@ -2,7 +2,7 @@
     "name": "《生存指南》",
     "icon": "minecraft:book",
     "category": "start",
-    "sortnum": "7",
+    "sortnum": "8",
     "pages": [
         {
             "type": "text",

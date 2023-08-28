@@ -23,8 +23,8 @@
     "FOREST",
     "DEAD",
     "DENSE",
-    "SPOOKY",
-    "TWILIGHT"
+    "TWILIGHT",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

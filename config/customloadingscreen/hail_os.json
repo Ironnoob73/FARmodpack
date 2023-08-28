@@ -326,7 +326,7 @@
                 "parent": "builtin/text",
                 "position_type": "CENTER",
                 "offset_pos": "CENTER_LEFT",
-                "text": "'Version 0.1-2023.6-α'", 
+                "text": "'Version 0.1-2023.8-α'", 
                 "position": {
                     "x":50,
                     "y":114

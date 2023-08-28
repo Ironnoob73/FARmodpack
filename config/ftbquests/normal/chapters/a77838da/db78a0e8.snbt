@@ -5,6 +5,9 @@
 	text: [
 		"{far.quest.i.ve.charcoal.des}"
 	],
+	dependencies: [
+		"0382fd60"
+	],
 	size: 0.5d,
 	optional: true,
 	tasks: [{

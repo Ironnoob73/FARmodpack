@@ -197,6 +197,12 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityPiranha",
+      "Weight": 0,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "thedarkcolour.futuremc.entity.fish.salmon.EntitySalmon",
       "Weight": 5,
       "Min Group Count": 1,

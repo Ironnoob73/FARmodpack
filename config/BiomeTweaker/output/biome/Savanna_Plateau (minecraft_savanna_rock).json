@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
-    "SPARSE",
     "PLAINS",
     "RARE",
-    "HOT"
+    "HOT",
+    "SAVANNA",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -69,6 +69,18 @@
       "Weight": 8,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityRogue",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityAnthermite",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 7
     }
   ],
   "Spawnable Monsters": [
@@ -143,6 +155,24 @@
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityMimic",
+      "Weight": 10,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.boss.EntityCrawler",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntitySlimond",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "fat_cat.entities.EntityFatCat",

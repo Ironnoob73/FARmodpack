@@ -108,7 +108,7 @@
     }
   },
   "controls": {
-    "keysetID": 0,
+    "keysetID": 12,
     "keyboard": {
       "car.mod": {
         "keyCode": 54
@@ -137,9 +137,6 @@
       "aircraft.radio": {
         "keyCode": 12
       },
-      "aircraft.camlock": {
-        "keyCode": 157
-      },
       "aircraft.yaw_l": {
         "keyCode": 36
       },
@@ -160,9 +157,6 @@
       },
       "aircraft.gun_switch": {
         "keyCode": 47
-      },
-      "car.camlock": {
-        "keyCode": 157
       },
       "car.turn_r": {
         "keyCode": 32
@@ -229,43 +223,49 @@
       }
     },
     "joystick": {
-      "aircraft.mod": {
+      "aircraft.look_a": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.camlock": {
+      "aircraft.trim_yaw_l": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.yaw": {
+      "car.mod": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.pitch": {
+      "aircraft.look_d": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.roll": {
+      "aircraft.js_inhibit": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.throttle": {
+      "car.look_d": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.brake": {
+      "aircraft.trim_yaw_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.look_a": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -283,145 +283,7 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "aircraft.flaps_u": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.flaps_d": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.panel": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.park": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.radio": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.gun_fire": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
       "aircraft.gun_switch": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.zoom_i": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.zoom_o": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.changeview": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.look_l": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.look_r": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.look_u": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.look_d": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.look_a": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_yaw_r": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_yaw_l": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_pitch_u": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_pitch_d": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_roll_r": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.trim_roll_l": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.reverse": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "aircraft.js_inhibit": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.mod": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -433,55 +295,7 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.turn": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.gas": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.brake": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.brake_digital": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.panel": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.shift_u": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.shift_d": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.horn": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.park": {
+      "aircraft.roll": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -493,19 +307,7 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.gun_fire": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.gun_switch": {
-        "buttonIndex": 0,
-        "invertedAxis": false,
-        "axisMinTravel": 0.0,
-        "axisMaxTravel": 0.0
-      },
-      "car.zoom_i": {
+      "aircraft.trim_roll_l": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -517,13 +319,61 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.changeview": {
+      "aircraft.zoom_o": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.zoom_i": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.js_inhibit": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.zoom_i": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.pitch": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_r": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
       "car.look_l": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.park": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.look_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.changeview": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -541,13 +391,49 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.look_d": {
+      "aircraft.look_l": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.look_a": {
+      "aircraft.trim_roll_r": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.turn": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_pitch_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.brake_digital": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.yaw": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.brake": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.reverse": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -559,7 +445,67 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.turnsignal_l": {
+      "car.panel": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.shift_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.horn": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.radio": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.trim_pitch_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.camlock": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.park": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.changeview": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.gas": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.gun_fire": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.shift_d": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,
@@ -571,7 +517,55 @@
         "axisMinTravel": 0.0,
         "axisMaxTravel": 0.0
       },
-      "car.js_inhibit": {
+      "car.gun_fire": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.flaps_d": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.throttle": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.gun_switch": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.mod": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.flaps_u": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.brake": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "aircraft.panel": {
+        "buttonIndex": 0,
+        "invertedAxis": false,
+        "axisMinTravel": 0.0,
+        "axisMaxTravel": 0.0
+      },
+      "car.turnsignal_l": {
         "buttonIndex": 0,
         "invertedAxis": false,
         "axisMinTravel": 0.0,

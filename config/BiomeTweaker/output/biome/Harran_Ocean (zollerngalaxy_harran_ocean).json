@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DEAD",
-    "WET",
     "OCEAN",
-    "WATER"
+    "WATER",
+    "DEAD",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -336,7 +336,20 @@
       "Max Group Count": 3
     }
   ],
-  "Spawnable Water Creatures": [],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.EntityPiranha",
+      "Weight": 0,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.dainxt.dungeonsmod.entity.boss.EntityKraken",
+      "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
   "Tweaked": false,

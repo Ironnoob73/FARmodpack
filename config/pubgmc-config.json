@@ -116,6 +116,16 @@
               }
             }
           },
+          "Equipment Inventory Button": {
+            "value": {
+              "X": {
+                "value": -40
+              },
+              "Y": {
+                "value": 0
+              }
+            }
+          },
           "Text Overlay Coords": {
             "value": {
               "X": {
@@ -123,6 +133,65 @@
               },
               "Y": {
                 "value": 0
+              }
+            }
+          },
+          "Shrinking Playzone Color": {
+            "comment": [
+              "Shrinking playzone color for JourneyMap"
+            ],
+            "value": "#0000FF"
+          },
+          "Domination Overlays": {
+            "value": {
+              "Death message panel position": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Playzone color": {
+                "value": "#44FFFFFF"
+              },
+              "Show tickets overlay": {
+                "value": true
+              },
+              "Capture zone panel position": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Ticket panel position": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Time panel position": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Show capture zones overlay": {
+                "value": true
               }
             }
           },
@@ -134,6 +203,85 @@
               "# IMAGE"
             ],
             "value": "IMAGE"
+          },
+          "Border Playzone Color": {
+            "comment": [
+              "Border playzone color for JourneyMap"
+            ],
+            "value": "#FFFFFF"
+          },
+          "Battle Royale Overlays": {
+            "value": {
+              "Game info panel": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Playzone color": {
+                "value": "#660033FF"
+              },
+              "Show team information": {
+                "value": true
+              },
+              "Death messages panel": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Team panel position": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              }
+            }
+          },
+          "FFA Overlays": {
+            "value": {
+              "Playzone color": {
+                "value": "#660033FF"
+              },
+              "Time panel": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              },
+              "Death messages panel": {
+                "value": {
+                  "X": {
+                    "value": 0
+                  },
+                  "Y": {
+                    "value": 0
+                  }
+                }
+              }
+            }
+          },
+          "Map Border Color": {
+            "comment": [
+              "Map Border color for JourneyMap"
+            ],
+            "value": "#FF0000"
           },
           "Render Armor Icons": {
             "value": true
@@ -149,8 +297,11 @@
             ],
             "value": 32
           },
-          "Zone color": {
-            "value": "#00BAFF"
+          "Headshot character": {
+            "comment": [
+              "Character to be used for displaying headshot kills"
+            ],
+            "value": "⌖"
           },
           "Log-In Messages": {
             "comment": [
@@ -178,11 +329,8 @@
           "Allow knockback": {
             "value": true
           },
-          "Inventory restrictions": {
-            "comment": [
-              "Your inventory capacity will be affected by equipped backpack"
-            ],
-            "value": false
+          "Force Inventory Restrictions": {
+            "value": true
           }
         }
       },

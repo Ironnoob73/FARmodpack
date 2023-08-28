@@ -98,13 +98,13 @@
     "interact.key.bind": "Key bound to vehicle.  Ready for locking/unlocking use.",
     "interact.key.notowner": "This key is not for any vehicle, and only the owner of this vehicle may make new keys!",
     "interact.key.wrongkey": "This key does not go to this vehicle!",
-    "interact.fuelpump.toofar": "The fuel pump is too far away from the vehicle.  The pump should be no more than 16 blocks away.",
-    "interact.fuelpump.nofuel": "The fuel pump does not have any fuel in it.  You need fuel in the fuel pump to use it.",
-    "interact.fuelpump.wrongtype": "This pump does not contain the same liquid as what is in the vehicle.",
-    "interact.fuelpump.wrongengines": "The fuel in this pump is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
-    "interact.fuelpump.connect": "Fuel pump connected and pumping.",
+    "interact.fuelpump.toofar": "The pump is too far away from the vehicle.  The pump should be no more than 16 blocks away.",
+    "interact.fuelpump.nofuel": "The pump is empty.  Either insert fuel into the pump via buckets, or connect it to a fluid or electrical system from the bottom.",
+    "interact.fuelpump.wrongtype": "This pump does not contain the same fuel type as what is in the vehicle.",
+    "interact.fuelpump.wrongengines": "The contents in this pump is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.fuelpump.connect": "Connected and fueling.",
     "interact.fuelpump.complete": "Vehicle is full, disconnecting.",
-    "interact.fuelpump.empty": "Fuel pump is empty, disconnecting.",
+    "interact.fuelpump.empty": "Pump is empty, disconnecting.",
     "interact.fuelpump.disconnect": "Disconnecting and stopping pumping.",
     "interact.road.set": "Setting first dynamic road point.",
     "interact.road.alreadyconnected": "This road segment is already connected to another road.",
@@ -256,8 +256,31 @@
     "input.lights": "Lights",
     "input.turnsignal_r": "RightSignal",
     "input.turnsignal_l": "LeftSignal",
-    "sytstem.soundslot": "IMMERSIVE VEHICLES ERROR: Tried to play a sound, but was told no sound slots were available.  Some mod is taking up all the slots.  If you have Immersive Engineering, set override sound channels to false in that mod's config.  If running GregTech, set maxNumSounds to a lower value in that mod's config.  Dynamic Surrondings and Optifine also may cause issues.  Apply fixes, or complain to those mod's authors.  Sounds will not play.",
-    "sytstem.debug": "%s"
+    "sytstem.soundslot": "IMMERSIVE VEHICLES ERROR: Tried to play a sound, but was told no sound slots were available. Some mod is taking up all the slots. If you have Immersive Railroading, set override sound channels to false in that mod's config. If running GregTech, set maxNumSounds to a lower value in that mod's config. Dynamic Surrondings and Optifine also may cause issues. Apply fixes, or complain to those mod's authors. Sounds will not play.",
+    "sytstem.debug": "%s",
+    "death.propeller.null": "%s was shredded by a propeller",
+    "death.propeller.player": "%s was shredded by %s's propeller",
+    "interact.fuelpump.fullitems": "This pump is set up to require payment for fuel, but it cannot accept more items.  Contact the owner to empty it!",
+    "interact.fuelpump.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details.",
+    "interact.jerrycan.noengine": "There is no engine in this vehicle.  Removing engines from vehicles resets their fuel tank, so fueling this vehicle would do nothing!",
+    "interact.repair.pass": "Repaired vehicle HP by %s.  HP is now at %s of %s.",
+    "interact.repair.noneed": "This vehicle is already at full health and doesn't need to be repaired.",
+    "interact.repair.fail": "This vehicle is totaled and cannot be repaired with this repair pack.  Only special repair packs can repair totaled vehicles.",
+    "interact.repair.toosoon": "You cannot repair this vehicle now.  Wait 10 seconds between repairs.",
+    "iteminfo.scanner": "Hover over a part box to see what can be placed at that slot.\nSneak while using to cycle slower.",
+    "iteminfo.wrench": "Attack a vehicle part to remove it.\nSneak-attack a vehicle to remove entire vehicle.\nUse on vehicle to change instruments.\nSneak-use on vehicle or blocks to change text.\nUse on pole components to remove them.\nUse on fuel pumps you placed to change prices.",
+    "iteminfo.screwdriver": "Like a wrench, but used only to remove specific parts that wrenches cannot.  Does not interact with blocks or other things.",
+    "iteminfo.paintgun": "Use on a vehicle, a part, decor, or sign to change its color.\nNote: Not all things you can click will have multiple colors.",
+    "iteminfo.key": "Sneak-use on cars to take ownership, right-click to lock/unlock.",
+    "iteminfo.ticket": "Right-click on a vehicle to load nearby entities.\nRight-click on a seat to load just that seat.\nSneak-click on a vehicle to unload all entities.\nNote: Will not unload players.",
+    "iteminfo.fuelhose": "Use on a vehicle tank to select.\nUse on second tank or vehicle to link.\nHose will transfer liquids from tank 1 to selected.\nHose will stop when tank 1 is empty, selected is full or if tank 1 and selected are too far away.",
+    "iteminfo.jumpercables": "Use on an engine to select.\nUse on second engine to link.\nLinked engines will exchange power.\nEngines will un-link when power is even or if they get too far away.",
+    "iteminfo.jumperpack": "Use on a vehicle to charge battery to max level.",
+    "iteminfo.repairpack": "Use on a vehicle to repair it.  This pack heals the vehicle: ",
+    "iteminfo.repairpack.untotal": "This repair pack is able to repair totaled vehicles as well.",
+    "iteminfo.y2kbutton": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins.",
+    "iteminfo.bullet.pellets": "Pellets: "
   },
   "packs": {
     "mts": {
@@ -291,7 +314,7 @@
       },
       "mts.fuelpump": {
         "name": "Fuel Pump",
-        "description": ""
+        "description": "Something about its shape is... off."
       },
       "mts.gunbench": {
         "name": "Gun Bench",
@@ -323,7 +346,7 @@
       },
       "mts.fuelhose": {
         "name": "Fuel Hose",
-        "description": "Use on a vehicle tank to select.\nUse on second tank or vehicle to link.\nHose will transfer liquids from tank 1 to selected.\nHose will stop when tank 1 is empty, selected is full or if tank 1 and selected are too far away."
+        "description": ""
       },
       "mts.handbook_car": {
         "name": "IV Operator's Manual (READ ME!)",
@@ -335,11 +358,11 @@
       },
       "mts.jumpercable": {
         "name": "Jumper Cables",
-        "description": "Use on an engine to select.\nUse on second engine to link.\nLinked engines will exchange power.\nEngines will un-link when power is even or if they get too far away."
+        "description": ""
       },
       "mts.jumperpack": {
         "name": "Jumper Pack",
-        "description": "Use on a vehicle to charge battery to max level."
+        "description": ""
       },
       "mts.key": {
         "name": "Key",
@@ -347,23 +370,27 @@
       },
       "mts.paintgun": {
         "name": "Paint Gun",
-        "description": "Use on a vehicle, a part, decor, or sign to change its color.\nNote: Not all things you can click will have multiple colors."
+        "description": ""
       },
       "mts.partscanner": {
         "name": "Part Scanner",
-        "description": "Hover over a part box to see what can be placed at that slot.\nSneak while using to cycle slower."
+        "description": ""
       },
       "mts.ticket": {
         "name": "Ticket",
-        "description": "Right-click on a vehicle to load nearby entities.\nSneak-click on a vehicle to unload all entities.\nNote: Will not unload players."
+        "description": ""
       },
       "mts.wrench": {
         "name": "Wrench",
-        "description": "Attack a vehicle part to remove it.\nSneak-attack a vehicle to remove entire vehicle.\nUse on vehicle to change instruments.\nSneak-use on vehicle to change text.\nUse on pole components to remove them.\nUse on fuel pumps you placed to change prices."
+        "description": ""
       },
       "mts.y2kbutton": {
         "name": "Y2K Button",
-        "description": "Use in a world to turn off all vehicle engines, engage their parking brakes, and turn off their lights.\nOnly usable by admins."
+        "description": ""
+      },
+      "mts.charger": {
+        "name": "Vehicle Charger",
+        "description": ""
       }
     },
     "mtsofficialpack": {
@@ -926,6 +953,420 @@
       "mtsofficialpack.instrument_car_tachometer_det": {
         "name": "Detroit Diesel Tachometer",
         "description": "Indicates engine speeds."
+      }
+    },
+    "waywardcraft": {
+      "waywardcraft.burton33metrotour": {
+        "name": "Burton 33 Metrotour",
+        "description": ""
+      },
+      "waywardcraft.burton35sdomestic_mattdonalds": {
+        "name": "MattDonald's Burton 35S Domestic",
+        "description": ""
+      },
+      "waywardcraft.burton35sdomestic_pricedecimator": {
+        "name": "Price Decimator Burton 35S Domestic",
+        "description": ""
+      },
+      "waywardcraft.burton35sdomestic_standard": {
+        "name": "Standard Burton 35S Domestic",
+        "description": ""
+      },
+      "waywardcraft.burton35sfueler": {
+        "name": "Burton 35S Fueler",
+        "description": ""
+      },
+      "waywardcraft.burton35sgrace": {
+        "name": "Burton 35S Grace",
+        "description": ""
+      },
+      "waywardcraft.burton35smarshall": {
+        "name": "Burton 35S Marshall",
+        "description": ""
+      },
+      "waywardcraft.burton99hauler_green": {
+        "name": "Green Burton 99 Hauler",
+        "description": ""
+      },
+      "waywardcraft.burton99hauler_orange": {
+        "name": "Orange Burton 99 Hauler",
+        "description": ""
+      },
+      "waywardcraft.burton99trailer": {
+        "name": "Burton 99 Trailer",
+        "description": ""
+      },
+      "waywardcraft.cochranjackrabbit": {
+        "name": "Cochran Jackrabbit",
+        "description": ""
+      },
+      "waywardcraft.cochranmonarch_generic": {
+        "name": "Generic Cochran Monarch",
+        "description": ""
+      },
+      "waywardcraft.cochranmonarch_sirevan": {
+        "name": "Sirevan  Cochran Monarch",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_black": {
+        "name": "Black Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_blue": {
+        "name": "Blue  Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_gold": {
+        "name": "Gold Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_green": {
+        "name": "Green Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_pink": {
+        "name": "Pink Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_purple": {
+        "name": "Purple Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_red": {
+        "name": "Red Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_salmon": {
+        "name": "Salmon Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_silver": {
+        "name": "Silver Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.cochrantownmaster_white": {
+        "name": "White Cochran Townmaster",
+        "description": ""
+      },
+      "waywardcraft.decimotorconquest": {
+        "name": "Decimotor Conquest",
+        "description": ""
+      },
+      "waywardcraft.decimotorvanquisher": {
+        "name": "Decimotor Vanquisher",
+        "description": ""
+      },
+      "waywardcraft.dojinmunchenjitterbug": {
+        "name": "Dojin-Munchen Jitterbug",
+        "description": ""
+      },
+      "waywardcraft.dojinmunchenlilderpy_regular": {
+        "name": "Regular Dojin-Munchen Lil Derpy",
+        "description": ""
+      },
+      "waywardcraft.dojinmunchenlilderpy_ss": {
+        "name": "SS Dojin-Munchen Lil Derpy",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_blue": {
+        "name": "Blue FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_dirt": {
+        "name": "Dirt FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_forest": {
+        "name": "Forest FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_green": {
+        "name": "Green FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_moonshine": {
+        "name": "Moonshine FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcbumpkin_sunburn": {
+        "name": "Sunburn FMC Bumpkin",
+        "description": ""
+      },
+      "waywardcraft.fmcdixon": {
+        "name": "FMC Dixon",
+        "description": ""
+      },
+      "waywardcraft.fmcsprinter": {
+        "name": "FMC Sprinter",
+        "description": ""
+      },
+      "waywardcraft.hanks21racer": {
+        "name": "Hanks 21 Racer",
+        "description": ""
+      },
+      "waywardcraft.hanks35_blacksilver": {
+        "name": "Black-Silver Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_blue": {
+        "name": "Blue Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_green": {
+        "name": "Green Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_pinkpurple": {
+        "name": "Pink-Purple Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_police": {
+        "name": "Police Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_silverblue": {
+        "name": "Silver-Blue Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_silvermaroon": {
+        "name": "Silver-Maroon Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks35_taxi": {
+        "name": "Taxi Hanks 35",
+        "description": ""
+      },
+      "waywardcraft.hanks49_cloudwhite": {
+        "name": "Cloud White Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_cornflowerblue": {
+        "name": "Cornflower Blue Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_earthbrown": {
+        "name": "Earth Brown Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_emeraldgreen": {
+        "name": "Emerald Green Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_firered": {
+        "name": "Fire Red Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_freshorange": {
+        "name": "Fresh Orange Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_goldenrod": {
+        "name": "Goldenrod Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_navyblue": {
+        "name": "Navy Blue Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_plum": {
+        "name": "Plum Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_police": {
+        "name": "Police Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_salmon": {
+        "name": "Salmon Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_seasideblue": {
+        "name": "Seaside Blue Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_silverarrow": {
+        "name": "Silver Arrow Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_smokeblack": {
+        "name": "Smoke Black Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_springyellow": {
+        "name": "Spring Yellow Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_taxicab": {
+        "name": "Taxicab Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hanks49_teagreen": {
+        "name": "Tea Green Hanks 49",
+        "description": ""
+      },
+      "waywardcraft.hankshorselesscarriage": {
+        "name": "Hanks Horseless Carriage",
+        "description": ""
+      },
+      "waywardcraft.hanksmodel12": {
+        "name": "Hanks Model 12",
+        "description": ""
+      },
+      "waywardcraft.hanksmodel12truck": {
+        "name": "Hanks Model 12 Truck",
+        "description": ""
+      },
+      "waywardcraft.landship": {
+        "name": "Landship",
+        "description": "Ye best be gettin' runnin' laddies!!"
+      },
+      "waywardcraft.schmidtd30_beige": {
+        "name": "Beige Schmidt D30",
+        "description": ""
+      },
+      "waywardcraft.schmidtd30_black": {
+        "name": "Black Schmidt D30",
+        "description": ""
+      },
+      "waywardcraft.schmidtd30_green": {
+        "name": "Green Schmidt D30",
+        "description": ""
+      },
+      "waywardcraft.schmidtd30_silver": {
+        "name": "Silver Schmidt D30",
+        "description": ""
+      },
+      "waywardcraft.schmidtsilberpfeileins": {
+        "name": "Schmidt Silberpfeil Eins",
+        "description": ""
+      },
+      "waywardcraft.spencersteamer": {
+        "name": "Spencer Steamer",
+        "description": ""
+      },
+      "waywardcraft.spencersteamracer": {
+        "name": "Spencer Steamracer",
+        "description": ""
+      },
+      "waywardcraft.terzivelocemk1": {
+        "name": "Terzi Veloce Mk.1",
+        "description": ""
+      },
+      "waywardcraft.ageria_tps12": {
+        "name": "Ageria TPS-1-2",
+        "description": ""
+      },
+      "waywardcraft.coleman_bluetail": {
+        "name": "Coleman Bluetail",
+        "description": ""
+      },
+      "waywardcraft.coleman_yellowtail": {
+        "name": "Coleman Yellowtail",
+        "description": ""
+      },
+      "waywardcraft.henderly_h1_hummingbird": {
+        "name": "Henderly H1 Hummingbird",
+        "description": ""
+      },
+      "waywardcraft.henderly_h2_sky_transit": {
+        "name": "Henderly H2 SkyTransit",
+        "description": ""
+      },
+      "waywardcraft.henderly_no1flyer": {
+        "name": "Henderly No. 1 Flyer",
+        "description": ""
+      },
+      "waywardcraft.henderly_no2flyer": {
+        "name": "Henderly No. 2 Flyer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p1_acrobat": {
+        "name": "Henderly P1 Acrobat",
+        "description": ""
+      },
+      "waywardcraft.henderly_p2_skipjack": {
+        "name": "Henderly P2 Skipjack",
+        "description": ""
+      },
+      "waywardcraft.henderly_p3_adventurer_black": {
+        "name": "Black Henderly P3 Adventurer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p3_adventurer_blue": {
+        "name": "Blue Henderly P3 Adventurer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p3_adventurer_green": {
+        "name": "Green Henderly P3 Adventurer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p3_adventurer_red": {
+        "name": "Red Henderly P3 Adventurer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p3_adventurer_stock": {
+        "name": "Stock Henderly P3 Adventurer",
+        "description": ""
+      },
+      "waywardcraft.henderly_p4_poseidon": {
+        "name": "Henderly P4 Poseidon",
+        "description": ""
+      },
+      "waywardcraft.henderly_p5_emperor_blue": {
+        "name": "Blue Henderly P5 Emperor",
+        "description": ""
+      },
+      "waywardcraft.henderly_p5_emperor_green": {
+        "name": "Green Henderly P5 Emperor",
+        "description": ""
+      },
+      "waywardcraft.henderly_p5_emperor_military": {
+        "name": "Military Henderly P5 Emperor",
+        "description": ""
+      },
+      "waywardcraft.mr1_llama": {
+        "name": "MR-1 Llama",
+        "description": ""
+      },
+      "waywardcraft.mr2_llamaexpress": {
+        "name": "MR-2 Llama Express",
+        "description": ""
+      },
+      "waywardcraft.mr3_cardinal_green": {
+        "name": "Green MR-3 Cardinal",
+        "description": ""
+      },
+      "waywardcraft.mr3_cardinal_red": {
+        "name": "Red MR-3 Cardinal",
+        "description": ""
+      },
+      "waywardcraft.mr3_cardinal_tan": {
+        "name": "Tan MR-3 Cardinal",
+        "description": ""
+      },
+      "waywardcraft.mr4_superllama": {
+        "name": "MR-4 Super Llama",
+        "description": ""
+      },
+      "waywardcraft.mr5_trimotor": {
+        "name": "MR-5 Trimotor",
+        "description": ""
+      },
+      "waywardcraft.mr6_cygnus": {
+        "name": "MR-6 Cygnus",
+        "description": ""
+      },
+      "waywardcraft.murphy_harpy": {
+        "name": "Murphy Harpy",
+        "description": ""
+      },
+      "waywardcraft.landshipgun": {
+        "name": "Landship Machine Gun",
+        "description": ""
+      },
+      "waywardcraft.landshipturret": {
+        "name": "Landship Turret",
+        "description": ""
       }
     }
   }

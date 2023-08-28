@@ -11,6 +11,7 @@ val plate0=<thermalfoundation:material:320>;
 val compress=<ore:compressedCopper>;
 val compress0=<jaopca:dense_plate.copper>;
 val gear0=<thermalfoundation:material:256>;
+val coin=<ore:coinCopper>;
 val stick=<ore:stickCopper>;
 val stick0=<basemetals:copper_rod>;
 val nugget=<ore:nuggetCopper>;
@@ -63,16 +64,11 @@ recipes.addShapedMirrored(fishrod,[[null,null,stick],[null,stick,ST],[stick,null
 recipes.removeShaped(bow);
 recipes.addShapedMirrored(bow,[[null,stick,ST],[stick,null,ST],[null,stick,ST]]);
 recipes.removeShaped(excavator);
-//recipes.addShaped(excavator,[[null,plate,null],[plate,STW,plate],[null,STW,null]]);
 mods.extendedcrafting.TableCrafting.addShaped(0,excavator,[[null,plate,null],[plate,STW,plate],[null,STW,null]]);
 recipes.removeShaped(hammer);
-//recipes.addShaped(hammer,[[plate,ingot,plate],[plate,STW,plate],[null,STW,null]]);
 mods.extendedcrafting.TableCrafting.addShaped(0,hammer,[[plate,ingot,plate],[plate,STW,plate],[null,STW,null]]);
 recipes.removeShaped(sickle);
-//recipes.addShaped(sickle,[[stick,stick,stick],[null,null,stick],[STW,stick,stick]]);
-mods.extendedcrafting.TableCrafting.addShaped(0,sickle,[[stick,stick,stick],[null,null,stick],[STW,stick,stick]]);
 recipes.removeShaped(lumberaxe);
-//recipes.addShaped(lumberaxe,[[plate,ingot,ingot],[plate,STW,null],[null,STW,null]]);
 mods.extendedcrafting.TableCrafting.addShaped(0,lumberaxe,[[plate,ingot,ingot],[plate,STW,null],[null,STW,null]]);
 recipes.removeShaped(shears);
 recipes.addShapeless(shears,[plate,plate,SW]);
@@ -88,7 +84,6 @@ recipes.removeShaped(ingot0*9,[[block]]);
 recipes.removeShaped(ingot0,[[nugget,nugget,nugget],[nugget,nugget,nugget],[nugget,nugget,nugget]]);
 recipes.removeShaped(nugget0*9,[[ingot]]);
 #Plate
-//recipes.removeShaped(plate0*3,[[ingot,ingot,ingot]]);
 recipes.addShapeless("copper_plate_sh",plate0,[shammer,ingot,ingot]);
 mods.thermalexpansion.Compactor.addPressRecipe(compress0,plate0*2,4500);
 #Stick
@@ -119,3 +114,21 @@ recipes.addShaped("wooden_bucket",<simpleores:copper_bucket>,[
 [null,<ore:plankWood>,null]]);
 furnace.remove(<simpleores:copper_ingot>,<simpleores:copper_bucket>);
 furnace.setFuel(<simpleores:copper_bucket>,900);
+#Repair
+recipes.addShapeless("copper_boot_repair",boot,[boot.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_legging_repair",legging,[legging.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_chestplate_repair",chestplate,[chestplate.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_helmet_repair",helmet,[helmet.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_shovel_repair",shovel,[shovel.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_axe_repair",axe,[axe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_pickaxe_repair",pickaxe,[pickaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_sword_repair",sword,[sword.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_hoe_repair",hoe,[hoe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_fishrod_repair",fishrod,[fishrod.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_bow_repair",bow,[bow.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_excavator_repair",excavator,[excavator.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_hammer_repair",hammer,[hammer.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_sickle_repair",sickle,[sickle.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_lumberaxe_repair",lumberaxe,[lumberaxe.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_shield_repair",shield,[shield.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);
+recipes.addShapeless("copper_shield0_repair",shield0,[shield0.anyDamage().marked("mark"),coin],function(out, ins, cInfo){return ins.mark.withDamage(max(0,ins.mark.damage - 20));},null);

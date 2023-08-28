@@ -30,7 +30,7 @@ tile.nyx.meteor_rock.name=陨铁矿
 fluid.nyx.lunar_water=月露
 
 item.nyx.lunar_water_bottle.name=瓶装月露
-item.nyx.meteor_shard.name=陨铁盾
+item.nyx.meteor_shard.name=陨铁碎片
 item.nyx.fallen_star.name=坠星
 item.nyx.meteor_dust.name=陨铁粉
 item.nyx.meteor_finder.name=陨石定位器

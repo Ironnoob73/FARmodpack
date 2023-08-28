@@ -18,7 +18,16 @@
 		uid: "d5c10a2e",
 		type: "item",
 		items: [{
-			item: "minecraft:clay_ball"
+			id: "minecraft:clay_ball",
+			ForgeCaps: {
+				"regeneration:arch": {
+					regenAmount: 0,
+					trait: "regeneration:boring",
+					arch_status: "NORMAL_ITEM",
+					skinType: "STEVE",
+					skin: "NONE"
+				}
+			}
 		}]
 	}]
 }

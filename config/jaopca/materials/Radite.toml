@@ -37,3 +37,7 @@
 	#The default byproduct material to output in HBMNTM's centrifuge.
 	byproduct = "minecraft:gravel"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

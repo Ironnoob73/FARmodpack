@@ -92,22 +92,9 @@ key_keybind.railcraft.cart.bed:208
 key_keybind.baublesinventory:11
 key_key.xu2.searchforitems:0
 key_星图:50
-key_打开飞船舱:0
+key_打开飞船舱:33
 key_切换传感器护目镜模式:37
-key_Open MPS Keybind GUI:0
-key_Go Down (MPS Flight Control):0
-key_Cycle Tool Backward (MPS):0
-key_Cycle Tool Forward (MPS):0
-key_Cosmetic (MPS):0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:0
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -126,12 +113,20 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:0
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:0
 key_key.cavern.miningAssist:79
 key_key.cavern.miningRecords:62
 key_key.cavern.magicBook:0
 key_chineseworkshop.keybind.select:56
 key_key.ebwizardry.next_spell:49
-key_key.ebwizardry.previous_spell:48
+key_key.ebwizardry.previous_spell:0
 key_key.ebwizardry.spell_1:2:ALT
 key_key.ebwizardry.spell_2:3:ALT
 key_key.ebwizardry.spell_3:4:ALT
@@ -146,7 +141,7 @@ key_key.erebus.beetleram:0
 key_key.erebus.beetlemine:56
 key_key.ftbquests.quests:26
 key_key.ftbmoney.shop:27
-key_key.fart.desc:34
+key_key.fart.desc:0
 key_keybind.togglehelmet.name:73
 key_keybind.togglechest.name:77
 key_keybind.togglelegs.name:81
@@ -197,9 +192,9 @@ key_dshuds.keybind.LightLevel:65
 key_dshuds.keybind.ChunkBorders:67
 key_key.pickup.item:0
 key_key.dismount:42
-key_key.narrator:48:CONTROL
+key_key.narrator:0
 key_smoothfont.key.guiOpen:0
-key_replaymod.input.playeroverview:48
+key_replaymod.input.playeroverview:0
 key_replaymod.input.lighting:44
 key_replaymod.input.quickmode:0
 key_replaymod.input.settings:0
@@ -247,16 +242,50 @@ key_mekanism.key.armorMode:77
 key_mekanism.key.feetMode:83
 key_mekanism.key.voice:0
 key_key.reveal:34
-key_keybind.fovfixtoggle:0
+key_Toggle Numina FOV fix :0
 key_key.refinedstorage.focusSearchBar:15
 key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
 key_key.refinedstorage.openWirelessGrid:0
 key_key.refinedstorage.openWirelessFluidGrid:0
 key_key.refinedstorage.openPortableGrid:0
 key_key.refinedstorage.openWirelessCraftingMonitor:0
+key_key.powersuits.goDownKey:44
+key_key.powersuits.cycleToolForward:0
+key_key.powersuits.cycleToolBackward:0
+key_key.powersuits.openKeybindGui:0
+key_key.powersuits.openCosmeticGUI:0
+key_key.powersuits.openTinkerGUI:0
+key_module.powersuits.transparentArmor.name:0
+key_module.powersuits.axe.name:0
+key_module.powersuits.pickaxe.name:0
+key_module.powersuits.diamondPickUpgrade.name:0
+key_module.powersuits.shovel.name:0
+key_module.powersuits.waterElectrolyzer.name:0
+key_module.powersuits.nightVision.name:0
+key_module.powersuits.binoculars.name:0
+key_module.powersuits.flightControl.name:0
+key_module.powersuits.autoFeeder.name:0
+key_module.powersuits.clock.name:0
+key_module.powersuits.compass.name:0
+key_module.powersuits.parachute.name:0
+key_module.powersuits.glider.name:0
+key_module.powersuits.jetpack.name:0
+key_module.powersuits.invisibility.name:0
+key_module.powersuits.basicCoolingSystem.name:0
+key_module.powersuits.magnet.name:0
+key_module.powersuits.mobRepulsor.name:0
+key_module.powersuits.advancedCoolingSystem.name:0
+key_module.powersuits.sprintAssist.name:0
+key_module.powersuits.jumpAssist.name:0
+key_module.powersuits.swimAssist.name:0
+key_module.powersuits.kineticGenerator.name:0
+key_module.powersuits.climbAssist.name:0
+key_module.powersuits.jetBoots.name:0
+key_module.powersuits.shockAbsorber.name:0
+key_module.powersuits.madModule.name:0
 key_打开电力漫游车物品栏:34
 key_打开模块管理器:35
-key_打开发射检查表 GUI:0
+key_打开发射检查表 GUI:25
 key_打开便携式 NASA 工作台 GUI:24
 key_key.settings_menu:34
 key_key.range:0
@@ -300,7 +329,7 @@ key_Android Ability key:45
 key_Android Switch Ability key:0
 key_key.plonk.place.desc:25:SHIFT
 key_pubgmc.key.reload:19
-key_pubgmc.key.firemode:48
+key_pubgmc.key.firemode:34
 key_pubgmc.key.nv:49
 key_pubgmc.key.attachment:28
 key_pubgmc.key.prone:54
@@ -332,6 +361,7 @@ key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
+key_gui.xaero_toggle_tracked_players:0
 key_gui.xaero_minimap_settings:0
 key_gui.xaero_open_map:51
 key_gui.xaero_open_settings:52
@@ -345,7 +375,7 @@ key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
 key_开关喷气背包:45
 key_打开火箭界面:46
-key_Toggle RCS:0
+key_Toggle RCS:19
 key_Rotate Vehicle Right:32
 key_Rotate Vehicle Left:30
 key_Move Vehicle Up:44

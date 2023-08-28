@@ -44,6 +44,9 @@ openblocks:explosive
 openblocks:last_stand
 openblocks:flim_flam
 randomthings:magnetic
+morbid:decr_morbid_damage
+morbid:decr_morbid_heal
+morbid:decr_morbid_prot
 unbreaken:unbreak
 advancedrocketry:spacebreathing
 blue_skies:uncivilized

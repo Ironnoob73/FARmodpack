@@ -1,15 +1,36 @@
 {
-    "name": "替代方案/资源回收",
-    "icon": "ftgumod:parchment_empty",
+    "name": "Resource recycling",
+    "icon": "tetra:workbench",
     "category": "start",
     "sortnum": "5",
-    "turnin":"far:i/A04wood",
+    "advancement": "far:i/A03craftsmanship_table",
     "pages": [
         {
             "type": "spotlight",
-            "title":"替代方案/资源回收",
+            "title":"Resource recycling",
             "item":"tetra:workbench",
-            "text": "  有时候某些资源很难立刻被找到，也许你会被生成在一个远离公路或者城市的地方。不用担心，你可以利用随处可见的垃圾补全这段空缺。"
+            "text": "  Many resources cannot be used directly, such as Logs need to be beaten into small pieces first, and Empty Cans need to be beaten into Scarp Iron first."
+        },
+        {
+            "type": "tetra_recipes",
+
+            "tool0": "patchouli:textures/gui/tetra_axe.png",
+            "in0": "ore:logWood","lv0":1,
+            "out0_0":"sevendaystomine:woodplank","cha0_0":"1~4",
+
+            "tool1": "patchouli:textures/gui/tetra_axe.png",
+            "in1": "sevendaystomine:woodplank","lv1":1,
+            "out1_0":"minecraft:stick","cha1_0":"1~2",
+
+            "tool2": "patchouli:textures/gui/tetra_hammer.png",
+            "in2": "sevendaystomine:emptycan","lv2":1,
+            "out2_0":"sevendaystomine:scrapiron","cha2_0":"100%",
+
+            "tool3": "patchouli:textures/gui/tetra_none.png",
+
+            "tool4": "patchouli:textures/gui/tetra_none.png",
+
+            "tool5": "patchouli:textures/gui/tetra_none.png"
         }
     ]
 }
