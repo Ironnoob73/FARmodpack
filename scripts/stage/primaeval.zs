@@ -1,6 +1,13 @@
 import crafttweaker.item.IIngredient;
+import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.Functions;
+
 val paper=<ore:paper>;
-val fiber=<sevendaystomine:plantfiber>;
+val fiber=<ore:itemTieNormal>;fiber.add(<sevendaystomine:plantfiber>,<emergingtechnology:syntheticsilk>,<minecraft:string>);
 val stick=<minecraft:stick>;
 val plank=<sevendaystomine:woodplank>;
 val stone=<sevendaystomine:smallstone>;
@@ -37,6 +44,23 @@ recipes.remove(<minecraft:wooden_pickaxe>);
 /*recipes.addShapedMirrored("wooden_pickaxe",<minecraft:wooden_pickaxe>,[
 [fiber,plank],
 [null,stick]]);*/
+val dismantleEmptycan = LootTweaker.newTable("tetra:dismantle_emptycan");
+    val dismantleEmptycanPool = dismantleEmptycan.addPool("dismantle_emptycan", 1, 1, 0, 0);
+        dismantleEmptycanPool.addItemEntry(<sevendaystomine:scrapiron>,1,0,[
+            {"function": "tetra:fortune_enchant","count": {"min": 0,"max": 0.3},"requiredCapability": "hammer","capabilityLevel": 1}],
+            []);
+val boardsFromLog = LootTweaker.newTable("tetra:boards_from_log");
+    val boardsFromLogPool = boardsFromLog.addPool("boards_from_tree", 1, 1, 0, 0);
+        boardsFromLogPool.addItemEntry(<sevendaystomine:woodplank>,1,0,[
+            {"function": "minecraft:set_count","count":{"max":4,"min":1}},
+            {"function": "tetra:fortune_enchant","count": {"min": 0,"max": 0.3},"requiredCapability": "axe","capabilityLevel": 1}],
+            []);
+val sticksFromBoard = LootTweaker.newTable("tetra:sticks_from_board");
+    val sticksFromBoardPool = sticksFromBoard.addPool("sticks_from_board", 1, 1, 0, 0);
+        sticksFromBoardPool.addItemEntry(<minecraft:stick>,1,0,[
+            {"function": "minecraft:set_count","count":{"max":2,"min":1}},
+            {"function": "tetra:fortune_enchant","count": {"min": 0,"max": 0.3},"requiredCapability": "axe","capabilityLevel": 1}],
+            []);
 
 recipes.remove(<ftgumod:idea_table>);
 recipes.addShapedMirrored("idea_table",<ftgumod:idea_table>,[
@@ -103,6 +127,10 @@ recipes.addShapeless("birchplanks_readd",<minecraft:planks:2>*4,[<minecraft:log:
 recipes.addShapeless("jungleplanks_readd",<minecraft:planks:3>*4,[<minecraft:log:3>]);
 recipes.addShapeless("acaciaplanks_readd",<minecraft:planks:4>*4,[<minecraft:log2>]);
 recipes.addShapeless("darkoakplanks_readd",<minecraft:planks:5>*4,[<minecraft:log2:1>]);
+val boardFromPlank = LootTweaker.newTable("tetra:board_from_plank");
+    val boardFromPlankPool = boardFromPlank.addPool("board_from_plank", 1, 1, 0, 0);
+        boardFromPlankPool.addItemEntry(<sevendaystomine:woodplank>,1,0,[],[]);
+recipes.addShaped("sticks_from_plank",<minecraft:stick>,[[<ore:plankWood>],[<ore:plankWood>]]);
 
 recipes.remove(<futuremc:campfire>);
 recipes.addShaped("camp_fire",<futuremc:campfire>,[

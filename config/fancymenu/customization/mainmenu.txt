@@ -376,8 +376,8 @@ customization {
 customization {
   orientation = mid-left
   hidden = false
-  x = 346
-  width = 268
+  x = 380
+  width = 200
   action = deep_customization_element:title_screen_forge_top
   actionid = 59661838-86d6-4aed-83de-4d2d7e3133551678719202809
   y = 4
@@ -388,7 +388,7 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 169
+  width = 123
   action = deep_customization_element:title_screen_branding
   actionid = 919d1aba-5489-47d4-9c1f-98e6b9dc9fb61678719202854
   y = 445
@@ -398,8 +398,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 731
-  width = 228
+  x = 791
+  width = 168
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 47809dad-4852-45d1-93d8-5e70e43e40db1678719202855
   y = 487
@@ -602,7 +602,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimemonth"}"}}-10)^2)^(1/2)","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"(({"placeholder":"realtimeday"}"}}-19)^2)^(1/2)","decimal":"false"}} days old today.
+  source = Minecraft {"placeholder":"mcversion"} is {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeyear"}"}}-2018","decimal":"false"}} years, {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimemonth"}"}}-10+(13*(((((((({"placeholder":"stringify","values":{"text":"{"placeholder":"realtimemonth"}"}}-10)^2)^(1/2))/({"placeholder":"stringify","values":{"text":"{"placeholder":"realtimemonth"}"}}-10))-1))/2)^2)^(1/2))","decimal":"false"}} months, and {"placeholder":"calc","values":{"expression":"{"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeday"}"}}-19+(31*(((((((({"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeday"}"}}-19)^2)^(1/2))/({"placeholder":"stringify","values":{"text":"{"placeholder":"realtimeday"}"}}-19))-1))/2)^2)^(1/2))","decimal":"false"}} days old today.
   text_border = 10
   case_mode = normal
   source_mode = direct

@@ -109,45 +109,25 @@
         },
         "lootTable": "tetra:forged/quick_latch_salvage_pry"
     },
-    {
-        "key": "dismantle_emptycan",
-        "requirement": {
-            "item": "sevendaystomine:emptycan"
-        },
-        "requiredCapabilities": {
-            "hammer": 1
-        },
-        "lootTable": "tetra:dismantle_emptycan"
-    },
-    {
-        "key": "dismantle_emptycan_t2",
-        "requirement": {
-            "item": "sevendaystomine:emptycan"
-        },
-        "requiredCapabilities": {
-            "hammer": 2
-        },
-        "lootTable": "tetra:dismantle_emptycan"
-    },
-    {
-        "key": "planks_from_log",
-        "requirement": {
-            "type": "forge:ore_dict",
-            "ore": "logWood"
-        },
-        "requiredCapabilities": {
-            "axe": 1
-        },
-        "lootTable": "tetra:planks_from_log"
-    },
-    {
-        "key": "sticks_from_plank",
-        "requirement": {
-            "item": "sevendaystomine:woodplank"
-        },
-        "requiredCapabilities": {
-            "axe": 1
-        },
-        "lootTable": "tetra:sticks_from_plank"
-    }
+    
+    {"key": "dismantle_emptycan",
+        "requirement": {"item": "sevendaystomine:emptycan"},
+        "requiredCapabilities": {"hammer": 1},
+        "lootTable": "tetra:dismantle_emptycan"},
+    {"key": "dismantle_emptycan_t2",
+        "requirement": {"item": "sevendaystomine:emptycan"},
+        "requiredCapabilities": {"hammer": 2},
+        "lootTable": "tetra:dismantle_emptycan"},
+    {"key": "boards_from_log",
+        "requirement": {"type": "forge:ore_dict","ore": "logWood"},
+        "requiredCapabilities": {"axe": 1},
+        "lootTable": "tetra:boards_from_log"},
+    {"key": "sticks_from_board",
+        "requirement": {"item": "sevendaystomine:woodplank"},
+        "requiredCapabilities": {"axe": 1},
+        "lootTable": "tetra:sticks_from_board"},
+    {"key": "board_from_plank",
+        "requirement": {"type": "forge:ore_dict","ore": "plankWood"},
+        "requiredCapabilities": {"axe": 1},
+        "lootTable": "tetra:board_from_plank"}
 ]

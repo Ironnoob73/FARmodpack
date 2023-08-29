@@ -23,8 +23,8 @@
     "OCEAN",
     "WATER",
     "DEAD",
-    "WET",
-    "COLD"
+    "COLD",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -8,8 +8,8 @@ tile.forged_platform_slab.name=Forged Platform Slab
 tile.craftsmanship_table.name=Craftsmanship Table
 dismantle_emptycan.label=Dismantle
 dismantle_emptycan_t2.label=Dismantle(T2)
-planks_from_log.label=Decompose
-sticks_from_plank.label=Decompose
+boards_from_log.label=Decompose
+sticks_from_board.label=Decompose
 
 ###############################
 # HAMMER HEAD
