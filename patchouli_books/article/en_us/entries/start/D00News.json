@@ -2,7 +2,8 @@
     "name": "§7News-Immigration program",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "6",
+    "sortnum": "8",
+    "advancement": "far:i/C01city",
     "pages": [
         {
             "type": "text",

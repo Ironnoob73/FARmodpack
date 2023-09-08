@@ -32,13 +32,13 @@ val chammer=<excompressum:compressed_hammer_wood>;
 val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Tool
 recipes.remove(boot);
-recipes.addShaped(boot,[[plate,null,plate], [ingot,null,ingot]]);
+recipes.addShaped("wooden_boot",boot,[[plate,null,plate], [ingot,null,ingot]]);
 recipes.remove(legging);
-recipes.addShaped(legging,[[plate,plate,plate],[plate,null,plate],[plate,null,plate]]);
+recipes.addShaped("wooden_legging",legging,[[ingot,ingot,ingot],[ingot,null,ingot],[plate,null,plate]]);
 recipes.remove(chestplate);
-recipes.addShaped(chestplate,[[plate,null,plate],[plate,plate,plate],[plate,plate,plate]]);
+recipes.addShaped("wooden_chestplate",chestplate,[[plate,null,plate],[ingot,ingot,ingot],[plate,ingot,plate]]);
 recipes.removeShaped(helmet);
-recipes.addShaped(helmet,[[ingot,plate,ingot],[plate,null,plate]]);
+recipes.addShaped("wooden_helmet",helmet,[[plate,ingot,plate],[ingot,null,ingot]]);
 recipes.removeShaped(shovel);
 recipes.addShaped(shovel,[[plate],[stick],[stick]]);
 recipes.removeShaped(axe);

@@ -1,6 +1,6 @@
 setIcon(<minecraft:iron_ingot>)
-setTranslatedTitle("far.advancements.i.iron.title")
-setTranslatedDescription("far.advancements.i.iron.des")
+setTranslatedTitle("far.adv.ia.iron.title")
+setTranslatedDescription("far.adv.ia.iron.des")
 addParent("far:i/A03stone")
 setPos(75,0)
 criteria = addCriteria("iron", "minecraft:inventory_changed")

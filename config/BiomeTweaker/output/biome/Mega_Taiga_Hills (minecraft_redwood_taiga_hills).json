@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "THEMED_TREES",
-    "HILLS",
-    "FOREST",
     "CONIFEROUS",
+    "MEGA_TAIGA_TREES",
+    "HILLS",
     "COLD",
-    "MEGA_TAIGA_TREES"
+    "THEMED_TREES",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

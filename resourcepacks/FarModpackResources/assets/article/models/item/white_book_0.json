@@ -1,0 +1,11 @@
+{
+  "parent": "item/generated",
+  "textures" : {
+    "layer0": "article:white_book_0"
+  },
+  "overrides": [
+    { "predicate": { "completion": 0.25 }, "model": "article:item/white_book_1" },
+    { "predicate": { "completion": 0.50 }, "model": "article:item/white_book_2" },
+    { "predicate": { "completion": 0.75 }, "model": "article:item/white_book_3" }
+  ]
+}

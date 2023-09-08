@@ -3,6 +3,7 @@
     "icon": "minecraft:filled_map",
     "category": "start",
     "sortnum": "9",
+    "advancement": "far:i/C01city",
     "pages": [
         {
             "type": "text",

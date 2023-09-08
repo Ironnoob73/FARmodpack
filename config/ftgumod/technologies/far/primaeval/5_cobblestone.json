@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cobblestone"
+      },
+      "title": {
+        "translate": "tile.stonebrick.name"
+      },
+      "description": {
+        "translate": "far.adv.ib.cobblestone.desc"
+      },
+      "x": 4,
+      "y": -1
+    },
+    "parent": "far:primaeval/3_craftingtable",
+    "unlock": [
+        "minecraft:stone_sword",
+        "minecraft:stone_shovel",
+        "minecraft:stone_pickaxe",
+        "minecraft:stone_axe",
+        "minecraft:stone_hoe"
+    ]
+}

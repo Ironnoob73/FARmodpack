@@ -594,7 +594,7 @@ customization {
   actionid = b76298df-d9a4-4007-8258-3c64b89233421679321372026
   action = addsplash
   y = 92
-  text = Version 0.1-2023.8-α
+  text = Version 0.1-2023.9-α
 }
 
 customization {

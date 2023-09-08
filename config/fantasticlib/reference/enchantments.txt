@@ -213,6 +213,7 @@ trident:loyalty
 trident:impaling
 trident:riptide
 trident:channeling
+wizardrynextgeneration:ranger
 cofhcore:holding
 cofhcore:insight
 cofhcore:leech

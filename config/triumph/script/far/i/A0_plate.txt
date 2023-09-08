@@ -1,6 +1,6 @@
 setIcon(<thermalfoundation:material:32>)
-setTranslatedTitle("far.advancements.i.plate.title")
-setTranslatedDescription("far.advancements.i.plate.des")
+setTranslatedTitle("far.adv.ia.plate.title")
+setTranslatedDescription("far.adv.ia.plate.des")
 addParent("far:i/A04iron")
 setPos(100,0)
 criteria = addCriteria("plate", "minecraft:inventory_changed")

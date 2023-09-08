@@ -1,0 +1,74 @@
+{
+	title: "{far.quest.i.ib.city.title}",
+	icon: "sevendaystomine:big_sign",
+	disable_toast: true,
+	x: 0.5d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "{far.quest.i.ib.city.sub}",
+	text: [
+		"{far.quest.i.ib.city.des}"
+	],
+	dependencies: [
+		"d637c7f5"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "6710fc02",
+		type: "observation",
+		title: "",
+		icon: "sevendaystomine:big_sign",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "sevendaystomine:big_sign_slave",
+		timer: 0L
+	},
+	{
+		uid: "6710fc03",
+		type: "observation",
+		title: "",
+		icon: "sevendaystomine:big_sign",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "sevendaystomine:big_sign",
+		timer: 0L
+	},
+	{
+		uid: "6710fc04",
+		type: "observation",
+		title: "",
+		icon: "sevendaystomine:street_sign",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "sevendaystomine:street_sign_wall",
+		timer: 0L
+	},
+	{
+		uid: "6710fc05",
+		type: "observation",
+		title: "",
+		icon: "sevendaystomine:redstone_lamp_broken",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "sevendaystomine:redstone_lamp_broken",
+		timer: 0L
+	},
+	{
+		uid: "6710fc06",
+		type: "observation",
+		title: "",
+		icon: "sevendaystomine:trafficlightpedestrian",
+		disable_toast: true,
+		match_type: "block_id",
+		match: "sevendaystomine:trafficlightpedestrian",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "e436e131",
+		type: "advancement",
+		icon: "sevendaystomine:big_sign",
+		auto: "enabled",
+		advancement: "far:i/C01city",
+		criterion: ""
+	}]
+}

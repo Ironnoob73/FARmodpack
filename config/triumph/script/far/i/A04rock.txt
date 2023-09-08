@@ -1,6 +1,6 @@
 setIcon(<sevendaystomine:large_rock>)
-setTranslatedTitle("far.advancements.i.rock.title")
-setTranslatedDescription("far.advancements.i.rock.desc")
+setTranslatedTitle("far.adv.ia.rock.title")
+setTranslatedDescription("far.adv.ia.rock.desc")
 addParent("far:i/A03stonetool")
 setPos(90,-15)
 criteria = addCriteria("break_rock", "triumph:player_break_block")

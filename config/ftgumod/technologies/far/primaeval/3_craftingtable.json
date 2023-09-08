@@ -26,6 +26,7 @@
       "cyclicmagic:block_fragile",
       "#WoodenFrame",
       "minecraft:cobblestone",
-      "sevendaystomine:bellows"
+      "sevendaystomine:bellows",
+      "minecraft:cobblestone"
     ]
 }

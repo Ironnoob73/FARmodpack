@@ -1,6 +1,6 @@
 setIcon(<patchouli:guide_book,nbt:{"patchouli:book":"patchouli:article"}>)
-setTranslatedTitle("far.advancements.i.root.title")
-setTranslatedDescription("far.advancements.i.root.desc")
+setTranslatedTitle("far.adv.ia.root.title")
+setTranslatedDescription("far.adv.ia.root.desc")
 setBackground("minecraft:textures/blocks/stone.png")
 setShowToast(false)
 setFrameType("challenge")

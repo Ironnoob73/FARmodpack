@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "LD_Anvil",
+      "uniqueId": "2af0c9de-afdf-48a7-857b-bef93c3efd0b"
+    },
+    "time": 1693534286656,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rAC3KkESDj"
+    }
+  }
+]

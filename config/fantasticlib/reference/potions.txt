@@ -188,6 +188,8 @@ wizardrynextgeneration:shock_weakness
 wizardrynextgeneration:gravity
 wizardrynextgeneration:suffocation
 wizardrynextgeneration:bleed
+wizardrynextgeneration:betrayal
+wizardrynextgeneration:preparation
 zettai_psi:magic_shielding
 zettai_psi:heating
 zettai_psi:freezing

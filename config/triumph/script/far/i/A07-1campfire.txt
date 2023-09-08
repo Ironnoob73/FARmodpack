@@ -1,6 +1,6 @@
 setIcon(<futuremc:campfire>)
-setTranslatedTitle("far.advancements.i.campfire.title")
-setTranslatedDescription("far.advancements.i.campfire.desc")
+setTranslatedTitle("far.adv.ia.campfire.title")
+setTranslatedDescription("far.adv.ia.campfire.desc")
 addParent("far:i/A04rock")
 setPos(180,0)
 criteria = addCriteria("get_campfire", "minecraft:inventory_changed")

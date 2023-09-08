@@ -1,0 +1,8 @@
+setIcon(<minecraft:cobblestone>)
+setTranslatedTitle("far.adv.ib.cobblestone.title")
+setTranslatedDescription("far.adv.ib.cobblestone.desc")
+addParent("far:i/A06crafting_table")
+setPos(210,15)
+addRewardFunction("far:B01cobblestone_r")
+criteria = addCriteria("cobblestone", "minecraft:inventory_changed")
+criteria.addItem("minecraft:cobblestone")

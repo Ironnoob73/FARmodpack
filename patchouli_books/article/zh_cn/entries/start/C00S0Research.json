@@ -1,0 +1,145 @@
+{
+    "name": "§l〇§r始手工艺研究",
+    "icon": "ftgumod:parchment_empty",
+    "category": "start",
+    "sortnum": "4",
+    "turnin":"far:i/A07-1campfire",
+    "pages": [
+        {
+            "type": "text",
+            "text": "  也许是时候研究一下如何制作一些基础的东西了。首先我需要寻找一些自然界可以利用的资源，比如$(item)木棍/$、$(item)石子/$和$(item)植物纤维/$，前两者在地上随处可见，$(item)植物纤维/$需要把草从地里拔出来。"
+        },
+        {
+            "type": "text",
+            "text": "目录$(li)$(l:start/C00S0Research#rubbish)寸石$()$(li)$(l:start/C00S0Research#frame)框架$()$(li)$(l:start/C00S0Research#idea)创作台$()$(li)$(l:start/C00S0Research#craft)工作台$()$(li)$(l:start/C00S0Research#plank)木板$()$(li)$(l:start/C00S0Research#campfire)营火$()",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "text",
+            "text": "  两手空空可对付不了木头，我又不是什么空手道大师，我需要借助工具来获取木头。$(br)  我还可以制作一些非常粗糙的防具，尽管它们非常脆弱，但是有总比没有好，大不了两件一起穿。$(br)  现在我可以伐倒那些树了，但是那么大块的原木可不好使用，也许应该把它们加工成更小一点的形态？$(br)",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"寸石",
+            "anchor":"rubbish",
+            "recipe":"sevendaystomine:stone_axe",
+            "recipe2":"sevendaystomine:stone_shovel",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"比毛衣扎人",
+            "recipe":"crafttweaker:fiber_hat_half",
+            "recipe2":"crafttweaker:fiber_chestplate_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":" ",
+            "recipe":"crafttweaker:fiber_leggings_half",
+            "recipe2":"crafttweaker:fiber_boots_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"蛮力攻击",
+            "recipe":"sevendaystomine:crude_club",
+            "recipe2":"crafttweaker:crude_bow_half",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"资源回收",
+            "recipe":"crafttweaker:cobblestone_hammer",
+            "text": "  制作一个粗糙的槌，对着$(item)任意原木/$§3潜行+右击/$即可制作$(item)匠艺台/$。$(br)  匠艺台可以对各类垃圾、机器进行回收或拆解，也可以用来打造一些特殊工具。",
+            "advancement":"far:i/A02scavenger"
+        },
+        {
+            "type": "crafting",
+            "title":"原始木工",
+            "anchor":"frame",
+            "recipe":"crafttweaker:stickblock_weak",
+            "text": "  木制板材和木棍都可以通过匠艺台制作。在制作更高级的制作台前，我首先需要确定它的框架。$(br)  $(l:start/C00S1tooltoblock)$(m)$(7)这些框架极其脆弱，弱不经风，随时都会碎掉，所以我需要尽快搭建方块，尽量在做好准备后再使用。$(/l)",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"打个草稿",
+            "recipe":"crafttweaker:parchment_from_paper",
+            "recipe2":"crafttweaker:parchment_from_cloth",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "recipe":"crafttweaker:parchment_from_waste",
+            "text": "  使用两根木棍和一张纸(或是一块布/两张废纸)合成羊皮纸。",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "crafting",
+            "title":"创作台",
+            "anchor":"idea",
+            "recipe":"crafttweaker:idea_table",
+            "text": "  我需要用它来进行比较复杂的研究。$(br2)  为了制作出工作台，我还需要找一些废铁，在公路上的垃圾堆里或许能找到。",
+            "advancement":"far:i/A04wood"
+        },
+        {
+            "type": "text",
+            "title":"工作台",
+            "anchor":"craft",
+            "text": "  要制造工作台，我需要以下物品：$(li)一块用于加工物品的铁皮$(li)一块用于制作外壳的板材$(li)一个框架$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出工作台的制作方法了。$(br) $(br2) $(br2) $(br2) $(br2)$(t:废铁 木制板材 脚手架)$(#343434)[?]$(/t)",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"工作台",
+            "recipe":"crafttweaker:crafting_table",
+            "text": "  在完成上一个步骤前，这一步无效。",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"可回收脚手架",
+            "anchor":"plank",
+            "recipe":"crafttweaker:frame_thin",
+            "text": "  工作台，还有比这更令人兴奋的东西吗？我终于可以利用它证明自己不是蛮荒时代的人了。不过，我还需要更稳定的木板获取方式，这样才能建起一座庇护所。",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "crafting",
+            "title":"木框架",
+            "recipe":"crafttweaker:frame_oak",
+            "text": "  就目前来说，绝对不便宜......$(br)  背包里需要带上六块木制板材，然后用石斧$(3)右击/$木框架添加木制板材。最后使用石斧把搭建好的木板挖下来，和一块木制板材、一个木框架一同放进创作台进行研究。$(br)  如果不出意外，研究完成后我就能徒手分解木板了。",
+            "advancement":"far:i/A06crafting_table"
+        },
+        {
+            "type": "crafting",
+            "title":"配方降价！",
+            "recipe":"crafttweaker:craftingtable_oak",
+            "text": "  现在我只需要简单的四块木板就能制作对应材料的工作台了。",
+            "advancement":"far:i/A07-2woodplank"
+        },
+        {
+            "type": "crafting",
+            "title":"板条箱",
+            "recipe":"crafttweaker:crate_oak",
+            "text": "  散落在地上的物品太杂乱了，我需要合适的容器来装我散落的物品。",
+            "advancement":"far:i/A07-2woodplank"
+        },
+        {
+            "type": "text",
+            "title":"营火",
+            "anchor":"campfire",
+            "text": "  我需要照明，热量，净水和食物。在野外一个营火是必不可少的，它可以满足我需要的这四样要求。$(br)  要制造营火，我需要以下物品：$(li)一块具有较高热量的燃料$(li)一些作为辅助燃料的基础$(li)一些支撑物$(br)  将它们和一张羊皮纸、一支羽毛放入创作台，就能研究出营火的制作方法了。$(br2) $(br) $(br2)$(t:煤炭 木制板材 木棍)$(#343434)[?]$(/t)",
+            "advancement":"far:i/A05idea"
+        },
+        {
+            "type": "crafting",
+            "title":"普罗米修斯",
+            "recipe":"crafttweaker:camp_fire",
+            "text": "  我可以用它简单烹饪一些食物以及制作火把，它的热量目前还不足以让我开始工业进程。",
+            "advancement":"far:i/A06crafting_table"
+        }
+    ]
+}

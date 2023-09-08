@@ -1,6 +1,6 @@
 setIcon(<sevendaystomine:woodplank>)
 setTitle("§oCaveman hate tree!")
-setTranslatedDescription("far.advancements.i.wood.desc")
+setTranslatedDescription("far.adv.ia.wood.desc")
 addParent("far:i/A03stonetool")
 setPos(90,15)
 addRewardFunction("far:A04wood_r")

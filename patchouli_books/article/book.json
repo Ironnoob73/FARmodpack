@@ -2,7 +2,10 @@
     "name": "patchouli.article.title",
     "landing_text": "patchouli.article.description",
     "subtitle": "patchouli.article.subtitle",
-	"book_texture":"patchouli:textures/gui/book_gray.png",
-	"model":"article:white_book",
-    "nameplate_color": "ffffff"
+	"book_texture":"article:textures/book_white.png",
+	"model":"article:white_book_0",
+    "nameplate_color": "ffffff",
+	"progress_bar_color":"007fff",
+	"progress_bar_background":"3f3f3f",
+	"advancement_namespaces": ["far"]
 }

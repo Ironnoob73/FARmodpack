@@ -10,6 +10,7 @@ dismantle_emptycan.label=Dismantle
 dismantle_emptycan_t2.label=Dismantle(T2)
 boards_from_log.label=Decompose
 sticks_from_board.label=Decompose
+boards_from_plank.label=Decompose
 
 ###############################
 # HAMMER HEAD

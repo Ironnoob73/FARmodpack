@@ -22,6 +22,9 @@
       ]
     },
     "unlock": [
-        {"type": "forge:ore_dict","ore": "plankWood"}
+        {"type": "forge:ore_dict","ore": "plankWood"},
+        "randomthings:customworkbench",
+        "minecraft:cobblestone",
+        {"type": "forge:ore_dict","ore": "ore:cfmCrate"}
     ]
 }

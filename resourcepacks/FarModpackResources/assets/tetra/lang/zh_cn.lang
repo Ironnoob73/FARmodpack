@@ -337,6 +337,7 @@ dismantle_emptycan.label=拆解
 dismantle_emptycan_t2.label=拆解(T2)
 boards_from_log.label=分解
 sticks_from_board.label=分解
+boards_from_plank.label=分解
 
 ###############################
 # CHECKED MISSING

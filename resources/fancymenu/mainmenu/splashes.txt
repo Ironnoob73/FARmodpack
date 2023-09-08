@@ -82,7 +82,6 @@ I have a problem...
 What's your problem?
 Wubba lubba dub-dub!
 Now the game is twenty percent cooler!
-+20%❄
 I fear the wounds are fatal.
 I am your father.
 EXTERMINATE!
@@ -127,6 +126,8 @@ c--
 -8000
 AAAAA
 1145141919810
+ZBC
+sub(n,n,17)
 赢！
 赢麻了
 好好好好好好好
@@ -143,6 +144,7 @@ AAAAA
 耗子尾汁
 退钱！
 俺寻思...
+你这背景太假了
 ■■■■■，■■■■■■。
 ■■，■■■■■■■■？
 Pardon?

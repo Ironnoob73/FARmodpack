@@ -45,3 +45,6 @@ dev.toma.configuration.internal.gui.ConfigGui {
 net.minecraft.client.gui.GuiIngameMenu {
 }
 
+com.mrcrayfish.furniture.gui.GuiCrate {
+}
+

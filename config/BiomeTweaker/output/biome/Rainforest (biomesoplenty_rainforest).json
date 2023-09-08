@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "HILLS",
     "DENSE",
     "JUNGLE",
-    "FOREST",
-    "WET"
+    "LUSH",
+    "WET",
+    "HILLS",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

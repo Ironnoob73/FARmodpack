@@ -1,5 +1,5 @@
 setIcon(<sevendaystomine:smallstone>)
-setTranslatedTitle("far.advancements.i.scavenger.title")
+setTranslatedTitle("far.adv.ia.scavenger.title")
 setTranslatedDescription("far.quest.i.ia.nature_resources.sub")
 addParent("far:i/A01root")
 setPos(30,0)

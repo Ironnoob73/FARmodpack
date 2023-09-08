@@ -2,7 +2,8 @@
     "name": "§7剪报-移民计划",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "7",
+    "sortnum": "8",
+    "advancement": "far:i/C01city",
     "pages": [
         {
             "type": "text",

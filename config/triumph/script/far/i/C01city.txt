@@ -1,0 +1,6 @@
+setIcon(<sevendaystomine:big_sign>)
+setTranslatedTitle("far.adv.ic.city.title")
+setTranslatedDescription("far.adv.ic.city.desc")
+addParent("far:i/A01root")
+setPos(45,-30)
+addCriteria("impossible","minecraft:impossible")
