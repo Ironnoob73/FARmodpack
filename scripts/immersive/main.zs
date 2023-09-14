@@ -1,3 +1,4 @@
+#reloadable
 val TWplate=<engineersdecor:halfslab_treated_wood>;
 val TWstick=<ore:stickTreatedWood>;
 val TWfan=<immersiveengineering:material:11>;

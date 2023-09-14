@@ -1,3 +1,4 @@
+#reloadable
 import mods.exnihilocreatio.Sieve;
 Sieve.removeAll();
 //绝了，为什么只能移除所有的而不能单独删除某一个？

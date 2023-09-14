@@ -1,3 +1,4 @@
+#reloadable
 import mods.futuremc.SmithingTable;
 import mods.integrateddynamics.Squeezer;
 import mods.integrateddynamics.MechanicalSqueezer;
@@ -30,15 +31,15 @@ val chammer=<excompressum:compressed_hammer_stone>;
 val shammer=<soviet:hammer>.anyDamage().transformDamage(1);
 #Tool
 //recipes.removeShaped(shovel);
-recipes.addShaped(shovel,[[ingot],[SW],[SW]]);
+recipes.addShaped("stone_shovel",shovel,[[ingot],[SW],[SW]]);
 //recipes.removeShaped(axe);
-recipes.addShapedMirrored(axe,[[ingot,ingot],[ingot,SW],[null,SW]]);
+recipes.addShapedMirrored("stone_axe",axe,[[ingot,ingot],[ingot,SW],[null,SW]]);
 //recipes.removeShaped(pickaxe);
-recipes.addShaped(pickaxe,[[ingot,ingot,ingot],[null,SW,null],[null,SW,null]]);
+recipes.addShaped("stone_pickaxe",pickaxe,[[ingot,ingot,ingot],[null,SW,null],[null,SW,null]]);
 //recipes.removeShaped(hoe);
-recipes.addShapedMirrored(hoe,[[ingot,ingot],[null,SW],[null,SW]]);
+recipes.addShapedMirrored("stone_hoe",hoe,[[ingot,ingot],[null,SW],[null,SW]]);
 //recipes.removeShaped(sword);
-recipes.addShaped(sword,[[ingot],[ingot],[SW]]);
+recipes.addShaped("stone_sword",sword,[[ingot],[ingot],[SW]]);
 recipes.removeShaped(fishrod);
 recipes.addShapedMirrored(fishrod,[[null,null,stick],[null,stick,ST],[stick,null,ST]]);
 recipes.removeShaped(bow);

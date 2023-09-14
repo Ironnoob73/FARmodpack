@@ -1,3 +1,4 @@
+#reloadable
 val aleph0=<avaritia:resource:5>;
 val aleph1=<avaritia:resource:6>;
 val res0=<avaritia:resource>;

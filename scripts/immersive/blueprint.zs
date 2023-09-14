@@ -1,3 +1,4 @@
+#reloadable
 #Circuit
 #   Electron tube
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);

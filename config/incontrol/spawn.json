@@ -1,6 +1,6 @@
 [
   {
-    "mob":["rewired:cyberskeleton","quark:dweller","quark:ashen","sevendaystomine:survivor","sevendaystomine:bandit","matteroverdrive:ranged_rogue_android"],
+    "mob":["rewired:cyberskeleton","quark:dweller","quark:ashen","sevendaystomine:survivor","sevendaystomine:bandit","matteroverdrive:ranged_rogue_android","matteroverdrive:rogue_android"],
     "onjoin":true,
     "dimension":0,
     "result":"deny"

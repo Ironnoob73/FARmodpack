@@ -1,3 +1,4 @@
+#reloadable
 val material=<ore:plateQuartzEnrichedIron>;
 val shell=<mekanism:polyethene:2>;
 val glass=<ore:blockGlass>;

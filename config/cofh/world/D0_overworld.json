@@ -101,7 +101,7 @@
           }
         ],
         "material": "minecraft:stone",
-        "cluster-size": 9
+        "cluster-size": 12
       },
       "cluster-count": 10,
       "min-height": 0,
@@ -130,7 +130,7 @@
           }
         ],
         "material": "minecraft:stone",
-        "cluster-size": 9
+        "cluster-size": 10
       },
       "cluster-count": 2,
       "min-height": 0,
@@ -274,14 +274,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 60
           }
@@ -307,14 +307,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "tin"
+              "variant": "tin"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "tin"
+              "variant": "tin"
             },
             "weight": 60
           }
@@ -324,7 +324,7 @@
       },
       "cluster-count": 16,
       "min-height": 0,
-      "max-height": 55,
+      "max-height": 75,
       "retrogen": "true",
       "biome": "all",
       "dimension": {
@@ -347,7 +347,7 @@
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "silver"
+              "variant": "silver"
             },
             "weight": 60
           }
@@ -373,14 +373,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "lead"
+              "variant": "lead"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "lead"
+              "variant": "lead"
             },
             "weight": 60
           }
@@ -408,7 +408,7 @@
         "material": "minecraft:stone",
         "cluster-size": 16
       },
-      "cluster-count": 12,
+      "cluster-count": 6,
       "min-height": 0,
       "max-height": 75,
       "retrogen": "true",
@@ -426,20 +426,20 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "nickel"
+              "variant": "nickel"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "nickel"
+              "variant": "nickel"
             },
             "weight": 60
           }
         ],
         "material": "minecraft:stone",
-        "cluster-size": 4
+        "cluster-size": 8
       },
       "cluster-count": 4,
       "min-height": 0,
@@ -459,14 +459,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "zinc"
+              "variant": "zinc"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "zinc"
+              "variant": "zinc"
             },
             "weight": 60
           }
@@ -492,14 +492,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 60
           }
@@ -533,14 +533,14 @@
           {
             "name": "railcraft:ore_metal",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 40
           },
           {
             "name": "railcraft:ore_metal_poor",
             "properties": {
-              "type": "copper"
+              "variant": "copper"
             },
             "weight": 60
           }

@@ -1,3 +1,4 @@
+#reloadable
 recipes.remove(<rftools:screen>);
 recipes.addShaped("screen_of_material",<rftools:screen>,[
 [<ore:dustSmallRedstone>,<ore:paneGlass>,<ore:dustSmallRedstone>],

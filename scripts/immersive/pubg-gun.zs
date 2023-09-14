@@ -1,3 +1,4 @@
+#reloadable
 val iron=<ore:ingotIron>;
 val steel=<ore:ingotSteel>;
 val plank=<ore:plankTreatedWood>;

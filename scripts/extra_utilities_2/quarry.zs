@@ -1,3 +1,4 @@
+#reloadable
 recipes.remove(<extrautils2:quarry>);
 recipes.remove(<extrautils2:quarryproxy>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:quarry>, [

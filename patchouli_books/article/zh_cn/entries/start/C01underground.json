@@ -36,6 +36,63 @@
             "recipe":"crafttweaker:stone_sword",
             "text": "  此外，将木棍放在篝火上可以获得火把，这是非常重要的照明工具，照明可以防止怪物生成。",
             "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "image",
+            "title":"铜矿",
+            "images": ["article:textures/gui/image/start/c01/copper_ore_0.png","article:textures/gui/image/start/c01/copper_ore_1.png"],
+            "border": true,
+            "text": "  铜是一种在地下有巨大储量的矿物，我需要利用它们进行发展。",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "image",
+            "title":"锡矿",
+            "images": ["article:textures/gui/image/start/c01/tin_ore_0.png","article:textures/gui/image/start/c01/tin_ore_1.png"],
+            "border": true,
+            "text": "  锡较铜也有着相当的储量，质地较软，但如果和铜铸成合金将大大提高其强度。",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "crafting",
+            "title":"积少成多",
+            "recipe":"exnihilocreatio:ore_compression_copper",
+            "text": "  矿脉中夹杂着一些贫矿，挖掘它们掉落的是矿物碎片，可以将它们合并到一块组成较大的矿物块。$(br)  而后......将其在匠艺台里再次敲碎，挑拣出来那些能用的部分......",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "tetra_recipes",
+
+            "tool0": "patchouli:textures/gui/tetra_hammer.png",
+            "in0": "exnihilocreatio:item_ore_copper:1","lv0":1,
+            "out0_0":"magneticraft:rocky_chunks:2","cha0_0":"100%",
+
+            "tool1": "patchouli:textures/gui/tetra_hammer.png",
+            "in1": "exnihilocreatio:item_ore_tin:1","lv1":1,
+            "out1_0":"magneticraft:rocky_chunks:13","cha1_0":"100%",
+
+            "tool2": "patchouli:textures/gui/tetra_none.png",
+
+            "tool3": "patchouli:textures/gui/tetra_none.png",
+
+            "tool4": "patchouli:textures/gui/tetra_none.png",
+
+            "tool5": "patchouli:textures/gui/tetra_none.png",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "crafting",
+            "title":"原始机械",
+            "recipe":"crafttweaker:wooden_gear",
+            "recipe2":"thermalfoundation:material_60",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "crafting",
+            "title":"两步研究",
+            "recipe":"exnihilocreatio:ore_compression_copper",
+            "text": "  有一些更复杂的技术需要我多消耗些资源才能研究出来......",
+            "advancement":"far:i/B01cobblestone"
         }
     ]
 }

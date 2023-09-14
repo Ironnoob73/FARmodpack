@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IItemStack;
 val SlimeBall=<ore:slimeball>;SlimeBall.add(<thermalfoundation:material:832>,<thermalfoundation:material:833>);SlimeBall.remove(<quark:slime_bucket>);
 val Leather=<ore:leather>;Leather.add(<contenttweaker:kraft_paper>);

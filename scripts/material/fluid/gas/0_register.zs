@@ -1,3 +1,4 @@
+#reloadable
 #loader mekatweaker
 #priority 999
 import mods.mekatweaker.Gas;

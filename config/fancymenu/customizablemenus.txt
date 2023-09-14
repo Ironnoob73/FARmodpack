@@ -48,3 +48,6 @@ net.minecraft.client.gui.GuiIngameMenu {
 com.mrcrayfish.furniture.gui.GuiCrate {
 }
 
+net.minecraft.client.gui.GuiCreateWorld {
+}
+

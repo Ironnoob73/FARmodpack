@@ -1,3 +1,4 @@
+#reloadable
 import crafttweaker.item.IIngredient;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTables;

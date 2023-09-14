@@ -129,5 +129,14 @@
     {"key": "board_from_plank",
         "requirement": {"type": "forge:ore_dict","ore": "plankWood"},
         "requiredCapabilities": {"axe": 1},
-        "lootTable": "tetra:board_from_plank"}
+        "lootTable": "tetra:board_from_plank"},
+        
+    {"key": "copper_chunk_crush",
+        "requirement": {"type": "forge:ore_dict","ore": "oreCopper"},
+        "requiredCapabilities": {"hammer": 1},
+        "lootTable": "tetra:copper_chunk_crush"},
+    {"key": "tin_chunk_crush",
+        "requirement": {"type": "forge:ore_dict","ore": "oreTin"},
+        "requiredCapabilities": {"hammer": 1},
+        "lootTable": "tetra:tin_chunk_crush"}
 ]

@@ -1,3 +1,4 @@
+#reloadable
 import mods.mekanism.infuser as Infuser;
 import mods.mekatweaker.InfuserType;
 val BlackIron=<extendedcrafting:material>;

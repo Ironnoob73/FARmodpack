@@ -1,3 +1,4 @@
+#reloadable
 import mods.futuremc.SmithingTable;
 val ST=<ore:string>;
 val STW=<ore:stickTreatedWood>;
@@ -108,3 +109,9 @@ recipes.removeByRecipeName("zollerngalaxy:woodbox");
 recipes.addShaped(<zollerngalaxy:woodbox>,[[plate,null,plate],[plate,plate,plate]]);
 recipes.removeByRecipeName("zollerngalaxy:metalparts");
 recipes.addShapeless(<zollerngalaxy:metalparts>,[shammer,<zollerngalaxy:nailgroup>,<zollerngalaxy:woodbox>,<ore:gearStone>]);
+#Gear
+recipes.removeByRecipeName("thermalfoundation:material_59");
+recipes.addShaped("wooden_gear",gear0,[
+    [null,plate,null],
+    [plate,null,plate],
+    [null,plate,null]]);

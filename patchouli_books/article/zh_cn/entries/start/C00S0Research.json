@@ -23,8 +23,8 @@
             "type": "crafting",
             "title":"寸石",
             "anchor":"rubbish",
-            "recipe":"sevendaystomine:stone_axe",
-            "recipe2":"sevendaystomine:stone_shovel",
+            "recipe":"sevendaystomine:rough_stone_axe",
+            "recipe2":"sevendaystomine:rough_stone_shovel",
             "advancement":"far:i/A02scavenger"
         },
         {

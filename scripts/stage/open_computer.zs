@@ -1,3 +1,4 @@
+#reloadable
 mods.rustic.Condenser.addRecipe(<opencomputers:material:1>,[<ore:dustSulfur>,<ore:dustIron>,<ore:dustSulfur>],null,<ore:itemEmptyBucket>,<liquid:water>*256,1000);
 #Material
 //mods.recipestages.Recipes.setRecipeStage("computer",<opencomputers:material:12>);

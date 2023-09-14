@@ -1,3 +1,4 @@
+#reloadable
 import mods.futuremc.SmithingTable;
 val SW=<ore:stickWood>;
 val ST=<ore:string>;

@@ -1,3 +1,4 @@
+#reloadable
 recipes.remove(<extrautils2:redstoneclock>);
 recipes.addShaped("redstone_clock",<extrautils2:redstoneclock>,[
 [<ore:stone>,<ore:dustRedstone>,<ore:stone>],

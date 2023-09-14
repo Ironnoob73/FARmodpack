@@ -1,3 +1,4 @@
+#reloadable
 #loader preinit
 //import contentcreator.item.Item;
 //var <thermalfoundation:tool.hammer_diamond> as OriginHammer

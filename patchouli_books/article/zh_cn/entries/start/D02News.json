@@ -15,7 +15,7 @@
         },
         {
             "type": "image",
-            "images": ["article:textures/gui/image/start/c03/0.png","article:textures/gui/image/start/c03/1.png"],
+            "images": ["article:textures/gui/image/start/d01/0.png","article:textures/gui/image/start/d01/1.png"],
             "border": true,
             "text": ""
         }

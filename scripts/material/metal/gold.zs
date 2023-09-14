@@ -1,3 +1,4 @@
+#reloadable
 import mods.futuremc.SmithingTable;
 import moretweaker.galacticraft.Compressor;
 val SW=<ore:stickWood>;
