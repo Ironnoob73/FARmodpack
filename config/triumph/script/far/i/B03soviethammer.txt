@@ -1,0 +1,7 @@
+setIcon(<soviet:hammer>)
+setTranslatedTitle("far.adv.ib.soviethammer.title")
+setTranslatedDescription("far.adv.ib.soviethammer.desc")
+addParent("far:i/B02furnace")
+setPos(270,0)
+criteria = addCriteria("soviet_hammer", "minecraft:inventory_changed")
+criteria.addItem("soviet:hammer")

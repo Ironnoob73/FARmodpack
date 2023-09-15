@@ -18,6 +18,13 @@
         "minecraft:stone_shovel",
         "minecraft:stone_pickaxe",
         "minecraft:stone_axe",
-        "minecraft:stone_hoe"
+        "minecraft:stone_hoe",
+        {"item": "magneticraft:rocky_chunks","data": 2},
+        {"item": "magneticraft:rocky_chunks","data": 13},
+        {"item": "minecraft:stone","data": 32767},
+        "railcraft:ore_metal",
+        {"item": "railcraft:ore_metal","data": 1},
+        {"item": "railcraft:ore_metal_poor","data": 2},
+        {"item": "railcraft:ore_metal_poor","data": 3}
     ]
 }

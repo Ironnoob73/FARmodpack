@@ -1,3 +1,4 @@
+#reloadable
 import mods.jei.JEI;
 import crafttweaker.item.IIngredient;
 #Vanilla

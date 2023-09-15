@@ -1,3 +1,4 @@
+#reloadable
 #Wrench
 recipes.addShaped("soviet_wrench",<soviet:wrench>,[[<contenttweaker:coupling_component>],[<ore:stickSteel>]]);
 #Frame

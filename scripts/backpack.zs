@@ -1,3 +1,4 @@
+#reloadable
 #Travelers Backpack
 recipes.remove(<travelersbackpack:travelers_backpack>);
 recipes.addShaped("travelers_backpack",<travelersbackpack:travelers_backpack>,[

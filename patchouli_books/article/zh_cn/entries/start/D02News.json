@@ -2,7 +2,7 @@
     "name": "§7剪报-冬眠",
     "icon": "minecraft:filled_map",
     "category": "start",
-    "sortnum": "9",
+    "sortnum": "10",
     "advancement": "far:i/C01city",
     "pages": [
         {

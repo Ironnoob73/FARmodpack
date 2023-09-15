@@ -104,7 +104,7 @@ recipes.addShaped("nickel_gear",gear0,[
 [ingot,<immersiveengineering:tool>,ingot],
 [null,ingot,null]]);
 #Ore
-recipes.addShapeless("nickel_dust_sh",<thermalfoundation:material:69>,[shammer,ore]);
+//recipes.addShapeless("nickel_dust_sh",<thermalfoundation:material:69>,[shammer,ore]);
 furnace.remove(ingot0,ore);
 mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);

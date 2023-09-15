@@ -134,7 +134,7 @@ mods.immersiveengineering.MetalPress.addRecipe(wire0*2,ingot0,<immersiveengineer
 recipes.remove(<chisel:chisel_iron>);
 recipes.addShaped(<chisel:chisel_iron>,[[plate],[SW]]);
 #Ore
-recipes.addShapeless("iron_dust_sh",<actuallyadditions:item_dust>,[shammer,ore]);
+//recipes.addShapeless("iron_dust_sh",<actuallyadditions:item_dust>,[shammer,ore]);
 furnace.remove(ingot0,ore);
 mods.futuremc.BlastFurnace.addRecipe(ore,ingot0);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(ingot0,ore0,2000);

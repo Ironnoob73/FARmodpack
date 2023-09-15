@@ -1,0 +1,61 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace"
+      },
+      "title": {
+        "translate": "tile.furnace.name"
+      },
+      "description": {
+        "translate": "ftg.primaeval.VI.furnace.desc"
+      },
+      "x": 5,
+      "y": -1
+    },
+    "parent": "far:primaeval/5_cobblestone",
+    "idea": {
+      "amount": 3,
+      "ingredients": [
+        "futuremc:campfire",
+        {"item": "minecraft:stone","data": 32767},
+        {"item": "magneticraft:rocky_chunks","data": 32767}
+      ]
+    },"research": {
+    "type": "ftgumod:match",
+    "pattern": [
+      "OOO",
+      "GIG",
+      "DHD"
+    ],
+    "key": {
+      "O": {
+        "item": [{"type": "forge:ore_dict","ore": "cobblestone"}],
+        "hint": {"translate": "ftg.primaeval.VI.furnace.hintO"}
+      },
+      "G": {
+        "item": [{"type": "forge:ore_dict","ore": "gearStone"}],
+        "hint": {"translate": "ftg.primaeval.VI.furnace.hintG"}
+      },
+      "I": {
+        "item": [{"item": "magneticraft:rocky_chunks","data": 32767}],
+        "hint": {"translate": "ftg.primaeval.VI.furnace.hintI"}
+      },
+      "D": {
+        "item": [{"item": "minecraft:stone","data": 32767}],
+        "hint": {"translate": "ftg.primaeval.VI.furnace.hintD"}
+      },
+      "H": {
+        "item": "futuremc:campfire",
+        "hint": {"translate": "ftg.primaeval.VI.furnace.hintH"}
+      }
+    }
+  },
+    "unlock": [
+        "minecraft:furnace",
+        "jaopca:magneticraft_rocky_chunk.bronze",
+        {"item": "thermalfoundation:material","data": 128},
+        {"item": "thermalfoundation:material","data": 129},
+        {"item": "thermalfoundation:material","data": 163},
+        "minecraft:stone_slab"
+    ]
+}

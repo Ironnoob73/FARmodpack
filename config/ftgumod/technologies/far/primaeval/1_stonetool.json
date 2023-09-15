@@ -21,6 +21,10 @@
       "sevendaystomine:fiber_hat",
       "sevendaystomine:fiber_chestplate",
       "sevendaystomine:fiber_leggings",
-      "sevendaystomine:fiber_boots"
+      "sevendaystomine:fiber_boots",
+      "minecraft:grass",
+      {"item": "minecraft:dirt","data": 32767},
+      {"item": "minecraft:sand","data": 32767},
+      "minecraft:gravel"
     ]
 }

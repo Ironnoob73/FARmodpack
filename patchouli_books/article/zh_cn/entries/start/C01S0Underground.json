@@ -17,6 +17,11 @@
             "des": "  现在我有能力去地下获取更多资源了，但在那之前最好准备一些趁手的工具。$(br)$(3)  原版和tetra的工具皆可，不过tetra的工具名没法正常显示，恐怕也没有任何修复的方式。"
         },
         {
+            "type": "text",
+            "text": "目录$(li)$(l:start/C01S0Underground#upgrade)获得升级$()$(li)$(l:start/C01S0Underground#ore)矿物$()$(li)$(l:start/C01S0Underground#research)研究台$()$(li)$(l:start/C01S0Underground#furnace)熔炉$()",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
             "type": "crafting",
             "title":"圆石",
             "recipe":"sevendaystomine:cobblestone",
@@ -26,6 +31,7 @@
         {
             "type": "crafting",
             "title":"获得升级",
+            "anchor":"upgrade",
             "recipe":"crafttweaker:stone_pickaxe",
             "recipe2":"crafttweaker:stone_axe",
             "advancement":"far:i/B01cobblestone"
@@ -39,6 +45,7 @@
         },
         {
             "type": "image",
+            "anchor":"ore",
             "title":"铜矿",
             "images": ["article:textures/gui/image/start/c01/copper_ore_0.png","article:textures/gui/image/start/c01/copper_ore_1.png"],
             "border": true,
@@ -90,9 +97,46 @@
         {
             "type": "crafting",
             "title":"两步研究",
-            "recipe":"exnihilocreatio:ore_compression_copper",
+            "anchor":"research",
+            "recipe":"crafttweaker:research_table",
             "text": "  有一些更复杂的技术需要我多消耗些资源才能研究出来......",
             "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "text",
+            "title":"熔炉",
+            "anchor":"furnace",
+            "text": "  是时候把我采集来的矿石熔成可以使用的状态了，我需要一个能产生足够温度的炉子，这需要：$(li)热源$(li)外壳材料$(li)需要熔炼的物品$(br)  此外，我还需要对这份研究多消耗些资源。$(br2) $(br2) $(br2) $(br2)$(t:营火 任意石头 矿物砾岩)$(#343434)[?]$(/t)",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "crafting",
+            "title":"热门话题",
+            "recipe":"crafttweaker:furnace",
+            "text": "  我终于可以把那些矿物熔炼成锭了。",
+            "advancement":"far:i/B01cobblestone"
+        },
+        {
+            "type": "smelting",
+            "title":"铸锭",
+            "recipe":"magneticraft:rocky_chunks:2",
+            "recipe2":"magneticraft:rocky_chunks:13",
+            "advancement":"far:i/B02furnace"
+        },
+        {
+            "type": "smelting",
+            "title":"熔石",
+            "recipe":"minecraft:cobblestone",
+            "recipe2":"minecraft:stone",
+            "text": "  将石头加热，增加密度。话说它的温度真能做到这个吗？",
+            "advancement":"far:i/B02furnace"
+        },
+        {
+            "type": "crafting",
+            "title":"青铜时代",
+            "recipe":"crafttweaker:chunk_mixed_bronze",
+            "text": "  将铜和锡混合起来熔炼，我就得到了更硬一些的材料，用它制作的工具挖掘等级相当于铁。",
+            "advancement":"far:i/B02furnace"
         }
     ]
 }

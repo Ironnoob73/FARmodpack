@@ -1,0 +1,7 @@
+setIcon(<minecraft:furnace>)
+setTranslatedTitle("ftg.primaeval.VI.furnace.desc")
+setTranslatedDescription("far.adv.ib.furnce.desc")
+addParent("far:i/B01cobblestone")
+setPos(240,15)
+criteria = addCriteria("furnace", "minecraft:inventory_changed")
+criteria.addItem("minecraft:furnace")

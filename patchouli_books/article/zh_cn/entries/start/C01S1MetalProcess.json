@@ -1,0 +1,27 @@
+{
+    "name": " ┣金属加工",
+    "icon": "soviet:hammer",
+    "category": "start",
+    "sortnum": "8",
+    "advancement": "far:i/B02furnace",
+    "pages": [
+        {
+            "type": "spotlight",
+            "title":"金属加工",
+            "item":"soviet:hammer",
+            "text": "  金属锭无法被直接使用，我需要先把它们加工成别的形态。"
+        },
+        {
+            "type": "crafting",
+            "title":"锤子",
+            "recipe":"crafttweaker:soviet_hammer",
+            "text": "  制造一把简陋的锤子，而后把金属锭敲成板。"
+        },
+        {
+            "type": "crafting",
+            "title":" ",
+            "recipe":"crafttweaker:copper_plate_sh",
+            "advancement":"far:i/B03soviethammer"
+        }
+    ]
+}

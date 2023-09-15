@@ -40,4 +40,5 @@ id="cfm:crate_spruce" -> 128
 id="cfm:crate_birch" -> 128
 id="cfm:crate_jungle" -> 128
 id="cfm:crate_acacia" -> 128
-id="cfm:crate_dark_oak" -> 128
+id="cfm:item_soap_water" -> 8
+id="cfm:item_super_soap_water" -> 8
